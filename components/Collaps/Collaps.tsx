@@ -11,7 +11,7 @@ export const Collaps = ({elements,title}:ICollapsProps) => {
       <div className="collapse-content flex flex-col gap-3">
         {
         elements.map((element:dataList, i:number) => (
-          <CollapsElement name={element.name} description={element.description} url={element.url} />
+          <CollapsElement name={element.name} description={element.description} url={element.url} key={i} />
         ))}
       </div>
     </div>
