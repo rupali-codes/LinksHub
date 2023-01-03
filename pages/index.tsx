@@ -3,14 +3,14 @@ import Head from "next/head";
 import { Inter } from "@next/font/google";
 import { Collaps } from "../components/Collaps";
 import { dataList } from "../types";
-import { FaBars } from 'react-icons/fa'
+import { FaBars } from "react-icons/fa";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const [sidebar, setSidebar] = useState(false)
+  const [sidebar, setSidebar] = useState(false);
   const toggleSidebar = () => {
-    setSidebar((prev) => !prev)
-  }
+    setSidebar((prev) => !prev);
+  };
 
   return (
     <>
@@ -24,30 +24,145 @@ export default function Home() {
         <div className="lg:flex flex-wrap justify-between">
           <div className={`lg:w-1/5 bg-base-300 p-4 lg:min-h-screen`}>
             <div className="flex justify-between">
-            <h1 className="text-3xl font-bold mb-4"><span className="border-b-4 border-violet-500 text-violet-200">Links</span><span className="text-violet-500">Hub</span></h1>
+              <h1 className="text-3xl font-bold mb-4">
+                <span className="border-b-4 border-violet-500 text-violet-200">
+                  Links
+                </span>
+                <span className="text-violet-500">Hub</span>
+              </h1>
 
-            <FaBars className="text-2xl cursor-pointer lg:hidden" onClick={toggleSidebar} />
-            </div>
-           <div className={`lg:block ${sidebar ? "block" : "hidden"} transition-all ease-in duration-300`}>
-           <div className="flex flex-col gap-1 my-2">
-              <h2 className="uppercase font-bold text-xl">frontend</h2>
-              <Collaps title={'Images & Illustrations'} elements={data} />
-              <Collaps title={'Fonts'} elements={data} />
-              <Collaps title={'Animations'} elements={data} />
-              <Collaps title={'Colors'} elements={data} />
-            </div>
+              <label className="btn btn-circle swap swap-rotate lg:hidden">
+                <input
+                  type="checkbox"
+                  onClick={toggleSidebar}
+                  className="lg:hidden"
+                />
 
-            <div className="flex flex-col gap-1 my-2">
-              <h2 className="uppercase font-bold text-xl">backend</h2>
-              <Collaps title={'Validators'} elements={data} />
-              <Collaps title={'Security'} elements={data} />
+                <svg
+                  className="swap-off fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 512 512"
+                >
+                  <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+                </svg>
+
+                <svg
+                  className="swap-on fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 512 512"
+                >
+                  <polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
+                </svg>
+              </label>
             </div>
-           </div>
+            <div
+              className={`lg:block ${
+                sidebar ? "block" : "hidden"
+              } transition-all ease-in duration-300`}
+            >
+              <div className="flex flex-col gap-1 my-2">
+                <h2 className="uppercase font-bold text-xl">frontend</h2>
+                <Collaps title={"Images & Illustrations"} elements={data} />
+                <Collaps title={"Fonts"} elements={data} />
+                <Collaps title={"Animations"} elements={data} />
+                <Collaps title={"Colors"} elements={data} />
+              </div>
+
+              <div className="flex flex-col gap-1 my-2">
+                <h2 className="uppercase font-bold text-xl">backend</h2>
+                <Collaps title={"Validators"} elements={data} />
+                <Collaps title={"Security"} elements={data} />
+              </div>
+            </div>
           </div>
 
           <div className="lg:w-4/5 text-center mt-12">
-              <h2 className="lg:text-8xl text-6xl font-bold text-violet-200"><span className="border-b-8 border-violet-500">Links</span><span className="text-violet-500">Hub</span></h2>
-              <p className="uppercase font-semibold text-3xl mt-12">...coming soon</p>
+            <h2 className="text-6xl font-bold text-violet-200">
+              <span className="border-b-8 border-violet-500">Links</span>
+              <span className="text-violet-500">Hub</span>
+            </h2>
+            <p className="uppercase font-semibold text-xl mt-6">
+              ...coming soon
+            </p>
+
+            <div className="px-8 py-12 flex flex-col justify-between mx-12 my-8 shadow-lg">
+              <div className="flex gap-5">
+                <img
+                  src="https://dummyimage.com/24x24"
+                  alt="dummyImage"
+                  className="w-1/6"
+                />
+
+                <div className="text-left w-4/5 text-violet-200 ">
+                  <h2 className="text-violet-500 font-semibold text-3xl">
+                    unDraw
+                  </h2>
+                  <p className="my-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                    veniam, itaque temporibus explicabo repellat nesciunt.
+                  </p>
+
+                </div>
+                <div className="flex flex-col justify-between">
+                  <div className="text-sm breadcrumbs">
+                    <ul>
+                      <li>
+                        <a>Frontend</a>
+                      </li>
+                      <li>
+                        <a>Images & Illustrations</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                  <button className="px-3 py-1 bg-violet-600 text-violet-100 w-fit float-right rounded text-sm">Visit site</button>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div className="px-8 py-12 flex flex-col justify-between mx-12 my-8 shadow-lg">
+              <div className="flex gap-5">
+                <img
+                  src="https://dummyimage.com/24x24"
+                  alt="dummyImage"
+                  className="w-1/6"
+                />
+
+                <div className="text-left w-4/5 text-violet-200 ">
+                  <h2 className="text-violet-500 font-semibold text-3xl">
+                    unDraw
+                  </h2>
+                  <p className="my-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                    veniam, itaque temporibus explicabo repellat nesciunt.
+                  </p>
+
+                </div>
+                <div className="flex flex-col justify-between">
+                  <div className="text-sm breadcrumbs">
+                    <ul>
+                      <li>
+                        <a>Frontend</a>
+                      </li>
+                      <li>
+                        <a>Images & Illustrations</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                  <button className="px-3 py-1 bg-violet-600 text-violet-100 w-fit float-right rounded text-sm">Visit site</button>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </main>
@@ -55,20 +170,23 @@ export default function Home() {
   );
 }
 
-const data:dataList[] = [
+const data: dataList[] = [
   {
-    name: 'Lorem Ipsum-1', 
-    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero odit excepturi.',
-    url: 'https://resource.link'
+    name: "Lorem Ipsum-1",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero odit excepturi.",
+    url: "https://resource.link",
   },
   {
-    name: 'Lorem Ipsum-2', 
-    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero odit excepturi.',
-    url: 'https://resource.link'
+    name: "Lorem Ipsum-2",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero odit excepturi.",
+    url: "https://resource.link",
   },
   {
-    name: 'Lorem Ipsum-3', 
-    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero odit excepturi.',
-    url: 'https://resource.link'
-  }
-]
+    name: "Lorem Ipsum-3",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero odit excepturi.",
+    url: "https://resource.link",
+  },
+];
