@@ -89,14 +89,10 @@ export default function Home() {
               ...coming soon
             </p>
 
-            <LinkCard 
+            {/* <LinkCard 
             name={'unDraw'} 
             description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ratione ea beatae voluptate voluptatibus laborum.'}
-            url={'https://undraw.io/illustrations'} />
-            <LinkCard 
-            name={'unDraw'} 
-            description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ratione ea beatae voluptate voluptatibus laborum.'}
-            url={'https://undraw.io/illustrations'} />
+            url={'https://undraw.io/illustrations'} /> */}
           </div>
         </div>
       </main>
