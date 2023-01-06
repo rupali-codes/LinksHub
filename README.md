@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to LinksHub
+LinksHub is a Hub of Links for developers by developers. Where we will be putting links to all free/paid & useful resources together which will be helpful for Beginners to advanced level developers And because we believe that There's no lack of resources but there's lack of Awareness, hopefully we can get the right resource to the right person.
+
+## Demo
+You can see the live demo at: https://linkshub.vercel.app
+
+## Tech stack
+![Next.js](https://img.shields.io/badge/Next.js-7c3aed?style=for-the-badge&logo=next.js&logoColor=white)
+![tailwind css](https://img.shields.io/badge/tailwind_css-7c3aed?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![typescript](https://img.shields.io/badge/typescript-7c3aed?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## Getting Started
+> Prerequists: Before getting into it make you sure, you have (npm)[https://nodejs.org/download] installed
 
-First, run the development server:
+### Let's jump right in
+Follow these steps to start contributing into LinksHub
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. (Fork)[https://github.com/rupali-codes/LinksHub/fork] the project
+2. Clone the project to run on your local machine by the following command
+   ```sh
+   git clone https://github.com/<your-github-username>/LinksHub.git
+   ```
+3. Get into the root directory
+   ```sh
+   cd LinksHub
+   ```
+4. Install all dependencies by running
+   ```sh
+   npm install 
+   ```
+5. Make your changes and push the code to your github repo
+6. Now, create a pull request
+   
+Bingo! You're done
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## License
+LinskHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENCSE) for details.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+Don't forget to leave a star if you like LinksHub, also we would love to have you, feel free to open issues and pull request
