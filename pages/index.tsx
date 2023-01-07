@@ -4,6 +4,7 @@ import { Inter } from "@next/font/google";
 import { Collaps } from "../components/Collaps";
 import { LinkCard } from "../components/LinkCard";
 import { dataList } from "../types";
+// import  data  from '../database/data.json'
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {

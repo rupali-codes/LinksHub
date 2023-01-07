@@ -37,4 +37,4 @@ Bingo! You're done
 LinskHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENCSE) for details.
 
 ---
-Don't forget to leave a star if you like LinksHub, also we would love to have you, feel free to open issues and pull request
+We would love to have you, feel free to open issues and pull request, and Don't forget to leave a star if the project.
