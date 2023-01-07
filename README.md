@@ -1,8 +1,8 @@
 # Welcome to LinksHub
-LinksHub is a Hub of Links by developers for developers. We as LinksHub willing to put links to all free/paid & useful resources together, so that it can help developers to save their time and build awesome things with more efficiency.
+LinksHub is a Hub of Links for developers by developers. Where we will be putting links to all free/paid & useful resources together which will be helpful for Beginners to advanced level developers And because we believe that There's no lack of resources but there's lack of Awareness, hopefully we can get the right resource to the right person.
 
-### Demo
-You can see the live demo [here](https://linkshub.vercel.app)
+## Demo
+You can see the live demo at: https://linkshub.vercel.app
 
 ## Tech stack
 ![Next.js](https://img.shields.io/badge/Next.js-7c3aed?style=for-the-badge&logo=next.js&logoColor=white)
@@ -10,24 +10,21 @@ You can see the live demo [here](https://linkshub.vercel.app)
 ![typescript](https://img.shields.io/badge/typescript-7c3aed?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## Getting Started
-> Prerequistes - Before getting into it make you sure, you have [npm](https://nodejs.org/download) installed
+> Prerequists: Before getting into it make you sure, you have (npm)[https://nodejs.org/download] installed
 
 ### Let's jump right in
 Follow these steps to start contributing into LinksHub
 
-1. [Fork](https://github.com/rupali-codes/LinksHub/fork) the project
+1. (Fork)[https://github.com/rupali-codes/LinksHub/fork] the project
 2. Clone the project to run on your local machine by the following command
-
    ```sh
    git clone https://github.com/<your-github-username>/LinksHub.git
    ```
 3. Get into the root directory
-
    ```sh
    cd LinksHub
    ```
 4. Install all dependencies by running
-
    ```sh
    npm install 
    ```
@@ -40,4 +37,4 @@ Bingo! You're done
 LinskHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENCSE) for details.
 
 ---
-Don't forget to leave a star if you like LinksHub.
+We would love to have you, feel free to open issues and pull request, and Don't forget to leave a star if the project.
