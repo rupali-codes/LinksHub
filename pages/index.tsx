@@ -4,7 +4,7 @@ import { Inter } from "@next/font/google";
 import { Collaps } from "../components/Collaps";
 import { LinkCard } from "../components/LinkCard";
 import { dataList } from "../types";
-// import  data  from '../database/data.json'
+import { data, sidebar } from "../database/data";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -65,7 +65,17 @@ export default function Home() {
                 sidebar ? "block" : "hidden"
               } transition-all ease-in duration-300`}
             >
-              <div className="flex flex-col gap-1 my-2">
+
+              {
+                // sidebar.map((elem, index) => (
+                //   elem.map((e,i) => (
+                //     e.subcategory.map((s, i) => (
+                //       <Collaps title={s} key={i} />
+                //     ))
+                //   ))
+                // ))
+              }
+              {/* <div className="flex flex-col gap-1 my-2">
                 <h2 className="uppercase font-bold text-xl">frontend</h2>
                 <Collaps title={"Images & Illustrations"} elements={data} />
                 <Collaps title={"Fonts"} elements={data} />
@@ -77,7 +87,7 @@ export default function Home() {
                 <h2 className="uppercase font-bold text-xl">backend</h2>
                 <Collaps title={"Validators"} elements={data} />
                 <Collaps title={"Security"} elements={data} />
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -101,7 +111,7 @@ export default function Home() {
   );
 }
 
-const data: dataList[] = [
+const data2: dataList[] = [
   {
     name: "Lorem Ipsum-1",
     description:
