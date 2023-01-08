@@ -1,7 +1,7 @@
 import classNames from "classnames";
 import React, { useState } from "react";
 import { data, sidebarData } from "../../database/data";
-import { Collaps } from "../Collaps";
+import { SideNavbarElement } from "./SideNavbarElement";
 
 export const SideNavbar = () => {
   const [isSidebarActive, setIsSidebarActive] = useState(false);
@@ -54,7 +54,7 @@ export const SideNavbar = () => {
           isSidebarActive ? "block" : "hidden"
         )}
       >
-        <div className="py-4 flex flex-col items-center justify-center gap-8">
+        <div className="py-4 flex flex-col justify-center gap-8">
           {sidebarData.map((item, index) => {
             return (
               <div key={index}>
@@ -62,7 +62,7 @@ export const SideNavbar = () => {
                   {item.category}
                 </h2>
                 {item.subcategory.map((s, i) => {
-                  return <Collaps key={i} title={s} elements={data} />;
+                  return <SideNavbarElement key={i} title={s} />;
                 })}
               </div>
             );

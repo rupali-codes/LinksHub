@@ -4,9 +4,8 @@ export type DataList = {
   url: string;
 };
 
-export interface ICollapsProps {
+export interface ISideNavbarElement {
   title: string;
-  elements: DataList[];
 }
 
 export interface IData {
