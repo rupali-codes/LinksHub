@@ -28,7 +28,7 @@ export const data: IData[] = [
   },
 ];
 
-export const sidebar: ISidebar[] = [
+export const sidebarData: ISidebar[] = [
   {
     category: "frontend",
     subcategory: ["images", "fonts", "colors", "illustrations", "animations"],

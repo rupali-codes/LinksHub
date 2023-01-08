@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import Head from "next/head";
 import { Inter } from "@next/font/google";
 import { Collaps } from "../components/Collaps";
-import { LinkCard } from "../components/LinkCard";
 import { dataList } from "../types";
-import { data, sidebar } from "../database/data";
+import { data, sidebarData } from "../database/data";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -65,29 +64,20 @@ export default function Home() {
                 sidebar ? "block" : "hidden"
               } transition-all ease-in duration-300`}
             >
-
-              {
-                // sidebar.map((elem, index) => (
-                //   elem.map((e,i) => (
-                //     e.subcategory.map((s, i) => (
-                //       <Collaps title={s} key={i} />
-                //     ))
-                //   ))
-                // ))
-              }
-              {/* <div className="flex flex-col gap-1 my-2">
-                <h2 className="uppercase font-bold text-xl">frontend</h2>
-                <Collaps title={"Images & Illustrations"} elements={data} />
-                <Collaps title={"Fonts"} elements={data} />
-                <Collaps title={"Animations"} elements={data} />
-                <Collaps title={"Colors"} elements={data} />
+              <div className="py-4 flex flex-col items-center justify-center gap-8">
+                {sidebarData.map((item, index) => {
+                  return (
+                    <div key={index}>
+                      <h2 key={index} className="uppercase font-bold text-xl">
+                        {item.category}
+                      </h2>
+                      {item.subcategory.map((s, i) => {
+                        return <Collaps key={i} title={s} elements={data} />;
+                      })}
+                    </div>
+                  );
+                })}
               </div>
-
-              <div className="flex flex-col gap-1 my-2">
-                <h2 className="uppercase font-bold text-xl">backend</h2>
-                <Collaps title={"Validators"} elements={data} />
-                <Collaps title={"Security"} elements={data} />
-              </div> */}
             </div>
           </div>
 
@@ -99,35 +89,9 @@ export default function Home() {
             <p className="uppercase font-semibold text-xl mt-6">
               ...coming soon
             </p>
-
-            {/* <LinkCard 
-            name={'unDraw'} 
-            description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ratione ea beatae voluptate voluptatibus laborum.'}
-            url={'https://undraw.io/illustrations'} /> */}
           </div>
         </div>
       </main>
     </>
   );
 }
-
-const data2: dataList[] = [
-  {
-    name: "Lorem Ipsum-1",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero odit excepturi.",
-    url: "https://resource.link",
-  },
-  {
-    name: "Lorem Ipsum-2",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero odit excepturi.",
-    url: "https://resource.link",
-  },
-  {
-    name: "Lorem Ipsum-3",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero odit excepturi.",
-    url: "https://resource.link",
-  },
-];
