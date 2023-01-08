@@ -1,28 +1,28 @@
-export type dataList = {
-  name:string,
-  description:string,
-  url: string
-}
+export type DataList = {
+  name: string;
+  description: string;
+  url: string;
+};
 
 export interface ICollapsProps {
-  title:string
-  elements:dataList[]
+  title: string;
+  elements: DataList[];
 }
 
 export interface IData {
-  id: string,
-  name: string,
-  description: string,
-  url: string,
-  category: Category,
-  subcategory: SubCategory
+  id: string;
+  name: string;
+  description: string;
+  url: string;
+  category: Category;
+  subcategory: SubCategory;
 }
 
 export type Category = "frontend" | "backend";
 
-export type SubCategory = "images" | "illustrations" | "colors" | "fonts"
+export type SubCategory = "images" | "illustrations" | "colors" | "fonts";
 
 export interface ISidebar {
-    category: Category,
-    subcategory: Array<string>
+  category: Category;
+  subcategory: Array<string>;
 }
