@@ -68,6 +68,9 @@ export const SideNavbar = () => {
             );
           })}
         </div>
+        <a target="_blank" href="https://github.com/rupali-codes/LinksHub">
+          <img src="../../github.png" style={{height:35}}/>
+        </a>
       </div>
     </div>
   );
