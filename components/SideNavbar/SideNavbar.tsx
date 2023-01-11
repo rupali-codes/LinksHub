@@ -72,7 +72,7 @@ export const SideNavbar = () => {
         </div>
           <ul className="inline-flex space-x-2">
             <li>
-              <a title="Link to Github project" href="https://github.com/rupali-codes/LinksHub">
+              <a title="Link to Github project (External Link)" target="_blank" href="https://github.com/rupali-codes/LinksHub">
                 <IconContext.Provider value={{ className: "shared-class", size: "28" }}>
                   <FaGithub/>
                 </IconContext.Provider>
