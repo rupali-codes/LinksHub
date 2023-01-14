@@ -1,6 +1,6 @@
 import React from "react";
 import { data } from "../../database/data";
-import { ISideNavbarElement, IData, DataList } from "../../types/index";
+import { ISideNavbarElement, IData } from "../../types/index";
 import { FaSlackHash } from "react-icons/Fa";
 import { LinkContainer } from "./LinkContainer";
 
