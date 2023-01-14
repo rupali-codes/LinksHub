@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import { SideNavbar } from "../components/SideNavbar";
 import { MainContainer } from "../components/MainContainer";
+import { LinksContainer } from "../components/LinksConatiners";
 
 export default function Home() {
   return (
@@ -14,8 +15,9 @@ export default function Home() {
       </Head>
       <div className="lg:flex flex-wrap justify-between">
         <SideNavbar />
-        <main className="flex-1">
-          <MainContainer />
+        <main className="">
+          {/* <MainContainer /> */}
+          <LinksContainer />
         </main>
       </div>
     </>
