@@ -2,6 +2,8 @@ import classNames from "classnames";
 import React, { useState } from "react";
 import { data, sidebarData } from "../../database/data";
 import { SideNavbarElement } from "./SideNavbarElement";
+import { IconContext } from "react-icons";
+import { FaGithub } from "react-icons/fa";
 
 export const SideNavbar = () => {
   const [isSidebarActive, setIsSidebarActive] = useState(false);
@@ -19,6 +21,15 @@ export const SideNavbar = () => {
           </span>
           <span className="text-violet-500">Hub</span>
         </h1>
+        <ul className="inline-flex space-x-2">
+            <li>
+              <a title="Link to Github project (External Link)" target="_blank" rel="noopener noreferrer" href="https://github.com/rupali-codes/LinksHub">
+                <IconContext.Provider value={{ className: "shared-class", size: "28" }}>
+                  <FaGithub/>
+                </IconContext.Provider>
+              </a>
+            </li>
+          </ul>
 
         <label className="btn btn-circle swap swap-rotate lg:hidden">
           <input
