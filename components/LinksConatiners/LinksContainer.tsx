@@ -1,7 +1,7 @@
 import React from "react";
 import { data } from "../../database/data";
 import { ISideNavbarElement, IData } from "../../types/index";
-import { FaSlackHash } from "react-icons/Fa";
+import { FaSlackHash } from "react-icons/fa";
 import { LinkContainer } from "./LinkContainer";
 
 export const LinksContainer = () => {
