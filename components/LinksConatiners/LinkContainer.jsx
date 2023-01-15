@@ -9,6 +9,8 @@ export const LinkContainer = ({ name, description, url }) => {
         <div className="card-actions justify-end">
           <a
             href={url}
+            target="_blank"
+            rel="noreferrer"
             className="mt-2 px-6 py-2 text-white text-center font-semibold bg-violet-500 rounded-2xl w-full border-violet-500"
           >
             Visit site
