@@ -10,12 +10,12 @@ You can see the live demo at: https://linkshub.vercel.app
 ![typescript](https://img.shields.io/badge/typescript-7c3aed?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## Getting Started
-> Prerequists: Before getting into it make you sure, you have (npm)[https://nodejs.org/download] installed
+> Prerequists: Before getting into it make you sure, you have [npm](https://nodejs.org/download) installed
 
 ### Let's jump right in
 Follow these steps to start contributing into LinksHub
 
-1. (Fork)[https://github.com/rupali-codes/LinksHub/fork] the project
+1. [Fork](https://github.com/rupali-codes/LinksHub/fork) the project
 2. Clone the project to run on your local machine by the following command
    ```sh
    git clone https://github.com/<your-github-username>/LinksHub.git
@@ -26,11 +26,11 @@ Follow these steps to start contributing into LinksHub
    ```
 4. Install all dependencies by running
    ```sh
-   npm install 
+   npm install
    ```
 5. Make your changes and push the code to your github repo
 6. Now, create a pull request
-   
+
 Bingo! You're done
 
 ## License
