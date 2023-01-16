@@ -13,7 +13,7 @@ export const SideNavbar = () => {
   };
 
   return (
-    <div className={`lg:w-1/5 bg-base-300 p-4 lg:min-h-screen`}>
+    <div className={`lg:w-[290px] bg-base-300 fixed top-0 left-0 w-full p-4 lg:min-h-screen`}>
       <div className="flex justify-between">
         <h1 className="text-3xl font-bold mb-4">
           <span className="border-b-4 border-violet-500 text-violet-200">
@@ -72,8 +72,8 @@ export const SideNavbar = () => {
                 <h2 key={index} className="uppercase font-bold text-xl">
                   {item.category}
                 </h2>
-                {item.subcategory.map((s, i) => {
-                  return <SideNavbarElement key={i} title={s} />;
+                {item.subcategory.map((list, i) => {
+                  return <SideNavbarElement key={i} {...list} />;
                 })}
               </div>
             );

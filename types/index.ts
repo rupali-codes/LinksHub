@@ -20,8 +20,12 @@ export interface IData {
 export type Category = "frontend" | "backend";
 
 export type SubCategory = "images" | "illustrations" | "colors" | "fonts";
+export type SubCategories= {
+    name:string;
+    url:string
+  }
 
-export interface ISidebar {
+export interface ISidebar{
   category: Category;
-  subcategory: Array<string>;
+ subcategory:SubCategories[]
 }

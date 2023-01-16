@@ -1,12 +1,14 @@
+import { useRouter } from "next/router";
 import React from "react";
-import { ISideNavbarElement } from "../../types";
+import { ISideNavbarElement, SubCategories } from "../../types";
 
-export const SideNavbarElement = ({ title }: ISideNavbarElement) => {
+export const SideNavbarElement = ({ name,url }: SubCategories) => {
+  const router=useRouter()
   return (
-    <div className="collapse border-b border-base-100">
+    <button onClick={()=>router.push(url)} className="collapse w-full text-start border-b border-base-100">
       <div className="collapse-title text-md font-medium uppercase">
-        {title}
+        {name}
       </div>
-    </div>
+    </button>
   );
 };
