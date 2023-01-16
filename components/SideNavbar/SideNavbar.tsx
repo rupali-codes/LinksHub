@@ -14,7 +14,7 @@ export const SideNavbar = () => {
   };
 
   return (
-    <div className={`lg:w-[290px] bg-base-300 fixed top-0 left-0 w-full p-4 lg:h-full `}>
+    <div className={`lg:w-[290px] bg-transparent fixed top-0 left-0 w-full p-4 lg:h-full `}>
       <div className="flex justify-between">
         <Logo className="text-3xl mb-4" />
         <ul className="inline-flex space-x-2">
@@ -61,11 +61,11 @@ export const SideNavbar = () => {
           isSidebarActive ? "block" : "hidden"
         )}
       >
-        <div className="py-4 flex flex-col justify-center gap-8">
+        <div className=" flex flex-col justify-center gap-8">
           {sidebarData.map((item, index) => {
             return (
               <div key={index}>
-                <h2 key={index} className="uppercase font-bold text-xl">
+                <h2 key={index} className="uppercase mb-3 font-bold text-xl">
                   {item.category}
                 </h2>
                 {item.subcategory.map((list, i) => {
