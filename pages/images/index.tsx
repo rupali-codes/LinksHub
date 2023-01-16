@@ -6,7 +6,7 @@ import { IData } from '../../types'
 
 const Images = () => {
   return (
-    <section className='px-[20px]'>
+    <section className=''>
     <div className="flex itmes-center text-white text-3xl my-4 font-bold uppercase">
           <FaSlackHash className="mt-1 text-gray-400" />
           <h2 className="">Images</h2>

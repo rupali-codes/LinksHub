@@ -58,7 +58,7 @@ export const SideNavbar = () => {
       
         className={
          `lg:block transition-all ease-in duration-300 h-full 
-          ${isSidebarActive ? "block" : "hidden"} scrollColor overflow-scroll`}
+          ${isSidebarActive ? "block" : "hidden"}  scrollColor`}
       >
         <div className=" flex flex-col justify-center gap-8">
           {sidebarData.map((item, index) => {

@@ -5,7 +5,7 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
   return (
     <section>
       <SideNavbar />
-      <div className='lg:pl-[290px]'>
+      <div className='lg:pl-[290px] my-8 mx-auto lg:mx-20'>
         {children}
       </div>
     </section>
