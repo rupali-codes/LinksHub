@@ -5,7 +5,6 @@ import { SideNavbarElement } from "./SideNavbarElement";
 import { IconContext } from "react-icons";
 import { FaGithub } from "react-icons/fa";
 import Logo from "../logo";
-
 export const SideNavbar = () => {
   const [isSidebarActive, setIsSidebarActive] = useState(false);
 
@@ -14,7 +13,7 @@ export const SideNavbar = () => {
   };
 
   return (
-    <div className={`lg:w-[290px] bg-transparent fixed top-0 left-0 w-full p-4 lg:h-full `}>
+    <div className={`lg:w-[290px] bg-base-300 fixed top-0 left-0 w-full p-4 lg:h-full `}>
       <div className="flex justify-between">
         <Logo className="text-3xl mb-4" />
         <ul className="inline-flex space-x-2">
@@ -56,10 +55,10 @@ export const SideNavbar = () => {
         </label>
       </div>
       <div
-        className={classNames(
-          "lg:block transition-all ease-in duration-300 h-full overflow-scroll ",
-          isSidebarActive ? "block" : "hidden"
-        )}
+      
+        className={
+         `lg:block transition-all ease-in duration-300 h-full 
+          ${isSidebarActive ? "block" : "hidden"} scrollColor overflow-scroll`}
       >
         <div className=" flex flex-col justify-center gap-8">
           {sidebarData.map((item, index) => {
