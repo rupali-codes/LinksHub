@@ -4,6 +4,7 @@ import { data, sidebarData } from "../../database/data";
 import { SideNavbarElement } from "./SideNavbarElement";
 import { IconContext } from "react-icons";
 import { FaGithub } from "react-icons/fa";
+import Logo from "../logo";
 
 export const SideNavbar = () => {
   const [isSidebarActive, setIsSidebarActive] = useState(false);
@@ -13,23 +14,18 @@ export const SideNavbar = () => {
   };
 
   return (
-    <div className={`lg:w-[290px] bg-base-300 fixed top-0 left-0 w-full p-4 lg:min-h-screen`}>
+    <div className={`lg:w-[290px] bg-base-300 fixed top-0 left-0 w-full p-4 lg:h-full `}>
       <div className="flex justify-between">
-        <h1 className="text-3xl font-bold mb-4">
-          <span className="border-b-4 border-violet-500 text-violet-200">
-            Links
-          </span>
-          <span className="text-violet-500">Hub</span>
-        </h1>
+        <Logo className="text-3xl mb-4" />
         <ul className="inline-flex space-x-2">
-            <li>
-              <a title="Link to Github project (External Link)" target="_blank" rel="noopener noreferrer" href="https://github.com/rupali-codes/LinksHub">
-                <IconContext.Provider value={{ className: "shared-class", size: "28" }}>
-                  <FaGithub/>
-                </IconContext.Provider>
-              </a>
-            </li>
-          </ul>
+          <li>
+            <a title="Link to Github project (External Link)" target="_blank" rel="noopener noreferrer" href="https://github.com/rupali-codes/LinksHub">
+              <IconContext.Provider value={{ className: "shared-class", size: "28" }}>
+                <FaGithub />
+              </IconContext.Provider>
+            </a>
+          </li>
+        </ul>
 
         <label className="btn btn-circle swap swap-rotate lg:hidden">
           <input
@@ -61,7 +57,7 @@ export const SideNavbar = () => {
       </div>
       <div
         className={classNames(
-          "lg:block transition-all ease-in duration-300",
+          "lg:block transition-all ease-in duration-300 h-full overflow-scroll ",
           isSidebarActive ? "block" : "hidden"
         )}
       >

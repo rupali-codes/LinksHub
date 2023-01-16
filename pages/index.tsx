@@ -4,6 +4,7 @@ import { SideNavbar } from "../components/SideNavbar";
 import { MainContainer } from "../components/MainContainer";
 import { LinksContainer } from "../components/LinksConatiners";
 import GeneralLayout from "../layouts/GeneralLayout";
+import Logo from "../components/logo";
 
 export default function Home() {
   return (
@@ -14,9 +15,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icon.ico" className="rounded-full" />
       </Head>
-      <main className="">
-          {/* <MainContainer /> */}
-          <LinksContainer />
+      <main className="h-screen flex ">
+        <div className="m-auto text-7xl  flex items-center">
+        <Logo className=""/>
+        👾
+        </div>
         </main>
        
     </>
