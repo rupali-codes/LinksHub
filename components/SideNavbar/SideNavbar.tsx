@@ -50,10 +50,10 @@ export const SideNavbar = () => {
       <div
       
         className={
-         `lg:translate-x-0 lg:w-full w-[75%] p-4 bg-base-300 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-full 
-         ${sidebar?"translate-x-[0%] ":"translate-x-[-100%]"}   scrollColor z-[10]`}
+         `lg:translate-x-0 lg:w-full w-[75%] p-4 bg-base-300 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-screen
+         ${sidebar?"translate-x-[0%] ":"translate-x-[-100%]"}  scrollColor z-[10]`}
       >
-        <div className=" flex flex-col justify-center gap-8">
+        <div className=" flex flex-col justify-center gap-8 ">
           {sidebarData.map((item, index) => {
             return (
               <div key={index}>
