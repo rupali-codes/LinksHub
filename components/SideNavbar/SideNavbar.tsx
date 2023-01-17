@@ -7,12 +7,13 @@ import { FaGithub } from "react-icons/fa";
 import Logo from "../logo";
 import { GlobalContext } from "../../context/GlobalContext";
 import Link from "next/link";
+import {AiOutlineMenu,AiOutlineClose} from 'react-icons/ai'
 export const SideNavbar = () => {
-  const {toggleNav,sidebar} = useContext(GlobalContext);
+  const {toggleNav,sidebar,openNav,closeNav} = useContext(GlobalContext);
 
   return (
-    <div className={`lg:w-[290px] bg-base-300 fixed top-0 left-0 w-full p-4 lg:h-full `}>
-      <div className="flex justify-between">
+    <div className={`lg:w-[290px] fixed top-0 left-0 w-full  lg:h-full `}>
+      <div className="flex bg-base-300 p-4 justify-between">
         <Link href={'/'}>
         <Logo className="text-3xl mb-4" />
         </Link>
@@ -26,39 +27,31 @@ export const SideNavbar = () => {
           </li>
         </ul>
 
-        <label className={`btn btn-circle swap swap-rotate lg:hidden`}>
-          <input
-            type="checkbox"
-            onClick={toggleNav}
-            className="lg:hidden"
+        <button
+          className="relative h-[24px] w-[24px]"
+          onClick={toggleNav&&toggleNav}
+        >
+          <AiOutlineMenu
+            size={24}
+            className={`transition-all left-0 top-[5%] duration-[.5s] absolute ${
+              sidebar ? "z-[-1] opacity-[0]" : "opacity-[1] z-[1]"
+            }`}
           />
-
-          <svg
-            className="swap-off fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 512 512"
-          >
-            <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
-          </svg>
-
-          <svg
-            className="swap-on fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 512 512"
-          >
-            <polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
-          </svg>
-        </label>
+          <AiOutlineClose
+            size={24}
+            className={`absolute left-0 top-[5%] transition-all duration-[1s] ${
+              sidebar
+                ? "opacity-[1] z-[1]"
+                : "opacity-[0] rotate-[180deg] z-[-1]"
+            }`}
+          />
+        </button>
       </div>
       <div
       
         className={
-         `lg:block transition-all ease-in duration-300 h-full 
-          ${sidebar? "block" : "hidden"}  scrollColor z-[10]`}
+         `lg:translate-x-0 lg:w-full w-[75%] p-4 bg-base-300 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-full 
+         ${sidebar?"translate-x-[0%] ":"translate-x-[-100%]"}   scrollColor z-[10]`}
       >
         <div className=" flex flex-col justify-center gap-8">
           {sidebarData.map((item, index) => {
