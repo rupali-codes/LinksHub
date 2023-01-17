@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* scrollable */
+
+.scrollColor {
+    overflow-y: scroll;
+}
+
+
+/* width */
+
+.scrollColor::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+.scrollColor::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+/* Handle */
+
+.scrollColor::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+}
+
+
+/* Handle on hover */
+
+.scrollColor::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
