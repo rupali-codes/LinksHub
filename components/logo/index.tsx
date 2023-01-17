@@ -2,7 +2,7 @@ import React from 'react'
 
 const Logo= ({className}:{className:string}) => {
   return (
-    <h1 className={`font-bold  ${className}`}>
+    <h1 className={`font-bold  ${className}  z-[-1] `}>
     <span className="border-b-4 border-violet-500 text-violet-200">
       Links
     </span>

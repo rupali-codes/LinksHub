@@ -1,21 +1,21 @@
 import classNames from "classnames";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { data, sidebarData } from "../../database/data";
 import { SideNavbarElement } from "./SideNavbarElement";
 import { IconContext } from "react-icons";
 import { FaGithub } from "react-icons/fa";
 import Logo from "../logo";
+import { GlobalContext } from "../../context/GlobalContext";
+import Link from "next/link";
 export const SideNavbar = () => {
-  const [isSidebarActive, setIsSidebarActive] = useState(false);
-
-  const toggleSidebar = () => {
-    setIsSidebarActive((prev) => !prev);
-  };
+  const {toggleNav,sidebar} = useContext(GlobalContext);
 
   return (
     <div className={`lg:w-[290px] bg-base-300 fixed top-0 left-0 w-full p-4 lg:h-full `}>
       <div className="flex justify-between">
+        <Link href={'/'}>
         <Logo className="text-3xl mb-4" />
+        </Link>
         <ul className="inline-flex space-x-2">
           <li>
             <a title="Link to Github project (External Link)" target="_blank" rel="noopener noreferrer" href="https://github.com/rupali-codes/LinksHub">
@@ -26,10 +26,10 @@ export const SideNavbar = () => {
           </li>
         </ul>
 
-        <label className="btn btn-circle swap swap-rotate lg:hidden">
+        <label className={`btn btn-circle swap swap-rotate lg:hidden`}>
           <input
             type="checkbox"
-            onClick={toggleSidebar}
+            onClick={toggleNav}
             className="lg:hidden"
           />
 
@@ -58,7 +58,7 @@ export const SideNavbar = () => {
       
         className={
          `lg:block transition-all ease-in duration-300 h-full 
-          ${isSidebarActive ? "block" : "hidden"}  scrollColor`}
+          ${sidebar? "block" : "hidden"}  scrollColor z-[10]`}
       >
         <div className=" flex flex-col justify-center gap-8">
           {sidebarData.map((item, index) => {
