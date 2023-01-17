@@ -4,9 +4,8 @@ export const data: IData[] = [
   {
     id: "1",
     name: "unDraw",
-    description:
-      "unDraw is a site to get free illustrations, where you are also allowed to change color according to your theme.",
-    url: "https://undraw.io/illustrations",
+    description: "unDraw is a site to get free illustrations, where you are also allowed to change color according to your theme.",
+    url: "https://undraw.co/illustrations",
     category: "frontend",
     subcategory: "illustrations",
   },
