@@ -4,6 +4,10 @@ export type DataList = {
   url: string;
 };
 
+export interface SpinnerElement {
+  color: string;
+  size: number;
+}
 export interface ISideNavbarElement {
   title: string;
 }
@@ -25,3 +29,4 @@ export interface ISidebar {
   category: Category;
   subcategory: Array<string>;
 }
+

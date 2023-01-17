@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import { SideNavbar } from "../components/SideNavbar";
 import { MainContainer } from "../components/MainContainer";
 import { LinksContainer } from "../components/LinksConatiners";
+import { Spinner } from "../components/Spinner"
+
+
 
 export default function Home() {
+  const [loading, setSpinner] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setSpinner(false), 1000)
+  });
+
   return (
     <>
       <Head>
@@ -13,13 +22,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icon.ico" className="rounded-full" />
       </Head>
-      <div className="lg:flex flex-wrap justify-between">
+      {!loading ? (<div className="lg:flex flex-wrap justify-between">
         <SideNavbar />
         <main className="">
           {/* <MainContainer /> */}
           <LinksContainer />
+          {/* <Spinner /> */}
         </main>
-      </div>
+      </div>) :
+      (<Spinner
+        color={"#8b5cf6"}
+        size= {60}
+      />)}
     </>
   );
 }
