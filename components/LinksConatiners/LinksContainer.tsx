@@ -14,7 +14,7 @@ export const LinksContainer = () => {
         </div>
 
         <div className="flex flex-col md:flex-row lg:flex-row w-full md:justify-between gap-5 items-center">
-          {data.map((d:IData, key:number) => (
+          {data.filter(item=>item.subcategory.includes(item.subcategory)).map((d:IData, key:number) => (
             <LinkContainer
               name={d.name}
               description={d.description}
