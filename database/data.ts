@@ -22,7 +22,7 @@ export const data: IData[] = [
     id: "3",
     name: "Dummy Image",
     description:
-      "dummyimage is a site to get free dummy colored image with free hand sizing for your site. ",
+      "Dummy Image is a site to get free dynamic dummy colored image with free hand sizing for your site. ",
     url: "https://dummyimage.com/",
     category: "frontend",
     subcategory: "images",
@@ -31,7 +31,7 @@ export const data: IData[] = [
     id: "4",
     name: "Font Joy",
     description:
-      "Fontjoy is a website that generates font pairings for designers and developers to use in their projects. ",
+      "Font Joy is a website that generates font pairings for designers and developers to use in their projects. ",
     url: "https://fontjoy.com/",
     category: "frontend",
     subcategory: "fonts",
