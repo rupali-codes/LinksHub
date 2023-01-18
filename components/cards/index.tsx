@@ -15,7 +15,11 @@ const Cards = () => {
       .includes(router.pathname.replace("/", "").toLowerCase())
   );
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row w-full md:justify-between gap-5 items-center">
+    <div
+      className={`flex flex-col md:flex-row lg:flex-row w-full ${
+        filterDB.length < 3 ? "lg:justify-start" : ""
+      } md:justify-between gap-5 items-center`}
+    >
       {filterDB?.map((d: IData, key: number) => (
         <LinkContainer
           name={d.name}
