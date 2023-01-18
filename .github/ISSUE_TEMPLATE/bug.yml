@@ -1,0 +1,43 @@
+name: ​🐞 Bug
+description: Report an issue to help us improve the project.
+title: "[BUG] <Title>"
+labels: ["Goal: fix"]
+body:
+  - type: checkboxes
+    attributes:
+        label: Is there any existing issue for this?
+        description: Please search to see if an issue already exist for the bug you have encountered.
+        options:
+        - label: I have searched the existing issues
+          required: true
+  - type: textarea
+    attributes:  
+      label: Description   
+      id: description  
+      description: A brief description of the issue or bug you are facing, also include what you tried and what didn't work.
+    validations:
+      required: false
+  - type: textarea
+    attributes: 
+      label: Screenshots
+      id: screenshots
+      description: Please add screenshots if applicable
+    validations:
+      required: false
+  - type: textarea
+    attributes: 
+      label: Any additional information? 
+      id: extrainfo
+      description: Any additional information or Is there anything we should know about this bug? 
+    validations: 
+      required: false
+  - type: dropdown
+    id: browsers
+    attributes: 
+      label: What browser are you seeing the problem on? 
+      multiple: true
+      options: 
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge               

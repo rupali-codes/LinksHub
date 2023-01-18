@@ -3,16 +3,10 @@ import Head from "next/head";
 import { SideNavbar } from "../components/SideNavbar";
 import { MainContainer } from "../components/MainContainer";
 import { LinksContainer } from "../components/LinksConatiners";
-import { Spinner } from "../components/Spinner"
-
-
+import GeneralLayout from "../layouts/GeneralLayout";
+import Logo from "../components/logo";
 
 export default function Home() {
-  const [loading, setSpinner] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => setSpinner(false), 1000)
-  });
 
   return (
     <>
@@ -22,18 +16,21 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icon.ico" className="rounded-full" />
       </Head>
-      {!loading ? (<div className="lg:flex flex-wrap justify-between">
+      {/* All contents  */}
+      <div className="lg:flex flex-wrap justify-between">
         <SideNavbar />
         <main className="">
           {/* <MainContainer /> */}
           <LinksContainer />
           {/* <Spinner /> */}
         </main>
-      </div>) :
-      (<Spinner
-        color={"#8b5cf6"}
-        size= {60}
-      />)}
+      </div>
+      <main className="h-screen flex ">
+        <div className="m-auto md:text-7xl text-5xl  flex items-center">
+        <Logo className=""/>
+        👾
+        </div>
+      </main>
     </>
   );
 }

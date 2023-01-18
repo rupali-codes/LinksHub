@@ -1,11 +1,10 @@
 import { CSSProperties } from "react";
 import GridLoader from "react-spinners/GridLoader";
-import { SpinnerElement } from "../../types";
 
-export const Spinner = ({color, size}: SpinnerElement) => {
+export const Spinner = ({color, size, backgroundColor}:{color:string, size:string, backgroundColor:string}) => {
 
   return (
-    <div className="loader fixed top-0 left-0 w-full h-screen flex justify-center items-center">
+    <div className={`loader ${backgroundColor} fixed top-0 left-0 w-full h-screen flex justify-center items-center`}>
       <GridLoader
         color= {color}
         size={size}

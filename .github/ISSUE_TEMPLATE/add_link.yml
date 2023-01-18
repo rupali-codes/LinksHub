@@ -1,0 +1,30 @@
+name: Add Link
+description: Use this template to add a new link to the database
+title: "[Add] <name>"
+labels: ["add link"]
+body:
+  - type: input
+    attributes:
+      label: URL
+      description: Provide complete/valid URL.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description of the above provided site
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Category
+      options:
+        - Frontend
+        - Backend
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Sub Category
+      description: Example -> "images", "fonts", "colors", "illustrations", "animations", "icons", "design inspiration", "testing", "themes & templates", "validation", "security", "authentication", "caching", "testings"
+    validations:
+      required: true
