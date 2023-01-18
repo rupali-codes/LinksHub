@@ -27,6 +27,24 @@ export const data: IData[] = [
     category: "frontend",
     subcategory: "images",
   },
+  {
+    id: "4",
+    name: "Font Joy",
+    description:
+      "Fontjoy is a website that generates font pairings for designers and developers to use in their projects. ",
+    url: "https://fontjoy.com/",
+    category: "frontend",
+    subcategory: "fonts",
+  },
+  {
+    id: "5",
+    name: "Icon Sets",
+    description:
+      "Icon-sets is a website that provides a collection of icons for designers and developers to use in their projects.",
+    url: "https://icon-sets.iconify.design/",
+    category: "frontend",
+    subcategory: "icons",
+  },
 ];
 
 export const sidebarData: ISidebar[] = [
