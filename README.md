@@ -1,5 +1,5 @@
 # Welcome to LinksHub
-LinksHub is a Hub of Links for developers by developers. Where we will be putting links to all free/paid & useful resources together which will be helpful for Beginners to advanced level developers And because we believe that There's no lack of resources but there's lack of Awareness, hopefully we can get the right resource to the right person.
+LinksHub is a Hub of Links `for developers by developers`. Where we will be putting links to all free/paid & useful resources together which will be helpful for Beginners to advanced level developers And because we believe that There's no lack of resources but there's lack of Awareness, hopefully we can get the right resource to the right person.
 
 ## Demo
 You can see the live demo at: https://linkshub.vercel.app
@@ -11,6 +11,8 @@ You can see the live demo at: https://linkshub.vercel.app
 
 ## Getting Started
 > Prerequists: Before getting into it make you sure, you have [npm](https://nodejs.org/download) installed
+
+Make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/main/blob/CONTRIBUTING.md)
 
 ### Let's jump right in
 Follow these steps to start contributing into LinksHub
@@ -37,4 +39,4 @@ Bingo! You're done
 LinskHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENCSE) for details.
 
 ---
-We would love to have you, feel free to open issues and pull request, and Don't forget to leave a star if the project.
+We would love to have you, feel free to open issues and pull request and Don't forget to leave a star if you like the project.
