@@ -1,4 +1,4 @@
-import GridLoader from "react-spinners/GridLoader";
+import GridLoader from "react-spinners/gridLoader";
 
 export const Spinner = ({spinnerColor, spinnerSize}:{spinnerColor:string, spinnerSize:string}) => {
 
