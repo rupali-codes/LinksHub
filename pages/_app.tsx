@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
         (<GeneralLayout>
           <Component {...pageProps} />
         </GeneralLayout>) :
-        (<Preloader backgroundColor="bg-violet-800" spinnerColor="#8b5cf6" spinnerSize="40px" />)
+        (<Preloader backgroundColor="bg-violet-800" spinnerColor="#8b5cf6" spinnerSize={40} />)
       }
     </GlobalProvider>
   );
