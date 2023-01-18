@@ -1,9 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import { SideNavbar } from "../components/SideNavbar";
-import { MainContainer } from "../components/MainContainer";
-import { LinksContainer } from "../components/LinksConatiners";
-import GeneralLayout from "../layouts/GeneralLayout";
 import Logo from "../components/logo";
 
 export default function Home() {
@@ -21,7 +17,6 @@ export default function Home() {
         👾
         </div>
         </main>
-       
     </>
   );
 }
