@@ -1,9 +1,9 @@
-import {GridLoader} from "react-spinners/GridLoader";
+import Gridloader from "react-spinners/GridLoader"
 
 export const Spinner = ({spinnerColor, spinnerSize}:{spinnerColor:string, spinnerSize:number}) => {
 
   return (
-    <GridLoader
+    <Gridloader
       color= {spinnerColor}
       size={spinnerSize}
       aria-label="Loading Spinner"
