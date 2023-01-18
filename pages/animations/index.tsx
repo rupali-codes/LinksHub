@@ -1,7 +1,9 @@
 import React, { useContext } from "react";
 import { FaSlackHash } from "react-icons/fa";
 import Cards from "../../components/cards";
-import { GlobalContext } from "../../context/GlobalContext";
+
+
+;
 
 const Animations = () => {
   return (
