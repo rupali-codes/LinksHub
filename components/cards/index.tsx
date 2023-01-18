@@ -16,9 +16,9 @@ const Cards = () => {
   );
   return (
     <div
-      className={`flex flex-col md:flex-row lg:flex-row w-full ${
+      className={`flex flex-wrap flex-col md:flex-row lg:flex-row w-full ${
         filterDB.length < 3 ? "lg:justify-start" : ""
-      } md:justify-between gap-5 items-center`}
+      } md:justify-start gap-4 items-center`}
     >
       {filterDB?.map((d: IData, key: number) => (
         <LinkContainer
@@ -30,7 +30,7 @@ const Cards = () => {
       ))}
       {filterDB.length === 0 && (
         <p
-          className={`text-white mt-5 z-[-10] text-2xl font-bold  ${
+          className={`text-white font-semibold z-[-10] text-2xl   ${
             !sidebar && "animate-pulse"
           }`}
         >
