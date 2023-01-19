@@ -110,7 +110,7 @@ export const data: IData[] = [
     subcategory: "illustrations",
   },
   {
-    id: "12",
+    id: "13",
     name: "DrawKit",
     description:
       "It is a collection of fully customisable PSD illustrations, in two styles, available to use on your next project.",
@@ -171,6 +171,15 @@ export const data: IData[] = [
     url: "https://icon-sets.iconify.design/",
     category: "frontend",
     subcategory: "icons",
+  },
+  {
+    id: "20",
+    name: "Coolors",
+    description:
+      "Coolors is the essential tool for creating color palettes. It generates perfect matching colors in seconds.",
+    url: "https://coolors.co/",
+    category: "frontend",
+    subcategory: "colors",
   },
 ];
 
