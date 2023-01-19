@@ -172,6 +172,15 @@ export const data: IData[] = [
     category: "frontend",
     subcategory: "icons",
   },
+  {
+    id: "20",
+    name: "React Icons",
+    description:
+      "React-icons is a small library that helps you add icons to your React apps. All of the icons are SVG.",
+    url: "https://react-icons.github.io/react-icons/",
+    category: "frontend",
+    subcategory: "icons",
+  },
 ];
 
 export const sidebarData: ISidebar[] = [
