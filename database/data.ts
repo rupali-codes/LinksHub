@@ -172,6 +172,15 @@ export const data: IData[] = [
     category: "frontend",
     subcategory: "icons",
   },
+  {
+    id: "20",
+    name: "Coolors",
+    description:
+      "Coolors is the essential tool for creating and collecting color palettes.",
+    url: "https://coolors.co/",
+    category: "frontend",
+    subcategory: "colors",
+  },
 ];
 
 export const sidebarData: ISidebar[] = [
