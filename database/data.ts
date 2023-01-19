@@ -24,7 +24,7 @@ export const data: IData[] = [
     name: "Pexels",
     description:
       "A great resource for free stock photos and videos, created by photographers around the world.",
-    url: "https://www.pexels.com/",
+    url: "https://pexels.com/",
     category: "frontend",
     subcategory: "images",
   },
@@ -60,7 +60,7 @@ export const data: IData[] = [
     name: "Color Contract Checker",
     description:
       "This an excellent site to check whether contrast of two colors is good or not ",
-    url: "https://tailwindcss.com/docs/customizing-colors",
+    url: "https://coolors.co/contrast-checker",
     category: "frontend",
     subcategory: "colors",
   },
@@ -87,7 +87,7 @@ export const data: IData[] = [
     name: "Fonts Quirrel",
     description:
       "Fonts Quirrel is platform to get free commercial fonts for your project. It's another huge library for fonts ",
-    url: "https://www.fontsquirrel.com/",
+    url: "https://fontsquirrel.com/",
     category: "frontend",
     subcategory: "fonts",
   },
@@ -96,7 +96,7 @@ export const data: IData[] = [
     name: "Glaze",
     description:
       "All in one resource to get free illustrations images for characters, backgrounds, avatar and more",
-    url: "https://www.glazestock.com/",
+    url: "https://glazestock.com/",
     category: "frontend",
     subcategory: "illustrations",
   },
@@ -114,7 +114,7 @@ export const data: IData[] = [
     name: "DrawKit",
     description:
       "It is a collection of fully customisable PSD illustrations, in two styles, available to use on your next project.",
-    url: "https://www.drawkit.com/",
+    url: "https://drawkit.com/",
     category: "frontend",
     subcategory: "illustrations",
   },
@@ -123,7 +123,7 @@ export const data: IData[] = [
     name: "Font Awesome",
     description:
       "A highly popular icon font, consisting of 1000+ icons spread across countless categories.",
-    url: "https://www.glazestock.com/",
+    url: "https://fontawesome.com/",
     category: "frontend",
     subcategory: "icons",
   },
@@ -141,7 +141,7 @@ export const data: IData[] = [
     name: "Flat Icon",
     description:
       "It is a collection of fully customisable PSD icons, in two styles, available to use on your next project.",
-    url: "https://www.flaticon.com/",
+    url: "https://flaticon.com/",
     category: "frontend",
     subcategory: "icons",
   },
