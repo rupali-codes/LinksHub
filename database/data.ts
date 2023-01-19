@@ -110,7 +110,7 @@ export const data: IData[] = [
     subcategory: "illustrations",
   },
   {
-    id: "12",
+    id: "13",
     name: "DrawKit",
     description:
       "It is a collection of fully customisable PSD illustrations, in two styles, available to use on your next project.",
