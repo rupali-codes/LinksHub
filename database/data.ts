@@ -176,7 +176,7 @@ export const data: IData[] = [
     id: "20",
     name: "Coolors",
     description:
-      "Coolors is the essential tool for creating and collecting color palettes.",
+      "Coolors is the essential tool for creating color palettes. It generates perfect matching colors in seconds.",
     url: "https://coolors.co/",
     category: "frontend",
     subcategory: "colors",
