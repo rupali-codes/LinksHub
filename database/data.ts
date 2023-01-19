@@ -171,6 +171,14 @@ export const data: IData[] = [
     url: "https://icon-sets.iconify.design/",
     category: "frontend",
     subcategory: "icons",
+  },{
+    id: "20",
+    name: "Kaboompics",
+    description:
+      "it allows to search pictures by color, and  it provides a complementary palette of colors in the photo.",
+    url: "https://kaboompics.com/",
+    category: "frontend",
+    subcategory: "images",
   },
   {
     id: "20",
