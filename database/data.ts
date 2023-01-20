@@ -189,6 +189,16 @@ export const data: IData[] = [
     category: "frontend",
     subcategory: "colors",
   },
+    {
+    id: "21",
+    name: "UI Faces",
+    description:
+      "UI Faces aggregates various free avatar placeholder sources that you can use in your design
+mockups by copy & paste, API, and plugins for Sketch, Adobe XD, and Figma.",
+    url: "https://www.uifaces.co/",
+    category: "frontend",
+    subcategory: "images",
+  },
 ];
 
 export const sidebarData: ISidebar[] = [
