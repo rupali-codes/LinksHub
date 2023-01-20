@@ -36,7 +36,8 @@ Follow these steps to start contributing into LinksHub
 Bingo! You're done
 
 ## License
-LinksHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENCSE) for details.
+
+LinskHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENSE) for details.
 
 ---
 We would love to have you, feel free to open issues and pull request and Don't forget to leave a star if you like the project.
