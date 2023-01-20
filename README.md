@@ -1,5 +1,5 @@
 # Welcome to LinksHub
-LinksHub is a Hub of Links `for developers by developers`. Where we will be putting links to all free/paid & useful resources together which will be helpful for Beginners to advanced level developers And because we believe that There's no lack of resources but there's lack of Awareness, hopefully we can get the right resource to the right person.
+LinksHub is a Hub of Links `for developers by developers` where we will be putting links to all free/paid & useful resources together which will be helpful for Beginners to advanced level developers And because we believe that There's no lack of resources but there's lack of Awareness, hopefully we can get the right resource to the right person.
 
 ## Demo
 You can see the live demo at: https://linkshub.vercel.app
@@ -36,6 +36,7 @@ Follow these steps to start contributing into LinksHub
 Bingo! You're done
 
 ## License
+
 LinskHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENSE) for details.
 
 ---
