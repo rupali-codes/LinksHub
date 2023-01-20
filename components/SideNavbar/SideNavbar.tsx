@@ -12,7 +12,7 @@ export const SideNavbar = () => {
   const {toggleNav,sidebar,openNav,closeNav} = useContext(GlobalContext);
 
   return (
-    <div className={`lg:w-[290px] fixed top-0 left-0 w-full  lg:h-full md:h-[80%]`}>
+    <div className={`lg:w-[290px] fixed top-0 left-0 w-full  lg:h-full`}>
       <div className="flex bg-base-300 p-4 justify-between dark:bg-gray-900">
         <Link href={'/'}>
         <Logo className="text-3xl mb-4" />
