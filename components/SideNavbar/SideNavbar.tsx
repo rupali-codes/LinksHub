@@ -28,7 +28,7 @@ export const SideNavbar = () => {
         </ul>
 
         <button
-          className="relative h-[24px] w-[24px] lg:hidden"
+          className="relative h-[24px] w-[24px] lg:hidden dark:text-gray-300"
           onClick={toggleNav&&toggleNav}
         >
           <AiOutlineMenu
