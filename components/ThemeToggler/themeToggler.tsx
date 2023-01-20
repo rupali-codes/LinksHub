@@ -17,7 +17,7 @@ export function ThemeToggler() {
                 setTheme(resolvedTheme === "dark" ? "light" : "dark");
             }}
         >
-            {resolvedTheme === "dark" ? <HiSun color="white"/> : <HiMoon />}
+            {resolvedTheme === "dark" ? <HiSun size={'1.5rem'} color="white"/> : <HiMoon size={'1.5rem'}/>}
         </button>
     );
 }
