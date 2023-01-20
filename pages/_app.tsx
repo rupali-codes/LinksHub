@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
     }, 2000);
   });
   return (
-    <ThemeProvider attribute="class">
+    <ThemeProvider>
        <GlobalProvider>
       {!loader ?
         (<GeneralLayout>
