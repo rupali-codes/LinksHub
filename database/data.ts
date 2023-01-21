@@ -171,7 +171,8 @@ export const data: IData[] = [
     url: "https://icon-sets.iconify.design/",
     category: "frontend",
     subcategory: "icons",
-  },{
+  },
+  {
     id: "20",
     name: "Kaboompics",
     description:
@@ -181,7 +182,7 @@ export const data: IData[] = [
     subcategory: "images",
   },
   {
-    id: "20",
+    id: "21",
     name: "Coolors",
     description:
       "Coolors is the essential tool for creating color palettes. It generates perfect matching colors in seconds.",
@@ -190,7 +191,7 @@ export const data: IData[] = [
     subcategory: "colors",
   },
   {
-    id: "20",
+    id: "22",
     name: "React Icons",
     description:
       "React-icons is a small library that helps you add icons to your React apps. All of the icons are SVG.",
