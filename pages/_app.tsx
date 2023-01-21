@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
     }, 2000);
   });
   return (
-    <ThemeProvider>
+    <ThemeProvider defaultTheme = 'dark'>
        <GlobalProvider>
       {!loader ?
         (<GeneralLayout>
