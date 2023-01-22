@@ -27,16 +27,16 @@ const Cards = () => {
           key={key + "-" + data.name}
         />
       ))}
-      {filterDB.length === 0 && (
-        <div className="">
+      <div className="">
+        {filterDB.length === 0 && (
           <p>
             <span className="text-purple-500 animate-pulse font-semibold text-2xl">
               Coming
             </span>{" "}
             <span className="text-2xl font-semibold">Soon</span>
           </p>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 };

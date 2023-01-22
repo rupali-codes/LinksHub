@@ -12,11 +12,11 @@ export default function Home() {
         <link rel="icon" href="/icon.ico" className="rounded-full" />
       </Head>
       <main className="h-screen flex ">
-        <div className="m-auto md:text-7xl text-5xl  flex items-center">
-        <Logo className=""/>
-        👾
+        <div className="m-auto md:text-7xl text-5xl gap-2 flex items-center justify-center">
+          <Logo />
+          <span>👾</span>
         </div>
-        </main>
+      </main>
     </>
   );
 }
