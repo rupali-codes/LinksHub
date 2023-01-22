@@ -12,14 +12,14 @@ export const SideNavbar = () => {
   const {toggleNav,sidebar,openNav,closeNav} = useContext(GlobalContext);
 
   return (
-    <div className={`lg:w-[290px] fixed top-0 left-0 w-full  lg:h-full `}>
-      <div className="flex bg-base-300 p-4 justify-between">
+    <div className={`lg:w-[290px] fixed top-0 left-0 w-full  lg:h-full`}>
+      <div className="flex bg-base-300 p-4 justify-between dark:bg-gray-900">
         <Link href={'/'}>
         <Logo className="text-3xl mb-4" />
         </Link>
         <ul className="inline-flex space-x-2">
           <li>
-            <a title="Link to Github project (External Link)" target="_blank" rel="noopener noreferrer" href="https://github.com/rupali-codes/LinksHub">
+            <a title="Link to Github project (External Link)" className="dark:text-gray-300" target="_blank" rel="noopener noreferrer" href="https://github.com/rupali-codes/LinksHub">
               <IconContext.Provider value={{ className: "shared-class", size: "28" }}>
                 <FaGithub />
               </IconContext.Provider>
@@ -28,7 +28,7 @@ export const SideNavbar = () => {
         </ul>
 
         <button
-          className="relative h-[24px] w-[24px] lg:hidden"
+          className="relative h-[24px] w-[24px] lg:hidden dark:text-gray-300"
           onClick={toggleNav&&toggleNav}
         >
           <AiOutlineMenu
@@ -51,7 +51,7 @@ export const SideNavbar = () => {
       
         className={
          `lg:translate-x-0 lg:w-full w-[75%] p-4 bg-base-300 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-screen
-         ${sidebar?"translate-x-[0%] ":"translate-x-[-100%]"}  scrollColor z-[10]`}
+         ${sidebar?"translate-x-[0%] ":"translate-x-[-100%]"}  scrollColor z-[10] dark:bg-gray-900 dark:text-gray-300`}
       >
         <div className=" flex flex-col justify-center gap-8 ">
           {sidebarData.map((item, index) => {

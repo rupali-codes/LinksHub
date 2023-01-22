@@ -4,7 +4,8 @@ import GeneralLayout from "../layouts/GeneralLayout";
 import { GlobalProvider } from "../context/GlobalContext";
 import { useEffect, useState } from "react";
 import { Preloader } from "../components/Loader/Preloader";
-
+import { ThemeProvider } from 'next-themes'
+import { TopBar } from "../components/TopBar/TopBar";
 export default function App({ Component, pageProps }: AppProps) {
   const [loader, setLoader] = useState(true);
 
@@ -14,13 +15,16 @@ export default function App({ Component, pageProps }: AppProps) {
     }, 2000);
   });
   return (
-    <GlobalProvider>
+    <ThemeProvider defaultTheme = 'dark'>
+       <GlobalProvider>
       {!loader ?
         (<GeneralLayout>
+          <TopBar />
           <Component {...pageProps} />
         </GeneralLayout>) :
         (<Preloader backgroundColor="bg-violet-800" spinnerColor="#8b5cf6" spinnerSize={40} />)
       }
     </GlobalProvider>
+    </ThemeProvider>
   );
 }
