@@ -3,7 +3,7 @@ import { IconContext } from "react-icons";
 import { FaGithub, FaSlackHash } from "react-icons/fa";
 import { ThemeToggler } from "../ThemeToggler/themeToggler";
 
-export const TopBar = () => {
+export const TopBar = ({ header }: { header?: string }) => {
   const router = useRouter();
   const category = router.asPath.replace("/", "");
   return (
@@ -11,7 +11,7 @@ export const TopBar = () => {
       <div className="flex items-center text-3xl my-4 dark:text-gray-300">
         <FaSlackHash className="mt-1 mr-2 text-gray-600 dark:text-gray-300" />
         <span className="text-gray-900 dark:text-gray-100 uppercase font-bold">
-          {category}
+          {header ?? category}
         </span>
       </div>
       <div className="items-center flex justify-center gap-2">
