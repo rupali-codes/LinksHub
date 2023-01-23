@@ -14,25 +14,21 @@ export const TopBar = ({ header }: { header?: string }) => {
           {header ?? category}
         </span>
       </div>
-      <div className="items-center flex justify-center gap-2">
-        <span>
-          <a
-            title="Link to Github project (External Link)"
-            className="dark:text-gray-300"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/rupali-codes/LinksHub"
+      <div className="items-center flex justify-center gap-6 px-10">
+        <a
+          title="Link to Github project (External Link)"
+          className="dark:text-gray-300"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/rupali-codes/LinksHub"
+        >
+          <IconContext.Provider
+            value={{ className: "shared-class", size: "28" }}
           >
-            <IconContext.Provider
-              value={{ className: "shared-class", size: "28" }}
-            >
-              <FaGithub />
-            </IconContext.Provider>
-          </a>
-        </span>
-        <span className="mx-10 py-5">
-          <ThemeToggler />
-        </span>
+            <FaGithub />
+          </IconContext.Provider>
+        </a>
+        <ThemeToggler />
       </div>
     </div>
   );

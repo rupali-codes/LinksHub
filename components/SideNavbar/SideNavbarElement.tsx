@@ -13,7 +13,7 @@ export const SideNavbarElement = ({ name, url }: SubCategories) => {
         router.asPath === url
           ? "bg-purple-50 text-primary transition-all pl-5"
           : ""
-      } collapse py-3 w-full text-start border-b border-gray-600 hover:bg-purple-100 hover:pl-5 hover:text-primary transition-all duration-300 rounded dark:border-gray-600`}
+      } collapse py-3 w-full text-start border-b border-gray-300 hover:bg-purple-100 hover:pl-5 hover:text-primary transition-all duration-300 rounded dark:border-gray-600`}
     >
       <div className="text-md font-medium uppercase">{name}</div>
     </Link>
