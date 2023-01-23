@@ -5,14 +5,8 @@ import { GlobalContext } from '../../context/GlobalContext';
 import { SubCategories } from '../../types';
 
 export const SideNavbarElement = ({ name, url }: SubCategories) => {
-  const { closeNav } = useContext(GlobalContext);
   const router = useRouter();
 
-  // //  handle routing on click
-  //  const handleNavigation = ():void => {
-  //   router.push(url);
-  //   closeNav&&closeNav();
-  // };
 
   return (
     <Link
@@ -24,7 +18,7 @@ export const SideNavbarElement = ({ name, url }: SubCategories) => {
           : ''
       } collapse py-3 w-full text-start border-b border-base-100 hover:bg-slate-300 hover:pl-5 hover:text-slate-700 transition-all duration-300 rounded dark:border-gray-600`}
     >
-      <div className="text-md font-medium uppercase ">{name}</div>
+      <div className="text-md font-medium uppercase">{name}</div>
     </Link>
   );
 };
