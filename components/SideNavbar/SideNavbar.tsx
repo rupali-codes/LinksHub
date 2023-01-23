@@ -12,6 +12,7 @@ export const SideNavbar = () => {
 
   const menuRef = createRef<HTMLDivElement>();
 
+  // closing navbar on click
   useEffect(() => {
     const handler = (e: MouseEvent): void => {
       const target = e.target as HTMLElement;
