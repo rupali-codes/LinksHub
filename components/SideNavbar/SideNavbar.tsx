@@ -1,35 +1,24 @@
 import classNames from "classnames";
-import React, { useContext, useState } from "react";
-import { data, sidebarData } from "../../database/data";
+import React, { useContext } from "react";
+import { sidebarData } from "../../database/data";
 import { SideNavbarElement } from "./SideNavbarElement";
-import { IconContext } from "react-icons";
-import { FaGithub } from "react-icons/fa";
 import Logo from "../logo";
 import { GlobalContext } from "../../context/GlobalContext";
 import Link from "next/link";
-import {AiOutlineMenu,AiOutlineClose} from 'react-icons/ai'
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 export const SideNavbar = () => {
-  const {toggleNav,sidebar,openNav,closeNav} = useContext(GlobalContext);
+  const { toggleNav, sidebar } = useContext(GlobalContext);
 
   return (
     <div className={`lg:w-[290px] fixed top-0 left-0 w-full  lg:h-full`}>
-      <div className="flex bg-base-300 p-4 justify-between dark:bg-gray-900">
-        <Link href={'/'}>
-        <Logo className="text-3xl mb-4" />
+      <div className="flex bg-white p-4 justify-between dark:bg-gray-900">
+        <Link href={"/"}>
+          <Logo className="text-3xl mb-4" />
         </Link>
-        <ul className="inline-flex space-x-2">
-          <li>
-            <a title="Link to Github project (External Link)" className="dark:text-gray-300" target="_blank" rel="noopener noreferrer" href="https://github.com/rupali-codes/LinksHub">
-              <IconContext.Provider value={{ className: "shared-class", size: "28" }}>
-                <FaGithub />
-              </IconContext.Provider>
-            </a>
-          </li>
-        </ul>
 
         <button
           className="relative h-[24px] w-[24px] lg:hidden dark:text-gray-300"
-          onClick={toggleNav&&toggleNav}
+          onClick={toggleNav && toggleNav}
         >
           <AiOutlineMenu
             size={24}
@@ -48,10 +37,8 @@ export const SideNavbar = () => {
         </button>
       </div>
       <div
-      
-        className={
-         `lg:translate-x-0 lg:w-full w-[75%] p-4 bg-base-300 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-screen
-         ${sidebar?"translate-x-[0%] ":"translate-x-[-100%]"}  scrollColor z-[10] dark:bg-gray-900 dark:text-gray-300`}
+        className={`scrollColor z-[10] bg-white dark:bg-gray-900 dark:text-gray-300 lg:translate-x-0 lg:w-full w-[75%] p-4 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-screen
+         ${sidebar ? "translate-x-[0%]" : "translate-x-[-100%]"}`}
       >
         <div className=" flex flex-col justify-center gap-8 ">
           {sidebarData.map((item, index) => {
