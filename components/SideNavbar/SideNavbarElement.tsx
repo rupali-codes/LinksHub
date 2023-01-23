@@ -6,7 +6,7 @@ import { SubCategories } from '../../types';
 
 export const SideNavbarElement = ({ name, url }: SubCategories) => {
   const router = useRouter();
-
+  const { closeNav } = useContext(GlobalContext);
 
   return (
     <Link
