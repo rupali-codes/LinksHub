@@ -224,6 +224,15 @@ export const data: IData[] = [
     url: "https://dribbble.com",
     category: "frontend",
     subcategory: "design inspirtion",
+  },
+  {
+    id: "26",
+    name: "Godly Websites",
+    description:
+      "A curated collection of good web design from all over the web",
+    url: "https://godly.website",
+    category: "frontend",
+    subcategory: "design inspiration",
   }
 ];
 
