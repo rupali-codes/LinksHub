@@ -227,7 +227,16 @@ export const data: IData[] = [
     subcategory: "fonts",
   },
   {
-      id: "25",
+    id: "25",
+    name: "Dribbble",
+    description:
+      "Explore the world’s leading design portfolios",
+    url: "https://dribbble.com",
+    category: "frontend",
+    subcategory: "design inspirtion",
+  },
+  {
+    id: "25",
     name: "Framer Motion",
     description:
       "Framer Motion is a production-ready motion library for React from Framer, It's simple yet powerful, allowing you to express complex user interactions with robust, semantic markup.",
