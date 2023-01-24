@@ -215,6 +215,15 @@ export const data: IData[] = [
     url: "https://type-scale.com",
     category: "frontend",
     subcategory: "fonts",
+  },
+  {
+    id: "25",
+    name: "Ray.so",
+    description:
+      "it allows to take screenshot of the code in a beautiful way and share it with your friends.",
+    url: "https://ray.so/",
+    category: "frontend",
+    subcategory: "images",
   }
 ];
 
