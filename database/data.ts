@@ -233,6 +233,15 @@ export const data: IData[] = [
     url: "https://godly.website",
     category: "frontend",
     subcategory: "design inspiration",
+  },   
+  {
+    id: "27",
+    name: "Cubic Bezier",
+    description:
+      "A tool for visualisation and creation of cubic-bezier curves for animation in CSS",
+    url: "https://cubic-bezier.com/",
+    category: "frontend",
+    subcategory: "animations",
   }
 ];
 
