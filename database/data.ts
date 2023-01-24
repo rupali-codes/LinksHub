@@ -197,7 +197,7 @@ export const data: IData[] = [
     url: "https://coolors.co/",
     category: "frontend",
     subcategory: "colors",
-  },
+  },   
   {
     id: "23",
     name: "Lottie files",
@@ -207,6 +207,15 @@ export const data: IData[] = [
     category: "frontend",
     subcategory: "animations",
   },
+  {
+    id: "24",
+    name: "Type Scale",
+    description:
+      "A tool to create visual type scales - sets of font sizes that follow good-looking proportions.",
+    url: "https://type-scale.com",
+    category: "frontend",
+    subcategory: "fonts",
+  }
 ];
 
 export const sidebarData: ISidebar[] = [
