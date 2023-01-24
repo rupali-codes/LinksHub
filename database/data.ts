@@ -227,7 +227,7 @@ export const data: IData[] = [
   },
   {
     id: "26",
-    name: "Godly Websites",
+    name: "Godly Website",
     description:
       "A curated collection of good web design from all over the web",
     url: "https://godly.website",
