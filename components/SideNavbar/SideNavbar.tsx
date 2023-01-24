@@ -1,8 +1,6 @@
 import Link from 'next/link';
 import { createRef, useContext, useEffect } from 'react';
-import { IconContext } from 'react-icons';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub } from 'react-icons/fa';
 import { GlobalContext } from '../../context/GlobalContext';
 import { sidebarData } from '../../database/data';
 import Logo from '../logo';
@@ -40,23 +38,6 @@ export const SideNavbar = () => {
         <Link href={'/'}>
           <Logo className="text-3xl mb-4" />
         </Link>
-        <ul className="inline-flex space-x-2">
-          <li>
-            <a
-              title="Link to Github project (External Link)"
-              className="dark:text-gray-300"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/rupali-codes/LinksHub"
-            >
-              <IconContext.Provider
-                value={{ className: 'shared-class', size: '28' }}
-              >
-                <FaGithub />
-              </IconContext.Provider>
-            </a>
-          </li>
-        </ul>
 
         <button
           ref={menuBtnRef}
