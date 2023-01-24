@@ -182,6 +182,15 @@ export const data: IData[] = [
   },
   {
     id: "20",
+    name: "1001 fonts",
+    description:
+      "1001 fonts is a platform that offers 42933 free fonts in 24214 families · Free licenses for commercial use·",
+    url: "https://www.1001fonts.com/",
+    category: "frontend",
+    subcategory: "fonts",
+  },
+  {
+    id: "21",
     name: "Coolors",
     description:
       "Coolors is the essential tool for creating color palettes. It generates perfect matching colors in seconds.",
