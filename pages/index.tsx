@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Logo from "../components/logo";
+import { TopBar } from "../components/TopBar/TopBar";
 
 export default function Home() {
   return (
@@ -11,12 +12,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icon.ico" className="rounded-full" />
       </Head>
-      <main className="h-screen flex ">
-        <div className="m-auto md:text-7xl text-5xl  flex items-center">
-        <Logo className=""/>
-        👾
+      <main className="h-screen flex flex-col">
+        <TopBar header="Home" />
+        <div className="m-auto md:text-7xl text-5xl gap-2 flex items-center justify-center">
+          <Logo />
+          <span>👾</span>
         </div>
-        </main>
+      </main>
     </>
   );
 }
