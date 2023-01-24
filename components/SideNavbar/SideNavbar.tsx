@@ -11,13 +11,20 @@ export const SideNavbar = () => {
   const { toggleNav, sidebar, openNav, closeNav } = useContext(GlobalContext);
 
   const menuRef = createRef<HTMLDivElement>();
+  const menuBtnRef = createRef<HTMLButtonElement>();
 
   // closing navbar on click
   useEffect(() => {
     const handler = (e: MouseEvent): void => {
       const target = e.target as HTMLElement;
 
-      if (!menuRef.current?.contains(target)) closeNav && closeNav();
+      if (
+        sidebar &&
+        !menuRef.current?.contains(target) &&
+        !menuBtnRef.current?.contains(target)
+      ) {
+        closeNav && closeNav();
+      }
     };
 
     document.addEventListener('mousedown', handler);
@@ -52,6 +59,7 @@ export const SideNavbar = () => {
         </ul>
 
         <button
+          ref={menuBtnRef}
           className="relative h-[24px] w-[24px] lg:hidden dark:text-gray-300"
           onClick={toggleNav && toggleNav}
         >
@@ -63,6 +71,7 @@ export const SideNavbar = () => {
           />
           <AiOutlineClose
             size={24}
+            id="hamburger"
             className={`absolute left-0 top-[5%] transition-all duration-[1s] ${
               sidebar
                 ? 'opacity-[1] z-[1]'
