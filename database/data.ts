@@ -223,7 +223,7 @@ export const data: IData[] = [
       "Explore the world’s leading design portfolios",
     url: "https://dribbble.com",
     category: "frontend",
-    subcategory: "design inspiration",
+    subcategory: "design inspirtion",
   }
 ];
 
