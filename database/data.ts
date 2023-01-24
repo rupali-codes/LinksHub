@@ -215,6 +215,15 @@ export const data: IData[] = [
     url: "https://type-scale.com",
     category: "frontend",
     subcategory: "fonts",
+  },
+  {
+    id: "25",
+    name: "Dribbble",
+    description:
+      "Explore the world’s leading design portfolios",
+    url: "https://dribbble.com",
+    category: "frontend",
+    subcategory: "design inspirtion",
   }
 ];
 
