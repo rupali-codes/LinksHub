@@ -236,7 +236,7 @@ export const data: IData[] = [
     subcategory: "design inspirtion",
   },
   {
-    id: "25",
+    id: "26",
     name: "Framer Motion",
     description:
       "Framer Motion is a production-ready motion library for React from Framer, It's simple yet powerful, allowing you to express complex user interactions with robust, semantic markup.",
