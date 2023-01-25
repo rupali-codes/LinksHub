@@ -182,15 +182,6 @@ export const data: IData[] = [
     subcategory: 'images',
   },
   {
-    id: "28",
-    name: "HTML Color Picker",
-    description:
-      "This is a color picker by w3schools which provides different shades of colors based on your requirements. It also gives Hex and RGB value of color.",
-    url: "https://w3schools.com/colors/colors_picker.asp",
-    category: "frontend",
-    subcategory: "colors",
-  },
-  {
     id: "21",
     name: "1001 fonts",
     description:
@@ -252,6 +243,15 @@ export const data: IData[] = [
     url: "https://uifaces.co/browse-avatars/",
     category: "frontend",
     subcategory: "images",
+  },
+  {
+    id: "28",
+    name: "HTML Color Picker",
+    description:
+      "This is a color picker by w3schools which provides different shades of colors based on your requirements. It also gives Hex and RGB value of color.",
+    url: "https://w3schools.com/colors/colors_picker.asp",
+    category: "frontend",
+    subcategory: "colors",
   },
 ];
 
