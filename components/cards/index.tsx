@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import { data } from "../../database/data";
 import { IData } from "../../types";
-import { LinkContainer } from "../LinksConatiners/LinkContainer";
+import { LinkContainer } from "../LinksContainer/LinkContainer";
 
 const Cards = () => {
   const router = useRouter();
