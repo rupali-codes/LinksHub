@@ -10,7 +10,7 @@ export const SideNavbar = () => {
   const { toggleNav, sidebar } = useContext(GlobalContext);
 
   return (
-    <div className={`lg:w-[290px] fixed top-0 left-0 w-full  lg:h-full`}>
+    <div className={`lg:w-[290px] fixed top-0 left-0 w-full h-[87px] lg:h-full`}>
       <div className="flex bg-white p-4 justify-between dark:bg-gray-900">
         <Link href={"/"}>
           <Logo className="text-3xl mb-4" />
@@ -37,7 +37,7 @@ export const SideNavbar = () => {
         </button>
       </div>
       <div
-        className={`scrollColor z-[10] bg-white dark:bg-gray-900 dark:text-gray-300 lg:translate-x-0 lg:w-full w-[75%] p-4 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-screen
+        className={`scrollColor bg-white dark:bg-gray-900 dark:text-gray-300 lg:translate-x-0 lg:w-full w-[75%] p-4 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-screen
          ${sidebar ? "translate-x-[0%]" : "translate-x-[-100%]"}`}
       >
         <div className=" flex flex-col justify-center gap-8 ">
