@@ -1,6 +1,8 @@
 # Welcome to LinksHub
 
-LinksHub is a Hub of Links `for developers by developers`. Where we will be putting links to all free/paid & useful resources together which will be helpful for Beginners to advanced level developers And because we believe that There's no lack of resources but there's lack of Awareness, hopefully we can get the right resource to the right person.
+LinksHub is a Hub of Links `by developers for developers`, where we will be putting links to all useful resources (both free and paid) which will be helpful for Beginners as well as Advanced level developers. 
+
+We believe that there's no lack of resources but there's lack of Awareness, Hopefully we can get the right resource to the right person.
 
 ## Demo
 
@@ -35,14 +37,14 @@ Follow these steps to start contributing into LinksHub
    ```sh
    npm install
    ```
-5. Make your changes and push the code to your github repo
+5. Make your changes and push the code to your Github repo
 6. Now, create a pull request
 
 Bingo! You're done
 
 ## License
 
-LinskHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENSE) for details.
+LinksHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENSE) for details.
 
 ---
 
