@@ -11,7 +11,7 @@ export const LinkContainer = ({ name, description, url }) => {
             href={url}
             target="_blank"
             rel="noreferrer"
-            className="mt-2 px-6 py-2 text-white text-center font-semibold bg-violet-500 rounded-2xl w-full border border-violet-500 hover:bg-transparent hover:text-violet-500"
+            className="mt-2 px-6 py-2 text-white text-center font-semibold bg-violet-600 rounded-2xl w-full hover:bg-transparent hover:text-violet-500 border border-dashed border-transparent hover:border-violet-400"
           >
             Visit site
           </a>
