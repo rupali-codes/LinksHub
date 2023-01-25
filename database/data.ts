@@ -181,14 +181,50 @@ export const data: IData[] = [
     subcategory: "images",
   },
   {
-    id: "20",
+    id: "21",
+    name: "1001 fonts",
+    description:
+      "1001 fonts is a platform that offers 42933 free fonts in 24214 families · Free licenses for commercial use·",
+    url: "https://www.1001fonts.com/",
+    category: "frontend",
+    subcategory: "fonts",
+  },
+  {
+    id: "22",
     name: "Coolors",
     description:
       "Coolors is the essential tool for creating color palettes. It generates perfect matching colors in seconds.",
     url: "https://coolors.co/",
     category: "frontend",
     subcategory: "colors",
+  },   
+  {
+    id: "23",
+    name: "Lottie files",
+    description:
+      "LottieFiles takes away the complexity from Motion Design. It lets you Create, Edit, Test, Collaborate and Ship a Lottie in the easiest way possible.",
+    url: "https://lottiefiles.com/",
+    category: "frontend",
+    subcategory: "animations",
   },
+  {
+    id: "24",
+    name: "Type Scale",
+    description:
+      "A tool to create visual type scales - sets of font sizes that follow good-looking proportions.",
+    url: "https://type-scale.com",
+    category: "frontend",
+    subcategory: "fonts",
+  },
+  {
+    id: "25",
+    name: "Dribbble",
+    description:
+      "Explore the world’s leading design portfolios",
+    url: "https://dribbble.com",
+    category: "frontend",
+    subcategory: "design inspirtion",
+  }
 ];
 
 export const sidebarData: ISidebar[] = [
