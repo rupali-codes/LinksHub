@@ -233,7 +233,7 @@ export const data: IData[] = [
       "Explore the world’s leading design portfolios",
     url: "https://dribbble.com",
     category: "frontend",
-    subcategory: "design inspirtion",
+    subcategory: "design-inspiration",
   },
   {
     id: "26",
@@ -243,7 +243,7 @@ export const data: IData[] = [
     url: "https://www.framer.com/motion/",
     category: "frontend",
     subcategory: "animations",
-  }
+  },
 ];
 
 export const sidebarData: ISidebar[] = [
