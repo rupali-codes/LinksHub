@@ -182,13 +182,13 @@ export const data: IData[] = [
     subcategory: 'images',
   },
   {
-    id: '20',
-    name: 'Coolors',
+    id: "28",
+    name: "HTML Color Picker",
     description:
-      'Coolors is the essential tool for creating color palettes. It generates perfect matching colors in seconds.',
-    url: 'https://coolors.co/',
-    category: 'frontend',
-    subcategory: 'colors',
+      "This is a color picker by w3schools which provides different shades of colors based on your requirements. It also gives Hex and RGB value of color.",
+    url: "https://w3schools.com/colors/colors_picker.asp",
+    category: "frontend",
+    subcategory: "colors",
   },
   {
     id: "21",
@@ -243,6 +243,15 @@ export const data: IData[] = [
     url: "https://www.framer.com/motion/",
     category: "frontend",
     subcategory: "animations",
+  },
+  {
+    id: "27",
+    name: "UI Faces",
+    description:
+      "UI Faces aggregates various free avatar placeholder sources that you can use in your design mockups by copy & paste, API, and plugins for Sketch, Adobe XD, and Figma.",
+    url: "https://uifaces.co/browse-avatars/",
+    category: "frontend",
+    subcategory: "images",
   },
 ];
 
