@@ -33,9 +33,9 @@ export const SideNavbar = () => {
   });
 
   return (
-    <div className={`lg:w-[290px] fixed top-0 left-0 w-full  lg:h-full`}>
-      <div className="flex bg-base-300 p-4 justify-between dark:bg-gray-900">
-        <Link href={'/'}>
+    <div className={`lg:w-[290px] fixed top-0 left-0 w-full h-[87px] z-[10] lg:h-full`}>
+      <div className="flex bg-white p-4 justify-between dark:bg-gray-900">
+        <Link href={"/"}>
           <Logo className="text-3xl mb-4" />
         </Link>
 
