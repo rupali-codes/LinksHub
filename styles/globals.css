@@ -26,7 +26,7 @@
 /* Handle */
 
 .scrollColor::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #202c46;
     border-radius: 20px;
 }
 
@@ -34,5 +34,5 @@
 /* Handle on hover */
 
 .scrollColor::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #304269;
 }
