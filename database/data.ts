@@ -228,6 +228,24 @@ export const data: IData[] = [
   },
   {
     id: "26",
+    name: "Godly Website",
+    description:
+      "A curated collection of good web design from all over the web",
+    url: "https://godly.website",
+    category: "frontend",
+    subcategory: "design-inspiration",
+  },   
+  {
+    id: "27",
+    name: "Cubic Bezier",
+    description:
+      "A tool for visualisation and creation of cubic-bezier curves for animation in CSS",
+    url: "https://cubic-bezier.com/",
+    category: "frontend",
+    subcategory: "animations",
+  },
+  {
+    id: "28",
     name: "Framer Motion",
     description:
       "Framer Motion is a production-ready motion library for React from Framer, It's simple yet powerful, allowing you to express complex user interactions with robust, semantic markup.",
@@ -236,7 +254,7 @@ export const data: IData[] = [
     subcategory: "animations",
   },
   {
-    id: "27",
+    id: "29",
     name: "UI Faces",
     description:
       "UI Faces aggregates various free avatar placeholder sources that you can use in your design mockups by copy & paste, API, and plugins for Sketch, Adobe XD, and Figma.",
@@ -245,7 +263,7 @@ export const data: IData[] = [
     subcategory: "images",
   },
   {
-    id: "28",
+    id: "30",
     name: "HTML Color Picker",
     description:
       "This is a color picker by w3schools which provides different shades of colors based on your requirements. It also gives Hex and RGB value of color.",
