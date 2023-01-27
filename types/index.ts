@@ -1,3 +1,5 @@
+import { HiColorSwatch } from "react-icons/hi";
+
 export type DataList = {
   name: string;
   description: string;
@@ -19,7 +21,7 @@ export interface IData {
 
 export type Category = "frontend" | "backend";
 
-export type SubCategory = "images" | "icons" | "illustrations" | "colors" | "fonts" | "animations" | "testing" | "themes-templates" | "design-inspiration" | "validation" | "security" | "authentication" | "caching" ;
+export type SubCategory = "animations" | "colors" | "design inspiration" | "fonts" | "icons" | "images" | "testing" | "themes-templates" | "authentication" | "caching" | "security" | "validation" ;
 export type SubCategories = {
   name: string;
   url: string;
