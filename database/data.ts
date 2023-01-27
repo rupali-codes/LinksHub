@@ -224,7 +224,7 @@ export const data: IData[] = [
       "Explore the world’s leading design portfolios",
     url: "https://dribbble.com",
     category: "frontend",
-    subcategory: "design inspirtion",
+    subcategory: "design-inspiration",
   },
   {
     id: "26",
@@ -233,7 +233,7 @@ export const data: IData[] = [
       "A curated collection of good web design from all over the web",
     url: "https://godly.website",
     category: "frontend",
-    subcategory: "design inspiration",
+    subcategory: "design-inspiration",
   },   
   {
     id: "27",
