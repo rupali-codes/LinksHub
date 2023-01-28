@@ -25,7 +25,7 @@ export const TopBar = ({ header }: { header?: string }) => {
           <IconContext.Provider
             value={{ className: 'shared-class', size: '28' }}
           >
-            <FaGithub />
+            <FaGithub className='hover:text-violet-500' />
           </IconContext.Provider>
         </a>
         <ThemeToggler />
