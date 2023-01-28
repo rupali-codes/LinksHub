@@ -221,7 +221,7 @@ export const data: IData[] = [
     id: "25",
     name: "Dribbble",
     description:
-      "Explore the world’s leading design portfolios",
+      "Explore the world’s leading design portfolios.",
     url: "https://dribbble.com",
     category: "frontend",
     subcategory: "design-inspiration",
@@ -271,6 +271,71 @@ export const data: IData[] = [
     category: "frontend",
     subcategory: "colors",
   },
+  {
+    id: "31",
+    name: "Neumorphism.io",
+    description: "It's a platform where you can generate Soft-UI CSS elements for your webiste or app.",
+    url: "https://neumorphism.io/#e0e0e0",
+    category: "frontend",
+    subcategory: "ui-generators",
+  },
+  {
+    id: "32",
+    name: "Hype4 Academy",
+    description: "Another cool and excellent site to generate Glassmorphism CSS for your project.",
+    url: "https://hype4.academy/tools/glassmorphism-generator",
+    category: "frontend",
+    subcategory: "ui-generators",
+  },
+  {
+    id: "33",
+    name: "Universe.io",
+    description: "It provides tones of cool UI elements made with HTML & CSS.",
+    url: "https://uiverse.io/all",
+    category: "frontend",
+    subcategory: "ui-generators",
+  },
+  {
+    id: "34",
+    name: "CSS Portal",
+    description: "A bundle of amazing and UI CSS elements for you to use in your project.",
+    url: "https://www.cssportal.com/ui-generators.php",
+    category: "frontend",
+    subcategory: "ui-generators",
+  },
+  {
+    id: "35",
+    name: "EnjoyCSS",
+    description: "A platform to implement amazing CSS elements of your choice for your porject.",
+    url: "https://enjoycss.com/",
+    category: "frontend",
+    subcategory: "ui-generators",
+  },
+  {
+    id: "36",
+    name: "CSS Generator",
+    description: "A CSS generator that helps you demonstrate and quickly generate CSS declarations for your website.",
+    url: "https://cssgenerator.org/",
+    category: "frontend",
+    subcategory: "ui-generators",
+  },
+  {
+    id: "37",
+    name: "Code Magic",
+    description: "An amazing open source platform for generating ready to use CSS elements for your project. ",
+    url: "https://code-magic.vercel.app/",
+    category: "frontend",
+    subcategory: "ui-generators",
+  },
+  {
+    id: "38",
+    name: "daisyUI",
+    description: "A platform where you can generate UI components based on TailwindCSS. ",
+    url: "",
+    category: "frontend",
+    subcategory: "ui-generators",
+  },
+  
 ];
 
 export const sidebarData: ISidebar[] = [
@@ -286,6 +351,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'design inspiration', url: '/design-inspiration' },
       { name: 'testing', url: '/testing' },
       { name: 'themes & templates', url: '/themes-templates' },
+      { name: 'UI Generator', url: '/ui-generator' },
     ],
   },
   {
