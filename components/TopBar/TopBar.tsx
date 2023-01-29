@@ -7,8 +7,8 @@ export const TopBar = ({ header }: { header?: string }) => {
   const router = useRouter();
   const category = router.asPath.replace('/', '');
   return (
-    <div className="flex items-center justify-between mb-4 sm:text-3xl  xs:overflow-x-hidden">
-      <div className="flex items-center my-4 dark:text-gray-300 xs:text-2xl">
+    <div className="flex items-center justify-between mb-4 xs:overflow-x-hidden">
+      <div className="flex items-center my-4 dark:text-gray-300 sm:text-3xl xs:text-2xl">
         <FaSlackHash className="mt-1 mr-2 text-gray-600 dark:text-gray-300" />
         <span className="text-gray-900 dark:text-gray-100 uppercase font-bold">
           {header ?? category}
