@@ -6,7 +6,11 @@ module.exports = {
         "./layouts/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            screens: {
+                'xs': '200px'
+              },
+        },
     },
     plugins: [require("daisyui")],
     darkMode: ["class", '[data-theme="dark"]'],
