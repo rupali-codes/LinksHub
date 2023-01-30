@@ -357,11 +357,11 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'backend',
     subcategory: [
-      { name: 'validation', url: '' },
-      { name: 'security', url: '' },
-      { name: 'authentication', url: '' },
-      { name: 'caching', url: '' },
-      { name: 'testing', url: '' },
+      { name: 'validation', url: '/validation' },
+      { name: 'security', url: 'security' },
+      { name: 'authentication', url: 'authentication' },
+      { name: 'caching', url: 'caching' },
+      { name: 'testing', url: 'testing' },
     ],
   },
 ];
