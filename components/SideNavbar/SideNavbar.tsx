@@ -68,7 +68,7 @@ export const SideNavbar = () => {
            sidebar ? 'translate-x-[0%] ' : 'translate-x-[-100%]'
          }  scrollColor z-[10] dark:bg-gray-900 dark:text-gray-300`}
       >
-        <div className=" flex flex-col justify-center gap-8 ">
+        <div className=" flex flex-col justify-center gap-8 mb-4">
           {sidebarData.map((item, index) => {
             return (
               <div key={index}>
