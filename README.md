@@ -1,6 +1,5 @@
 <div align="center">
-<img src="https://user-images.githubusercontent.com/78981177/215044431-2d124fde-f04e-4168-8f90-c97f51892678.png"/>
-<h3><strong><em>Your one-stop destination for all developer resources.</em></strong></h3>
+<img src="https://user-images.githubusercontent.com/78981177/215495029-ff9d4d24-a626-494a-859d-293cb9925f63.png"/>
 </div><hr>
 
 # Welcome to LinksHub
