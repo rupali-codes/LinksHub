@@ -22,7 +22,7 @@ You can see the live demo at: https://linkshub.vercel.app
 
 > Prerequisites: Before getting into it make you sure, you have [npm](https://nodejs.org/download) installed
 
-Make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/main/blob/CONTRIBUTING.md)
+Make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)
 
 ### Let's jump right in
 
