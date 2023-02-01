@@ -331,11 +331,26 @@ export const data: IData[] = [
     id: "38",
     name: "daisyUI",
     description: "A platform where you can generate UI components based on TailwindCSS. ",
-    url: "",
+    url: "https://daisyui.com/",
     category: "frontend",
     subcategory: "ui-generators",
   },
-  
+  {
+    id: "39",
+    name: "TailBlocks",
+    description: "Another great platform where you can generate UI components based on TailwindCSS. ",
+    url: "https://tailblocks.cc/",
+    category: "frontend",
+    subcategory: "ui-generators",
+  },
+  {
+    id: "40",
+    name: "Proton",
+    description: "A JavaScript particle based animation engine. Which provides you tones of animated elements.",
+    url: "https://drawcall.github.io/Proton/",
+    category: "frontend",
+    subcategory: "animations",
+  },
 ];
 
 export const sidebarData: ISidebar[] = [
