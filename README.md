@@ -1,8 +1,12 @@
+<div align="center">
+<img src="https://user-images.githubusercontent.com/78981177/215495029-ff9d4d24-a626-494a-859d-293cb9925f63.png"/>
+</div><hr>
+
 # Welcome to LinksHub
 
-LinksHub is a Hub of Links `by developers for developers`, where we will be putting links to all useful resources (both free and paid) which will be helpful for Beginners as well as Advanced level developers. 
+LinksHub is a Hub of Links `by developers for developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
 
-We believe that there's no lack of resources but there's lack of Awareness, Hopefully we can get the right resource to the right person.
+We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to the right developers.
 
 ## Demo
 
@@ -18,7 +22,7 @@ You can see the live demo at: https://linkshub.vercel.app
 
 > Prerequisites: Before getting into it make you sure, you have [npm](https://nodejs.org/download) installed
 
-Make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/main/blob/CONTRIBUTING.md)
+Make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)
 
 ### Let's jump right in
 
