@@ -5,6 +5,8 @@ import { GlobalContext } from '../../context/GlobalContext';
 import { sidebarData } from '../../database/data';
 import Logo from '../logo';
 import { SideNavbarElement } from './SideNavbarElement';
+import { SubCategories} from '../../types/index'
+
 export const SideNavbar = () => {
   const { toggleNav, sidebar, openNav, closeNav } = useContext(GlobalContext);
 
@@ -75,7 +77,7 @@ export const SideNavbar = () => {
                 <h2 key={index} className="uppercase mb-3 font-bold text-xl">
                   {item.category}
                 </h2>
-                {item.subcategory.map((list, i) => {
+                {item.subcategory.sort((a,b) => (a.name.toUpperCase() < b.name.toUpperCase()) ? -1 : 1).map((list, i) => {
                   return <SideNavbarElement key={i} {...list} />;
                 })}
               </div>
