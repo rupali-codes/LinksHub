@@ -584,7 +584,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'caching', url: 'caching' },
       { name: 'testing', url: 'testing' },
     ],
-    lang: 'es'
+    lang: 'en'
   },
   {
     category: 'backend',
@@ -595,6 +595,6 @@ export const sidebarData: ISidebar[] = [
       { name: 'caching', url: 'caching' },
       { name: 'testing', url: 'testing' },
     ],
-    lang: 'en'
+    lang: 'es'
   },
 ];
