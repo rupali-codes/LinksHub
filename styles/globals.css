@@ -4,35 +4,60 @@
 
 /* scrollable */
 
-.scrollColor {
-    overflow-y: scroll;
+.scrollColorDark {
+  overflow-y: scroll;
 }
-
 
 /* width */
 
-.scrollColor::-webkit-scrollbar {
-    width: 10px;
+.scrollColorDark::-webkit-scrollbar {
+  width: 8px;
 }
-
 
 /* Track */
 
-.scrollColor::-webkit-scrollbar-track {
-    background: transparent;
+.scrollColorDark::-webkit-scrollbar-track {
+  background: transparent;
 }
-
 
 /* Handle */
 
-.scrollColor::-webkit-scrollbar-thumb {
-    background: #202c46;
-    border-radius: 20px;
+.scrollColorDark::-webkit-scrollbar-thumb {
+  background: #202c46;
+  border-radius: 20px;
 }
-
 
 /* Handle on hover */
 
-.scrollColor::-webkit-scrollbar-thumb:hover {
-    background: #304269;
+.scrollColorDark::-webkit-scrollbar-thumb:hover {
+  background: #304269;
+}
+
+.scrollColorLight {
+  overflow-y: scroll;
+}
+
+/* width */
+
+.scrollColorLight::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+
+.scrollColorLight::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+
+.scrollColorLight::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+
+.scrollColorLight::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
 }
