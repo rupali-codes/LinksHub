@@ -3,8 +3,8 @@ import type { AppProps } from "next/app";
 import GeneralLayout from "../layouts/GeneralLayout";
 import { GlobalProvider } from "../context/GlobalContext";
 import { useEffect, useState } from "react";
-import { Preloader } from "../components/Loader/Preloader";
 import { ThemeProvider } from "next-themes";
+import Preloader from "../components/Preloader/Preloader";
 export default function App({ Component, pageProps }: AppProps) {
   const [loader, setLoader] = useState(true);
 

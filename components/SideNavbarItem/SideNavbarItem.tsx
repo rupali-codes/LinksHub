@@ -1,10 +1,10 @@
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import { useContext } from 'react';
-import { GlobalContext } from '../../context/GlobalContext';
-import { SubCategories } from '../../types';
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { useContext } from "react";
+import { GlobalContext } from "../../context/GlobalContext";
+import { SubCategories } from "../../types";
 
-export const SideNavbarElement = ({ name, url }: SubCategories) => {
+const SideNavbarItem = ({ name, url }: SubCategories) => {
   const router = useRouter();
   const { closeNav } = useContext(GlobalContext);
 
@@ -22,3 +22,5 @@ export const SideNavbarElement = ({ name, url }: SubCategories) => {
     </Link>
   );
 };
+
+export default SideNavbarItem;

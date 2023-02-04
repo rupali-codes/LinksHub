@@ -1,6 +1,4 @@
-import React from "react";
-
-export const MainContainer = () => {
+const MainContainer = () => {
   return (
     <div className="min-h-screen flex flex-row items-center justify-center">
       <h2 className="text-6xl font-bold text-violet-200">
@@ -11,3 +9,5 @@ export const MainContainer = () => {
     </div>
   );
 };
+
+export default MainContainer;
