@@ -1,15 +1,17 @@
 import Link from "next/link";
-import { createRef, useContext, useEffect, useState } from "react";
+import { Searchbar } from "../Searchbar";
+import useSidebarSearch from "../../hooks/useSidebarSearch";
+import { createRef, useContext, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { GlobalContext } from "../../context/GlobalContext";
 import Logo from "../logo";
 import { SideNavbarElement } from "./SideNavbarElement";
-import { Searchbar } from "../Searchbar";
-import useSidebarSearch from "../../hooks/useSidebarSearch";
+import classNames from "classnames";
+import { useTheme } from "next-themes";
 
 export const SideNavbar = () => {
   const { toggleNav, sidebar, openNav, closeNav } = useContext(GlobalContext);
-
+  const { theme } = useTheme();
   const menuRef = createRef<HTMLDivElement>();
   const menuBtnRef = createRef<HTMLButtonElement>();
 
@@ -69,15 +71,16 @@ export const SideNavbar = () => {
       </div>
       <div
         ref={menuRef}
-        className={`lg:translate-x-0 lg:w-full w-[75%] p-4 bg-base-300 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-screen
-        ${
-          sidebar ? "translate-x-[0%] " : "translate-x-[-100%]"
-        }  scrollColor z-[10] dark:bg-gray-900 dark:text-gray-300`}
+        className={classNames(
+          `lg:translate-x-0 lg:w-full w-[75%] p-4 bg-base-200 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-screen z-[10] dark:bg-gray-900 dark:text-gray-300`,
+          sidebar ? "translate-x-[0%] " : "translate-x-[-100%]",
+          theme === "light" ? "scrollColorLight" : "scrollColorDark"
+        )}
       >
         <div className="pb-4">
           <Searchbar setSearch={setSearch} />
         </div>
-        <div className=" flex flex-col justify-center gap-8 mb-4">
+        <div className="flex flex-col justify-center gap-8 mb-4">
           {searchResults.map((item, index) => {
             return (
               <div key={index}>
