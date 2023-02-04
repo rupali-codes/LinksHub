@@ -8,7 +8,7 @@ import { SideNavbarElement } from './SideNavbarElement';
 import { SubCategories} from '../../types/index'
 
 export const SideNavbar = () => {
-  const { toggleNav, sidebar, openNav, closeNav } = useContext(GlobalContext);
+  const { toggleNav, sidebar, closeNav, lang } = useContext(GlobalContext);
 
   const menuRef = createRef<HTMLDivElement>();
   const menuBtnRef = createRef<HTMLButtonElement>();
@@ -71,7 +71,7 @@ export const SideNavbar = () => {
          }  scrollColor z-[10] dark:bg-gray-900 dark:text-gray-300`}
       >
         <div className=" flex flex-col justify-center gap-8 mb-4">
-          {sidebarData.map((item, index) => {
+          {sidebarData.filter(item => item.lang === lang).map((item, index) => {
             return (
               <div key={index}>
                 <h2 key={index} className="uppercase mb-3 font-bold text-xl">

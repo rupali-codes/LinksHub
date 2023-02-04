@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { data } from "../../database/data";
 import { ISideNavbarElement, IData } from "../../types/index";
 import { FaSlackHash } from "react-icons/fa";
 import { LinkContainer } from "./LinkContainer";
+import { GlobalContext } from "../../context/GlobalContext";
 
 export const LinksContainer = () => {
+  const { lang } = useContext(GlobalContext)
+  const subcategory = lang === 'en' ? 'subcategory_en' : 'subcategory_es'
   return (
     <section>
       <div className="my-8 mx-auto lg:mx-20">
@@ -14,7 +17,7 @@ export const LinksContainer = () => {
         </div>
 
         <div className="flex flex-col md:flex-row lg:flex-row w-full md:justify-between gap-5 items-center">
-          {data.filter(item=>item.subcategory.includes(item.subcategory)).map((d:IData, key:number) => (
+          {data.filter(item=>item[subcategory].includes(item[subcategory])).map((d:IData, key:number) => (
             <LinkContainer
               name={d.name}
               description={d.description}

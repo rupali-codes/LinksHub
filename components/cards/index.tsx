@@ -1,14 +1,18 @@
 import { useRouter } from "next/router";
-import React from "react";
+import React, { useContext } from "react";
+import { GlobalContext } from "../../context/GlobalContext";
 import { data } from "../../database/data";
 import { IData } from "../../types";
 import { LinkContainer } from "../LinksContainer/LinkContainer";
 
 const Cards = () => {
   const router = useRouter();
+  const { lang } = useContext(GlobalContext)
+
+  const subcategory = lang === 'en' ? 'subcategory_en' : 'subcategory_es'
 
   const filterDB = data.filter((item) =>
-    item.subcategory
+    item[subcategory]
       .toLowerCase()
       .includes(router.asPath.replace("/", "").toLowerCase())
   );
@@ -22,7 +26,7 @@ const Cards = () => {
       {filterDB?.map((data: IData, key: number) => (
         <LinkContainer
           name={data.name}
-          description={data.description}
+          description={lang === 'en' ? data.description.en : data.description.es}
           url={data.url}
           key={key + "-" + data.name}
         />

@@ -1,11 +1,18 @@
 import { useRouter } from 'next/router';
+import { useContext } from 'react';
 import { IconContext } from 'react-icons';
 import { FaGithub, FaSlackHash } from 'react-icons/fa';
+import { GlobalContext } from '../../context/GlobalContext';
+import { LangButton } from '../langButton';
 import { ThemeToggler } from '../ThemeToggler/themeToggler';
 
 export const TopBar = ({ header }: { header?: string }) => {
+
+  const { changeLang, lang } = useContext(GlobalContext)
+
   const router = useRouter();
   const category = router.asPath.replace('/', '');
+
   return (
     <div className="flex items-center justify-between mb-4 xs:overflow-x-hidden">
       <div className="flex items-center my-4 dark:text-gray-300 sm:text-3xl xs:text-2xl">
@@ -14,7 +21,7 @@ export const TopBar = ({ header }: { header?: string }) => {
           {header ?? category}
         </span>
       </div>
-      <div className="items-center flex justify-center gap-6 px-10 xs:gap-5">
+      <div className="items-center flex justify-center gap-6 px-10 xs:gap-2">
         <a
           title="Link to Github project (External Link)"
           className="dark:text-gray-300"
@@ -28,6 +35,7 @@ export const TopBar = ({ header }: { header?: string }) => {
             <FaGithub className='hover:text-violet-500' />
           </IconContext.Provider>
         </a>
+        <LangButton lang={lang} changeLang={changeLang}/>
         <ThemeToggler />
       </div>
     </div>
