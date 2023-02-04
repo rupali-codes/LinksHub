@@ -5,10 +5,12 @@ import { GlobalContext } from "../../context/GlobalContext";
 import { sidebarData } from "../../database/data";
 import Logo from "../Logo/Logo";
 import SideNavbarItem from "../SideNavbarItem/SideNavbarItem";
+import classNames from "classnames";
+import { useTheme } from "next-themes";
 
 const SideNavbar = () => {
   const { toggleNav, sidebar, openNav, closeNav } = useContext(GlobalContext);
-
+  const { theme } = useTheme();
   const menuRef = createRef<HTMLDivElement>();
   const menuBtnRef = createRef<HTMLButtonElement>();
 
@@ -36,7 +38,7 @@ const SideNavbar = () => {
     <div
       className={`lg:w-[290px] fixed top-0 left-0 w-full h-[87px] z-[10] lg:h-full`}
     >
-      <div className="flex bg-white p-4 justify-between dark:bg-gray-900">
+      <div className="flex bg-gray-100 p-4 justify-between dark:bg-gray-900">
         <Link href={"/"}>
           <Logo className="text-3xl mb-4" />
         </Link>
@@ -65,12 +67,13 @@ const SideNavbar = () => {
       </div>
       <div
         ref={menuRef}
-        className={`lg:translate-x-0 lg:w-full w-[75%] p-4 bg-base-300 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-screen
-         ${
-           sidebar ? "translate-x-[0%] " : "translate-x-[-100%]"
-         }  scrollColor z-[10] dark:bg-gray-900 dark:text-gray-300`}
+        className={classNames(
+          `lg:translate-x-0 lg:w-full w-[75%] p-4 bg-base-200 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-screen z-[10] dark:bg-gray-900 dark:text-gray-300`,
+          sidebar ? "translate-x-[0%] " : "translate-x-[-100%]",
+          theme === "light" ? "scrollColorLight" : "scrollColorDark"
+        )}
       >
-        <div className=" flex flex-col justify-center gap-8 mb-4">
+        <div className="flex flex-col justify-center gap-8 mb-4">
           {sidebarData.map((item, index) => {
             return (
               <div key={index}>
