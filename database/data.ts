@@ -351,6 +351,46 @@ export const data: IData[] = [
     category: "frontend",
     subcategory: "animations",
   },
+  {
+    id: "41",
+    name: "Codepen",
+    description: "An amazing online community for testing and showcasing HTML, CSS, JavaScript code snippets.",
+    url: "https://codepen.io",
+    category: "frontend",
+    subcategory: "online-code-editors",
+  },
+  {
+    id: "42",
+    name: "Tryit",
+    description: "Another online platform for testing codes written in HTML, CSS and JavaScript.",
+    url: "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
+    category: "frontend",
+    subcategory: "online-code-editors",
+  },
+  {
+    id: "43",
+    name: "OnlineGDB",
+    description: "Another online platform for testing codes written in HTML, CSS and JavaScript.",
+    url: "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
+    category: "frontend",
+    subcategory: "online-code-editors",
+  },
+  {
+    id: "44",
+    name: "Sololearn",
+    description: "It's multi-language online code editor test and share your code snippets.",
+    url: "https://sololearn.com/compiler-playground/cVRUy2BwauK8",
+    category: "frontend",
+    subcategory: "online-code-editors",
+  },
+  {
+    id: "45",
+    name: "CodeChef",
+    description: "An online IDE to practice you competitive programming skills. It allows you to code in multiple lanaguges.",
+    url: "https://www.codechef.com/ide",
+    category: "frontend",
+    subcategory: "online-code-editors",
+  },
 ];
 
 export const sidebarData: ISidebar[] = [
@@ -364,9 +404,9 @@ export const sidebarData: ISidebar[] = [
       { name: 'animations', url: '/animations' },
       { name: 'icons', url: '/icons' },
       { name: 'design inspiration', url: '/design-inspiration' },
-      { name: 'testing', url: '/testing' },
       { name: 'themes & templates', url: '/themes-templates' },
-      { name: 'UI Generator', url: '/ui-generator' },
+      { name: 'UI Generators', url: '/ui-generator' },
+      { name: 'online code editors', url: '/online-code-editors' },
     ],
   },
   {
