@@ -4,7 +4,7 @@
 
 # Welcome to LinksHub
 
-LinksHub is a Hub of Links `by developers for developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
+LinksHub is a Hub of Links `by Developers for Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
 
 We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to the right developers.
 
@@ -31,7 +31,7 @@ Follow these steps to start contributing into LinksHub
 1. [Fork](https://github.com/rupali-codes/LinksHub/fork) the project
 2. Clone the project to run on your local machine using the following command
    ```sh
-   git clone https://github.com/<your-github-username>/LinksHub.git
+   git clone https://github.com/<your_github_username>/LinksHub.git
    ```
 3. Get into the root directory
    ```sh
@@ -46,7 +46,73 @@ Follow these steps to start contributing into LinksHub
 
 Bingo! You're done
 
-## Contributors
+## Wants to your favorite Links into the Hub?
+
+Follow these steps
+
+1. Open `database/data.ts` file
+   
+2. Copy the following code snippet to add your link/s
+   
+   ```sh
+      {
+         id: "",
+         name: "",
+         description: "",
+         url: "",
+         category: "",
+         subcategory: "",
+      }
+   ```
+   * `id`: +1 to previous id
+   * `name`: name of the site 
+   * `description`: a short description of the link/site
+   * `url`: URL of the site
+   * `category`: either could be `frontend` or `backend` 
+   * `subcategory`: it could be one of the followings - 
+     * For `frontend`
+        * animations
+        * colors
+        * design-inspiration
+        * fonts
+        * icons
+        * illustrations
+        * images
+        * testing
+        * themes-templates
+        * ui-generators
+      * For `backend`
+        * authentication
+        * caching
+        * security
+        * validation
+        * security
+        * testing
+
+
+3. Run this command to add your changes
+   ```sh
+      git add database/data.ts
+   ```
+
+4. Commit your changes
+   ```sh 
+      git commit -m "chore: added new link"
+   ```
+
+5. Push your code
+   ```sh
+      git push origin <your_branch_name>
+   ```
+
+6. Create a new [Pull Request]([here](https://github.com/rupali-codes/LinksHub/compare) ) and click on `compare acorss forks`:
+      * Select your `repo`
+      * Select your `branch`
+  
+7. Boom! your link will be added as soon as maintainers approves the changes.
+
+## Our Contributors
+
 <a href="https://github.com/rupali-codes/LinksHub/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=rupali-codes/LinksHub" />
 </a>
