@@ -1,8 +1,9 @@
 import Link from "next/link";
+import { Searchbar } from "../Searchbar";
+import useSidebarSearch from "../../hooks/useSidebarSearch";
 import { createRef, useContext, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { GlobalContext } from "../../context/GlobalContext";
-import { sidebarData } from "../../database/data";
 import Logo from "../logo";
 import { SideNavbarElement } from "./SideNavbarElement";
 import classNames from "classnames";
@@ -35,11 +36,13 @@ export const SideNavbar = () => {
     };
   });
 
+  const { setSearch, searchResults } = useSidebarSearch();
+
   return (
     <div
       className={`lg:w-[290px] fixed top-0 left-0 w-full h-[87px] z-[10] lg:h-full`}
     >
-      <div className="flex bg-gray-100 p-4 justify-between dark:bg-gray-900">
+      <div className="flex bg-white p-4 justify-between dark:bg-gray-900">
         <Link href={"/"}>
           <Logo className="text-3xl mb-4" />
         </Link>
@@ -74,8 +77,11 @@ export const SideNavbar = () => {
           theme === "light" ? "scrollColorLight" : "scrollColorDark"
         )}
       >
+        <div className="pb-4">
+          <Searchbar setSearch={setSearch} />
+        </div>
         <div className="flex flex-col justify-center gap-8 mb-4">
-          {sidebarData.map((item, index) => {
+          {searchResults.map((item, index) => {
             return (
               <div key={index}>
                 <h2 key={index} className="uppercase mb-3 font-bold text-xl">
