@@ -30,7 +30,7 @@ export const Searchbar = ({ setSearch }: SearchbarProps) => {
           type="text"
           id="simple-search"
           className=" border bg-transparent border-gray-400 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5  dark:border-gray-600  
-          dark:placeholder-gray-400 dark:text-white dark:focus:ring-violet-500 dark:focus:border-violet-500 focus:ring-violet-500 focus:border-violet-500 outline-none ease-in-out duration-300 "
+          dark:placeholder-gray-400 dark:text-gray-200 dark:focus:ring-violet-500 dark:focus:border-violet-500 focus:ring-violet-500 focus:border-violet-500 outline-none ease-in-out duration-300 "
           placeholder="Search"
           onChange={handleSearch}
           required
