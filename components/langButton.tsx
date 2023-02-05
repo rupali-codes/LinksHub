@@ -1,6 +1,6 @@
 interface LangButtonProps {
     lang: string;
-    changeLang: () => void
+    changeLang?: () => void
 }
 
 export const LangButton = ({ lang, changeLang } : LangButtonProps) => {
