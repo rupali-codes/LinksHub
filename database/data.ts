@@ -386,10 +386,34 @@ export const data: IData[] = [
   {
     id: "45",
     name: "CodeChef",
-    description: "An online IDE to practice you competitive programming skills. It allows you to code in multiple lanaguges.",
+    description: "An online IDE to practice you competitive programming skills. It allows you to code in multiple languages.",
     url: "https://www.codechef.com/ide",
     category: "frontend",
     subcategory: "online-code-editors",
+  },
+  {
+    id: "46",
+    name: "I Am Tim Corey",
+    description: "A Proven Teacher. Tim is a proven developer with 25 years in the industry. Tim is dedicated to helping you avoid pain and pitfalls on your path to developer.",
+    url: "https://www.youtube.com/@IAmTimCorey",
+    category: "youtube",
+    subcategory: "csharp",
+  },
+  {
+    id: "47",
+    name: "The Net Ninja",
+    description: "The Net Ninja is a YouTube channel that teaches web development, including HTML, CSS, JavaScript, PHP, Python, C#, and more.",
+    url: "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
+    category: "youtube",
+    subcategory: "web-development",
+  },
+  {
+    id: "48",
+    name: "3Blue1Brown",
+    description: "3Blue1Brown, by Grant Sanderson, is some combination of math and entertainment, depending on your disposition. The goal is for explanations to be driven by animations and for difficult problems to be made simple with changes in perspective.",
+    url: "https://www.youtube.com/@3blue1brown",
+    category: "youtube",
+    subcategory: "machine-learning"
   },
 ];
 
@@ -417,6 +441,14 @@ export const sidebarData: ISidebar[] = [
       { name: 'authentication', url: 'authentication' },
       { name: 'caching', url: 'caching' },
       { name: 'testing', url: 'testing' },
+    ],
+  },
+  {
+    category: 'youtube',
+    subcategory: [
+      { name: 'web development', url: '/web-development' },
+      { name: 'machine learning', url: '/machine-learning' },
+      { name: 'csharp', url: '/csharp' },
     ],
   },
 ];
