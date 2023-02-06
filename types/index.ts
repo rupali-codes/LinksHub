@@ -17,9 +17,9 @@ export interface IData {
   subcategory: SubCategory;
 }
 
-export type Category = "frontend" | "backend";
+export type Category = "frontend" | "backend" | "youtube";
 
-export type SubCategory = "images" | "icons" | "illustrations" | "colors" | "fonts" | "animations" | "testing" | "themes-templates" | "design-inspiration" | "validation" | "security" | "authentication" | "caching" | "ui-generators" | "validation" | "security" | "authentication" | "caching"| "online-code-editors";
+export type SubCategory = "images" | "icons" | "illustrations" | "colors" | "fonts" | "animations" | "testing" | "themes-templates" | "design-inspiration" | "validation" | "security" | "authentication" | "caching" | "ui-generators" | "validation" | "security" | "authentication" | "caching" | "online-code-editors" | "web-development" | "machine-learning" | "csharp";
 export type SubCategories = {
   name: string;
   url: string;

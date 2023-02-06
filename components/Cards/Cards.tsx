@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import { data } from "../../database/data";
 import { IData } from "../../types";
 import LinkContainer from "../LinkContainer/LinkContainer";
+import { BackToTopButton } from "../BackToTop/BackToTopButton";
 
 const Cards = () => {
   const router = useRouter();
@@ -36,6 +37,7 @@ const Cards = () => {
           </p>
         )}
       </div>
+      <BackToTopButton />
     </div>
   );
 };
