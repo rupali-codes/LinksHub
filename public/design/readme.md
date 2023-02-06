@@ -1,2 +1,2 @@
 ## Landing page design for LinksHub 
-LinksHub Landing page designs here will be uploaded here.
+LinksHub Landing page designs will be uploaded here.
