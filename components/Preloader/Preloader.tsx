@@ -1,14 +1,11 @@
 import Gridloader from "react-spinners/GridLoader";
+import { PreloaderProps } from "../../types";
 
-const Preloader = ({
+export const Preloader = ({
   backgroundColor,
   spinnerColor,
   spinnerSize,
-}: {
-  backgroundColor: string;
-  spinnerColor: string;
-  spinnerSize: number;
-}) => {
+}: PreloaderProps) => {
   return (
     <div
       className={`loader ${backgroundColor} fixed top-0 left-0 w-full h-screen flex justify-center items-center`}
@@ -22,5 +19,3 @@ const Preloader = ({
     </div>
   );
 };
-
-export default Preloader;

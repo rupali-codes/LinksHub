@@ -3,7 +3,7 @@ import { useTheme } from "next-themes";
 
 import { HiSun, HiMoon } from "react-icons/hi";
 
-const ThemeToggler = () => {
+export const ThemeToggler = () => {
   const { resolvedTheme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -27,5 +27,3 @@ const ThemeToggler = () => {
     </button>
   );
 };
-
-export default ThemeToggler;

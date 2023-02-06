@@ -1,9 +1,10 @@
 import { useRouter } from "next/router";
 import { IconContext } from "react-icons";
 import { FaGithub, FaSlackHash } from "react-icons/fa";
-import ThemeToggler from "../ThemeToggler/ThemeToggler";
+import { TopBarProps } from "../../types";
+import { ThemeToggler } from "../ThemeToggler";
 
-const TopBar = ({ header }: { header?: string }) => {
+export const TopBar = ({ header }: TopBarProps) => {
   const router = useRouter();
   const category = router.asPath.replace("/", "");
   return (
@@ -33,5 +34,3 @@ const TopBar = ({ header }: { header?: string }) => {
     </div>
   );
 };
-
-export default TopBar;

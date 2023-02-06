@@ -1,4 +1,6 @@
-const Logo = ({ className }: { className?: string }) => {
+import { LogoProps } from "../../types";
+
+export const Logo = ({ className }: LogoProps) => {
   return (
     <h1 className={`font-bold  ${className}`}>
       <span className="border-b-4 border-violet-500 text-violet-400 dark:text-gray-200">
@@ -8,5 +10,3 @@ const Logo = ({ className }: { className?: string }) => {
     </h1>
   );
 };
-
-export default Logo;

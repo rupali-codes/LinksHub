@@ -1,10 +1,10 @@
 import { useRouter } from "next/router";
 import { data } from "../../database/data";
 import { IData } from "../../types";
-import LinkContainer from "../LinkContainer/LinkContainer";
 import { BackToTopButton } from "../BackToTop/BackToTopButton";
+import { LinkContainer } from "../LinkContainer";
 
-const Cards = () => {
+export const Cards = () => {
   const router = useRouter();
 
   const filterDB = data.filter((item) =>
@@ -41,5 +41,3 @@ const Cards = () => {
     </div>
   );
 };
-
-export default Cards;

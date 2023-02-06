@@ -19,11 +19,57 @@ export interface IData {
 
 export type Category = "frontend" | "backend" | "youtube";
 
-export type SubCategory = "images" | "icons" | "illustrations" | "colors" | "fonts" | "animations" | "testing" | "themes-templates" | "design-inspiration" | "validation" | "security" | "authentication" | "caching" | "ui-generators" | "validation" | "security" | "authentication" | "caching" | "online-code-editors" | "web-development" | "machine-learning" | "csharp";
+export type SubCategory =
+  | "images"
+  | "icons"
+  | "illustrations"
+  | "colors"
+  | "fonts"
+  | "animations"
+  | "testing"
+  | "themes-templates"
+  | "design-inspiration"
+  | "validation"
+  | "security"
+  | "authentication"
+  | "caching"
+  | "ui-generators"
+  | "validation"
+  | "security"
+  | "authentication"
+  | "caching"
+  | "online-code-editors"
+  | "web-development"
+  | "machine-learning"
+  | "csharp";
 export type SubCategories = {
   name: string;
   url: string;
 };
+
+export interface SearchbarProps {
+  setSearch: (search: string) => void;
+}
+
+export interface PreloaderProps {
+  backgroundColor: string;
+  spinnerColor: string;
+  spinnerSize: number;
+}
+
+export interface LinkContainerProps {
+  name: string;
+  description: string;
+  url: string;
+}
+
+export interface LogoProps {
+  className?: string;
+}
+
+export interface TopBarProps {
+  header?: string;
+}
 
 export interface ISidebar {
   category: Category;
@@ -32,7 +78,7 @@ export interface ISidebar {
 
 export interface IContext {
   sidebar: boolean;
-  openNav?:()=>void;
-  closeNav?:()=>void;
-  toggleNav?:()=>void
+  openNav?: () => void;
+  closeNav?: () => void;
+  toggleNav?: () => void;
 }

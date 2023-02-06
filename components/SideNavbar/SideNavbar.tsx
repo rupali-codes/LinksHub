@@ -4,12 +4,12 @@ import useSidebarSearch from "../../hooks/useSidebarSearch";
 import { createRef, useContext, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { GlobalContext } from "../../context/GlobalContext";
-import Logo from "../Logo/Logo";
-import SideNavbarItem from "../SideNavbarItem/SideNavbarItem";
+import { Logo } from "../Logo";
 import classNames from "classnames";
 import { useTheme } from "next-themes";
+import { SideNavbarItem } from "../SideNavbarItem";
 
-const SideNavbar = () => {
+export const SideNavbar = () => {
   const { toggleNav, sidebar, openNav, closeNav } = useContext(GlobalContext);
   const { theme } = useTheme();
   const menuRef = createRef<HTMLDivElement>();
@@ -101,5 +101,3 @@ const SideNavbar = () => {
     </div>
   );
 };
-
-export default SideNavbar;

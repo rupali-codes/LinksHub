@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
-import Cards from "../components/Cards/Cards";
-import TopBar from "../components/TopBar/TopBar";
+import { TopBar } from "../components/TopBar";
+import { Cards } from "../components/Cards";
 
 const SubCategory = () => {
   const router = useRouter();

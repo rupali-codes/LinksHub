@@ -1,6 +1,4 @@
-interface SearchbarProps {
-  setSearch: (search: string) => void;
-}
+import { SearchbarProps } from "../../types";
 
 export const Searchbar = ({ setSearch }: SearchbarProps) => {
   const handleSearch = (e: any) => {

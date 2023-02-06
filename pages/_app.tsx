@@ -4,7 +4,7 @@ import GeneralLayout from "../layouts/GeneralLayout";
 import { GlobalProvider } from "../context/GlobalContext";
 import { useEffect, useState } from "react";
 import { ThemeProvider } from "next-themes";
-import Preloader from "../components/Preloader/Preloader";
+import { Preloader } from "../components/Preloader";
 export default function App({ Component, pageProps }: AppProps) {
   const [loader, setLoader] = useState(true);
 

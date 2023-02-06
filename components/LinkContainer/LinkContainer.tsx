@@ -1,10 +1,10 @@
-interface LinkContainerProps {
-  name: string;
-  description: string;
-  url: string;
-}
+import { LinkContainerProps } from "../../types";
 
-const LinkContainer = ({ name, description, url }: LinkContainerProps) => {
+export const LinkContainer = ({
+  name,
+  description,
+  url,
+}: LinkContainerProps) => {
   return (
     <div className="w-full md:w-72 h-64 bg-white shadow-xl border border-dashed border-violet-500 rounded-3xl dark:bg-gray-900 dark:text-gray-300">
       <div className="card-body">
@@ -26,5 +26,3 @@ const LinkContainer = ({ name, description, url }: LinkContainerProps) => {
     </div>
   );
 };
-
-export default LinkContainer;

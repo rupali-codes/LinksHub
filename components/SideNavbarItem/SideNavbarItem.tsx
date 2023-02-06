@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { GlobalContext } from "../../context/GlobalContext";
 import { SubCategories } from "../../types";
 
-const SideNavbarItem = ({ name, url }: SubCategories) => {
+export const SideNavbarItem = ({ name, url }: SubCategories) => {
   const router = useRouter();
   const { closeNav } = useContext(GlobalContext);
 
@@ -22,5 +22,3 @@ const SideNavbarItem = ({ name, url }: SubCategories) => {
     </Link>
   );
 };
-
-export default SideNavbarItem;

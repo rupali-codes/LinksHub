@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Logo from "../components/Logo/Logo";
-import TopBar from "../components/TopBar/TopBar";
+import { Logo } from "../components/Logo";
+import { TopBar } from "../components/TopBar";
 
 export default function Home() {
   return (
