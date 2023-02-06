@@ -46,7 +46,7 @@ Follow these steps to start contributing into LinksHub
 
 Bingo! You're done
 
-## Wants to your favorite Links into the Hub?
+## Want to add your favorite Links into the Hub?
 
 Follow these steps
 
