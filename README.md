@@ -68,7 +68,7 @@ Follow these steps
    * `name`: name of the site 
    * `description`: a short description of the link/site
    * `url`: URL of the site
-   * `category`: either could be `frontend` or `backend` 
+   * `category`: either could be `frontend`, `backend` or `youtube` 
    * `subcategory`: it could be one of the followings - 
      * For `frontend`
         * animations
@@ -88,6 +88,10 @@ Follow these steps
         * validation
         * security
         * testing
+      * For `youtube`
+        * web-development
+        * machine-learning
+        * csharp
 
 
 3. Run this command to add your changes
