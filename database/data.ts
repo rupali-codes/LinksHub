@@ -417,7 +417,7 @@ export const data: IData[] = [
   },
   {
     id: "49",
-    name: "UIColorPicker",
+    name: "UI Color Picker",
     description: "A color picker which contains different shades of solid colors/gradients which can be selected and used in any project.",
     url: "https://uicolorpicker.com/",
     category: "frontend",
