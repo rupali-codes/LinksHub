@@ -415,6 +415,14 @@ export const data: IData[] = [
     category: "youtube",
     subcategory: "machine-learning"
   },
+  {
+    id: "49",
+    name: "UI Color Picker",
+    description: "A color picker that contains different shades of solid colors & gradients. Which can be used in any kind of projects.",
+    url: "https://uicolorpicker.com/",
+    category: "frontend",
+    subcategory: "colors"
+  },
 ];
 
 export const sidebarData: ISidebar[] = [
