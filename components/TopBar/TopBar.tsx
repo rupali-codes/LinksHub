@@ -14,7 +14,7 @@ export const TopBar = ({ header }: { header?: string }) => {
           {header ?? category}
         </span>
       </div>
-      <div className="xs:gap-5 flex items-center justify-center gap-6 place-self-end py-2">
+      <div className="xs:gap-5 flex items-center justify-center gap-6 place-self-end pt-4 pb-2 md:pt-2">
         <a
           title="Link to Github project (External Link)"
           className="dark:text-gray-300"
