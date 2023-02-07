@@ -418,7 +418,7 @@ export const data: IData[] = [
   {
     id: "49",
     name: "UI Color Picker",
-    description: "A color picker which contains different shades of solid colors/gradients which can be selected and used in any project.",
+    description: "A color picker that contains different shades of solid colors & gradients.  Which can be used in any kind of project.",
     url: "https://uicolorpicker.com/",
     category: "frontend",
     subcategory: "colors"
