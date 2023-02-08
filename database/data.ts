@@ -423,6 +423,14 @@ export const data: IData[] = [
     category: "frontend",
     subcategory: "colors"
   },
+  {
+    id: "50",
+    name: "Devicon",
+    description: "Set of icons representing programming languages, designing & development tools, all in one single font.",
+    url: "https://devicon.dev",
+    category: "frontend",
+    subcategory: "icons"
+  }
 ];
 
 export const sidebarData: ISidebar[] = [
