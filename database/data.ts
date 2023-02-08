@@ -393,11 +393,11 @@ export const data: IData[] = [
   },
   {
     id: "46",
-    name: "I Am Tim Corey",
-    description: "A Proven Teacher. Tim is a proven developer with 25 years in the industry. Tim is dedicated to helping you avoid pain and pitfalls on your path to developer.",
-    url: "https://www.youtube.com/@IAmTimCorey",
+    name: "FreeCodeCamp",
+    description: "This channel provides free multi programming language courses for Web-dev, android and more.",
+    url: "https://www.youtube.com/watch?v=fis26HvvDII",
     category: "youtube",
-    subcategory: "csharp",
+    subcategory: "android",
   },
   {
     id: "47",
@@ -423,6 +423,54 @@ export const data: IData[] = [
     category: "frontend",
     subcategory: "colors"
   },
+  {
+    id: "50",
+    name: "Traversy Media",
+    description: "This channel is for all level of developers who want to start or continue their journey in tech.",
+    url: "https://www.youtube.com/@TraversyMedia",
+    category: "youtube",
+    subcategory: "web-development",
+ },
+ {
+  id: "51",
+  name: "FreeCodeCamp",
+  description: "This channel provide free courses related to web-dev, app-dev, projects and many more.",
+  url: "https://www.youtube.com/@freecodecamp",
+  category: "youtube",
+  subcategory: "web-development",
+},
+{
+  id: "52",
+  name: "Fireship",
+  description: "Fireship is a channel which provides short introuction videos and quick learning guides.",
+  url: "https://www.youtube.com/@Fireship",
+  category: "youtube",
+  subcategory: "web-development",
+},
+{
+  id: "53",
+  name: "Programming with Mosh",
+  description: "It's another great channel for starting you web development journey.",
+  url: "https://www.youtube.com/@programmingwithmosh",
+  category: "youtube",
+  subcategory: "web-development",
+},
+{
+  id: "54",
+  name: "Jennys Lectures CSIT",
+  description: "This channel provides free courses for DSA, C, C++, Python etc.",
+  url: "https://www.youtube.com/@JennyslecturesCSIT",
+  category: "youtube",
+  subcategory: "dsa",
+},
+{
+  id: "55",
+  name: "Academind",
+  description: "It's a great channel for web development. It's more focused on JavaScript and it's frameworks.",
+  url: "https://www.youtube.com/@academind",
+  category: "youtube",
+  subcategory: "web-development",
+},
 ];
 
 export const sidebarData: ISidebar[] = [
@@ -445,10 +493,10 @@ export const sidebarData: ISidebar[] = [
     category: 'backend',
     subcategory: [
       { name: 'validation', url: '/validation' },
-      { name: 'security', url: 'security' },
-      { name: 'authentication', url: 'authentication' },
-      { name: 'caching', url: 'caching' },
-      { name: 'testing', url: 'testing' },
+      { name: 'security', url: '/security' },
+      { name: 'authentication', url: '/authentication' },
+      { name: 'caching', url: '/caching' },
+      { name: 'testing', url: '/testing' },
     ],
   },
   {
@@ -456,7 +504,8 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'web development', url: '/web-development' },
       { name: 'machine learning', url: '/machine-learning' },
-      { name: 'csharp', url: '/csharp' },
+      { name: 'data structures', url: '/dsa' },
+      { name: 'Android', url: '/android' },
     ],
   },
 ];
