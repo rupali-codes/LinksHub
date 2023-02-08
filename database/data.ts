@@ -542,6 +542,127 @@ export const data: IData[] = [
     subcategory_en: "online-code-editors",
     subcategory_es: "editores-codigo-online"
   },
+  {
+    id: "46",
+    name: "FreeCodeCamp",
+    description: {
+       'en': "This channel provides free multi programming language courses for Web-dev, android and more.",
+       'es': "Este canal provee cursos gratis de multi-programación para desarrollo web, android y más",
+    },
+    url: "https://www.youtube.com/watch?v=fis26HvvDII",
+    category: "youtube",
+    subcategory_en: "android",
+    subcategory_es: "android",
+  },
+  {
+    id: "47",
+    name: "The Net Ninja",
+    description: {
+       'en': "The Net Ninja is a YouTube channel that teaches web development, including HTML, CSS, JavaScript, PHP, Python, C#, and more.",
+       'es': "The Net Ninja es un canal de YouTube que enseña desarrollo web, incluyendo HTML, CSS, JavaScript, PHP, Python, C# y más",
+    },
+    url: "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
+    category: "youtube",
+    subcategory_en: "web-development",
+    subcategory_es: "desarrollo-web",
+  },
+  {
+    id: "48",
+    name: "3Blue1Brown",
+    description: {
+       'en': "3Blue1Brown, by Grant Sanderson, is some combination of math and entertainment, depending on your disposition. The goal is for explanations to be driven by animations and for difficult problems to be made simple with changes in perspective.",
+       'es': "3Blue1Brown, de Grant Sanderson, es una combinación de matemáticas y entretenimiento, dependiendo de tu disposición. El objetivo es que las explicaciones sean impulsadas por animaciones y que los problemas difíciles se simplifiquen con cambios en la perspectiva".
+,
+    },
+    url: "https://www.youtube.com/@3blue1brown",
+    category: "youtube",
+    subcategory_en: "machine-learning",
+    subcategory_es: "machine-learning",
+  },
+  {
+    id: "49",
+    name: "UI Color Picker",
+    description: {
+       'en': "A color picker that contains different shades of solid colors & gradients. Which can be used in any kind of projects.",
+       'es': "Un seleccionador de color que contiene diferentes sombras de colores y gradientes, que pueden ser usados en cualquier tipo de proyectos",
+    },
+    url: "https://uicolorpicker.com/",
+    category: "frontend",
+    subcategory_en: "colors",
+    subcategory_es: "colores",
+  },
+  {
+    id: "50",
+    name: "Traversy Media",
+    description: {
+       'en': "This channel is for all level of developers who want to start or continue their journey in tech.",
+       'es': "Este canal es para todos los niveles de desarrolladores que quieren empezar o continuar su viaje en tech.",
+    },
+    url: "https://www.youtube.com/@TraversyMedia",
+    category: "youtube",
+    subcategory_en: "web-development",
+    subcategory_es: "desarrollo-web",
+ },
+ {
+  id: "51",
+  name: "FreeCodeCamp",
+  description: {
+     'en': "This channel provide free courses related to web-dev, app-dev, projects and many more.",
+     'es': "Este canal provee cursos gratis relacionados con desarrollo web, desarrollo de apps, proyectos y mucho más.",
+  },
+  url: "https://www.youtube.com/@freecodecamp",
+  category: "youtube",
+  subcategory_en: "web-development",
+  subcategory_es: "desarrollo-web",
+},
+{
+  id: "52",
+  name: "Fireship",
+  description: {
+     'en': "Fireship is a channel which provides short introduction videos and quick learning guides.",
+     'es': "Fireship es un canal que provee videos de corta introducción y guías rápidas de aprendizaje.",
+  },
+  url: "https://www.youtube.com/@Fireship",
+  category: "youtube",
+  subcategory_en: "web-development",
+  subcategory_es: "desarrollo-web",
+},
+{
+  id: "53",
+  name: "Programming with Mosh",
+  description: {
+     'en': "It's another great channel for starting you web development journey.",
+     'es': "Es otro grandioso canal para empezar el viaje hacia el desarrollo web.",
+  },
+  url: "https://www.youtube.com/@programmingwithmosh",
+  category: "youtube",
+  subcategory_en: "web-development",
+  subcategory_es: "desarrollo-web",
+},
+{
+  id: "54",
+  name: "Jennys Lectures CSIT",
+  description: {
+     'en': "This channel provides free courses for DSA, C, C++, Python etc.",
+     'es': "Este canal provee cursos gratis de DSA, C, C++, Python, etc.",
+  },
+  url: "https://www.youtube.com/@JennyslecturesCSIT",
+  category: "youtube",
+  subcategory_en: "dsa",
+  subcategory_es: "estructuras-de-datos",
+},
+{
+  id: "55",
+  name: "Academind",
+  description: {
+     'en': "It's a great channel for web development. It's more focused on JavaScript and it's frameworks.",
+     'es': "Este es un gran canal para desarrollo web. Está más enfocado a JavaScript y a sus entornos de trabajo."
+  },
+  url: "https://www.youtube.com/@academind",
+  category: "youtube",
+  subcategory_en: "web-development",
+  subcategory_es: "desarrollo-web",
+},
 ];
 
 export const sidebarData: ISidebar[] = [
@@ -579,14 +700,14 @@ export const sidebarData: ISidebar[] = [
     category: 'backend',
     subcategory: [
       { name: 'validation', url: '/validation' },
-      { name: 'security', url: 'security'},
-      { name: 'authentication', url: 'authentication' },
-      { name: 'caching', url: 'caching' },
-      { name: 'testing', url: 'testing' },
+      { name: 'security', url: '/security' },
+      { name: 'authentication', url: '/authentication' },
+      { name: 'caching', url: '/caching' },
+      { name: 'testing', url: '/testing' },
     ],
     lang: 'en'
   },
-  {
+   {
     category: 'backend',
     subcategory: [
       { name: 'validacion', url: '/validacion' },
@@ -594,6 +715,26 @@ export const sidebarData: ISidebar[] = [
       { name: 'autenticacion', url: 'autenticacion' },
       { name: 'caching', url: 'caching' },
       { name: 'testing', url: 'testing' },
+    ],
+    lang: 'es'
+  },
+  {
+    category: 'youtube',
+    subcategory: [
+      { name: 'web development', url: '/web-development' },
+      { name: 'machine learning', url: '/machine-learning' },
+      { name: 'data structures', url: '/dsa' },
+      { name: 'Android', url: '/android' },
+    ],
+    lang: 'en'
+  },
+  {
+    category: 'youtube',
+    subcategory: [
+      { name: 'desarrollo web', url: '/desarrollo-web' },
+      { name: 'machine learning', url: '/machine-learning' },
+      { name: 'estructuras de datos', url: '/estructuras-de-datos' },
+      { name: 'Android', url: '/android' },
     ],
     lang: 'es'
   },

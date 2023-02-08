@@ -4,6 +4,7 @@ import { GlobalContext } from "../../context/GlobalContext";
 import { data } from "../../database/data";
 import { IData } from "../../types";
 import { LinkContainer } from "../LinksContainer/LinkContainer";
+import { BackToTopButton } from "../BackToTop/BackToTopButton";
 
 const Cards = () => {
   const router = useRouter();
@@ -41,6 +42,7 @@ const Cards = () => {
           </p>
         )}
       </div>
+      <BackToTopButton />
     </div>
   );
 };

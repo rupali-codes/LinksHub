@@ -4,7 +4,7 @@ import { GlobalContext } from "../../context/GlobalContext";
 export const LinkContainer = ({ name, description, url }) => {
   const { lang } = useContext(GlobalContext)
   return (
-    <div className="w-full md:w-72 h-64 bg-white shadow-xl border border-dashed border-violet-500 rounded-3xl dark:bg-gray-900 dark:text-gray-300">
+    <div className="transition-all ease-in duration-300 w-full md:w-72 h-64 bg-white shadow-xl border border-dashed border-violet-500 rounded-3xl dark:bg-gray-900 dark:text-gray-300">
       <div className="card-body">
         <h2 className="card-title text-violet-500 text-xl">{name}</h2>
         <p className="w-full text-clip-30 h-24 overflow-x-hidden">{description}</p>

@@ -23,11 +23,10 @@ export interface IData {
   subcategory_es: SubCategoryEs;
 }
 
-export type Category = "frontend" | "backend";
+export type Category = "frontend" | "backend" | "youtube";
 
-export type SubCategoryEn = "images" | "icons" | "illustrations" | "colors" | "fonts" | "animations" | "testing" | "themes-templates" | "design-inspiration" | "validation" | "security" | "authentication" | "caching" | "ui-generators" | "validation" | "security" | "authentication" | "caching"| "online-code-editors";
-export type SubCategoryEs = "imagenes" | "iconos" | "ilustraciones" | "colores" | "fuentes" | "animaciones" | "testing" | "temas-plantillas" | "inspiraciones-diseno" | "validacion" | "seguridad" | "autenticacion" | "caching" | "generadores-ui" | "validacion" | "seguridad" | "autenticacion" | "caching"| "editores-codigo-online";
-
+export type SubCategoryEn = "images" | "icons" | "illustrations" | "colors" | "fonts" | "animations" | "testing" | "themes-templates" | "design-inspiration" | "validation" | "security" | "authentication" | "caching" | "ui-generators" | "validation" | "security" | "authentication" | "caching" | "online-code-editors" | "web-development" | "machine-learning" | "dsa" | "android";
+export type SubCategoryEs = "imagenes" | "iconos" | "ilustraciones" | "colores" | "fuentes" | "animaciones" | "testing" | "temas-plantillas" | "inspiraciones-diseno" | "validacion" | "seguridad" | "autenticacion" | "caching" | "generadores-ui" | "validacion" | "seguridad" | "autenticacion" | "caching"| "editores-codigo-online" | "desarrollo-web" | "machine-learning" | "estructuras-de-datos" | "android";
 export type SubCategories = {
   name: string;
   url: string;
