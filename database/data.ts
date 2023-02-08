@@ -571,8 +571,7 @@ export const data: IData[] = [
     name: "3Blue1Brown",
     description: {
        'en': "3Blue1Brown, by Grant Sanderson, is some combination of math and entertainment, depending on your disposition. The goal is for explanations to be driven by animations and for difficult problems to be made simple with changes in perspective.",
-       'es': "3Blue1Brown, de Grant Sanderson, es una combinación de matemáticas y entretenimiento, dependiendo de tu disposición. El objetivo es que las explicaciones sean impulsadas por animaciones y que los problemas difíciles se simplifiquen con cambios en la perspectiva".
-,
+       'es': "3Blue1Brown, de Grant Sanderson, es una combinación de matemáticas y entretenimiento, dependiendo de tu disposición. El objetivo es que las explicaciones sean impulsadas por animaciones y que los problemas difíciles se simplifiquen con cambios en la perspectiva.",
     },
     url: "https://www.youtube.com/@3blue1brown",
     category: "youtube",
