@@ -548,6 +548,24 @@ export const data: IData[] = [
 		category: "hosting",
 		subcategory: "dynamic-website",
 	},
+	{
+		id: "62",
+		name: "Render",
+		description:
+			"Render is a platform that simplifies deploying, running, and scaling web applications with minimal setup. It offers a free plan with limited resources and paid plans with more storage, bandwidth, and processing power.",
+		url: "https://www.render.com/",
+		category: "hosting",
+		subcategory: "dynamic-website",
+	},
+	{
+		id: "63",
+		name: "Fly",
+		description:
+			"Fly is a serverless hosting platform that charges only for actual usage and provides automatic scaling and high availability for web applications. It offers a free plan with limited resources and paid plans with more processing power, storage, and bandwidth.",
+		url: "https://www.fly.io/",
+		category: "hosting",
+		subcategory: "dynamic-website",
+	},
 ];
 
 export const sidebarData: ISidebar[] = [
