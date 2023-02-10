@@ -522,7 +522,7 @@ export const data: IData[] = [
   {
     id: "62",
     name: "Tutorialspoint",
-    description: "Tutorials Point is an Ed Tech platform that offers the best learning material on technical and non-technical subjects.",
+    description: "Tutorials Point is an Ed Tech platform that offers the best learning material for technical and non-technical subjects.",
     url: "https://tutorialspoint.com",
     category: "resources",
     subcategory: "blogs"
