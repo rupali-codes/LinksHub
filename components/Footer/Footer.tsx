@@ -7,8 +7,8 @@ interface FooterProps {}
 
 export const Footer: FC<FooterProps> = ({}) => {
   return (
-    <div className="fixed bottom-0 w-full flex items-baseline justify-center z-10 gap-1 rounded-lg bg-[#343434] py-3">
-      <p className="text-lg text-white ">
+    <div className="w-full flex items-baseline justify-center z-20 gap-1 rounded-lg bg-[#343434] sm:py-3 py-2 px-1">
+      <p className="md:text-lg text-center text-white ">
         Open source |{" "}
         <Link
           href="https://github.com/rupali-codes/LinksHub/blob/main/LICENSE"
