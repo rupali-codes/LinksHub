@@ -514,7 +514,7 @@ export const data: IData[] = [
   {
     id: "61",
     name: "LogRocket",
-    description: "The blog section of LogRocket contains well-written blogs related to the technologies of computer science.",
+    description: "It is a frontend monitoring tool that helps with debugging by providing insights into user behavior.",
     url: "https://logrocket.com",
     category: "resources",
     subcategory: "blogs"
