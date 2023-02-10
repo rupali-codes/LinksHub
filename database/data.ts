@@ -393,11 +393,11 @@ export const data: IData[] = [
   },
   {
     id: "46",
-    name: "I Am Tim Corey",
-    description: "A Proven Teacher. Tim is a proven developer with 25 years in the industry. Tim is dedicated to helping you avoid pain and pitfalls on your path to developer.",
-    url: "https://www.youtube.com/@IAmTimCorey",
+    name: "FreeCodeCamp",
+    description: "This channel provides free multi programming language courses for Web-dev, android and more.",
+    url: "https://www.youtube.com/watch?v=fis26HvvDII",
     category: "youtube",
-    subcategory: "csharp",
+    subcategory: "android",
   },
   {
     id: "47",
@@ -414,6 +414,142 @@ export const data: IData[] = [
     url: "https://www.youtube.com/@3blue1brown",
     category: "youtube",
     subcategory: "machine-learning"
+  },
+  {
+    id: "49",
+    name: "UI Color Picker",
+    description: "A color picker that contains different shades of solid colors & gradients. Which can be used in any kind of projects.",
+    url: "https://uicolorpicker.com/",
+    category: "frontend",
+    subcategory: "colors"
+  },
+  {
+    id: "50",
+    name: "Traversy Media",
+    description: "This channel is for all level of developers who want to start or continue their journey in tech.",
+    url: "https://www.youtube.com/@TraversyMedia",
+    category: "youtube",
+    subcategory: "web-development",
+  },
+  {
+    id: "51",
+    name: "FreeCodeCamp",
+    description: "This channel provide free courses related to web-dev, app-dev, projects and many more.",
+    url: "https://www.youtube.com/@freecodecamp",
+    category: "youtube",
+    subcategory: "web-development",
+  },
+  {
+    id: "52",
+    name: "Fireship",
+    description: "Fireship is a channel which provides short introuction videos and quick learning guides.",
+    url: "https://www.youtube.com/@Fireship",
+    category: "youtube",
+    subcategory: "web-development",
+  },
+  {
+    id: "53",
+    name: "Programming with Mosh",
+    description: "It's another great channel for starting you web development journey.",
+    url: "https://www.youtube.com/@programmingwithmosh",
+    category: "youtube",
+    subcategory: "web-development",
+  },
+  {
+    id: "54",
+    name: "Jennys Lectures CSIT",
+    description: "This channel provides free courses for DSA, C, C++, Python etc.",
+    url: "https://www.youtube.com/@JennyslecturesCSIT",
+    category: "youtube",
+    subcategory: "dsa",
+  },
+  {
+    id: "55",
+    name: "Academind",
+    description: "It's a great channel for web development. It's more focused on JavaScript and it's frameworks.",
+    url: "https://www.youtube.com/@academind",
+    category: "youtube",
+    subcategory: "web-development",
+  },
+  {
+    id: "56",
+    name: "Devicon",
+    description: "Set of icons representing programming languages, designing & development tools, all in one single font.",
+    url: "https://devicon.dev",
+    category: "frontend",
+    subcategory: "icons"
+  },
+  {
+    id: "57",
+    name: "Medium",
+    description: "Medium is a website that allows people to publish and share articles, stories, and ideas with a community of readers.",
+    url: "https://medium.com",
+    category: "resources",
+    subcategory: "blogs"
+  },
+  {
+    id: "58",
+    name: "GeeksforGeeks",
+    description: "GeeksforGeeks is a computer science portal for geeks offering coding and algorithm tutorials, interview questions and more.",
+    url: "https://geeksforgeeks.org",
+    category: "resources",
+    subcategory: "blogs"
+  },
+  {
+    id: "59",
+    name: "Javatpoint",
+    description: "A platform that provides free tutorials and interview questions about technologies related to computer science.",
+    url: "https://www.javatpoint.com/",
+    category: "resources",
+    subcategory: "blogs"
+  },
+  {
+    id: "60",
+    name: "W3Schools",
+    description: "W3Schools is a platform that offers tutorials, references, and courses covering all aspects of web development.",
+    url: "https://www.w3schools.com",
+    category: "resources",
+    subcategory: "blogs"
+  },
+  {
+    id: "61",
+    name: "LogRocket",
+    description: "It is a frontend monitoring tool that helps with debugging by providing insights into user behavior.",
+    url: "https://logrocket.com",
+    category: "resources",
+    subcategory: "blogs"
+  },
+  {
+    id: "62",
+    name: "Tutorialspoint",
+    description: "Tutorials Point is an Ed Tech platform that offers the best learning material for technical and non-technical subjects.",
+    url: "https://tutorialspoint.com",
+    category: "resources",
+    subcategory: "blogs"
+  },
+  {
+    id: "63",
+    name: "Dev.to",
+    description: "A constructive and inclusive social network for software developers where they share and discover great ideas.",
+    url: "https://dev.to/",
+    category: "resources",
+    subcategory: "blogs"
+  },
+  {
+    id: "64",
+    name: "FreeCodeCamp",
+    description: "A platform that has thousands of videos, articles, and coding lessons for helping people learn to code for free.",
+    url: "https://freecodecamp.com",
+    category: "resources",
+    subcategory: "blogs"
+  },
+  {
+    id: "65",
+    name: "Hashnode",
+    description: "A free blogging platform where people in tech, developers, and engineers share their ideas.",
+    url: "https://hashnode.com",
+    category: "resources",
+    subcategory: "blogs"
   },
 ];
 
@@ -437,10 +573,10 @@ export const sidebarData: ISidebar[] = [
     category: 'backend',
     subcategory: [
       { name: 'validation', url: '/validation' },
-      { name: 'security', url: 'security' },
-      { name: 'authentication', url: 'authentication' },
-      { name: 'caching', url: 'caching' },
-      { name: 'testing', url: 'testing' },
+      { name: 'security', url: '/security' },
+      { name: 'authentication', url: '/authentication' },
+      { name: 'caching', url: '/caching' },
+      { name: 'testing', url: '/testing' },
     ],
   },
   {
@@ -448,7 +584,14 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'web development', url: '/web-development' },
       { name: 'machine learning', url: '/machine-learning' },
-      { name: 'csharp', url: '/csharp' },
+      { name: 'data structures', url: '/dsa' },
+      { name: 'Android', url: '/android' },
+    ],
+  },
+  {
+    category: 'resources',
+    subcategory: [
+      { name: 'blogs', url: '/blogs' },
     ],
   },
 ];

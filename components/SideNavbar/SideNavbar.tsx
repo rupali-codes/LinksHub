@@ -41,7 +41,7 @@ export const SideNavbar = () => {
     <div
       className={`lg:w-[290px] fixed top-0 left-0 w-full h-[87px] z-[10] lg:h-full`}
     >
-      <div className="flex bg-white p-4 justify-between dark:bg-gray-900">
+      <div className="flex bg-white p-4 justify-between dark:bg-gray-900 transition-all ease-in duration-300">
         <Link href={"/"}>
           <Logo className="text-3xl mb-4" />
         </Link>
@@ -79,7 +79,7 @@ export const SideNavbar = () => {
         <div className="pb-4">
           <Searchbar setSearch={setSearch} />
         </div>
-        <div className="flex flex-col justify-center gap-8 mb-4">
+        <div className="flex flex-col justify-center gap-8 pb-24">
           {searchResults.map((item, index) => {
             return (
               <div key={index}>
