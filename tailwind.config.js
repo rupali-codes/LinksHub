@@ -9,7 +9,20 @@ module.exports = {
         extend: {
             screens: {
                 'xs': '200px'
-              },
+            },
+            keyframes: {
+                'button-press': {
+                    '0%, 100%': {
+                        transform: 'scale(1)',
+                    },
+                    '50%': {
+                        transform: 'scale(0.9)',
+                    }
+                }
+            },
+            animation: {
+                'button-press': 'button-press 0.4s ease-in-out',
+            }
         },
     },
     plugins: [require("daisyui")],
