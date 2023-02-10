@@ -1,4 +1,5 @@
 import React from "react";
+import {BsBoxArrowUpRight} from 'react-icons/bs';
 
 export const LinkContainer = ({ name, description, url }) => {
   return (
@@ -11,13 +12,11 @@ export const LinkContainer = ({ name, description, url }) => {
             href={url}
             target="_blank"
             rel="noreferrer"
-            className="mt-2 px-6 py-2 text-white text-center font-semibold bg-violet-600 rounded-2xl w-full hover:bg-transparent hover:text-violet-500 border border-dashed border-transparent duration-300 hover:border-violet-400  bottom-0 group flex items-center justify-center"
+            className="mt-2 px-6 py-2 text-white text-center font-semibold bg-violet-600 rounded-2xl w-full hover:bg-transparent hover:text-violet-500 border border-dashed border-transparent duration-100 hover:border-violet-400  bottom-0 flex items-center justify-center"
           >
             Visit site
-            <span className="group-hover:inline-block hidden ml-2 text-violet-600">
-              <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-              </svg>
+            <span className="ml-2">
+              <BsBoxArrowUpRight />
             </span>
           </a>
         </div>
