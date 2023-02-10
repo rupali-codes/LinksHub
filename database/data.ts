@@ -490,7 +490,7 @@ export const data: IData[] = [
   {
     id: "58",
     name: "GeeksforGeeks",
-    description: "A Computer Science portal that contains well-written, well-thought, and well-explained articles.",
+    description: "GeeksforGeeks is a computer science portal for geeks offering coding and algorithm tutorials, interview questions and more.",
     url: "https://geeksforgeeks.org",
     category: "resources",
     subcategory: "blogs"
