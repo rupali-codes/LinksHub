@@ -80,7 +80,7 @@ export const SideNavbar = () => {
         <div className="pb-4">
           <Searchbar setSearch={setSearch} />
         </div>
-        <div className="flex flex-col justify-center gap-8 mb-4">
+        <div className="flex flex-col justify-center gap-8 pb-24">
           {searchResults.map((item, index) => {
             return (
               <div key={index}>
