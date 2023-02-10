@@ -482,7 +482,7 @@ export const data: IData[] = [
   {
     id: "57",
     name: "Medium",
-    description: "Medium is a social publishing platform that is open to all where people share their writings on any topic.",
+    description: "Medium is a website that allows people to publish and share articles, stories, and ideas with a community of readers.",
     url: "https://medium.com",
     category: "resources",
     subcategory: "blogs"
