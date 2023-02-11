@@ -578,7 +578,7 @@ export const data: IData[] = [
 	{
 		id: "69",
 		name: "Heroku",
-		description: "Heroku is a cloud platform for deploying web applications, supporting multiple programming languages. It offers convenient management and scaling options, but with a cost based on usage",
+		description: "Heroku is a cloud platform for deploying static as well dynamic websites, supporting multiple programming languages. It offers convenient management and scaling options, but with a cost based on usage",
 		url: "https://www.heroku.com/",
 		category: "resources",
 		subcategory: "hosting",
@@ -586,7 +586,7 @@ export const data: IData[] = [
 	{
 		id: "70",
 		name: "PythonAnywhere",
-		description: "A platform for hosting Python web apps with a cloud-based development environment. Offers free hosting with limited options and paid plans for additional features.",
+		description: "A platform for hosting Python based web apps with a cloud-based development environment. Offers free hosting with limited options and paid plans for additional features.",
 		url: "https://www.pythonanywhere.com/",
 		category: "resources",
 		subcategory: "hosting",
@@ -594,7 +594,7 @@ export const data: IData[] = [
 	{
 		id: "71",
 		name: "Render",
-		description: "Render is a platform that simplifies deploying, running, and scaling web applications with minimal setup. It offers a free plan with limited resources and paid plans with more storage, bandwidth, and processing power.",
+		description: "Render is a comprehensive solution for hosting web applications, both static and dynamic, with a simple and streamlined deployment process. It offers a range of plans, including a free option with limited resources, and paid plans with increased storage, bandwidth, and processing power.",
 		url: "https://www.render.com/",
 		category: "resources",
 		subcategory: "hosting",
