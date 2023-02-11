@@ -19,7 +19,6 @@ export interface IData {
 
 export type Category = "frontend" | "backend" | "youtube" | "resources";
 
-<<<<<<< HEAD
 export type SubCategory =
   | "images"
   | "icons"
@@ -42,10 +41,10 @@ export type SubCategory =
   | "online-code-editors"
   | "web-development"
   | "machine-learning"
-  | "csharp";
-=======
-export type SubCategory = "images" | "icons" | "illustrations" | "colors" | "fonts" | "animations" | "testing" | "themes-templates" | "design-inspiration" | "validation" | "security" | "authentication" | "caching" | "ui-generators" | "validation" | "security" | "authentication" | "caching" | "online-code-editors" | "web-development" | "machine-learning" | "dsa" | "android" | "blogs";
->>>>>>> main
+  | "dsa"
+  | "android"
+  | "blogs";
+
 export type SubCategories = {
   name: string;
   url: string;
