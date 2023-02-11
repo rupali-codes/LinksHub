@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { useTransition } from "transition-hook";
+import { useTransition } from "react-transition-state";
 import { FaArrowUp } from "react-icons/fa";
 import { SCROLL_LIMIT } from "../../app/constants";
 
 export const BackToTopButton = () => {
   const [scrollY, setScrollY] = useState(0);
-  const { stage, shouldMount } = useTransition(scrollY > SCROLL_LIMIT, 300);
+  const [{ isMounted, status }, toggle] = useTransition();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,6 +21,10 @@ export const BackToTopButton = () => {
     };
   }, []);
 
+  useEffect(() => {
+    toggle(scrollY > SCROLL_LIMIT);
+  }, [scrollY]);
+
   const handleClick = () => {
     window.scrollTo({
       top: 0,
@@ -28,16 +32,13 @@ export const BackToTopButton = () => {
     });
   };
 
-  return shouldMount ? (
+  return isMounted ? (
     <div
-      className="group fixed bottom-12 right-12"
-      style={{
-        transition: ".3s",
-        opacity: `${stage === "enter" ? 1 : 0}`,
-        transform: `${
-          stage === "enter" ? "translateY(-10px)" : "translateY(0px)"
-        }`,
-      }}
+      className={`group fixed bottom-12 right-12 transform transition duration-300${
+        status === "preEnter" || status === "exiting"
+          ? " opacity-0 translate-y-3"
+          : ""
+      }`}
     >
       <button
         className="focus:animate-button-press rounded-full border border-white bg-violet-600 p-4 text-white shadow-xl focus:ring group-hover:border-dashed group-hover:border-violet-400 group-hover:bg-white dark:drop-shadow-[5px_5px_8px_rgba(124,58,237,0.25)] dark:group-hover:bg-[#101623] md:border-violet-600"
