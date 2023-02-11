@@ -551,6 +551,63 @@ export const data: IData[] = [
     category: "resources",
     subcategory: "blogs"
   },
+  {
+		id: "66",
+		name: "GitHub Pages",
+		description: "A free hosting service provided by GitHub for hosting static websites from a GitHub repository. Simple to use but limited in customization options.",
+		url: "https://pages.github.com/",
+		category: "hosting",
+		subcategory: "static-website",
+	},
+	{
+		id: "67",
+		name: "Vercel",
+		description: "A cloud platform for building and deploying web projects, including static websites. Known for its fast CDN and Git integration. Offers custom domains, environment variables, and free hosting.",
+		url: "https://vercel.com/",
+		category: "hosting",
+		subcategory: "static-website",
+	},
+	{
+		id: "68",
+		name: "Netlify",
+		description: "A popular platform for deploying and managing web projects, including static websites. Offers easy setup and integration with popular front-end frameworks, as well as features such as continuous deployment, custom domains, SSL certificates, and free hosting.",
+		url: "https://www.netlify.com/",
+		category: "hosting",
+		subcategory: "static-website",
+	},
+	{
+		id: "69",
+		name: "Heroku",
+		description: "Heroku is a cloud platform for deploying web applications, supporting multiple programming languages. It offers convenient management and scaling options, but with a cost based on usage",
+		url: "https://www.heroku.com/",
+		category: "hosting",
+		subcategory: "dynamic-website",
+	},
+	{
+		id: "70",
+		name: "PythonAnywhere",
+		description: "A platform for hosting Python web apps with a cloud-based development environment. Offers free hosting with limited options and paid plans for additional features.",
+		url: "https://www.pythonanywhere.com/",
+		category: "hosting",
+		subcategory: "dynamic-website",
+	},
+	{
+		id: "71",
+		name: "Render",
+		description: "Render is a platform that simplifies deploying, running, and scaling web applications with minimal setup. It offers a free plan with limited resources and paid plans with more storage, bandwidth, and processing power.",
+		url: "https://www.render.com/",
+		category: "hosting",
+		subcategory: "dynamic-website",
+	},
+	{
+		id: "72",
+		name: "Fly",
+		description: "Fly is a serverless hosting platform that charges only for actual usage and provides automatic scaling and high availability for web applications. It offers a free plan with limited resources and paid plans with more processing power, storage, and bandwidth.",
+		url: "https://www.fly.io/",
+		category: "hosting",
+		subcategory: "dynamic-website",
+	},
+
 ];
 
 export const sidebarData: ISidebar[] = [
@@ -594,4 +651,11 @@ export const sidebarData: ISidebar[] = [
       { name: 'blogs', url: '/blogs' },
     ],
   },
+  {
+		category: "hosting",
+		subcategory: [
+			{ name: "static website", url: "/static-website" },
+			{ name: "Dynamic website", url: "/dynamic-website" },
+		],
+	},
 ];
