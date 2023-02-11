@@ -29,7 +29,7 @@ export const BackToTopButton = () => {
 
   if (scrollY > SCROLL_LIMIT) {
     return (
-      <div className="group fixed bottom-12 right-12">
+      <div className="group fixed bottom-12 right-12 z-20">
         <button 
           className="focus:animate-button-press rounded-full border border-white bg-violet-600 p-4 text-white shadow-xl focus:ring group-hover:border-dashed group-hover:border-violet-400 group-hover:bg-white dark:drop-shadow-[5px_5px_8px_rgba(124,58,237,0.25)] dark:group-hover:bg-[#101623] md:border-violet-600"
           onClick={handleClick}>
