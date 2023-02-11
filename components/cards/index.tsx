@@ -4,11 +4,9 @@ import { data } from "../../database/data";
 import { IData } from "../../types";
 import { LinkContainer } from "../LinksContainer/LinkContainer";
 import { BackToTopButton } from "../BackToTop/BackToTopButton";
-import { useTheme } from "next-themes";
 
 const Cards = () => {
   const router = useRouter();
-  const { theme } = useTheme();
 
   const filterDB = data.filter((item) =>
     item.subcategory
@@ -18,9 +16,9 @@ const Cards = () => {
 
   return (
     <div
-      className={`flex flex-wrap  md:flex-row w-full md:justify-start gap-4 content-start lg:h-[calc(90vh-80px)] h-[calc(90vh-150px)] overflow-y-scroll mb-2 ${
-        theme === "light" ? "scrollColorLight" : "scrollColorDark"
-      } ${filterDB.length < 3 && "lg:justify-start"}`}
+      className={`flex flex-wrap md:flex-row w-full md:justify-start gap-4 content-start lg:min-h-[calc(90vh-80px)] min-h-[calc(90vh-150px)] mb-2 ${
+        filterDB.length < 3 && "lg:justify-start"
+      }`}
     >
       {filterDB?.map((data: IData, key: number) => (
         <LinkContainer
