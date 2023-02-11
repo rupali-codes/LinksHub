@@ -1,8 +1,9 @@
 import SearchIcon from "assets/icons/SearchIcon";
+import { ChangeEvent } from "react";
 import { SearchbarProps } from "types";
 
 export const Searchbar = ({ setSearch }: SearchbarProps) => {
-  const handleSearch = (e: any) => {
+  const handleSearch = (e: ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
   };
 
