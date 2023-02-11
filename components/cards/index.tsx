@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import React from "react";
-import { data } from "../../database/data";
-import { IData } from "../../types";
+import { data } from "database/data";
+import { IData } from "types";
 import { LinkContainer } from "../LinksContainer/LinkContainer";
 import { BackToTopButton } from "../BackToTop/BackToTopButton";
 
@@ -28,7 +28,7 @@ const Cards = () => {
           key={key + "-" + data.name}
         />
       ))}
-      <div className="">
+      <div>
         {filterDB.length === 0 && (
           <p>
             <span className="text-purple-500 animate-pulse font-semibold text-2xl">

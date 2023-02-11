@@ -1,13 +1,8 @@
-import Gridloader from "react-spinners/GridLoader"
+import Gridloader from "react-spinners/GridLoader";
+import { LengthType } from "react-spinners/helpers/props";
 
-export const Spinner = ({spinnerColor, spinnerSize}:{spinnerColor:string, spinnerSize:number}) => {
-
+export const Spinner = (props: { color: string; size: LengthType }) => {
   return (
-    <Gridloader
-      color= {spinnerColor}
-      size={spinnerSize}
-      aria-label="Loading Spinner"
-      data-testid="loader"
-    />
+    <Gridloader {...props} aria-label="Loading Spinner" data-testid="loader" />
   );
 };
