@@ -551,6 +551,14 @@ export const data: IData[] = [
     category: "resources",
     subcategory: "blogs"
   },
+  {
+    id: "66",
+    name: "AutoAnimate",
+    description: "Add motion to your apps with a single line of code.",
+    url: "https://auto-animate.formkit.com/",
+    category: "frontend",
+    subcategory: "animations"
+  }
 ];
 
 export const sidebarData: ISidebar[] = [
