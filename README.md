@@ -8,6 +8,10 @@ LinksHub is a Hub of Links `by Developers for Developers`. Here, we've gathered 
 
 We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to the right developers.
 
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/88548999/218315713-80e60d99-7623-4f32-94ef-a598dcc8fd5a.gif" alt="LinksHub-GIF" width = "800" height = "400"/>
+</p>
+
 ## Demo 💻
 
 You can see the live demo at: https://linkshub.vercel.app
