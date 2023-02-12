@@ -1,11 +1,11 @@
-import { useRouter } from 'next/router';
-import { IconContext } from 'react-icons';
-import { FaGithub, FaSlackHash } from 'react-icons/fa';
-import { ThemeToggler } from '../ThemeToggler/themeToggler';
+import { useRouter } from "next/router";
+import { IconContext } from "react-icons";
+import { FaGithub, FaSlackHash } from "react-icons/fa";
+import { ThemeToggler } from "../ThemeToggler/themeToggler";
 
 export const TopBar = ({ header }: { header?: string }) => {
   const router = useRouter();
-  const category = router.asPath.replace('/', '');
+  const category = router.asPath.replace("/", "");
   return (
     <div className="flex items-center justify-between mb-4 xs:overflow-x-hidden">
       <div className="flex items-center my-4 dark:text-gray-300 sm:text-3xl xs:text-2xl">
@@ -23,9 +23,9 @@ export const TopBar = ({ header }: { header?: string }) => {
           href="https://github.com/rupali-codes/LinksHub"
         >
           <IconContext.Provider
-            value={{ className: 'shared-class', size: '28' }}
+            value={{ className: "shared-class", size: "28" }}
           >
-            <FaGithub className='hover:text-violet-500' />
+            <FaGithub className="hover:text-violet-500" />
           </IconContext.Provider>
         </a>
         <ThemeToggler />

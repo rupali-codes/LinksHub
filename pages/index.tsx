@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import Logo from "../components/logo";
-import { TopBar } from "../components/TopBar/TopBar";
+import Logo from "components/logo";
+import { TopBar } from "components/TopBar/TopBar";
 
 export default function Home() {
   return (

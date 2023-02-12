@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { Searchbar } from "../Searchbar";
-import useSidebarSearch from "../../hooks/useSidebarSearch";
+import useSidebarSearch from "hooks/useSidebarSearch";
 import { createRef, useContext, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { GlobalContext } from "../../context/GlobalContext";
+import { GlobalContext } from "context/GlobalContext";
 import Logo from "../logo";
 import { SideNavbarElement } from "./SideNavbarElement";
 import classNames from "classnames";
