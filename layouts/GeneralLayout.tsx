@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
-import { Footer } from "../components/Footer/Footer";
-import { SideNavbar } from "../components/SideNavbar";
+import { Footer } from "components/Footer/Footer";
+import { SideNavbar } from "components/SideNavbar";
 
 const GeneralLayout = ({ children }: { children: ReactNode }) => {
   return (
