@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import React, { lazy, useEffect } from "react";
+import React from "react";
 import { LinkContainer } from "../LinksContainer/LinkContainer";
 import { BackToTopButton } from "../BackToTop/BackToTopButton";
 import * as DB from "database";
