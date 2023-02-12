@@ -16,9 +16,9 @@ export const SideNavbarElement = ({ name, url }: SubCategories) => {
         router.asPath === url
           ? "bg-gradient-to-r from-violet-900 to-violet-500 transition-all pl-5 text-gray-200"
           : ""
-      } collapse py-3 w-full hover:bg-gradient-to-l hover:text-gray-200 from-violet-900 to-violet-500 text-start border-b hover:pl-5 transition-all duration-300 rounded dark:border-gray-600`}
+      } collapse w-full hover:bg-gradient-to-l hover:text-gray-200 from-violet-900 to-violet-500 text-start rounded `}
     >
-      <div className="text-md font-medium uppercase">{name}</div>
+      <div className="text-md hover:pl-5 duration-300 transition-all font-medium py-3 border-b dark:border-gray-600 uppercase">{name}</div>
     </Link>
   );
 };
