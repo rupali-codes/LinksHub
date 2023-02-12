@@ -1,26 +1,30 @@
 import { useRouter } from "next/router";
-import React from "react";
-import { data } from "database/data";
-import { IData } from "types";
+import React, { lazy, useEffect } from "react";
 import { LinkContainer } from "../LinksContainer/LinkContainer";
 import { BackToTopButton } from "../BackToTop/BackToTopButton";
+import * as DB from "database";
 
 const Cards = () => {
   const router = useRouter();
+  const { subcategory } = router.query;
 
-  const filterDB = data.filter((item) =>
-    item.subcategory
-      .toLowerCase()
-      .includes(router.asPath.replace("/", "").toLowerCase())
+  // This filters trough the DB with the subcategory which results in an array of arrays
+  const filterSubCat = Object.values(DB)?.map((item: any) =>
+    item?.filter((cat: any) => cat.subcategory.includes(subcategory))
+  );
+
+  // This filters out an empty array from the filterSubCat
+  const filterDB = filterSubCat.filter(
+    (item: any, index: number) => item.length !== 0
   );
 
   return (
     <div
       className={`flex flex-wrap flex-col md:flex-row w-full md:justify-start gap-4 items-center ${
-        filterDB.length < 3 && "lg:justify-start"
+        filterDB?.length < 3 && "lg:justify-start"
       }`}
     >
-      {filterDB?.map((data: IData, key: number) => (
+      {filterDB[0]?.map((data: any, key: number) => (
         <LinkContainer
           name={data.name}
           description={data.description}
@@ -29,7 +33,7 @@ const Cards = () => {
         />
       ))}
       <div>
-        {filterDB.length === 0 && (
+        {filterDB?.length === 0 && (
           <p>
             <span className="text-purple-500 animate-pulse font-semibold text-2xl">
               Coming
