@@ -72,15 +72,15 @@ export const SideNavbar = () => {
       <div
         ref={menuRef}
         className={classNames(
-          `lg:translate-x-0 lg:w-full w-[75%] p-4 bg-base-200 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-screen z-[10] dark:bg-gray-900 dark:text-gray-300`,
+          `lg:translate-x-0 lg:w-full w-[75%] bg-base-200 transition-all whitespace-nowrap ease-in duration-300 overflow-x-hidden h-screen z-[10] dark:bg-gray-900 dark:text-gray-300`,
           sidebar ? "translate-x-[0%] " : "translate-x-[-100%]",
           theme === "light" ? "scrollColorLight" : "scrollColorDark"
         )}
       >
-        <div className="pb-4">
+        <div className="sticky top-0 left-0 right-0 p-4 w-full z-10 bg-base-200 dark:bg-gray-900 transiton-all duration-300 ease-in">
           <Searchbar setSearch={setSearch} />
         </div>
-        <div className="flex flex-col justify-center gap-8 pb-24">
+        <div className="flex flex-col justify-center px-4 gap-8 pb-24">
           {searchResults.map((item, index) => {
             return (
               <div key={index}>

@@ -1,4 +1,4 @@
-import { IData, ISidebar } from "types";
+import { IData, ISidebar } from "../types";
 
 export const sidebarData: ISidebar[] = [
   {
@@ -37,6 +37,9 @@ export const sidebarData: ISidebar[] = [
   },
   {
     category: "resources",
-    subcategory: [{ name: "blogs", url: "/blogs" }],
+    subcategory: [
+      { name: "blogs", url: "/blogs" },
+      { name: "hosting", url: "/hosting" },
+    ],
   },
 ];

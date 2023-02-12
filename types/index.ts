@@ -43,7 +43,8 @@ export type SubCategory =
   | "machine-learning"
   | "dsa"
   | "android"
-  | "blogs";
+  | "blogs"
+  | "hosting";
 export type SubCategories = {
   name: string;
   url: string;

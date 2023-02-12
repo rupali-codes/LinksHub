@@ -17,6 +17,7 @@ export { default as testing } from "./backend/testing.json";
 export { default as validation } from "./backend/validation.json";
 // resources
 export { default as blogs } from "./resources/blogs.json";
+export { default as hosting } from "./resources/hosting.json";
 // youtube
 export { default as android } from "./youtube/android.json";
 export { default as dataStructures } from "./youtube/data-structures.json";
