@@ -1,5 +1,6 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { GlobalContext } from "../../context/GlobalContext";
+import {BsBoxArrowUpRight} from 'react-icons/bs';
 
 export const LinkContainer = ({ name, description, url }) => {
   const { lang } = useContext(GlobalContext)
@@ -13,9 +14,12 @@ export const LinkContainer = ({ name, description, url }) => {
             href={url}
             target="_blank"
             rel="noreferrer"
-            className="mt-2 px-6 py-2 text-white text-center font-semibold bg-violet-600 rounded-2xl w-full hover:bg-transparent hover:text-violet-500 border border-dashed border-transparent hover:border-violet-400  bottom-0"
+            className="mt-2 px-6 py-2 text-white text-center font-semibold bg-violet-600 rounded-2xl w-full hover:bg-transparent hover:text-violet-500 border border-dashed border-transparent duration-100 hover:border-violet-400  bottom-0 flex items-center justify-center"
           >
             {lang === 'en' ? 'Visit site' : 'Visitar Sitio'}
+            <span className="ml-2">
+              <BsBoxArrowUpRight />
+            </span>
           </a>
         </div>
       </div>

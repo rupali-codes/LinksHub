@@ -1,0 +1,50 @@
+[
+  {
+    "id": "47",
+    "name": "The Net Ninja",
+    "description": "The Net Ninja is a YouTube channel that teaches web development, including HTML, CSS, JavaScript, PHP, Python, C#, and more.",
+    "url": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
+    "category": "youtube",
+    "subcategory": "web-development"
+  },
+  {
+    "id": "50",
+    "name": "Traversy Media",
+    "description": "This channel is for all level of developers who want to start or continue their journey in tech.",
+    "url": "https://www.youtube.com/@TraversyMedia",
+    "category": "youtube",
+    "subcategory": "web-development"
+  },
+  {
+    "id": "51",
+    "name": "FreeCodeCamp",
+    "description": "This channel provide free courses related to web-dev, app-dev, projects and many more.",
+    "url": "https://www.youtube.com/@freecodecamp",
+    "category": "youtube",
+    "subcategory": "web-development"
+  },
+  {
+    "id": "52",
+    "name": "Fireship",
+    "description": "Fireship is a channel which provides short introuction videos and quick learning guides.",
+    "url": "https://www.youtube.com/@Fireship",
+    "category": "youtube",
+    "subcategory": "web-development"
+  },
+  {
+    "id": "53",
+    "name": "Programming with Mosh",
+    "description": "It's another great channel for starting you web development journey.",
+    "url": "https://www.youtube.com/@programmingwithmosh",
+    "category": "youtube",
+    "subcategory": "web-development"
+  },
+  {
+    "id": "55",
+    "name": "Academind",
+    "description": "It's a great channel for web development. It's more focused on JavaScript and it's frameworks.",
+    "url": "https://www.youtube.com/@academind",
+    "category": "youtube",
+    "subcategory": "web-development"
+  }
+]

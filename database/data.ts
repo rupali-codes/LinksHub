@@ -666,17 +666,18 @@ export const data: IData[] = [
 
 export const sidebarData: ISidebar[] = [
   {
-    category: 'frontend',
+    category: "frontend",
     subcategory: [
-      { name: 'images', url: '/images' },
-      { name: 'fonts', url: '/fonts' },
-      { name: 'colors', url: '/colors' },
-      { name: 'illustrations', url: '/illustrations' },
-      { name: 'animations', url: '/animations' },
-      { name: 'icons', url: '/icons' },
-      { name: 'design inspiration', url: '/design-inspiration' },
-      { name: 'themes & templates', url: '/themes-templates' },
-      { name: 'online code editors', url: '/online-code-editors' },
+      { name: "images", url: "/images" },
+      { name: "fonts", url: "/fonts" },
+      { name: "colors", url: "/colors" },
+      { name: "illustrations", url: "/illustrations" },
+      { name: "animations", url: "/animations" },
+      { name: "icons", url: "/icons" },
+      { name: "design inspiration", url: "/design-inspiration" },
+      { name: "themes & templates", url: "/themes-templates" },
+      { name: "UI Generators", url: "/ui-generator" },
+      { name: "online code editors", url: "/online-code-editors" },
     ],
     lang: 'en'
   },
@@ -696,13 +697,13 @@ export const sidebarData: ISidebar[] = [
     lang: 'es'
   },
   {
-    category: 'backend',
+    category: "backend",
     subcategory: [
-      { name: 'validation', url: '/validation' },
-      { name: 'security', url: '/security' },
-      { name: 'authentication', url: '/authentication' },
-      { name: 'caching', url: '/caching' },
-      { name: 'testing', url: '/testing' },
+      { name: "validation", url: "/validation" },
+      { name: "security", url: "/security" },
+      { name: "authentication", url: "/authentication" },
+      { name: "caching", url: "/caching" },
+      { name: "testing", url: "/testing" },
     ],
     lang: 'en'
   },
@@ -718,12 +719,12 @@ export const sidebarData: ISidebar[] = [
     lang: 'es'
   },
   {
-    category: 'youtube',
+    category: "youtube",
     subcategory: [
-      { name: 'web development', url: '/web-development' },
-      { name: 'machine learning', url: '/machine-learning' },
-      { name: 'data structures', url: '/dsa' },
-      { name: 'Android', url: '/android' },
+      { name: "web development", url: "/web-development" },
+      { name: "machine learning", url: "/machine-learning" },
+      { name: "data structures", url: "/dsa" },
+      { name: "Android", url: "/android" },
     ],
     lang: 'en'
   },
@@ -734,6 +735,22 @@ export const sidebarData: ISidebar[] = [
       { name: 'machine learning', url: '/machine-learning' },
       { name: 'estructuras de datos', url: '/estructuras-de-datos' },
       { name: 'Android', url: '/android' },
+    ],
+    lang: 'es'
+  },
+  {
+    category: "resources",
+    subcategory: [
+      { name: "blogs", url: "/blogs" },
+      { name: "hosting", url: "/hosting" },
+    ],
+    lang: 'en'
+  },
+  {
+    category: "resources",
+    subcategory: [
+      { name: "blogs", url: "/blogs" },
+      { name: "hosting", url: "/hosting" },
     ],
     lang: 'es'
   },
