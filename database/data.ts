@@ -551,6 +551,94 @@ export const data: IData[] = [
     category: "resources",
     subcategory: "blogs"
   },
+  {
+    id: "66",
+    name: "Behance",
+    description: "Behance is the world's largest creative network for showcasing and discovering creative work.",
+    url: "https://www.behance.net/",
+    category: "frontend",
+    subcategory: "design-inspiration"
+  },
+  {
+    id: "67",
+    name: "Refero Design",
+    description: "Get inspired by the best examples of product design.",
+    url: "https://refero.design/",
+    category: "frontend",
+    subcategory: "design-inspiration"
+  },
+  {
+    id: "68",
+    name: "Page Collective",
+    description: "Get inspired and keep up with the latest landing page design trends.",
+    url: "https://pagecollective.com/",
+    category: "frontend",
+    subcategory: "design-inspiration"
+  },
+  {
+    id: "69",
+    name: "Landingfolio",
+    description: "Landingfolio features the best landing page designs, templates, component and more on the web. Get inspired by real landing page examples curated by us to ensure the highest quality.",
+    url: "https://www.landingfolio.com/",
+    category: "frontend",
+    subcategory: "design-inspiration"
+  },
+  {
+    id: "70",
+    name: "Land-book",
+    description: "Find the best hand-picked website design inspiration.",
+    url: "https://land-book.com/",
+    category: "frontend",
+    subcategory: "design-inspiration"
+  },
+  {
+    id: "71",
+    name: "Lapa Ninja",
+    description: "Lapa Ninja is a gallery featuring the best 5443 landing page examples, free books for designers and free UI kits from around the web.",
+    url: "https://www.lapa.ninja/",
+    category: "frontend",
+    subcategory: "design-inspiration"
+  },
+  {
+    id: "72",
+    name: "Landings dev",
+    description: "Discover hundreds of landing pages created by leading companies for your design inspiration.",
+    url: "https://landings.dev/",
+    category: "frontend",
+    subcategory: "design-inspiration"
+  },
+  {
+    id: "73",
+    name: "Awwwards",
+    description: "Awwwards are the Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world.",
+    url: "https://www.awwwards.com/",
+    category: "frontend",
+    subcategory: "design-inspiration"
+  },
+  {
+    id: "74",
+    name: "Saas Landing Page",
+    description: "SaaS Landing Page showcases the best landing page examples created by top-class SaaS companies. Get ideas and inspirations for your next design project.",
+    url: "https://saaslandingpage.com/",
+    category: "frontend",
+    subcategory: "design-inspiration"
+  },
+  {
+    id: "75",
+    name: "SiteInspire",
+    description: "Siteinspire is a showcase of the finest web and interactive design.",
+    url: "https://www.siteinspire.com/",
+    category: "frontend",
+    subcategory: "design-inspiration"
+  },
+  {
+    id: "76",
+    name: "Best Website Gallery ",
+    description: "The most beautiful websites handpicked for you — since 2008!",
+    url: "https://bestwebsite.gallery/",
+    category: "frontend",
+    subcategory: "design-inspiration"
+  },
 ];
 
 export const sidebarData: ISidebar[] = [
