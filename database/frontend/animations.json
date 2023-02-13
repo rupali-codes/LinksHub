@@ -30,5 +30,13 @@
     "url": "https://drawcall.github.io/Proton/",
     "category": "frontend",
     "subcategory": "animations"
+  },
+  {
+    "id": "41",
+    "name": "AutoAnimate",
+    "description": "Add motion to your apps with a single line of code.",
+    "url": "https://auto-animate.formkit.com/",
+    "category": "frontend",
+    "subcategory": "animations"
   }
 ]

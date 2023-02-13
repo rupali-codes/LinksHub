@@ -60,9 +60,7 @@ You can see the live demo at: https://linkshub.vercel.app
 7. Create a [Pull Request](https://github.com/rupali-codes/LinksHub/compare) 
    > Click _compare acorss forks_ if you don't see your branch 
 
-
-
-### _Want to add your favorite Links into the Hub? Read the instructions [here](https://github.com/rupali-codes/LinksHub/blob/main/database/Readme.md) and follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)._
+#### _Want to add your favorite Links into the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)._
 
 ---
 ## Building with Gitpod 💣
