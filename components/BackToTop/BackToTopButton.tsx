@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useTransition } from "react-transition-state";
 import { FaArrowUp } from "react-icons/fa";
-import { SCROLL_LIMIT } from "../../app/constants";
+import { SCROLL_LIMIT } from "app/constants";
 
 export const BackToTopButton = () => {
   const [scrollY, setScrollY] = useState(0);
