@@ -18,12 +18,14 @@ export interface IData {
   name: string;
   description: IDescription
   url: string;
-  category: Category;
+  categoryEn: CategoryEn;
+  categoryEs: CategoryEs;
   subcategory_en: SubCategoryEn;
   subcategory_es: SubCategoryEs;
 }
 
-export type Category = "frontend" | "backend" | "youtube" | "resources";
+export type CategoryEn = "frontend" | "backend" | "youtube" | "resources";
+export type CategoryEs = "frontend" | "backend" | "youtube" | "recursos";
 
 export type SubCategoryEn =
   | "images"
@@ -84,7 +86,8 @@ export type SubCategories = {
   url: string;
 }
 export interface ISidebar {
-  category: Category;
+  categoryEn: CategoryEn;
+  categoryEs: CategoryEs;
   subcategory: SubCategories[];
   lang: string;
 }

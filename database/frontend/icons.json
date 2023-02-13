@@ -2,50 +2,80 @@
   {
     "id": "14",
     "name": "Font Awesome",
-    "description": "A highly popular icon font, consisting of 1000+ icons spread across countless categories.",
+    "description": {
+      "en": "A highly popular icon font, consisting of 1000+ icons spread across countless categories.",
+      "es": "Una fuente de iconos muy popular, que consta de más de 1000 iconos distribuidos en incontables categorías."
+    },
     "url": "https://fontawesome.com/",
-    "category": "frontend",
-    "subcategory": "icons"
+    "categoryEn": "frontend",
+    "categoryEs": "frontend",
+    "subcategory_en": "icons",
+    "subcategory_es": "iconos"
   },
   {
     "id": "15",
     "name": "Phosphor Icons",
-    "description": "Another beautiful, more boxy SVG collection of free icons. Customizable thickness and color.",
+    "description": {
+      "en": "Another beautiful, more boxy SVG collection of free icons. Customizable thickness and color.",
+      "es": "Otra hermosa colección de iconos SVG más cuadrada y gratuita. Grosor y color personalizables."
+    },
     "url": "https://phosphoricons.com/",
-    "category": "frontend",
-    "subcategory": "icons"
+    "categoryEn": "frontend",
+    "categoryEs": "frontend",
+    "subcategory_en": "icons",
+    "subcategory_es": "iconos"
   },
   {
     "id": "16",
     "name": "Flat Icon",
-    "description": "It is a collection of fully customisable PSD icons, in two styles, available to use on your next project.",
+    "description": {
+      "en": "It is a collection of fully customisable PSD icons, in two styles, available to use on your next project.",
+      "es": "Es una colección de iconos PSD totalmente personalizables, en dos estilos, disponibles para usar en su próximo proyecto."
+    },
     "url": "https://flaticon.com/",
-    "category": "frontend",
-    "subcategory": "icons"
+    "categoryEn": "frontend",
+    "categoryEs": "frontend",
+    "subcategory_en": "icons",
+    "subcategory_es": "iconos"
   },
   {
     "id": "17",
     "name": "Line Awesome",
-    "description": "It is a collection of fully customisable PSD icons, in two styles, available to use on your next project.",
+    "description": {
+      "en": "It is a collection of fully customisable PSD icons, in two styles, available to use on your next project.",
+      "es": "Es una colección de iconos PSD totalmente personalizables, en dos estilos, disponibles para usar en su próximo proyecto."
+    },
     "url": "https://icons8.com/line-awesome",
-    "category": "frontend",
-    "subcategory": "icons"
+    "categoryEn": "frontend",
+    "categoryEs": "frontend",
+    "subcategory_en": "icons",
+    "subcategory_es": "iconos"
   },
 
   {
     "id": "19",
     "name": "Icon Sets",
-    "description": "Icon-sets is a website that provides a collection of icons for designers and developers to use in their projects.",
+    "description": {
+      "en": "Icon-sets is a website that provides a collection of icons for designers and developers to use in their projects.",
+      "es": "Icon-sets es un sitio web que proporciona una colección de iconos para diseñadores y desarrolladores para usar en sus proyectos."
+    },
     "url": "https://icon-sets.iconify.design/",
-    "category": "frontend",
-    "subcategory": "icons"
+    "categoryEn": "frontend",
+    "categoryEs": "frontend",
+    "subcategory_en": "icons",
+    "subcategory_es": "iconos"
   },
   {
     "id": "56",
     "name": "Devicon",
-    "description": "Set of icons representing programming languages, designing & development tools, all in one single font.",
+    "description": {
+      "en": "Set of icons representing programming languages, designing & development tools, all in one single font.",
+      "es": "Conjunto de iconos que representan lenguajes de programación, herramientas de diseño y desarrollo, todo en una sola fuente."
+    },
     "url": "https://devicon.dev",
-    "category": "frontend",
-    "subcategory": "icons"
+    "categoryEn": "frontend",
+    "categoryEs": "frontend",
+    "subcategory_en": "icons",
+    "subcategory_es": "iconos"
   }
 ]

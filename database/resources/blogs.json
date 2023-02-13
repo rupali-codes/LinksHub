@@ -2,73 +2,118 @@
   {
     "id": "57",
     "name": "Medium",
-    "description": "Medium is a website that allows people to publish and share articles, stories, and ideas with a community of readers.",
+    "description": {
+      "en": "Medium is a website that allows people to publish and share articles, stories, and ideas with a community of readers.",
+      "es": "Medium es un sitio web que permite a las personas publicar y compartir artículos, historias e ideas con una comunidad de lectores."
+    },
     "url": "https://medium.com",
-    "category": "resources",
-    "subcategory": "blogs"
+    "categoryEn": "resources",
+    "categoryEs": "recursos",
+    "subcategory_en": "blogs",
+    "subcategory_es": "blogs"
   },
   {
     "id": "58",
     "name": "GeeksforGeeks",
-    "description": "GeeksforGeeks is a computer science portal for geeks offering coding and algorithm tutorials, interview questions and more.",
+    "description": {
+      "en": "GeeksforGeeks is a computer science portal for geeks offering coding and algorithm tutorials, interview questions and more.",
+      "es": "GeeksforGeeks es un portal de ciencias de la computación para geeks que ofrece tutoriales de codificación y algoritmos, preguntas de entrevista y más."
+    },
     "url": "https://geeksforgeeks.org",
-    "category": "resources",
-    "subcategory": "blogs"
+    "categoryEn": "resources",
+    "categoryEs": "recursos",
+    "subcategory_en": "blogs",
+    "subcategory_es": "blogs"
   },
   {
     "id": "59",
     "name": "Javatpoint",
-    "description": "A platform that provides free tutorials and interview questions about technologies related to computer science.",
+    "description": {
+      "en": "A platform that provides free tutorials and interview questions about technologies related to computer science.",
+      "es": "Una plataforma que ofrece tutoriales gratuitos y preguntas de entrevista sobre tecnologías relacionadas con la ciencia de la computación."
+    },
     "url": "https://www.javatpoint.com/",
-    "category": "resources",
-    "subcategory": "blogs"
+    "categoryEn": "resources",
+    "categoryEs": "recursos",
+    "subcategory_en": "blogs",
+    "subcategory_es": "blogs"
   },
   {
     "id": "60",
     "name": "W3Schools",
-    "description": "W3Schools is a platform that offers tutorials, references, and courses covering all aspects of web development.",
+    "description": {
+      "en": "W3Schools is a platform that offers tutorials, references, and courses covering all aspects of web development.",
+      "es": "W3Schools es una plataforma que ofrece tutoriales, referencias y cursos que abarcan todos los aspectos del desarrollo web."
+    },
     "url": "https://www.w3schools.com",
-    "category": "resources",
-    "subcategory": "blogs"
+    "categoryEn": "resources",
+    "categoryEs": "recursos",
+    "subcategory_en": "blogs",
+    "subcategory_es": "blogs"
   },
   {
     "id": "61",
     "name": "LogRocket",
-    "description": "It is a frontend monitoring tool that helps with debugging by providing insights into user behavior.",
+    "description": {
+      "en": "It is a frontend monitoring tool that helps with debugging by providing insights into user behavior.",
+      "es": "Es una herramienta de monitoreo frontend que ayuda con la depuración proporcionando información sobre el comportamiento del usuario."
+    },
     "url": "https://logrocket.com",
-    "category": "resources",
-    "subcategory": "blogs"
+    "categoryEn": "resources",
+    "categoryEs": "recursos",
+    "subcategory_en": "blogs",
+    "subcategory_es": "blogs"
   },
   {
     "id": "62",
     "name": "Tutorialspoint",
-    "description": "Tutorials Point is an Ed Tech platform that offers the best learning material for technical and non-technical subjects.",
+    "description": {
+      "en": "Tutorials Point is an Ed Tech platform that offers the best learning material for technical and non-technical subjects.",
+      "es": "Tutorials Point es una plataforma de Ed Tech que ofrece el mejor material de aprendizaje para temas técnicos y no técnicos."
+    },
     "url": "https://tutorialspoint.com",
-    "category": "resources",
-    "subcategory": "blogs"
+    "categoryEn": "resources",
+    "categoryEs": "recursos",
+    "subcategory_en": "blogs",
+    "subcategory_es": "blogs"
   },
   {
     "id": "63",
     "name": "Dev.to",
-    "description": "A constructive and inclusive social network for software developers where they share and discover great ideas.",
+    "description": {
+      "en": "A constructive and inclusive social network for software developers where they share and discover great ideas.",
+      "es": "Una red social constructiva e inclusiva para desarrolladores de software donde comparten e descubren grandes ideas."
+    },
     "url": "https://dev.to/",
-    "category": "resources",
-    "subcategory": "blogs"
+    "categoryEn": "resources",
+    "categoryEs": "recursos",
+    "subcategory_en": "blogs",
+    "subcategory_es": "blogs"
   },
   {
     "id": "64",
     "name": "FreeCodeCamp",
-    "description": "A platform that has thousands of videos, articles, and coding lessons for helping people learn to code for free.",
+    "description": {
+      "en": "A platform that has thousands of videos, articles, and coding lessons for helping people learn to code for free.",
+      "es": "Una plataforma que tiene miles de videos, artículos y lecciones de codificación para ayudar a las personas a aprender a codificar de forma gratuita."
+    },
     "url": "https://freecodecamp.com",
-    "category": "resources",
-    "subcategory": "blogs"
+    "categoryEn": "resources",
+    "categoryEs": "recursos",
+    "subcategory_en": "blogs",
+    "subcategory_es": "blogs"
   },
   {
     "id": "65",
     "name": "Hashnode",
-    "description": "A free blogging platform where people in tech, developers, and engineers share their ideas.",
+    "description": {
+      "en": "A free blogging platform where people in tech, developers, and engineers share their ideas.",
+      "es": "Una plataforma de blogs gratuita donde las personas en tecnología, desarrolladores y ingenieros comparten sus ideas."
+    },
     "url": "https://hashnode.com",
-    "category": "resources",
-    "subcategory": "blogs"
+    "categoryEn": "resources",
+    "categoryEs": "recursos",
+    "subcategory_en": "blogs",
+    "subcategory_es": "blogs"
   }
 ]

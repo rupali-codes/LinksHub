@@ -2,9 +2,14 @@
   {
     "id": "54",
     "name": "Jennys Lectures CSIT",
-    "description": "This channel provides free courses for DSA, C, C++, Python etc.",
+    "description": {
+      "en": "This channel provides free courses for DSA, C, C++, Python etc.",
+      "es": "Este canal proporciona cursos gratuitos para DSA, C, C ++, Python, etc."
+    },
     "url": "https://www.youtube.com/@JennyslecturesCSIT",
-    "category": "youtube",
-    "subcategory": "dsa"
+    "categoryEn": "youtube",
+    "categoryEs": "youtube",
+    "subcategory_en": "dsa",
+    "subcategory_es": "dsa"
   }
 ]

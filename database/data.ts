@@ -9,7 +9,8 @@ export const data: IData[] = [
       'es': 'Unsplash es un sitio para obtener imágenes gratuitas, puede descargar todo tipo de imágenes HD'
     },
     url: 'https://unsplash.com',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'images',
     subcategory_es: 'imagenes',
   },
@@ -21,7 +22,8 @@ export const data: IData[] = [
       'es': 'Pixabay tiene más de 2 millones de fotos, vectores e ilustraciones de arte gratuitos que puedes usar en cualquier lugar'
     },
     url: 'https://pixabay.com/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'images',
     subcategory_es: 'imagenes',
   },
@@ -33,7 +35,8 @@ export const data: IData[] = [
       'es': 'Un gran recurso para fotos y videos gratuitos, creados por fotógrafos de todo el mundo.',
     },
     url: 'https://pexels.com/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'images',
     subcategory_es: 'imagenes',
   },
@@ -45,7 +48,8 @@ export const data: IData[] = [
       'es': 'Un esquema de color de código abierto, optimizado para la interfaz de usuario. Mi recurso de referencia para elegir colores desde cero.'
     },
     url: 'https://yeun.github.io/open-color/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'images',
     subcategory_es: 'imagenes',
   },
@@ -57,7 +61,8 @@ export const data: IData[] = [
       'es': 'Colección de hermosos degradados de color para que elijas y exportes a tu proyecto. '
     },
     url: 'https://uigradients.com/#MoonlitAsteroid',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'images',
     subcategory_es: 'imagenes',
   },
@@ -69,7 +74,8 @@ export const data: IData[] = [
       'es': 'Este es un excelente y popular conjunto de paletas de colores de TailwindCSS. Consigue hermosos colores de todos los tonos.'
     },
     url: 'https://tailwindcss.com/docs/customizing-colors',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'colors',
     subcategory_es: 'colores',
   },
@@ -82,7 +88,8 @@ export const data: IData[] = [
     }
       ,
     url: 'https://coolors.co/contrast-checker',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'colors',
     subcategory_es: 'colores',
   },
@@ -94,7 +101,8 @@ export const data: IData[] = [
       'es': '0to255 es una herramienta de color que facilita encontrar colores más claros y más oscuros, o matices y sombras, en función de cualquier color.'
     },
     url: 'https://0to255.com/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'colors',
     subcategory_es: 'colores',
   },
@@ -106,7 +114,8 @@ export const data: IData[] = [
       'es': 'El recurso número 1 de fuentes web gratuitas y fáciles de usar de Google. Tiene una gran biblioteca de fuentes.',
     },
     url: 'https://fonts.google.com/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'fonts',
     subcategory_es: 'fuentes',
   },
@@ -118,7 +127,8 @@ export const data: IData[] = [
       'es': 'Fonts Quirrel es una plataforma para obtener fuentes comerciales gratuitas para su proyecto. Es otra gran biblioteca de fuentes. '
     },
     url: 'https://fontsquirrel.com/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'fonts',
     subcategory_es: 'fuentes',
   },
@@ -130,7 +140,8 @@ export const data: IData[] = [
       'es': 'Recurso todo en uno para obtener imágenes de ilustraciones gratuitas para personajes, fondos, avatar y más'
     },
     url: 'https://glazestock.com/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'illustrations',
     subcategory_es: 'ilustraciones',
   },
@@ -142,7 +153,8 @@ export const data: IData[] = [
       'es': 'unDraw es otra plataforma excelente para obtener imágenes de ilustración gratuitas sin restricciones de color'
     },
     url: 'https://undraw.co/illustrations',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'illustrations',
     subcategory_es: 'ilustraciones',
   },
@@ -154,7 +166,8 @@ export const data: IData[] = [
       'es': 'Es una colección de ilustraciones PSD totalmente personalizables, en dos estilos, disponibles para usar en su próximo proyecto.'
     },
     url: 'https://drawkit.com/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'illustrations',
     subcategory_es: 'ilustraciones',
   },
@@ -166,7 +179,8 @@ export const data: IData[] = [
       'es': 'Una fuente de íconos muy popular, que consta de más de 1000 iconos repartidos en innumerables categorías.'
     },
     url: 'https://fontawesome.com/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'icons',
     subcategory_es: 'iconos',
   },
@@ -178,7 +192,8 @@ export const data: IData[] = [
       'es': 'Otra hermosa colección SVG más cuadrada de iconos gratuitos. Grosor y color personalizables.'
     },
     url: 'https://phosphoricons.com/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'icons',
     subcategory_es: 'iconos',
   },
@@ -190,7 +205,8 @@ export const data: IData[] = [
       'es': 'Es una colección de íconos PSD completamente personalizables, en dos estilos, disponibles para usar en su próximo proyecto.'
     },
     url: 'https://flaticon.com/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'icons',
     subcategory_es: 'iconos',
   },
@@ -202,7 +218,8 @@ export const data: IData[] = [
       'es': 'Es una colección de íconos PSD completamente personalizables, en dos estilos, disponibles para usar en tu próximo proyecto.'
     },
     url: 'https://icons8.com/line-awesome',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'icons',
     subcategory_es: 'iconos',
   },
@@ -214,7 +231,8 @@ export const data: IData[] = [
       'es': 'Font Joy es un sitio web que genera combinaciones de fuentes para que los diseñadores y desarrolladores las utilicen en sus proyectos.'
     },
     url: 'https://fontjoy.com/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'fonts',
     subcategory_es: 'fuentes',
   },
@@ -226,7 +244,8 @@ export const data: IData[] = [
       'es': 'Icon-sets es un sitio web que proporciona una colección de iconos para que los diseñadores y desarrolladores los utilicen en sus proyectos.'
     },
     url: 'https://icon-sets.iconify.design/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'icons',
     subcategory_es: 'iconos',
   },
@@ -238,7 +257,8 @@ export const data: IData[] = [
       'es': "Permite buscar imágenes por color y proporciona una paleta de colores complementaria en la foto."
     },
     url: 'https://kaboompics.com/',
-    category: 'frontend',
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'images',
     subcategory_es: 'imagenes',
   },
@@ -250,7 +270,8 @@ export const data: IData[] = [
       'es': "En 1001 fonts puedes descargar tu fuente favorita y usarla en tu app"
     },
     url: "https://www.1001fonts.com/",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'fonts',
     subcategory_es: 'fuentes',
   },
@@ -262,7 +283,8 @@ export const data: IData[] = [
       'es': "Coolors es la herramienta esencial para crear paletas de colores. Genera colores coincidentes perfectos en segundos."
     },
     url: "https://coolors.co/",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "colors",
     subcategory_es: "colores",
   },   
@@ -274,7 +296,8 @@ export const data: IData[] = [
       'es': "LottieFiles elimina la complejidad del diseño de movimiento. Le permite crear, editar, probar, colaborar y enviar un lote de la forma más sencilla posible."
     },
     url: "https://lottiefiles.com/",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "animations",
     subcategory_es: "animaciones",
   },
@@ -286,7 +309,8 @@ export const data: IData[] = [
       'es': "Una herramienta para crear escalas de tipos visuales: conjuntos de tamaños de fuente que siguen proporciones atractivas."
     },
     url: "https://type-scale.com",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: 'fonts',
     subcategory_es: 'fuentes',
   },
@@ -298,7 +322,8 @@ export const data: IData[] = [
       'es': "Explora las carteras de diseño líderes en el mundo."
     },
     url: "https://dribbble.com",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "design-inspiration",
     subcategory_es: "inspiraciones-diseno",
   },
@@ -310,7 +335,8 @@ export const data: IData[] = [
       'es': "Una colección curada de buen diseño web de toda la web."
     },
     url: "https://godly.website",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "design-inspiration",
     subcategory_es: "inspiraciones-diseno",
   },   
@@ -322,7 +348,8 @@ export const data: IData[] = [
       'es': "Una herramienta para la visualización y creación de curvas cubic-bezier para animación en CSS"
     },
     url: "https://cubic-bezier.com/",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "animations",
     subcategory_es: "animaciones",
   },
@@ -334,7 +361,8 @@ export const data: IData[] = [
       'es':"Framer Motion es una biblioteca de movimiento lista para producción para React de Framer. Es simple pero potente, lo que le permite expresar interacciones de usuario complejas con un marcado semántico sólido."
     },
     url: "https://www.framer.com/motion/",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "animations",
     subcategory_es: "animaciones",
   },
@@ -346,7 +374,8 @@ export const data: IData[] = [
       'es': "UI Faces agrega varias fuentes gratuitas de marcadores de posición de avatar que puedes usar en tus maquetas de diseño mediante copiar y pegar, API y complementos para Sketch, Adobe XD y Figma."
     },
     url: "https://uifaces.co/browse-avatars/",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "images",
     subcategory_es: "imagenes",
   },
@@ -358,7 +387,8 @@ export const data: IData[] = [
       'es': "Este es un selector de color de w3schools que proporciona diferentes tonos de colores según tus requisitos. También proporciona valores de color hexadecimales y RGB."
     },
     url: "https://w3schools.com/colors/colors_picker.asp",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "colors",
     subcategory_es: "colores",
   },
@@ -370,7 +400,8 @@ export const data: IData[] = [
       'es': "Es una plataforma donde puede generar elementos CSS de Soft-UI para tu sitio web o aplicación"
     },
     url: "https://neumorphism.io/#e0e0e0",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "ui-generators",
     subcategory_es: "generadores-ui",
   },
@@ -382,7 +413,8 @@ export const data: IData[] = [
       'es': "Otro sitio genial y excelente para generar Glassmorphism CSS para su proyecto."
     },
     url: "https://hype4.academy/tools/glassmorphism-generator",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "ui-generators",
     subcategory_es: "generadores-ui",
   },
@@ -394,7 +426,8 @@ export const data: IData[] = [
       'es': "Proporciona tonos de elementos de interfaz de usuario geniales hechos con HTML y CSS."
     },
     url: "https://uiverse.io/all",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "ui-generators",
     subcategory_es: "generadores-ui",
   },
@@ -406,7 +439,8 @@ export const data: IData[] = [
       'es': "Un paquete de elementos CSS sorprendentes y de interfaz de usuario para que los use en tu proyecto."
     },
     url: "https://www.cssportal.com/ui-generators.php",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "ui-generators",
     subcategory_es: "generadores-ui",
   },
@@ -418,7 +452,8 @@ export const data: IData[] = [
       'es': "Una plataforma para implementar sorprendentes elementos CSS de su elección para tu proyecto.",
     }, 
     url: "https://enjoycss.com/",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "ui-generators",
     subcategory_es: "generadores-ui",
   },
@@ -430,7 +465,8 @@ export const data: IData[] = [
       'es': "Un generador de CSS que ayuda a demostrar y generar rápidamente declaraciones de CSS para tu sitio web."
     },
     url: "https://cssgenerator.org/",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "ui-generators",
     subcategory_es: "generadores-ui",
   },
@@ -442,7 +478,8 @@ export const data: IData[] = [
       'es': "Una increíble plataforma de código abierto para generar elementos CSS listos para usar para su proyecto."
     }, 
     url: "https://code-magic.vercel.app/",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "ui-generators",
     subcategory_es: "generadores-ui",
   },
@@ -454,7 +491,8 @@ export const data: IData[] = [
       'es': "Una plataforma donde puede generar componentes de interfaz de usuario basados ​​en TailwindCSS.",
     }, 
     url: "https://daisyui.com/",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "ui-generators",
     subcategory_es: "generadores-ui",
   },
@@ -466,7 +504,8 @@ export const data: IData[] = [
       'es': "Otra gran plataforma donde puede generar componentes de interfaz de usuario basados ​​en TailwindCSS.",
     },
     url: "https://tailblocks.cc/",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "ui-generators",
     subcategory_es: "generadores-ui",
   },
@@ -478,7 +517,8 @@ export const data: IData[] = [
       'es': "Un motor de animación basado en partículas de JavaScript. Lo que te proporciona tonos de elementos animados.",
     },
     url: "https://drawcall.github.io/Proton/",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "animations",
     subcategory_es: "animaciones",
   },
@@ -490,7 +530,8 @@ export const data: IData[] = [
       'es': "Una increíble comunidad en línea para probar y mostrar fragmentos de código HTML, CSS y JavaScript",
     },
     url: "https://codepen.io",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "online-code-editors",
     subcategory_es: "editores-codigo-online",
   },
@@ -502,7 +543,8 @@ export const data: IData[] = [
       'es': "Otra plataforma en línea para probar códigos escritos en HTML, CSS y JavaScript",
     }, 
     url: "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "online-code-editors",
     subcategory_es: "editores-codigo-online"
   },
@@ -514,7 +556,8 @@ export const data: IData[] = [
       'es': "Otra plataforma en línea para probar códigos escritos en HTML, CSS y JavaScript"
     },
     url: "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "online-code-editors",
     subcategory_es: "editores-codigo-online"
   },
@@ -526,7 +569,8 @@ export const data: IData[] = [
       'es': "Es un editor en línea multi-lenguaje en donde puedes testear y compartir tus fragmentos de código",
     },
     url: "https://sololearn.com/compiler-playground/cVRUy2BwauK8",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "online-code-editors",
     subcategory_es: "editores-codigo-online"
   },
@@ -538,7 +582,8 @@ export const data: IData[] = [
       'es': 'Un IDE en línea para practicar sus habilidades de programación competitiva. Le permite codificar en múltiples idiomas.'
     },
     url: "https://www.codechef.com/ide",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "online-code-editors",
     subcategory_es: "editores-codigo-online"
   },
@@ -550,7 +595,8 @@ export const data: IData[] = [
        'es': "Este canal provee cursos gratis de multi-programación para desarrollo web, android y más",
     },
     url: "https://www.youtube.com/watch?v=fis26HvvDII",
-    category: "youtube",
+    categoryEn: 'youtube',
+    categoryEs: 'youtube',
     subcategory_en: "android",
     subcategory_es: "android",
   },
@@ -562,7 +608,8 @@ export const data: IData[] = [
        'es': "The Net Ninja es un canal de YouTube que enseña desarrollo web, incluyendo HTML, CSS, JavaScript, PHP, Python, C# y más",
     },
     url: "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
-    category: "youtube",
+    categoryEn: 'youtube',
+    categoryEs: 'youtube',
     subcategory_en: "web-development",
     subcategory_es: "desarrollo-web",
   },
@@ -574,7 +621,8 @@ export const data: IData[] = [
        'es': "3Blue1Brown, de Grant Sanderson, es una combinación de matemáticas y entretenimiento, dependiendo de tu disposición. El objetivo es que las explicaciones sean impulsadas por animaciones y que los problemas difíciles se simplifiquen con cambios en la perspectiva.",
     },
     url: "https://www.youtube.com/@3blue1brown",
-    category: "youtube",
+    categoryEn: 'youtube',
+    categoryEs: 'youtube',
     subcategory_en: "machine-learning",
     subcategory_es: "machine-learning",
   },
@@ -586,7 +634,8 @@ export const data: IData[] = [
        'es': "Un seleccionador de color que contiene diferentes sombras de colores y gradientes, que pueden ser usados en cualquier tipo de proyectos",
     },
     url: "https://uicolorpicker.com/",
-    category: "frontend",
+    categoryEn: 'frontend',
+    categoryEs: 'frontend',
     subcategory_en: "colors",
     subcategory_es: "colores",
   },
@@ -598,7 +647,8 @@ export const data: IData[] = [
        'es': "Este canal es para todos los niveles de desarrolladores que quieren empezar o continuar su viaje en tech.",
     },
     url: "https://www.youtube.com/@TraversyMedia",
-    category: "youtube",
+    categoryEn: 'youtube',
+    categoryEs: 'youtube',
     subcategory_en: "web-development",
     subcategory_es: "desarrollo-web",
  },
@@ -610,7 +660,8 @@ export const data: IData[] = [
      'es': "Este canal provee cursos gratis relacionados con desarrollo web, desarrollo de apps, proyectos y mucho más.",
   },
   url: "https://www.youtube.com/@freecodecamp",
-  category: "youtube",
+  categoryEn: 'youtube',
+  categoryEs: 'youtube',
   subcategory_en: "web-development",
   subcategory_es: "desarrollo-web",
 },
@@ -622,7 +673,8 @@ export const data: IData[] = [
      'es': "Fireship es un canal que provee videos de corta introducción y guías rápidas de aprendizaje.",
   },
   url: "https://www.youtube.com/@Fireship",
-  category: "youtube",
+  categoryEn: 'youtube',
+  categoryEs: 'youtube',
   subcategory_en: "web-development",
   subcategory_es: "desarrollo-web",
 },
@@ -634,7 +686,8 @@ export const data: IData[] = [
      'es': "Es otro grandioso canal para empezar el viaje hacia el desarrollo web.",
   },
   url: "https://www.youtube.com/@programmingwithmosh",
-  category: "youtube",
+  categoryEn: 'youtube',
+  categoryEs: 'youtube',
   subcategory_en: "web-development",
   subcategory_es: "desarrollo-web",
 },
@@ -646,7 +699,8 @@ export const data: IData[] = [
      'es': "Este canal provee cursos gratis de DSA, C, C++, Python, etc.",
   },
   url: "https://www.youtube.com/@JennyslecturesCSIT",
-  category: "youtube",
+  categoryEn: 'youtube',
+  categoryEs: 'youtube',
   subcategory_en: "dsa",
   subcategory_es: "estructuras-de-datos",
 },
@@ -658,7 +712,8 @@ export const data: IData[] = [
      'es': "Este es un gran canal para desarrollo web. Está más enfocado a JavaScript y a sus entornos de trabajo."
   },
   url: "https://www.youtube.com/@academind",
-  category: "youtube",
+  categoryEn: 'youtube',
+  categoryEs: 'youtube',
   subcategory_en: "web-development",
   subcategory_es: "desarrollo-web",
 },
@@ -666,7 +721,8 @@ export const data: IData[] = [
 
 export const sidebarData: ISidebar[] = [
   {
-    category: "frontend",
+    categoryEn: "frontend",
+    categoryEs: "frontend",
     subcategory: [
       { name: "images", url: "/images" },
       { name: "fonts", url: "/fonts" },
@@ -682,7 +738,8 @@ export const sidebarData: ISidebar[] = [
     lang: 'en'
   },
   {
-    category: 'frontend',
+    categoryEn: "frontend",
+    categoryEs: "frontend",
     subcategory: [
       { name: 'imagenes', url: '/imagenes' },
       { name: 'fuentes', url: '/fuentes' },
@@ -697,7 +754,8 @@ export const sidebarData: ISidebar[] = [
     lang: 'es'
   },
   {
-    category: "backend",
+    categoryEn: "backend",
+    categoryEs: "backend",
     subcategory: [
       { name: "validation", url: "/validation" },
       { name: "security", url: "/security" },
@@ -708,7 +766,8 @@ export const sidebarData: ISidebar[] = [
     lang: 'en'
   },
    {
-    category: 'backend',
+    categoryEn: "backend",
+    categoryEs: "backend",
     subcategory: [
       { name: 'validacion', url: '/validacion' },
       { name: 'seguridad', url: 'seguridad'},
@@ -719,7 +778,8 @@ export const sidebarData: ISidebar[] = [
     lang: 'es'
   },
   {
-    category: "youtube",
+    categoryEn: "youtube",
+    categoryEs: "youtube",
     subcategory: [
       { name: "web development", url: "/web-development" },
       { name: "machine learning", url: "/machine-learning" },
@@ -729,7 +789,8 @@ export const sidebarData: ISidebar[] = [
     lang: 'en'
   },
   {
-    category: 'youtube',
+    categoryEn: "youtube",
+    categoryEs: "youtube",
     subcategory: [
       { name: 'desarrollo web', url: '/desarrollo-web' },
       { name: 'machine learning', url: '/machine-learning' },
@@ -739,7 +800,8 @@ export const sidebarData: ISidebar[] = [
     lang: 'es'
   },
   {
-    category: "resources",
+    categoryEn: "resources",
+    categoryEs: "recursos",
     subcategory: [
       { name: "blogs", url: "/blogs" },
       { name: "hosting", url: "/hosting" },
@@ -747,7 +809,8 @@ export const sidebarData: ISidebar[] = [
     lang: 'en'
   },
   {
-    category: "resources",
+    categoryEn: "resources",
+    categoryEs: "recursos",
     subcategory: [
       { name: "blogs", url: "/blogs" },
       { name: "hosting", url: "/hosting" },

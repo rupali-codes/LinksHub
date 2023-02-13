@@ -11,9 +11,11 @@ const Cards = () => {
 
   const { subcategory } = router.query;
 
+  const subcategoryLang = lang === 'en' ? 'subcategory_en' : 'subcategory_es';
+
   // This filters trough the DB with the subcategory which results in an array of arrays
   const filterSubCat = Object.values(DB)?.map((item: any) =>
-    item?.filter((cat: any) => cat.subcategory.includes(subcategory))
+    item?.filter((cat: any) => cat[subcategoryLang]?.includes(subcategory))
   );
 
   // This filters out an empty array from the filterSubCat

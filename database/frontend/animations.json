@@ -2,33 +2,53 @@
   {
     "id": "23",
     "name": "Lottie files",
-    "description": "LottieFiles takes away the complexity from Motion Design. It lets you Create, Edit, Test, Collaborate and Ship a Lottie in the easiest way possible.",
+    "description": {
+      "en": "LottieFiles takes away the complexity from Motion Design. It lets you Create, Edit, Test, Collaborate and Ship a Lottie in the easiest way possible.",
+      "es": "LottieFiles elimina la complejidad del diseño de movimiento. Le permite crear, editar, probar, colaborar y enviar un lote de la forma más sencilla posible."
+    },
     "url": "https://lottiefiles.com/",
-    "category": "frontend",
-    "subcategory": "animations"
+    "category_en": "frontend",
+    "category_es": "frontend",
+    "subcategory_en": "animations",
+    "subcategory_es": "animaciones"
   },
   {
     "id": "27",
     "name": "Cubic Bezier",
-    "description": "A tool for visualisation and creation of cubic-bezier curves for animation in CSS",
+    "description": {
+      "en": "A tool for visualisation and creation of cubic-bezier curves for animation in CSS. ",
+      "es": "Una herramienta para la visualización y creación de curvas de cubic-bezier para animación en CSS."
+    },
     "url": "https://cubic-bezier.com/",
-    "category": "frontend",
-    "subcategory": "animations"
+    "category_en": "frontend",
+    "category_es": "frontend",
+    "subcategory_en": "animations",
+    "subcategory_es": "animaciones"
   },
   {
     "id": "28",
     "name": "Framer Motion",
-    "description": "Framer Motion is a production-ready motion library for React from Framer, It's simple yet powerful, allowing you to express complex user interactions with robust, semantic markup.",
+    "description": {
+      "en": "Framer Motion is a production-ready motion library for React from Framer, It's simple yet powerful, allowing you to express complex user interactions with robust, semantic markup.",
+      "es": "Framer Motion es una biblioteca de movimiento listo para producción para React de Framer, es simple pero potente, le permite expresar interacciones complejas del usuario con marcado semántico robusto."
+    },
     "url": "https://www.framer.com/motion/",
-    "category": "frontend",
-    "subcategory": "animations"
+    "category_en": "frontend",
+    "category_es": "frontend",
+    "subcategory_en": "animations",
+    "subcategory_es": "animaciones"
   },
   {
     "id": "40",
     "name": "Proton",
-    "description": "A JavaScript particle based animation engine. Which provides you tones of animated elements.",
+    "description": {
+      "en": "A JavaScript particle based animation engine. Which provides you tones of animated elements.",
+      "es": "Un motor de animación basado en partículas de JavaScript. Que te proporciona toneladas de elementos animados."
+    },
     "url": "https://drawcall.github.io/Proton/",
-    "category": "frontend",
-    "subcategory": "animations"
+    "category_en": "frontend",
+    "category_es": "frontend",
+    "subcategory_en": "animations",
+    "subcategory_es": "animaciones"
   }
 ]

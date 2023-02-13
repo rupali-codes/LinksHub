@@ -2,25 +2,40 @@
   {
     "id": "11",
     "name": "Glaze",
-    "description": "All in one resource to get free illustrations images for characters, backgrounds, avatar and more",
+    "description": {
+      "en": "All in one resource to get free illustrations images for characters, backgrounds, avatar and more",
+      "es": "Todo en un solo recurso para obtener imágenes de ilustraciones gratuitas para personajes, fondos, avatar y más"
+    },
     "url": "https://glazestock.com/",
-    "category": "frontend",
-    "subcategory": "illustrations"
+    "categoryEn": "frontend",
+    "categoryEs": "frontend",
+    "subcategory_en": "illustrations",
+    "subcategory_es": "ilustraciones"
   },
   {
     "id": "12",
     "name": "unDraw",
-    "description": "unDraw os another exccelent platform to get free illustration images with No color restrictions",
+    "description": {
+      "en": "unDraw os another exccelent platform to get free illustration images with No color restrictions",
+      "es": "unDraw es otra excelente plataforma para obtener imágenes de ilustración gratuitas sin restricciones de color"
+    },
     "url": "https://undraw.co/illustrations",
-    "category": "frontend",
-    "subcategory": "illustrations"
+    "categoryEn": "frontend",
+    "categoryEs": "frontend",
+    "subcategory_en": "illustrations",
+    "subcategory_es": "ilustraciones"
   },
   {
     "id": "13",
     "name": "DrawKit",
-    "description": "It is a collection of fully customisable PSD illustrations, in two styles, available to use on your next project.",
+    "description": {
+      "en": "It is a collection of fully customisable PSD illustrations, in two styles, available to use on your next project.",
+      "es": "Es una colección de ilustraciones PSD totalmente personalizables, en dos estilos, disponibles para usar en su próximo proyecto."
+    },
     "url": "https://drawkit.com/",
-    "category": "frontend",
-    "subcategory": "illustrations"
+    "categoryEn": "frontend",
+    "categoryEs": "frontend",
+    "subcategory_en": "illustrations",
+    "subcategory_es": "ilustraciones"
   }
 ]

@@ -2,15 +2,20 @@
   {
     "id": "9",
     "name": "Google Fonts",
-    "description": "The No. 1 resource for free and easy-to-use webfonts by Google. It has a huge library of fonts. ",
-    "url": "https://fonts.google.com/",
+    "description": {
+      "en": "The No. 1 resource for free and easy-to-use webfonts by Google. It has a huge library of fonts. ",
+      "es": "El recurso No. 1 para fuentes web gratuitas y fáciles de usar de Google. Tiene una enorme biblioteca de fuentes. "
+    }, 
     "category": "frontend",
     "subcategory": "fonts"
   },
   {
     "id": "10",
     "name": "Fonts Quirrel",
-    "description": "Fonts Quirrel is platform to get free commercial fonts for your project. It's another huge library for fonts ",
+    "description": {
+      "en": "Fonts Quirrel is platform to get free commercial fonts for your project. It's another huge library for fonts ",
+      "es": "Fonts Quirrel es una plataforma para obtener fuentes comerciales gratuitas para su proyecto. Es otra gran biblioteca de fuentes "
+    },
     "url": "https://fontsquirrel.com/",
     "category": "frontend",
     "subcategory": "fonts"
@@ -18,7 +23,10 @@
   {
     "id": "21",
     "name": "1001 fonts",
-    "description": "1001 fonts is a platform that offers 42933 free fonts in 24214 families · Free licenses for commercial use·",
+    "description": {
+      "en": "1001 fonts is a platform that offers 42933 free fonts in 24214 families · Free licenses for commercial use·",
+      "es": "1001 fuentes es una plataforma que ofrece 42933 fuentes gratuitas en 24214 familias · Licencias gratuitas para uso comercial·"
+    },
     "url": "https://www.1001fonts.com/",
     "category": "frontend",
     "subcategory": "fonts"
@@ -26,7 +34,10 @@
   {
     "id": "18",
     "name": "Font Joy",
-    "description": "Font Joy is a website that generates font pairings for designers and developers to use in their projects. ",
+    "description": {
+      "en": "Font Joy is a website that generates font pairings for designers and developers to use in their projects. ",
+      "es": "Font Joy es un sitio web que genera combinaciones de fuentes para diseñadores y desarrolladores para usar en sus proyectos. "
+    },
     "url": "https://fontjoy.com/",
     "category": "frontend",
     "subcategory": "fonts"
@@ -34,7 +45,10 @@
   {
     "id": "24",
     "name": "Type Scale",
-    "description": "A tool to create visual type scales - sets of font sizes that follow good-looking proportions.",
+    "description": {
+      "en": "A tool to create visual type scales - sets of font sizes that follow good-looking proportions.",
+      "es": "Una herramienta para crear escalas de tipos visuales - conjuntos de tamaños de fuente que siguen proporciones atractivas."
+    },
     "url": "https://type-scale.com",
     "category": "frontend",
     "subcategory": "fonts"

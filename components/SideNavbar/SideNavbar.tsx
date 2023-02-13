@@ -85,7 +85,7 @@ export const SideNavbar = () => {
             return (
               <div key={index}>
                 <h2 key={index} className="uppercase mb-3 font-bold text-xl">
-                  {item.category}
+                  {lang === 'en' ? item.categoryEn : item.categoryEs}
                 </h2>
                 {item.subcategory
                   .sort((a, b) =>

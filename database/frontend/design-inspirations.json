@@ -2,17 +2,27 @@
   {
     "id": "25",
     "name": "Dribbble",
-    "description": "Explore the world’s leading design portfolios.",
+    "description": {
+      "en": "Explore the world’s leading design portfolios.",
+      "es": "Explora los mejores portafolios de diseño del mundo."
+    },
     "url": "https://dribbble.com",
-    "category": "frontend",
-    "subcategory": "design-inspiration"
+    "categoryEn": "frontend",
+    "categoryEs": "frontend",
+    "subcategory_en": "design-inspiration",
+    "subcategory_es": "inspiraciones-diseno"
   },
   {
     "id": "26",
     "name": "Godly Website",
-    "description": "A curated collection of good web design from all over the web",
+    "description": {
+      "en": "A collection of beautiful websites.",
+      "es": "Una colección de sitios web hermosos."
+    },
     "url": "https://godly.website",
-    "category": "frontend",
-    "subcategory": "design-inspiration"
+    "categoryEn": "frontend",
+    "categoryEs": "frontend",
+    "subcategory_en": "design-inspiration",
+    "subcategory_es": "inspiraciones-diseno"
   }
 ]

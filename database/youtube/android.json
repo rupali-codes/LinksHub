@@ -2,9 +2,14 @@
   {
     "id": "46",
     "name": "FreeCodeCamp",
-    "description": "This channel provides free multi programming language courses for Web-dev, android and more.",
+    "description": {
+      "en": "Learn to code at home. Build projects. Earn certifications. Since 2014, more than 40,000 freeCodeCamp.org graduates have gotten jobs at tech companies including Google, Apple, Amazon, and Microsoft.",
+      "es": "Aprende a programar en casa. Construye proyectos. Obtén certificaciones. Desde 2014, más de 40,000 graduados de freeCodeCamp.org han conseguido empleos en empresas de tecnología como Google, Apple, Amazon y Microsoft."
+    },
     "url": "https://www.youtube.com/watch?v=fis26HvvDII",
-    "category": "youtube",
-    "subcategory": "android"
+    "categoryEn": "youtube",
+    "categoryEs": "youtube",
+    "subcategory_en": "android",
+    "subcategory_es": "android"
   }
 ]
