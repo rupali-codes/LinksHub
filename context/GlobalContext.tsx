@@ -1,5 +1,5 @@
 import { useReducer, createContext, ReactNode } from "react";
-import { IContext } from "../types";
+import { IContext } from "types";
 import GlobalReducer from "./GlobalReducer";
 
 const initialState: IContext = {
@@ -39,4 +39,4 @@ const GlobalProvider = ({ children }: { children: ReactNode }) => {
   );
 };
 
-export {GlobalContext,GlobalProvider};
+export { GlobalContext, GlobalProvider };
