@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Logo from "components/logo";
 import { TopBar } from "components/TopBar/TopBar";
+import TypewriterComponent from "typewriter-effect";
 
 export default function Home() {
   return (
@@ -14,10 +15,25 @@ export default function Home() {
       </Head>
       <main className="lg:h-[calc(100vh-85px)] h-[calc(100vh-150px)] flex flex-col">
         <TopBar header="Home" />
-        <div className="m-auto md:text-7xl text-5xl gap-2 flex items-center justify-center">
-          <Logo />
-          <span>👾</span>
+        <div className=" m-auto flex flex-col  items-start gap-2">
+            <div className="m-auto md:text-7xl text-5xl gap-2 flex items-center justify-center">
+              <Logo />
+              <span>👾</span> 
+
+            </div>
+            <div className=" flex mt-6 justify-center items-start">
+            <p className="text-xl  ">Your one stop solution for</p>
+            <p className='text-xl text-violet-500'><TypewriterComponent 
+                  options={{
+                    strings: ['Hello', 'World'],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                /></p>
+            </div>
+        
         </div>
+        
       </main>
     </>
   );
