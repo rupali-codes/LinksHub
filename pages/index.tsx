@@ -3,8 +3,21 @@ import Head from "next/head";
 import Logo from "components/logo";
 import { TopBar } from "components/TopBar/TopBar";
 import TypewriterComponent from "typewriter-effect";
-
+import { sidebarData } from "../database/data";
+import { useState, useEffect } from "react";
 export default function Home() {
+  //storing sub categories names for using in typewriter effect
+  let subCategoriesNames:string[] = [];
+  sidebarData.forEach((c) => {
+      c.subcategory.forEach((a) =>{
+        subCategoriesNames.push(a.name.toUpperCase());
+      });
+    })
+  
+  
+      
+  
+  
   return (
     <>
       <Head>
@@ -21,11 +34,11 @@ export default function Home() {
               <span>👾</span> 
 
             </div>
-            <div className=" flex mt-6 justify-center items-start">
-            <p className="text-xl  ">Your one stop solution for</p>
-            <p className='text-xl text-violet-500'><TypewriterComponent 
+            <div className=" flex flex-col mt-6 justify-center items-start">
+            <p className="text-xl  ">Navigate through menu for</p>
+            <p className='text-xl text-violet-500'><TypewriterComponent  
                   options={{
-                    strings: ['Hello', 'World'],
+                    strings: subCategoriesNames,
                     autoStart: true,
                     loop: true,
                   }}
