@@ -1,12 +1,14 @@
 import { useRouter } from "next/router";
-import React from "react";
+import React, { useContext } from "react";
 import { LinkContainer } from "../LinksContainer/LinkContainer";
 import { BackToTopButton } from "../BackToTop/BackToTopButton";
 import * as DB from "database";
+import { GlobalContext } from "context/GlobalContext";
 
 const Cards = () => {
   const router = useRouter();
   const { subcategory } = router.query;
+  const { lang } = useContext(GlobalContext)
 
   // This filters trough the DB with the subcategory which results in an array of arrays
   const filterSubCat = Object.values(DB)?.map((item: any) =>
@@ -27,7 +29,7 @@ const Cards = () => {
       {filterDB[0]?.map((data: any, key: number) => (
         <LinkContainer
           name={data.name}
-          description={data.description}
+          description={lang === "en" ? data.description.en : data.description.es}
           url={data.url}
           key={key + "-" + data.name}
         />

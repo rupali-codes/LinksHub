@@ -2,7 +2,10 @@
   {
     "id": "25",
     "name": "Dribbble",
-    "description": "Explore the world’s leading design portfolios.",
+    "description": {
+      "en": "Explore the world’s leading design portfolios.",
+      "es": "Explora los mejores portafolios de diseño del mundo."
+    },
     "url": "https://dribbble.com",
     "category": "frontend",
     "subcategory": "design-inspiration"
@@ -10,7 +13,10 @@
   {
     "id": "26",
     "name": "Godly Website",
-    "description": "A curated collection of good web design from all over the web",
+    "description": {
+      "en": "A curated collection of good web design from all over the web",
+      "es": "Una colección curada de buen diseño web de todo el mundo"
+    },
     "url": "https://godly.website",
     "category": "frontend",
     "subcategory": "design-inspiration"

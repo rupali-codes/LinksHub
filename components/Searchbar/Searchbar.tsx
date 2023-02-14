@@ -1,11 +1,14 @@
 import SearchIcon from "assets/icons/SearchIcon";
-import { ChangeEvent } from "react";
+import { GlobalContext } from "context/GlobalContext";
+import { ChangeEvent, useContext } from "react";
 import { SearchbarProps } from "types";
 
 export const Searchbar = ({ setSearch }: SearchbarProps) => {
   const handleSearch = (e: ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
   };
+
+  const { lang } = useContext(GlobalContext);
 
   return (
     <>
@@ -20,7 +23,7 @@ export const Searchbar = ({ setSearch }: SearchbarProps) => {
           type="text"
           id="simple-search"
           className="block p-2.5 pl-10 w-full bg-transparent text-sm text-gray-900 dark:text-gray-200 border border-solid border-gray-400 dark:border-gray-600 focus:border-violet-500 dark:focus:border-violet-500 dark:focus:ring-violet-500 focus:ring-violet-500 dark:placeholder-gray-400 outline-none transition-all ease-in-out duration-300 rounded-lg"
-          placeholder="Search"
+          placeholder={lang === 'en' ? "Search" : "Buscar"}
           onChange={handleSearch}
           required
         />

@@ -10,7 +10,7 @@ import classNames from "classnames";
 import { useTheme } from "next-themes";
 
 export const SideNavbar = () => {
-  const { toggleNav, sidebar, openNav, closeNav } = useContext(GlobalContext);
+  const { toggleNav, sidebar, closeNav, lang } = useContext(GlobalContext);
   const { theme } = useTheme();
   const menuRef = createRef<HTMLDivElement>();
   const menuBtnRef = createRef<HTMLButtonElement>();
@@ -81,7 +81,7 @@ export const SideNavbar = () => {
           <Searchbar setSearch={setSearch} />
         </div>
         <div className="flex flex-col justify-center px-4 gap-8 pb-24">
-          {searchResults.map((item, index) => {
+          {searchResults.filter(item => item.lang === lang).map((item, index) => {
             return (
               <div key={index}>
                 <h2 key={index} className="uppercase mb-3 font-bold text-xl">

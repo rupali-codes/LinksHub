@@ -8,6 +8,8 @@ function GlobalReducer(state: IContext, action: any): IContext {
       return { ...state, sidebar: false };
     case "TOGGLE_NAV":
       return { ...state, sidebar: !state.sidebar };
+    case "CHANGE_LANG":
+      return { ...state, lang: state.lang === 'en' ? 'es' : 'en' };
     default:
       state;
   }

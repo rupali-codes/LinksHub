@@ -2,7 +2,10 @@
   {
     "id": "31",
     "name": "Neumorphism.io",
-    "description": "It's a platform where you can generate Soft-UI CSS elements for your webiste or app.",
+    "description": {
+      "en": "It's a platform where you can generate Soft-UI CSS elements for your webiste or app.",
+      "es": "Es una plataforma donde puedes generar elementos CSS Soft-UI para tu sitio web o aplicación."
+    },
     "url": "https://neumorphism.io/#e0e0e0",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -10,7 +13,10 @@
   {
     "id": "32",
     "name": "Hype4 Academy",
-    "description": "Another cool and excellent site to generate Glassmorphism CSS for your project.",
+    "description": {
+      "en": "Another cool and excellent site to generate Glassmorphism CSS for your project.",
+      "es": "Otro sitio genial y excelente para generar CSS Glassmorphism para tu proyecto."
+    },
     "url": "https://hype4.academy/tools/glassmorphism-generator",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -18,7 +24,10 @@
   {
     "id": "33",
     "name": "Universe.io",
-    "description": "It provides tones of cool UI elements made with HTML & CSS.",
+    "description": {
+      "en": "It provides tones of cool UI elements made with HTML & CSS.",
+      "es": "Proporciona toneladas de elementos de interfaz de usuario geniales hechos con HTML y CSS."
+    },
     "url": "https://uiverse.io/all",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -26,7 +35,10 @@
   {
     "id": "34",
     "name": "CSS Portal",
-    "description": "A bundle of amazing and UI CSS elements for you to use in your project.",
+    "description": {
+      "en": "A bundle of amazing and UI CSS elements for you to use in your project.",
+      "es": "Un paquete de increíbles y elementos CSS de interfaz de usuario para que los utilices en tu proyecto."
+    },
     "url": "https://www.cssportal.com/ui-generators.php",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -34,7 +46,10 @@
   {
     "id": "35",
     "name": "EnjoyCSS",
-    "description": "A platform to implement amazing CSS elements of your choice for your porject.",
+    "description": {
+      "en": "A platform to implement amazing CSS elements of your choice for your porject.",
+      "es": "Una plataforma para implementar increíbles elementos CSS de tu elección para tu proyecto."
+    },
     "url": "https://enjoycss.com/",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -42,7 +57,10 @@
   {
     "id": "36",
     "name": "CSS Generator",
-    "description": "A CSS generator that helps you demonstrate and quickly generate CSS declarations for your website.",
+    "description": {
+      "en": "A CSS generator that helps you demonstrate and quickly generate CSS declarations for your website.",
+      "es": "Un generador de CSS que le ayuda a demostrar y generar rápidamente declaraciones CSS para su sitio web."
+    },
     "url": "https://cssgenerator.org/",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -50,7 +68,10 @@
   {
     "id": "37",
     "name": "Code Magic",
-    "description": "An amazing open source platform for generating ready to use CSS elements for your project. ",
+    "description": {
+      "en": "An amazing open source platform for generating ready to use CSS elements for your project.",
+      "es": "Una increíble plataforma de código abierto para generar elementos CSS listos para usar para su proyecto."
+    },
     "url": "https://code-magic.vercel.app/",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -58,7 +79,10 @@
   {
     "id": "38",
     "name": "daisyUI",
-    "description": "A platform where you can generate UI components based on TailwindCSS. ",
+    "description": {
+      "en": "A platform where you can generate UI components based on TailwindCSS.",
+      "es": "Una plataforma donde puedes generar componentes de interfaz de usuario basados en TailwindCSS."
+    },
     "url": "https://daisyui.com/",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -66,7 +90,10 @@
   {
     "id": "39",
     "name": "TailBlocks",
-    "description": "Another great platform where you can generate UI components based on TailwindCSS. ",
+    "description": {
+      "en": "Another great platform where you can generate UI components based on TailwindCSS.",
+      "es": "Otra gran plataforma donde puedes generar componentes de interfaz de usuario basados en TailwindCSS."
+    },
     "url": "https://tailblocks.cc/",
     "category": "frontend",
     "subcategory": "ui-generators"
