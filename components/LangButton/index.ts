@@ -1,1 +1,1 @@
-import { LangButton } from "./langButton";
+import { LangButton } from "./LangButton";
