@@ -72,6 +72,10 @@ and the website will be built in one single click. No extra setup is required.
 
 ---
 
+## Community
+
+Join the conversation on our [Discord server](https://discord.gg/NvK67YnJX5).
+
 ## Our Contributors ✨
 
 <a href="https://github.com/rupali-codes/LinksHub/graphs/contributors">
