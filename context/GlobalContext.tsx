@@ -4,6 +4,7 @@ import GlobalReducer from "./GlobalReducer";
 
 const initialState: IContext = {
   sidebar: false,
+  lang: "en"
 };
 const GlobalContext = createContext<IContext>(initialState);
 
@@ -24,14 +25,21 @@ const GlobalProvider = ({ children }: { children: ReactNode }) => {
       type: "TOGGLE_NAV",
     });
   }
+  function changeLang() {
+    dispatch({
+      type: "CHANGE_LANG",
+    });
+  }
 
   return (
     <GlobalContext.Provider
       value={{
         sidebar: state.sidebar,
+        lang: state.lang,
         openNav,
         closeNav,
         toggleNav,
+        changeLang
       }}
     >
       {children}

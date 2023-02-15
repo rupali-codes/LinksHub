@@ -2,7 +2,10 @@
   {
     "id": "47",
     "name": "The Net Ninja",
-    "description": "The Net Ninja is a YouTube channel that teaches web development, including HTML, CSS, JavaScript, PHP, Python, C#, and more.",
+    "description": {
+      "en": "The Net Ninja is a YouTube channel that teaches web development, including HTML, CSS, JavaScript, PHP, Python, C#, and more.",
+      "es": "The Net Ninja es un canal de YouTube que enseña desarrollo web, incluyendo HTML, CSS, JavaScript, PHP, Python, C # y más."
+    },
     "url": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
     "category": "youtube",
     "subcategory": "web-development"
@@ -10,7 +13,10 @@
   {
     "id": "50",
     "name": "Traversy Media",
-    "description": "This channel is for all level of developers who want to start or continue their journey in tech.",
+    "description": {
+      "en": "This channel is for all level of developers who want to start or continue their journey in tech.",
+      "es": "Este canal es para todos los niveles de desarrolladores que quieran comenzar o continuar su viaje en la tecnología."
+    },
     "url": "https://www.youtube.com/@TraversyMedia",
     "category": "youtube",
     "subcategory": "web-development"
@@ -18,7 +24,10 @@
   {
     "id": "51",
     "name": "FreeCodeCamp",
-    "description": "This channel provide free courses related to web-dev, app-dev, projects and many more.",
+    "description": {
+      "en": "This channel provide free courses related to web-dev, app-dev, projects and many more.",
+      "es": "Este canal proporciona cursos gratuitos relacionados con web-dev, app-dev, proyectos y mucho más."
+    },
     "url": "https://www.youtube.com/@freecodecamp",
     "category": "youtube",
     "subcategory": "web-development"
@@ -26,7 +35,10 @@
   {
     "id": "52",
     "name": "Fireship",
-    "description": "Fireship is a channel which provides short introuction videos and quick learning guides.",
+    "description": {
+      "en": "Fireship is a channel which provides short introuction videos and quick learning guides.",
+      "es": "Fireship es un canal que proporciona videos de introducción cortos y guías de aprendizaje rápidas."
+    },
     "url": "https://www.youtube.com/@Fireship",
     "category": "youtube",
     "subcategory": "web-development"
@@ -34,7 +46,10 @@
   {
     "id": "53",
     "name": "Programming with Mosh",
-    "description": "It's another great channel for starting you web development journey.",
+    "description": {
+      "en": "It's another great channel for starting you web development journey.",
+      "es": "Es otro gran canal para comenzar tu viaje de desarrollo web."
+    },
     "url": "https://www.youtube.com/@programmingwithmosh",
     "category": "youtube",
     "subcategory": "web-development"
@@ -42,7 +57,10 @@
   {
     "id": "55",
     "name": "Academind",
-    "description": "It's a great channel for web development. It's more focused on JavaScript and it's frameworks.",
+    "description": {
+      "en": "It's a great channel for web development. It's more focused on JavaScript and it's frameworks.",
+      "es": "Es un gran canal para el desarrollo web. Está más enfocado en JavaScript y sus entornos."
+    },
     "url": "https://www.youtube.com/@academind",
     "category": "youtube",
     "subcategory": "web-development"

@@ -1,9 +1,13 @@
+import { LangButton } from "components/LangButton/LangButton";
+import { GlobalContext } from "context/GlobalContext";
 import { useRouter } from "next/router";
+import { useContext } from "react";
 import { IconContext } from "react-icons";
 import {FaDiscord, FaGithub, FaSlackHash} from "react-icons/fa";
 import { ThemeToggler } from "../ThemeToggler/themeToggler";
 
 export const TopBar = ({ header }: { header?: string }) => {
+  const { changeLang, lang } = useContext(GlobalContext)
   const router = useRouter();
   const category = router.asPath.replace("/", "");
   return (
@@ -41,6 +45,7 @@ export const TopBar = ({ header }: { header?: string }) => {
               <FaGithub className="hover:text-violet-500" />
           </IconContext.Provider>
         </a>
+        <LangButton lang={lang} changeLang={changeLang}/>
         <ThemeToggler />
       </div>
     </div>

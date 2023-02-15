@@ -2,7 +2,10 @@
   {
     "id": "41",
     "name": "Codepen",
-    "description": "An amazing online community for testing and showcasing HTML, CSS, JavaScript code snippets.",
+    "description": {
+      "en": "An amazing online community for testing and showcasing HTML, CSS, JavaScript code snippets.",
+      "es": "Una increíble comunidad en línea para probar y mostrar fragmentos de código HTML, CSS y JavaScript."
+    },
     "url": "https://codepen.io",
     "category": "frontend",
     "subcategory": "online-code-editors"
@@ -10,7 +13,10 @@
   {
     "id": "42",
     "name": "Tryit",
-    "description": "Another online platform for testing codes written in HTML, CSS and JavaScript.",
+    "description": {
+      "en": "Another online platform for testing codes written in HTML, CSS and JavaScript.",
+      "es": "Otra plataforma en línea para probar códigos escritos en HTML, CSS y JavaScript."
+    },
     "url": "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
     "category": "frontend",
     "subcategory": "online-code-editors"
@@ -18,7 +24,10 @@
   {
     "id": "43",
     "name": "OnlineGDB",
-    "description": "Another online platform for testing codes written in HTML, CSS and JavaScript.",
+    "description": {
+      "en": "An online IDE to practice you competitive programming skills. It allows you to code in multiple languages.",
+      "es": "Un IDE en línea para practicar sus habilidades de programación competitiva. Le permite codificar en varios idiomas."
+    },
     "url": "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
     "category": "frontend",
     "subcategory": "online-code-editors"
@@ -26,7 +35,10 @@
   {
     "id": "44",
     "name": "Sololearn",
-    "description": "It's multi-language online code editor test and share your code snippets.",
+    "description": {
+      "en": "It's multi-language online code editor test and share your code snippets.",
+      "es": "Es un editor de código en línea de varios idiomas, prueba y comparte tus fragmentos de código."
+    },
     "url": "https://sololearn.com/compiler-playground/cVRUy2BwauK8",
     "category": "frontend",
     "subcategory": "online-code-editors"
@@ -34,7 +46,10 @@
   {
     "id": "45",
     "name": "CodeChef",
-    "description": "An online IDE to practice you competitive programming skills. It allows you to code in multiple languages.",
+    "description": {
+      "en": "An online IDE to practice you competitive programming skills. It allows you to code in multiple languages.",
+      "es": "Un IDE en línea para practicar sus habilidades de programación competitiva. Le permite codificar en varios idiomas."
+    },
     "url": "https://www.codechef.com/ide",
     "category": "frontend",
     "subcategory": "online-code-editors"

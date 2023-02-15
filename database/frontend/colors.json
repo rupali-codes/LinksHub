@@ -2,7 +2,10 @@
   {
     "id": "4",
     "name": "Open Color",
-    "description": "An open-source color scheme, optimized for UI. My go-to resource to choose colors from scratch. ",
+    "description": {
+      "en": "An open-source color scheme, optimized for UI. My go-to resource to choose colors from scratch. ",
+      "es": "Un esquema de color de código abierto, optimizado para UI. Mi recurso de elección para elegir colores desde cero. "
+    },
     "url": "https://yeun.github.io/open-color/",
     "category": "frontend",
     "subcategory": "colors"
@@ -10,7 +13,10 @@
   {
     "id": "5",
     "name": "UI Gradients",
-    "description": "Collection of beautiful color gradients for you to choose from and export to your project. ",
+    "description": {
+      "en": "Collection of beautiful color gradients for you to choose from and export to your project. ",
+      "es": "Colección de hermosos degradados de color para que elija y exporte a su proyecto. "
+    },
     "url": "https://uigradients.com/#MoonlitAsteroid",
     "category": "frontend",
     "subcategory": "colors"
@@ -18,7 +24,10 @@
   {
     "id": "6",
     "name": "Tailwind Colors",
-    "description": "This an excellent and popular set of color pallettes by TailwindCSS. Get beautiful colors of all shades ",
+    "description": {
+      "en": "This an excellent and popular set of color pallettes by TailwindCSS. Get beautiful colors of all shades ",
+      "es": "Este es un excelente y popular conjunto de paletas de colores de TailwindCSS. Obtenga colores hermosos de todas las tonalidades "
+    },
     "url": "https://tailwindcss.com/docs/customizing-colors",
     "category": "frontend",
     "subcategory": "colors"
@@ -26,7 +35,10 @@
   {
     "id": "7",
     "name": "Color Contract Checker",
-    "description": "This an excellent site to check whether contrast of two colors is good or not ",
+    "description": {
+      "en": "This an excellent site to check whether contrast of two colors is good or not ",
+      "es": "Este es un excelente sitio para verificar si el contraste de dos colores es bueno o no "
+    },
     "url": "https://coolors.co/contrast-checker",
     "category": "frontend",
     "subcategory": "colors"
@@ -34,7 +46,10 @@
   {
     "id": "8",
     "name": "0to255",
-    "description": "0to255 is a color tool that makes it easy to find lighter and darker colors, or tints and shades, based on any color. ",
+    "description": {
+      "en": "0to255 is a color tool that makes it easy to find lighter and darker colors, or tints and shades, based on any color. ",
+      "es": "0to255 es una herramienta de color que facilita encontrar colores más claros y más oscuros, o tintas y sombras, basadas en cualquier color. "
+    },
     "url": "https://0to255.com/",
     "category": "frontend",
     "subcategory": "colors"
@@ -42,7 +57,10 @@
   {
     "id": "22",
     "name": "Coolors",
-    "description": "Coolors is the essential tool for creating color palettes. It generates perfect matching colors in seconds.",
+    "description": {
+      "en": "Coolors is the essential tool for creating color palettes. It generates perfect matching colors in seconds.",
+      "es": "Coolors es la herramienta esencial para crear paletas de colores. Genera colores que coinciden a la perfección en segundos. "
+    },
     "url": "https://coolors.co/",
     "category": "frontend",
     "subcategory": "colors"
@@ -50,7 +68,10 @@
   {
     "id": "30",
     "name": "HTML Color Picker",
-    "description": "This is a color picker by w3schools which provides different shades of colors based on your requirements. It also gives Hex and RGB value of color.",
+    "description": {
+      "en": "This is a color picker by w3schools which provides different shades of colors based on your requirements. It also gives Hex and RGB value of color.",
+      "es": "Este es un selector de color de w3schools que proporciona diferentes tonalidades de colores según sus requisitos. También proporciona el valor Hex y RGB del color. "
+    },
     "url": "https://w3schools.com/colors/colors_picker.asp",
     "category": "frontend",
     "subcategory": "colors"
@@ -58,7 +79,10 @@
   {
     "id": "49",
     "name": "UI Color Picker",
-    "description": "A color picker that contains different shades of solid colors & gradients. Which can be used in any kind of projects.",
+    "description": {
+      "en": "A color picker that contains different shades of solid colors & gradients. Which can be used in any kind of projects.",
+      "es": "Un selector de color que contiene diferentes tonalidades de colores sólidos y degradados. Que se puede usar en cualquier tipo de proyectos. "
+    },
     "url": "https://uicolorpicker.com/",
     "category": "frontend",
     "subcategory": "colors"

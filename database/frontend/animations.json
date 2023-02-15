@@ -2,7 +2,10 @@
   {
     "id": "23",
     "name": "Lottie files",
-    "description": "LottieFiles takes away the complexity from Motion Design. It lets you Create, Edit, Test, Collaborate and Ship a Lottie in the easiest way possible.",
+    "description": {
+      "en": "LottieFiles takes away the complexity from Motion Design. It lets you Create, Edit, Test, Collaborate and Ship a Lottie in the easiest way possible.",
+      "es": "LottieFiles te quita la complejidad del Motion Design. Te permite Crear, Editar, Probar, Colaborar y Enviar un Lottie de la manera más fácil posible."
+    },
     "url": "https://lottiefiles.com/",
     "category": "frontend",
     "subcategory": "animations"
@@ -10,7 +13,10 @@
   {
     "id": "27",
     "name": "Cubic Bezier",
-    "description": "A tool for visualisation and creation of cubic-bezier curves for animation in CSS",
+    "description": {
+      "en": "A tool for visualisation and creation of cubic-bezier curves for animation in CSS",
+      "es": "Una herramienta para la visualización y creación de curvas cúbicas para la animación en CSS"
+    },
     "url": "https://cubic-bezier.com/",
     "category": "frontend",
     "subcategory": "animations"
@@ -18,7 +24,10 @@
   {
     "id": "28",
     "name": "Framer Motion",
-    "description": "Framer Motion is a production-ready motion library for React from Framer, It's simple yet powerful, allowing you to express complex user interactions with robust, semantic markup.",
+    "description": {
+      "en": "Framer Motion is a production-ready motion library for React from Framer, It's simple yet powerful, allowing you to express complex user interactions with robust, semantic markup.",
+      "es": "Framer Motion es una biblioteca de movimiento listo para producción para React de Framer, es simple pero potente, lo que le permite expresar interacciones complejas del usuario con un marcado robusto y semántico."
+    },
     "url": "https://www.framer.com/motion/",
     "category": "frontend",
     "subcategory": "animations"
@@ -26,7 +35,10 @@
   {
     "id": "40",
     "name": "Proton",
-    "description": "A JavaScript particle based animation engine. Which provides you tones of animated elements.",
+    "description": {
+      "en": "A JavaScript particle based animation engine. Which provides you tones of animated elements.",
+      "es": "Un motor de animación basado en partículas de JavaScript. Que te proporciona toneladas de elementos animados."
+    },
     "url": "https://drawcall.github.io/Proton/",
     "category": "frontend",
     "subcategory": "animations"
@@ -34,7 +46,10 @@
   {
     "id": "41",
     "name": "AutoAnimate",
-    "description": "Add motion to your apps with a single line of code.",
+    "description": {
+      "en": "Add motion to your apps with a single line of code.",
+      "es": "Agrega movimiento a tus aplicaciones con una sola línea de código."
+    },
     "url": "https://auto-animate.formkit.com/",
     "category": "frontend",
     "subcategory": "animations"

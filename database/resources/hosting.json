@@ -2,7 +2,10 @@
   {
     "id": "66",
     "name": "GitHub Pages",
-    "description": "A free hosting service provided by GitHub for hosting static websites from a GitHub repository. Simple to use but limited in customization options.",
+    "description": {
+      "en": "A free hosting service provided by GitHub for hosting static websites from a GitHub repository. Simple to use but limited in customization options.",
+      "es": "Un servicio de alojamiento gratuito proporcionado por GitHub para alojar sitios web estáticos desde un repositorio de GitHub. Sencillo de usar pero limitado en opciones de personalización."
+    },
     "url": "https://pages.github.com/",
     "category": "resources",
     "subcategory": "hosting"
@@ -10,7 +13,10 @@
   {
     "id": "67",
     "name": "Vercel",
-    "description": "A cloud platform for building and deploying web projects, including static websites. Known for its fast CDN and Git integration. Offers custom domains, environment variables, and free hosting.",
+    "description": {
+      "en": "A cloud platform for building and deploying web projects, including static websites. Known for its fast CDN and Git integration. Offers custom domains, environment variables, and free hosting.",
+      "es": "Una plataforma en la nube para crear y desplegar proyectos web, incluidos sitios web estáticos. Conocido por su rápido CDN e integración con Git. Ofrece dominios personalizados, variables de entorno y alojamiento gratuito."
+    },
     "url": "https://vercel.com/",
     "category": "resources",
     "subcategory": "hosting"
@@ -18,7 +24,10 @@
   {
     "id": "68",
     "name": "Netlify",
-    "description": "A popular platform for deploying and managing web projects, including static websites. Offers easy setup and integration with popular front-end frameworks, as well as features such as continuous deployment, custom domains, SSL certificates, and free hosting.",
+    "description":{
+      "en": "A popular platform for deploying and managing web projects, including static websites. Offers easy setup and integration with popular front-end frameworks, as well as features such as continuous deployment, custom domains, SSL certificates, and free hosting.",
+      "es": "Una plataforma popular para desplegar y administrar proyectos web, incluidos sitios web estáticos. Ofrece una configuración fácil e integración con marcos de interfaz de usuario populares, así como características como despliegue continuo, dominios personalizados, certificados SSL y alojamiento gratuito."
+    },
     "url": "https://www.netlify.com/",
     "category": "resources",
     "subcategory": "hosting"
@@ -26,7 +35,10 @@
   {
     "id": "69",
     "name": "Heroku",
-    "description": "Heroku is a cloud platform for deploying static as well dynamic websites, supporting multiple programming languages. It offers convenient management and scaling options, but with a cost based on usage",
+    "description": {
+      "en": "A cloud platform for deploying static as well dynamic websites, supporting multiple programming languages. It offers convenient management and scaling options, but with a cost based on usage",
+      "es": "Una plataforma en la nube para desplegar sitios web estáticos y dinámicos, que admite varios lenguajes de programación. Ofrece opciones de gestión y escalado convenientes, pero con un costo basado en el uso"
+    },
     "url": "https://www.heroku.com/",
     "category": "resources",
     "subcategory": "hosting"
@@ -34,7 +46,10 @@
   {
     "id": "70",
     "name": "PythonAnywhere",
-    "description": "A platform for hosting Python based web apps with a cloud-based development environment. Offers free hosting with limited options and paid plans for additional features.",
+    "description": {
+      "en": "A platform for hosting Python based web apps with a cloud-based development environment. Offers free hosting with limited options and paid plans for additional features.",
+      "es": "Una plataforma para alojar aplicaciones web basadas en Python con un entorno de desarrollo basado en la nube. Ofrece alojamiento gratuito con opciones limitadas y planes de pago para funciones adicionales."
+    },
     "url": "https://www.pythonanywhere.com/",
     "category": "resources",
     "subcategory": "hosting"
@@ -42,7 +57,10 @@
   {
     "id": "71",
     "name": "Render",
-    "description": "Render is a comprehensive solution for hosting web applications, both static and dynamic, with a simple and streamlined deployment process. It offers a range of plans, including a free option with limited resources, and paid plans with increased storage, bandwidth, and processing power.",
+    "description": {
+      "en": "A comprehensive solution for hosting web applications, both static and dynamic, with a simple and streamlined deployment process. It offers a range of plans, including a free option with limited resources, and paid plans with increased storage, bandwidth, and processing power.",
+      "es": "Una solución completa para alojar aplicaciones web, tanto estáticas como dinámicas, con un proceso de despliegue simple y eficiente. Ofrece una gama de planes, incluida una opción gratuita con recursos limitados, y planes de pago con mayor almacenamiento, ancho de banda y potencia de procesamiento."
+    },
     "url": "https://www.render.com/",
     "category": "resources",
     "subcategory": "hosting"
@@ -50,7 +68,10 @@
   {
     "id": "72",
     "name": "Fly",
-    "description": "Fly is a serverless hosting platform that charges only for actual usage and provides automatic scaling and high availability for web applications. It offers a free plan with limited resources and paid plans with more processing power, storage, and bandwidth.",
+    "description": {
+      "en": "A serverless hosting platform that charges only for actual usage and provides automatic scaling and high availability for web applications. It offers a free plan with limited resources and paid plans with more processing power, storage, and bandwidth.",
+      "es": "Una plataforma de alojamiento sin servidor que cobra solo por el uso real y proporciona escalado automático y alta disponibilidad para aplicaciones web. Ofrece un plan gratuito con recursos limitados y planes de pago con más potencia de procesamiento, almacenamiento y ancho de banda."
+    },
     "url": "https://www.fly.io/",
     "category": "resources",
     "subcategory": "hosting"
