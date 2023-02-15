@@ -7,7 +7,7 @@ import { GlobalContext } from "context/GlobalContext";
 import Logo from "../logo";
 import classNames from "classnames";
 import { useTheme } from "next-themes";
-import { SideNavBarCategoryList } from "./SideNavbarCategoryList";
+import { SideNavbarCategoryList } from "./SideNavbarCategoryList";
 
 export const SideNavbar = () => {
   const { toggleNav, sidebar, openNav, closeNav } = useContext(GlobalContext);
@@ -80,7 +80,7 @@ export const SideNavbar = () => {
         <div className="sticky top-0 left-0 right-0 p-4 w-full z-10 bg-base-200 dark:bg-gray-900 transiton-all duration-300 ease-in">
           <Searchbar setSearch={setSearch} />
         </div>
-        <SideNavBarCategoryList items={searchResults} openByDefault={'frontend'} />
+        <SideNavbarCategoryList items={searchResults} openByDefault={'frontend'} />
       </div>
     </div>
   );

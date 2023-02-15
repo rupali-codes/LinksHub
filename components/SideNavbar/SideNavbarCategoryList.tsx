@@ -1,15 +1,15 @@
 import { FC } from "react";
 import type { ISidebar } from "../../types";
-import { SideNavBarCategory } from "./SideNavBarCategory";
+import { SideNavbarCategory } from "./SideNavbarCategory";
 
-export const SideNavBarCategoryList: FC<{items: ISidebar[], openByDefault: string}> = (props) => {
+export const SideNavbarCategoryList: FC<{items: ISidebar[], openByDefault: string}> = (props) => {
   const { items, openByDefault } = props;
 
   return (
     <ul className="mt-2 flex flex-col justify-center gap-8 px-4 pb-24">
       {items.map((item, index) => {
         return (
-          <SideNavBarCategory key={index} item={item} openByDefault={openByDefault} />
+          <SideNavbarCategory key={index} item={item} openByDefault={openByDefault} />
         );
       })}
     </ul>

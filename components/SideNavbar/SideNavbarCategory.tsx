@@ -3,7 +3,7 @@ import { FaAngleDown } from "react-icons/fa";
 import { SideNavbarElement } from "./SideNavbarElement";
 import type { ISidebar } from "../../types";
 
-export const SideNavBarCategory: FC<{item: ISidebar, openByDefault: string}> = (props) => {
+export const SideNavbarCategory: FC<{item: ISidebar, openByDefault: string}> = (props) => {
   const { item, openByDefault } = props;
 
   const [isOpen, setIsOpen] = useState(false);
