@@ -5,7 +5,11 @@ import { SCROLL_LIMIT } from "app/constants";
 
 export const BackToTopButton = () => {
   const [scrollY, setScrollY] = useState(0);
-  const [{ isMounted, status }, toggle] = useTransition();
+  const [{ isMounted, status }, toggle] = useTransition({
+    mountOnEnter: true,
+    unmountOnExit: true,
+    preEnter: true,
+  });
 
   useEffect(() => {
     const handleScroll = () => {
@@ -34,14 +38,14 @@ export const BackToTopButton = () => {
 
   return isMounted ? (
     <div
-      className={`group fixed bottom-12 right-12 transform transition duration-300${
+      className={`group fixed z-20 bottom-12 right-12 transform transition duration-300${
         status === "preEnter" || status === "exiting"
           ? " opacity-0 translate-y-3"
           : ""
       }`}
     >
       <button
-        className="focus:animate-button-press rounded-full border border-white bg-violet-600 p-4 text-white shadow-xl focus:ring group-hover:border-dashed group-hover:border-violet-400 group-hover:bg-white dark:drop-shadow-[5px_5px_8px_rgba(124,58,237,0.25)] dark:group-hover:bg-[#101623] md:border-violet-600"
+        className="focus:animate-button-press rounded-full border border-white bg-violet-600 p-4 text-white shadow-xl duration-300 transition-colors focus:ring group-hover:border-dashed group-hover:border-violet-400 group-hover:bg-white dark:drop-shadow-[5px_5px_8px_rgba(124,58,237,0.25)] dark:group-hover:bg-[#101623] md:border-violet-600"
         onClick={handleClick}
       >
         <FaArrowUp className="group-hover:text-violet-500" />
