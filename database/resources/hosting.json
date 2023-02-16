@@ -54,5 +54,13 @@
     "url": "https://www.fly.io/",
     "category": "resources",
     "subcategory": "hosting"
+  },
+  {
+    "id": "73",
+    "name": "Firebase Hosting",
+    "description": "Firebase Hosting is a Google hosting service which provides fast and secure hosting for your web app, static and dynamic microservices. it is production-grade web content hosting for developers.",
+    "url": "https://firebase.google.com/",
+    "category": "resources",
+    "subcategory": "hosting"
   }
 ]
