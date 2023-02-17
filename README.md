@@ -32,10 +32,10 @@ You can see the live demo at: https://linkshub.vercel.app
 1. [Fork](https://github.com/rupali-codes/LinksHub/fork) the project
    
 2. Clone the project to run on your local machine using the following command
-   
    ```sh
    git clone https://github.com/<your_github_username>/LinksHub.git
    ```
+
 3. Get into the root directory
    ```sh
    cd LinksHub
@@ -47,17 +47,17 @@ You can see the live demo at: https://linkshub.vercel.app
    ```
 
 5. Create your branch 
-    ```sh
+   ```sh
    git checkout -b <your_branch_name>
    ```
    
 6. To start the application on localhost   
-    ```sh
+   ```sh
    npm run dev
    ``` 
 
 7. Push your changes into your branch
-    ```sh
+   ```sh
    git push origin <your_branch_name>
    ```
 
