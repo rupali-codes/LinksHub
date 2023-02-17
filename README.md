@@ -18,6 +18,16 @@ You can see the live demo at: https://linkshub.vercel.app
 ![tailwind css](https://img.shields.io/badge/tailwind_css-7c3aed?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![typescript](https://img.shields.io/badge/typescript-7c3aed?style=for-the-badge&logo=typescript&logoColor=white)
 
+## Socials 📱
+
+<a href="https://twitter.com/the_linkshub" target="blank">
+<img src="https://cdn-icons-png.flaticon.com/64/733/733579.png">
+</a>
+<a href="https://discord.com/invite/NvK67YnJX5" target="blank">
+<img src="https://cdn-icons-png.flaticon.com/32/5968/5968756.png">
+</a>
+
+
 ---
 ## Getting Started 👩‍💻
 
