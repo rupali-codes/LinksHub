@@ -51,7 +51,7 @@ You can see the live demo at: https://linkshub.vercel.app
    git checkout -b <your_branch_name>
    ```
    
-6. To start the application on localhost   
+6. To start and view the application on localhost   
    ```sh
    npm run dev
    ``` 
