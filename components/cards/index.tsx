@@ -3,20 +3,21 @@ import React from "react";
 import { LinkContainer } from "../LinksContainer/LinkContainer";
 import { BackToTopButton } from "../BackToTop/BackToTopButton";
 import * as DB from "database";
+import uuid from "react-uuid";
+import { database } from "database/data";
+
 
 const Cards = () => {
   const router = useRouter();
   const { subcategory } = router.query;
 
   // This filters trough the DB with the subcategory which results in an array of arrays
-  const filterSubCat = Object.values(DB)?.map((item: any) =>
+  const filterSubCat = database?.map((item) =>
     item?.filter((cat: any) => cat.subcategory.includes(subcategory))
   );
 
   // This filters out an empty array from the filterSubCat
-  const filterDB = filterSubCat.filter(
-    (item: any, index: number) => item.length !== 0
-  );
+  const filterDB = filterSubCat.filter((item) => item.length !== 0);
 
   return (
     <div
@@ -24,12 +25,12 @@ const Cards = () => {
         filterDB.length < 3 && "lg:justify-start"
       }`}
     >
-      {filterDB[0]?.map((data: any, key: number) => (
+      {filterDB[0]?.map((data) => (
         <LinkContainer
           name={data.name}
           description={data.description}
           url={data.url}
-          key={key + "-" + data.name}
+          key={data.id}
         />
       ))}
       <div>
