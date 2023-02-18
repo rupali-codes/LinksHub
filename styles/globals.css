@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Font family */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+/* Making default font family */
+body{
+  font-family: 'JetBrains Mono', monospace;
+}
+
 /* scrollable */
 
 .scrollColorDark {
