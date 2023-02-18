@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [{
         "name": "Dribbble",
         "description": "Explore the world’s leading design portfolios.",
@@ -14,23 +13,3 @@
         "subcategory": "design-inspiration"
     }
 ]
-=======
-[
-  {
-    "id": "25",
-    "name": "Dribbble",
-    "description": "Explore the world’s leading design portfolios.",
-    "url": "https://dribbble.com",
-    "category": "frontend",
-    "subcategory": "design-inspiration"
-  },
-  {
-    "id": "26",
-    "name": "Godly Website",
-    "description": "A curated collection of good web design from all over the web",
-    "url": "https://godly.website",
-    "category": "frontend",
-    "subcategory": "design-inspiration"
-  }
-]
->>>>>>> ddc92ccc1a0daf4f0b297892b6108f0d0bc0d8c5

@@ -2,12 +2,8 @@ import React from "react";
 import Head from "next/head";
 import Logo from "components/logo";
 import { TopBar } from "components/TopBar/TopBar";
-<<<<<<< HEAD
-
-=======
 import TypewriterComponent from "typewriter-effect";
 import { sidebarData } from "../database/data";
->>>>>>> ddc92ccc1a0daf4f0b297892b6108f0d0bc0d8c5
 export default function Home() {
   //storing sub categories names for using in typewriter effect
   let subCategoriesNames:string[] = [];

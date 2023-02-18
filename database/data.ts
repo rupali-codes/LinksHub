@@ -1,13 +1,9 @@
-<<<<<<< HEAD
 import { ISidebar } from "../types";
 import * as DB from "database";
 import uuid from "react-uuid";
 
 // This genrates a unique ID for each data in the database
 export const database=Object.values(DB).map(item=>item.map(subcat=>({...subcat,id:uuid()})));
-=======
-import { IData, ISidebar } from "../types";
->>>>>>> ddc92ccc1a0daf4f0b297892b6108f0d0bc0d8c5
 
 export const sidebarData: ISidebar[] = [
   {

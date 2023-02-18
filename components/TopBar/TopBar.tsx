@@ -1,10 +1,6 @@
 import { useRouter } from "next/router";
 import { IconContext } from "react-icons";
-<<<<<<< HEAD
-import { FaGithub, FaSlackHash } from "react-icons/fa";
-=======
 import {FaDiscord, FaGithub, FaSlackHash} from "react-icons/fa";
->>>>>>> ddc92ccc1a0daf4f0b297892b6108f0d0bc0d8c5
 import { ThemeToggler } from "../ThemeToggler/themeToggler";
 
 export const TopBar = ({ header }: { header?: string }) => {
@@ -42,11 +38,7 @@ export const TopBar = ({ header }: { header?: string }) => {
           <IconContext.Provider
             value={{ className: "shared-class", size: "28" }}
           >
-<<<<<<< HEAD
-            <FaGithub className="hover:text-violet-500" />
-=======
               <FaGithub className="hover:text-violet-500" />
->>>>>>> ddc92ccc1a0daf4f0b297892b6108f0d0bc0d8c5
           </IconContext.Provider>
         </a>
         <ThemeToggler />
