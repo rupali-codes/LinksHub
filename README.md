@@ -46,6 +46,7 @@ Follow these steps to start contributing into LinksHub
 
 Bingo! You're done
 
+<<<<<<< HEAD
 ### Building with Gitpod
 
 By using [Gitpod.io](https://www.gitpod.io), all the necessary dependencies will be installed\
@@ -54,6 +55,9 @@ and the website will be built in one single click. No extra setup is required.
 [![Gitpod Ready-to-Code](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rupali-codes/LinksHub)
 
 ## Want to add your favorite Links into the Hub?
+=======
+## Wants to your favorite Links into the Hub?
+>>>>>>> 52a3e736b30c5fe748e896bc28da2bfc846b402c
 
 Follow these steps
 
@@ -75,7 +79,11 @@ Follow these steps
    * `name`: name of the site 
    * `description`: a short description of the link/site
    * `url`: URL of the site
+<<<<<<< HEAD
    * `category`: either could be `frontend`, `backend` or `youtube` 
+=======
+   * `category`: either could be `frontend` or `backend` 
+>>>>>>> 52a3e736b30c5fe748e896bc28da2bfc846b402c
    * `subcategory`: it could be one of the followings - 
      * For `frontend`
         * animations
@@ -95,10 +103,13 @@ Follow these steps
         * validation
         * security
         * testing
+<<<<<<< HEAD
       * For `youtube`
         * web-development
         * machine-learning
         * csharp
+=======
+>>>>>>> 52a3e736b30c5fe748e896bc28da2bfc846b402c
 
 
 3. Run this command to add your changes

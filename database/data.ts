@@ -1,19 +1,19 @@
-import { IData, ISidebar } from "../types";
+import { ISidebar } from "../types";
 
 export const sidebarData: ISidebar[] = [
   {
     category: "frontend",
     subcategory: [
-      { name: "images", url: "/images" },
-      { name: "fonts", url: "/fonts" },
-      { name: "colors", url: "/colors" },
-      { name: "illustrations", url: "/illustrations" },
-      { name: "animations", url: "/animations" },
-      { name: "icons", url: "/icons" },
-      { name: "design inspiration", url: "/design-inspiration" },
-      { name: "themes & templates", url: "/themes-templates" },
-      { name: "UI Generators", url: "/ui-generator" },
-      { name: "online code editors", url: "/online-code-editors" },
+      { name: 'images', url: '/images' },
+      { name: 'fonts', url: '/fonts' },
+      { name: 'colors', url: '/colors' },
+      { name: 'illustrations', url: '/illustrations' },
+      { name: 'animations', url: '/animations' },
+      { name: 'icons', url: '/icons' },
+      { name: 'design inspiration', url: '/design-inspiration' },
+      { name: 'themes & templates', url: '/themes-templates' },
+      { name: 'UI Generators', url: '/ui-generator' },
+      { name: 'online code editors', url: '/online-code-editors' },
     ],
   },
   {
