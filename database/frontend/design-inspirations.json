@@ -1,18 +1,15 @@
-[
-  {
-    "id": "25",
-    "name": "Dribbble",
-    "description": "Explore the world’s leading design portfolios.",
-    "url": "https://dribbble.com",
-    "category": "frontend",
-    "subcategory": "design-inspiration"
-  },
-  {
-    "id": "26",
-    "name": "Godly Website",
-    "description": "A curated collection of good web design from all over the web",
-    "url": "https://godly.website",
-    "category": "frontend",
-    "subcategory": "design-inspiration"
-  }
+[{
+        "name": "Dribbble",
+        "description": "Explore the world’s leading design portfolios.",
+        "url": "https://dribbble.com",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
+    },
+    {
+        "name": "Godly Website",
+        "description": "A curated collection of good web design from all over the web",
+        "url": "https://godly.website",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
+    }
 ]

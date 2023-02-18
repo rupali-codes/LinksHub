@@ -27,6 +27,7 @@
     "react-icons": "^4.7.1",
     "react-spinners": "^0.13.8",
     "react-transition-state": "^2.1.0",
+    "react-uuid": "^2.0.0",
     "typescript": "4.9.4",
     "typewriter-effect": "^2.19.0"
   },

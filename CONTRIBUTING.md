@@ -43,7 +43,6 @@ Thank you for taking the time to contribute to our project. Please take a moment
 The subcategory object should follow this pattern
 
   ```sh
-    id: '',
     name:'', 
     description:'',
     url:'',
@@ -53,7 +52,6 @@ The subcategory object should follow this pattern
 
   #### Details 
   
-  * `id`: +1 to it's previous element
   * `name`: name of the site
   
   * `description`: define what the site does in a 
