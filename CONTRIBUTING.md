@@ -52,7 +52,6 @@ The subcategory object should follow this pattern
 
   #### Details 
   
-  * `id`: +1 to it's previous element
   * `name`: name of the site
   
   * `description`: define what the site does in a 
