@@ -3,12 +3,11 @@
 @tailwind utilities;
 
 /* Font family */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
 /* Making default font family */
 body{
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Nunito', sans-serif;
 }
 
 /* scrollable */
