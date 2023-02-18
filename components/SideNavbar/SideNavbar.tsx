@@ -5,9 +5,9 @@ import { createRef, useContext, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { GlobalContext } from "context/GlobalContext";
 import Logo from "../logo";
-import { SideNavbarElement } from "./SideNavbarElement";
 import classNames from "classnames";
 import { useTheme } from "next-themes";
+import { SideNavbarCategoryList } from "./SideNavbarCategoryList";
 
 export const SideNavbar = () => {
   const { toggleNav, sidebar, openNav, closeNav } = useContext(GlobalContext);
@@ -80,24 +80,7 @@ export const SideNavbar = () => {
         <div className="sticky top-0 left-0 right-0 p-4 w-full z-10 bg-base-200 dark:bg-gray-900 transiton-all duration-300 ease-in">
           <Searchbar setSearch={setSearch} />
         </div>
-        <div className="flex flex-col justify-center px-4 gap-8 pb-24">
-          {searchResults.map((item, index) => {
-            return (
-              <div key={index}>
-                <h2 key={index} className="uppercase mb-3 font-bold text-xl">
-                  {item.category}
-                </h2>
-                {item.subcategory
-                  .sort((a, b) =>
-                    a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1
-                  )
-                  .map((list, i) => {
-                    return <SideNavbarElement key={i} {...list} />;
-                  })}
-              </div>
-            );
-          })}
-        </div>
+        <SideNavbarCategoryList items={searchResults} openByDefault={'frontend'} />
       </div>
     </div>
   );

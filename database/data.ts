@@ -1,24 +1,28 @@
+<<<<<<< HEAD
 import { ISidebar } from "../types";
 import * as DB from "database";
 import uuid from "react-uuid";
 
 // This genrates a unique ID for each data in the database
 export const database=Object.values(DB).map(item=>item.map(subcat=>({...subcat,id:uuid()})));
+=======
+import { IData, ISidebar } from "../types";
+>>>>>>> ddc92ccc1a0daf4f0b297892b6108f0d0bc0d8c5
 
 export const sidebarData: ISidebar[] = [
   {
     category: "frontend",
     subcategory: [
-      { name: 'images', url: '/images' },
-      { name: 'fonts', url: '/fonts' },
-      { name: 'colors', url: '/colors' },
-      { name: 'illustrations', url: '/illustrations' },
-      { name: 'animations', url: '/animations' },
-      { name: 'icons', url: '/icons' },
-      { name: 'design inspiration', url: '/design-inspiration' },
-      { name: 'themes & templates', url: '/themes-templates' },
-      { name: 'UI Generators', url: '/ui-generator' },
-      { name: 'online code editors', url: '/online-code-editors' },
+      { name: "images", url: "/images" },
+      { name: "fonts", url: "/fonts" },
+      { name: "colors", url: "/colors" },
+      { name: "illustrations", url: "/illustrations" },
+      { name: "animations", url: "/animations" },
+      { name: "icons", url: "/icons" },
+      { name: "design inspiration", url: "/design-inspiration" },
+      { name: "themes & templates", url: "/themes-templates" },
+      { name: "UI Generators", url: "/ui-generator" },
+      { name: "online code editors", url: "/online-code-editors" },
     ],
   },
   {

@@ -1,7 +1,18 @@
+<<<<<<< HEAD
 [{
+=======
+[
+  {
+    "id": "46",
+>>>>>>> ddc92ccc1a0daf4f0b297892b6108f0d0bc0d8c5
     "name": "FreeCodeCamp",
     "description": "This channel provides free multi programming language courses for Web-dev, android and more.",
     "url": "https://www.youtube.com/watch?v=fis26HvvDII",
     "category": "youtube",
     "subcategory": "android"
+<<<<<<< HEAD
 }]
+=======
+  }
+]
+>>>>>>> ddc92ccc1a0daf4f0b297892b6108f0d0bc0d8c5
