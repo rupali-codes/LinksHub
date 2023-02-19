@@ -18,5 +18,19 @@
         "url": "https://drawkit.com/",
         "category": "frontend",
         "subcategory": "illustrations"
+    },
+    {
+        "name": "ManyPixels",
+        "description": "Many pixel illustration 2500+ royalty free illustrations to power up your designs",
+        "url": "https://www.manypixels.co/gallery/",
+        "category": "frontend",
+        "subcategory": "illustrations"
+    },
+    {
+        "name": "Reshot",
+        "description": "Free Icons & Illustrations design freely with instant downloads and commercial licenses.",
+        "url": "https://www.reshot.com/",
+        "category": "frontend",
+        "subcategory": "illustrations"
     }
 ]
