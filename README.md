@@ -51,13 +51,18 @@ You can see the live demo at: https://linkshub.vercel.app
     ```sh
    git checkout -b <your_branch_name>
    ```
-6. Push your changes into your branch
+
+6. To run and view the application on localhost
+    ```sh
+   npm run dev
+   ```
+7. Push your changes into your branch
    
     ```sh
    git push origin <your_branch_name>
    ```
 
-7. Create a [Pull Request](https://github.com/rupali-codes/LinksHub/compare) 
+8. Create a [Pull Request](https://github.com/rupali-codes/LinksHub/compare) 
    > Click _compare acorss forks_ if you don't see your branch 
 
 #### _Want to add your favorite Links into the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)._
