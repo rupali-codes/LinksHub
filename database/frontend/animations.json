@@ -1,36 +1,37 @@
-[{
-        "name": "Lottie files",
-        "description": "LottieFiles takes away the complexity from Motion Design. It lets you Create, Edit, Test, Collaborate and Ship a Lottie in the easiest way possible.",
-        "url": "https://lottiefiles.com/",
-        "category": "frontend",
-        "subcategory": "animations"
-    },
-    {
-        "name": "Cubic Bezier",
-        "description": "A tool for visualisation and creation of cubic-bezier curves for animation in CSS",
-        "url": "https://cubic-bezier.com/",
-        "category": "frontend",
-        "subcategory": "animations"
-    },
-    {
-        "name": "Framer Motion",
-        "description": "Framer Motion is a production-ready motion library for React from Framer, It's simple yet powerful, allowing you to express complex user interactions with robust, semantic markup.",
-        "url": "https://www.framer.com/motion/",
-        "category": "frontend",
-        "subcategory": "animations"
-    },
-    {
-        "name": "Proton",
-        "description": "A JavaScript particle based animation engine. Which provides you tones of animated elements.",
-        "url": "https://drawcall.github.io/Proton/",
-        "category": "frontend",
-        "subcategory": "animations"
-    },
-    {
-        "name": "AutoAnimate",
-        "description": "Add motion to your apps with a single line of code.",
-        "url": "https://auto-animate.formkit.com/",
-        "category": "frontend",
-        "subcategory": "animations"
-    }
+[
+  {
+    "name": "Lottie files",
+    "description": "LottieFiles takes away the complexity from Motion Design. It lets you Create, Edit, Test, Collaborate and Ship a Lottie in the easiest way possible.",
+    "url": "https://lottiefiles.com/",
+    "category": "frontend",
+    "subcategory": "animations"
+  },
+  {
+    "name": "Cubic Bezier",
+    "description": "A tool for visualisation and creation of cubic-bezier curves for animation in CSS",
+    "url": "https://cubic-bezier.com/",
+    "category": "frontend",
+    "subcategory": "animations"
+  },
+  {
+    "name": "Framer Motion",
+    "description": "Framer Motion is a production-ready motion library for React from Framer, It's simple yet powerful, allowing you to express complex user interactions with robust, semantic markup.",
+    "url": "https://www.framer.com/motion/",
+    "category": "frontend",
+    "subcategory": "animations"
+  },
+  {
+    "name": "Proton",
+    "description": "A JavaScript particle based animation engine. Which provides you tones of animated elements.",
+    "url": "https://drawcall.github.io/Proton/",
+    "category": "frontend",
+    "subcategory": "animations"
+  },
+  {
+    "name": "AutoAnimate",
+    "description": "Add motion to your apps with a single line of code.",
+    "url": "https://auto-animate.formkit.com/",
+    "category": "frontend",
+    "subcategory": "animations"
+  }
 ]
