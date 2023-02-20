@@ -56,7 +56,6 @@ You can see the live demo at: https://linkshub.vercel.app
     ```sh
    npm run dev
    ```
-
 7. Push your changes into your branch
    
     ```sh
