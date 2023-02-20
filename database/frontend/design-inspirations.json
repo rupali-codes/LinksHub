@@ -1,6 +1,5 @@
 [
   {
-    "id": "25",
     "name": "Dribbble",
     "description": "Explore the world’s leading design portfolios.",
     "url": "https://dribbble.com",
@@ -8,7 +7,6 @@
     "subcategory": "design-inspiration"
   },
   {
-    "id": "26",
     "name": "Godly Website",
     "description": "A curated collection of good web design from all over the web",
     "url": "https://godly.website",
@@ -16,7 +14,6 @@
     "subcategory": "design-inspiration"
   },
   {
-    "id": "74",
     "name": "Behance",
     "description": "Behance is the world's largest creative network for showcasing and discovering creative work.",
     "url": "https://www.behance.net/",
@@ -24,7 +21,6 @@
     "subcategory": "design-inspiration"
   },
   {
-    "id": "75",
     "name": "Refero Design",
     "description": "Get inspired by the best examples of product design.",
     "url": "https://refero.design/",
@@ -32,7 +28,6 @@
     "subcategory": "design-inspiration"
   },
   {
-    "id": "76",
     "name": "Page Collective",
     "description": "Get inspired and keep up with the latest landing page design trends.",
     "url": "https://pagecollective.com/",
@@ -40,7 +35,6 @@
     "subcategory": "design-inspiration"
   },
   {
-    "id": "77",
     "name": "Landingfolio",
     "description": "Landingfolio features the best landing page designs, templates, component and more on teh web.",
     "url": "https://www.landingfolio.com/",
@@ -48,7 +42,6 @@
     "subcategory": "design-inspiration"
   },
   {
-    "id": "78",
     "name": "Land-book",
     "description": "Find the best hand-picked website design inspiration.",
     "url": "https://land-book.com/",
@@ -57,7 +50,6 @@
   },
 
   {
-    "id": "79",
     "name": "Lapa Ninja",
     "description": "Lapa Ninja is a gallery featuring the best 5443 landing page examples, free books for designers and free UI kits from aroun the web.",
     "url": "https://www.lapa.ninja/",
@@ -65,7 +57,6 @@
     "subcategory": "design-inspiration"
   },
   {
-    "id": "80",
     "name": "Landings dev",
     "description": "Discover hundreds of landing pages created by leading companies for your design inspiration.",
     "url": "https://landings.dev/",
@@ -73,7 +64,6 @@
     "subcategory": "design-inspiration"
   },
   {
-    "id": "81",
     "name": "Awwwards",
     "description": "Awwward are the Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world.",
     "url": "https://www.awwwards.com/",
@@ -81,7 +71,6 @@
     "subcategory": "design-inspiration"
   },
   {
-    "id": "82",
     "name": "Saas Landing Page",
     "description": "Saas Landing Page showcases the best landing page examples created bt top-class SaaS companies. Get ideas and inspirations for your next design project.",
     "url": "https://saaslandingpage.com/",
@@ -89,7 +78,6 @@
     "subcategory": "design-inspiration"
   },
   {
-    "id": "83",
     "name": "SiteInspire",
     "description": "Siteinspire is a showcase of the finest web and interactive design.",
     "url": "https://www.siteinspire.com/",
@@ -97,7 +85,6 @@
     "subcategory": "design-inspiration"
   },
   {
-    "id": "84",
     "name": "Best Website Gallery ",
     "description": "The most beautiful websites handpicked for you — since 2008!",
     "url": "https://bestwebsite.gallery/",
