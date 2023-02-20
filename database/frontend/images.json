@@ -1,29 +1,30 @@
-[{
-        "name": "Unsplash",
-        "description": "Unsplash is a site to get free images, you can download all kind of HD images in here for free.",
-        "url": "https://unsplash.com",
-        "category": "frontend",
-        "subcategory": "images"
-    },
-    {
-        "name": "Pixabay",
-        "description": "Pixabay have Over 2M free stock photos, vectors and art illustrations you can use anywhere.",
-        "url": "https://pixabay.com/",
-        "category": "frontend",
-        "subcategory": "images"
-    },
-    {
-        "name": "Pexels",
-        "description": "A great resource for free stock photos and videos, created by photographers around the world.",
-        "url": "https://pexels.com/",
-        "category": "frontend",
-        "subcategory": "images"
-    },
-    {
-        "name": "Kaboompics",
-        "description": "it allows to search pictures by color, and  it provides a complementary palette of colors in the photo.",
-        "url": "https://kaboompics.com/",
-        "category": "frontend",
-        "subcategory": "images"
-    }
+[
+  {
+    "name": "Unsplash",
+    "description": "Unsplash is a site to get free images, you can download all kind of HD images in here for free.",
+    "url": "https://unsplash.com",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Pixabay",
+    "description": "Pixabay have Over 2M free stock photos, vectors and art illustrations you can use anywhere.",
+    "url": "https://pixabay.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Pexels",
+    "description": "A great resource for free stock photos and videos, created by photographers around the world.",
+    "url": "https://pexels.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Kaboompics",
+    "description": "it allows to search pictures by color, and  it provides a complementary palette of colors in the photo.",
+    "url": "https://kaboompics.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  }
 ]

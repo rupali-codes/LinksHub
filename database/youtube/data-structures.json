@@ -1,7 +1,9 @@
-[{
+[
+  {
     "name": "Jennys Lectures CSIT",
     "description": "This channel provides free courses for DSA, C, C++, Python etc.",
     "url": "https://www.youtube.com/@JennyslecturesCSIT",
     "category": "youtube",
     "subcategory": "dsa"
-}]
+  }
+]

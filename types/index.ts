@@ -44,7 +44,8 @@ export type SubCategory =
   | "dsa"
   | "android"
   | "blogs"
-  | "hosting";
+  | "hosting"
+  | "web3-metaverse";
 export type SubCategories = {
   name: string;
   url: string;
