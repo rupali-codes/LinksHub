@@ -41,5 +41,19 @@
     "url": "https://devicon.dev",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Simple Icons",
+    "description": "Simple Icons is the website where you can find lots of SVG icons",
+    "url": "https://simpleicons.org",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Freeicons",
+    "description": "The largest collections of premium and free icons",
+    "url": "https://freeicons.io",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
