@@ -1,23 +1,37 @@
-[
-  {
-    "name": "Glaze",
-    "description": "All in one resource to get free illustrations images for characters, backgrounds, avatar and more",
-    "url": "https://glazestock.com/",
-    "category": "frontend",
-    "subcategory": "illustrations"
-  },
-  {
-    "name": "unDraw",
-    "description": "unDraw os another exccelent platform to get free illustration images with No color restrictions",
-    "url": "https://undraw.co/illustrations",
-    "category": "frontend",
-    "subcategory": "illustrations"
-  },
-  {
-    "name": "DrawKit",
-    "description": "It is a collection of fully customisable PSD illustrations, in two styles, available to use on your next project.",
-    "url": "https://drawkit.com/",
-    "category": "frontend",
-    "subcategory": "illustrations"
-  }
+
+[{
+        "name": "Glaze",
+        "description": "All in one resource to get free illustrations images for characters, backgrounds, avatar and more",
+        "url": "https://glazestock.com/",
+        "category": "frontend",
+        "subcategory": "illustrations"
+    },
+    {
+        "name": "unDraw",
+        "description": "unDraw os another exccelent platform to get free illustration images with No color restrictions",
+        "url": "https://undraw.co/illustrations",
+        "category": "frontend",
+        "subcategory": "illustrations"
+    },
+    {
+        "name": "DrawKit",
+        "description": "It is a collection of fully customisable PSD illustrations, in two styles, available to use on your next project.",
+        "url": "https://drawkit.com/",
+        "category": "frontend",
+        "subcategory": "illustrations"
+    },
+    {
+        "name": "ManyPixels",
+        "description": "Many pixel illustration 2500+ royalty free illustrations to power up your designs",
+        "url": "https://www.manypixels.co/gallery/",
+        "category": "frontend",
+        "subcategory": "illustrations"
+    },
+    {
+        "name": "Reshot",
+        "description": "Free Icons & Illustrations design freely with instant downloads and commercial licenses.",
+        "url": "https://www.reshot.com/",
+        "category": "frontend",
+        "subcategory": "illustrations"
+    }
 ]
