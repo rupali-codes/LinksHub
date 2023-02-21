@@ -41,5 +41,19 @@
     "url": "https://devicon.dev",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Simple Icons",
+    "description": "2435 Free SVG icons for popular brands",
+    "url": "https://simpleicons.org",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Freeicons",
+    "description": "THE LARGEST COLLECTIONS OF PREMIUM AND FREE ICONS",
+    "url": "https://freeicons.io",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
