@@ -90,5 +90,12 @@
     "url": "https://bestwebsite.gallery/",
     "category": "frontend",
     "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Dope Ui ",
+    "description": "Design templates for dopeass Developers and Designers",
+    "url": "https://dopeui.co/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
   }
 ]
