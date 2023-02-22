@@ -79,7 +79,9 @@ and the website will be built in one single click. No extra setup is required.
 
 ## Community
 
-Join the conversation on our [Discord server](https://discord.gg/NvK67YnJX5).
+Join the conversation on our **Discord server**
+
+<a href="https://discord.gg/NvK67YnJX5"><img src="https://cdn.worldvectorlogo.com/logos/discord-6.svg" title="Discord" alt="Discord Community" width="50"/></a>
 
 ## Our Contributors ✨
 
