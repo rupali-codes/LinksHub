@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Open Color",
+    "description": "An open-source color scheme, optimized for UI. My go-to resource to choose colors from scratch. ",
+    "url": "https://yeun.github.io/open-color/",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
+    "name": "UI Gradients",
+    "description": "Collection of beautiful color gradients for you to choose from and export to your project. ",
+    "url": "https://uigradients.com/#MoonlitAsteroid",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
+    "name": "Tailwind Colors",
+    "description": "This an excellent and popular set of color pallettes by TailwindCSS. Get beautiful colors of all shades ",
+    "url": "https://tailwindcss.com/docs/customizing-colors",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
+    "name": "Color Contract Checker",
+    "description": "This an excellent site to check whether contrast of two colors is good or not ",
+    "url": "https://coolors.co/contrast-checker",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
+    "name": "0to255",
+    "description": "0to255 is a color tool that makes it easy to find lighter and darker colors, or tints and shades, based on any color. ",
+    "url": "https://0to255.com/",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
+    "name": "Coolors",
+    "description": "Coolors is the essential tool for creating color palettes. It generates perfect matching colors in seconds.",
+    "url": "https://coolors.co/",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
+    "name": "HTML Color Picker",
+    "description": "This is a color picker by w3schools which provides different shades of colors based on your requirements. It also gives Hex and RGB value of color.",
+    "url": "https://w3schools.com/colors/colors_picker.asp",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
+    "name": "UI Color Picker",
+    "description": "A color picker that contains different shades of solid colors & gradients. Which can be used in any kind of projects.",
+    "url": "https://uicolorpicker.com/",
+    "category": "frontend",
+    "subcategory": "colors"
+  }
+]

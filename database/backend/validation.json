@@ -1,0 +1,7 @@
+[{
+    "name": "Express Validator",
+    "description": "Express validator is a set of express.js middlewares that wraps validator.js validator and sanitizer functions.",
+    "url": "https://express-validator.github.io/docs/",
+    "category": "backend",
+    "subcategory": "validation"
+}]

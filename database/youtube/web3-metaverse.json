@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Code Eater",
+      "description": "This channel provides quality content for the most demanding topics like Web3, Blockchain & Metaverse in a very simple, easy to understand manner in Hindi language.",
+      "url": "https://www.youtube.com/@CodeEater21",
+      "category": "youtube",
+      "subcategory": "web3-metaverse"
+    },
+    {
+      "name": "Code Eater",
+      "description": "This channel also aims at providing you the best material for the Web3 and Blockchain and helps you in building some awesome projects .",
+      "url": "https://www.youtube.com/@DappUniversity",
+      "category": "youtube",
+      "subcategory": "web3-metaverse"
+    },
+    {
+        "name": "freeCodeCamp.org",
+        "description": "freeCodeCamp is a superb weebsite that aims at providing quality ontent for free across all domains and it provides quality content for this domain too.",
+        "url": "https://www.youtube.com/@freecodecamp",
+        "category": "youtube",
+        "subcategory": "web3-metaverse"
+    },
+    {
+        
+        "name": "Eat the Blocks",
+        "description": "Eat the Block is yet another a youtube channel with some in depth content on various topics on Web3 and Blockchain. It is one of those channels that you should definitely give a try if you want to step into this emerging field of Web3.",
+        "url": "https://www.youtube.com/@EatTheBlocks",
+        "category": "youtube",
+        "subcategory": "web3-metaverse"
+      } 
+  ]
