@@ -44,15 +44,21 @@ You can see the live demo at: https://linkshub.vercel.app
 4. Install all dependencies by running
    
    ```sh
-   npm install
+   npm ci
    ```
-
+   
+   Or
+   
+   ```sh
+   npm clean-install
+   ```
 5. Create your branch 
+
     ```sh
    git checkout -b <your_branch_name>
    ```
-
 6. To run and view the application on localhost
+
     ```sh
    npm run dev
    ```
@@ -61,7 +67,6 @@ You can see the live demo at: https://linkshub.vercel.app
     ```sh
    git push origin <your_branch_name>
    ```
-
 8. Create a [Pull Request](https://github.com/rupali-codes/LinksHub/compare) 
    > Click _compare acorss forks_ if you don't see your branch 
 
