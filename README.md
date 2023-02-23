@@ -2,6 +2,19 @@
 <img src="https://user-images.githubusercontent.com/78981177/215495029-ff9d4d24-a626-494a-859d-293cb9925f63.png"/>
 </div><hr>
 
+
+## Table of Contents
+
+- [Welcome to LinksHub Demo](#welcome-to-linkshub-demo)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Building with Gitpod](#building-with-gitpod)
+- [Community](#community)
+- [Our Contributors](#our-contributors)
+- [License](#license)
+- [Support](#support)
+
+
 # Welcome to LinksHub 👋
 
 LinksHub is a Hub of Links `by Developers for Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
@@ -77,7 +90,7 @@ and the website will be built in one single click. No extra setup is required.
 
 ---
 
-## Community
+## Community 🤝
 
 Join the conversation on our **Discord server**
 
@@ -89,9 +102,9 @@ Join the conversation on our **Discord server**
   <img src="https://contrib.rocks/image?repo=rupali-codes/LinksHub" />
 </a>
 
-## License 
+## License 📝
 
 LinksHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENSE) for details.
 
-
+## Support ⭐
 _We would love to have you, feel free to open issues and pull requests and Don't forget to leave a star⭐_
