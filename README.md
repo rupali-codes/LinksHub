@@ -2,16 +2,32 @@
 <img src="https://user-images.githubusercontent.com/78981177/215495029-ff9d4d24-a626-494a-859d-293cb9925f63.png"/>
 </div><hr>
 
+
+## Table of Contents
+
+- [Welcome to LinksHub](#welcome-to-linkshub)
+- [Demo](#demo)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Building with Gitpod](#building-with-gitpod)
+- [Community](#community)
+- [Our Contributors](#our-contributors)
+- [License](#license)
+- [Support](#support)
+
+<a name="welcome-to-linkshub"></a>
 # Welcome to LinksHub 👋
 
 LinksHub is a Hub of Links `by Developers for Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
 
 We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to the right developers.
 
+<a name="demo"></a>
 ## Demo 💻
 
 You can see the live demo at: https://linkshub.vercel.app
 
+<a name="tech-stack"></a>
 ## Tech stack 📚
 
 ![Next.js](https://img.shields.io/badge/Next.js-7c3aed?style=for-the-badge&logo=next.js&logoColor=white)
@@ -19,6 +35,8 @@ You can see the live demo at: https://linkshub.vercel.app
 ![typescript](https://img.shields.io/badge/typescript-7c3aed?style=for-the-badge&logo=typescript&logoColor=white)
 
 ---
+
+<a name="getting-started"></a>
 ## Getting Started 👩‍💻
 
 > ⚠️Prerequisites
@@ -26,6 +44,7 @@ You can see the live demo at: https://linkshub.vercel.app
 > * Before getting into it make you sure you have [npm](https://nodejs.org/download) installed.
 > 
 > * Also make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)
+
 
 ### Let's jump right in🌟
 
@@ -68,6 +87,9 @@ You can see the live demo at: https://linkshub.vercel.app
 #### _Want to add your favorite Links into the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)._
 
 ---
+
+
+<a name="building-with-gitpod"></a>
 ## Building with Gitpod 💣
 
 By using [Gitpod.io](https://www.gitpod.io), all the necessary dependencies will be installed\
@@ -77,19 +99,26 @@ and the website will be built in one single click. No extra setup is required.
 
 ---
 
-## Community
+<a name="community"></a>
+## Community 🤝
 
-Join the conversation on our [Discord server](https://discord.gg/NvK67YnJX5).
+Join the conversation on our **Discord server**
 
+<a href="https://discord.gg/NvK67YnJX5"><img src="https://cdn.worldvectorlogo.com/logos/discord-6.svg" title="Discord" alt="Discord Community" width="50"/></a>
+
+<a name="our-contributors"></a>
 ## Our Contributors ✨
 
 <a href="https://github.com/rupali-codes/LinksHub/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=rupali-codes/LinksHub" />
 </a>
 
-## License 
+<a name="license"></a>
+## License 📝
 
 LinksHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENSE) for details.
 
 
+<a name="support"></a>
+## Support ⭐
 _We would love to have you, feel free to open issues and pull requests and Don't forget to leave a star⭐_
