@@ -5,7 +5,7 @@
 
 ## Table of Contents
 
-- [Welcome to LinksHub Demo](#welcome-to-linkshub-demo)
+- [Welcome to LinksHub](#welcome-to-linkshub)
 - [Demo](#demo)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
@@ -15,7 +15,7 @@
 - [License](#license)
 - [Support](#support)
 
-<a name="welcome-to-linkshub-demo"></a>
+<a name="welcome-to-linkshub"></a>
 # Welcome to LinksHub 👋
 
 LinksHub is a Hub of Links `by Developers for Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
