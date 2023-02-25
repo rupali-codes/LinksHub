@@ -20,7 +20,10 @@ export function ThemeToggler() {
       }}
     >
       {resolvedTheme === "dark" ? (
-        <HiSun className="text-white hover:text-violet-500" size={"1.5rem"} />
+        <HiSun
+          className="dark:text-gray-200 hover:text-violet-500"
+          size={"1.5rem"}
+        />
       ) : (
         <HiMoon className="hover:text-violet-500" size={"1.5rem"} />
       )}
