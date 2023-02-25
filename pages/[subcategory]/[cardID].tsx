@@ -7,11 +7,11 @@ const SingleCard = () => {
   const { filterDB } = useFilterDB();
   const card = filterDB[0].find((item) => cardID === item.id);
   return (
-    <div className="text-white text-2xl">
-      <p>{card?.name}</p>
-      <p>{card?.category}</p>
-      <p>{card?.description}</p>
-      <p>{card?.id}</p>
+    <div className="text-white text-2xl py-20">
+      <p>name: {card?.name}</p>
+      <p>category: {card?.category}</p>
+      <p>description: {card?.description}</p>
+      <p>card ID: {card?.id}</p>
     </div>
   );
 };
