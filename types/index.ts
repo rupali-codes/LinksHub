@@ -15,6 +15,7 @@ export interface IData {
   url: string;
   category: Category;
   subcategory: SubCategory;
+  language?:string;
 }
 
 export type Category = "frontend" | "backend" | "youtube" | "resources";
@@ -74,4 +75,5 @@ export type DBType = {
   url: string;
   category: string;
   subcategory: string;
+  language?:string;
 };

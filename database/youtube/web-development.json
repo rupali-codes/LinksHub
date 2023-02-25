@@ -3,7 +3,8 @@
         "description": "The Net Ninja is a YouTube channel that teaches web development, including HTML, CSS, JavaScript, PHP, Python, C#, and more.",
         "url": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
         "category": "youtube",
-        "subcategory": "web-development"
+        "subcategory": "web-development",
+        "language": "english"
     },
     {
         "name": "Traversy Media",
