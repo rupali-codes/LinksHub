@@ -1,5 +1,3 @@
-import React from "react";
-import * as DB from "database";
 import { database } from "database/data";
 import { useRouter } from "next/router";
 
