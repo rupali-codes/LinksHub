@@ -1,4 +1,8 @@
 import { IData, ISidebar } from "../types";
+import * as DB from "database";
+import uuid from "react-uuid";
+
+export const database=Object.values(DB).map(item=>item.map(subcat=>({...subcat,id:uuid()})));
 
 export const sidebarData: ISidebar[] = [
   {
@@ -33,6 +37,7 @@ export const sidebarData: ISidebar[] = [
       { name: "machine learning", url: "/machine-learning" },
       { name: "data structures", url: "/dsa" },
       { name: "Android", url: "/android" },
+      { name : "Web3 & Metaverse", url : "/web3-metaverse"},
     ],
   },
   {

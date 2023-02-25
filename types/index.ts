@@ -44,7 +44,8 @@ export type SubCategory =
   | "dsa"
   | "android"
   | "blogs"
-  | "hosting";
+  | "hosting"
+  | "web3-metaverse";
 export type SubCategories = {
   name: string;
   url: string;
@@ -65,3 +66,12 @@ export interface IContext {
   closeNav?: () => void;
   toggleNav?: () => void;
 }
+
+export type DBType = {
+  id: string;
+  name: string;
+  description: string;
+  url: string;
+  category: string;
+  subcategory: string;
+};
