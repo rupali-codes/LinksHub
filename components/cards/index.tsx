@@ -1,38 +1,27 @@
-import { useRouter } from "next/router";
-import React from "react";
+import React, { useState } from "react";
 import { LinkContainer } from "../LinksContainer/LinkContainer";
 import { BackToTopButton } from "../BackToTop/BackToTopButton";
-import * as DB from "database";
-import { database } from "database/data";
+import useFilterDB from "hooks/useFilterDB";
+import Popup from "components/popup";
+import { DBType } from "types";
 
 const Cards = () => {
-  const router = useRouter();
-  const { subcategory } = router.query;
-
-  // This filters trough the DB with the subcategory which results in an array of arrays
-  const filterSubCat = database?.map((item: any) =>
-    item?.filter((cat: any) => cat.subcategory.includes(subcategory))
-  );
-
-  // This filters out an empty array from the filterSubCat
-  const filterDB = filterSubCat.filter(
-    (item: any, index: number) => item.length !== 0
-  );
-
-  console.log(database)
-
+  const { filterDB } = useFilterDB();
+  const [currentCard, setCurrentCard] = useState<DBType | null>(null);
+  const getCardId = (item: DBType | null) => {
+    setCurrentCard(item);
+  };
   return (
     <div
       className={`flex flex-wrap md:flex-row w-full md:justify-start gap-4 content-start lg:min-h-[calc(90vh-80px)] min-h-[calc(90vh-150px)] mb-2 ${
         filterDB.length < 3 && "lg:justify-start"
       }`}
     >
-      {filterDB[0]?.map((data: any, key: number) => (
+      {filterDB[0]?.map((data: DBType, key: number) => (
         <LinkContainer
-          name={data.name}
-          description={data.description}
-          url={data.url}
+          {...data}
           key={key + "-" + data.name}
+          getCardId={getCardId}
         />
       ))}
       <div>
@@ -46,6 +35,7 @@ const Cards = () => {
         )}
       </div>
       <BackToTopButton />
+      <Popup getCardId={getCardId} currentCard={currentCard} />
     </div>
   );
 };
