@@ -1,14 +1,11 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
 import React from "react";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
-export const LinkContainer = ({ name, description, url, id }) => {
-  const router = useRouter();
-  const pathname = router.asPath;
+export const LinkContainer = (props) => {
+  const { name, description, url, getCardId } = props;
   return (
     <div
-      onClick={() => router.push(`${pathname}/${id}`)}
+      onClick={() => getCardId(props)}
       className="transition-all ease-in duration-100 w-full cursor-pointer md:w-72 h-64 bg-white shadow-sm hover:shadow-purple-600 shadow- border hover:scale-[1.02] hover:border-solid border-dashed border-violet-500 rounded-3xl dark:bg-gray-900 dark:text-gray-300"
     >
       <div className="card-body">

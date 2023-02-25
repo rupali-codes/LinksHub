@@ -66,3 +66,12 @@ export interface IContext {
   closeNav?: () => void;
   toggleNav?: () => void;
 }
+
+export type DBType = {
+  id: string;
+  name: string;
+  description: string;
+  url: string;
+  category: string;
+  subcategory: string;
+};
