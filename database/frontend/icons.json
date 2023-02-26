@@ -55,5 +55,19 @@
     "url": "https://freeicons.io",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Bootstrap Icons",
+    "description": "Free, high quality, open source icon library with over lots of icons.",
+    "url": "https://icons.getbootstrap.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Uxwing",
+    "description": "Free icons for website with commercial use",
+    "url": "https://uxwing.com/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
