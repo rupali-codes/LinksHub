@@ -18,7 +18,7 @@ export const SideNavbarElement = ({ name, url }: SubCategories) => {
           : ""
       } collapse w-full hover:bg-gradient-to-l hover:text-gray-200 from-violet-900 to-violet-500 text-start rounded `}
     >
-      <div className="text-md border-b py-3 font-medium uppercase transition-all duration-300 hover:pl-5 dark:border-gray-600">{name}</div>
+      <div className="text-sm py-3 uppercase transition-all duration-300 hover:pl-5 dark:border-gray-600">{name}</div>
     </Link>
   );
 };
