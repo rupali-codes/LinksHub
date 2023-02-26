@@ -10,7 +10,7 @@ export const TopBar = ({ header }: { header?: string }) => {
     <div className="sticky top-0 dark:bg-[#101623] bg-gray-100 transition-all ease-in duration-300 w-full xs:overflow-x-hidden mb-4 flex flex-col-reverse items-center md:flex-row md:justify-between md:py-4">
       <div className="my-2 flex items-center place-self-start text-lg dark:text-gray-300 sm:text-3xl">
         <FaSlackHash className="mt-1 mr-2 text-gray-600 dark:text-gray-300" />
-        <span className="text-gray-900 dark:text-gray-100 uppercase font-bold">
+        <span className="text-gray-900 dark:text-gray-100 uppercase font-semmibold">
           {header ?? category}
         </span>
       </div>
