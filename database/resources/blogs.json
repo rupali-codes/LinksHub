@@ -60,5 +60,19 @@
         "url": "https://hashnode.com",
         "category": "resources",
         "subcategory": "blogs"
+    },
+    {
+        "name": "Omglinux",
+        "description": "A website where we can find LInux related blogs",
+        "url": "https://www.omglinux.com/",
+        "category": "resources",
+        "subcategory": "blogs"
+    },
+     {
+        "name": "Showwcase",
+        "description": "Showwcase is a professional network built for developers to connect, build community, and find new opportunities",
+        "url": "https://www.omglinux.com/",
+        "category": "resources",
+        "subcategory": "blogs"
     }
 ]
