@@ -85,9 +85,16 @@
     "subcategory": "design-inspiration"
   },
   {
-    "name": "Best Website Gallery ",
+    "name": "Best Website Gallery",
     "description": "The most beautiful websites handpicked for you — since 2008!",
     "url": "https://bestwebsite.gallery/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "SaaS Interface",
+    "description": "Save yourself hours of research and create beautiful apps by taking inspiration from the best SaaS products.",
+    "url": "https://saasinterface.com/",
     "category": "frontend",
     "subcategory": "design-inspiration"
   }
