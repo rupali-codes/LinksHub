@@ -3,13 +3,14 @@ import React from "react";
 import { LinkContainer } from "../LinksContainer/LinkContainer";
 import { BackToTopButton } from "../BackToTop/BackToTopButton";
 import * as DB from "database";
+import { database } from "database/data";
 
 const Cards = () => {
   const router = useRouter();
   const { subcategory } = router.query;
 
   // This filters trough the DB with the subcategory which results in an array of arrays
-  const filterSubCat = Object.values(DB)?.map((item: any) =>
+  const filterSubCat = database?.map((item: any) =>
     item?.filter((cat: any) => cat.subcategory.includes(subcategory))
   );
 
@@ -17,6 +18,8 @@ const Cards = () => {
   const filterDB = filterSubCat.filter(
     (item: any, index: number) => item.length !== 0
   );
+
+  console.log(database)
 
   return (
     <div
