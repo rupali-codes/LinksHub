@@ -7,14 +7,14 @@ export const TopBar = ({ header }: { header?: string }) => {
   const router = useRouter();
   const category = router.asPath.replace("/", "");
   return (
-    <div className="sticky top-0 dark:bg-[#101623] bg-gray-100 transition-all ease-in duration-300 w-full xs:overflow-x-hidden mb-4 flex flex-row justify-between items-center md:flex-row md:justify-between md:py-4">
-      <div className="pt-4 flex items-center place-self-start text-lg dark:text-gray-300 sm:text-3xl">
+    <div className="sticky top-0 dark:bg-[#101623] bg-gray-100 transition-all ease-in duration-300 w-full xs:overflow-x-hidden mb-4 flex flex-col-reverse justify-between  md:flex-row md:justify-between md:py-4">
+      <div className="pt-4 flex  place-self-start text-lg dark:text-gray-300 sm:text-3xl">
         <FaSlackHash className="mt-1 mr-2 text-gray-600 dark:text-gray-300" />
-        <span className="text-gray-900 dark:text-gray-100 truncate uppercase font-semmibold">
+        <span className="text-gray-900 dark:text-gray-100  uppercase font-semmibold">
           {header ?? category}
         </span>
       </div>
-      <div className="xs:gap-5 flex items-center justify-center gap-6 place-self-end pt-4 pb-2 md:pt-2">
+      <div className="xs:gap-5 hidden lg:flex items-center justify-center gap-6 md:place-self-end pt-4 pb-2 md:pt-2">
           <a
               title="Link to Discord server (External Link)"
               className="dark:text-gray-300"
