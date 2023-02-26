@@ -1,59 +1,58 @@
-[
-  {
-    "name": "Font Awesome",
-    "description": "A highly popular icon font, consisting of 1000+ icons spread across countless categories.",
-    "url": "https://fontawesome.com/",
-    "category": "frontend",
-    "subcategory": "icons"
-  },
-  {
-    "name": "Phosphor Icons",
-    "description": "Another beautiful, more boxy SVG collection of free icons. Customizable thickness and color.",
-    "url": "https://phosphoricons.com/",
-    "category": "frontend",
-    "subcategory": "icons"
-  },
-  {
-    "name": "Flat Icon",
-    "description": "It is a collection of fully customisable PSD icons, in two styles, available to use on your next project.",
-    "url": "https://flaticon.com/",
-    "category": "frontend",
-    "subcategory": "icons"
-  },
-  {
-    "name": "Line Awesome",
-    "description": "It is a collection of fully customisable PSD icons, in two styles, available to use on your next project.",
-    "url": "https://icons8.com/line-awesome",
-    "category": "frontend",
-    "subcategory": "icons"
-  },
+[{
+        "name": "Font Awesome",
+        "description": "A highly popular icon font, consisting of 1000+ icons spread across countless categories.",
+        "url": "https://fontawesome.com/",
+        "category": "frontend",
+        "subcategory": "icons"
+    },
+    {
+        "name": "Phosphor Icons",
+        "description": "Another beautiful, more boxy SVG collection of free icons. Customizable thickness and color.",
+        "url": "https://phosphoricons.com/",
+        "category": "frontend",
+        "subcategory": "icons"
+    },
+    {
+        "name": "Flat Icon",
+        "description": "It is a collection of fully customisable PSD icons, in two styles, available to use on your next project.",
+        "url": "https://flaticon.com/",
+        "category": "frontend",
+        "subcategory": "icons"
+    },
+    {
+        "name": "Line Awesome",
+        "description": "It is a collection of fully customisable PSD icons, in two styles, available to use on your next project.",
+        "url": "https://icons8.com/line-awesome",
+        "category": "frontend",
+        "subcategory": "icons"
+    },
 
-  {
-    "name": "Icon Sets",
-    "description": "Icon-sets is a website that provides a collection of icons for designers and developers to use in their projects.",
-    "url": "https://icon-sets.iconify.design/",
-    "category": "frontend",
-    "subcategory": "icons"
-  },
-  {
-    "name": "Devicon",
-    "description": "Set of icons representing programming languages, designing & development tools, all in one single font.",
-    "url": "https://devicon.dev",
-    "category": "frontend",
-    "subcategory": "icons"
-  },
-  {
-    "name": "Simple Icons",
-    "description": "Simple Icons is the website where you can find lots of SVG icons",
-    "url": "https://simpleicons.org",
-    "category": "frontend",
-    "subcategory": "icons"
-  },
-  {
-    "name": "Freeicons",
-    "description": "The largest collections of premium and free icons",
-    "url": "https://freeicons.io",
-    "category": "frontend",
-    "subcategory": "icons"
-  }
+    {
+        "name": "Icon Sets",
+        "description": "Icon-sets is a website that provides a collection of icons for designers and developers to use in their projects.",
+        "url": "https://icon-sets.iconify.design/",
+        "category": "frontend",
+        "subcategory": "icons"
+    },
+    {
+        "name": "Devicon",
+        "description": "Set of icons representing programming languages, designing & development tools, all in one single font.",
+        "url": "https://devicon.dev",
+        "category": "frontend",
+        "subcategory": "icons"
+    },
+    {
+        "name": "Simple Icons",
+        "description": "Simple Icons is the website where you can find lots of SVG icons",
+        "url": "https://simpleicons.org",
+        "category": "frontend",
+        "subcategory": "icons"
+    },
+    {
+        "name": "Freeicons",
+        "description": "The largest collections of premium and free icons",
+        "url": "https://freeicons.io",
+        "category": "frontend",
+        "subcategory": "icons"
+    }
 ]
