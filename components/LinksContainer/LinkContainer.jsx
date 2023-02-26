@@ -6,7 +6,7 @@ export const LinkContainer = (props) => {
   return (
     <div
       onClick={() => getCardId(props)}
-      className="transition-all ease-in duration-100 w-full cursor-pointer md:w-72 h-64 bg-white shadow-sm border hover:scale-[1.02] border-dashed border-violet-500 rounded-3xl dark:bg-gray-900 dark:text-gray-300"
+      className="transition-all ease-in duration-100 w-full cursor-pointer md:w-72 h-64 bg-gray-100 shadow-lg dark:shadow-sm border hover:scale-[1.02] border-dashed border-violet-500 rounded-3xl dark:bg-gray-900 dark:text-gray-300"
     >
       <div className="card-body">
         <h2
