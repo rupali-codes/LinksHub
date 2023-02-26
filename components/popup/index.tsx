@@ -17,7 +17,7 @@ const Popup: React.FC<{
         onClick={(e) => e.stopPropagation()}
         className={`max-w-[500px] transition-all ${
           currentCard ? "scale-100" : "scale-0"
-        } h-fit w-full overflow-hidden  px-5 md:py-10 bg-gray-900 rounded-2xl m-auto gap-5 flex flex-col justify-between border border-dashed border-violet-600`}
+        } h-fit w-full overflow-hidden  px-5 md:py-10 dark:bg-gray-900 bg-gray-100 rounded-2xl m-auto gap-5 flex flex-col justify-between border border-dashed border-violet-600`}
       >
         <div className="flex flex-col gap-5">
           <div className="flex justify-between items-center">
