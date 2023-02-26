@@ -40,5 +40,12 @@
     "url": "https://www.youtube.com/@academind",
     "category": "youtube",
     "subcategory": "web-development"
+  },
+  {
+    "name": "Clever Programmer",
+    "description": "Clever Programmer is a great channel for beginners looking to take their coding skills to an intermediate level.",
+    "url": "https://www.youtube.com/@CleverProgrammer",
+    "category": "youtube",
+    "subcategory": "web-development"
   }
 ]
