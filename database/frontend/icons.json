@@ -26,33 +26,47 @@
         "category": "frontend",
         "subcategory": "icons"
     },
+  {
+    "name": "Icon Sets",
+    "description": "Icon-sets is a website that provides a collection of icons for designers and developers to use in their projects.",
+    "url": "https://icon-sets.iconify.design/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Devicon",
+    "description": "Set of icons representing programming languages, designing & development tools, all in one single font.",
+    "url": "https://devicon.dev",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Simple Icons",
+    "description": "Simple Icons is the website where you can find lots of SVG icons",
+    "url": "https://simpleicons.org",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Freeicons",
+    "description": "The largest collections of premium and free icons",
+    "url": "https://freeicons.io",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Bootstrap Icons",
+    "description": "Free, high quality, open source icon library with over lots of icons.",
+    "url": "https://icons.getbootstrap.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Uxwing",
+    "description": "Free icons for website with commercial use",
+    "url": "https://uxwing.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  }
 
-    {
-        "name": "Icon Sets",
-        "description": "Icon-sets is a website that provides a collection of icons for designers and developers to use in their projects.",
-        "url": "https://icon-sets.iconify.design/",
-        "category": "frontend",
-        "subcategory": "icons"
-    },
-    {
-        "name": "Devicon",
-        "description": "Set of icons representing programming languages, designing & development tools, all in one single font.",
-        "url": "https://devicon.dev",
-        "category": "frontend",
-        "subcategory": "icons"
-    },
-    {
-        "name": "Simple Icons",
-        "description": "Simple Icons is the website where you can find lots of SVG icons",
-        "url": "https://simpleicons.org",
-        "category": "frontend",
-        "subcategory": "icons"
-    },
-    {
-        "name": "Freeicons",
-        "description": "The largest collections of premium and free icons",
-        "url": "https://freeicons.io",
-        "category": "frontend",
-        "subcategory": "icons"
-    }
 ]

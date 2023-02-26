@@ -1,36 +1,46 @@
-[{
-        "name": "Codepen",
-        "description": "An amazing online community for testing and showcasing HTML, CSS, JavaScript code snippets.",
-        "url": "https://codepen.io",
-        "category": "frontend",
-        "subcategory": "online-code-editors"
-    },
-    {
-        "name": "Tryit",
-        "description": "Another online platform for testing codes written in HTML, CSS and JavaScript.",
-        "url": "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
-        "category": "frontend",
-        "subcategory": "online-code-editors"
-    },
-    {
-        "name": "OnlineGDB",
-        "description": "Another online platform for testing codes written in HTML, CSS and JavaScript.",
-        "url": "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
-        "category": "frontend",
-        "subcategory": "online-code-editors"
-    },
-    {
-        "name": "Sololearn",
-        "description": "It's multi-language online code editor test and share your code snippets.",
-        "url": "https://sololearn.com/compiler-playground/cVRUy2BwauK8",
-        "category": "frontend",
-        "subcategory": "online-code-editors"
-    },
-    {
-        "name": "CodeChef",
-        "description": "An online IDE to practice you competitive programming skills. It allows you to code in multiple languages.",
-        "url": "https://www.codechef.com/ide",
-        "category": "frontend",
-        "subcategory": "online-code-editors"
-    }
+
+[
+  {
+    "name": "Codepen",
+    "description": "An amazing online community for testing and showcasing HTML, CSS, JavaScript code snippets.",
+    "url": "https://codepen.io",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Tryit",
+    "description": "Another online platform for testing codes written in HTML, CSS and JavaScript.",
+    "url": "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "OnlineGDB",
+    "description": "Another online platform for testing codes written in HTML, CSS and JavaScript.",
+    "url": "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Sololearn",
+    "description": "It's multi-language online code editor test and share your code snippets.",
+    "url": "https://sololearn.com/compiler-playground/cVRUy2BwauK8",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "CodeChef",
+    "description": "An online IDE to practice you competitive programming skills. It allows you to code in multiple languages.",
+    "url": "https://www.codechef.com/ide",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Visual Studio Code for the Web",
+    "description": "An online code editor built with Visual Studio Code",
+    "url": "https://vscode.dev/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  }
 ]
+
