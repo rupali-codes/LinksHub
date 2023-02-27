@@ -11,6 +11,7 @@ export const sidebarData: ISidebar[] = [
       { name: "images", url: "/images" },
       { name: "fonts", url: "/fonts" },
       { name: "colors", url: "/colors" },
+      { name: "css", url: "/css" },
       { name: "illustrations", url: "/illustrations" },
       { name: "animations", url: "/animations" },
       { name: "icons", url: "/icons" },

@@ -1,6 +1,7 @@
 // frontend
 export { default as animations } from "./frontend/animations.json";
 export { default as colors } from "./frontend/colors.json";
+export { default as css } from "./frontend/css.json";
 export { default as designInspirations } from "./frontend/design-inspirations.json";
 export { default as fonts } from "./frontend/fonts.json";
 export { default as icons } from "./frontend/icons.json";
