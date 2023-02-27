@@ -1,3 +1,4 @@
+
 [
   {
     "name": "Codepen",
@@ -33,5 +34,13 @@
     "url": "https://www.codechef.com/ide",
     "category": "frontend",
     "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Visual Studio Code for the Web",
+    "description": "An online code editor built with Visual Studio Code",
+    "url": "https://vscode.dev/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
   }
 ]
+
