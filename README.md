@@ -38,10 +38,10 @@ You can see the live demo at: https://linkshub.vercel.app
 ## Socials 📱
 
 <a href="https://twitter.com/the_linkshub" target="blank">
-<img src="https://cdn-icons-png.flaticon.com/32/733/733579.png">
+<img src="https://cdn-icons-png.flaticon.com/32/733/733579.png" alt="twitter">
 </a>
 <a href="https://discord.com/invite/NvK67YnJX5" target="blank">
-<img src="https://cdn-icons-png.flaticon.com/32/5968/5968756.png">
+<img src="https://cdn-icons-png.flaticon.com/32/5968/5968756.png" alt="discord">
 </a>
 
 
