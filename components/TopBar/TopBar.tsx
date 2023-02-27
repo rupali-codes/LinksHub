@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import { IconContext } from "react-icons";
-import {FaDiscord, FaGithub, FaSlackHash} from "react-icons/fa";
+import {FaDiscord, FaGithub, FaSlackHash, FaTwitter} from "react-icons/fa";
 import { ThemeToggler } from "../ThemeToggler/themeToggler";
 
 export const TopBar = ({ header }: { header?: string }) => {
@@ -39,6 +39,19 @@ export const TopBar = ({ header }: { header?: string }) => {
             value={{ className: "shared-class", size: "28" }}
           >
               <FaGithub className="hover:text-violet-500" />
+          </IconContext.Provider>
+        </a>
+          <a
+          title="Link to Twitter page (External Link)"
+          className="dark:text-gray-300"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://twitter.com/the_linkshub"
+        >
+          <IconContext.Provider
+            value={{ className: "shared-class", size: "28" }}
+          >
+              <FaTwitter className="hover:text-violet-500" />
           </IconContext.Provider>
         </a>
         <ThemeToggler />
