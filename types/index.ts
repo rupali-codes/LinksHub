@@ -15,6 +15,7 @@ export interface IData {
   url: string;
   category: Category;
   subcategory: SubCategory;
+  language?:string;
 }
 
 export type Category = "frontend" | "backend" | "youtube" | "resources";
@@ -66,3 +67,13 @@ export interface IContext {
   closeNav?: () => void;
   toggleNav?: () => void;
 }
+
+export type DBType = {
+  id: string;
+  name: string;
+  description: string;
+  url: string;
+  category: string;
+  subcategory: string;
+  language?:string;
+};
