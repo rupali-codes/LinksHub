@@ -2,7 +2,6 @@ import { useRouter } from "next/router";
 import React from "react";
 import { LinkContainer } from "../LinksContainer/LinkContainer";
 import { BackToTopButton } from "../BackToTop/BackToTopButton";
-import * as DB from "database";
 import { database } from "database/data";
 
 const Cards = () => {
@@ -16,7 +15,7 @@ const Cards = () => {
 
   // This filters out an empty array from the filterSubCat
   const filterDB = filterSubCat.filter(
-    (item: any, index: number) => item.length !== 0
+    (item: any) => item.length !== 0
   );
 
   console.log(database)

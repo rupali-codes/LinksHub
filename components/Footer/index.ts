@@ -1,1 +1,0 @@
-import { Footer } from "./Footer";

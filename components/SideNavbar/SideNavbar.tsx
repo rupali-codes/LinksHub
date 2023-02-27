@@ -10,7 +10,7 @@ import { useTheme } from "next-themes";
 import { SideNavbarCategoryList } from "./SideNavbarCategoryList";
 
 export const SideNavbar = () => {
-  const { toggleNav, sidebar, openNav, closeNav } = useContext(GlobalContext);
+  const { toggleNav, sidebar, closeNav } = useContext(GlobalContext);
   const { theme } = useTheme();
   const menuRef = createRef<HTMLDivElement>();
   const menuBtnRef = createRef<HTMLButtonElement>();
