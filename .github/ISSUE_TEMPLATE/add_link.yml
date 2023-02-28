@@ -20,6 +20,8 @@ body:
       options:
         - Frontend
         - Backend
+        - Youtube
+        - Resources
     validations:
       required: true
   - type: textarea
