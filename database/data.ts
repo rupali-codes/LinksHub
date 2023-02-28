@@ -11,7 +11,6 @@ export const sidebarData: ISidebar[] = [
       { name: "images", url: "/images" },
       { name: "fonts", url: "/fonts" },
       { name: "colors", url: "/colors" },
-      { name: "css", url: "/css" },
       { name: "illustrations", url: "/illustrations" },
       { name: "animations", url: "/animations" },
       { name: "icons", url: "/icons" },
@@ -35,6 +34,7 @@ export const sidebarData: ISidebar[] = [
     category: "youtube",
     subcategory: [
       { name: "web development", url: "/web-development" },
+      { name: "css", url: "/css" },
       { name: "machine learning", url: "/machine-learning" },
       { name: "data structures", url: "/dsa" },
       { name: "Android", url: "/android" },

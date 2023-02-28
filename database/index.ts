@@ -1,7 +1,6 @@
 // frontend
 export { default as animations } from "./frontend/animations.json";
 export { default as colors } from "./frontend/colors.json";
-export { default as css } from "./frontend/css.json";
 export { default as designInspirations } from "./frontend/design-inspirations.json";
 export { default as fonts } from "./frontend/fonts.json";
 export { default as icons } from "./frontend/icons.json";
@@ -22,6 +21,7 @@ export { default as hosting } from "./resources/hosting.json";
 // youtube
 export { default as android } from "./youtube/android.json";
 export { default as dataStructures } from "./youtube/data-structures.json";
+export { default as css } from "./youtube/css.json";
 export { default as machineLearning } from "./youtube/machine-learning.json";
 export { default as webDevelopment } from "./youtube/web-development.json";
 export { default as web3metaverse } from "./youtube/web3-metaverse.json";
