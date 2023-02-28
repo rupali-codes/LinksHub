@@ -40,7 +40,7 @@ export const SideNavbarCategory: FC<{item: ISidebar, openByDefault: string}> = (
         className="flex w-full cursor-pointer justify-between py-2 hover:text-violet-500 focus-visible:rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-violet-500" 
         onClick={handleToggle}
       >
-        <h2 className="text-xl font-bold uppercase">
+        <h2 className="text-xl uppercase">
           {item.category}
         </h2>
         <FaAngleDown className={`${isOpen && 'rotate-180'} self-center transition duration-300 ease-in-out`}/>  

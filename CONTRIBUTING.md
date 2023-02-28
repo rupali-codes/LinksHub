@@ -61,6 +61,10 @@ The subcategory object should follow this pattern
   * `category`: could be one of the existing categories or create a new one by following the 
   above instructions
   * `subcategory`: could be one of the existing categories or create a new one by following the above instructions
+
+**NOTE**
+   When adding *YouTube* channel link please specify *language* of the channel they are using to teach in for example English, Hindi, Spanish etc. In case language is NOT specified then just remove the language property. 
+
   
 > **⚠️Important**
 >
