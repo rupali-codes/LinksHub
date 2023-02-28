@@ -23,6 +23,7 @@ export default function Document() {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
+        <div id="backdrop-root"></div>
         <Main />
         <NextScript />
       </body>
