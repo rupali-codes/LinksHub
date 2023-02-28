@@ -29,7 +29,7 @@
     {
         "name": "Picjumbo",
         "description": "Impressive selection of free, Ultra-HD images, You can download as many photos for free.",
-        "url": "https://picjumbo.com/",
+        "url": "https://picjumbo.com",
         "category": "frontend",
         "subcategory": "images"
     },
