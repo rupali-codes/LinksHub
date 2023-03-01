@@ -11,6 +11,7 @@ export { default as themesTemplates } from "./frontend/themes-templates.json";
 export { default as uiGenerators } from "./frontend/ui-generators.json";
 // backend
 export { default as authentication } from "./backend/authentication.json";
+export { default as architecture } from "./backend/architecture.json";
 export { default as caching } from "./backend/caching.json";
 export { default as security } from "./backend/security.json";
 export { default as testing } from "./backend/testing.json";

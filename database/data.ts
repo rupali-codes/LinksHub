@@ -23,6 +23,7 @@ export const sidebarData: ISidebar[] = [
   {
     category: "backend",
     subcategory: [
+      { name: "architecture", url: "/architecture" },
       { name: "validation", url: "/validation" },
       { name: "security", url: "/security" },
       { name: "authentication", url: "/authentication" },
