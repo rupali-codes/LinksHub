@@ -41,6 +41,13 @@
     "url": "https://vscode.dev/",
     "category": "frontend",
     "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Replit",
+    "description": "An online IDE with inbuilt collaborative, hosting  and AI features.",
+    "url": "https://replit.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
   }
 ]
 
