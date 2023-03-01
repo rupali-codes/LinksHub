@@ -1,1 +1,23 @@
-[]
+[
+    {
+        "name": "html DESIGN",
+        "description": "Top-quality templates to design and customize your personal or commercial websites, also does not require registration",
+        "url": "https://html.design/",
+        "category": "frontend",
+        "subcategory": "themes-templates"
+    },
+    {
+        "name": "HTML5 UP",
+        "description": "Free fully responsive and super customizable html5 templates.",
+        "url": "https://html5up.net/",
+        "category": "frontend",
+        "subcategory": "themes-templates"
+    },
+    {
+        "name": "templatemo",
+        "description": "Free responsive html5 and css templates for your commercial or personal or learning purposes.",
+        "url": "https://templatemo.com/",
+        "category": "frontend",
+        "subcategory": "themes-templates"
+    }
+]
