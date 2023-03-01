@@ -11,7 +11,7 @@ const Popup: React.FC<{
       onClick={() => getCardId(null)}
       className={` ${
         currentCard ? "w-full h-screen" : "w-0 h-0"
-      } overflow-hidden flex fixed top-0 left-0 bg-[rgba(0,0,0,.5)] backdrop-blur-md z-20`}
+      } fixed top-0 left-0 z-[100] flex cursor-pointer overflow-hidden bg-black/80`}
     >
       <div
         onClick={(e) => e.stopPropagation()}
