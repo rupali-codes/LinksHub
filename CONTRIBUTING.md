@@ -1,6 +1,6 @@
 # LinksHub contributing guidelines
 
-Thank you for taking the time to contribute to our project. Please take a moment to read the following guidelines before contributing:
+Thank you for taking the time to contribute to our project! Please take a moment to read the following guidelines before contributing:
 
 > ⚠️IMPORTANT **Note** 
 >
@@ -63,7 +63,7 @@ The subcategory object should follow this pattern
   * `subcategory`: could be one of the existing categories or create a new one by following the above instructions
 
 **NOTE**
-   When adding *YouTube* channel link please specify *language* of the channel they are using to teach in for example English, Hindi, Spanish etc. In case language is NOT specified then just remove the language property. 
+   When you're adding a *YouTube* channel's link, please specify *language* of the channel they are using to teach in for example English, Hindi, Spanish etc. If the language is NOT specified, remove the language property. 
 
   
 > **⚠️Important**
@@ -82,7 +82,7 @@ The subcategory object should follow this pattern
 
 3. Each pull request should contain a single logical change or related set of changes that make sense to submit together. If a pull request becomes too large or contains too many unrelated changes, it becomes too difficult to review. In such cases, the reviewer has the right to close your pull request and ask that you submit a separate pull request for each logical set of changes that belong together.
 
-4. Link the issue you have resolved in the Pull Request Template (e.g Closes/Fixes #99).
+4. Add the link to the issue you resolved to the Pull Request Template (e.g Closes/Fixes #99).
 5. Use [Conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/) for your changes.
 6. Do not re-open a pull request that a reviewer has closed.
    - Make sure to tick the "Allow edits from maintainers" box. This allows us to directly make minor edits / refactors and saves a lot of time.
