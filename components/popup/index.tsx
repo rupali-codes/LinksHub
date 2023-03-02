@@ -11,13 +11,13 @@ const Popup: React.FC<{
       onClick={() => getCardId(null)}
       className={` ${
         currentCard ? "w-full h-screen" : "w-0 h-0"
-      } fixed top-0 left-0 z-[100] flex cursor-pointer overflow-hidden bg-black/80`}
+      } fixed top-0 left-0 z-[100] flex items-center justify-center h-screen cursor-pointer overflow-hidden bg-black/80`}
     >
       <div
         onClick={(e) => e.stopPropagation()}
         className={`max-w-[500px] transition-all ${
           currentCard ? "scale-100" : "scale-0"
-        } h-fit w-full overflow-hidden  px-5 md:py-10 dark:bg-gray-900 bg-gray-100 rounded-2xl m-auto gap-5 flex flex-col justify-between border border-dashed border-violet-600`}
+        } h-fit w-full overflow-hidden ml-3 mr-3 px-5 py-10 dark:bg-gray-900 bg-gray-100 rounded-2xl m-auto gap-5 flex flex-col justify-between border border-dashed border-violet-600`}
       >
         <div className="flex flex-col gap-5">
           <div className="flex justify-between items-center">
