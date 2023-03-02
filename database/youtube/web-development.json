@@ -53,5 +53,13 @@
       "category": "youtube",
       "subcategory": "web-development",
       "language": "english"
+    },
+    {
+        "name": "CodeWithHarry",
+        "description": "This channel provides free Web Development course for beginners.",
+        "url": "https://www.youtube.com/@CodeWithHarry/playlists",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "hindi"
     }
 ]
