@@ -13,7 +13,7 @@ const Cards = () => {
   };
   return (
     <div
-      className={`flex flex-wrap md:flex-row w-full md:justify-start gap-4 content-start lg:min-h-[calc(90vh-80px)] min-h-[calc(90vh-150px)] mb-2 ${
+      className={`flex flex-wrap lg:pl-20 md:flex-row w-full md:justify-start gap-4 content-start lg:min-h-[calc(90vh-80px)] min-h-[calc(90vh-150px)] mb-2 ${
         filterDB.length < 3 && "lg:justify-start"
       }`}
     >

@@ -25,5 +25,20 @@
         "url": "https://kaboompics.com/",
         "category": "frontend",
         "subcategory": "images"
+    },
+    {
+        "name": "Picjumbo",
+        "description": "Impressive selection of free, Ultra-HD images, You can download as many photos for free.",
+        "url": "https://picjumbo.com",
+        "category": "frontend",
+        "subcategory": "images"
+    },
+    {
+        "name": "Shotstash",
+        "description": "ShotStash is the ultimate resource for free stock photographs for creative professionals. Whether you are looking for photographs for your blog, social media accounts, projects you are working on for yourself or clients, or any other creative use, you are sure to find the right photo for your needs at ShotStash",
+        "url": "https://shotstash.com/",
+        "category": "frontend",
+        "subcategory": "images"
     }
+   
 ]
