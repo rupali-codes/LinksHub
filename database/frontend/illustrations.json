@@ -32,5 +32,12 @@
         "url": "https://www.reshot.com/",
         "category": "frontend",
         "subcategory": "illustrations"
+    },
+    {
+        "name": "StorySet",
+        "description": "Awesome free customizable illustrations for your next project",
+        "url": "https://storyset.com/",
+        "category": "frontend",
+        "subcategory": "illustrations"
     }
 ]
