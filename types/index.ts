@@ -25,6 +25,7 @@ export type SubCategory =
   | "icons"
   | "illustrations"
   | "colors"
+  | "css"
   | "fonts"
   | "animations"
   | "testing"
