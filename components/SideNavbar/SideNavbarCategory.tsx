@@ -25,7 +25,7 @@ export const SideNavbarCategory: FC<{
 
   if (isOpen) {
     subcategoryList = (
-      <ul className="relative ml-2">
+      <ul className="relative ml-1">
         <div className="absolute w-0.5 h-full bg-slate-300 dark:bg-slate-700" />
         {item.subcategory
           .sort((a, b) =>
@@ -45,7 +45,7 @@ export const SideNavbarCategory: FC<{
   return (
     <li className="mb-2">
       <button
-        className="flex w-full cursor-pointer bg-gray-300 bg-opacity-50 px-4 justify-between py-2 text-violet-500 dark:bg-violet-500 dark:bg-opacity-5 hover:text-violet-600 rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-violet-500"
+        className="flex w-full cursor-pointer justify-between py-2 text-violet-500 dark:bg-opacity-5 hover:text-violet-600 rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-violet-500"
         onClick={handleToggle}
       >
         <h2 className="font-bold uppercase">{item.category}</h2>
