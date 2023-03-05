@@ -20,7 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icon.png" className="rounded-full" />
       </Head>
-      <main className="lg:h-[calc(100vh-85px)] h-[calc(100vh-150px)] flex flex-col">
+      <main className="lg:h-[calc(100vh-99px)] h-[calc(100vh-150px)] flex flex-col">
         <TopBar header="Home" />
         <div className=" m-auto flex flex-col  items-start gap-2">
             <div className="m-auto md:text-7xl text-5xl gap-2 flex items-center justify-center">
