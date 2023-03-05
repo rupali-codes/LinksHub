@@ -30,10 +30,17 @@ You can see the live demo at: https://linkshub.vercel.app
 <a name="tech-stack"></a>
 ## Tech stack 📚
 
-![Next.js](https://img.shields.io/badge/Next.js-7c3aed?style=for-the-badge&logo=next.js&logoColor=white)
-![tailwind css](https://img.shields.io/badge/tailwind_css-7c3aed?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![typescript](https://img.shields.io/badge/typescript-7c3aed?style=for-the-badge&logo=typescript&logoColor=white)
-
+<p>
+  <a href="https://nextjs.org/">
+    <img src="https://img.shields.io/badge/Next.js-7c3aed?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js Official Website"/>
+  </a>
+  <a href="https://tailwindcss.com/">
+    <img src="https://img.shields.io/badge/tailwind_css-7c3aed?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailWind CSS Official Website"/>
+  </a>
+  <a href="https://www.typescriptlang.org/">
+    <img src="https://img.shields.io/badge/typescript-7c3aed?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript official Website"/>
+  </a>
+</p>
 
 ## Socials 📱
 
@@ -86,13 +93,24 @@ You can see the live demo at: https://linkshub.vercel.app
     ```sh
    npm run dev
    ```
-7. Push your changes into your branch
+
+7. Make your changes to the source code.
+
+8. Stage your changes and commit:
+    ```sh
+   git add <filename>
+    ```
+
+    ```sh
+   git commit -m "<your-commit-message>"
+   ```
+9. Push your changes into your branch
    
     ```sh
    git push origin <your_branch_name>
    ```
 
-8. Create a [Pull Request](https://github.com/rupali-codes/LinksHub/compare) 
+10. Create a [Pull Request](https://github.com/rupali-codes/LinksHub/compare) 
    > Click _compare acorss forks_ if you don't see your branch 
 
 #### _Want to add your favorite Links into the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)._
