@@ -21,6 +21,7 @@ export { default as hosting } from "./resources/hosting.json";
 // youtube
 export { default as android } from "./youtube/android.json";
 export { default as dataStructures } from "./youtube/data-structures.json";
+export { default as css } from "./youtube/css.json";
 export { default as machineLearning } from "./youtube/machine-learning.json";
 export { default as webDevelopment } from "./youtube/web-development.json";
 export { default as web3metaverse } from "./youtube/web3-metaverse.json";
