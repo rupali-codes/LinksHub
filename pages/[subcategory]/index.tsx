@@ -14,7 +14,7 @@ const SubCategory = () => {
       <Head>
         <title>{title}</title>
       </Head>
-      <TopBar className="shadow-black-500/50 fixed top-[76px] z-30 flex w-full -translate-x-4 items-center bg-gray-100 px-4 pt-6 pb-4 shadow-xl dark:bg-[#101623] md:hidden" />
+      <TopBar className="shadow-black-500/50 fixed top-[76px] z-30 flex w-full -translate-x-4 items-center bg-gray-100 px-4 pt-6 pb-4 shadow-xl dark:bg-gray-900 md:hidden" />
       <Cards />
     </>
   );
