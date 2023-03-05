@@ -26,7 +26,7 @@ export const SideNavbarCategory: FC<{
   if (isOpen) {
     subcategoryList = (
       <ul className="relative ml-2">
-        <div className="absolute w-0.5 h-full bg-slate-300 dark:bg-slate-800" />
+        <div className="absolute w-0.5 h-full bg-slate-300 dark:bg-slate-700" />
         {item.subcategory
           .sort((a, b) =>
             a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1
