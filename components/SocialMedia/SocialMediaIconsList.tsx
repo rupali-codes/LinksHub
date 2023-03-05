@@ -6,7 +6,7 @@ export const SocialMediaIconsList:FC<{className?: string}> = (props) => {
   const { className } = props;
 
   return (
-    <ul className={`flex items-center gap-6 bg-gray-100 dark:bg-gray-900 ${className}`}>
+    <ul className={`flex items-center gap-6 ${className}`}>
       <li>
         <a
         title="Link to Discord server (External Link)"

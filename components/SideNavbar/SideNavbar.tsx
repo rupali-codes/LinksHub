@@ -22,7 +22,7 @@ export const SideNavbar:FC<{}> = () => {
           className={`fixed top-0 left-0 z-[100] h-full w-[75%] lg:hidden`}
         >
           <SideNavbarHeader />
-          <SocialMediaIconsList className="px-6 py-2" />
+          <SocialMediaIconsList className="bg-gray-100 px-6 py-2 dark:bg-gray-900" />
           <SideNavbarBody />
         </div>, document.getElementById('overlay-root')!
       )}

@@ -12,7 +12,7 @@ export const TopBar:FC<{className?: string | undefined}> = (props) => {
   }
 
   return (
-    <div className={`text-xl dark:text-gray-300 ${className}`}>
+    <div className={`flex items-center text-xl dark:text-gray-300 ${className}`}>
       <FaSlackHash className="mr-2 text-gray-600 dark:text-gray-300" />
       <span className="font-semmibold uppercase text-gray-900 dark:text-gray-100">
         {category}
