@@ -14,11 +14,13 @@ export const SideNavbarElement = ({ name, url }: SubCategories) => {
       onClick={closeNav}
       className={`${
         router.asPath === url
-          ? "bg-gradient-to-r from-violet-900 to-violet-500 transition-all pl-5 text-gray-200"
-          : ""
-      } collapse w-full hover:bg-gradient-to-l hover:text-gray-200 from-violet-900 to-violet-500 text-start rounded `}
+          ? "border-l-4 border-violet-500 text-violet-700 dark:text-violet-500"
+          : "text-slate-500 dark:text-slate-400"
+      } collapse w-full text-start pl-3 hover:text-violet-500 dark:hover:text-violet-500 `}
     >
-      <div className="text-lg py-2 capitalize transition-all duration-300 hover:pl-5 dark:border-gray-600">{name}</div>
+      <div className="ml-2 text-lg py-2 capitalize transition-all duration-300 hover:pl-2 dark:border-gray-600">
+        {name}
+      </div>
     </Link>
   );
 };
