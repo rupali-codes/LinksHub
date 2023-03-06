@@ -19,5 +19,12 @@
         "url": "https://templatemo.com/",
         "category": "frontend",
         "subcategory": "themes-templates"
+    },
+    {
+        "name": "landing page template",
+        "description": "Simple, free, fully responsive one-page sites for pretty much anything.",
+        "url": "https://carrd.co",
+        "category": "frontend",
+        "subcategory": "themes-templates"
     }
 ]
