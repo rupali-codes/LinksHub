@@ -106,7 +106,7 @@ You can see the live demo at: https://linkshub.vercel.app
    git commit -m <your-commit-message>
    ```
 
-9. Push your changes into your branch
+10. Push your changes into your branch
     ```sh
    git push origin <your_branch_name>
    ```
