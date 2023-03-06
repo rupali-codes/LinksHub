@@ -61,5 +61,13 @@
         "category": "youtube",
         "subcategory": "web-development",
         "language": "hindi"
+    },
+    {
+        "name": "Bro Code",
+        "description": "This channel is provide a web development course for both beginner and pros.",
+        "url": "https://www.youtube.com/@BroCodez",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "English"
     }
 ]
