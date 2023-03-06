@@ -94,26 +94,27 @@ You can see the live demo at: https://linkshub.vercel.app
    npm run dev
    ```
 
-7. Make your changes to the source code.
+7. Make your changes
 
-8. Stage your changes and commit:
+8. Stage your changes
     ```sh
    git add <filename>
     ```
 
+9. Commit your changes
     ```sh
-   git commit -m "<your-commit-message>"
+   git commit -m <your-commit-message>
    ```
+
 9. Push your changes into your branch
-   
     ```sh
    git push origin <your_branch_name>
    ```
 
-10. Create a [Pull Request](https://github.com/rupali-codes/LinksHub/compare) 
-   > Click _compare acorss forks_ if you don't see your branch 
+11. Create a [Pull Request](https://github.com/rupali-codes/linkshub/compare) 
+   > Click _compare across forks_ if you don't see your branch 
 
-#### _Want to add your favorite Links into the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)._
+#### _Want to add your favorite links into the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/linkshub/blob/main/CONTRIBUTING.md)._
 
 ---
 
