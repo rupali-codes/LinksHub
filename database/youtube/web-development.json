@@ -69,5 +69,14 @@
         "category": "youtube",
         "subcategory": "web-development",
         "language": "English"
+    },
+    {
+        "name": "DesignCourse",
+        "description": "This channel is provide a we take you from zero to a fullstack developer.",
+        "url": "https://www.youtube.com/@DesignCourse/featured",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "English"
     }
+    
 ]
