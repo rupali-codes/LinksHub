@@ -6,11 +6,13 @@ import { SideNavbarHeader } from "./SideNavbarHeader";
 import { SideNavbarBody } from "./SideNavbarBody";
 import { createPortal } from "react-dom";
 import { SocialMediaIconsList } from "components/SocialMedia/SocialMediaIconsList";
+import useDelayUnmount from "hooks/useDelayUnmount";
 
 export const SideNavbar:FC<{}> = () => {
   const { sidebar, closeNav } = useContext(GlobalContext);
+  const showElement = useDelayUnmount(sidebar, 300);
 
-  if (!sidebar) {
+  if (!showElement) {
     return null;
   }
 
@@ -19,7 +21,9 @@ export const SideNavbar:FC<{}> = () => {
       <Backdrop onClick={closeNav} className="lg:hidden" />
       {createPortal(
         <div
-          className={`fixed top-0 left-0 z-[100] h-full w-[75%] lg:hidden`}
+          className={`fixed top-0 left-0 z-[100] h-full w-[75%] transition-all lg:hidden
+          ${sidebar ? 'animate-slide-in' : 'animate-slide-out'}
+          `}
         >
           <SideNavbarHeader />
           <SocialMediaIconsList className="bg-gray-100 px-6 py-2 dark:bg-gray-900" />
