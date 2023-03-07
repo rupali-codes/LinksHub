@@ -68,7 +68,7 @@
         "url": "https://www.youtube.com/@DesignCourse/featured",
         "category": "youtube",
         "subcategory": "web-development",
-        "language": "English"
+        "language": "english"
     },
     {
         "name": "Bro Code",
@@ -76,7 +76,7 @@
         "url": "https://www.youtube.com/@BroCodez",
         "category": "youtube",
         "subcategory": "web-development",
-        "language": "English"
+        "language": "english"
     }
     
 ]
