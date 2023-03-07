@@ -106,10 +106,10 @@ You can see the live demo at: https://linkshub.vercel.app
    git commit -m <your-commit-message>
    ```
 
-9. Push your changes into your branch
+10. Push your changes into your branch
     ```sh
-   git push origin <your_branch_name>
-   ```
+    git push origin <your_branch_name>
+    ```
 
 11. Create a [Pull Request](https://github.com/rupali-codes/linkshub/compare) 
    > Click _compare across forks_ if you don't see your branch 
