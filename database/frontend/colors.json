@@ -1,5 +1,11 @@
-
 [
+  {
+    "name": "Color Hunt",
+    "description": "Discover the newest hand-picked color palettes of Color Hunt. Get color inspiration for your design and art projects.",
+    "url": "https://colorhunt.co/",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
   {
     "name": "Open Color",
     "description": "An open-source color scheme, optimized for UI. My go-to resource to choose colors from scratch. ",
@@ -65,10 +71,9 @@
   },
   {
     "name": "MaterialUI",
-    "description": "In Material UI color webiste you can find different shades of colors plates. It also provides Hex and RGB value of color.",
+    "description": "In Material UI color website you can find different shades of colors plates. It also provides Hex and RGB value of color.",
     "url": "https://materialui.co/",
     "category": "frontend",
     "subcategory": "colors"
   }
-
 ]
