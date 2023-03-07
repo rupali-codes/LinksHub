@@ -4,9 +4,9 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 export const LinkContainer = (props) => {
   const { name, description, url, getCardId } = props;
   return (
-    <div
+    <li
       onClick={() => getCardId(props)}
-      className="transition-all ease-in duration-100 w-full cursor-pointer md:w-72 h-64 bg-gray-100 shadow-lg dark:shadow-sm border hover:scale-[1.02] border-dashed border-violet-500 rounded-3xl dark:bg-gray-900 dark:text-gray-300"
+      className="z-10 h-64 w-[98%] cursor-pointer rounded-3xl border border-dashed border-violet-500 bg-gray-100 shadow-lg transition-all duration-100 ease-in hover:scale-[1.02] dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm md:w-72"
     >
       <div className="card-body">
         <h2
@@ -33,6 +33,6 @@ export const LinkContainer = (props) => {
           </a>
         </div>
       </div>
-    </div>
+    </li>
   );
 };
