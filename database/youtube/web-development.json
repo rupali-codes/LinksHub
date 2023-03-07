@@ -72,8 +72,16 @@
     },
     {
         "name": "DesignCourse",
-        "description": "This channel is provide a we take you from zero to a fullstack developer.",
+        "description": "This channel will provide and take you from zero to a fullstack developer.you will learn UI/UX, Frontend Dev",
         "url": "https://www.youtube.com/@DesignCourse/featured",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "English"
+    },
+    {
+        "name": "Bro Code",
+        "description": "This channel is dedicated to providing free education on coding bootcamp, and whatever crap coding gurus  sell",
+        "url": "https://www.youtube.com/@BroCodez",
         "category": "youtube",
         "subcategory": "web-development",
         "language": "English"
