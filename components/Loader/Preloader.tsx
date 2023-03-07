@@ -1,5 +1,4 @@
 import useLoader from "hooks/useLoader";
-import { ReactNode } from "react";
 import { Spinner } from "./Spinner";
 
 export const Preloader = ({

@@ -11,7 +11,7 @@ import { SideNavbarCategoryList } from "./SideNavbarCategoryList";
 import { Backdrop } from "components/Backdrop/Backdrop";
 
 export const SideNavbar = () => {
-  const { toggleNav, sidebar, openNav, closeNav } = useContext(GlobalContext);
+  const { toggleNav, sidebar, closeNav } = useContext(GlobalContext);
   const { theme } = useTheme();
   const menuRef = createRef<HTMLDivElement>();
   const menuBtnRef = createRef<HTMLButtonElement>();
