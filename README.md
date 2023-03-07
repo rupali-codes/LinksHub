@@ -108,7 +108,7 @@ You can see the live demo at: https://linkshub.vercel.app
 
 10. Push your changes into your branch
     ```sh
-   git push origin <your_branch_name>
+    git push origin <your_branch_name>
    ```
 
 11. Create a [Pull Request](https://github.com/rupali-codes/linkshub/compare) 
