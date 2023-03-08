@@ -61,5 +61,22 @@
         "category": "youtube",
         "subcategory": "web-development",
         "language": "hindi"
+    },
+    {
+        "name": "DesignCourse",
+        "description": "This channel will provide and take you from zero to a fullstack developer.you will learn UI/UX, Frontend Dev",
+        "url": "https://www.youtube.com/@DesignCourse/featured",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "english"
+    },
+    {
+        "name": "Bro Code",
+        "description": "This channel is dedicated on providing free education on coding tutorial for both beginners and pro",
+        "url": "https://www.youtube.com/@BroCodez",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "english"
     }
+    
 ]
