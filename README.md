@@ -109,7 +109,6 @@ and the website will be built in one single click. No extra setup is required.
 
 ---
 
-<
 
 <a name="our-contributors"></a>
 ## Our Contributors ✨
