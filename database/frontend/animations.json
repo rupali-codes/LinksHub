@@ -32,5 +32,12 @@
         "url": "https://auto-animate.formkit.com/",
         "category": "frontend",
         "subcategory": "animations"
+    },
+    {
+        "name": "Spline",
+        "description": "Spline is an easy to use 3D design tool to create interactive animation within the browser.",
+        "url": "https://spline.design/",
+        "category": "frontend",
+        "subcategory": "animations"
     }
 ]
