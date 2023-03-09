@@ -79,6 +79,14 @@
         "language": "english"
     },
     {
+        "name": "CodeWithHarry",
+        "description": "This channel provides free Web Development course for beginners.",
+        "url": "https://www.youtube.com/@CodeWithHarry/playlists",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "hindi"
+    },
+    {
         "name": "Bro Code",
         "description": "This channel is dedicated on providing free education on coding tutorial for both beginners and pro",
         "url": "https://www.youtube.com/@BroCodez",
