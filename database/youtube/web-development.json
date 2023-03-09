@@ -55,12 +55,20 @@
       "language": "english"
     },
     {
-        "name": "CodeWithHarry",
-        "description": "This channel provides free Web Development course for beginners.",
-        "url": "https://www.youtube.com/@CodeWithHarry/playlists",
+      "name": "Thenewboston",
+      "description": "The new boston is a great channel for learning docker,blockchain,webdevelopment,Django, Angular2, and etc.",
+      "url": "https://www.youtube.com/@thenewboston",
+      "category": "youtube",
+      "subcategory": "web-development",
+      "language": "english" 
+    },
+    {
+        "name": "Web Dev Simplified",
+        "description": "Web Dev Simplified is all about teaching web development skills and techniques in an efficient and practical manner.",
+        "url": "https://www.youtube.com/@WebDevSimplified",
         "category": "youtube",
         "subcategory": "web-development",
-        "language": "hindi"
+        "language": "english" 
     },
     {
         "name": "DesignCourse",
@@ -71,6 +79,14 @@
         "language": "english"
     },
     {
+        "name": "CodeWithHarry",
+        "description": "This channel provides free Web Development course for beginners.",
+        "url": "https://www.youtube.com/@CodeWithHarry/playlists",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "hindi"
+    },
+    {
         "name": "Bro Code",
         "description": "This channel is dedicated on providing free education on coding tutorial for both beginners and pro",
         "url": "https://www.youtube.com/@BroCodez",
@@ -78,5 +94,4 @@
         "subcategory": "web-development",
         "language": "english"
     }
-    
 ]
