@@ -102,5 +102,26 @@
         "url": "https://www.darkmodedesign.com/",
         "category": "frontend",
         "subcategory": "design-inspiration"
+    },
+    {
+        "name": "Webframe",
+        "description": "It is a platform to discover and be inspired by for beautiful webapp designs",
+        "url": "https://webframe.xyz/",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
+    },
+    {
+        "name": "Nicelydone",
+        "description": "The largest web applications inspiration examples & user flows library",
+        "url": "https://nicelydone.club/",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
+    },
+    {
+        "name": "SaasUI",
+        "description": "SaaS UI is a hand-picked collection of SaaS application designs that exhibit the best in class design.",
+        "url": "https://www.saasui.design/",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
     }
 ]
