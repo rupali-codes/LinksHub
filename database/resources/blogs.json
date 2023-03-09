@@ -74,5 +74,12 @@
         "url": "https://www.showwcase.com/",
         "category": "resources",
         "subcategory": "blogs"
-    }
+    },
+    {
+       "name": "Hackernoon",
+       "description": "This is a platform where developers and technologists from all walks of life write blog posts about their experiences in tech.",
+       "url": "https://hackernoon.com/",
+       "category": "resources",
+       "subcategory": "blogs"
+   }
 ]

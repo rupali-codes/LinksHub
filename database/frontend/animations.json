@@ -32,5 +32,12 @@
         "url": "https://auto-animate.formkit.com/",
         "category": "frontend",
         "subcategory": "animations"
+    },
+    {
+        "name": "Whirl",
+        "description": "It's a tool for generating html + css loading animation.",
+        "url": "https://whirl.netlify.app/",
+        "category": "frontend",
+        "subcategory": "animations"
     }
 ]
