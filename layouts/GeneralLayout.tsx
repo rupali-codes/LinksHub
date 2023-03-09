@@ -1,16 +1,23 @@
 import React, { ReactNode } from "react";
 import { Footer } from "components/Footer/Footer";
 import { SideNavbar } from "components/SideNavbar";
+import { Header } from "components/Header/Header";
+import { Aside } from "components/Aside/Aside";
 
 const GeneralLayout = ({ children }: { children: ReactNode }) => {
+  
   return (
-    <section>
+    <>
+      <Header />
       <SideNavbar />
-      <div className="mx-auto mt-20 min-h-[calc(100vh-85px)] bg-gray-100 px-4 pb-[1rem] transition-all duration-300 ease-in dark:bg-[#101623] lg:mt-0 lg:pl-[290px]">
-        {children}
-        <Footer />
+      <div className="row-start-2 row-end-3 min-h-[100vh-72px] w-full bg-gray-100 dark:bg-[#101623]">
+        <Aside />
+        <main className="h-full px-4 lg:ml-[290px] lg:w-[calc(100%-290px)]">
+          {children}
+          <Footer />
+        </main>
       </div>
-    </section>
+    </>
   );
 };
 

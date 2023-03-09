@@ -95,5 +95,12 @@
         "url": "https://dopeui.co/",
         "category": "frontend",
         "subcategory": "design-inspiration"
+    },
+    {
+        "name": "Dark Mode Design",
+        "description": "Dark Mode Design is a showcase of beautifully designed and inspiring dark mode websites.",
+        "url": "https://www.darkmodedesign.com/",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
     }
 ]

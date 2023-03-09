@@ -26,5 +26,12 @@
         "url": "https://carrd.co",
         "category": "frontend",
         "subcategory": "themes-templates"
+    },
+    {
+        "name": "Creative-tim",
+        "description": "fully responsive UI Kits, Templates and Dashboards built on top of Bootstrap, React",
+        "url": "https://www.creative-tim.com",
+        "category": "frontend",
+        "subcategory": "themes-templates"
     }
 ]
