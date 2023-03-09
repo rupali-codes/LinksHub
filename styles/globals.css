@@ -6,8 +6,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
 /* Making default font family */
-body{
+body {
   font-family: 'Nunito', sans-serif;
+}
+
+#__next {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 76px auto;
 }
 
 /* scrollable */
