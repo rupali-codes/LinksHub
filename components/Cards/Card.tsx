@@ -7,7 +7,7 @@ const Card:FC<{ data: IData}> = (props) => {
   const { name, description, url } = data;
 
   return (
-    <div
+    <article
       className="z-10 h-full w-full rounded-3xl border border-dashed border-violet-500 bg-gray-100 shadow-lg dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm"
     >
       <div className="card-body">
@@ -20,7 +20,7 @@ const Card:FC<{ data: IData}> = (props) => {
         <p className="text-clip-30 h-24 w-full w-full overflow-hidden font-sans">
           {description}
         </p>
-        <div className="card-actions justify-end">
+        <footer className="card-actions justify-end">
           <a
             onClick={(e) => e.stopPropagation()}
             href={url}
@@ -31,9 +31,9 @@ const Card:FC<{ data: IData}> = (props) => {
             Visit Site
             <BsBoxArrowUpRight />
           </a>
-        </div>
+        </footer>
       </div>
-    </div>
+    </article>
   );
 };
 
