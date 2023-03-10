@@ -1,12 +1,12 @@
 import React from "react";
-import { DBType } from "types";
+import { IData } from "types";
 import { BsGlobe } from "react-icons/bs";
 import { Backdrop } from "components/Backdrop/Backdrop";
 import { createPortal } from "react-dom";
 import useDelayUnmount from "hooks/useDelayUnmount"
 
 const Popup: React.FC<{
-  currentCard: null | DBType;
+  currentCard: IData | null;
   onClose: () => void;
 }> = ({ currentCard, onClose }) => {
   const showElement = useDelayUnmount(currentCard, 300);
