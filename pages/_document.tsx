@@ -23,6 +23,7 @@ export default function Document() {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
+        <div id="overlay-root"></div>
         <div id="backdrop-root"></div>
         <Main />
         <NextScript />

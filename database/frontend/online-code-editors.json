@@ -1,4 +1,3 @@
-
 [
   {
     "name": "Codepen",
@@ -48,6 +47,26 @@
     "url": "https://replit.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Codesandbox",
+    "description": "A cloud development platform that empowers anyone to code, collaborate, and ship projects of any size from any device in record time.",
+    "url": "https://codesandbox.io/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "HackerRank",
+    "description": "An online IDE to practice you competitive programming skills. It allows you to code in multiple languages.",
+    "url": "https://www.hackerrank.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "LeetCode",
+    "description": "LeetCode is the best platform to help you enhance your programming skills, expand your knowledge.",
+    "url": "https://leetcode.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
   }
 ]
-
