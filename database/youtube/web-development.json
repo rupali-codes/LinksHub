@@ -88,10 +88,33 @@
     },
     {
         "name": "Bro Code",
+        "description": "This channel will provide web development courses for both beginner and pros.",
+        "url": "https://www.youtube.com/@BroCodez",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "English"
+    },
+    {
+        "name": "DesignCourse",
+        "description": "This channel will provide and take you from zero to a Full Stack developer. You can also start learning UI/UX and Frontend development",
+        "url": "https://www.youtube.com/@DesignCourse/featured",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "English"
+    },
+    {
+        "name": "Bro Code",
+        "description": "This channel is dedicated to providing free education on coding bootcamp, and whatever crap coding gurus  sell",
+        "url": "https://www.youtube.com/@BroCodez",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "English"
+        "description": "This channel is dedicated on providing free education on coding tutorial for both beginners and pro",
         "description": "This channel is dedicated to providing free coding tutorials for both beginners and pros",
         "url": "https://www.youtube.com/@BroCodez",
         "category": "youtube",
         "subcategory": "web-development",
         "language": "english"
     }
+    
 ]
