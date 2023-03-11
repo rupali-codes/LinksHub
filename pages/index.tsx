@@ -24,10 +24,11 @@ export default function Home() {
           <div className="m-auto md:text-7xl text-5xl gap-2 flex items-center justify-center">
             <Logo />
             <span>👾</span>
+              <p> LinksHub aims to provide developers with access to a wide range of free resources and tools that they can use in their work.</p> 
+              <p>These resources include links to free software, libraries, frameworks, and other tools that can be used to build and deploy applications and websites.</p>
           </div>
           <div className=" flex flex-col mt-6 justify-center items-start">
           <p className="text-xl  ">Navigate through menu for</p>
-            <p> LinksHub aims to provide developers with access to a wide range of free resources and tools that they can use in their work. These resources include links to free software, libraries, frameworks, and other tools that can be used to build and deploy applications and websites.</p>
           <p className='text-xl text-violet-500'><TypewriterComponent  
             options={{
               strings: subCategoriesNames,
