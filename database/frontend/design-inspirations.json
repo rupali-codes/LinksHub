@@ -102,5 +102,12 @@
         "url": "https://www.darkmodedesign.com/",
         "category": "frontend",
         "subcategory": "design-inspiration"
+    },
+    {
+        "name": "Uiverse",
+        "description": "This is a completely free website where you can super cool element built with html and css",
+        "url": "https://uiverse.io",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
     }
 ]
