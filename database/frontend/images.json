@@ -39,6 +39,13 @@
         "url": "https://shotstash.com/",
         "category": "frontend",
         "subcategory": "images"
+    },
+    {
+        "name": "Lorem Picsum",
+        "description": "The Lorem Ipsum for photos. Easy to use, stylish placeholders for your websites or projects.",
+        "url": "https://picsum.photos/",
+        "category": "frontend",
+        "subcategory": "images"
     }
    
 ]
