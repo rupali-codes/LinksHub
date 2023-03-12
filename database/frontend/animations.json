@@ -34,6 +34,13 @@
         "subcategory": "animations"
     },
     {
+        "name": "Spline",
+        "description": "Spline is an easy to use 3D design tool to create interactive animation within the browser.",
+        "url": "https://spline.design/",
+        "category": "frontend",
+        "subcategory": "animations"
+    },
+    {
         "name": "Whirl",
         "description": "It's a tool for generating html + css loading animation.",
         "url": "https://whirl.netlify.app/",

@@ -72,7 +72,7 @@
     },
     {
         "name": "DesignCourse",
-        "description": "This channel will provide and take you from zero to a fullstack developer.you will learn UI/UX, Frontend Dev",
+        "description": "This channel will take you from zero to a fullstack developer. You will also learn UI/UX and Frontend Dev languages",
         "url": "https://www.youtube.com/@DesignCourse/featured",
         "category": "youtube",
         "subcategory": "web-development",
@@ -88,7 +88,7 @@
     },
     {
         "name": "Bro Code",
-        "description": "This channel is dedicated on providing free education on coding tutorial for both beginners and pro",
+        "description": "This channel is dedicated to providing free coding tutorials for both beginners and pros",
         "url": "https://www.youtube.com/@BroCodez",
         "category": "youtube",
         "subcategory": "web-development",
