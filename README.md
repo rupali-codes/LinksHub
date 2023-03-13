@@ -118,23 +118,16 @@ You can see the live demo at: https://linkshub.vercel.app
 
 ---
 
-
 <a name="building-with-gitpod"></a>
 ## Building with Gitpod 💣
 
-By using [Gitpod.io](https://www.gitpod.io), all the necessary dependencies will be installed\
+By using [Gitpod.io](https://www.gitpod.io), all the necessary dependencies will be installed
 and the website will be built in one single click. No extra setup is required.
 
 [![Gitpod Ready-to-Code](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rupali-codes/LinksHub)
 
 ---
 
-<a name="community"></a>
-## Community 🤝
-
-Join the conversation on our **Discord server**
-
-<a href="https://discord.gg/NvK67YnJX5"><img src="https://cdn.worldvectorlogo.com/logos/discord-6.svg" title="Discord" alt="Discord Community" width="50"/></a>
 
 <a name="our-contributors"></a>
 ## Our Contributors ✨
