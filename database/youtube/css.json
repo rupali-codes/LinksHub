@@ -6,5 +6,13 @@
         "category": "youtube",
         "subcategory": "css",
         "language": "english"
+    },
+    {
+        "name": "Online Tutorials",
+        "description": "It is great youtube channel for learning css in depth. By this youtube content you can make yourself expert in css.",
+        "url": "https://www.youtube.com/@OnlineTutorialsYT/featured",
+        "category": "youtube",
+        "subcategory": "css",
+        "language": "english"
     }
 ]
