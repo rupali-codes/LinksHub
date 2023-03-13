@@ -39,6 +39,8 @@ export const sidebarData: ISidebar[] = [
       { name: "data structures", url: "/dsa" },
       { name: "Android", url: "/android" },
       { name : "Web3 & Metaverse", url : "/web3-metaverse"},
+      { name : "Testing", url : "/testing"},
+      
     ],
   },
   {
