@@ -123,5 +123,12 @@
         "url": "https://www.saasui.design/",
         "category": "frontend",
         "subcategory": "design-inspiration"
+    },
+    {
+        "name": "Uiverse",
+        "description": "this is a completely free website where you can build cool solution with HTML and CSS. there's is also CSS challenge to show off your skills",
+        "url": "https://uiverse.io",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
     }
 ]
