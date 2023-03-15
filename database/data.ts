@@ -51,9 +51,9 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: "Github",
+    category: "Other",
     subcategory: [
-      { name: "Readme", url: "/readme" },
+      { name: "Github", url: "/github" },
     ],
   }
 ];
