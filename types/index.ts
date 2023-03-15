@@ -48,7 +48,7 @@ export type SubCategory =
   | "blogs"
   | "hosting"
   | "web3-metaverse"
-  | "Readme";
+  | "Github";
 export type SubCategories = {
   name: string;
   url: string;
