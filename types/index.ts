@@ -18,7 +18,7 @@ export interface IData {
   language?:string;
 }
 
-export type Category = "frontend" | "backend" | "youtube" | "resources" | "Github";
+export type Category = "frontend" | "backend" | "youtube" | "resources" | "Other";
 
 export type SubCategory =
   | "images"
