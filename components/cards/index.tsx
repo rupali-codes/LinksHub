@@ -8,12 +8,18 @@ import { DBType } from "types";
 const Cards = () => {
   const { filterDB } = useFilterDB();
   const [currentCard, setCurrentCard] = useState<DBType | null>(null);
+
   const getCardId = (item: DBType | null) => {
     setCurrentCard(item);
   };
+
+  const removeCurrentCard = () => {
+    setCurrentCard(null);
+  }
+
   return (
-    <div
-      className={`flex flex-wrap lg:pl-20 md:flex-row w-full md:justify-start gap-4 content-start lg:min-h-[calc(90vh-80px)] min-h-[calc(90vh-150px)] mb-2 ${
+    <ul
+      className={`flex min-h-[calc(100%-68px)] w-full flex-wrap content-start gap-4 pt-[85px] pb-4 md:pt-10 md:min-h-[calc(100%-76px)] md:flex-row md:px-10 ${
         filterDB.length < 3 && "lg:justify-start"
       }`}
     >
@@ -24,7 +30,7 @@ const Cards = () => {
           getCardId={getCardId}
         />
       ))}
-      <div>
+      <div className="pt-6 md:p-0">
         {filterDB?.length === 0 && (
           <p>
             <span className="text-purple-500 animate-pulse font-semibold text-2xl">
@@ -35,8 +41,11 @@ const Cards = () => {
         )}
       </div>
       <BackToTopButton />
-      <Popup getCardId={getCardId} currentCard={currentCard} />
-    </div>
+      <Popup 
+        currentCard={currentCard}
+        onClose={removeCurrentCard}
+      />
+    </ul>
   );
 };
 

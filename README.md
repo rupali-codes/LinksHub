@@ -30,10 +30,17 @@ You can see the live demo at: https://linkshub.vercel.app
 <a name="tech-stack"></a>
 ## Tech stack 📚
 
-![Next.js](https://img.shields.io/badge/Next.js-7c3aed?style=for-the-badge&logo=next.js&logoColor=white)
-![tailwind css](https://img.shields.io/badge/tailwind_css-7c3aed?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![typescript](https://img.shields.io/badge/typescript-7c3aed?style=for-the-badge&logo=typescript&logoColor=white)
-
+<p>
+  <a href="https://nextjs.org/">
+    <img src="https://img.shields.io/badge/Next.js-7c3aed?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js Official Website"/>
+  </a>
+  <a href="https://tailwindcss.com/">
+    <img src="https://img.shields.io/badge/tailwind_css-7c3aed?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailWind CSS Official Website"/>
+  </a>
+  <a href="https://www.typescriptlang.org/">
+    <img src="https://img.shields.io/badge/typescript-7c3aed?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript official Website"/>
+  </a>
+</p>
 
 ## Socials 📱
 
@@ -86,36 +93,41 @@ You can see the live demo at: https://linkshub.vercel.app
     ```sh
    npm run dev
    ```
-7. Push your changes into your branch
-   
+
+7. Make your changes
+
+8. Stage your changes
     ```sh
-   git push origin <your_branch_name>
+   git add <filename>
+    ```
+
+9. Commit your changes
+    ```sh
+   git commit -m <your-commit-message>
    ```
 
-8. Create a [Pull Request](https://github.com/rupali-codes/LinksHub/compare) 
-   > Click _compare acorss forks_ if you don't see your branch 
+10. Push your changes into your branch
+    ```sh
+    git push origin <your_branch_name>
+    ```
 
-#### _Want to add your favorite Links into the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)._
+11. Create a [Pull Request](https://github.com/rupali-codes/linkshub/compare) 
+   > Click _compare across forks_ if you don't see your branch 
+
+#### _Want to add your favorite links into the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/linkshub/blob/main/CONTRIBUTING.md)._
 
 ---
-
 
 <a name="building-with-gitpod"></a>
 ## Building with Gitpod 💣
 
-By using [Gitpod.io](https://www.gitpod.io), all the necessary dependencies will be installed\
+By using [Gitpod.io](https://www.gitpod.io), all the necessary dependencies will be installed
 and the website will be built in one single click. No extra setup is required.
 
 [![Gitpod Ready-to-Code](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rupali-codes/LinksHub)
 
 ---
 
-<a name="community"></a>
-## Community 🤝
-
-Join the conversation on our **Discord server**
-
-<a href="https://discord.gg/NvK67YnJX5"><img src="https://cdn.worldvectorlogo.com/logos/discord-6.svg" title="Discord" alt="Discord Community" width="50"/></a>
 
 <a name="our-contributors"></a>
 ## Our Contributors ✨

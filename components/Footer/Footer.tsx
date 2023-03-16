@@ -5,7 +5,7 @@ import type { FC } from "react";
 
 export const Footer: FC = () => {
   return (
-    <div className="w-full flex items-baseline justify-center z-10 gap-1 rounded-lg bg-[#ffffff0a] backdrop-blur-md sm:py-3 py-2 px-1 md:mt-4">
+    <footer className="z-10 mb-4 flex w-full items-baseline justify-center rounded-lg bg-[#ffffff0a] py-2 backdrop-blur-md sm:py-3">
       <p className="md:text-lg text-center text-black dark:text-gray-100">
         Open source |{" "}
         <Link
@@ -17,6 +17,6 @@ export const Footer: FC = () => {
         </Link>{" "}
         2023 LinksHub
       </p>
-    </div>
+    </footer>
   );
 };

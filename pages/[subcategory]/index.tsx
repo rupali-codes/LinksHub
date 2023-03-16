@@ -10,13 +10,13 @@ const SubCategory = () => {
     .charAt(1)
     .toUpperCase()}${router.asPath.slice(2)}`;
   return (
-    <section>
+    <>
       <Head>
         <title>{title}</title>
       </Head>
-      <TopBar />
+      <TopBar className="shadow-black-500/50 fixed top-[76px] z-30 flex w-full -translate-x-4 items-center bg-gray-100 px-4 pt-6 pb-4 shadow-xl dark:bg-gray-900 md:hidden" />
       <Cards />
-    </section>
+    </>
   );
 };
 
