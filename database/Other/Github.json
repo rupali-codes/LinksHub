@@ -8,7 +8,7 @@
     },
     {
         "name": "MakeReadme",
-        "description": "It can generate readme.md and contribute.md file with pre-built template and suggestions.",
+        "description": "It can generate readme.md and contribute.md files with pre-built templates and suggestions.",
         "url": "https://www.makeareadme.com/",
         "category": "Other",
         "subcategory": "github"
