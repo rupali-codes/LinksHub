@@ -82,6 +82,12 @@
   "url": "https://react-icons.github.io/react-icons/",
   "category": "frontend",
   "subcategory": "icons"
+},
+{
+  "name": "Lordicon",
+  "description": "Free, high quality, open source animated icon library with over lots of icons.",
+  "url": "https://lordicon.com/",
+  "category": "frontend",
+  "subcategory": "icons"
 }
-
 ]
