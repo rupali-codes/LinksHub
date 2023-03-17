@@ -5,4 +5,12 @@
     "category": "youtube",
     "subcategory": "android",
     "language": "english"
+},
+{
+    "name": "Android Developer",
+    "description": "This channel provides free programming courses on Android  development and more.",
+    "url": "https://www.youtube.com/@androiddeveloper6721/featured",
+    "category": "youtube",
+    "subcategory": "android",
+    "language": "english"
 }]
