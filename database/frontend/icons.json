@@ -75,6 +75,13 @@
   "category": "frontend",
   "subcategory": "icons"
 
+},
+{
+  "name": "React Icons",
+  "description": "Free, high quality, open source icon library for React Projects.",
+  "url": "https://react-icons.github.io/react-icons/",
+  "category": "frontend",
+  "subcategory": "icons"
 }
 
 ]
