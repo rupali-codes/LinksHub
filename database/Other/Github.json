@@ -15,7 +15,7 @@
     },
     {
         "name": "Profile README Generator",
-        "description": "It can help you to generate readme.md for your profilt",
+        "description": "This site will help you to generate markdowns for your GitHub profile",
         "url": "https://rahuldkjain.github.io/gh-profile-readme-generator/",
         "category": "Other",
         "subcategory": "github"
