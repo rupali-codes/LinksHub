@@ -46,5 +46,12 @@
         "url": "https://whirl.netlify.app/",
         "category": "frontend",
         "subcategory": "animations"
-    }
+    },
+    {
+        "name": "Animate On Scroll",
+        "description": "It's an Animate On Scroll animation library",
+        "url": "https://michalsnik.github.io/aos/",
+        "category": "frontend",
+        "subcategory": "animations"
+   }
 ]
