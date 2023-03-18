@@ -50,4 +50,10 @@ export const sidebarData: ISidebar[] = [
       { name: "hosting", url: "/hosting" },
     ],
   },
+  {
+    category: "Other",
+    subcategory: [
+      { name: "Github", url: "/github" },
+    ],
+  }
 ];
