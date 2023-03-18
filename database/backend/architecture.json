@@ -4,23 +4,20 @@
         "description": "Best practices and patterns for building applications on Microsoft Azure. Guidance for architecting solutions on Azure using established patterns and practices.",
         "url": "https://learn.microsoft.com/en-us/azure/architecture/",
         "category": "backend",
-        "subcategory": "architecture",
-        "language": "english"
+        "subcategory": "architecture"
     },
     {
         "name": "AWS Architecture Center",
         "description": "Get Started Architecting on AWS. It provides reference architecture diagrams, vetted architecture solutions, Well-Architected best practices, patterns, icons, and more.",
         "url": "https://aws.amazon.com/architecture/",
         "category": "backend",
-        "subcategory": "architecture",
-        "language": "english"
+        "subcategory": "architecture"
     },
     {
         "name": "Google Cloud Architecture Center",
         "description": "Discover reference architectures, guidance, and best practices for building or migrating your workloads on Google Cloud.",
         "url": "https://cloud.google.com/architecture/",
         "category": "backend",
-        "subcategory": "architecture",
-        "language": "english"
+        "subcategory": "architecture"
     }
 ]
