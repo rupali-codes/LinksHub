@@ -82,6 +82,13 @@
   "url": "https://react-icons.github.io/react-icons/",
   "category": "frontend",
   "subcategory": "icons"
+},
+{
+  "name": "Ionicons",
+  "description": "Ionicons is a great website that will give a lot Premium designed icons for use in web, iOS, Android, and desktop apps.",
+  "url": "https://ionic.io/ionicons/v4",
+  "category": "frontend",
+  "subcategory": "icons"
 }
 
 ]
