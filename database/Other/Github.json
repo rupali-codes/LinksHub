@@ -1,0 +1,16 @@
+[
+    {
+        "name": "ReadmeSo",
+        "description": "One of the best and efficient site to generate Readme file for your project.",
+        "url": "https://readme.so/",
+        "category": "Other",
+        "subcategory": "github"
+    },
+    {
+        "name": "MakeReadme",
+        "description": "It can generate readme.md and contribute.md files with pre-built templates and suggestions.",
+        "url": "https://www.makeareadme.com/",
+        "category": "Other",
+        "subcategory": "github"
+    }
+]
