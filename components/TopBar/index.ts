@@ -1,1 +1,1 @@
-import { TopBar } from './TopBar';
+import { TopBar } from './TopBar'

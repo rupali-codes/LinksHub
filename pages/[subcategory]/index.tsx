@@ -8,7 +8,7 @@ import ComingSoon from "components/ComingSoon/ComingSoon";
 
 const SubCategory = () => {
   const router = useRouter();
-  const title: string = `LinksHub - ${router.asPath
+  const title = `LinksHub - ${router.asPath
     .charAt(1)
     .toUpperCase()}${router.asPath.slice(2)}`;
   const { filterDB } = useFilterDB();
