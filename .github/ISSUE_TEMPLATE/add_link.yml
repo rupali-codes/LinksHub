@@ -22,6 +22,7 @@ body:
         - Backend
         - Youtube
         - Resources
+        - Other
     validations:
       required: true
   - type: textarea
