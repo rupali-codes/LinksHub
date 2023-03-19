@@ -1,7 +1,7 @@
 [
     {
         "name": "Microsoft Architecture Center",
-        "description": "Best practices and patterns for building applications on Microsoft Azure. Guidance for architecting solutions on Azure using established patterns and practices.",
+        "description": "Best practices and patterns for building applications on Microsoft Azure. Also provides suggestions for architecting solutions on Azure by using established patterns and practices.",
         "url": "https://learn.microsoft.com/en-us/azure/architecture/",
         "category": "backend",
         "subcategory": "architecture"
