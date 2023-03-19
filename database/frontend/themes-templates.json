@@ -36,7 +36,7 @@
     },
     {
         "name": "Primefaces",
-        "description": "Provider of Open Source UI Component Libraries. Have Angular, React and Vue themes and components",
+        "description": "Provider of Open Source UI Component Libraries. Also has Angular, React and Vue themes and components",
         "url": "https://www.primefaces.org/",
         "category": "frontend",
         "subcategory": "themes-templates"
