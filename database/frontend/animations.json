@@ -48,6 +48,13 @@
         "subcategory": "animations"
     },
     {
+        "name": "Animate On Scroll",
+        "description": "This website provides a bunch of animated elements to use on scroll in your project",
+        "url": "https://michalsnik.github.io/aos/",
+        "category": "frontend",
+        "subcategory": "animations"
+   },
+    {
     "name": "Typed.js",
     "description": "Typed.js is a javascript typing animation library",
     "url": "https://github.com/mattboldt/typed.js/",
