@@ -61,4 +61,10 @@
     "category": "frontend",
     "subcategory": "animations"
     }
+        "name": "Animate On Scroll",
+        "description": "This website provides a bunch of animated elements to use on scroll in your project",
+        "url": "https://michalsnik.github.io/aos/",
+        "category": "frontend",
+        "subcategory": "animations"
+   }
 ]
