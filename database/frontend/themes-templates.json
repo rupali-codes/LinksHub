@@ -33,6 +33,13 @@
         "url": "https://www.creative-tim.com",
         "category": "frontend",
         "subcategory": "themes-templates"
+    },
+    {
+        "name": "Primefaces",
+        "description": "Provider of Open Source UI Component Libraries. Also has Angular, React and Vue themes and components",
+        "url": "https://www.primefaces.org/",
+        "category": "frontend",
+        "subcategory": "themes-templates"
     }
 ]
  

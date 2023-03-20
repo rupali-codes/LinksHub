@@ -1,9 +1,9 @@
 import Link from "next/link";
 import type { FC } from "react";
 
-interface FooterProps {}
 
-export const Footer: FC<FooterProps> = ({}) => {
+
+export const Footer: FC = () => {
   return (
     <footer className="z-10 mb-4 flex w-full items-baseline justify-center rounded-lg bg-[#ffffff0a] py-2 backdrop-blur-md sm:py-3">
       <p className="md:text-lg text-center text-black dark:text-gray-100">

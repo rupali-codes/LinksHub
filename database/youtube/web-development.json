@@ -93,5 +93,13 @@
         "category": "youtube",
         "subcategory": "web-development",
         "language": "english"
+    },
+    {
+        "name": "Milan Jovanović",
+        "description": "Milan is talking explicitly about .Net technologies and how to architect with it. He also shares videos about software engineering, software architecture, distributed systems, and Domain-Driven Design.",
+        "url": "https://www.youtube.com/@MilanJovanovicTech",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "english"
     }
 ]

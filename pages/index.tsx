@@ -5,7 +5,7 @@ import TypewriterComponent from "typewriter-effect";
 import { sidebarData } from "../database/data";
 export default function Home() {
   //storing sub categories names for using in typewriter effect
-  let subCategoriesNames:string[] = [];
+  const subCategoriesNames:string[] = [];
   sidebarData.forEach((c) => {
       c.subcategory.forEach((a) =>{
         subCategoriesNames.push(a.name.toUpperCase());

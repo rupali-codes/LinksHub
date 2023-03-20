@@ -12,5 +12,13 @@
         "url": "https://www.makeareadme.com/",
         "category": "Other",
         "subcategory": "github"
+    },
+    {
+        "name": "Profile README Generator",
+        "description": "This site will help you to generate markdowns for your GitHub profile",
+        "url": "https://rahuldkjain.github.io/gh-profile-readme-generator/",
+        "category": "Other",
+        "subcategory": "github"
     }
+    
 ]
