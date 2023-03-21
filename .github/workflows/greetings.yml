@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Congratulations, ${{ github.actor }}! 🎉 We are delighted to inform you that you have created your first issue in LinksHub. Your contribution is highly appreciated, and we are eager to collaborate with you to resolve the issue. Your hard work and dedication are commendable. Keep up the excellent work!"
+          pr-message: "Great job, ${{ github.actor }}! 🎉 Thank you for submitting your first pull request to LinksHub. Your contribution is valuable and we appreciate your efforts to improve our project. We'll review your changes and provide feedback as soon as possible. Keep up the great work!"
