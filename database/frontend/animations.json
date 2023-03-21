@@ -49,8 +49,8 @@
     },
    
     {
-    "name": "Typed.js",
-    "description": "Typed.js is a javascript typing animation library",
+    "name": "Typed js",
+    "description": "Typed js is a javascript typing animation library",
     "url": "https://github.com/mattboldt/typed.js/",
     "category": "frontend",
     "subcategory": "animations"
