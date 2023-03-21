@@ -48,6 +48,13 @@
         "subcategory": "animations"
     },
     {
+        "name": "Typed.js",
+        "description": "Typed.js is a javascript typing animation library. Enter in any string, and watch it type at the speed you've set",
+        "url": "https://github.com/mattboldt/typed.js/",
+        "category": "frontend",
+        "subcategory": "animations"
+    },
+    {
         "name": "Animate On Scroll",
         "description": "This website provides a bunch of animated elements to use on scroll in your project",
         "url": "https://michalsnik.github.io/aos/",
