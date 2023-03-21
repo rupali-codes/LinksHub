@@ -18,10 +18,10 @@ export const CopyToClipboard = ({ url }: CopyToClipboardProps): JSX.Element => {
     <div className="dropdown dropdown-left dropdown-hover">
       <FaRegCopy
         size={'1.3rem'}
-        className="text-violet-500"
+        className="text-violet-500 cursor-pointer"
         onClick={(e) => handleCopy(e)}
       />
-      <p className="dropdown-content bg-violet-500 text-white text-sm rounded-lg p-1.5 cursor-pointer">
+      <p className="dropdown-content bg-violet-500 text-white text-sm rounded-lg p-1.5 cursor-default">
         {success ? 'Copied!' : 'Copy'}
       </p>
     </div>
