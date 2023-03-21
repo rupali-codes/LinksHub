@@ -14,7 +14,7 @@ export const SideNavbar:FC<{}> = () => {
 
   if (!showElement) {
     return null;
-  }git 
+  }
 
   return (
     <>
