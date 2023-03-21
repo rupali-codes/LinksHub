@@ -1,8 +1,8 @@
-import React from "react";
-import { BsBoxArrowUpRight } from "react-icons/bs";
+import React from 'react'
+import { BsBoxArrowUpRight } from 'react-icons/bs'
 
 export const LinkContainer = (props) => {
-  const { name, description, url, getCardId } = props;
+  const { name, description, url, getCardId, image } = props
   return (
     <li
       onClick={() => getCardId(props)}
@@ -10,12 +10,12 @@ export const LinkContainer = (props) => {
     >
       <div className="card-body">
         <h2
-          className="text-violet-500 text-xl cursor-default truncate ..."
+          className="text-violet-500 text-xl flex items-center cursor-default truncate ... "
           title={name}
         >
-          {name}
+          <img className="h-[1.2rem] mr-3" src={image} /> {name}
         </h2>
-        <p className="w-full font-sans text-clip-30 h-24 w-full overflow-hidden">
+        <p className="w-full font-sans text-clip-30 h-24  overflow-hidden">
           {description}
         </p>
         <div className="card-actions justify-end">
@@ -34,5 +34,5 @@ export const LinkContainer = (props) => {
         </div>
       </div>
     </li>
-  );
-};
+  )
+}
