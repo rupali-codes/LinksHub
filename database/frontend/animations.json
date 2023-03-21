@@ -1,57 +1,66 @@
-[{
-        "name": "Lottie files",
-        "description": "LottieFiles takes away the complexity from Motion Design. It lets you Create, Edit, Test, Collaborate and Ship a Lottie in the easiest way possible.",
-        "url": "https://lottiefiles.com/",
-        "category": "frontend",
-        "subcategory": "animations"
-    },
-    {
-        "name": "Cubic Bezier",
-        "description": "A tool for visualisation and creation of cubic-bezier curves for animation in CSS",
-        "url": "https://cubic-bezier.com/",
-        "category": "frontend",
-        "subcategory": "animations"
-    },
-    {
-        "name": "Framer Motion",
-        "description": "Framer Motion is a production-ready motion library for React from Framer, It's simple yet powerful, allowing you to express complex user interactions with robust, semantic markup.",
-        "url": "https://www.framer.com/motion/",
-        "category": "frontend",
-        "subcategory": "animations"
-    },
-    {
-        "name": "Proton",
-        "description": "A JavaScript particle based animation engine. Which provides you tones of animated elements.",
-        "url": "https://drawcall.github.io/Proton/",
-        "category": "frontend",
-        "subcategory": "animations"
-    },
-    {
-        "name": "AutoAnimate",
-        "description": "Add motion to your apps with a single line of code.",
-        "url": "https://auto-animate.formkit.com/",
-        "category": "frontend",
-        "subcategory": "animations"
-    },
-    {
-        "name": "Spline",
-        "description": "Spline is an easy to use 3D design tool to create interactive animation within the browser.",
-        "url": "https://spline.design/",
-        "category": "frontend",
-        "subcategory": "animations"
-    },
-    {
-        "name": "Whirl",
-        "description": "It's a tool for generating html + css loading animation.",
-        "url": "https://whirl.netlify.app/",
-        "category": "frontend",
-        "subcategory": "animations"
-    },
-    {
-        "name": "Animate On Scroll",
-        "description": "This website provides a bunch of animated elements to use on scroll in your project",
-        "url": "https://michalsnik.github.io/aos/",
-        "category": "frontend",
-        "subcategory": "animations"
-   }
+[
+  {
+    "name": "Lottie files",
+    "description": "LottieFiles takes away the complexity from Motion Design. It lets you Create, Edit, Test, Collaborate and Ship a Lottie in the easiest way possible.",
+    "url": "https://lottiefiles.com/",
+    "category": "frontend",
+    "subcategory": "animations",
+    "image": "https://lottiefiles.com/favicons-new/favicon-32x32.png"
+  },
+  {
+    "name": "Cubic Bezier",
+    "description": "A tool for visualisation and creation of cubic-bezier curves for animation in CSS",
+    "url": "https://cubic-bezier.com/",
+    "category": "frontend",
+    "subcategory": "animations",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAPVJREFUOE9jZFi5s4GBkamegRzw/18jI8Oq3f/J0QvTg2GAIBsrwwwjDYbtL96imCvPxcFQoi7PwM3CzPDw6w8GxW1HwPIEXSDHxcFw38uaQWvncYabn79hOBavARbC/AwTDdQYzPeexulLnAYwMzIyPPWxZZDYfAhvEOE04HuQEwPnun0EwxerAY5iggxf//xlOPXuE3kG/A5xZmBds5egZqyxYCjAy8DPysJw4PV78gwgxXYMF+jw8zDo8HEzrHj8kijbMQz4F+rCYLH3FIODqCBD182HRBkCj4WH3jYM2juPM3z585cojTjzAkm6wXmBwuwMAMmsYU20jDV1AAAAAElFTkSuQmCC"
+  },
+  {
+    "name": "Framer Motion",
+    "description": "Framer Motion is a production-ready motion library for React from Framer, It's simple yet powerful, allowing you to express complex user interactions with robust, semantic markup.",
+    "url": "https://www.framer.com/motion/",
+    "category": "frontend",
+    "subcategory": "animations",
+    "image": "https://framerusercontent.com/images/3ydDYhTbVKKzF5xDzZpZKoMmc.png"
+  },
+  {
+    "name": "Proton",
+    "description": "A JavaScript particle based animation engine. Which provides you tones of animated elements.",
+    "url": "https://drawcall.github.io/Proton/",
+    "category": "frontend",
+    "subcategory": "animations",
+    "image": "https://drawcall.github.io/Proton/favicon.ico"
+  },
+  {
+    "name": "AutoAnimate",
+    "description": "Add motion to your apps with a single line of code.",
+    "url": "https://auto-animate.formkit.com/",
+    "category": "frontend",
+    "subcategory": "animations",
+    "image": "https://auto-animate.formkit.com/assets/favicon.6d15a86f.ico"
+  },
+  {
+    "name": "Spline",
+    "description": "Spline is an easy to use 3D design tool to create interactive animation within the browser.",
+    "url": "https://spline.design/",
+    "category": "frontend",
+    "subcategory": "animations",
+    "image": "https://spline.design/images/icon_favicon16x16.png"
+  },
+  {
+    "name": "Whirl",
+    "description": "It's a tool for generating html + css loading animation.",
+    "url": "https://whirl.netlify.app/",
+    "category": "frontend",
+    "subcategory": "animations",
+    "image": "https://whirl.netlify.app/favicon.ico"
+  },
+  {
+    "name": "Animate On Scroll",
+    "description": "This website provides a bunch of animated elements to use on scroll in your project",
+    "url": "https://michalsnik.github.io/aos/",
+    "category": "frontend",
+    "subcategory": "animations",
+    "image": "https://linkshub.vercel.app/icon.png"
+  }
 ]

@@ -1,57 +1,65 @@
-[{
+[
+  {
     "name": "Jennys Lectures CSIT",
     "description": "This channel provides free courses for DSA, C, C++, Python etc.",
     "url": "https://www.youtube.com/@JennyslecturesCSIT",
     "category": "youtube",
     "subcategory": "dsa",
-    "language": "english"
-},
-{
+    "language": "english",
+    "image": "https://linkshub.vercel.app/icon.png"
+  },
+  {
     "name": "CodeHelp - by Babbar",
     "description": "This channel provides free placement specific DSA course in C++.",
     "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA",
     "category": "youtube",
     "subcategory": "dsa",
-    "language": "hindi"
-},
-{
+    "language": "hindi",
+    "image": "https://linkshub.vercel.app/icon.png"
+  },
+  {
     "name": "Apna College",
     "description": "This channel provides free courses for DSA, Java, C++, C etc.",
     "url": "https://www.youtube.com/@ApnaCollegeOfficial",
     "category": "youtube",
     "subcategory": "dsa",
-    "language": "hindi"
-},
-{
+    "language": "hindi",
+    "image": "https://linkshub.vercel.app/icon.png"
+  },
+  {
     "name": "CodeWithHarry",
     "description": "A all in one destination for DSA, Python, C++, JavaScript, Nodejs, Java, PHP & many more.",
     "url": "https://www.youtube.com/@CodeWithHarry/playlists",
     "category": "youtube",
     "subcategory": "dsa",
-    "language": "hindi"
-},
-{
+    "language": "hindi",
+    "image": "https://linkshub.vercel.app/icon.png"
+  },
+  {
     "name": "Luv",
     "description": "This channel provides free Competitive Programming content.",
     "url": "https://www.youtube.com/@iamluv/playlists",
     "category": "youtube",
     "subcategory": "dsa",
-    "language": "hindi"
-},
-{
+    "language": "hindi",
+    "image": "https://linkshub.vercel.app/icon.png"
+  },
+  {
     "name": "take U forward",
     "description": "One of the best channel for DSA, you will find the thought process behind every problem and not just simple algorithms.",
     "url": "https://www.youtube.com/@takeUforward/featured",
     "category": "youtube",
     "subcategory": "dsa",
-    "language": "english"
-},
-{
+    "language": "english",
+    "image": "https://linkshub.vercel.app/icon.png"
+  },
+  {
     "name": "Pepcoding",
     "description": "One of the best channel for DSA in Java and helpful for both students and working professionals.",
     "url": "https://www.youtube.com/@Pepcoding/featured",
     "category": "youtube",
     "subcategory": "dsa",
-    "language": "hindi"
-}
+    "language": "hindi",
+    "image": "https://linkshub.vercel.app/icon.png"
+  }
 ]
