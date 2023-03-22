@@ -23,6 +23,7 @@ export const sidebarData: ISidebar[] = [
   {
     category: "backend",
     subcategory: [
+      { name: "architecture", url: "/architecture" },
       { name: "validation", url: "/validation" },
       { name: "security", url: "/security" },
       { name: "authentication", url: "/authentication" },
@@ -54,6 +55,7 @@ export const sidebarData: ISidebar[] = [
     category: "Other",
     subcategory: [
       { name: "Github", url: "/github" },
+      { name: "Dev Tools", url: "/devtools"},
     ],
   }
 ];
