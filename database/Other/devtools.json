@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Postman",
+        "description": "It is an API Platform for developers to design, build, test and iterate their APIs.",
+        "url": "https://www.postman.com/",
+        "category": "Other",
+        "subcategory": "devtools"
+    },
+    {
+        "name": "VSCodium",
+        "description": "VSCodium is free/libre Open Source Software Binaries of VS Code.",
+        "url": "https://github.com/VSCodium/vscodium",
+        "category": "Other",
+        "subcategory": "devtools"
+    }
+]

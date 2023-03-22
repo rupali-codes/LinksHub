@@ -54,6 +54,35 @@ export type SubCategory =
   | 'hosting'
   | 'web3-metaverse'
   | 'Github'
+  | "images"
+  | "icons"
+  | "illustrations"
+  | "colors"
+  | "css"
+  | "fonts"
+  | "animations"
+  | "testing"
+  | "themes-templates"
+  | "design-inspiration"
+  | "validation"
+  | "security"
+  | "authentication"
+  | "caching"
+  | "ui-generators"
+  | "validation"
+  | "security"
+  | "authentication"
+  | "caching"
+  | "online-code-editors"
+  | "web-development"
+  | "machine-learning"
+  | "dsa"
+  | "android"
+  | "blogs"
+  | "hosting"
+  | "web3-metaverse"
+  | "Github"
+  | "devtools";
 export type SubCategories = {
   name: string
   url: string
