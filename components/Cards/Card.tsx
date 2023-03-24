@@ -9,7 +9,7 @@ const Card: FC<{ data: IData }> = (props) => {
 
   return (
     <article className="z-10 h-full w-full rounded-3xl border border-dashed border-violet-500 bg-gray-100 shadow-lg dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm">
-      <div className="card-body h-full">
+      <div className="card-body">
         <header className="flex justify-between items-center">
           <h2
             className="cursor-default truncate ... text-xl text-violet-500"
@@ -19,9 +19,7 @@ const Card: FC<{ data: IData }> = (props) => {
           </h2>
           <CopyToClipboard url={url} />
         </header>
-        <p className="text-clip-30 h-24 w-full w-full overflow-hidden font-sans">
-          {description}
-        </p>
+        <p className="h-24 w-full overflow-hidden font-sans">{description}</p>
         <footer className="card-actions justify-end">
           <a
             onClick={(e) => e.stopPropagation()}
@@ -29,10 +27,10 @@ const Card: FC<{ data: IData }> = (props) => {
             target="_blank"
             rel="noreferrer"
             className={
-              'flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-transparent bg-violet-600 px-6 py-2 text-center text-white duration-100 hover:border-violet-400 hover:bg-transparent hover:text-violet-500'
+              'mt-2 flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-transparent bg-violet-600 px-6 py-2 text-center text-white duration-100 hover:border-violet-400 hover:bg-transparent hover:text-violet-500'
             }
           >
-            Visit Site
+            Visit site
             <BsBoxArrowUpRight />
           </a>
         </footer>
