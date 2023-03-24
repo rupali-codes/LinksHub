@@ -1,20 +1,25 @@
-import React from "react";
-import { BsBoxArrowUpRight } from "react-icons/bs";
+import React from 'react'
+import { BsBoxArrowUpRight } from 'react-icons/bs'
+import { CopyToClipboard } from 'components/CopyToClipboard'
 
 export const LinkContainer = (props) => {
-  const { name, description, url, getCardId } = props;
+  const { name, description, url, getCardId } = props
+
   return (
     <li
       onClick={() => getCardId(props)}
       className="z-10 h-64 w-[98%] cursor-pointer rounded-3xl border border-dashed border-violet-500 bg-gray-100 shadow-lg transition-all duration-100 ease-in hover:scale-[1.02] dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm md:w-72"
     >
       <div className="card-body">
-        <h2
-          className="text-violet-500 text-xl cursor-default truncate ..."
-          title={name}
-        >
-          {name}
-        </h2>
+        <div className="flex justify-between items-center">
+          <h2
+            className="text-violet-500 text-xl cursor-default truncate ..."
+            title={name}
+          >
+            {name}
+          </h2>
+          <CopyToClipboard url={url} />
+        </div>
         <p className="w-full font-sans text-clip-30 h-24 w-full overflow-hidden">
           {description}
         </p>
@@ -34,5 +39,5 @@ export const LinkContainer = (props) => {
         </div>
       </div>
     </li>
-  );
-};
+  )
+}
