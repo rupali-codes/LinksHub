@@ -101,5 +101,13 @@
         "category": "youtube",
         "subcategory": "web-development",
         "language": "english"
+    },
+    {
+      "name": "Code with Ania Kubów",
+      "description": "This channel is dedicated to provide projects based on JavaScript and it's frameworks such as React, React-Native, Next.js, Node.js, Express. It also provides courses and projects related to GraphQL, databasing and more.",
+      "url": "https://www.youtube.com/@AniaKubow/featured",
+      "category": "youtube",
+      "subcategory": "web-development",
+      "language": "english"
     }
 ]
