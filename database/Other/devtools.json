@@ -12,5 +12,19 @@
         "url": "https://github.com/VSCodium/vscodium",
         "category": "Other",
         "subcategory": "devtools"
+    },
+    {
+        "name": "Mockaroo",
+        "description": "This site will help you to generate mock data for your projects",
+        "url": "https://www.mockaroo.com/",
+        "category": "Other",
+        "subcategory": "devtools"
+    },
+    {
+        "name": "Swagger",
+        "description": "This site will help you to create documentation for your APIs",
+        "url": "https://swagger.io/",
+        "category": "Other",
+        "subcategory": "devtools"
     }
 ]

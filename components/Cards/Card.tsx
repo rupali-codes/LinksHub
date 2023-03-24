@@ -1,22 +1,24 @@
-import { FC } from "react";
-import { BsBoxArrowUpRight } from "react-icons/bs";
-import type { IData } from "types";
+import { FC } from 'react'
+import { BsBoxArrowUpRight } from 'react-icons/bs'
+import { CopyToClipboard } from 'components/CopyToClipboard'
+import type { IData } from 'types'
 
-const Card:FC<{ data: IData}> = (props) => {
-  const { data } = props;
-  const { name, description, url } = data;
+const Card: FC<{ data: IData }> = (props) => {
+  const { data } = props
+  const { name, description, url } = data
 
   return (
-    <article
-      className="z-10 h-full w-full rounded-3xl border border-dashed border-violet-500 bg-gray-100 shadow-lg dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm"
-    >
-      <div className="card-body">
-        <h2
-          className="cursor-default truncate ... text-xl text-violet-500"
-          title={name}
-        >
-          {name}
-        </h2>
+    <article className="z-10 h-full w-full rounded-3xl border border-dashed border-violet-500 bg-gray-100 shadow-lg dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm">
+      <div className="card-body h-full">
+        <header className="flex justify-between items-center">
+          <h2
+            className="cursor-default truncate ... text-xl text-violet-500"
+            title={name}
+          >
+            {name}
+          </h2>
+          <CopyToClipboard url={url} />
+        </header>
         <p className="text-clip-30 h-24 w-full w-full overflow-hidden font-sans">
           {description}
         </p>
@@ -26,7 +28,9 @@ const Card:FC<{ data: IData}> = (props) => {
             href={url}
             target="_blank"
             rel="noreferrer"
-            className={"flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-transparent bg-violet-600 px-6 py-2 text-center text-white duration-100 hover:border-violet-400 hover:bg-transparent hover:text-violet-500"}
+            className={
+              'flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-transparent bg-violet-600 px-6 py-2 text-center text-white duration-100 hover:border-violet-400 hover:bg-transparent hover:text-violet-500'
+            }
           >
             Visit Site
             <BsBoxArrowUpRight />
@@ -34,7 +38,7 @@ const Card:FC<{ data: IData}> = (props) => {
         </footer>
       </div>
     </article>
-  );
-};
+  )
+}
 
-export default Card;
+export default Card
