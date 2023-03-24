@@ -49,7 +49,10 @@ export type SubCategory =
   | "hosting"
   | "web3-metaverse"
   | "Github"
-  | "devtools";
+  | "devtools"
+  | "javascript"
+  | "python"
+  | "golang";
 export type SubCategories = {
   name: string;
   url: string;

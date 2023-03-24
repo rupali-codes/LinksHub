@@ -30,3 +30,6 @@ export { default as youtubTesting } from "./youtube/testing.json";
 // other
 export { default as github } from "./Other/Github.json";
 export { default as devtools } from "./Other/devtools.json";
+export { default as javascript } from "./Other/javascript.json";
+export { default as python } from "./Other/python.json";
+export { default as golang } from "./Other/golang.json";
