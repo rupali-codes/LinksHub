@@ -7,8 +7,8 @@
     "lint": "next lint",
     "dev": "next dev",
     "start": "next start",
-    "dev-setup": "pnpm install && pnpm-run-all --sequential lint dev",
-    "start-setup": "pnpm install && pnpm-run-all --sequential lint build start",
+    "dev-setup": "pnpm install ",
+    "start-setup": "pnpm install",
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
@@ -25,7 +25,7 @@
     "git": "^0.1.5",
     "next": "13.2.4",
     "next-themes": "^0.2.1",
-    "pnpm-run-all": "^4.1.5",
+    "pnpm": "^7.30.3",
     "prettier": "^2.8.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
