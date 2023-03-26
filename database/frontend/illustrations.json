@@ -39,5 +39,12 @@
         "url": "https://storyset.com/",
         "category": "frontend",
         "subcategory": "illustrations"
+    },
+    {
+        "name": "Freepik",
+        "description": "Freepik goal is to offer the best high-quality content: illustrations, photos, icons, mockups, and presentations templates etc.",
+        "url": "https://www.freepik.com/",
+        "category": "frontend",
+        "subcategory": "illustrations"
     }
 ]
