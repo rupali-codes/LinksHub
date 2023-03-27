@@ -16,8 +16,16 @@
     {
         "name": "Eloquent Javascript",
         "description": "This  book explains the concepts of JavaScript with real-life examples",
-        "url": "   https://eloquentjavascript.net/",
+        "url": "https://eloquentjavascript.net/",
+        "category": "Other",
+        "subcategory": "javascript"
+    },
+       {
+        "name": "Learn Javascript Online",
+        "description": "Learn javascript in an interactive environment.Read short lessons, take notes, and complete challenges directly in your browser.",
+        "url": "https://learnjavascript.online/",
         "category": "Other",
         "subcategory": "javascript"
     }
+    
 ]
