@@ -12,5 +12,12 @@
         "url": "https://www.javascripttutorial.net/",
         "category": "Other",
         "subcategory": "javascript"
+    },
+    {
+        "name": "Eloquent Javascript",
+        "description": "This is a book about JavaScript,it explains concepts of javascript with real-life examples",
+        "url": "   https://eloquentjavascript.net/",
+        "category": "Other",
+        "subcategory": "javascript"
     }
 ]
