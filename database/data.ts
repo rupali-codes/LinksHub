@@ -52,6 +52,14 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: "languages",
+    subcategory: [
+      { name: "JavaScript", url: "/javascript"},
+      { name: "Python", url: "/python"},
+      { name: "Go", url: "/golang"},
+    ],
+  },
+  {
     category: "Other",
     subcategory: [
       { name: "Github", url: "/github" },

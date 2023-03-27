@@ -1,0 +1,16 @@
+[
+    {
+        "name": "JavaScript Info",
+        "description": "It is a modern JavaScript tutorial that provides detailed explanation, examples, and tasks.",
+        "url": "https://javascript.info/",
+        "category": "Other",
+        "subcategory": "javascript"
+    },
+    {
+        "name": "JavaScript-Tutorial",
+        "description": "It helps you quickly and effectively learn JavaScript.",
+        "url": "https://www.javascripttutorial.net/",
+        "category": "Other",
+        "subcategory": "javascript"
+    }
+]
