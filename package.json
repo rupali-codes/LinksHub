@@ -31,9 +31,9 @@
     "react-icons": "^4.7.1",
     "react-spinners": "^0.13.8",
     "react-transition-state": "^2.1.0",
-    "react-uuid": "^2.0.0",
     "typescript": "4.9.4",
-    "typewriter-effect": "^2.19.0"
+    "typewriter-effect": "^2.19.0",
+    "uuid": "9.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.53.0",
