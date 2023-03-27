@@ -15,7 +15,7 @@
     },
     {
         "name": "Eloquent Javascript",
-        "description": "This is a book about JavaScript,it explains concepts of javascript with real-life examples",
+        "description": "This  book explains the concepts of JavaScript with real-life examples",
         "url": "   https://eloquentjavascript.net/",
         "category": "Other",
         "subcategory": "javascript"
