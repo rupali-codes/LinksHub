@@ -22,7 +22,7 @@
     },
        {
         "name": "Learn Javascript Online",
-        "description": "Learn javascript in an interactive environment.Read short lessons, take notes, and complete challenges directly in your browser.",
+        "description": "This website teaches Javascript in an interactive way. You can read short lessons, take notes, and complete challenges directly in your browser.",
         "url": "https://learnjavascript.online/",
         "category": "Other",
         "subcategory": "javascript"
