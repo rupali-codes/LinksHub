@@ -12,5 +12,20 @@
         "url": "https://www.javascripttutorial.net/",
         "category": "Other",
         "subcategory": "javascript"
+    },
+    {
+        "name": "Eloquent Javascript",
+        "description": "This  book explains the concepts of JavaScript with real-life examples",
+        "url": "https://eloquentjavascript.net/",
+        "category": "Other",
+        "subcategory": "javascript"
+    },
+       {
+        "name": "Learn Javascript Online",
+        "description": "This website teaches Javascript in an interactive way. You can read short lessons, take notes, and complete challenges directly in your browser.",
+        "url": "https://learnjavascript.online/",
+        "category": "Other",
+        "subcategory": "javascript"
     }
+    
 ]
