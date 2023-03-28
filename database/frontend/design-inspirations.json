@@ -123,12 +123,5 @@
         "url": "https://www.saasui.design/",
         "category": "frontend",
         "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Design Vault",
-        "description": "Design Vault is a website that showcases designs from real products, giving you access to the latest and greatest in UI patterns and trends.",
-        "url": "https://designvault.io/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
     }
 ]
