@@ -56,6 +56,13 @@
     "subcategory": "online-code-editors"
   },
   {
+    "name": "StackBlitz",
+    "description": "StackBlitz is an online code editor powered by WebContainers that allows users to create, collaborate, and deploy web applications in their web browser.",
+    "url": "https://stackblitz.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
     "name": "HackerRank",
     "description": "An online IDE to practice you competitive programming skills. It allows you to code in multiple languages.",
     "url": "https://www.hackerrank.com/",
