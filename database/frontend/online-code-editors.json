@@ -57,7 +57,7 @@
   },
   {
     "name": "StackBlitz",
-    "description": "StackBlitz is an online code editor powered by WebContainers that allows users to create, collaborate, and deploy web applications in their web browser.",
+    "description": "StackBlitz is an online code editor powered by WebContainers that allows users to create, collaborate, and deploy web applications.",
     "url": "https://stackblitz.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
