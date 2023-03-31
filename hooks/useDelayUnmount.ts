@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
-import { DBType } from "types";
+import { IData } from "types";
 
 // Source: https://dev.to/oussel/how-to-use-conditional-rendering-with-animation-in-react-1k20
-const useDelayUnmount = (isMounted: boolean | DBType | null, delay: number) => {
+const useDelayUnmount = (isMounted: boolean | IData | null, delay: number) => {
   const [showElement, setShowElement] = useState<boolean>(false);
 
   useEffect(() => {
