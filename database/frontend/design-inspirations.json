@@ -130,6 +130,13 @@
         "url": "https://screenlane.com/",
         "category": "frontend",
         "subcategory": "design-inspiration" 
+    },
+     {
+        "name": "Screenlane",
+        "description": "You can find app screens, landing pages, user flow inspirations, and keep up with the latest mobile UI design trends.",
+        "url": "https://screenlane.com/",
+        "category": "frontend",
+        "subcategory": "design-inspiration" 
 
     },
     {
@@ -138,13 +145,5 @@
         "url": "https://designvault.io/",
         "category": "frontend",
         "subcategory": "design-inspiration"
-     },
-     {
-        "name": "Screenlane",
-        "description": "You can find app screens, landing pages, user flow inspirations, and keep up with the latest mobile UI design trends.",
-        "url": "https://screenlane.com/",
-        "category": "frontend",
-        "subcategory": "design-inspiration" 
-
-    }
+     }
 ]
