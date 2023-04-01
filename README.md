@@ -144,4 +144,4 @@ LinksHub is licensed under the terms of MIT License. check out [LICENSE](https:/
 
 <a name="support"></a>
 ## Support ⭐
-_We would love to have you, feel free to open issues and pull requests and Don't forget to leave a star⭐_
+_We would love to have you, feel free to open issues and pull requests and Don't forget to leave a star⭐ on our repo_
