@@ -1,6 +1,6 @@
-<div align="center">
-<img src="https://user-images.githubusercontent.com/78981177/215495029-ff9d4d24-a626-494a-859d-293cb9925f63.png"/>
-</div><hr>
+<article align="center">
+<img src="https://user-images.githubusercontent.com/78981177/215495029-ff9d4d24-a626-494a-859d-293cb9925f63.png" alt="LinksHub Logo" />
+</article><hr>
 
 ## Table of Contents
 
@@ -61,9 +61,9 @@ You can see the live demo at: https://linkshub.vercel.app
 
 > ⚠️Prerequisites
 >
-> - Before getting into it make you sure you have [pnpm](https://nodejs.org/download) installed.
+> - Before getting into, it make you sure you have [pnpm](https://nodejs.org/download) installed.
 >
-> - Also make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)
+> - Also, make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)
 
 ### Let's jump right in🌟
 
