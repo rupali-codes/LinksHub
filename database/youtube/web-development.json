@@ -55,6 +55,30 @@
       "language": "english"
     },
     {
+      "name": "Thenewboston",
+      "description": "The new boston is a great channel for learning docker,blockchain,webdevelopment,Django, Angular2, and etc.",
+      "url": "https://www.youtube.com/@thenewboston",
+      "category": "youtube",
+      "subcategory": "web-development",
+      "language": "english" 
+    },
+    {
+        "name": "Web Dev Simplified",
+        "description": "Web Dev Simplified is all about teaching web development skills and techniques in an efficient and practical manner.",
+        "url": "https://www.youtube.com/@WebDevSimplified",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "english" 
+    },
+    {
+        "name": "DesignCourse",
+        "description": "This channel will take you from zero to a fullstack developer. You will also learn UI/UX and Frontend Dev languages",
+        "url": "https://www.youtube.com/@DesignCourse/featured",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "english"
+    },
+    {
         "name": "CodeWithHarry",
         "description": "This channel provides free Web Development course for beginners.",
         "url": "https://www.youtube.com/@CodeWithHarry/playlists",
@@ -64,6 +88,7 @@
     },
     {
         "name": "Bro Code",
+
         "description": "This channel will provide web development courses for both beginner and pros.",
         "url": "https://www.youtube.com/@BroCodez",
         "category": "youtube",
@@ -78,6 +103,27 @@
         "category": "youtube",
         "subcategory": "web-development",
         "language": "English"
+        "description": "This channel is dedicated to providing free coding tutorials for both beginners and pros",
+        "url": "https://www.youtube.com/@BroCodez",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "english"
+    },
+    {
+        "name": "Milan Jovanović",
+        "description": "Milan is talking explicitly about .Net technologies and how to architect with it. He also shares videos about software engineering, software architecture, distributed systems, and Domain-Driven Design.",
+        "url": "https://www.youtube.com/@MilanJovanovicTech",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "english"
+    },
+    {
+      "name": "Code with Ania Kubów",
+      "description": "This channel is dedicated to provide projects based on JavaScript and it's frameworks such as React, React-Native, Next.js, Node.js, Express. It also provides courses and projects related to GraphQL, databasing and more.",
+      "url": "https://www.youtube.com/@AniaKubow/featured",
+      "category": "youtube",
+      "subcategory": "web-development",
+      "language": "english"
     }
     
 ]

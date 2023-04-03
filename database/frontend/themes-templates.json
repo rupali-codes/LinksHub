@@ -34,4 +34,19 @@
         "category": "frontend",
         "subcategory":"themes-templates"
      }
+=======
+        "name": "Creative-tim",
+        "description": "Fully responsive UI kits, templates and dashboards that are built on top of Bootstrap and React",
+        "url": "https://www.creative-tim.com",
+        "category": "frontend",
+        "subcategory": "themes-templates"
+    },
+    {
+        "name": "Primefaces",
+        "description": "Provider of Open Source UI Component Libraries. Also has Angular, React and Vue themes and components",
+        "url": "https://www.primefaces.org/",
+        "category": "frontend",
+        "subcategory": "themes-templates"
+    }
 ]
+ 

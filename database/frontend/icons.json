@@ -75,6 +75,26 @@
   "category": "frontend",
   "subcategory": "icons"
 
+},
+{
+  "name": "React Icons",
+  "description": "Free, high quality, open source icon library for React Projects.",
+  "url": "https://react-icons.github.io/react-icons/",
+  "category": "frontend",
+  "subcategory": "icons"
+},
+{
+  "name": "Lordicon",
+  "description": "Free, high quality, open source animated icon library with over lots of icons.",
+  "url": "https://lordicon.com/",
+  "category": "frontend",
+  "subcategory": "icons"
+},
+{
+  "name": "Ionicons",
+  "description": "Ionicons is a great website that provides a bunch of premium designed icons for your web, iOS, Android, and desktop applications.",
+  "url": "https://ionic.io/ionicons/v4",
+  "category": "frontend",
+  "subcategory": "icons"
 }
-
 ]
