@@ -16,6 +16,12 @@ const CardsList:FC<{ cards: IData[] }> = (props) => {
     setCurrentCard(null);
   }
 
+  cards.sort((a: IData, b: IData) => {
+    if (a.name < b.name) return -1;
+    if (a.name > b.name) return 1;
+    return 0;
+  });
+
   return (
     <>
       <ul className={`flex w-full w-full flex-wrap content-start gap-4 md:flex-row`}>
