@@ -53,5 +53,13 @@
     "category": "youtube",
     "subcategory": "dsa",
     "language": "hindi"
+},
+{
+    "name": "Abdul Bari",
+    "description": "The way Prof.Bari teaches DSA is brilliant, he covers everything related to DSA.",
+    "url": "https://www.youtube.com/@abdul_bari",
+    "category": "youtube",
+    "subcategory": "dsa",
+    "language": "english"
 }
 ]
