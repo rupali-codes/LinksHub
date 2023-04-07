@@ -26,14 +26,16 @@ export default function Home() {
             <span>👾</span>
           </div>
           <div className=" flex flex-col mt-6 justify-center items-start">
-          <p className="text-xl  ">Navigate through menu for</p>
-          <p className='text-xl text-violet-500'><TypewriterComponent  
-            options={{
-              strings: subCategoriesNames,
-              autoStart: true,
-              loop: true,
-            }}
-          /></p>
+            <p className="text-xl">Navigate through menu for</p>
+            <TypewriterComponent
+              options={{
+                strings: subCategoriesNames,
+                wrapperClassName: "text-xl text-violet-500",
+                cursorClassName: "text-xl text-violet-500",
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </div>
         </div>
       </section>
