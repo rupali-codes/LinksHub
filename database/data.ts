@@ -39,6 +39,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'web development', url: '/web-development' },
       { name: 'css', url: '/css' },
       { name: 'machine learning', url: '/machine-learning' },
+      { name: 'tensorflow', url: '/tensorflow'},
       { name: 'data structures', url: '/dsa' },
       { name: 'Android', url: '/android' },
       { name: 'Web3 & Metaverse', url: '/web3-metaverse' },
