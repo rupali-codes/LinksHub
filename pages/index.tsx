@@ -1,16 +1,16 @@
-import React from "react";
-import Head from "next/head";
-import Logo from "components/logo";
-import TypewriterComponent from "typewriter-effect";
-import { sidebarData } from "../database/data";
+import React from 'react'
+import Head from 'next/head'
+import Logo from 'components/logo'
+import TypewriterComponent from 'typewriter-effect'
+import { sidebarData } from '../database/data'
 export default function Home() {
   //storing sub categories names for using in typewriter effect
-  const subCategoriesNames:string[] = [];
+  const subCategoriesNames: string[] = []
   sidebarData.forEach((c) => {
-      c.subcategory.forEach((a) =>{
-        subCategoriesNames.push(a.name.toUpperCase());
-      });
+    c.subcategory.forEach((a) => {
+      subCategoriesNames.push(a.name.toUpperCase())
     })
+  })
   return (
     <>
       <Head>
@@ -25,20 +25,20 @@ export default function Home() {
             <Logo />
             <span>👾</span>
           </div>
-          <div className=" flex flex-col mt-6 justify-center items-start">
+          <article className="flex flex-col mt-6 justify-center items-start">
             <p className="text-xl">Navigate through menu for</p>
             <TypewriterComponent
               options={{
                 strings: subCategoriesNames,
-                wrapperClassName: "text-xl text-violet-500",
-                cursorClassName: "text-xl text-violet-500",
+                wrapperClassName: 'text-xl text-violet-500',
+                cursorClassName: 'text-xl text-violet-500',
                 autoStart: true,
                 loop: true,
               }}
             />
-          </div>
+          </article>
         </div>
       </section>
     </>
-  );
+  )
 }
