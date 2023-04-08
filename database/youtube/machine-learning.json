@@ -14,5 +14,21 @@
         "category": "youtube",
         "subcategory": "machine-learning",
         "language": "english"
+    },
+    {
+        "name":"Google",
+        "description":"Free online course provided by google to learn machine learning and it's implementations",
+        "url":"https://developers.google.com/machine-learning",
+        "category":"online platform",
+        "subcategory":"machine-learning",
+        "language":"english"
+    },
+    {
+        "name":"FreeCodeCamp",
+        "description":"Learn Machine Learning in a way that is accessible to absolute beginners. You will learn the basics of Machine Learning and how to use TensorFlow to implement many different concepts.",
+        "url":"https://www.youtube.com/watch?v=i_LwzRVP7bg&t=769s&ab_channel=freeCodeCamp.org",
+        "category":"youtube",
+        "subcategory":"machine-learning",
+        "language":"english"
     }
 ]
