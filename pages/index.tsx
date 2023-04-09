@@ -25,7 +25,7 @@ export default function Home() {
             <Logo />
             <span>👾</span>
           </div>
-          <article className="flex flex-col mt-6 justify-center items-start">
+          <div className="flex flex-col mt-6 justify-center items-start">
             <p className="text-xl">Navigate through menu for</p>
             <TypewriterComponent
               options={{
@@ -36,7 +36,7 @@ export default function Home() {
                 loop: true,
               }}
             />
-          </article>
+          </div>
         </div>
       </section>
     </>
