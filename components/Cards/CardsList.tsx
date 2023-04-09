@@ -4,7 +4,7 @@ import Popup from "components/popup";
 import CardsListItem from "./CardsListItem";
 import type { IData } from "types";
 
-const CardsList:FC<{ cards: IData[] }> = (props) => {
+const CardsList: FC<{ cards: IData[] }> = (props) => {
   const { cards } = props;
   const [currentCard, setCurrentCard] = useState<IData | null>(null);
 
@@ -14,7 +14,7 @@ const CardsList:FC<{ cards: IData[] }> = (props) => {
 
   const removeCurrentCard = () => {
     setCurrentCard(null);
-  }
+  };
 
   cards.sort((a: IData, b: IData) => {
     if (a.name < b.name) return -1;
@@ -24,20 +24,22 @@ const CardsList:FC<{ cards: IData[] }> = (props) => {
 
   return (
     <>
-      <ul className={`flex w-full w-full flex-wrap content-start gap-4 md:flex-row`}>
-        {cards.map((data: IData) => (
-          <CardsListItem 
-            key={data.id}
-            data={data} 
-            onClick={() => getCardId(data)} 
-          />
-        ))}
-      </ul>
+      <div
+        className="flex justify-center"
+        style={{ maxWidth: "1200px", margin: "0 auto" }}
+      >
+        <ul className="flex flex-wrap w-full gap-4">
+          {cards.map((data: IData) => (
+            <CardsListItem
+              key={data.id}
+              data={data}
+              onClick={() => getCardId(data)}
+            />
+          ))}
+        </ul>
+      </div>
       <BackToTopButton />
-      <Popup 
-        currentCard={currentCard}
-        onClose={removeCurrentCard}
-      />
+      <Popup currentCard={currentCard} onClose={removeCurrentCard} />
     </>
   );
 };
