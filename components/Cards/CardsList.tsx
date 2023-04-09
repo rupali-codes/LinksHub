@@ -24,13 +24,10 @@ const CardsList: FC<{ cards: IData[] }> = (props) => {
 
   return (
     <>
-      <div
-        className="flex justify-center"
-        style={{ maxWidth: "1200px", margin: "0 auto" }}
-      >
-        <ul className="flex flex-wrap w-full gap-4">
+      <div className="flex justify-center">
+        <ul className="flex flex-wrap w-full gap-4 justify-center">
           {cards.map((data: IData) => (
-            <CardsListItem
+            <CardsListItem 
               key={data.id}
               data={data}
               onClick={() => getCardId(data)}
@@ -40,6 +37,7 @@ const CardsList: FC<{ cards: IData[] }> = (props) => {
       </div>
       <BackToTopButton />
       <Popup currentCard={currentCard} onClose={removeCurrentCard} />
+      
     </>
   );
 };
