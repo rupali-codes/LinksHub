@@ -137,7 +137,6 @@
         "url": "https://screenlane.com/",
         "category": "frontend",
         "subcategory": "design-inspiration" 
-
     },
     {
         "name": "Design Vault",
@@ -145,7 +144,6 @@
         "url": "https://designvault.io/",
         "category": "frontend",
         "subcategory": "design-inspiration"
-    
     },
     {
         "name": "Page Flows",
@@ -161,7 +159,7 @@
         "url": "https://mobbin.com/",
         "category": "frontend",
         "subcategory": "design-inspiration"
-    
     }
 
 ]
+

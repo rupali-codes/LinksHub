@@ -109,5 +109,13 @@
       "category": "youtube",
       "subcategory": "web-development",
       "language": "english"
+    },
+    {
+      "name": "JavaScript Mastery",
+      "description": "This channel provides projects based on JavaScript and its frameworks like ReactJS, NextJS, NodeJS as well as API management. It also covers full stack projects with real life applications.",
+      "url": "https://www.youtube.com/@javascriptmastery",
+      "category": "youtube",
+      "subcategory": "web-development",
+      "language": "english"
     }
 ]
