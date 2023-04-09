@@ -154,5 +154,14 @@
         "category": "frontend",
         "subcategory": "design-inspiration"
     
+    },
+    {
+        "name": "Mobbin",
+        "description": "Mobbin is a hand-picked collection of latest design patterns from mobile apps that reflect the best in design.",
+        "url": "https://mobbin.com/",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
+    
     }
+
 ]
