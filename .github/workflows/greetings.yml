@@ -10,7 +10,6 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-      - name: Show Greetings Message
       - uses: actions/checkout@v1
       - uses: EddieHubCommunity/gh-action-community/src/welcome@main
         with:
