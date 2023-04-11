@@ -39,6 +39,12 @@
         "url": "https://shotstash.com/",
         "category": "frontend",
         "subcategory": "images"
+    },
+     {
+        "name": "SVG Backgrounds",
+        "description": "This website provides you customized SVG backgrounds for your projects",
+        "url": "https://www.svgbackgrounds.com/",
+        "category": "frontend",
+        "subcategory": "images"
     }
-   
 ]
