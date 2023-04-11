@@ -137,7 +137,6 @@
         "url": "https://screenlane.com/",
         "category": "frontend",
         "subcategory": "design-inspiration" 
-
     },
     {
         "name": "Design Vault",
@@ -145,11 +144,10 @@
         "url": "https://designvault.io/",
         "category": "frontend",
         "subcategory": "design-inspiration"
-    
     },
     {
         "name": "Page Flows",
-        "description": "The smarter way to research user interface flows, screen, and email best practices and get unstuck by learning from proven products.",
+        "description": "The smarter way to research user interface flows, screen, and email best practices and get unstuck is by learning from proven products.",
         "url": "https://pageflows.com/",
         "category": "frontend",
         "subcategory": "design-inspiration"
