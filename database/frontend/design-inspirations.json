@@ -1,4 +1,4 @@
-[{
+[  {
         "name": "Dribbble",
         "description": "Explore the world’s leading design portfolios.",
         "url": "https://dribbble.com",
@@ -132,12 +132,33 @@
         "subcategory": "design-inspiration" 
     },
     {
+        "name": "Screenlane",
+        "description": "You can find app screens, landing pages, user flow inspirations, and keep up with the latest mobile UI design trends.",
+        "url": "https://screenlane.com/",
+        "category": "frontend",
+        "subcategory": "design-inspiration" 
+    },
+    {
         "name": "Design Vault",
         "description": "Design Vault is a website that showcases designs from real products, giving you access to the latest and greatest in UI patterns and trends.",
         "url": "https://designvault.io/",
         "category": "frontend",
         "subcategory": "design-inspiration"
+    },
+    {
+        "name": "Page Flows",
+        "description": "The smarter way to research user interface flows, screen, and email best practices and get unstuck is by learning from proven products.",
+        "url": "https://pageflows.com/",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
+    },
+    {
+        "name": "Mobbin",
+        "description": "Mobbin is a hand-picked collection of latest design patterns from mobile apps that reflect the best in design.",
+        "url": "https://mobbin.com/",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
     }
-     
+
 ]
 
