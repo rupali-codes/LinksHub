@@ -84,6 +84,12 @@ body {
   top:220px;
   position: relative;
 }
+
+ .cardlist
+ {
+  left:100px;
+  position: relative;
+ }
 }
 
 @media (max-width: 800px) {
@@ -94,3 +100,4 @@ body {
   position: relative;
 }
 }
+

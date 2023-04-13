@@ -24,6 +24,7 @@ const CardsList:FC<{ cards: IData[] }> = (props) => {
 
   return (
     <>
+    <div className="cardlist">
       <ul className={`flex w-full w-full flex-wrap content-start gap-4 md:flex-row`}>
         {cards.map((data: IData) => (
           <CardsListItem 
@@ -33,6 +34,7 @@ const CardsList:FC<{ cards: IData[] }> = (props) => {
           />
         ))}
       </ul>
+      </div>
       <BackToTopButton />
       <Popup 
         currentCard={currentCard}
