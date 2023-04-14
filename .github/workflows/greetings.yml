@@ -22,4 +22,4 @@ jobs:
         uses: EddieHubCommunity/gh-action-community/src/welcome@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN}}
-          issue-message: 'Great job, ${{ github.actor }}! 🎉 Thank you for submitting your pull request in LinksHub. Your contribution is valuable and we appreciate your efforts to improve our project. We will review your changes and provide feedback as soon as possible. Keep up the great work!'
+          pr-message: 'Great job, ${{ github.actor }}! 🎉 Thank you for submitting your pull request in LinksHub. Your contribution is valuable and we appreciate your efforts to improve our project. We will review your changes and provide feedback as soon as possible. Keep up the great work!'
