@@ -8,6 +8,8 @@
 /* Making default font family */
 body {
   font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+  width:100%
 }
 
 #__next {
@@ -87,17 +89,22 @@ body {
 
  .cardlist
  {
-  left:100px;
+  margin-left:120px;
   position: relative;
  }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 992px) {
   .coming-soon 
 {
   text-align: center;
   top:150px;
   position: relative;
 }
+/* .cardlist
+ {
+  left:100px;
+  position: relative;
+ } */
 }
 
