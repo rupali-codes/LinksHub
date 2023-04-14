@@ -31,5 +31,14 @@
         "category": "youtube",
         "subcategory": "web3-metaverse",
         "language": "english"
+      },
+     {
+
+        "name": "Francesco Cuilla",
+        "description": "Francesco's YouTube channel discusses topics about being in DevRel, Docker, Web3 and Bloackchain.",
+        "url": "https://www.youtube.com/@francescociulla",
+        "category": "youtube",
+        "subcategory": "web3-metaverse",
+        "language": "english"
       } 
   ]
