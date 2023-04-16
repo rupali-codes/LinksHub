@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 import useFilterDB from "hooks/useFilterDB";
 import CardsList from "components/Cards/CardsList";
-import ComingSoon from "components/ComingSoon/ComingSoon";
+import ComingSoon from "components/NewIssue/NewIssue";
 
 const SubCategory = () => {
   const router = useRouter();

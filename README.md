@@ -9,7 +9,7 @@
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Building with Gitpod](#building-with-gitpod)
-- [Community](#community)
+- [Socials](#socials)
 - [Our Contributors](#our-contributors)
 - [License](#license)
 - [Support](#support)
@@ -44,14 +44,13 @@ You can see the live demo at: https://linkshub.vercel.app
   </a>
 </p>
 
+<a name="socials"></a>
+
 ## Socials 📱
 
-<a href="https://twitter.com/the_linkshub" target="blank">
-<img src="https://cdn-icons-png.flaticon.com/32/733/733579.png" alt="twitter">
-</a>
-<a href="https://discord.com/invite/NvK67YnJX5" target="blank">
-<img src="https://cdn-icons-png.flaticon.com/32/5968/5968756.png" alt="discord">
-</a>
+* [Join LinksHub community on Discord](https://discord.com/invite/NvK67YnJX5) 
+* [Tag us on Twitter](https://twitter.com/the_linkshub)
+
 
 ---
 
