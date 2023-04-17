@@ -24,7 +24,6 @@
         "language": "english"
     },
     {
-        
         "name": "Eat the Blocks",
         "description": "Eat the Block is yet another YouTube channel with some in depth content on various topics on Web3 and Blockchain. It is one of those channels that you should definitely give a try if you want to step into this emerging field of tech.",
         "url": "https://www.youtube.com/@EatTheBlocks",
@@ -33,12 +32,19 @@
         "language": "english"
       },
      {
-
         "name": "Francesco Cuilla",
         "description": "Francesco discusses a wide range of tech topics such as DevRel, Docker, Web3, and Blockchain.",
         "url": "https://www.youtube.com/@francescociulla",
         "category": "youtube",
         "subcategory": "web3-metaverse",
         "language": "english"
-      } 
+     },
+     {
+        "name": "Nader Dabit",
+        "description": "Nader's channels offers straight-to-the-point tutorials, live coding demos, and interviews focusing on modern web development, Web3, DeFi, cloud computing, and GraphQL.",
+        "url": "https://www.youtube.com/@naderdabit",
+        "category": "youtube",
+        "subcategory": "web3-metaverse",
+        "language": "english"
+      }
   ]
