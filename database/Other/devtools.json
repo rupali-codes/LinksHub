@@ -1,30 +1,37 @@
 [
-    {
-        "name": "Postman",
-        "description": "It is an API Platform for developers to design, build, test and iterate their APIs.",
-        "url": "https://www.postman.com/",
-        "category": "Other",
-        "subcategory": "devtools"
-    },
-    {
-        "name": "VSCodium",
-        "description": "VSCodium is free/libre Open Source Software Binaries of VS Code.",
-        "url": "https://github.com/VSCodium/vscodium",
-        "category": "Other",
-        "subcategory": "devtools"
-    },
-    {
-        "name": "Mockaroo",
-        "description": "This site will help you to generate mock data for your projects",
-        "url": "https://www.mockaroo.com/",
-        "category": "Other",
-        "subcategory": "devtools"
-    },
-    {
-        "name": "Swagger",
-        "description": "This site will help you to create documentation for your APIs",
-        "url": "https://swagger.io/",
-        "category": "Other",
-        "subcategory": "devtools"
-    }
+  {
+    "name": "Postman",
+    "description": "It is an API Platform for developers to design, build, test and iterate their APIs.",
+    "url": "https://www.postman.com/",
+    "category": "Other",
+    "subcategory": "devtools"
+  },
+  {
+    "name": "VSCodium",
+    "description": "VSCodium is free/libre Open Source Software Binaries of VS Code.",
+    "url": "https://github.com/VSCodium/vscodium",
+    "category": "Other",
+    "subcategory": "devtools"
+  },
+  {
+    "name": "Mockaroo",
+    "description": "This site will help you to generate mock data for your projects",
+    "url": "https://www.mockaroo.com/",
+    "category": "Other",
+    "subcategory": "devtools"
+  },
+  {
+    "name": "Swagger",
+    "description": "This site will help you to create documentation for your APIs",
+    "url": "https://swagger.io/",
+    "category": "Other",
+    "subcategory": "devtools"
+  },
+  {
+    "name": "UX-Archive",
+    "description": "UX-Archive is powered by Waldo, the world’s first no-code testing platform that lets anyone create reliable, automated mobile tests without the hassle of scripting",
+    "url": "https://uxarchive.com/",
+    "category": "Other",
+    "subcategory": "devtools"
+  }
 ]

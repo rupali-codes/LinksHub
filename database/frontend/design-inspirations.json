@@ -153,12 +153,18 @@
         "subcategory": "design-inspiration"
     },
     {
+        "name": "Appshots",
+        "description": "AppShots is an easy-to-use screenshot production tool for App Store applications. You can create beautiful application screenshots, promote, and share your apps.",
+        "url": "https://appshots.design/",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
+    },
+    {
         "name": "SaasInterface",
         "description": "Save yourself hours of research and create beautiful apps by taking inspiration from the best SaaS products.",
         "url": "https://saasinterface.com/",
         "category": "frontend",
         "subcategory": "design-inspiration"
     }
-
+    
 ]
-

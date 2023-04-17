@@ -60,5 +60,12 @@
         "url": "https://michalsnik.github.io/aos/",
         "category": "frontend",
         "subcategory": "animations"
-   }
+    },
+    {
+        "name": "Moving letters",
+        "description": "This site provides different types of animated text or typewriter effects which you can use in your project.",
+        "url": "https://tobiasahlin.com/moving-letters/",
+        "category": "frontend",
+        "subcategory": "animations"
+    }
 ]
