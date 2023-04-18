@@ -117,5 +117,13 @@
       "category": "youtube",
       "subcategory": "web-development",
       "language": "english"
+    },
+    {
+        "name": "Hussein Nasser",
+        "description": "Hussein talks about various software engineering topics such as database architecture, network protocols and more. This channel is a great place to learn about software engineering in general.",
+        "url": "https://www.youtube.com/@hnasr",
+        "category": "youtube",
+        "subcategory": "web-development",
+        "language": "english"
     }
 ]
