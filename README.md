@@ -4,13 +4,13 @@
 
 ## Table of Contents
 
-- [Welcome to LinksHub 👋](#welcome-to-linkshub-)
+  - [Welcome to LinksHub 👋](#welcome-to-linkshub-)
   - [Demo 💻](#demo-)
   - [Tech stack 📚](#tech-stack-)
   - [Socials 📱](#socials-)
   - [Getting Started 👩‍💻](#getting-started-)
-    - [Let's jump right in🌟](#lets-jump-right-in)
-      - [_Want to add your favorite links into the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
+  - [Let's jump right in🌟](#lets-jump-right-in)
+  - [_Want to add your favorite links into the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
   - [Building with Gitpod 💣](#building-with-gitpod-)
   - [Our Contributors ✨](#our-contributors-)
   - [License 📝](#license-)
@@ -20,7 +20,7 @@
 
 # Welcome to LinksHub 👋
 
-LinksHub is a Hub of Links `by Developers for Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
+LinksHub is a Hub of Links `For Developers By Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
 
 We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to the right developers.
 
