@@ -1,3 +1,30 @@
 [
-   
+    {
+        "name": "Python official",
+        "description": "It is a official python docs to learn python.",
+        "url": "https://docs.python.org/3/",
+        "category": "Other",
+        "subcategory": "python"
+    },
+    {
+        "name": "Python - GFG",
+        "description": "It has a detailed theoretical and practical resources to learn python. You will get step by step guide from installation to compilation of the source code,you can practice while learning on this platform.",
+        "url": "https://www.geeksforgeeks.org/python-programming-language/learn-python-tutorial/",
+        "category": "Other",
+        "subcategory": "python"
+    },
+    {
+        "name": "Python - realPython",
+        "description": "This page contains a beginner to advance python learning path with best examples and it also helps for pyhton developers to understand the in built libraries.",
+        "url": "https://realpython.com/",
+        "category": "Other",
+        "subcategory": "python"
+    },
+    {
+        "name": "Python-w3School",
+        "description": "It has beginner friendly ,well structured python tutorials where you can practice while learning python and you can also practice exercise available on the platform.",
+        "url": "https://www.w3schools.com/python/",
+        "category": "Other",
+        "subcategory": "python"
+    }
 ]

@@ -1,0 +1,29 @@
+[
+    {
+        "name": "c++ official",
+        "description": "It is an official website of cplusplus where you can get tutorial that provides detailed explanation, examples, and tasks of c++ language.",
+        "url": "https://cplusplus.com/doc/tutorial/",
+        "category": "Other",
+        "subcategory": "cplusplus"
+    },
+    {
+        "name": "c++ tutorialspoint ",
+        "description": "It is an website of cplusplus where you can get tutorial that provides detailed explanation, examples, and tasks of c++ language.",
+        "url": "https://www.tutorialspoint.com/cplusplus/index.htm",
+        "category": "Other",
+        "subcategory": "cplusplus"
+    },
+    {
+        "name": "c++ w3School",
+        "description": "Here you will get a detailed info about c++ concept with integrated online IDE where you can play around the code and practice while learning .",
+        "url": "https://www.w3schools.com/cpp/default.asp",
+        "subcategory": "cplusplus"
+    },
+    {
+        "name": "c++ javatpoint",
+        "description": "This resource contains a detailed theoretical and example of c++ of each and every concept of c++,you will get source code along with the tutorials.",
+        "url": "https://www.javatpoint.com/cpp-tutorial",
+        "category": "Other",
+        "subcategory": "cplusplus"
+    }
+]

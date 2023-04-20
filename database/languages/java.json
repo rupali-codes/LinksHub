@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Java official",
+        "description": "It is an official website that provides detailed explanation, examples, and tasks to learn Java,you can find detailed info about java inbuilt classes and its concepts.",
+        "url": "https://docs.oracle.com/javase/tutorial/",
+        "category": "Other",
+        "subcategory": "java"
+    },
+    {
+        "name": "Java - javatpoint",
+        "description": "This resource contains a detailed theoretical and practical and example of each and every concept of java,you will get source code along with the tutorials.",
+        "url": "https://www.javatpoint.com/java-tutorial",
+        "category": "Other",
+        "subcategory": "java"
+    },
+    {
+        "name": "Java - w3School",
+        "description": "Here you will get a detailed info about java concept with integrated online IDE where you can play around the code and practice while learning .",
+        "url": "https://www.w3schools.com/java/",
+        "category": "Other",
+        "subcategory": "java"
+    },
+    {
+        "name": "java- tutorialspoint ",
+        "description": "It is an website of java where you can get tutorial that provides detailed explanation, examples, and tasks of java language.",
+        "url": "https://www.tutorialspoint.com/java/index.htm",
+        "category": "Other",
+        "subcategory": "java"
+    },
+    {
+        "name": "java- GFG ",
+        "description": "This website contains a detailed theoretical and practical knowledge anout java ,it has an integrated online IDE where you can practice while learning java ",
+        "url": "https://www.geeksforgeeks.org/java/",
+        "category": "Other",
+        "subcategory": "java"
+    }
+]
