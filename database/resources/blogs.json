@@ -81,5 +81,12 @@
        "url": "https://hackernoon.com/",
        "category": "resources",
        "subcategory": "blogs"
+   },
+    {
+       "name": "Hacker News",
+       "description": "Hacker News is a community driven site for the latest news in tech, discussion, and startup launches.",
+       "url": "https://news.ycombinator.com/",
+       "category": "resources",
+       "subcategory": "blogs"
    }
 ]
