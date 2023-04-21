@@ -54,5 +54,13 @@
         "category": "youtube",
         "subcategory": "web3-metaverse",
         "language": "english"
-      }
+     },
+    {
+        "name": "LearnWeb3 DAO",
+        "description": "LearnWeb3 DAO offers a one-stop roadmap for developers of all skill levels to break into Web3. Whether this is your first time programming, or you're already a senior developer, LearnWeb3 DAO has the resources for you.",
+        "url": "https://www.youtube.com/@LearnWeb3DAO",
+        "category": "youtube",
+        "subcategory": "web3-metaverse",
+        "language": "english"
+    }
   ]

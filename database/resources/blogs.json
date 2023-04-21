@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "Medium",
         "description": "Medium is a website that allows people to publish and share articles, stories, and ideas with a community of readers.",
         "url": "https://medium.com",
@@ -79,13 +80,6 @@
        "name": "Hackernoon",
        "description": "This is a platform where developers and technologists from all walks of life write blog posts about their experiences in tech.",
        "url": "https://hackernoon.com/",
-       "category": "resources",
-       "subcategory": "blogs"
-   },
-    {
-       "name": "Hacker News",
-       "description": "Hacker News is a community driven site for the latest news in tech, discussion, and startup launches.",
-       "url": "https://news.ycombinator.com/",
        "category": "resources",
        "subcategory": "blogs"
    }

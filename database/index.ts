@@ -9,6 +9,7 @@ export { default as images } from "./frontend/images.json";
 export { default as onlineCodeEditors } from "./frontend/online-code-editors.json";
 export { default as themesTemplates } from "./frontend/themes-templates.json";
 export { default as uiGenerators } from "./frontend/ui-generators.json";
+export { default as react } from "./frontend/react.json";
 // backend
 export { default as authentication } from "./backend/authentication.json";
 export { default as architecture } from "./backend/architecture.json";
@@ -19,6 +20,7 @@ export { default as validation } from "./backend/validation.json";
 // resources
 export { default as blogs } from "./resources/blogs.json";
 export { default as hosting } from "./resources/hosting.json";
+export { default as ebook } from "./resources/e-book.json";
 // youtube
 export { default as android } from "./youtube/android.json";
 export { default as dataStructures } from "./youtube/data-structures.json";

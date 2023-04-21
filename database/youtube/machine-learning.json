@@ -1,8 +1,34 @@
-[{
-    "name": "3Blue1Brown",
-    "description": "3Blue1Brown, by Grant Sanderson, is some combination of math and entertainment, depending on your disposition. The goal is for explanations to be driven by animations and for difficult problems to be made simple with changes in perspective.",
-    "url": "https://www.youtube.com/@3blue1brown",
-    "category": "youtube",
-    "subcategory": "machine-learning",
-    "language": "english"
-}]
+[
+    {
+        "name":"Udacity",
+        "description":"Free online course for learning tensorflow for Deep learning",
+        "url":"https://learn.udacity.com/courses/ud187",
+        "category":"online platform",
+        "subcategory":"tensorflow",
+        "language":"english"
+    },
+    {
+        "name": "3Blue1Brown",
+        "description": "3Blue1Brown, by Grant Sanderson, is a combination of math and entertainment, depending on your disposition. The goal is for difficult problems to be made simple with changes in perspective.",
+        "url": "https://www.youtube.com/@3blue1brown",
+        "category": "youtube",
+        "subcategory": "machine-learning",
+        "language": "english"
+    },
+    {
+        "name":"Google",
+        "description":"Free online course provided by google to learn machine learning and it's implementations",
+        "url":"https://developers.google.com/machine-learning",
+        "category":"online platform",
+        "subcategory":"machine-learning",
+        "language":"english"
+    },
+    {
+        "name":"FreeCodeCamp",
+        "description":"Learn Machine Learning in a way that is accessible to absolute beginners. You will learn the basics of Machine Learning and how to use TensorFlow to implement many different concepts.",
+        "url":"https://www.youtube.com/watch?v=i_LwzRVP7bg&t=769s&ab_channel=freeCodeCamp.org",
+        "category":"youtube",
+        "subcategory":"machine-learning",
+        "language":"english"
+    }
+]
