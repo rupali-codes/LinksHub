@@ -1,7 +1,7 @@
 [
     {
         "name": "c++ official",
-        "description": "It is an official website of cplusplus where you can get tutorial that provides detailed explanation, examples, and tasks of c++ language.",
+        "description": "This is C++'s official website.",
         "url": "https://cplusplus.com/doc/tutorial/",
         "category": "Other",
         "subcategory": "cplusplus"
