@@ -22,5 +22,13 @@
         "category": "youtube",
         "subcategory": "css",
         "language": "english"
+    },
+    {
+        "name": "Animation Coding",
+        "description": "A wide range of educational videos covering various topics such as animation, Motion Graphic Design, 3D animation, responsive website design, HTML, CSS, JavaScript, UX/UI design, After Effects, Photoshop, Adobe Illustrator, and much more.",
+        "url": "https://www.youtube.com/@AnimationCoding",
+        "category": "youtube",
+        "subcategory": "css",
+        "language": "english"
     }
 ]
