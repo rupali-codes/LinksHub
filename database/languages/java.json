@@ -1,7 +1,7 @@
 [
     {
         "name": "Java official",
-        "description": "It is an official website that provides detailed explanation, examples, and tasks to learn Java,you can find detailed info about java inbuilt classes and its concepts.",
+        "description": "This is Java's official website.  There, you will be provided with detailed explanations, examples, and tasks. You will also be provided with detailed info about Java inbuilt classes and its concepts.",
         "url": "https://docs.oracle.com/javase/tutorial/",
         "category": "Other",
         "subcategory": "java"
