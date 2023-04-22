@@ -7,7 +7,7 @@ export const Footer: FC = () => {
       <p className="leading-7 tracking-wide text-center text-black dark:text-violet-500">
         <span>&copy; {new Date().getFullYear()} LinksHub | </span>
         Developed by{' '}
-        <Link href="https://linkfree.eddiehub.io/rupali-codes" target="_blank">
+        <Link href="https://linkfree.io/rupali-codes" target="_blank">
           <span className="dark:text-gray-200 underline">Rupali Haldiya</span>
         </Link>{' '}
         and <span className="dark:text-gray-200">open-source community</span>
