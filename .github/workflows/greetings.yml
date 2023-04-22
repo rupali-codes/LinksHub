@@ -1,25 +1,21 @@
 name: Greetings
 
 on:
+  fork:
+  push:
+    branches: [main]
   issues:
     types: [opened]
-  pull_request:
+  pull_request_target:
     types: [opened]
 
 jobs:
-  greeting:
+  welcome:
     runs-on: ubuntu-latest
     steps:
-      - name: Issue Greeting
-        if: ${{ github.event_name == 'issues' }}
-        uses: EddieHubCommunity/gh-action-community/src/welcome@main
+      - uses: actions/checkout@v1
+      - uses: EddieHubCommunity/gh-action-community/src/welcome@main
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN}}
-          issue-message: 'Hello, ${{ github.actor }}! 🎉 Thank you for creating a new issue in LinksHub. Your contribution is highly appreciated, and we are eager to collaborate with you to resolve the issue. Your hard work and dedication are commendable. Keep up the excellent work!'
-    
-      - name: Pull Request Greeting
-        if: ${{ github.event_name == 'pull_request' }}
-        uses: EddieHubCommunity/gh-action-community/src/welcome@main
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN}}
-          pr-message: 'Great job, ${{ github.actor }}! 🎉 Thank you for submitting your pull request in LinksHub. Your contribution is valuable and we appreciate your efforts to improve our project. We will review your changes and provide feedback as soon as possible. Keep up the great work!'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Hello ${{ github.actor }}, thanks for opening a issue, your contribution is valuable to us. The maintainers will review this issue and provide feedback as soon as possible."
+          pr-message: "Hello ${{ github.actor }}, thanks for rising a Pull request, your contribution is valuable to us. The maintainers will review this Pull Request and provide feedback as soon as possible. Keep the great work up!"
