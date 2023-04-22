@@ -53,7 +53,6 @@ You can see the live demo at: https://linkshub.vercel.app
 * [Join LinksHub community on Discord](https://discord.com/invite/NvK67YnJX5) 
 * [Tag us on Twitter](https://twitter.com/the_linkshub)
 
-
 ---
 
 <a name="getting-started"></a>
