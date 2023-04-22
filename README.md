@@ -1,5 +1,5 @@
 <article align="center">
-<img src="https://user-images.githubusercontent.com/78981177/215495029-ff9d4d24-a626-494a-859d-293cb9925f63.png" alt="LinksHub Logo" />
+<img src="https://user-images.githubusercontent.com/78981177/232279811-a219b1b5-6383-4ace-9614-24c6b258fec0.png" alt="LinksHub Logo" />
 </article><hr>
 
 ## Table of Contents
@@ -9,7 +9,7 @@
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Building with Gitpod](#building-with-gitpod)
-- [Community](#community)
+- [Socials](#socials)
 - [Our Contributors](#our-contributors)
 - [License](#license)
 - [Support](#support)
@@ -44,14 +44,13 @@ You can see the live demo at: https://linkshub.vercel.app
   </a>
 </p>
 
+<a name="socials"></a>
+
 ## Socials 📱
 
-<a href="https://twitter.com/the_linkshub" target="blank">
-<img src="https://cdn-icons-png.flaticon.com/32/733/733579.png" alt="twitter">
-</a>
-<a href="https://discord.com/invite/NvK67YnJX5" target="blank">
-<img src="https://cdn-icons-png.flaticon.com/32/5968/5968756.png" alt="discord">
-</a>
+* [Join LinksHub community on Discord](https://discord.com/invite/NvK67YnJX5) 
+* [Tag us on Twitter](https://twitter.com/the_linkshub)
+
 
 ---
 

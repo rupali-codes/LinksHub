@@ -37,7 +37,7 @@ export const sidebarData: ISidebar[] = [
     category: 'youtube',
     subcategory: [
       { name: 'web development', url: '/web-development' },
-      { name: 'css', url: '/css' },
+      { name: 'CSS', url: '/css' },
       { name: 'machine learning', url: '/machine-learning' },
       { name: 'data structures', url: '/dsa' },
       { name: 'Android', url: '/android' },
@@ -67,6 +67,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'Github', url: '/github' },
       { name: 'Dev Tools', url: '/devtools' },
+      { name: 'Podcasts', url: '/podcasts' },
     ],
   },
 ]
