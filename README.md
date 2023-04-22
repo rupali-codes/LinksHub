@@ -4,21 +4,23 @@
 
 ## Table of Contents
 
-- [Welcome to LinksHub](#welcome-to-linkshub)
-- [Demo](#demo)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Building with Gitpod](#building-with-gitpod)
-- [Socials](#socials)
-- [Our Contributors](#our-contributors)
-- [License](#license)
-- [Support](#support)
+  - [Welcome to LinksHub 👋](#welcome-to-linkshub-)
+  - [Demo 💻](#demo-)
+  - [Tech stack 📚](#tech-stack-)
+  - [Socials 📱](#socials-)
+  - [Getting Started 👩‍💻](#getting-started-)
+  - [Let's jump right in🌟](#lets-jump-right-in)
+  - [_Want to add your favorite links into the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
+  - [Building with Gitpod 💣](#building-with-gitpod-)
+  - [Our Contributors ✨](#our-contributors-)
+  - [License 📝](#license-)
+  - [Support ⭐](#support-)
 
 <a name="welcome-to-linkshub"></a>
 
 # Welcome to LinksHub 👋
 
-LinksHub is a Hub of Links `by Developers for Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
+LinksHub is a Hub of Links `For Developers By Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
 
 We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to the right developers.
 
@@ -117,8 +119,9 @@ You can see the live demo at: https://linkshub.vercel.app
     git push origin <your_branch_name>
     ```
 
-11. Create a [Pull Request](https://github.com/rupali-codes/linkshub/compare)
-    > Click _compare across forks_ if you don't see your branch
+11. Create a [Pull Request](https://github.com/rupali-codes/linkshub/compare) (Click _compare across forks_ if you don't see your branch)
+
+    > Don't create PR direclty to _base: **main**_ instead, select _base:**dev**_ from the dropdown
 
 #### _Want to add your favorite links into the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/linkshub/blob/main/CONTRIBUTING.md)._
 
