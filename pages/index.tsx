@@ -20,6 +20,7 @@ export default function Home() {
           content="LinksHub is the ultimate hub of ready-to-use tech resources. Discover free tools and libraries to streamline your development process and build better projects."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#202c46"/>
         <link rel="icon" href="/icon.png" className="rounded-full" />
       </Head>
       <section className="flex min-h-[calc(100%-68px)] flex-col">
