@@ -37,7 +37,7 @@ LinksHub will follow a coordinated disclosure policy, which means that vulnerabi
 
 ## Legal Disclaimer
 
-The security policy includes a legal disclaimer that limits the liability of the project maintainers and contributors for any security vulnerabilities or incidents that occur as a result of using the [Linkshub](https://linkshub.vercel.app/) website or any of the linked websites.
+The security policy includes a legal disclaimer that limits the liability of the project maintainers and contributors for any security vulnerabilities or incidents that occur as a result of using[Linkshub's](https://linkshub.vercel.app/) website or any of the linked sources.
 
 
 ## Contact Information
