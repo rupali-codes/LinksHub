@@ -45,5 +45,5 @@ The security policy includes a legal disclaimer that limits the liability of the
 If you have any questions or concerns about the security policy or any security vulnerabilities in the project, please contact us at rupali7487@gmail.com.
 
 
-By implementing this security policy, we aim to ensure that vulnerabilities are addressed in a timely and responsible manner, and that users and contributors can use the [Linkshub](https://linkshub.vercel.app/) website and linked websites safely and securely.
+By implementing this security policy, we aim to ensure that vulnerabilities are addressed in a timely manner, and that users and contributors can use [Linkshub](https://linkshub.vercel.app/) and its linked sources safely and securely.
 
