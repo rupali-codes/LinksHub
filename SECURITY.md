@@ -12,7 +12,7 @@ This document outlines the security policy for the [Linkshub](https://linkshub.v
 The security policy covers the codebase and documentation of the open source project, as well as the external links to websites for courses.
 ## Vulnerability Disclosure Process
 
-The project will provide a dedicated email address (rupali7487@gmail.com) for submitting vulnerability reports related to the [Linkshub](https://linkshub.vercel.app/) website or any of the linked websites. Vulnerability reports will be reviewed and triaged by the project maintainers. The project will aim to respond to vulnerability reports within 72 hours, and will provide regular updates on the status of the vulnerability and any remediation efforts.
+The project will provide a dedicated email address (rupali7487@gmail.com) for submitting vulnerability reports related to the [Linkshub](https://linkshub.vercel.app/) website or any of the linked websites. Vulnerability reports will be reviewed and triaged by the project's maintainers. The owner will aim to respond to vulnerability reports within 72 hours, and will provide regular updates on the status of the vulnerability and any remediation efforts.
 ## Roles and Responsibilities
 
 The project maintainers are responsible for handling vulnerability reports and making decisions about how to address them. The project maintainers will work with contributors and external website owners to resolve vulnerabilities as quickly and responsibly as possible.
