@@ -26,7 +26,7 @@ LinksHub will aim to resolve critical vulnerabilities within 30 days and non-cri
 
 ##  Secure Coding Practices
 
-The project will provide guidance on secure coding practices for contributors, including guidelines for input validation, authentication, authorization, and data protection
+LinksHub will provide guidance on secure coding practices for contributors, including guidelines for input validation, authentication, authorization, and data protection.
 ## Regular Review and Update
 
 The security policy will be regularly reviewed and updated to ensure that it remains effective and relevant. The maintainers will evaluate the vulnerability disclosure process, update secure coding guidelines, and revise the response timeline as needed.
