@@ -119,9 +119,9 @@ You can see the live demo at: https://linkshub.vercel.app
     git push origin <your_branch_name>
     ```
 
-11. Create a [Pull Request](https://github.com/rupali-codes/linkshub/compare) (Click _compare across forks_ if you don't see your branch)
+11. Create a [Pull Request](https://github.com/rupali-codes/linkshub/compare)
 
-    > Don't create PR direclty to _base: **main**_ instead, select _base:**dev**_ from the dropdown
+    > Click _compare across forks_ if you don't see your branch
 
 #### _Want to add your favorite links into the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/linkshub/blob/main/CONTRIBUTING.md)._
 
