@@ -21,7 +21,7 @@ The maintainers are responsible for handling vulnerability reports and making de
 
 ## Response Timeline
 
-The project will aim to resolve critical vulnerabilities within 30 days and non-critical vulnerabilities within 90 days. The project may extend these timelines if additional time is needed to address the vulnerability.
+LinksHub will aim to resolve critical vulnerabilities within 30 days and non-critical vulnerabilities within 90 days. These deadlines may extend if additional time is needed to address the issue(s).
 
 
 ##  Secure Coding Practices
