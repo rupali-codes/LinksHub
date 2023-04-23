@@ -32,7 +32,7 @@ The project will provide guidance on secure coding practices for contributors, i
 The security policy will be regularly reviewed and updated to ensure that it remains effective and relevant. The maintainers will evaluate the vulnerability disclosure process, update secure coding guidelines, and revise the response timeline as needed.
 ## Disclosure Policy
 
-The project will follow a coordinated disclosure policy, which means that vulnerabilities will be disclosed publicly only after they have been remediated. The project may work with external website owners to coordinate disclosure of vulnerabilities that affect their websites.
+LinksHub will follow a coordinated disclosure policy, which means that vulnerabilities will be disclosed publicly only after they have been remediated. The project may work with external website owners to coordinate disclosure of vulnerabilities that affect their websites.
 
 
 ## Legal Disclaimer
