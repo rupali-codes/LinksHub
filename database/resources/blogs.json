@@ -81,5 +81,12 @@
        "url": "https://hackernoon.com/",
        "category": "resources",
        "subcategory": "blogs"
+   },
+   {
+       "name": "Hacker News",
+       "description": "Hacker News is a tech-focused social news and discussion site run by startup accelerator Y Combinator, with a vibrant community of tech enthusiasts and insiders.",
+       "url": "https://news.ycombinator.com/",
+       "category": "resources",
+       "subcategory": "blogs"
    }
 ]
