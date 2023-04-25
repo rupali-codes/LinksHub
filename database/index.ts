@@ -29,6 +29,7 @@ export { default as machineLearning } from "./youtube/machine-learning.json";
 export { default as webDevelopment } from "./youtube/web-development.json";
 export { default as web3metaverse } from "./youtube/web3-metaverse.json";
 export { default as youtubTesting } from "./youtube/testing.json";
+export { default as computerScience } from './youtube/computer-science.json'
 // other
 export { default as github } from "./Other/Github.json";
 export { default as devtools } from "./Other/devtools.json";
