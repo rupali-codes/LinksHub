@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "name": "Gaurav Sen",
+        "description": "Gaurav Sen has a youtube channel where he talks about system design concepts and interview preparation.",
+        "url": "https://www.youtube.com/@gkcs",
+        "category": "backend",
+        "subcategory": "system-design",
+        "language": "english"
+    }
+]
