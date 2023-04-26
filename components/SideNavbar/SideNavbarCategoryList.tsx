@@ -21,7 +21,7 @@ export const SideNavbarCategoryList: FC<{
           )
         })
       ) : (
-        <div className="text-slate-500 py-2">No Links Found</div>
+        <div className="dark:text-gray-200 text-gray-500 text-lg text-center py-2">No Links Found</div>
       )}
     </ul>
   )
