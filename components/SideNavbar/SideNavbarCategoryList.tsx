@@ -7,7 +7,6 @@ export const SideNavbarCategoryList: FC<{
   openByDefault: string
 }> = (props) => {
   const { items, openByDefault } = props
-  console.log('items', items)
   return (
     <ul className="mt-2 flex flex-col justify-center px-4 pb-24">
       {items.length !== 0 ? (
