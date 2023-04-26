@@ -1,7 +1,7 @@
 [
     {
         "name": "Gaurav Sen",
-        "description": "Gaurav Sen has a youtube channel where he talks about system design concepts and interview preparation.",
+        "description": "This channel is focused on teaching System design but they also provide content related to other computer science concepts such as Algorithm design, Dynamic programming, Software engineering, Competitive programming and more.",
         "url": "https://www.youtube.com/@gkcs",
         "category": "backend",
         "subcategory": "system-design",
