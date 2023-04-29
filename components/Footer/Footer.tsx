@@ -16,7 +16,7 @@ export const Footer: FC = () => {
           target="_blank"
         >
           <span className="dark:text-gray-200 underline">
-            open-source community
+           Open Source Community
           </span>
         </Link>
       </p>
