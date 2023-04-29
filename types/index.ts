@@ -49,6 +49,7 @@ export type SubCategory =
   | "security"
   | "authentication"
   | "caching"
+  | "system-design"
   | "online-code-editors"
   | "web-development"
   | "machine-learning"
