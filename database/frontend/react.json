@@ -9,7 +9,7 @@
     },
     {
         "name":"CodeSandbox",
-        "description":"This site will give you a every type of design with code. From this you can make your coding journey very fast.",
+        "description":"This site will give you a every type of design with code. From this you can make your coding journey very fast.You can filter your design by framework,dependiences and tags.",
         "url":"https://codesandbox.io/search?refinementList",
         "category":"frontend",
         "subcategory":"react",
