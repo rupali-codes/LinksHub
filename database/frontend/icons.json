@@ -103,5 +103,12 @@
     "url": "https://ionic.io/ionicons/v4",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "MUI Icons",
+    "description": "A beautiful collections of modern icons for your web application.",
+    "url": "https://mui.com/material-ui/icons/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
