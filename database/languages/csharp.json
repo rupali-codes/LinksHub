@@ -1,7 +1,7 @@
 [
     {
         "name": "TutorialsTeacher",
-        "description": "It's very good C# tutorial website. It includes nice explained lessons with examples. All developer will found something. There are collections, basic syntax etc.",
+        "description": "This site teaches fundamentals of the Csharp or C# programming language in a simplified way",
         "url": "https://www.tutorialsteacher.com/csharp/",
         "category": "Languages",
         "subcategory": "csharp (C#)"
