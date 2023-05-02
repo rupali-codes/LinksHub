@@ -33,5 +33,12 @@
     "url": "https://uxarchive.com/",
     "category": "Other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "CodeSandbox",
+    "description": "This IDE will make it easier for you to code. You can get any design you want as well as filter it by framework,dependiences, and tags.",
+    "url": "https://codesandbox.io/search?refinementList",
+    "category": "Other",
+    "subcategory": "devtools"
   }
 ]
