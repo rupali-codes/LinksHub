@@ -1,17 +1,8 @@
-[
-  {
+[{
     "name": "React js",
     "description": "Free online course for learning react js",
     "url": "https://scrimba.com/learn/learnreact#",
     "category": "frontend",
     "subcategory": "react",
     "language": "english"
-  },
-  {
-    "name": "React js Course",
-    "description": "An online course for grasping the fundamentals of React, made by The Net Ninja",
-    "url": "https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d",
-    "subcategory": "react",
-    "language": "english"
-  }
-]
+}]
