@@ -1,8 +1,18 @@
-[{
+[
+  {
     "name": "3Blue1Brown",
     "description": "3Blue1Brown, by Grant Sanderson, is some combination of math and entertainment, depending on your disposition. The goal is for explanations to be driven by animations and for difficult problems to be made simple with changes in perspective.",
     "url": "https://www.youtube.com/@3blue1brown",
     "category": "youtube",
     "subcategory": "machine-learning",
     "language": "english"
-}]
+  },
+  {
+    "name": "Krish Naik",
+    "description": "I am the cofounder of iNeuron and my experience is pioneering in machine learning, deep learning, and computer vision,an educator, and a mentor, with over 10 years' experience in the industry. This is my YouTube channel where I explain various topics on machine learning, deep learning, and AI with many real-world problem scenarios. I have delivered over 30 tech talks on data science, machine learning, and AI at various meet-ups, technical institutions, and community-arranged forums. My main aim is to make everyone familiar of ML and AI.Please subscribe and support the channel. As i love new technology, all these videos are free and I promise to make more interesting content as we go ahead.",
+    "url": "https://www.youtube.com/user/krishnaik06",
+    "category": "youtube",
+    "subcategory": "machine-learning",
+    "language": "english"
+  }
+]
