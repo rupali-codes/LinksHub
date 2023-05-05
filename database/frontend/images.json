@@ -54,5 +54,12 @@
     "url": "https://www.stockvault.net/",
     "category": "frontend",
     "subcategory": "images"
+  },
+  {
+    "name": "Stocksnap",
+    "description": "Stocksnap is a community-sourced stock photo site with high-quality, royalty-free images from talented photographers worldwide.",
+    "url": "https://stocksnap.io/",
+    "category": "frontend",
+    "subcategory": "images"
   }
 ]
