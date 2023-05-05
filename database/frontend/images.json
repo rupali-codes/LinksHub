@@ -50,7 +50,7 @@
   },
   {
     "name": "Stockvault",
-    "description": "Stockvault purpose is to collect and archive high resolution photographs that photographers, designers and students can share and use for their personal and non-commercial design projects.",
+    "description": "Stockvault is a platform for high-quality photographs for personal and non-commercial design projects, curated for photographers, designers, and students.",
     "url": "https://www.stockvault.net/",
     "category": "frontend",
     "subcategory": "images"
