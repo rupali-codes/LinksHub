@@ -1,3 +1,9 @@
 [
-   
+    {
+        "name": "Learn Python 3",
+        "description": "Learn the basics of Python 3, one of the most powerful, versatile, and in-demand programming languages today.",
+        "url": "https://www.codecademy.com/learn/learn-python-3",
+        "category": "languages",
+        "subcategory": "python"
+    }    
 ]
