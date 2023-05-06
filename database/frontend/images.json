@@ -61,5 +61,12 @@
     "url": "https://stocksnap.io/",
     "category": "frontend",
     "subcategory": "images"
+  },
+  {
+    "name": "Flickr",
+    "description": "Flickr is a community of photographers with stunning images. Its search and social features make following favorites effortless.",
+    "url": "https://www.flickr.com/",
+    "category": "frontend",
+    "subcategory": "images"
   }
 ]
