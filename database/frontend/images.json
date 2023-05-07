@@ -1,50 +1,72 @@
-[{
-        "name": "Unsplash",
-        "description": "Unsplash is a site to get free images, you can download all kind of HD images in here for free.",
-        "url": "https://unsplash.com",
-        "category": "frontend",
-        "subcategory": "images"
-    },
-    {
-        "name": "Pixabay",
-        "description": "Pixabay have Over 2M free stock photos, vectors and art illustrations you can use anywhere.",
-        "url": "https://pixabay.com/",
-        "category": "frontend",
-        "subcategory": "images"
-    },
-    {
-        "name": "Pexels",
-        "description": "A great resource for free stock photos and videos, created by photographers around the world.",
-        "url": "https://pexels.com/",
-        "category": "frontend",
-        "subcategory": "images"
-    },
-    {
-        "name": "Kaboompics",
-        "description": "it allows to search pictures by color, and  it provides a complementary palette of colors in the photo.",
-        "url": "https://kaboompics.com/",
-        "category": "frontend",
-        "subcategory": "images"
-    },
-    {
-        "name": "Picjumbo",
-        "description": "Impressive selection of free, Ultra-HD images, You can download as many photos for free.",
-        "url": "https://picjumbo.com",
-        "category": "frontend",
-        "subcategory": "images"
-    },
-    {
-        "name": "Shotstash",
-        "description": "ShotStash is the ultimate resource for free stock photographs for creative professionals. Whether you are looking for photographs for your blog, social media accounts, projects you are working on for yourself or clients, or any other creative use, you are sure to find the right photo for your needs at ShotStash",
-        "url": "https://shotstash.com/",
-        "category": "frontend",
-        "subcategory": "images"
-    },
-     {
-        "name": "SVG Backgrounds",
-        "description": "This website provides you customized SVG backgrounds for your projects",
-        "url": "https://www.svgbackgrounds.com/",
-        "category": "frontend",
-        "subcategory": "images"
-    }
+[
+  {
+    "name": "Unsplash",
+    "description": "Unsplash is a site to get free images, you can download all kind of HD images in here for free.",
+    "url": "https://unsplash.com",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Pixabay",
+    "description": "Pixabay have Over 2M free stock photos, vectors and art illustrations you can use anywhere.",
+    "url": "https://pixabay.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Pexels",
+    "description": "A great resource for free stock photos and videos, created by photographers around the world.",
+    "url": "https://pexels.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Kaboompics",
+    "description": "it allows to search pictures by color, and  it provides a complementary palette of colors in the photo.",
+    "url": "https://kaboompics.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Picjumbo",
+    "description": "Impressive selection of free, Ultra-HD images, You can download as many photos for free.",
+    "url": "https://picjumbo.com",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Shotstash",
+    "description": "ShotStash is the ultimate resource for free stock photographs for creative professionals. Whether you are looking for photographs for your blog, social media accounts, projects you are working on for yourself or clients, or any other creative use, you are sure to find the right photo for your needs at ShotStash",
+    "url": "https://shotstash.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "SVG Backgrounds",
+    "description": "This website provides you customized SVG backgrounds for your projects",
+    "url": "https://www.svgbackgrounds.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Stockvault",
+    "description": "Stockvault is a platform for high-quality photographs for personal and non-commercial design projects, curated for photographers, designers, and students.",
+    "url": "https://www.stockvault.net/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Stocksnap",
+    "description": "Stocksnap is a community-sourced stock photo site with high-quality, royalty-free images from talented photographers worldwide.",
+    "url": "https://stocksnap.io/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Flickr",
+    "description": "Flickr is a community of photographers with stunning images. Its search and social features make following favorites effortless.",
+    "url": "https://www.flickr.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  }
 ]

@@ -75,3 +75,22 @@ body {
 .scrollColorLight::-webkit-scrollbar-thumb:hover {
   background: #aaa;
 }
+
+
+@media (min-width: 992px) {
+  .coming-soon 
+{
+  text-align: center;
+  top:220px;
+  position: relative;
+}
+}
+
+@media (max-width: 800px) {
+  .coming-soon 
+{
+  text-align: center;
+  top:150px;
+  position: relative;
+}
+}

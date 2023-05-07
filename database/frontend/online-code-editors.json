@@ -1,5 +1,12 @@
 [
   {
+    "name": "Gitpod",
+    "description": "Gitpod is a cloud-based IDE that integrates with GitHub, allowing developers to create, edit, and test their code in a pre-configured workspace. ",
+    "url": "https://gitpod.io",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
     "name": "Codepen",
     "description": "An amazing online community for testing and showcasing HTML, CSS, JavaScript code snippets.",
     "url": "https://codepen.io",

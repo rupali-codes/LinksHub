@@ -10,6 +10,7 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'frontend',
     subcategory: [
+      { name: 'react js', url: '/react'},
       { name: 'images', url: '/images' },
       { name: 'fonts', url: '/fonts' },
       { name: 'colors', url: '/colors' },
@@ -31,18 +32,21 @@ export const sidebarData: ISidebar[] = [
       { name: 'authentication', url: '/authentication' },
       { name: 'caching', url: '/caching' },
       { name: 'testing', url: '/testing' },
+      { name: 'system design', url: '/system-design' },
     ],
   },
   {
     category: 'youtube',
     subcategory: [
       { name: 'web development', url: '/web-development' },
-      { name: 'css', url: '/css' },
+      { name: 'CSS', url: '/css' },
       { name: 'machine learning', url: '/machine-learning' },
+      { name: 'tensorflow', url: '/tensorflow'},
       { name: 'data structures', url: '/dsa' },
       { name: 'Android', url: '/android' },
       { name: 'Web3 & Metaverse', url: '/web3-metaverse' },
       { name: 'Testing', url: '/testing' },
+      { name: 'Computer Science', url: '/computer-science' },
     ],
   },
   {
@@ -50,6 +54,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'blogs', url: '/blogs' },
       { name: 'hosting', url: '/hosting' },
+      {name : 'e-book', url:'/e-book'}
     ],
   },
   {
@@ -58,6 +63,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'JavaScript', url: '/javascript' },
       { name: 'Python', url: '/python' },
       { name: 'Go', url: '/golang' },
+      { name: 'Csharp (C#)', url: '/csharp' }
     ],
   },
   {
@@ -65,6 +71,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'Github', url: '/github' },
       { name: 'Dev Tools', url: '/devtools' },
+      { name: 'Podcasts', url: '/podcasts' },
     ],
   },
 ]
