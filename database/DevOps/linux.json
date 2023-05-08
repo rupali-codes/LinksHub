@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Linux",
+        "description":"Beginner friendly course to learn Linux from freeCodeCamp.org",
+        "url":"https://youtu.be/ROjZy1WbCIA",
+        "category":"DevOps",
+        "subcategory":"Linux",
+        "language":"english"
+    }
+]
+
+[
+    {
+        "name":"Linux",
+        "description":"Beginner friendly course to learn Linux in hindi from CodeWithHarry",
+        "url":"https://youtu.be/_tCY-c-sPZc",
+        "category":"DevOps",
+        "subcategory":"Linux",
+        "language":"hindi"
+    }
+]
+
+[
+    {
+        "name":"Linux",
+        "description":"Advanced Linux and Docker course by Kubesimplify",
+        "url":"https://www.youtube.com/watch?v=EUu1E_YKGTw&t=5369s",
+        "category":"DevOps",
+        "subcategory":"Linux",
+        "language":"english"
+    }
+]
