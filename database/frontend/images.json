@@ -68,5 +68,12 @@
     "url": "https://www.flickr.com/",
     "category": "frontend",
     "subcategory": "images"
+  },
+  {
+    "name": "Freepik",
+    "description": "Freepik offers designers free and premium vector graphics, stock photos, and PSD files. With millions of high-quality resources, it's the affordable go-to for design work.",
+    "url": "https://www.freepik.com/",
+    "category": "frontend",
+    "subcategory": "images"
   }
 ]
