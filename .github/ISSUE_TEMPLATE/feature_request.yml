@@ -1,7 +1,7 @@
 name: Feature Request 💡
 description: Have any new idea or new feature for LinksHub? Please suggest!
-title: "[Feature] <description>"
-labels: [" goal: addition"]
+title: "[Feature] <write a small description here>"
+labels: ["enhancement", "goal: addition"]
 body:
   - type: textarea
     id: description
@@ -17,10 +17,17 @@ body:
       description: Please add screenshots if applicable
     validations:
       required: false
-  - type: textarea
-    id: extrainfo
+  - type: checkboxes
+    id: no-duplicate-issues
     attributes:
-      label: Additional Information
-      description: Add any other context or anything else about this idea
-    validations:
-      required: false
+      label: "Checklist"
+      options:
+        - label: "I have checked the existing issues"
+          required: true
+
+        - label: "I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)"
+          required: true
+
+        - label: "I am willing to work on this issue (optional)"
+          required: false
+

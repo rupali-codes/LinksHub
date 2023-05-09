@@ -10,10 +10,16 @@ body:
       description: Provide a clear and concise explanation of your issue.
     validations: 
       required: true
-  - type: textarea
-    id: extrainfo
+  - type: checkboxes
+    id: no-duplicate-issues
     attributes:
-      label: Additional information
-      description: Is there anything else you want to add ?  
-    validations:
-      required: false
+      label: "Checklist"
+      options:
+        - label: "I have checked the existing issues"
+          required: true
+
+        - label: "I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)"
+          required: true
+
+        - label: "I am willing to work on this issue (optional)"
+          required: false
