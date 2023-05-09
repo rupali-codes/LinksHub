@@ -75,5 +75,12 @@
     "url": "https://www.freepik.com/",
     "category": "frontend",
     "subcategory": "images"
+  },
+  {
+    "name": "Life of Pix",
+    "description": "Life of Pix is a user-friendly platform that offers free, premium photos from skilled photographers worldwide with no copyright restrictions.",
+    "url": "https://www.lifeofpix.com/",
+    "category": "frontend",
+    "subcategory": "images"
   }
 ]
