@@ -10,7 +10,15 @@ export const Footer: FC = () => {
         <Link href="https://linkfree.io/rupali-codes" target="_blank">
           <span className="dark:text-gray-200 underline">Rupali Haldiya</span>
         </Link>{' '}
-        and <span className="dark:text-gray-200">open-source community</span>
+        and{' '}
+        <Link
+          href="https://github.com/rupali-codes/LinksHub/graphs/contributors"
+          target="_blank"
+        >
+          <span className="dark:text-gray-200 underline">
+           Open Source Community
+          </span>
+        </Link>
       </p>
     </footer>
   )

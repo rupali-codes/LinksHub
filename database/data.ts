@@ -63,6 +63,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'JavaScript', url: '/javascript' },
       { name: 'Python', url: '/python' },
       { name: 'Go', url: '/golang' },
+      { name: 'Csharp (C#)', url: '/csharp' }
     ],
   },
   {
@@ -71,6 +72,13 @@ export const sidebarData: ISidebar[] = [
       { name: 'Github', url: '/github' },
       { name: 'Dev Tools', url: '/devtools' },
       { name: 'Podcasts', url: '/podcasts' },
+    ],
+  },
+  {
+    category: 'opensource',
+    subcategory: [
+      { name: 'Blogs', url: '/opensource_blogs' },
+      { name: 'Projects', url: '/projects' },
     ],
   },
 ]
