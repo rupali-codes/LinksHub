@@ -1,11 +1,11 @@
-name: Add Link
-description: Use this template to add a new link to the database
-title: "[Add] <name>"
-labels: ["add link"]
+name: New Link 🔗
+description: Use this to add new link into the Hub
+title: "[Add] <write what you want to add>"
+labels: ["chore", "add link"]
 body:
   - type: input
     attributes:
-      label: URL
+      label: Site URL
       description: Provide complete/valid URL.
     validations:
       required: true
@@ -22,12 +22,26 @@ body:
         - Backend
         - Youtube
         - Resources
+        - Languages
         - Other
     validations:
       required: true
-  - type: textarea
+  - type: input
     attributes:
       label: Sub Category
-      description: Example -> "images", "fonts", "colors", "illustrations", "animations", "icons", "design inspiration", "testing", "themes & templates", "validation", "security", "authentication", "caching", "testings"
+      description: For example "images", "fonts", "colors", "illustrations", "animations", "icons", "design inspiration", "testing", "themes & templates", "validation", "security", "authentication", "caching", "testings"
     validations:
       required: true
+  - type: checkboxes
+    id: no-duplicate-issues
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I have checked the existing issues"
+          required: true
+
+        - label: "I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)"
+          required: true
+
+        - label: "I am willing to work on this issue (optional)"
+          required: false
