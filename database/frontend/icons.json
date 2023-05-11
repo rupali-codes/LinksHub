@@ -110,5 +110,12 @@
     "url": "https://tablericons.com/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Heroicons",
+    "description": "Heroicons is a comprehensive collection of high-quality SVG icons designed to enhance your web and mobile interfaces. With its extensive collection and easy integration, Heroicons empowers developers to add visually appealing and consistent icons to their projects effortlessly.",
+    "url": "https://heroicons.com/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
