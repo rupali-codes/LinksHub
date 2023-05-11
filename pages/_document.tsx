@@ -20,10 +20,21 @@ export default function Document() {
           content="https://res.cloudinary.com/dhnkuonev/image/upload/v1683805184/linkshub_gcahgs.png"
         />
         <meta property="og:site_name" content="LinksHub" />
+        {/* <!-- Twitter --> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://linkshub.vercel.app/" />
+        <meta
+          property="twitter:title"
+          content="LinksHub: A hub of ready-to-use tech resources"
+        />
         <meta
           property="twitter:description"
           content="LinksHub aims to provide developers with access to a wide range of free resources and tools that they can use in their work."
-        ></meta>
+        />
+        <meta
+          property="twitter:image"
+          content="https://res.cloudinary.com/dhnkuonev/image/upload/v1683805184/linkshub_gcahgs.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
