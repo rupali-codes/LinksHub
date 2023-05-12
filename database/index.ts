@@ -18,6 +18,8 @@ export { default as security } from "./backend/security.json";
 export { default as testing } from "./backend/testing.json";
 export { default as validation } from "./backend/validation.json";
 export { default as systemDesign } from "./backend/system-design.json";
+//devops
+export { default as linux } from "./devops/linux.json";
 // resources
 export { default as blogs } from "./resources/blogs.json";
 export { default as hosting } from "./resources/hosting.json";
