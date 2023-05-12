@@ -38,9 +38,10 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'devops',
     subcategory: [
-    { name: 'linux', url: '/linux' },
+      { name: 'linux', url: '/linux' },
     ],
   },
+]
   {
     category: 'youtube',
     subcategory: [
