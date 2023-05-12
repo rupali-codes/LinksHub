@@ -1,15 +1,8 @@
 name: ​🐞 Bug
 description: Report an issue to help us improve the project.
-title: "[BUG] <Title>"
-labels: ["Goal: fix"]
+title: "[BUG] <write a small description here>"
+labels: ["bug", "Goal: fix"]
 body:
-  - type: checkboxes
-    attributes:
-        label: Is there any existing issue for this?
-        description: Please search to see if an issue already exist for the bug you have encountered.
-        options:
-        - label: I have searched the existing issues
-          required: true
   - type: textarea
     attributes:  
       label: Description   
@@ -40,4 +33,18 @@ body:
         - Firefox
         - Chrome
         - Safari
-        - Microsoft Edge               
+        - Microsoft Edge      
+  - type: checkboxes
+    id: no-duplicate-issues
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I have checked the existing issues"
+          required: true
+
+        - label: "I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)"
+          required: true
+
+        - label: "I am willing to work on this issue (optional)"
+          required: false
+                 
