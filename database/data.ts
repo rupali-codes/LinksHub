@@ -36,6 +36,12 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'devops',
+    subcategory: [
+    { name: 'linux', url: '/linux' },
+    ],
+  },
+  {
     category: 'youtube',
     subcategory: [
       { name: 'web development', url: '/web-development' },
