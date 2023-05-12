@@ -103,5 +103,12 @@
     "url": "https://ionic.io/ionicons/v4",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Heroicons",
+    "description": "Heroicons offers high-quality SVG icons for web and mobile interfaces. With an extensive library and easy integration, it helps developers add consistent icons with ease.",
+    "url": "https://heroicons.com/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
