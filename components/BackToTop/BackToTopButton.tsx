@@ -47,6 +47,7 @@ export const BackToTopButton = () => {
       <button
         className="focus:animate-button-press rounded-full border border-white bg-violet-600 p-4 text-white shadow-xl duration-300 transition-colors focus:ring group-hover:border-dashed group-hover:border-violet-400 group-hover:bg-white dark:drop-shadow-[5px_5px_8px_rgba(124,58,237,0.25)] dark:group-hover:bg-[#101623] md:border-violet-600"
         onClick={handleClick}
+        title="Back to top"
       >
         <FaArrowUp className="group-hover:text-violet-500" />
       </button>
