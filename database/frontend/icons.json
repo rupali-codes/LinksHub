@@ -105,9 +105,9 @@
     "subcategory": "icons"
   },
   {
-    "name": "Heroicons",
-    "description": "Heroicons offers high-quality SVG icons for web and mobile interfaces. With an extensive library and easy integration, it helps developers add consistent icons with ease.",
-    "url": "https://heroicons.com/",
+    "name": "Boxicons",
+    "description": "Boxicons: 2,000+ elegant vector icons for websites, apps, and digital projects. Clean lines, easy customization.",
+    "url": "https://boxicons.com/",
     "category": "frontend",
     "subcategory": "icons"
   }
