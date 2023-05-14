@@ -105,6 +105,13 @@
     "subcategory": "icons"
   },
   {
+    "name": "Boxicons",
+    "description": "Boxicons offer 2,000+ elegant vector icons for websites, apps, and digital projects. Clean lines and easy customization.",
+    "url": "https://boxicons.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },  
+  {
     "name": "Tabler Icons",
     "description": "Tabler is a collection of more than 1,400 free, open source SVG icons. These icons are designed and developed to be easily customizable and suitable to suit your needs.",
     "url": "https://tablericons.com/",
