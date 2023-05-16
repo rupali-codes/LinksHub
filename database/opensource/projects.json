@@ -1,9 +1,16 @@
 [
-    {
-        "name": "LinkFree",
-        "description": "An Open Source alternative to LinkTree to showcase your projects, milestones, events, and content.",
-        "url": "https://github.com/EddieHubCommunity/LinkFree",
-        "category": "opensource",
-        "subcategory": "projects"
-    }
+  {
+    "name": "LinkFree",
+    "description": "An Open Source alternative to LinkTree to showcase your projects, milestones, events, and content.",
+    "url": "https://github.com/EddieHubCommunity/LinkFree",
+    "category": "opensource",
+    "subcategory": "projects"
+  },
+  {
+    "name": "Milan",
+    "description": "Milan is the place to connect users, charities, and NGOs thus connecting those who need help and need for a good cause.",
+    "url": "https://github.com/IAmTamal/Milan",
+    "category": "opensource",
+    "subcategory": "projects"
+  }
 ]
