@@ -17,7 +17,11 @@ export const SideNavbarCategoryList: FC<{
    * @description toggle the open state of the category and closes all other categories
    */
   const handleToggle = (category:Category, isOpen:boolean) => {
-    setIsItemsOpen([...items].map(item=>item.category===category?!isOpen:isOpen))
+    if(isOpen){
+      setIsItemsOpen([...items].map(()=>false))
+    } else {
+      setIsItemsOpen([...items].map(item=>item.category===category?!isOpen:isOpen))
+    }
   }
   return (
     <ul className="mt-2 flex flex-col justify-center px-4 pb-24">
