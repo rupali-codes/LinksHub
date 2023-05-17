@@ -12,5 +12,12 @@
     "url": "https://github.com/IAmTamal/Milan",
     "category": "opensource",
     "subcategory": "projects"
+  },
+  {
+    "name": "AsaKatsu",
+    "description": "A project where you can keep track of your goals' progress. 'AsaKatsu' is a Japanese term for waking up a little early to do something productive, aligned with a specific goal.",
+    "url": "https://github.com/asakatsuOrg/AsaKatsuProject",
+    "category": "opensource",
+    "subcategory": "projects"
   }
 ]
