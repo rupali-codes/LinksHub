@@ -43,8 +43,8 @@ export default function Home() {
             <TypewriterComponent
               options={{
                 strings: subCategoriesNames,
-                wrapperClassName: 'text-md text-violet-500',
-                cursorClassName: 'text-md text-violet-500',
+                wrapperClassName: 'text-md text-violet-600 dark:text-violet-400',
+                cursorClassName: 'text-md text-violet-600 dark:text-violet-400',
                 autoStart: true,
                 loop: true,
               }}
