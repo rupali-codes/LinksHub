@@ -40,6 +40,13 @@
         "url": "https://www.primefaces.org/",
         "category": "frontend",
         "subcategory": "themes-templates"
+    },
+    {
+        "name": "VistaCreate",
+        "description": "VistaCreate is a cost-free graphic design tool featuring a vast selection of templates for your convenience. Select your favorite template, customize it to fit your project, and effortlessly share or print it. Unleash the power of design to convey your brand's unique narrative.",
+        "url": "https://create.vista.com/",
+        "category": "frontend",
+        "subcategory": "themes-templates"
     }
 ]
  
