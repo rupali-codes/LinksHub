@@ -91,7 +91,7 @@ The subcategory object should follow this pattern
 * Use `type: subject` format for writing your commit messages. `type` could be one the followings:
   * `feat`: use this if you're adding any new feature
   * `fix`: use this if you're fixing anything in the codebase
-  * `chore`: use this when you're adding new links/resources 
+  * `chore`: use this when you're adding new links/resources AND when making any small changes
   (ex. chore: added *resource_name* in *subcategory* *category* )
 
 ## Making Pull Requests
