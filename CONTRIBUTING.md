@@ -74,12 +74,12 @@ The subcategory object should follow this pattern
 
 --- 
 ## Issues
-* Select an issue template from [issues](https://github.com/EddieHubCommunity/LinkFree/issues/new/choose) tab. Otherwise choose **Other** if it doesn't match what you're looking for.
-* When creating an issue make sure you fill up all the fields properly.
+* Select an issue template from [issues](https://github.com/EddieHubCommunity/LinkFree/issues/new/choose) tab. Otherwise, choose **Other** if it doesn't match what you're looking for.
+* When creating an issue, make sure you fill up all the fields properly.
 * Make sure that you are NOT raising a **duplicate issue**.
-* If you want to work on the issue, please tick *I am willing to work on this issue* checkmark. Then you can start working on the issue.
-* If you aren't the owner of the issue, please comment that you're willing to work on the issue and wait for maintainers to assign you the issue. Also don't work on the issue if you're NOT assigned.
-* Work on only ONE issue at a time
+* If you want to work on the issue, please click on the *I am willing to work on this issue* checkmark. Then, you can start working on the issue.
+* If you aren't the owner of the issue, please comment that you're willing to work on the issue and wait for maintainers to assign you the issue. Also, don't work on the issue if you're NOT assigned.
+* Work on only ONE issue at a time. 
   
 **Closing the issue**
 
