@@ -30,7 +30,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
 * A newly created category and subcategory should be added to the [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) & [index.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/index.ts) files
 * Each category has it's own folder with it's name
-* Every subcategory should be placed in it's respective category folder
+* Every subcategory should be placed in its respective category folder
   
   > i.e images should be inside Frontend folder
 
