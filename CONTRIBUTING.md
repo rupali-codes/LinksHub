@@ -74,7 +74,7 @@ The subcategory object should follow this pattern
 
 --- 
 ## Issues
-* Select an issue template from [issues](https://github.com/EddieHubCommunity/LinkFree/issues/new/choose) tab. Otherwise, choose **Other** if it doesn't match what you're looking for.
+* Select an issue template from [issues](https://github.com/rupali-codes/LinksHub/issues/new/choose) tab. Otherwise, choose **Other** if it doesn't match what you're looking for.
 * When creating an issue, make sure you fill up all the fields properly.
 * Make sure that you are NOT raising a **duplicate issue**.
 * If you want to work on the issue, please click on the *I am willing to work on this issue* checkmark. Then, you can start working on the issue.
