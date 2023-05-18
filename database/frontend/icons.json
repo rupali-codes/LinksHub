@@ -1,31 +1,32 @@
-[{
-        "name": "Font Awesome",
-        "description": "A highly popular icon font, consisting of 1000+ icons spread across countless categories.",
-        "url": "https://fontawesome.com/",
-        "category": "frontend",
-        "subcategory": "icons"
-    },
-    {
-        "name": "Phosphor Icons",
-        "description": "Another beautiful, more boxy SVG collection of free icons. Customizable thickness and color.",
-        "url": "https://phosphoricons.com/",
-        "category": "frontend",
-        "subcategory": "icons"
-    },
-    {
-        "name": "Flat Icon",
-        "description": "It is a collection of fully customisable PSD icons, in two styles, available to use on your next project.",
-        "url": "https://flaticon.com/",
-        "category": "frontend",
-        "subcategory": "icons"
-    },
-    {
-        "name": "Line Awesome",
-        "description": "It is a collection of fully customisable PSD icons, in two styles, available to use on your next project.",
-        "url": "https://icons8.com/line-awesome",
-        "category": "frontend",
-        "subcategory": "icons"
-    },
+[
+  {
+    "name": "Font Awesome",
+    "description": "A highly popular icon font, consisting of 1000+ icons spread across countless categories.",
+    "url": "https://fontawesome.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Phosphor Icons",
+    "description": "Another beautiful, more boxy SVG collection of free icons. Customizable thickness and color.",
+    "url": "https://phosphoricons.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Flat Icon",
+    "description": "It is a collection of fully customisable PSD icons, in two styles, available to use on your next project.",
+    "url": "https://flaticon.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Line Awesome",
+    "description": "It is a collection of fully customisable PSD icons, in two styles, available to use on your next project.",
+    "url": "https://icons8.com/line-awesome",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
   {
     "name": "Icon Sets",
     "description": "Icon-sets is a website that provides a collection of icons for designers and developers to use in their projects.",
@@ -68,33 +69,60 @@
     "category": "frontend",
     "subcategory": "icons"
   },
-{
-  "name": "Icons8",
-  "description": "Download design elements for free: icons,images etc. All the assets made by designers with consistent quality.",
-  "url": "https://icons8.com/",
-  "category": "frontend",
-  "subcategory": "icons"
-
-},
-{
-  "name": "React Icons",
-  "description": "Free, high quality, open source icon library for React Projects.",
-  "url": "https://react-icons.github.io/react-icons/",
-  "category": "frontend",
-  "subcategory": "icons"
-},
-{
-  "name": "Lordicon",
-  "description": "Free, high quality, open source animated icon library with over lots of icons.",
-  "url": "https://lordicon.com/",
-  "category": "frontend",
-  "subcategory": "icons"
-},
-{
-  "name": "Ionicons",
-  "description": "Ionicons is a great website that provides a bunch of premium designed icons for your web, iOS, Android, and desktop applications.",
-  "url": "https://ionic.io/ionicons/v4",
-  "category": "frontend",
-  "subcategory": "icons"
-}
+  {
+    "name": "PNGWing",
+    "description": "Free high-quality PNG images for personal and commercial use, searchable by category or keyword.",
+    "url": "https://pngwing.com",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Icons8",
+    "description": "Download design elements for free: icons,images etc. All the assets made by designers with consistent quality.",
+    "url": "https://icons8.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "React Icons",
+    "description": "Free, high quality, open source icon library for React Projects.",
+    "url": "https://react-icons.github.io/react-icons/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Lordicon",
+    "description": "Free, high quality, open source animated icon library with over lots of icons.",
+    "url": "https://lordicon.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Ionicons",
+    "description": "Ionicons is a great website that provides a bunch of premium designed icons for your web, iOS, Android, and desktop applications.",
+    "url": "https://ionic.io/ionicons/v4",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Boxicons",
+    "description": "Boxicons offer 2,000+ clean, elegant, and easily-customizable vector icons for websites, apps, and digital projects.",
+    "url": "https://boxicons.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Tabler Icons",
+    "description": "Tabler is a collection of more than 1,400 free, open source SVG icons. These icons are designed and developed to be easily customizable and suitable to suit your needs.",
+    "url": "https://tablericons.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Heroicons",
+    "description": "Heroicons is a versatile collection of SVG icons, empowering developers to effortlessly enhance their web and mobile interfaces with visually appealing and consistent icons.",
+    "url": "https://heroicons.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  }
 ]

@@ -32,6 +32,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'authentication', url: '/authentication' },
       { name: 'caching', url: '/caching' },
       { name: 'testing', url: '/testing' },
+      { name: 'system design', url: '/system-design' },
     ],
   },
   {
@@ -45,6 +46,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Android', url: '/android' },
       { name: 'Web3 & Metaverse', url: '/web3-metaverse' },
       { name: 'Testing', url: '/testing' },
+      { name: 'Computer Science', url: '/computer-science' },
     ],
   },
   {
@@ -61,6 +63,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'JavaScript', url: '/javascript' },
       { name: 'Python', url: '/python' },
       { name: 'Go', url: '/golang' },
+      { name: 'Csharp (C#)', url: '/csharp' }
     ],
   },
   {
@@ -69,6 +72,13 @@ export const sidebarData: ISidebar[] = [
       { name: 'Github', url: '/github' },
       { name: 'Dev Tools', url: '/devtools' },
       { name: 'Podcasts', url: '/podcasts' },
+    ],
+  },
+  {
+    category: 'opensource',
+    subcategory: [
+      { name: 'Blogs', url: '/opensource_blogs' },
+      { name: 'Projects', url: '/projects' },
     ],
   },
 ]
