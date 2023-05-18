@@ -1,5 +1,5 @@
-import { FC } from 'react'
-import type { ISidebar } from '../../types'
+import { FC, useState } from 'react'
+import type { ISidebar,Category } from '../../types'
 import { SideNavbarCategory } from './SideNavbarCategory'
 
 export const SideNavbarCategoryList: FC<{
@@ -7,6 +7,22 @@ export const SideNavbarCategoryList: FC<{
   openByDefault: string
 }> = (props) => {
   const { items, openByDefault } = props
+
+  const [isItemsOpen, setIsItemsOpen] = useState(items.map((item) => openByDefault === item.category))
+
+  /**
+   * @param category the category to toggle
+   * @param isOpen the current open state of the category
+   * @returns void
+   * @description toggle the open state of the category and closes all other categories
+   */
+  const handleToggle = (category:Category, isOpen:boolean) => {
+    if(isOpen){
+      setIsItemsOpen([...items].map(()=>false))
+    } else {
+      setIsItemsOpen([...items].map(item=>item.category===category?!isOpen:isOpen))
+    }
+  }
   return (
     <ul className="mt-2 flex flex-col justify-center px-4 pb-24">
       {items.length !== 0 ? (
@@ -16,6 +32,8 @@ export const SideNavbarCategoryList: FC<{
               key={index}
               item={item}
               openByDefault={openByDefault}
+              handleToggle={handleToggle}
+              isOpen={isItemsOpen[index]}
             />
           )
         })
