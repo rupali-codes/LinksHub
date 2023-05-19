@@ -68,5 +68,12 @@
     "url": "https://weareskribbl.com/",
     "category": "frontend",
     "subcategory": "illustrations"
+  },
+  {
+    "name": "Humaaans",
+    "description": "Humaaans is a flexible illustration library that simplifies visual storytelling. With diverse customizable human figures, it offers a wide range of poses and clothing options for inclusive and unique illustrations. Create captivating visuals effortlessly for websites, presentations, and more. Customize, mix, and match vector illustrations to bring your stories to life.",
+    "url": "https://humaaans.com/",
+    "category": "frontend",
+    "subcategory": "illustrations"
   }
 ]
