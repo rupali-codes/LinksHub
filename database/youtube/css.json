@@ -30,13 +30,5 @@
     "category": "youtube",
     "subcategory": "css",
     "language": "english"
-  },
-  {
-    "name": "CSS Diner",
-    "description": "It's a fun game to learn and practice CSS selectors.",
-    "url": "https://flukeout.github.io/",
-    "category": "youtube",
-    "subcategory": "css",
-    "language": "english"
   }
 ]
