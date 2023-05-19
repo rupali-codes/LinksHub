@@ -3,29 +3,36 @@
         "name": "JavaScript Info",
         "description": "It is a modern JavaScript tutorial that provides detailed explanation, examples, and tasks.",
         "url": "https://javascript.info/",
-        "category": "Other",
+        "category": "languages",
         "subcategory": "javascript"
     },
     {
         "name": "JavaScript-Tutorial",
         "description": "It helps you quickly and effectively learn JavaScript.",
         "url": "https://www.javascripttutorial.net/",
-        "category": "Other",
+        "category": "languages",
         "subcategory": "javascript"
     },
     {
         "name": "Eloquent Javascript",
         "description": "This  book explains the concepts of JavaScript with real-life examples",
         "url": "https://eloquentjavascript.net/",
-        "category": "Other",
+        "category": "languages",
         "subcategory": "javascript"
     },
-       {
+    {
         "name": "Learn Javascript Online",
         "description": "This website teaches Javascript in an interactive way. You can read short lessons, take notes, and complete challenges directly in your browser.",
         "url": "https://learnjavascript.online/",
-        "category": "Other",
+        "category": "languages",
         "subcategory": "javascript"
+    },
+    {
+        "name": "Exercism",
+        "description": "This website provides programming exercises and challenges to help developers improve their skills in a variety of programming languages, including JavaScript.",
+        "url": "https://exercism.org/tracks/javascript",
+        "category": "languages",
+        "subcategory": "javascript" 
     }
     
 ]

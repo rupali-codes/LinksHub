@@ -18,6 +18,7 @@ export function ThemeToggler() {
       onClick={() => {
         setTheme(resolvedTheme === "dark" ? "light" : "dark");
       }}
+      title={`Toggle dark mode (current state: ${resolvedTheme})`}
     >
       {resolvedTheme === "dark" ? (
         <HiSun
