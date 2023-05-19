@@ -33,6 +33,20 @@
         "url": "https://exercism.org/tracks/javascript",
         "category": "languages",
         "subcategory": "javascript" 
+    },
+    {
+        "name": "Learn Javascript",
+        "description": "Learn the basics of JavaScript by solving 140+ interactive coding challenges. Along the way you will build a game, a browser extension, and even a mobile app!",
+        "url": "https://scrimba.com/learn/learnjavascript",
+        "category": "languages",
+        "subcategory": "javascript" 
+    },
+    {
+        "name": "The Complete JavaScript Course: From Zero to Expert!",
+        "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+        "url": "https://www.udemy.com/course/the-complete-javascript-course/",
+        "category": "languages",
+        "subcategory": "javascript" 
     }
     
 ]
