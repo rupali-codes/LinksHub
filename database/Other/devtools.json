@@ -40,5 +40,12 @@
     "url": "https://codesandbox.io/search?refinementList",
     "category": "Other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "Thunder Client",
+    "description": "Thunder Client is a lightweight API Client extension for VS Code which is helpful in testing APIs.",
+    "url": "https://www.thunderclient.com/",
+    "category": "Other",
+    "subcategory": "devtools"
   }
 ]
