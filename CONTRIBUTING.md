@@ -87,7 +87,7 @@ The subcategory object should follow this pattern
 * **Note:** If the Pull Request associated with the issue gets merged and the issue still remains open, it's **your** responsibility to close the issue. 
 
 ## Commits
-* Please keep your commit message short and clear.
+* Please keep your commit messages short and clear.
 * Use `type: subject` format for writing your commit messages. `type` could be one the followings:
   * `feat`: use this if you're adding any new feature
   * `fix`: use this if you're fixing anything in the codebase
