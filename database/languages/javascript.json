@@ -40,13 +40,6 @@
         "url": "https://scrimba.com/learn/learnjavascript",
         "category": "languages",
         "subcategory": "javascript" 
-    },
-    {
-        "name": "The Complete JavaScript Course: From Zero to Expert!",
-        "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges, and theory. You get many courses in one!",
-        "url": "https://www.udemy.com/course/the-complete-javascript-course/",
-        "category": "languages",
-        "subcategory": "javascript" 
     }
     
 ]
