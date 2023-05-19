@@ -38,7 +38,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
   
   > i.e Resources
 
-* Make sure to Export the newly created json file on the index file
+* Make sure to export the newly created json file on the index file
 
 The subcategory object should follow this pattern
 
@@ -63,12 +63,12 @@ The subcategory object should follow this pattern
   * `subcategory`: could be one of the existing categories or create a new one by following the above instructions
 
 **NOTE**
-   When adding *YouTube* channel link please specify *language* of the channel they are using to teach in for example English, Hindi, Spanish etc. In case language is NOT specified then just remove the language property. 
+   When adding *YouTube* channel link, please specify *language* of the channel they are using to teach in for example English, Hindi, Spanish etc. In cases where the language is NOT specified, then just remove the `language` property. 
 
   
 > **⚠️Important**
 >
-> - Do not make duplicate entries (always confirm that an entry does not exist by searching through the JSON file.
+> - **Do not** make duplicate entries. Always confirm that an entry does not exist by searching through the JSON file.
 > - Ensure that your entries are error-free by double-checking before staging your changes.
 > - Your entries should follow the above structure.
 
@@ -111,4 +111,6 @@ If you need more tips, check out [Conventional Commits](https://www.conventional
 --- 
 ## Remarks ✅
 
-If something is missing here, or you feel something is not well described, either directly create a PR or [create an issue](https://github.com/rupali-codes/LinksHub/issues).
+- If something is missing here, or you feel something is not well described, either create a PR, [raise an issue](https://github.com/rupali-codes/LinksHub/issues), or [do a code review of the person’s PR](https://www.freecodecamp.org/news/code-review-tips/)(ensure that your review conforms to the [Code of Conduct](https://github.com/CBID2/LinksHub-my-version-/blob/main/CODE_OF_CONDUCT.md)
+
+
