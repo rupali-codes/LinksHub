@@ -93,7 +93,7 @@ The subcategory object should follow this pattern
   * `fix`: use this if you're fixing anything in the codebase
   * `chore`: use this when you're adding new links/resources AND when making any small changes
   (ex. chore: added *resource_name* in *subcategory* *category* )
-
+If you need more tips, check out [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 ## Making Pull Requests
 
 1. When you submit a pull request, several tests are automatically run
