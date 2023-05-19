@@ -83,8 +83,8 @@ The subcategory object should follow this pattern
   
 **Closing the issue**
 
-* While closing the issue, please leave a reasonable comment that Why you're closing the issue
-* If the Pull Request associated with issue get's mereged and the issue still remains open, it's you're responsibility to close the issue
+* If you decide to close the issue, please leave a brief comment describing why(e.g., I'm busy with other obligations.) before you do. 
+* **Note:** If the Pull Request associated with the issue gets merged and the issue still remains open, it's **your** responsibility to close the issue. 
 
 ## Commits
 * Please keep your commit message short and clear.
