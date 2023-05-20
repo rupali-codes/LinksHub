@@ -1,29 +1,23 @@
-import { FC, useEffect, useState } from "react";
+import { FC } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import { SideNavbarElement } from "./SideNavbarElement";
-import type { ISidebar } from "../../types";
+import type { ISidebar,Category } from "../../types";
 
 export const SideNavbarCategory: FC<{
   item: ISidebar;
   openByDefault: string;
+  handleToggle: (category:Category, isOpen:boolean) => void;
+  isOpen: boolean;
 }> = (props) => {
-  const { item, openByDefault } = props;
-
-  const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    if (openByDefault === item.category) {
-      setIsOpen(true);
-    }
-  }, [item.category, openByDefault]);
+  const { item, isOpen } = props;
 
   const handleToggle = () => {
-    setIsOpen((prevState) => !prevState);
+    props.handleToggle(item.category, isOpen);
   };
 
   let subcategoryList = null;
 
-  if (isOpen) {
+  if (props.isOpen) {
     subcategoryList = (
       <ul className="relative ml-1 border-l-2 border-slate-300 dark:border-slate-700 -pl-0.5">
         {item.subcategory
