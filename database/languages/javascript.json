@@ -33,6 +33,13 @@
         "url": "https://exercism.org/tracks/javascript",
         "category": "languages",
         "subcategory": "javascript" 
+    },
+    {
+        "name": "Learn Javascript",
+        "description": "Learn the basics of JavaScript by solving 140+ interactive coding challenges. Along the way, you will build a game, a browser extension, and a mobile app!",
+        "url": "https://scrimba.com/learn/learnjavascript",
+        "category": "languages",
+        "subcategory": "javascript" 
     }
     
 ]
