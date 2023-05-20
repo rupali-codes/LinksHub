@@ -43,7 +43,7 @@
   },
   {
     "name": "Thunder Client",
-    "description": "Thunder Client is a lightweight API Client extension for VS Code which is helpful in testing APIs.",
+    "description": "Thunder Client is a lightweight API Client extension for VS Code. This tool is helpful in testing APIs.",
     "url": "https://www.thunderclient.com/",
     "category": "Other",
     "subcategory": "devtools"
