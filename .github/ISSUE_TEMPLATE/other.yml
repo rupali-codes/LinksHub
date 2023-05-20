@@ -23,3 +23,8 @@ body:
 
         - label: "I am willing to work on this issue (optional)"
           required: false
+        
+        - label: "I am a GSSoC'23 contributor"
+          required: false
+          onChecked: "labels.add('gssoc23')"
+          onUnchecked: "labels.remove('gssoc23')"

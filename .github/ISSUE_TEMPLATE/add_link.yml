@@ -1,7 +1,7 @@
 name: New Link 🔗
 description: Use this to add new link into the Hub
 title: "[Add] <write what you want to add>"
-labels: ["chore", "add link"]
+labels: ["chore", "goal: new-link"]
 body:
   - type: input
     attributes:
@@ -45,3 +45,8 @@ body:
 
         - label: "I am willing to work on this issue (optional)"
           required: false
+        
+        - label: "I am a GSSoC'23 contributor"
+          required: false
+          onChecked: "labels.add('gssoc23')"
+          onUnchecked: "labels.remove('gssoc23')"
