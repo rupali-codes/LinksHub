@@ -61,5 +61,13 @@
     "category": "youtube",
     "subcategory": "dsa",
     "language": "english"
+},
+{
+    "name": "Anuj Bhaiya",
+    "description": "Explanations of DSA concepts in a single resource, covering both CPP and Java. The explanations are provided in Hindi, making it accessible and easier to understand.",
+    "url": "https://www.youtube.com/playlist?list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p",
+    "category": "youtube",
+    "subcategory": "dsa",
+    "language": "english"
 }
 ]
