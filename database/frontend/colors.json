@@ -75,5 +75,12 @@
     "url": "https://materialui.co/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  {
+    "name": "ColorMagic",
+    "description": "ColorMagic is a color palette generator with AI. Generate colors from keyword for image of color you enter.",
+    "url": "https://colormagic.app/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
