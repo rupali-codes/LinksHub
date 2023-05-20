@@ -80,7 +80,7 @@ The subcategory object should follow this pattern
 * If you want to work on the issue, please click on the *I am willing to work on this issue* checkmark. Then, you can start working on the issue.
 * If you aren't the owner of the issue, please comment that you're willing to work on the issue and wait for maintainers to assign you the issue. Also, don't work on the issue if you're NOT assigned.
 * Work on only ONE issue at a time. 
-  
+
 **Closing the issue**
 
 * If you decide to close the issue, please leave a brief comment describing why(e.g., I'm busy with other obligations.) before you do. 
@@ -94,7 +94,13 @@ The subcategory object should follow this pattern
   * `chore`: use this when you're adding new links/resources AND when making any small changes
   (ex. chore: added *resource_name* in *subcategory* *category* )
 If you need more tips, check out [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-## Making Pull Requests
+
+> **⚠️Important**
+> 
+> - If YOU are a [GSSoC'23](https://gssoc.girlscript.tech/) contributor make sure to follow this format:
+> - **chore: _description_ (gssoc23)**
+  
+## Pull Requests
 
 1. When you submit a pull request, several tests are automatically run
    as GitHub Actions. If any of these tests fail, it is your responsibility to try and resolve the underlying issue(s). If you don't know how to resolve the underlying issue(s), you can ask for help.
