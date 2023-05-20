@@ -10,7 +10,7 @@
   - [Socials 📱](#socials-)
   - [Getting Started 👩‍💻](#getting-started-)
   - [Let's jump right in🌟](#lets-jump-right-in)
-  - [_Want to add your favorite links into the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
+  - [Want to add your favorite links into the Hub? make sure to follow CONTRIBUTING guidelines.](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
   - [Building with Gitpod 💣](#building-with-gitpod-)
   - [Our Contributors ✨](#our-contributors-)
   - [License 📝](#license-)
