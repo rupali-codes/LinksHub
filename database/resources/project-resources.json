@@ -20,6 +20,13 @@
     "subcategory": "project-resources"
 },
 {
+    "name": "React.Js Projects",
+    "description": "This website provides free eight React.Js projects with source code.",
+    "url": "https://www.freecodecamp.org/news/react-projects-to-improve-your-skills/",
+    "category": "resources",
+    "subcategory": "project-resources"
+},
+{
     "name": "Machine Learning Projects",
     "description": "This website provides free Machine Learning Projects from beginners to advanced with source code.",
     "url": "https://www.interviewbit.com/blog/machine-learning-projects/",
