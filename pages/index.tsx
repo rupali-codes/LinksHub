@@ -22,8 +22,8 @@ export default function Home() {
       </Head>
       <main className="lg:h-[calc(100vh-99px)] h-[calc(100vh-150px)] flex flex-col">
         <TopBar header="Home" />
-        <div className=" m-auto flex flex-col  items-start gap-2">
-            <div className="m-auto md:text-7xl text-5xl gap-2 flex items-center justify-center">
+        <article className=" m-auto flex flex-col  items-start gap-2">
+            <article className="m-auto md:text-7xl text-5xl gap-2 flex items-center justify-center">
               <Logo />
               <span>👾</span> 
 
