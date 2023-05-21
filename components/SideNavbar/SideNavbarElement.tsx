@@ -19,7 +19,7 @@ export const SideNavbarElement = ({ name, url }: SubCategories) => {
       } collapse w-full text-start pl-3 hover:text-violet-500 dark:hover:text-violet-300 
       focus-visible:outline-none focus-visible:ring focus-visible:ring-violet-400 focus-visible:rounded-lg`}
     >
-      <div className="ml-2 text-lg py-2 capitalize transition-all duration-300 hover:pl-2 dark:border-purple-600">
+      <div className="ml-2 text-lg py-2 capitalize transition-all duration-300 hover:pl-2 dark:border-violet-500">
         {name} 
       </div>
     </Link>
