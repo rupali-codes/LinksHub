@@ -1,9 +1,36 @@
 [{
-    "name": "HTML Projects",
+    "name": "HTML & CSS Projects",
     "description": "test.",
-    "url": "https://geeksforgeeks.com",
+    "url": "https://www.geeksforgeeks.org/top-10-projects-for-beginners-to-practice-html-and-css-skills/",
+    "category": "resources",
+    "subcategory": "project"
+},
+{
+    "name": "Python Projects",
+    "description": "123456.",
+    "url": "https://www.freecodecamp.org/news/python-projects-for-beginners/",
+    "category": "resources",
+    "subcategory": "project"
+},
+{
+    "name": "Flutter Projects",
+    "description": "xyz.",
+    "url": "https://www.interviewbit.com/blog/flutter-projects/",
+    "category": "resources",
+    "subcategory": "project"
+},
+{
+    "name": "JavaScript Projects",
+    "description": "lorem ipsum.",
+    "url": "https://www.interviewbit.com/blog/javascript-projects/",
+    "category": "resources",
+    "subcategory": "project"
+},
+{
+    "name": "Machine Learning Projects",
+    "description": "ml.",
+    "url": "https://www.interviewbit.com/blog/machine-learning-projects/",
     "category": "resources",
     "subcategory": "project"
 }
-
 ]
