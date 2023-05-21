@@ -1,3 +1,9 @@
 [
-    
+    {
+        "name": "TutorialsTeacher",
+        "description": "This site teaches fundamentals of the Go programming language in a simplified way",
+        "url": "https://www.tutorialsteacher.com/go/",
+        "category": "Languages",
+        "subcategory": "golang"
+    }
 ]
