@@ -7,7 +7,7 @@ interface FooterProps {}
 
 export const Footer: FC<FooterProps> = ({}) => {
   return (
-    <div className="bottom-4 dark:bg-[#101623] bg-gray-100 transition-all ease-in duration-300 w-full flex items-baseline justify-center z-10 gap-1 rounded-lg bg-[#ffffff0a] backdrop-blur-md sm:py-3 py-2 px-1 md:mt-[1.9rem]">
+    <article className="bottom-4 dark:bg-[#101623] bg-gray-100 transition-all ease-in duration-300 w-full flex items-baseline justify-center z-10 gap-1 rounded-lg bg-[#ffffff0a] backdrop-blur-md sm:py-3 py-2 px-1 md:mt-[1.9rem]">
       <p className="md:text-lg text-center text-black dark:text-gray-100">
         Open source |{" "}
         <Link
