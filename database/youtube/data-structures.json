@@ -1,7 +1,7 @@
 [
   {
     "name": "Jennys Lectures CSIT",
-    "description": "This channel provides free courses for DSA, C, C++, Python etc.",
+    "description": "This channel provides free courses for DSA, C, C++, Python, etc.",
     "url": "https://www.youtube.com/@JennyslecturesCSIT",
     "category": "youtube",
     "subcategory": "dsa",
@@ -25,7 +25,7 @@
   },
   {
     "name": "CodeWithHarry",
-    "description": "A all in one destination for DSA, Python, C++, JavaScript, Nodejs, Java, PHP & many more.",
+    "description": "An all-in-one destination for DSA, Python, C++, JavaScript, Nodejs, Java, PHP & many more.",
     "url": "https://www.youtube.com/@CodeWithHarry/playlists",
     "category": "youtube",
     "subcategory": "dsa",
@@ -41,7 +41,7 @@
   },
   {
     "name": "take U forward",
-    "description": "One of the best channel for DSA, you will find the thought process behind every problem and not just simple algorithms.",
+    "description": "One of the best channels for DSA. Here, you will find the thought process behind every problem and not just simple algorithms.",
     "url": "https://www.youtube.com/@takeUforward/featured",
     "category": "youtube",
     "subcategory": "dsa",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Pepcoding",
-    "description": "One of the best channel for DSA in Java and helpful for both students and working professionals.",
+    "description": "One of the best channels for DSA and Java. It is also helpful for both students and working professionals.",
     "url": "https://www.youtube.com/@Pepcoding/featured",
     "category": "youtube",
     "subcategory": "dsa",
@@ -65,7 +65,7 @@
   },
   {
     "name": "Anuj Bhaiya",
-    "description": "Explanations of DSA concepts in a single resource, covering both CPP and Java.",
+    "description": "Explanations of DSA concepts are provided in this resource. It also covers both CPP and Java.",
     "url": "https://www.youtube.com/playlist?list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p",
     "category": "youtube",
     "subcategory": "dsa",
