@@ -55,7 +55,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'blogs', url: '/blogs' },
       { name: 'hosting', url: '/hosting' },
       {name : 'e-book', url:'/e-book'},
-      { name: 'projects', url:'/project'}
+      { name: 'projects', url:'/project-resources'}
     ],
   },
   {
