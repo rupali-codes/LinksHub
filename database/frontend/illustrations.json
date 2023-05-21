@@ -75,5 +75,12 @@
     "url": "https://humaaans.com/",
     "category": "frontend",
     "subcategory": "illustrations"
+  },
+  {
+    "name": "Open Doodles",
+    "description": "Open Doodles is a vibrant collection of freely-usable illustrations that add personality to any project. With diverse hand-drawn characters, objects, and backgrounds, Open Doodles sparks creativity for designers, developers, and content creators. Enhance websites, presentations, and social media with these charming doodles. Let your imagination flow with the expressive world of Open Doodles.",
+    "url": "https://opendoodles.com/",
+    "category": "frontend",
+    "subcategory": "illustrations"
   }
 ]
