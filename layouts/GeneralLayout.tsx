@@ -9,7 +9,7 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
       <div className="mx-auto mt-[4rem] min-h-[calc(100vh-85px)] bg-gray-100 px-4 pb-[1rem] transition-all duration-300 ease-in dark:bg-[#101623] lg:mt-0 lg:pl-[290px]">
         {children}
         <Footer />
-      </div>
+      </article>
     </section>
   );
 };
