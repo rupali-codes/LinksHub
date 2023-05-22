@@ -39,7 +39,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'machine learning', url: '/ml' },
       { name: 'data science', url: '/data-science'},
-      { name: 'deep-learning', url : '/deep-learning'},
+      { name: 'deep learning', url : '/deep-learning'},
     ],
   },
   {
