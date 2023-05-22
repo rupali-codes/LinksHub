@@ -21,6 +21,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'themes & templates', url: '/themes-templates' },
       { name: 'UI Generators', url: '/ui-generator' },
       { name: 'online code editors', url: '/online-code-editors' },
+      { name: 'CSS In JS', url: '/css-in-js' }
     ],
   },
   {
