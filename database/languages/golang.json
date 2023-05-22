@@ -1,3 +1,9 @@
 [
-    
+  {
+    "name": "Hitesh Choudhary",
+    "description": "This playlist contains all the concepts of Golang along with two mini projects",
+    "url": "https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa",
+    "category": "youtube",
+    "subcategory": "golang"
+  }
 ]

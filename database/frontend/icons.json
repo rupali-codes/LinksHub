@@ -124,5 +124,12 @@
     "url": "https://heroicons.com/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Animated Fluent Emojis",
+    "description": "Animated Fluent Emojis are cool looking animated emojis which can be used in README files or your web developemt projects",
+    "url": "https://animated-fluent-emoji.vercel.app/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]

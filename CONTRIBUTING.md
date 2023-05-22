@@ -75,12 +75,16 @@ The subcategory object should follow this pattern
 --- 
 ## Issues
 * Select an issue template from [issues](https://github.com/rupali-codes/LinksHub/issues/new/choose) tab. Otherwise, choose **Other** if it doesn't match what you're looking for.
-* When creating an issue, make sure you fill up all the fields properly.
+* When creating an issue, make sure you fill up all the fields properly. 
 * Make sure that you are NOT raising a **duplicate issue**.
-* If you want to work on the issue, please click on the *I am willing to work on this issue* checkmark.
+* If you want to work on the issue, please click on the *I am willing to work on this issue* checkmark. 
+* **Note:** If you are apart of GSSoC'23, please check the *I am a GSSoC'23 contributor* check mark as shown in the image below:  
+![issue checkmark for gssoc'23](https://github.com/CBID2/LinksHub-my-version-/assets/105683440/c31b245d-420a-4513-bb58-d6be8b2fcdb1)
+ * **Do not create the PR until you have confirmed with the maintainers that you are participating in this program** 
+ 
 * If you aren't the owner of the issue, please comment that you're willing to work on the issue and wait for maintainers to assign you the issue. Also, don't work on the issue if you're NOT assigned.
 * Please do **not** start working on the issue if you aren't yet assigned.
-* Wwork on only ONE issue at a time. 
+* Work on only **ONE** issue at a time. 
   
 **Closing the issue**
 
