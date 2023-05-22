@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "name": "Firebase Authentication",
+        "description": "This guide provides information on best practices and patterns for building applications using Firebase.",
+        "url": "https://firebase.google.com/docs/auth/",
+        "category": "backend",
+        "subcategory": "authentication"
+    }
+]
