@@ -30,5 +30,13 @@
     "category": "youtube",
     "subcategory": "css",
     "language": "english"
+  },
+  {
+    "name": "CSS by Apna College",
+    "description": "This will help beginners get the basic knowledge of CSS & get them started.",
+    "url": "https://www.youtube.com/watch?v=sqJ6xZ9mUwE&list=PL4PaOIHsZcwJ5WLSMeOCrlmrLdphfhcpo",
+    "category": "youtube",
+    "subcategory": "css",
+    "language": "hindi"
   }
 ]
