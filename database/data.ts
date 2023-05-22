@@ -5,7 +5,6 @@ import { v4 as uuidv4 } from 'uuid'
 export const database: IData[][] = Object.values(DB).map((item: IDBData[]) =>
   item.map((subcat) => ({ ...subcat, id: uuidv4() }))
 )
-console.log(database)
 export const sidebarData: ISidebar[] = [
   {
     category: 'frontend',
