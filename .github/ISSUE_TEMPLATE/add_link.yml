@@ -18,6 +18,7 @@ body:
     attributes:
       label: Category
       options:
+        - Open Source
         - Frontend
         - Backend
         - Youtube
