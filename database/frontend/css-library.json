@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Bootstrap",
+    "description": "Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.",
+    "url": "https://getbootstrap.com/",
+    "category": "frontend",
+    "subcategory": "css-library"
+  },
+  {
+    "name": "Tailwind CSS",
+    "description": "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
+    "url": "https://tailwindcss.com/",
+    "category": "frontend",
+    "subcategory": "css-library"
+  },
+  {
+    "name": "Material UI",
+    "description": "MUI offers a comprehensive suite of UI tools to help you ship new features faster. Start with Material UI, our fully-loaded component library, or bring your own design system to our production-ready components.",
+    "url": "https://mui.com/",
+    "category": "frontend",
+    "subcategory": "css-library"
+  },
+  {
+    "name": "Foundation",
+    "description": "A Framework for any device, medium, and accessibility. Foundation is a family of responsive front-end frameworks that make it easy to design beautiful responsive websites, apps and emails that look amazing on any device. Foundation is semantic, readable, flexible, and completely customizable. We’re constantly adding new resources and code snippets, including these handy HTML templates to help get you started!",
+    "url": "https://get.foundation/",
+    "category": "frontend",
+    "subcategory": "css-library"
+  },
+  {
+    "name": "Semantic UI",
+    "description": "Semantic is a development framework that helps create beautiful, responsive layouts using human-friendly HTML.",
+    "url": "https://semantic-ui.com/",
+    "category": "frontend",
+    "subcategory": "css-library"
+  }
+]
