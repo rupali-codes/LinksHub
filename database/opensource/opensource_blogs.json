@@ -5,5 +5,19 @@
       "url": "https://chrissycodes.hashnode.dev/",
       "category": "opensource",
       "subcategory": "opensource_blogs"
+   },
+   {
+      "name": "Ways to get more contributors to your open source project",
+      "description": "Several ways to get more contributors to your Open Source project.",
+      "url": "https://blog.pradumnasaraf.dev/ways-to-get-more-contributors-to-your-open-source-project",
+      "category": "opensource",
+      "subcategory": "opensource_blogs"
+   },
+   {
+      "name": "How to make your first pull request on Github",
+      "description": "This blog will help you to make your first pull request on Github",
+      "url": "https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/",
+      "category": "opensource",
+      "subcategory": "opensource_blogs"
    }
 ]
