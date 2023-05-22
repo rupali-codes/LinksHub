@@ -88,5 +88,12 @@
        "url": "https://news.ycombinator.com/",
        "category": "resources",
        "subcategory": "blogs"
-   }
+   },
+   {
+    "name": "Alison",
+    "description": "Alison is a free online learning platform that allows students to take individual courses eg HTML, CSS, JavaScript, etc.",
+    "url": "https://alison.com/",
+    "category": "resources",
+    "subcategory": "blogs"
+}
 ]
