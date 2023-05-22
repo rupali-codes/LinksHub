@@ -5,5 +5,19 @@
         "url": "https://www.tutorialsteacher.com/csharp/",
         "category": "Languages",
         "subcategory": "csharp (C#)"
+    },
+    {
+        "name": "Introduction to C#",
+        "description": "A beginner friendly interactive tutorial to C# by Microsoft itself.",
+        "url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/",
+        "category": "Languages",
+        "subcategory": "csharp (C#)"
+    },
+    {
+        "name": "Programiz",
+        "description": "A nice and beginner friendly tutorial for C#.",
+        "url": "https://www.programiz.com/csharp-programming",
+        "category": "Languages",
+        "subcategory": "csharp (C#)"
     }
 ]

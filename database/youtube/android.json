@@ -13,4 +13,12 @@
     "category": "youtube",
     "subcategory": "android",
     "language": "english"
+},
+{
+    "name": "Android Development Tutorial for Beginners",
+    "description": "This playlist is a beginner friendly course to get you started with android development.",
+    "url": "https://www.youtube.com/playlist?list=PLUcsbZa0qzu3Mri2tL1FzZy-5SX75UJfb",
+    "category": "youtube",
+    "subcategory": "android",
+    "language": "hindi"
 }]

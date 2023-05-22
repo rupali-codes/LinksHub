@@ -88,5 +88,12 @@
        "url": "https://news.ycombinator.com/",
        "category": "resources",
        "subcategory": "blogs"
-   }
+   },
+   {
+    "name": "Code With Harry",
+    "description": "This website contains tutorials, cheatsheets, notes etc. on many topics.",
+    "url": "https://www.codewithharry.com/",
+    "category": "resources",
+    "subcategory": "blogs"
+}
 ]

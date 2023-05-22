@@ -5,5 +5,20 @@
         "url": "https://www.codecademy.com/learn/learn-python-3",
         "category": "languages",
         "subcategory": "python"
+    },
+    {
+        "name": "Learn Python Programming",
+        "description": "Python Programming tutorial by Programiz",
+        "url": "https://www.programiz.com/python-programming",
+        "category": "languages",
+        "subcategory": "python"
+    },
+    {
+        "name": "100 days of Python",
+        "description": "A 100 days of code challenge to learn python from basics to advanced.",
+        "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg",
+        "category": "youtube",
+        "subcategory": "python",
+        "language": "hindi"
     }    
 ]

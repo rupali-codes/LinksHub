@@ -40,6 +40,13 @@
         "url": "https://scrimba.com/learn/learnjavascript",
         "category": "languages",
         "subcategory": "javascript" 
+    },
+    {
+        "name": "Learn JavaScript Programming",
+        "description": "Javascript tutorial by Programiz.",
+        "url": "https://www.programiz.com/javascript",
+        "category": "languages",
+        "subcategory": "javascript" 
     }
     
 ]

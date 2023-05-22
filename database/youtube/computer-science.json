@@ -5,6 +5,14 @@
     "url": "https://www.youtube.com/@GateSmashers",
     "category": "youtube",
     "subcategory": "computer-science",
-    "language": "english"
+    "language": "hindi"
+  },
+  {
+    "name": "5-minute Engineering",
+    "description": "This channel provides simple explation of many concepts in many subjects where the videos are not very long.",
+    "url": "https://www.youtube.com/@5MinutesEngineering/playlists",
+    "category": "youtube",
+    "subcategory": "computer-science",
+    "language": "hindi"
   }
 ]
