@@ -134,5 +134,13 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
+  },
+  {
+    "name": "Hyperplexed",
+    "description": "This channel teached web development in a very intuitive manner by recreating awesome stuff, in a very easy manner, and in a very short amount of time",
+    "url": "https://www.youtube.com/@Hyperplexed",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
   }
 ]
