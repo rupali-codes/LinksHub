@@ -62,5 +62,13 @@
     "category": "youtube",
     "subcategory": "dsa",
     "language": "english"
+  },
+  {
+    "name": "MIT OpenCourseWare",
+    "description": "Explanation of Algorithms concepts. The resources for Algorithm are limited but this course is one of the best Algorithm resource available on Web.",
+    "url": "https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
+    "category": "youtube",
+    "subcategory": "dsa",
+    "language": "english"
   }
 ]
