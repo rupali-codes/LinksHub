@@ -75,5 +75,12 @@
     "url": "https://shadows.brumm.af/",
     "category": "frontend",
     "subcategory": "ui-generators"
+  },
+  {
+    "name": "Flowbite",
+    "description": "An open-source library of over 600+ UI components, sections, and pages built with the utility classes from Tailwind CSS.",
+    "url": "https://flowbite.com/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
   }
 ]
