@@ -4,26 +4,26 @@
 
 ## Files
 
-- README.md: @CBID2
-- Documentation: @CBID2
-- .gitignore: @CBID2 and @rupali-codes
-- LICENSE: @rupali-codes
-- .github/workflows/*: @rupali-codes
-- app/: @rupali-codes
-- components/: @CBID2 and @rupali-codes
-- lib/: @CBID2 and @rupali-codes
-- tests/: @rupali-codes
+# README.md: @CBID2
+# Documentation: @CBID2
+# .gitignore: @CBID2 and @rupali-codes
+#  LICENSE: @rupali-codes
+# .github/workflows/*: @rupali-codes
+# app/: @rupali-codes
+# components/: @CBID2 and @rupali-codes
+# lib/: @CBID2 and @rupali-codes
+# tests/: @rupali-codes
 
 ## Directories
-- .github: @rupali-codes and @CBID2
-- node_modules: @rupali-codes 
-- public: @CBID2 and @rupali-codes
-- .env: @rupali-codes
+# .github: @rupali-codes and @CBID2
+# node_modules: @rupali-codes 
+# public: @CBID2 and @rupali-codes
+# .env: @rupali-codes
 
 ## Special cases
-- Any changes to the CODEOWNERS file must be approved by @rupali-codes and @CBID2.
-- Any changes to the .gitattributes file must be approved by @rupali-codes.
-- Any changes to the .gitignore file must be approved by @CBID2.
+# Any changes to the CODEOWNERS file must be approved by @rupali-codes and @CBID2.
+# Any changes to the .gitattributes file must be approved by @rupali-codes.
+# Any changes to the .gitignore file must be approved by @CBID2.
 
 ## Contact information
-If you have any questions about the CODEOWNERS file, please contact @rupali-codes and @CBID2.
+# If you have any questions about the CODEOWNERS file, please contact @rupali-codes and @CBID2.
