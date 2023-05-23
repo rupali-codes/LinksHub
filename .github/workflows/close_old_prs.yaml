@@ -15,7 +15,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           script: |
-            const daysThreshold = 30;
+            const daysThreshold = 45;
             const octokit = require('@octokit/rest')();
 
             octokit.authenticate({
