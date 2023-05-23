@@ -18,12 +18,13 @@ body:
     attributes:
       label: Category
       options:
-        - Open Source
         - Frontend
         - Backend
+        - ML, AI & Data
         - Youtube
         - Resources
         - Languages
+        - Open Source
         - Other
     validations:
       required: true
