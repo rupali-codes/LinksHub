@@ -5,7 +5,6 @@ import { v4 as uuidv4 } from 'uuid'
 export const database: IData[][] = Object.values(DB).map((item: IDBData[]) =>
   item.map((subcat) => ({ ...subcat, id: uuidv4() }))
 )
-
 export const sidebarData: ISidebar[] = [
   {
     category: 'frontend',
@@ -36,6 +35,14 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'ml, ai & data',
+    subcategory: [
+      { name: 'machine learning', url: '/ml' },
+      { name: 'data science', url: '/data-science'},
+      { name: 'deep learning', url : '/deep-learning'},
+    ],
+  },
+  {
     category: 'youtube',
     subcategory: [
       { name: 'web development', url: '/web-development' },
@@ -63,8 +70,8 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'JavaScript', url: '/javascript' },
       { name: 'Python', url: '/python' },
-      { name: 'Go', url: '/golang' },
-      { name: 'Csharp (C#)', url: '/csharp' }
+      { name: 'Csharp (C#)', url: '/csharp' },
+      { name: 'Go', url: '/golang' }
     ],
   },
   {
