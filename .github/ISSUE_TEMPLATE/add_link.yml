@@ -20,9 +20,11 @@ body:
       options:
         - Frontend
         - Backend
+        - ML, AI & Data
         - Youtube
         - Resources
         - Languages
+        - Open Source
         - Other
     validations:
       required: true
