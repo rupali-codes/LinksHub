@@ -75,12 +75,19 @@
     "url": "https://emotion.sh/",
     "category": "frontend",
     "subcategory": "ui-generators"
-},
-{
+  },
+  {
     "name": "Styled Components",
     "description": "Visual primitives for the component age. Type checking & No class policy means dynamic class declaration on run-time",
     "url": "https://styled-components.com/",
     "category": "frontend",
     "subcategory": "ui-generators"
-}
+  },
+  {
+    "name": "Flowbite",
+    "description": "An open-source library of over 600+ UI components, sections, and pages built with the utility classes from Tailwind CSS.",
+    "url": "https://flowbite.com/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  }
 ]
