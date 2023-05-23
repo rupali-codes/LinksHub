@@ -19,5 +19,12 @@
     "url": "https://github.com/asakatsuOrg/AsaKatsuProject",
     "category": "opensource",
     "subcategory": "projects"
+  },
+  {
+    "name": "Web-Resources-Project",
+    "description": "The project aims to provide developers with a centralized platform to access a wide range of front-end tools and resources, making their development process more efficient and productive.",
+    "url": "https://github.com/jayk-gupta/web-resources-project",
+    "category": "opensource",
+    "subcategory": "projects"
   }
 ]
