@@ -39,6 +39,14 @@
         "category":"youtube",
         "subcategory":"machine-learning",
         "language":"english"
+    },
+    {
+        "name":"DeepLearningAI",
+        "description": "Access the lectures of Andrew Ng on Deep Learning and Machine Learning",
+        "url":"https://www.youtube.com/c/Deeplearningai",
+        "category":"youtube",
+        "subcategory":"machine-learning",
+        "language":"english" 
     }
 
 ]
