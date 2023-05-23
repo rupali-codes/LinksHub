@@ -6,6 +6,8 @@ Thank you for taking the time to contribute to our project. Please take a moment
 >
 > **Pull Requests having no issue associated with them will not be accepted. Firstly get an issue assigned, whether it's already opened or raised by you, and then create a Pull Request.**
 
+> **An automated process has been implemented to ensure timely management of Pull Requests (PRs) on this platform. PRs that have been open for a duration exceeding 45 days will be automatically closed.**
+
 ## Prerequisites
 
 - Open Source Etiquette: If you've never contributed to an open source project before, have a read of [Basic etiquette](https://developer.mozilla.org/en-US/docs/MDN/Community/Open_source_etiquette) for open source projects.
