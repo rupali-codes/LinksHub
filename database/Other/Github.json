@@ -33,5 +33,12 @@
     "url": "https://github.com/marketplace/actions/first-interaction",
     "category": "Other",
     "subcategory": "github"
+  },
+  {
+    "name": "GitHub's Maintainer Community",
+    "description": "GitHub's Maintainer Community is a private space for maintainers to connect with peers, preview GitHub features, and help us support the open source community.",
+    "url": "https://maintainers.github.com/auth/signin",
+    "category": "Other",
+    "subcategory": "github"
   }
 ]
