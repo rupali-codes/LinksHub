@@ -6,6 +6,8 @@ Thank you for taking the time to contribute to our project. Please take a moment
 >
 > **Pull Requests having no issue associated with them will not be accepted. Firstly get an issue assigned, whether it's already opened or raised by you, and then create a Pull Request.**
 
+> **An automated process has been implemented to ensure timely management of Pull Requests (PRs) on this platform. PRs that have been open for a duration exceeding 45 days will be automatically closed, so please plan accordingly.**
+
 ## Prerequisites
 
 - Open Source Etiquette: If you've never contributed to an open source project before, have a read of [Basic etiquette](https://developer.mozilla.org/en-US/docs/MDN/Community/Open_source_etiquette) for open source projects.
@@ -75,12 +77,16 @@ The subcategory object should follow this pattern
 --- 
 ## Issues
 * Select an issue template from [issues](https://github.com/rupali-codes/LinksHub/issues/new/choose) tab. Otherwise, choose **Other** if it doesn't match what you're looking for.
-* When creating an issue, make sure you fill up all the fields properly.
+* When creating an issue, make sure you fill up all the fields properly. 
 * Make sure that you are NOT raising a **duplicate issue**.
-* If you want to work on the issue, please click on the *I am willing to work on this issue* checkmark.
+* If you want to work on the issue, please click on the *I am willing to work on this issue* checkmark. 
+* **Note:** If you are apart of GSSoC'23, please check the *I am a GSSoC'23 contributor* check mark as shown in the image below:  
+![issue checkmark for gssoc'23](https://github.com/CBID2/LinksHub-my-version-/assets/105683440/c31b245d-420a-4513-bb58-d6be8b2fcdb1)
+ * **Do not create the PR until you have confirmed with the maintainers that you are participating in this program** 
+ 
 * If you aren't the owner of the issue, please comment that you're willing to work on the issue and wait for maintainers to assign you the issue. Also, don't work on the issue if you're NOT assigned.
 * Please do **not** start working on the issue if you aren't yet assigned.
-* Wwork on only ONE issue at a time. 
+* Work on only **ONE** issue at a time. 
   
 **Closing the issue**
 
