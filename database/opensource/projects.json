@@ -26,5 +26,12 @@
     "url": "https://github.com/jayk-gupta/web-resources-project",
     "category": "opensource",
     "subcategory": "projects"
+  },
+  {
+    "name": "Open Contributions Project",
+    "description": "This project's mission is to teach company leaders what open source is and how their businesses can benefit from creating open source software.",
+    "url": "https://github.com/OpenContributionsProject/opencontributionssite",
+    "category": "opensource",
+    "subcategory": "projects"
   }
 ]
