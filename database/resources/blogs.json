@@ -88,5 +88,12 @@
        "url": "https://news.ycombinator.com/",
        "category": "resources",
        "subcategory": "blogs"
-   }
+   },
+   {
+    "name": "Andrew Ng's Blog",
+    "description": "Andrew Ng's blog provides insightful articles on AI, machine learning, and deep learning topics.",
+    "url": "https://www.andrewng.org/",
+    "category": "resources",
+    "subcategory": "blogs"
+}
 ]
