@@ -18,7 +18,6 @@ body:
     attributes:
       label: Category
       options:
-        - Open Source
         - Frontend
         - Backend
         - ML, AI & Data
