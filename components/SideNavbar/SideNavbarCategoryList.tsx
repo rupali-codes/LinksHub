@@ -1,14 +1,43 @@
-import { FC, useState } from 'react'
-import type { ISidebar,Category } from '../../types'
+import { FC, useEffect, useState } from 'react'
+import type { ISidebar, Category } from '../../types'
 import { SideNavbarCategory } from './SideNavbarCategory'
 
 export const SideNavbarCategoryList: FC<{
   items: ISidebar[]
   openByDefault: string
+  isSearching: boolean
 }> = (props) => {
-  const { items, openByDefault } = props
+  const { items, openByDefault, isSearching } = props
 
-  const [isItemsOpen, setIsItemsOpen] = useState(items.map((item) => openByDefault === item.category))
+  const initialOpenState = items.reduce(
+    (acc, item) => ({
+      ...acc,
+      [item.category]: openByDefault === item.category || false,
+    }),
+    {}
+  )
+
+  const [isItemsOpen, setIsItemsOpen] =
+    useState<Record<any, boolean>>(initialOpenState)
+  const [statePriorToSearch, setStatePriorToSearch] =
+    useState<Record<string, boolean>>(initialOpenState)
+
+  // console.log(isItemsOpen, openByDefault)
+
+  useEffect(() => {
+    setIsItemsOpen(
+      !isSearching
+        ? { ...statePriorToSearch }
+        : items.reduce(
+            (acc, item) => ({
+              ...acc,
+              [item.category]:
+                isSearching || isItemsOpen[item.category] || false,
+            }),
+            {}
+          )
+    )
+  }, [isSearching, items])
 
   /**
    * @param category the category to toggle
@@ -16,11 +45,15 @@ export const SideNavbarCategoryList: FC<{
    * @returns void
    * @description toggle the open state of the category and closes all other categories
    */
-  const handleToggle = (category:Category, isOpen:boolean) => {
-    if(isOpen){
-      setIsItemsOpen([...items].map(()=>false))
-    } else {
-      setIsItemsOpen([...items].map(item=>item.category===category?!isOpen:isOpen))
+  const handleToggle = (category: Category, isOpen: boolean) => {
+    setIsItemsOpen((prev) => ({ ...prev, [category]: !isOpen }))
+    console.log({ isItemsOpen })
+
+    if (!isSearching) {
+      /**
+       * @description save the state of categories that are opened when not searching, to restore them when the search is closed
+       */
+      setStatePriorToSearch((prev) => ({ ...prev, [category]: !isOpen }))
     }
   }
   return (
@@ -31,14 +64,20 @@ export const SideNavbarCategoryList: FC<{
             <SideNavbarCategory
               key={index}
               item={item}
-              openByDefault={openByDefault}
               handleToggle={handleToggle}
-              isOpen={isItemsOpen[index]}
+              isOpen={
+                isSearching
+                  ? isItemsOpen[item.category]
+                  : statePriorToSearch[item.category] ||
+                    isItemsOpen[item.category]
+              }
             />
           )
         })
       ) : (
-        <div className="dark:text-gray-200 text-gray-500 text-lg text-center py-2">No Links Found</div>
+        <div className="dark:text-gray-200 text-gray-500 text-lg text-center py-2">
+          No Links Found
+        </div>
       )}
     </ul>
   )
