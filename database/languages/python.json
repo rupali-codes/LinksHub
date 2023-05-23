@@ -5,5 +5,12 @@
         "url": "https://www.codecademy.com/learn/learn-python-3",
         "category": "languages",
         "subcategory": "python"
+    },
+    {
+        "name": "Python Programiz",
+        "description": "This course covers all the fundamental concepts of Python.",
+        "url": "https://www.programiz.com/python-programming",
+        "category": "languages",
+        "subcategory": "python"
     }    
 ]

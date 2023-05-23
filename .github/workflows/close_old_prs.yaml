@@ -16,6 +16,8 @@ jobs:
         with:
           script: |
             const daysThreshold = 30;
+            const daysThreshold = 45;
+
             const octokit = require('@octokit/rest')();
 
             octokit.authenticate({
