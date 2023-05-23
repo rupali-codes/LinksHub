@@ -1,8 +1,9 @@
 # Codeowners file for LinksHub repository
 
-This file defines the code owners for the LinksHub repository. Code owners are responsible for reviewing and approving any changes to the code in their respective areas.
+# This file defines the code owners for the LinksHub repository. Code owners are responsible for reviewing and approving any changes to the code in their respective areas.
 
 ## Files
+
 - README.md: @CBID2
 - Documentation: @CBID2
 - .gitignore: @CBID2 and @rupali-codes
@@ -25,4 +26,4 @@ This file defines the code owners for the LinksHub repository. Code owners are r
 - Any changes to the .gitignore file must be approved by @CBID2.
 
 ## Contact information
-If you have any questions about the Codeowners file, please contact @rupali-codes and @CBID2.
+If you have any questions about the CODEOWNERS file, please contact @rupali-codes and @CBID2.
