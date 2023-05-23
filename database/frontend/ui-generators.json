@@ -68,5 +68,12 @@
     "url": "https://flukeout.github.io/",
     "category": "frontend",
     "subcategory": "ui-generators"
+  },
+  {
+    "name": "Shadow Generator",
+    "description": "An amazing site that helps you to create smooth shadows",
+    "url": "https://shadows.brumm.af/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
   }
 ]
