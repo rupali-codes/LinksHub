@@ -40,5 +40,12 @@
     "url": "https://codesandbox.io/search?refinementList",
     "category": "Other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "OpenSauced",
+    "description": "OpenSauced is a great tool to display your merged and opened pull requests, highlight your favorite contributions, and find other open source projects to contribute to!",
+    "url": "https://opensauced.pizza/",
+    "category": "Other",
+    "subcategory": "devtools"
   }
 ]
