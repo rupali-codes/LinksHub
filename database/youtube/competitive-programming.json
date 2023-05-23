@@ -1,0 +1,26 @@
+[{
+    "name": "Errichto",
+    "description": "This channel provides competitive programming tactics and thought process for advanced alogrithms .",
+    "url": "https://www.youtube.com/@Errichto",
+    "category": "youtube",
+    "subcategory": "competitive-programming",
+    "language": "english"
+},
+{
+    "name": "Priyansh Agarwal",
+    "description": "This channel provides free video solutions of coding contests of codeforces, codechef etc.",
+    "url": "https://www.youtube.com/c/PriyanshAgarwal",
+    "category": "youtube",
+    "subcategory": "competitive-programming",
+    "language": "english"
+},
+{
+    "name": "Utkarsh Gupta",
+    "description": "This channel provides videos on competitive programming topics and solutions of coding contests of Leetcode, Codeforces, Codechef etc.",
+    "url": "https://www.youtube.com/channel/UCGS5ZzcSAymQbWZvNoKOFhQ",
+    "category": "youtube",
+    "subcategory": "competitive-programming",
+    "language": "english"
+}
+
+]
