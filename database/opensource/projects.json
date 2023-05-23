@@ -26,5 +26,12 @@
     "url": "https://github.com/jayk-gupta/web-resources-project",
     "category": "opensource",
     "subcategory": "projects"
+  },
+  {
+    "name": "Codeacademy Docs",
+    "description": "Looking for a way to gain experience in tech writing? Codecademy Docs offer developers and open source enthusiasts a hands-on opportunity to collaborate with other learners. Together, you’ll create free, useful resources for developers and tech community members of all experience levels.",
+    "url": "https://www.codecademy.com/pages/contribute-docs",
+    "category": "opensource",
+    "subcategory": "projects"
   }
 ]
