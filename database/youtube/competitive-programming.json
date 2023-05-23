@@ -1,6 +1,6 @@
 [{
     "name": "Errichto",
-    "description": "This channel provides competitive programming tactics and thought process for advanced algorithms.",
+    "description": "This channel provides competitive programming tactics, problem-solving techniques, and thought processes behind advanced algorithms.",
     "url": "https://www.youtube.com/@Errichto",
     "category": "youtube",
     "subcategory": "competitive-programming",
@@ -8,7 +8,7 @@
 },
 {
     "name": "Priyansh Agarwal",
-    "description": "This channel provides free video solutions of coding contests of codeforces, codechef, etc."
+    "description": "This channel provides insightful content on competitive programming topics and solutions for Codeforces, LeetCode, and CodeChef coding contests."
     "url": "https://www.youtube.com/c/PriyanshAgarwal",
     "category": "youtube",
     "subcategory": "competitive-programming",
@@ -16,7 +16,7 @@
 },
 {
     "name": "Utkarsh Gupta",
-    "description": "This channel provides videos on competitive programming topics and solutions of coding contests of Leetcode, Codeforces, Codechef etc.",
+    "description": "This channel provides in-depth tutorials, insightful strategies, and expert solutions to coding challenges from platforms like LeetCode, Codeforces, and CodeChef, empowering your competitive programming journey.",
     "url": "https://www.youtube.com/channel/UCGS5ZzcSAymQbWZvNoKOFhQ",
     "category": "youtube",
     "subcategory": "competitive-programming",
