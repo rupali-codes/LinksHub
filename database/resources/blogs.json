@@ -88,5 +88,12 @@
        "url": "https://news.ycombinator.com/",
        "category": "resources",
        "subcategory": "blogs"
-   }
+   },
+   {
+    "name": "MDN Web Docs",
+    "description": "Discover the latest web development insights on our new MDN Blog",
+    "url": "https://developer.mozilla.org/en-US/",
+    "category": "resources",
+    "subcategory": "blogs"
+}
 ]
