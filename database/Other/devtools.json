@@ -50,7 +50,7 @@
   },
   {
     "name": "CodeCraftes",
-    "description": "The best website for developers to practice and learn about different languages through dedicated tracks for each. It provides practice via making you to build your own something and learn along with it.",
+    "description": "This is one of the best websites for developers to learn different programming languages. It provides dedicated tracks for each language and an online IDE that lets you do the exercises as you watch the lessons.",
     "url": "https://app.codecrafters.io/tracks",
     "category": "Other",
     "subcategory": "devtools"
