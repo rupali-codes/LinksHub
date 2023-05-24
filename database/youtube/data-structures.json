@@ -80,5 +80,15 @@
     "category": "youtube",
     "subcategory": "dsa",
     "language": "english"
+  },
+  {
+    "name": "WilliamFiset",
+
+    "description": "One of the best channels to understand DSA concepts and mathematics that will be helpful for Competitive Programming.",
+
+    "url": "https://www.youtube.com/@WilliamFiset-videos/featured",
+    "category": "youtube",
+    "subcategory": "dsa",
+    "language": "english"
   }
 ]
