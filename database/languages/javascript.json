@@ -40,6 +40,13 @@
         "url": "https://scrimba.com/learn/learnjavascript",
         "category": "languages",
         "subcategory": "javascript" 
+    },
+    {
+        "name": "Full Stack JavaScript",
+        "description": "This site takes you through the entire JavaScript curriculum. You'll learn everything you need to know to create beautiful responsive websites from scratch using JavaScript and NodeJS.",
+        "url": "https://www.theodinproject.com/paths/full-stack-javascript",
+        "category": "languages",
+        "subcategory": "javascript" 
     }
     
 ]
