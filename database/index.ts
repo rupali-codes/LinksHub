@@ -10,7 +10,6 @@ export { default as onlineCodeEditors } from "./frontend/online-code-editors.jso
 export { default as themesTemplates } from "./frontend/themes-templates.json";
 export { default as uiGenerators } from "./frontend/ui-generators.json";
 export { default as react } from "./frontend/react.json";
-export { default as cssInJs } from "./frontend/css-in-js.json";
 // backend
 export { default as authentication } from "./backend/authentication.json";
 export { default as architecture } from "./backend/architecture.json";
