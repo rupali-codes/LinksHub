@@ -9,6 +9,14 @@
         "language":"english"
     },
     {
+        "name": "5 Minutes Engineering",
+        "description": "This channel offers lectures on Machine Learning from basic to advanced with real world scenarios.",
+        "url": "https://youtube.com/playlist?list=PLYwpaL_SFmcBhOEPwf5cFwqo5B-cP9G4P",
+        "category": "youtube",
+        "subcategory": "machine-learning",
+        "language": "hindi"
+    },
+    {
         "name": "3Blue1Brown",
         "description": "3Blue1Brown, by Grant Sanderson, is a combination of math and entertainment, depending on your disposition. The goal is for difficult problems to be made simple with changes in perspective.",
         "url": "https://www.youtube.com/@3blue1brown",
@@ -39,6 +47,14 @@
         "category":"youtube",
         "subcategory":"machine-learning",
         "language":"english"
+    },
+    {
+        "name":"DeepLearningAI",
+        "description": "Access the lectures of Andrew Ng on Deep Learning and Machine Learning",
+        "url":"https://www.youtube.com/c/Deeplearningai",
+        "category":"youtube",
+        "subcategory":"machine-learning",
+        "language":"english" 
     }
 
 ]

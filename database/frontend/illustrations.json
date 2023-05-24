@@ -82,5 +82,12 @@
     "url": "https://opendoodles.com/",
     "category": "frontend",
     "subcategory": "illustrations"
+  },
+  {
+    "name": "Craftwork",
+    "description": "This is a powerful toolkit for designers and developers, offering a wide range of UI components, icons, and illustrations with seamless customization and integration. It streamlines the design process, saving time and elevating project quality. Unleash your creativity with Craftwork's intuitive tools and resources.",
+    "url": "https://craftwork.design/",
+    "category": "frontend",
+    "subcategory": "illustrations"
   }
 ]

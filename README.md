@@ -142,6 +142,8 @@ and the website will be built in one single click. No extra setup is required.
 
 ## Our Contributors ✨
 
+We would like to express our sincere gratitude to all the contributors who have helped make LinksHub an invaluable resource for developers. Without your contributions, this project wouldn't have been possible. Thank you so much for your time, efforts, and dedication.
+
 <a href="https://github.com/rupali-codes/LinksHub/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=rupali-codes/LinksHub" />
 </a>
@@ -157,3 +159,5 @@ LinksHub is licensed under the terms of MIT License. check out [LICENSE](https:/
 ## Support ⭐
 
 _We would love to have you, feel free to open issues and pull requests and Don't forget to leave a star⭐_
+
+_We would be absolutely thrilled to have you contribute to LinksHub! Your support, whether through opening issues, submitting pull requests, or even just leaving a star, means a lot to us. Together, we can continue to improve and expand this resource hub for developers worldwide._
