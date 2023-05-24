@@ -1,6 +1,14 @@
 [
     {
         "name":"React js",
+        "description":"Free online youtube playlist for learning react js in hindi",
+        "url":"https://www.youtube.com/watch?v=smC8kxS0rps&list=PL8p2I9GklV44oDSE3j-E-OkvxFkz5a1d8&pp=iAQB",
+        "category":"frontend",
+        "subcategory":"react",
+        "language":"hindi"
+    },
+    {
+        "name":"React js",
         "description":"Free online course for learning react js",
         "url":"https://scrimba.com/learn/learnreact#",
         "category":"frontend",
