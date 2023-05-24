@@ -47,5 +47,12 @@
     "url": "https://opensauced.pizza/",
     "category": "Other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "CodeCraftes",
+    "description": "The best website for developers to practice and learn about different languages through dedicated tracks for each. It provides practice via making you to build your own something and learn along with it.",
+    "url": "https://app.codecrafters.io/tracks",
+    "category": "Other",
+    "subcategory": "devtools"
   }
 ]
