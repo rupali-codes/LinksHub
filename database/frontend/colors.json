@@ -82,5 +82,12 @@
       "url": "https://colormagic.app/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  {
+    "name": "ColorPick Eyedropper",
+    "description": "ColorPick Eyedropper is a zoomed eyedropper & color chooser tool that allows you to select color values from webpages.",
+    "url": "http://surl.li/hgipv",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
