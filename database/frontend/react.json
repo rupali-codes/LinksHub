@@ -9,7 +9,8 @@
     },
     {
         "name":"React Tutorial for Beginners",
-        "description":"Mosh's React tutorial: beginner-friendly, well-structured, hands-on, builds solid React foundation.",
+        "description": This tutorial is beginner-friendly, well-structured, hands-on, and helpful in understanding React",
+
         "url":"https://www.youtube.com/watch?v=SqcY0GlETPk",
         "category":"frontend",
         "subcategory":"react",
