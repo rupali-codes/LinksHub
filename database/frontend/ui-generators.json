@@ -78,7 +78,7 @@
   },
   {
     "name": "NextUI",
-    "description": "NextUI allows you to make beautiful, modern, and fast websites/applications regardless of your design experience, created with React.js and Stitches, based on React Aria and inspired by Vuesax.",
+    "description": "NextUI allows you to make beautiful, modern, and fast websites/applications regardless of your design experience. This tool is created with React.js and Stitches, which is based on React Aria and inspired by Vuesax.",
     "url": "https://nextui.org/",
     "category": "frontend",
     "subcategory": "ui-generators"
