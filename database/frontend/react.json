@@ -6,5 +6,21 @@
         "category":"frontend",
         "subcategory":"react",
         "language":"english"
+    },
+    {
+        "name":"React Tutorial for Beginners",
+        "description":"Mosh's React tutorial: beginner-friendly, well-structured, hands-on, builds solid React foundation.",
+        "url":"https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "category":"frontend",
+        "subcategory":"react",
+        "language":"english"
+    },
+    {
+        "name":"React JS Official Documentation",
+        "description":"The go-to resource for React JS, offering comprehensive guides, tutorials, and API references to help you learn and master React development.",
+        "url":"https://react.dev/",
+        "category":"frontend",
+        "subcategory":"react",
+        "language":"english"
     }
 ]
