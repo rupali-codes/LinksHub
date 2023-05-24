@@ -18,7 +18,8 @@
     },
     {
         "name":"React JS Official Documentation",
-        "description":"The go-to resource for React JS, offering comprehensive guides, tutorials, and API references to help you learn and master React development.",
+        "description": "The go-to resource for React JS, offering comprehensive guides, tutorials, and API references to help you learn and master React development.",
+
         "url":"https://react.dev/",
         "category":"frontend",
         "subcategory":"react",
