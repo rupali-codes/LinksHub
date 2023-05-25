@@ -19,7 +19,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'design inspiration', url: '/design-inspiration' },
       { name: 'themes & templates', url: '/themes-templates' },
       { name: 'UI Generators', url: '/ui-generator' },
-      { name: 'online code editors', url: '/online-code-editors' },
+      { name: 'online code editors', url: '/online-code-editors' }
     ],
   },
   {
@@ -54,6 +54,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Web3 & Metaverse', url: '/web3-metaverse' },
       { name: 'Testing', url: '/testing' },
       { name: 'Computer Science', url: '/computer-science' },
+      { name: 'Competitive Programming',url:'/competitive-programming'}
     ],
   },
   {
@@ -71,7 +72,8 @@ export const sidebarData: ISidebar[] = [
       { name: 'JavaScript', url: '/javascript' },
       { name: 'Python', url: '/python' },
       { name: 'Csharp (C#)', url: '/csharp' },
-      { name: 'Go', url: '/golang' }
+      { name: 'Go', url: '/golang' },
+      { name: 'TypeScript', url: '/typescript' }
     ],
   },
   {

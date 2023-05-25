@@ -82,5 +82,26 @@
     "url": "https://flowbite.com/",
     "category": "frontend",
     "subcategory": "ui-generators"
+  },
+  {
+    "name": "NextUI",
+    "description": "NextUI allows you to make beautiful, modern, and fast websites/applications regardless of your design experience, created with React.js and Stitches, based on React Aria and inspired by Vuesax.",
+    "url": "https://nextui.org/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
+    "name": "Emotion",
+    "description": "Emotion is a library designed for writing CSS styles with JavaScript. It provides powerful and predictable style composition.",
+    "url": "https://emotion.sh/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
+    "name": "Styled Components",
+    "description": "Visual primitives for the component age. Type checking & No class policy means dynamic class declaration on run-time",
+    "url": "https://styled-components.com/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
   }
 ]
