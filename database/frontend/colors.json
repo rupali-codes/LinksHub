@@ -85,7 +85,7 @@
   },
   {
     "name": "ColorPick Eyedropper",
-    "description": "ColorPick Eyedropper is a zoomed eyedropper & color chooser tool that allows you to select color values from webpages.",
+    "description": "ColorPick Eyedropper is an eyedropper & color picker that allows you to select hex codes of the colors from webpages.",
     "url": "http://surl.li/hgipv",
     "category": "frontend",
     "subcategory": "colors"
