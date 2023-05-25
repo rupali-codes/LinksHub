@@ -18,10 +18,15 @@ export { default as security } from "./backend/security.json";
 export { default as testing } from "./backend/testing.json";
 export { default as validation } from "./backend/validation.json";
 export { default as systemDesign } from "./backend/system-design.json";
+// ml & ai
+export { default as ml } from "./ml&ai/ml.json";
+export { default as dataScience } from "./ml&ai/datascience.json";
+export { default as deepLearning } from "./ml&ai/deeplearning.json";
 // resources
 export { default as blogs } from "./resources/blogs.json";
 export { default as hosting } from "./resources/hosting.json";
 export { default as ebook } from "./resources/e-book.json";
+export { default as project } from "./resources/project-ideas.json";
 // youtube
 export { default as android } from "./youtube/android.json";
 export { default as dataStructures } from "./youtube/data-structures.json";
@@ -31,15 +36,17 @@ export { default as webDevelopment } from "./youtube/web-development.json";
 export { default as web3metaverse } from "./youtube/web3-metaverse.json";
 export { default as youtubTesting } from "./youtube/testing.json";
 export { default as computerScience } from './youtube/computer-science.json'
+export { default as competitiveProgramming } from './youtube/competitive-programming.json'
 // other
 export { default as github } from "./Other/Github.json";
 export { default as devtools } from "./Other/devtools.json";
 export { default as podcasts } from "./Other/podcasts.json";
-//languages
+// languages
 export { default as javascript } from "./languages/javascript.json";
 export { default as python } from "./languages/python.json";
 export { default as golang } from "./languages/golang.json";
 export { default as csharp } from "./languages/csharp.json";
-//Open-source
+export { default as typescript } from "./languages/typescript.json";
+// Open-source
 export { default as opensource_blogs } from "./opensource/opensource_blogs.json";
 export { default as projects } from "./opensource/projects.json";

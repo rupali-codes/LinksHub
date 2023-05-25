@@ -12,5 +12,40 @@
     "url": "https://github.com/IAmTamal/Milan",
     "category": "opensource",
     "subcategory": "projects"
+  },
+  {
+    "name": "AsaKatsu",
+    "description": "'AsaKatsu' is a Japanese term for waking up a little early to do something productive, aligned with a specific goal. With this philosophy in mind, this product helps you keep track of your goals' progress.",
+    "url": "https://github.com/asakatsuOrg/AsaKatsuProject",
+    "category": "opensource",
+    "subcategory": "projects"
+  },
+  {
+    "name":"Good Docs Project",
+    "description":"Looking to gain tech writing experience? Join the Good Docs Project. In this open source project, you will learn best practices for creating templates and writing instructions when documenting open source software.",
+    "url":"https://thegooddocsproject.dev/",
+    "category": "opensource",
+    "subcategory": "projects"
+  },
+  {
+    "name": "Open Contributions Project",
+    "description": "This project's mission is to teach company leaders what open source is and how their businesses can benefit from creating open source software.",
+    "url": "https://github.com/OpenContributionsProject/opencontributionssite",
+    "category": "opensource",
+    "subcategory": "projects"
+  },
+  {
+    "name": "Web-Resources-Project",
+    "description": "The project aims to provide developers with a centralized platform to access a wide range of front-end tools and resources, making their development process more efficient and productive.",
+    "url": "https://github.com/jayk-gupta/web-resources-project",
+    "category": "opensource",
+    "subcategory": "projects"
+  },
+  {
+    "name": "Codeacademy Docs",
+    "description": "Looking for a way to gain experience in tech writing? Codecademy Docs offer developers and open source enthusiasts a hands-on opportunity to collaborate with other learners. Together, you’ll create free, useful resources for developers and tech community members of all experience levels.",
+    "url": "https://www.codecademy.com/pages/contribute-docs",
+    "category": "opensource",
+    "subcategory": "projects"
   }
 ]

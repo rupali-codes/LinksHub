@@ -1,65 +1,82 @@
-[{
+[
+  {
     "name": "Jennys Lectures CSIT",
     "description": "This channel provides free courses for DSA, C, C++, Python etc.",
-    "url": "https://www.youtube.com/@JennyslecturesCSIT",
+    "url": "https://www.youtube.com/watch?v=AT14lCXuMKI&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "english"
-},
-{
+  },
+  {
     "name": "CodeHelp - by Babbar",
     "description": "This channel provides free placement specific DSA course in C++.",
     "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "hindi"
-},
-{
+  },
+  {
     "name": "Apna College",
     "description": "This channel provides free courses for DSA, Java, C++, C etc.",
-    "url": "https://www.youtube.com/@ApnaCollegeOfficial",
+    "url": "https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "hindi"
-},
-{
+  },
+  {
+    "name": "Kunal Kushwaha",
+    "description": "This channel provides free Java specific DSA course with interview-preparation.",
+    "url": "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+    "category": "youtube",
+    "subcategory": "dsa",
+    "language": "english"
+  },
+  {
     "name": "CodeWithHarry",
-    "description": "A all in one destination for DSA, Python, C++, JavaScript, Nodejs, Java, PHP & many more.",
-    "url": "https://www.youtube.com/@CodeWithHarry/playlists",
+    "description": "Data Stucture and Algorithm playlist by codewith harry.",
+    "url": "https://www.youtube.com/watch?v=5_5oE5lgrhw&list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "hindi"
-},
-{
+  },
+  {
     "name": "Luv",
     "description": "This channel provides free Competitive Programming content.",
-    "url": "https://www.youtube.com/@iamluv/playlists",
+    "url": "https://www.youtube.com/watch?v=OMcxQ3IY-qc&list=PLauivoElc3ggagradg8MfOZreCMmXMmJ-",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "hindi"
-},
-{
+  },
+  {
     "name": "take U forward",
     "description": "One of the best channel for DSA, you will find the thought process behind every problem and not just simple algorithms.",
-    "url": "https://www.youtube.com/@takeUforward/featured",
+    "url": "https://www.youtube.com/watch?v=EAR7De6Goz4&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "english"
-},
-{
+  },
+  {
     "name": "Pepcoding",
     "description": "One of the best channel for DSA in Java and helpful for both students and working professionals.",
-    "url": "https://www.youtube.com/@Pepcoding/featured",
+    "url": "https://www.youtube.com/watch?v=F8xQ5joLlD0&list=PL-Jc9J83PIiFj7YSPl2ulcpwy-mwj1SSk",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "hindi"
-},
-{
+  },
+  {
     "name": "Abdul Bari",
     "description": "This channel is focused on teaching Data Structures and Algorithms. They also provide courses on different computer science subjects.",
-    "url": "https://www.youtube.com/@abdul_bari",
+    "url": "https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLAXnLdrLnQpRcveZTtD644gM9uzYqJCwr",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "english"
-}
+  },
+  {
+    "name": "MIT OpenCourseWare",
+    "description": "This channel is focused on the explanation of Algorithms concepts. The resources for Algorithm are limited but this course is one of the best Algorithm resources available on the Web.",
+    "url": "https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
+    "category": "youtube",
+    "subcategory": "dsa",
+    "language": "english"
+  }
 ]

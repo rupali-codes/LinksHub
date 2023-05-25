@@ -40,5 +40,19 @@
     "url": "https://codesandbox.io/search?refinementList",
     "category": "Other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "OpenSauced",
+    "description": "OpenSauced is a great tool to display your merged and opened pull requests, highlight your favorite contributions, and find other open source projects to contribute to!",
+    "url": "https://opensauced.pizza/",
+    "category": "Other",
+    "subcategory": "devtools"
+  },
+  {
+    "name": "CodeCraftes",
+    "description": "This is one of the best websites for developers to learn different programming languages. It provides dedicated tracks for each language and an online IDE that lets you do the exercises as you watch the lessons.",
+    "url": "https://app.codecrafters.io/tracks",
+    "category": "Other",
+    "subcategory": "devtools"
   }
 ]

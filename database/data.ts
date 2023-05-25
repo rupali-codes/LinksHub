@@ -5,7 +5,6 @@ import { v4 as uuidv4 } from 'uuid'
 export const database: IData[][] = Object.values(DB).map((item: IDBData[]) =>
   item.map((subcat) => ({ ...subcat, id: uuidv4() }))
 )
-
 export const sidebarData: ISidebar[] = [
   {
     category: 'frontend',
@@ -20,7 +19,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'design inspiration', url: '/design-inspiration' },
       { name: 'themes & templates', url: '/themes-templates' },
       { name: 'UI Generators', url: '/ui-generator' },
-      { name: 'online code editors', url: '/online-code-editors' },
+      { name: 'online code editors', url: '/online-code-editors' }
     ],
   },
   {
@@ -36,6 +35,14 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'ml, ai & data',
+    subcategory: [
+      { name: 'machine learning', url: '/ml' },
+      { name: 'data science', url: '/data-science'},
+      { name: 'deep learning', url : '/deep-learning'},
+    ],
+  },
+  {
     category: 'youtube',
     subcategory: [
       { name: 'web development', url: '/web-development' },
@@ -47,6 +54,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Web3 & Metaverse', url: '/web3-metaverse' },
       { name: 'Testing', url: '/testing' },
       { name: 'Computer Science', url: '/computer-science' },
+      { name: 'Competitive Programming',url:'/competitive-programming'}
     ],
   },
   {
@@ -54,7 +62,8 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'blogs', url: '/blogs' },
       { name: 'hosting', url: '/hosting' },
-      {name : 'e-book', url:'/e-book'}
+      {name : 'e-book', url:'/e-book'},
+      { name: 'project ideas', url:'/project-ideas'}
     ],
   },
   {
@@ -62,8 +71,9 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'JavaScript', url: '/javascript' },
       { name: 'Python', url: '/python' },
+      { name: 'Csharp (C#)', url: '/csharp' },
       { name: 'Go', url: '/golang' },
-      { name: 'Csharp (C#)', url: '/csharp' }
+      { name: 'TypeScript', url: '/typescript' }
     ],
   },
   {

@@ -1,7 +1,7 @@
 name: ​🐞 Bug
 description: Report an issue to help us improve the project.
 title: "[BUG] <write a small description here>"
-labels: ["bug", "Goal: fix"]
+labels: ["bug", "goal: fix"]
 body:
   - type: textarea
     attributes:  
@@ -46,5 +46,8 @@ body:
           required: true
 
         - label: "I am willing to work on this issue (optional)"
+          required: false
+        
+        - label: "I am a GSSoC'23 contributor"
           required: false
                  
