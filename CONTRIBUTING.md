@@ -31,13 +31,8 @@ Thank you for taking the time to contribute to our project. Please take a moment
 #### 🌟Follow these steps to get your Links added into the Hub
 
 * A newly created category and subcategory should be added to the [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) & [index.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/index.ts) files
-<<<<<<< HEAD
-* Each category has it's own folder with it's name
-* Every subcategory should be placed in it's respective category folder
-=======
 * Each category has its own folder with its name
 * Every subcategory should be placed in its respective category folder
->>>>>>> 219d129b115e107ac741a00122059a7b8424529b
   
   > i.e images should be inside Frontend folder
 
@@ -81,22 +76,6 @@ The subcategory object should follow this pattern
 
 --- 
 ## Issues
-<<<<<<< HEAD
-* Select an issue template from [issues](https://github.com/EddieHubCommunity/LinkFree/issues/new/choose) tab. Otherwise choose **Other** if it doesn't match what you're looking for.
-* When creating an issue make sure you fill up all the fields properly.
-* Make sure that you are NOT raising a **duplicate issue**.
-* If you want to work on the issue, please tick *I am willing to work on this issue* checkmark. Then you can start working on the issue.
-* If you aren't the owner of the issue, please comment that you're willing to work on the issue and wait for maintainers to assign you the issue. Also don't work on the issue if you're NOT assigned.
-* Work on only ONE issue at a time
-  
-**Closing the issue**
-
-* While closing the issue, please leave a reasonable comment that Why you're closing the issue
-* If the Pull Request associated with issue get's mereged and the issue still remains open, it's you're responsibility to close the issue
-
-## Commits
-* Please keep your commit message short and clear.
-=======
 * Select an issue template from [issues](https://github.com/rupali-codes/LinksHub/issues/new/choose) tab. Otherwise, choose **Other** if it doesn't match what you're looking for.
 * When creating an issue, make sure you fill up all the fields properly. 
 * Make sure that you are NOT raising a **duplicate issue**.
@@ -116,17 +95,12 @@ The subcategory object should follow this pattern
 
 ## Commits
 * Please keep your commit messages short and clear.
->>>>>>> 219d129b115e107ac741a00122059a7b8424529b
 * Use `type: subject` format for writing your commit messages. `type` could be one the followings:
   * `feat`: use this if you're adding any new feature
   * `fix`: use this if you're fixing anything in the codebase
   * `chore`: use this when you're adding new links/resources AND when making any small changes
   (ex. chore: added *resource_name* in *subcategory* *category* )
-<<<<<<< HEAD
-
-=======
 If you need more tips, check out [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
->>>>>>> 219d129b115e107ac741a00122059a7b8424529b
 ## Making Pull Requests
 
 1. When you submit a pull request, several tests are automatically run
