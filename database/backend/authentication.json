@@ -8,7 +8,7 @@
     },
     {
         "name": "NextAuth.js",
-        "description": "NextAuth.js is a complete open-source authentication solution for Next.js applications. It is designed from the ground up to support Next.js and Serverless, and it also supports the latest Next.js 13 app router and route handlers.",
+        "description": "NextAuth.js is a complete open-source authentication solution for Next.js applications. It is designed from the ground up to support Next.js and Serverless. It also supports the latest Next.js 13 app router and route handlers.",
         "url": "https://next-auth.js.org/",
         "category": "backend",
         "subcategory": "authentication"
