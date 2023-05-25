@@ -1,0 +1,21 @@
+name: Greetings
+
+on:
+  fork:
+  push:
+    branches: [main]
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: EddieHubCommunity/gh-action-community/src/welcome@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Hello ${{ github.actor }}, thanks for opening a issue, your contribution is valuable to us. The maintainers will review this issue and provide feedback as soon as possible."
+          pr-message: "Hello ${{ github.actor }}, thanks for rising a Pull request, your contribution is valuable to us. The maintainers will review this Pull Request and provide feedback as soon as possible. Keep the great work up!"

@@ -1,4 +1,4 @@
-[{
+[ {
         "name": "Dribbble",
         "description": "Explore the world’s leading design portfolios.",
         "url": "https://dribbble.com",
@@ -125,10 +125,52 @@
         "subcategory": "design-inspiration"
     },
     {
+
         "name": "Uiverse",
         "description": "this is a completely free website where you can build cool solution with HTML and CSS. there's is also CSS challenge to show off your skills",
         "url": "https://uiverse.io",
+
+        "name": "Screenlane",
+        "description": "You can find app screens, landing pages, user flow inspirations, and keep up with the latest mobile UI design trends.",
+        "url": "https://screenlane.com/",
+        "category": "frontend",
+        "subcategory": "design-inspiration" 
+    },
+    {
+        "name": "Design Vault",
+        "description": "Design Vault is a website that showcases designs from real products, giving you access to the latest and greatest in UI patterns and trends.",
+        "url": "https://designvault.io/",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
+    },
+    {
+        "name": "Page Flows",
+        "description": "The smarter way to research user interface flows, screen, and email best practices and get unstuck is by learning from proven products.",
+        "url": "https://pageflows.com/",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
+    },
+    {
+        "name": "Mobbin",
+        "description": "Mobbin is a hand-picked collection of latest design patterns from mobile apps that reflect the best in design.",
+        "url": "https://mobbin.com/",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
+    },
+    {
+        "name": "Appshots",
+        "description": "AppShots is an easy-to-use screenshot production tool for App Store applications. You can create beautiful application screenshots, promote, and share your apps.",
+        "url": "https://appshots.design/",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
+    },
+    {
+        "name": "SaasInterface",
+        "description": "Save yourself hours of research and create beautiful apps by taking inspiration from the best SaaS products.",
+        "url": "https://saasinterface.com/",
+
         "category": "frontend",
         "subcategory": "design-inspiration"
     }
+    
 ]

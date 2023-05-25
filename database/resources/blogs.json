@@ -81,5 +81,29 @@
        "url": "https://hackernoon.com/",
        "category": "resources",
        "subcategory": "blogs"
-   }
+   },
+   {
+       "name": "Hacker News",
+       "description": "Hacker News is a tech-focused social news and discussion site run by startup accelerator Y Combinator, with a vibrant community of tech enthusiasts and insiders.",
+       "url": "https://news.ycombinator.com/",
+       "category": "resources",
+       "subcategory": "blogs"
+   },
+   {
+
+    "name": "MDN Web Docs",
+    "description": "Discover the latest web development insights on our new MDN Blog",
+    "url": "https://developer.mozilla.org/en-US/",
+     "category": "resources",
+    "subcategory": "blogs"
+   },
+ {
+
+    "name": "Andrew Ng's Blog",
+    "description": "Andrew Ng's blog provides insightful articles on AI, machine learning, and deep learning topics.",
+    "url": "https://www.andrewng.org/",
+
+    "category": "resources",
+    "subcategory": "blogs"
+}
 ]

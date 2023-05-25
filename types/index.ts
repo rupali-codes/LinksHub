@@ -8,17 +8,26 @@ export interface ISideNavbarElement {
   title: string;
 }
 
+export interface IDBData {
+  name: string;
+  description: string;
+  url: string;
+  category: string;
+  subcategory: string;
+  language?: string;
+}
+
 export interface IData {
   id: string;
   name: string;
   description: string;
   url: string;
-  category: Category;
-  subcategory: SubCategory;
-  language?:string;
+  category: string;
+  subcategory: string;
+  language?: string;
 }
 
-export type Category = "frontend" | "backend" | "youtube" | "resources";
+export type Category = "frontend" | "backend" | "ml, ai & data" | "youtube" | "resources" | "Other" | "languages" | "online platform" | "opensource";
 
 export type SubCategory =
   | "images"
@@ -40,14 +49,26 @@ export type SubCategory =
   | "security"
   | "authentication"
   | "caching"
+  | "system-design"
+  | "ml"
+  | "data-science"
+  | "deep-learning"
   | "online-code-editors"
   | "web-development"
   | "machine-learning"
+  | "tensorflow"
   | "dsa"
   | "android"
   | "blogs"
   | "hosting"
-  | "web3-metaverse";
+  | "web3-metaverse"
+  | "Github"
+  | "devtools"
+  | "javascript"
+  | "python"
+  | "golang"
+  | "opensource_blogs"
+  | "projects";
 export type SubCategories = {
   name: string;
   url: string;
@@ -69,12 +90,7 @@ export interface IContext {
   toggleNav?: () => void;
 }
 
-export type DBType = {
-  id: string;
-  name: string;
-  description: string;
-  url: string;
-  category: string;
-  subcategory: string;
-  language?:string;
-};
+export interface IUseFilterDBResponse {
+  filterSubCat: IData[][],
+  filterDB: IData[][],
+}

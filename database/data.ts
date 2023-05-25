@@ -1,53 +1,92 @@
-import { IData, ISidebar } from "../types";
-import * as DB from "database";
-import uuid from "react-uuid";
+import { IDBData, IData, ISidebar } from '../types'
+import * as DB from 'database'
+import { v4 as uuidv4 } from 'uuid'
 
-export const database=Object.values(DB).map(item=>item.map(subcat=>({...subcat,id:uuid()})));
-
+export const database: IData[][] = Object.values(DB).map((item: IDBData[]) =>
+  item.map((subcat) => ({ ...subcat, id: uuidv4() }))
+)
 export const sidebarData: ISidebar[] = [
   {
-    category: "frontend",
+    category: 'frontend',
     subcategory: [
-      { name: "images", url: "/images" },
-      { name: "fonts", url: "/fonts" },
-      { name: "colors", url: "/colors" },
-      { name: "illustrations", url: "/illustrations" },
-      { name: "animations", url: "/animations" },
-      { name: "icons", url: "/icons" },
-      { name: "design inspiration", url: "/design-inspiration" },
-      { name: "themes & templates", url: "/themes-templates" },
-      { name: "UI Generators", url: "/ui-generator" },
-      { name: "online code editors", url: "/online-code-editors" },
+      { name: 'react js', url: '/react'},
+      { name: 'images', url: '/images' },
+      { name: 'fonts', url: '/fonts' },
+      { name: 'colors', url: '/colors' },
+      { name: 'illustrations', url: '/illustrations' },
+      { name: 'animations', url: '/animations' },
+      { name: 'icons', url: '/icons' },
+      { name: 'design inspiration', url: '/design-inspiration' },
+      { name: 'themes & templates', url: '/themes-templates' },
+      { name: 'UI Generators', url: '/ui-generator' },
+      { name: 'online code editors', url: '/online-code-editors' },
     ],
   },
   {
-    category: "backend",
+    category: 'backend',
     subcategory: [
-      { name: "validation", url: "/validation" },
-      { name: "security", url: "/security" },
-      { name: "authentication", url: "/authentication" },
-      { name: "caching", url: "/caching" },
-      { name: "testing", url: "/testing" },
+      { name: 'architecture', url: '/architecture' },
+      { name: 'validation', url: '/validation' },
+      { name: 'security', url: '/security' },
+      { name: 'authentication', url: '/authentication' },
+      { name: 'caching', url: '/caching' },
+      { name: 'testing', url: '/testing' },
+      { name: 'system design', url: '/system-design' },
     ],
   },
   {
-    category: "youtube",
+    category: 'ml, ai & data',
     subcategory: [
-      { name: "web development", url: "/web-development" },
-      { name: "css", url: "/css" },
-      { name: "machine learning", url: "/machine-learning" },
-      { name: "data structures", url: "/dsa" },
-      { name: "Android", url: "/android" },
-      { name : "Web3 & Metaverse", url : "/web3-metaverse"},
-      { name : "Testing", url : "/testing"},
-      
+      { name: 'machine learning', url: '/ml' },
+      { name: 'data science', url: '/data-science'},
+      { name: 'deep learning', url : '/deep-learning'},
     ],
   },
   {
-    category: "resources",
+    category: 'youtube',
     subcategory: [
-      { name: "blogs", url: "/blogs" },
-      { name: "hosting", url: "/hosting" },
+      { name: 'web development', url: '/web-development' },
+      { name: 'CSS', url: '/css' },
+      { name: 'machine learning', url: '/machine-learning' },
+      { name: 'tensorflow', url: '/tensorflow'},
+      { name: 'data structures', url: '/dsa' },
+      { name: 'Android', url: '/android' },
+      { name: 'Web3 & Metaverse', url: '/web3-metaverse' },
+      { name: 'Testing', url: '/testing' },
+      { name: 'Computer Science', url: '/computer-science' },
     ],
   },
-];
+  {
+    category: 'resources',
+    subcategory: [
+      { name: 'blogs', url: '/blogs' },
+      { name: 'hosting', url: '/hosting' },
+      {name : 'e-book', url:'/e-book'},
+      { name: 'project ideas', url:'/project-ideas'}
+    ],
+  },
+  {
+    category: 'languages',
+    subcategory: [
+      { name: 'JavaScript', url: '/javascript' },
+      { name: 'Python', url: '/python' },
+      { name: 'Csharp (C#)', url: '/csharp' },
+      { name: 'Go', url: '/golang' }
+    ],
+  },
+  {
+    category: 'Other',
+    subcategory: [
+      { name: 'Github', url: '/github' },
+      { name: 'Dev Tools', url: '/devtools' },
+      { name: 'Podcasts', url: '/podcasts' },
+    ],
+  },
+  {
+    category: 'opensource',
+    subcategory: [
+      { name: 'Blogs', url: '/opensource_blogs' },
+      { name: 'Projects', url: '/projects' },
+    ],
+  },
+]
