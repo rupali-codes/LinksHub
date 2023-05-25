@@ -89,5 +89,12 @@
       "url": "https://www.colorion.co/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+   {
+    "name": "Happy Hues",
+    "description": "Not sure what colors to use in your designs or where to use them? Happy Hues is a color palette inspiration site that acts as a real world example as to how the colors could be used in your design projects.",
+      "url": "https://www.happyhues.co/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
