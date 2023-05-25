@@ -29,8 +29,8 @@ export { default as ml } from "./ml&ai/ml.json";
 export { default as dataScience } from "./ml&ai/datascience.json";
 export { default as deepLearning } from "./ml&ai/deeplearning.json";
 // Open-source
-export { default as opensource_blogs } from "./opensource/opensource_blogs.json";
-export { default as projects } from "./opensource/projects.json";
+export { default as openSourceBlogs } from "./opensource/blogs.json";
+export { default as openSourceProjects } from "./opensource/projects.json";
 // resources
 export { default as blogs } from "./resources/blogs.json";
 export { default as hosting } from "./resources/hosting.json";

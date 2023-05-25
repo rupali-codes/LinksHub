@@ -67,8 +67,8 @@ export type SubCategory =
   | "javascript"
   | "python"
   | "golang"
-  | "opensource_blogs"
-  | "projects";
+  | "open-source-blogs"
+  | "open-source-projects";
 export type SubCategories = {
   name: string;
   url: string;
