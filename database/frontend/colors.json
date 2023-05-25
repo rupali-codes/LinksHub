@@ -82,5 +82,12 @@
       "url": "https://colormagic.app/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  {
+    "name": "Colorion",
+    "description": "Colorion is an immersive color palette generator and exploration tool that inspires creativity. With a wide range of beautiful combinations, it offers endless possibilities for designers and artists. Discover stunning palettes and elevate your designs with Colorion.",
+      "url": "https://www.colorion.co/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
