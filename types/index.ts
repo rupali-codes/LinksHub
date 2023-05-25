@@ -27,7 +27,7 @@ export interface IData {
   language?: string;
 }
 
-export type Category = "frontend" | "backend" | "ml, ai & data" | "youtube" | "resources" | "Other" | "languages" | "online platform" | "opensource";
+export type Category = "frontend" | "backend" | "ml & ai" | "youtube" | "resources" | "other" | "languages" | "online platform" | "open source";
 
 export type SubCategory =
   | "images"
