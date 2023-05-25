@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC,useState, useRef, useEffect } from 'react'
 import { BsBoxArrowUpRight } from 'react-icons/bs'
 import { CopyToClipboard } from 'components/CopyToClipboard'
 import type { IData } from 'types'
@@ -6,6 +6,11 @@ import type { IData } from 'types'
 const Card: FC<{ data: IData }> = (props) => {
   const { data } = props
   const { name, description, url } = data
+  const descriptionRef = useRef(document.createElement("p"));
+  const [isOverflow, setIsOverflow] = useState(false);
+  useEffect (() => {
+    setIsOverflow(descriptionRef.current?.scrollHeight > descriptionRef.current?.offsetHeight);
+  }, [])
 
   return (
     <article className="z-10 h-full w-full rounded-3xl border border-dashed border-violet-500 dark:border-violet-400 bg-gray-100 shadow-lg dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm">
@@ -19,7 +24,13 @@ const Card: FC<{ data: IData }> = (props) => {
           </h2>
           <CopyToClipboard url={url} />
         </header>
-        <p className="h-24 w-full overflow-hidden font-sans">{description}</p>
+        <div className="h-[7rem]">
+          <p ref={descriptionRef} className="h-24 w-full overflow-hidden font-sans text-ellipsis line-clamp-4">{description}</p>
+          {
+            (isOverflow) && 
+            <p className="text-sm underline text-violet-600 dark:text-violet-400 text-right hover:text-violet-400 dark:hover:text-violet-300" >Read More</p>
+          }
+        </div>
         <footer className="card-actions justify-end">
           <a
             onClick={(e) => e.stopPropagation()}

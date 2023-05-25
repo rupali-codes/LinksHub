@@ -7,7 +7,7 @@ const CardsListItem: FC<{ data: IData, onClick: () => void }> = (props) => {
 
   return (
     <li 
-      className="h-64 w-full cursor-pointer transition-all duration-100 ease-in hover:scale-[1.02] md:w-72"
+      className="w-full cursor-pointer transition-all duration-100 ease-in hover:scale-[1.02] md:w-72"
       onClick={onClick}
     >
       <Card data={data} />
