@@ -89,6 +89,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'Blogs', url: '/opensource_blogs' },
       { name: 'Projects', url: '/projects' },
+      { name: 'Tools', url: '/tools'}
     ],
   },
 ]
