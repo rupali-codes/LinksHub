@@ -8,9 +8,9 @@
         "language": "english"
     },
     {
-        "name": "Epic React",
-        "description": "Epic React is a paid comprehensive workshop series by Kent C. Dodds that equips intermediate to advanced web developers with the knowledge and skills to build robust, well-tested React applications that scale.",
-        "url": "https://epicreact.dev/",
+        "name": "Learning React Docs",
+        "description": "This React documentation provides comprehensive resources for learning React, including tutorials, guides, and API references. It covers fundamental concepts, advanced topics, and best practices, making it an essential reference for beginners and experienced React developers.",
+        "url": "https://react.dev/learn",
         "category": "frontend",
         "subcategory": "react",
         "language": "english"
