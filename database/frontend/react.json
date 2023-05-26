@@ -9,7 +9,7 @@
     },
     {
         "name": "Learning React Docs",
-        "description": "This React documentation provides comprehensive resources for learning React, including tutorials, guides, and API references. It covers fundamental concepts, advanced topics, and best practices, making it an essential reference for beginners and experienced React developers.",
+        "description": "This React documentation provides comprehensive resources for learning React, including tutorials, guides, and API references. It also covers fundamental concepts, advanced topics, and best practices, making it an essential reference for beginners and experienced React developers.",
         "url": "https://react.dev/learn",
         "category": "frontend",
         "subcategory": "react",
