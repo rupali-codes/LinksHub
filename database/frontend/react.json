@@ -1,10 +1,18 @@
 [
     {
-        "name":"React js",
-        "description":"Free online course for learning react js",
-        "url":"https://scrimba.com/learn/learnreact#",
-        "category":"frontend",
-        "subcategory":"react",
-        "language":"english"
+        "name": "React js",
+        "description": "Free online course for learning react js",
+        "url": "https://scrimba.com/learn/learnreact#",
+        "category": "frontend",
+        "subcategory": "react",
+        "language": "english"
+    },
+    {
+        "name": "Epic React",
+        "description": "Epic React is a paid comprehensive workshop series by Kent C. Dodds that equips intermediate to advanced web developers with the knowledge and skills to build robust, well-tested React applications that scale.",
+        "url": "https://epicreact.dev/",
+        "category": "frontend",
+        "subcategory": "react",
+        "language": "english"
     }
 ]
