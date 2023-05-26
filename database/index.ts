@@ -31,6 +31,7 @@ export { default as deepLearning } from "./ml&ai/deeplearning.json";
 // Open-source
 export { default as openSourceBlogs } from "./opensource/blogs.json";
 export { default as openSourceProjects } from "./opensource/projects.json";
+export { default as openSourceTools } from "./opensource/tools.json";
 // resources
 export { default as blogs } from "./resources/blogs.json";
 export { default as hosting } from "./resources/hosting.json";
