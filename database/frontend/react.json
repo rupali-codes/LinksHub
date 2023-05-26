@@ -1,10 +1,18 @@
 [
     {
-        "name":"React js",
-        "description":"Free online course for learning react js",
-        "url":"https://scrimba.com/learn/learnreact#",
-        "category":"frontend",
-        "subcategory":"react",
-        "language":"english"
+        "name": "React js",
+        "description": "Free online course for learning react js",
+        "url": "https://scrimba.com/learn/learnreact#",
+        "category": "frontend",
+        "subcategory": "react",
+        "language": "english"
+    },
+    {
+        "name": "Fullstack Open",
+        "description": "This course serves as an introduction to modern web application development with JavaScript. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js. The course also contains a section on GraphQL, a modern alternative to REST APIs.",
+        "url": "https://fullstackopen.com/en/",
+        "category": "frontend",
+        "subcategory": "react",
+        "language": "english"
     }
 ]
