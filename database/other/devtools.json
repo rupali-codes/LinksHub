@@ -3,56 +3,56 @@
     "name": "Postman",
     "description": "It is an API Platform for developers to design, build, test and iterate their APIs.",
     "url": "https://www.postman.com/",
-    "category": "Other",
+    "category": "other",
     "subcategory": "devtools"
   },
   {
     "name": "VSCodium",
     "description": "VSCodium is free/libre Open Source Software Binaries of VS Code.",
     "url": "https://github.com/VSCodium/vscodium",
-    "category": "Other",
+    "category": "other",
     "subcategory": "devtools"
   },
   {
     "name": "Mockaroo",
     "description": "This site will help you to generate mock data for your projects",
     "url": "https://www.mockaroo.com/",
-    "category": "Other",
+    "category": "other",
     "subcategory": "devtools"
   },
   {
     "name": "Swagger",
     "description": "This site will help you to create documentation for your APIs",
     "url": "https://swagger.io/",
-    "category": "Other",
+    "category": "other",
     "subcategory": "devtools"
   },
   {
     "name": "UX-Archive",
     "description": "UX-Archive is powered by Waldo, the world’s first no-code testing platform that lets anyone create reliable, automated mobile tests without the hassle of scripting",
     "url": "https://uxarchive.com/",
-    "category": "Other",
+    "category": "other",
     "subcategory": "devtools"
   },
   {
     "name": "CodeSandbox",
     "description": "This IDE will make it easier for you to code. You can get any design you want as well as filter it by framework,dependiences, and tags.",
     "url": "https://codesandbox.io/search?refinementList",
-    "category": "Other",
+    "category": "other",
     "subcategory": "devtools"
   },
   {
     "name": "OpenSauced",
     "description": "OpenSauced is a great tool to display your merged and opened pull requests, highlight your favorite contributions, and find other open source projects to contribute to!",
     "url": "https://opensauced.pizza/",
-    "category": "Other",
+    "category": "other",
     "subcategory": "devtools"
   },
   {
     "name": "CodeCraftes",
     "description": "This is one of the best websites for developers to learn different programming languages. It provides dedicated tracks for each language and an online IDE that lets you do the exercises as you watch the lessons.",
     "url": "https://app.codecrafters.io/tracks",
-    "category": "Other",
+    "category": "other",
     "subcategory": "devtools"
   }
 ]
