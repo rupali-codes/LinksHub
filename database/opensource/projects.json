@@ -50,7 +50,7 @@
   },
   {
     "name": "GSoC Organizations",
-    "description": "A site that views and analyzed information on the organizations participating in Google Summer of Code, filtering them by various factors like years of participation, categories, etc.",
+    "description": "A site that views and analyzes information on the organizations participating in Google Summer of Code, filtering them by various factors like years of participation, categories, etc.",
     "url": "https://www.gsocorganizations.dev/",
     "category": "opensource",
     "subcategory": "projects"
