@@ -19,5 +19,12 @@
       "url": "https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/",
       "category": "opensource",
       "subcategory": "opensource_blogs"
+   },
+   {
+      "name": "Open Source Guides",
+      "description": "This blog will help you learn about everything in Open Source",
+      "url": "https://opensource.guide/",
+      "category": "opensource",
+      "subcategory": "opensource_blogs"
    }
 ]
