@@ -35,11 +35,38 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'ml, ai & data',
+    category: 'languages',
+    subcategory: [
+      { name: 'JavaScript', url: '/javascript' },
+      { name: 'Python', url: '/python' },
+      { name: 'Csharp (C#)', url: '/csharp' },
+      { name: 'Go', url: '/golang' },
+      { name: 'TypeScript', url: '/typescript' }
+    ],
+  },
+  {
+    category: 'ml & ai',
     subcategory: [
       { name: 'machine learning', url: '/ml' },
       { name: 'data science', url: '/data-science'},
       { name: 'deep learning', url : '/deep-learning'},
+    ],
+  },
+  {
+    category: 'open source',
+    subcategory: [
+      { name: 'Blogs', url: '/open-source-blogs' },
+      { name: 'Projects', url: '/open-source-projects' },
+      { name: 'Tools', url: '/open-source-tools'},
+    ],
+  },
+  {
+    category: 'resources',
+    subcategory: [
+      { name: 'blogs', url: '/blogs' },
+      { name: 'hosting', url: '/hosting' },
+      {name : 'e-book', url:'/e-book'},
+      { name: 'project ideas', url:'/project-ideas'}
     ],
   },
   {
@@ -58,37 +85,11 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'resources',
-    subcategory: [
-      { name: 'blogs', url: '/blogs' },
-      { name: 'hosting', url: '/hosting' },
-      {name : 'e-book', url:'/e-book'},
-      { name: 'project ideas', url:'/project-ideas'}
-    ],
-  },
-  {
-    category: 'languages',
-    subcategory: [
-      { name: 'JavaScript', url: '/javascript' },
-      { name: 'Python', url: '/python' },
-      { name: 'Csharp (C#)', url: '/csharp' },
-      { name: 'Go', url: '/golang' },
-      { name: 'TypeScript', url: '/typescript' }
-    ],
-  },
-  {
-    category: 'Other',
+    category: 'other',
     subcategory: [
       { name: 'Github', url: '/github' },
       { name: 'Dev Tools', url: '/devtools' },
       { name: 'Podcasts', url: '/podcasts' },
-    ],
-  },
-  {
-    category: 'opensource',
-    subcategory: [
-      { name: 'Blogs', url: '/opensource_blogs' },
-      { name: 'Projects', url: '/projects' },
     ],
   },
 ]
