@@ -47,5 +47,26 @@
     "url": "https://www.codecademy.com/pages/contribute-docs",
     "category": "opensource",
     "subcategory": "projects"
+  },
+  {
+    "name": "GSoC Organizations",
+    "description": "A site for viewing and analysing the info of the organizations participating in Google Summer of Code and filtering them by various factors like years of participation, categories, etc.",
+    "url": "https://www.gsocorganizations.dev/",
+    "category": "opensource",
+    "subcategory": "projects"
+  },
+  {
+    "name": "Up for grabs",
+    "description": "This is a list of projects which have curated tasks specifically for new contributors. These are a great way to get started with a project, or to help share the load of working on open source projects. ",
+    "url": "https://up-for-grabs.net/",
+    "category": "opensource",
+    "subcategory": "projects"
+  },
+  {
+    "name": "CodeTriage",
+    "description": "Pick your favorite repos to receive a different open issue in your inbox every day. Fix the issue and everybody wins. 71,669 developers are working on 7,712 open source repos using CodeTriage.",
+    "url": "https://www.codetriage.com/",
+    "category": "opensource",
+    "subcategory": "projects"
   }
 ]
