@@ -134,5 +134,29 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
+  },
+  {
+    "name": "Hyperplexed",
+    "description": "This channel teaches web development in a very intuitive manner by recreating easy yet awesome stuff in a very short amount of time",
+    "url": "https://www.youtube.com/@Hyperplexed",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Thapa Technical",
+    "description": "This channel is dedicated to the world of web development, offering a wide range of content related to technical aspects, tips and tricks, design principles, and programming.",
+    "url": "https://www.youtube.com/@ThapaTechnical",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "Hindi"
+  },
+  {
+    "name": "Slaying the dragon",
+    "description": "Slaying the dragon is about facing your fears, pursuing meaning and transforming into the web developer you were always destined to be.",
+    "url": "https://www.youtube.com/@slayingthedragon/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
   }
 ]

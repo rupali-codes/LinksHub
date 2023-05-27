@@ -67,5 +67,19 @@
         "url": "https://tobiasahlin.com/moving-letters/",
         "category": "frontend",
         "subcategory": "animations"
+    },
+    {
+        "name": "Magic Animations",
+        "description": "Using the library’s presets, you can create magical effects such as TwisterInDown, vanish, swap and many more. Similarly, it provides other animation effects like bling, static, and perspective. Overall, the Magic Animations library is a must-try animation library for UI designers.",
+        "url": "https://www.minimamente.com/project/magic/",
+        "category": "frontend",
+        "subcategory": "animations"
+    },
+    {
+        "name": "Three Dots",
+        "description": "Three Dots is a set of CSS loading animations made with just single element. I hope this project can not only enhance your CSS skills but also inspire your imagination",
+        "url": "https://nzbin.github.io/three-dots/",
+        "category": "frontend",
+        "subcategory": "animations"
     }
 ]
