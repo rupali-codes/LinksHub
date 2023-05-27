@@ -24,25 +24,39 @@ Thank you for taking the time to contribute to our project. Please take a moment
 - Create a **[Pull Request](https://github.com/rupali-codes/LinksHub/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
 - Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
 
+### Appending new Categories 🔗
+
+> ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) for inserting your categories and someone else will take care of them.
+
+#### 🌟Follow these steps to add your Category/Subcategory to the Hub
+
+* To add a newly created category or subcategory, include them in the [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) & [index.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/index.ts) files located in the `database` folder.  
+* Each category has its own folder with its name
+* Ensure that every subcategory is placed in its respective category folder.
+  
+  > For example, if `images` is a subcategory, it should be inside the `frontend` folder, which is a category.
+
+* To add a new category, create a folder with its name.
+  
+  > For example, create a folder named `Resources`
+
+* If you want to add a new subcategory, add it in [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) under the correct category, and provide the appropriate `url`. You can refer to the examples in the file.
+
+* Make sure to export the newly created JSON file in the index file.
+
 ### Appending new Links 🔗
 
-> ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) for inserting your links and someone else will take care of them.
+> ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) to suggest new links, and someone else will take care of them.
 
-#### 🌟Follow these steps to get your Links added into the Hub
+#### 🌟Follow these steps to add your links to the Hub
 
-* A newly created category and subcategory should be added to the [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) & [index.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/index.ts) files
-* Each category has its own folder with its name
-* Every subcategory should be placed in its respective category folder
-  
-  > i.e images should be inside Frontend folder
+* Choose the category and subcategory under which you want to add the resource.
 
-* To add a new category ensure to create a folder with it's name
-  
-  > i.e Resources
+* Locate the appropriate structure: `database/category_name/subcategory_name.json`
 
-* Make sure to export the newly created json file on the index file
+> For example, to add a resource in the `fonts` subcategory under the `frontend` category, navigate to `database/frontend/fonts.json`.
 
-The subcategory object should follow this pattern
+* The values in the JSON file should follow this pattern for the subcategory object:
 
   ```sh
     name:'', 
@@ -54,15 +68,16 @@ The subcategory object should follow this pattern
 
   #### Details 
   
-  * `name`: name of the site
+  * `name`: Name of the site
   
-  * `description`: define what the site does in a 
-  short para
-  
-  * `url`: add the valid site url
-  * `category`: could be one of the existing categories or create a new one by following the 
-  above instructions
-  * `subcategory`: could be one of the existing categories or create a new one by following the above instructions
+  * `description`: A brief description of what the site does
+  * `url`: Add a valid URL of the site
+  * `category`: Choose an existing category or create a new one following the instructions mentioned above.
+  * `subcategory`: Choose an existing subcategory or create a new one following the instructions mentioned above.
+  * `language`: This field is included for some of the resources, such as *React* resources or *YouTube* channel links. If multiple languages are involved, prioritize English if available. Otherwise, choose a language that you deem necessary.
+
+
+* You can use [JSONLint](https://jsonlint.com/) to check the correctness of the JSON to avoid failing tests during pull requests.
 
 **NOTE**
    When adding *YouTube* channel link, please specify *language* of the channel they are using to teach in for example English, Hindi, Spanish etc. In cases where the language is NOT specified, then just remove the `language` property. 
@@ -99,7 +114,7 @@ The subcategory object should follow this pattern
   * `feat`: use this if you're adding any new feature
   * `fix`: use this if you're fixing anything in the codebase
   * `chore`: use this when you're adding new links/resources AND when making any small changes
-  (ex. chore: added *resource_name* in *subcategory* *category* )
+  (ex. chore: add *resource_name* in *subcategory_name* *category_name* )
 If you need more tips, check out [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 ## Making Pull Requests
 
