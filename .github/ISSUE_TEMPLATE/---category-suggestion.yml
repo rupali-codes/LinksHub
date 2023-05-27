@@ -1,6 +1,6 @@
 ---
 name: "Category Request ⚡"
-description: "I would like to request a feature."
+description: "Use this to add new category/subcategory into the Hub"
 title: "[ADD] <write the name of category/subcategory>"
 labels: ["chore", "goal: new-category"]
 ---
