@@ -1,43 +1,50 @@
----
-name: "\U0001F41B New Category"
-about: I would like to add a new category.
-title: "\U0001F41B new category: "
-labels: "Type: label"
-assignees: ''
-
----
-
-## 🏷️ New Category 
-
-<!--
-    Thank you for coming to LinksHub and sharing a new category.
-
-    We highly recommend looking at [our website](https://linkshub.vercel.app/) first to see if your proposed category is already on there. 
-    Try and answer our questions thoroughly.
-    The more details we have, the easier it would be for us to see how it enhances LinksHub.
-
--->
-
-### What is the Category you want to see on LinksHub? 🤔
-
-<!--
-   Write the name here.
-    
--->
-
-### Where do you see it placed in our website?
-
-<!--
-    Add a Screenshot 
---->
-
-### Benefit
-
-<!--
-    How would adding this category impact LinksHub? 
---->
-
-
-<!--
-    Thank you for sharing your suggestion! We greatly appreciate it! 
--->
+name: "Category Request ⚡"
+description: I would like to request a feature.
+title: "[ADD] <write the name of category/subcategory>"
+labels: ["chore", "goal: new-category"]
+body:
+  - type: input
+    id: concise_category
+    attributes:
+      label: "Category Name"
+      description: "If you are adding to an existing category, please write 'none'"
+      placeholder: "Enter the name of the category."
+    validations:
+      required: true
+  - type: input
+    id: concise_subcategory
+    attributes:
+      label: Subcategory Name
+      description: Please write the relevant subcategory that can be added for the category.
+      placeholder: For example "images", "fonts", "colors", "illustrations"
+    validations:
+      required: true
+  - type: textarea
+    id: additional_context_category
+    attributes:
+      label: "Additional Context"
+      description: If you have any additional context or information that may help us understand the category/subcategory better, please provide it here
+      placeholder: You can write why this category should be included in the LinksHub.
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms_checklist
+    attributes:
+      label: Checklist
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/rupali-codes/LinksHub/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I have checked the existing [issues](https://github.com/rupali-codes/LinksHub/issues?q=is%3Aissue+)
+          required: true
+        - label: I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)
+          required: true
+        - label: I have checked that this category does not exist
+          required: false
+        - label: I have checked that this subcategory does not exist
+          required: true
+        - label: I am willing to work on this issue (optional)
+          required: false
+        - label: "I am a GSSoC'23 contributor"
+          required: false
+  - type: markdown
+    attributes:
+      value: Thank you for taking the time to suggest a new request! Your input is greatly appreciated.
