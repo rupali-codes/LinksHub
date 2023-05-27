@@ -30,5 +30,13 @@
     "category": "youtube",
     "subcategory": "css",
     "language": "english"
+  },
+  {
+    "name": "Dave Gray",
+    "description": "This channel has a wide variety of educational videos on frontend and backend technologies like HTML,CSS,Javascript,Tailwind CSS and React",
+    "url": "https://www.youtube.com/playlist?list=PL0Zuz27SZ-6Mx9fd9elt80G1bPcySmWit",
+    "category": "youtube",
+    "subcategory": "css",
+    "language": "english"
   }
 ]
