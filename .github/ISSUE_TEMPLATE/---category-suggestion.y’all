@@ -1,7 +1,9 @@
+---
 name: "Category Request ⚡"
 description: "I would like to request a feature."
 title: "[ADD] <write the name of category/subcategory>"
 labels: ["chore", "goal: new-category"]
+---
 body:
   - type: input
     id: concise_category
