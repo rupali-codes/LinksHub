@@ -17,6 +17,7 @@
       "name": "How to make your first pull request on Github",
       "description": "This blog will help you to make your first pull request on Github",
       "url": "https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/",
+
       "category": "opensource",
       "subcategory": "opensource_blogs"
    },
@@ -24,7 +25,7 @@
       "name": "Open Source Guides",
       "description": "This blog will help you learn about everything in Open Source",
       "url": "https://opensource.guide/",
-      "category": "opensource",
-      "subcategory": "opensource_blogs"
+      "category": "open source",
+      "subcategory": "open-source-blogs"
    }
 ]
