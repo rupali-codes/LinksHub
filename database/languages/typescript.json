@@ -1,0 +1,23 @@
+[
+  {
+    "name": "TypeScript Beginners Guide",
+    "description": "This is a comprehensive and accessible resource designed to introduce beginners to the fundamentals of TypeScript.",
+    "url": "https://www.freecodecamp.org/news/learn-typescript-beginners-guide/",
+    "category": "languages",
+    "subcategory": "typescript"
+  },
+  {
+    "name": "Official TypeScript Guide",
+    "description": "This is an official resource created by Microsoft to introduce TypeScript programming.",
+    "url": "https://www.typescriptlang.org/",
+    "category": "languages",
+    "subcategory": "typescript"
+  },
+  {
+    "name": "TypeScript Deep Dive",
+    "description": "This is a comprehensive resource to learn TypeScript in detail.",
+    "url": "https://basarat.gitbook.io/typescript/",
+    "category": "languages",
+    "subcategory": "typescript"
+  }
+]

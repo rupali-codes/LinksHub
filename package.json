@@ -1,4 +1,4 @@
-{ 
+{
   "name": "LinksHub",
   "version": "0.1.0",
   "private": true,
@@ -20,10 +20,10 @@
     "copy-to-clipboard": "^3.3.3",
     "daisyui": "^2.51.5",
     "eslint": "8.37.0",
-    "eslint-config-next": "13.2.4",
+    "eslint-config-next": "13.4.3",
     "eslint-config-prettier": "^8.8.0",
     "git": "^0.1.5",
-    "next": "13.2.4",
+    "next": "13.4.3",
     "next-themes": "^0.2.1",
     "prettier": "^2.8.7",
     "react": "18.2.0",
