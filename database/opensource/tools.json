@@ -1,3 +1,16 @@
 [
-  
+    {
+        "name": "Open Source Guides",
+        "description": "This site is like a 101 for open-source. It’ll enlighten you on Open Source and various other elements involved in it.",
+        "url": "https://opensource.guide/",
+        "category": "open source",
+        "subcategory": "open-source-tools"
+    },
+    {
+        "name": "First Contributions",
+        "description": "Beginner in open-source ? This site will help you in making your first open-source contribution in five minutes.",
+        "url": "https://firstcontributions.github.io/",
+        "category": "open source",
+        "subcategory": "open-source-tools"
+    }
 ]
