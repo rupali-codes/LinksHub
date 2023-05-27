@@ -30,5 +30,11 @@ jobs:
 
               if (!linkedIssue) {
                 await github.pulls.update({ owner, repo, pull_number: pr.number, state: 'closed' });
+                await github.issues.createComment({
+                  owner,
+                  repo,
+                  issue_number: pr.number,
+                  body: "This pull request has been closed because it does not mention the issue that it solves. Please refer to the [Contributing files](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md#issues) to help you add this information. Then, tag the maintainers so your PR can be reopened."
+                });
               }
             });
