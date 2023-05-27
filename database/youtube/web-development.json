@@ -150,5 +150,13 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "Hindi"
+  },
+  {
+    "name": "Slaying the dragon",
+    "description": "Slaying the dragon is about facing your fears, pursuing meaning and transforming into the web developer you were always destined to be.",
+    "url": "https://www.youtube.com/@slayingthedragon/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
   }
 ]
