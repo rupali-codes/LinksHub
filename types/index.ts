@@ -27,7 +27,7 @@ export interface IData {
   language?: string;
 }
 
-export type Category = "frontend" | "backend" | "youtube" | "resources" | "Other" | "languages" | "online platform" | "opensource";
+export type Category = "frontend" | "backend" | "ml & ai" | "youtube" | "resources" | "other" | "languages" | "online platform" | "open source";
 
 export type SubCategory =
   | "images"
@@ -50,6 +50,9 @@ export type SubCategory =
   | "authentication"
   | "caching"
   | "system-design"
+  | "ml"
+  | "data-science"
+  | "deep-learning"
   | "online-code-editors"
   | "web-development"
   | "machine-learning"
@@ -64,8 +67,9 @@ export type SubCategory =
   | "javascript"
   | "python"
   | "golang"
-  | "opensource_blogs"
-  | "projects";
+  | "open-source-blogs"
+  | "open-source-projects"
+  | "open-source-tools";
 export type SubCategories = {
   name: string;
   url: string;

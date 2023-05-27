@@ -7,8 +7,8 @@
         "subcategory": "python"
     },
     {
-        "name": "Learn Python Programming",
-        "description": "Python Programming tutorial by Programiz",
+        "name": "Python Programiz",
+        "description": "This course covers all the fundamental concepts of Python.",
         "url": "https://www.programiz.com/python-programming",
         "category": "languages",
         "subcategory": "python"
@@ -20,5 +20,12 @@
         "category": "youtube",
         "subcategory": "python",
         "language": "hindi"
-    }    
+    }, 
+    {
+        "name": "Python Tutorial",
+        "description": "Learn Python through this interactive Python tutorial and exercises. You also receive a certificate if you pass them.",
+        "url": "https://www.learnpython.org/",
+        "category": "languages",
+        "subcategory": "python"
+    }
 ]
