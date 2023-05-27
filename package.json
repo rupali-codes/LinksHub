@@ -1,1 +1,49 @@
+<<<<<<< HEAD
 {"name":"LinksHub","version":"0.1.0","private":true,"scripts":{"build":"next build","lint":"next lint","dev":"next dev","start":"next start","dev-setup":"pnpm install","start-setup":"pnpm install ","preinstall":"npx only-allow pnpm"},"dependencies":{"@next/font":"13.2.4","@types/node":"18.15.11","@types/react":"18.0.31","@types/react-dom":"18.0.11","classnames":"^2.3.2","copy-to-clipboard":"^3.3.3","daisyui":"^2.51.5","eslint":"8.37.0","eslint-config-next":"13.2.4","eslint-config-prettier":"^8.8.0","firebase":"^9.22.0","firebaseui":"^0.600.0","git":"^0.1.5","next":"13.2.4","next-themes":"^0.2.1","prettier":"^2.8.7","react":"18.2.0","react-dom":"18.2.0","react-firebase-hooks":"^5.1.1","react-icons":"^4.8.0","react-spinners":"^0.13.8","react-transition-state":"^2.1.0","typescript":"5.0.3","typewriter-effect":"^2.19.0","uuid":"9.0.0"},"devDependencies":{"@types/uuid":"^9.0.1","@typescript-eslint/eslint-plugin":"^5.57.0","autoprefixer":"^10.4.14","postcss":"^8.4.21","tailwindcss":"^3.3.1"}}
+=======
+{
+  "name": "LinksHub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "lint": "next lint",
+    "dev": "next dev",
+    "start": "next start",
+    "dev-setup": "pnpm install",
+    "start-setup": "pnpm install ",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "@next/font": "13.2.4",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.31",
+    "@types/react-dom": "18.0.11",
+    "classnames": "^2.3.2",
+    "copy-to-clipboard": "^3.3.3",
+    "daisyui": "^2.51.5",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.4.3",
+    "eslint-config-prettier": "^8.8.0",
+    "git": "^0.1.5",
+    "next": "13.4.3",
+    "next-themes": "^0.2.1",
+    "prettier": "^2.8.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-spinners": "^0.13.8",
+    "react-transition-state": "^2.1.0",
+    "typescript": "5.0.3",
+    "typewriter-effect": "^2.19.0",
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
+  }
+}
+>>>>>>> 6b905ee596340c172a96c2b9130a0d3c5592744a

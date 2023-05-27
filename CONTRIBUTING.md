@@ -6,6 +6,8 @@ Thank you for taking the time to contribute to our project. Please take a moment
 >
 > **Pull Requests having no issue associated with them will not be accepted. Firstly get an issue assigned, whether it's already opened or raised by you, and then create a Pull Request.**
 
+> **An automated process has been implemented to ensure timely management of Pull Requests (PRs) on this platform. PRs that have been open for a duration exceeding 45 days will be automatically closed, so please plan accordingly.**
+
 ## Prerequisites
 
 - Open Source Etiquette: If you've never contributed to an open source project before, have a read of [Basic etiquette](https://developer.mozilla.org/en-US/docs/MDN/Community/Open_source_etiquette) for open source projects.
@@ -22,25 +24,39 @@ Thank you for taking the time to contribute to our project. Please take a moment
 - Create a **[Pull Request](https://github.com/rupali-codes/LinksHub/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
 - Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
 
+### Appending new Categories 🔗
+
+> ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) for inserting your categories and someone else will take care of them.
+
+#### 🌟Follow these steps to add your Category/Subcategory to the Hub
+
+* To add a newly created category or subcategory, include them in the [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) & [index.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/index.ts) files located in the `database` folder.  
+* Each category has its own folder with its name
+* Ensure that every subcategory is placed in its respective category folder.
+  
+  > For example, if `images` is a subcategory, it should be inside the `frontend` folder, which is a category.
+
+* To add a new category, create a folder with its name.
+  
+  > For example, create a folder named `Resources`
+
+* If you want to add a new subcategory, add it in [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) under the correct category, and provide the appropriate `url`. You can refer to the examples in the file.
+
+* Make sure to export the newly created JSON file in the index file.
+
 ### Appending new Links 🔗
 
-> ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) for inserting your links and someone else will take care of them.
+> ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) to suggest new links, and someone else will take care of them.
 
-#### 🌟Follow these steps to get your Links added into the Hub
+#### 🌟Follow these steps to add your links to the Hub
 
-* A newly created category and subcategory should be added to the data file
-* Each category has it's own folder with it's name
-* Every subcategory should be placed in it respective category folder
-  
-  > i.e images should be inside Frontend folder
+* Choose the category and subcategory under which you want to add the resource.
 
-* To add a new category ensure to create a folder with it's name
-  
-  > i.e Resources
+* Locate the appropriate structure: `database/category_name/subcategory_name.json`
 
-* Make sure to Export the newly created json file on the index file
+> For example, to add a resource in the `fonts` subcategory under the `frontend` category, navigate to `database/frontend/fonts.json`.
 
-The subcategory object should follow this pattern
+* The values in the JSON file should follow this pattern for the subcategory object:
 
   ```sh
     name:'', 
@@ -52,27 +68,54 @@ The subcategory object should follow this pattern
 
   #### Details 
   
-  * `name`: name of the site
+  * `name`: Name of the site
   
-  * `description`: define what the site does in a 
-  short para
-  
-  * `url`: add the valid site url
-  * `category`: could be one of the existing categories or create a new one by following the 
-  above instructions
-  * `subcategory`: could be one of the existing categories or create a new one by following the above instructions
+  * `description`: A brief description of what the site does
+  * `url`: Add a valid URL of the site
+  * `category`: Choose an existing category or create a new one following the instructions mentioned above.
+  * `subcategory`: Choose an existing subcategory or create a new one following the instructions mentioned above.
+  * `language`: This field is included for some of the resources, such as *React* resources or *YouTube* channel links. If multiple languages are involved, prioritize English if available. Otherwise, choose a language that you deem necessary.
+
+
+* You can use [JSONLint](https://jsonlint.com/) to check the correctness of the JSON to avoid failing tests during pull requests.
 
 **NOTE**
-   When adding *YouTube* channel link please specify *language* of the channel they are using to teach in for example English, Hindi, Spanish etc. In case language is NOT specified then just remove the language property. 
+   When adding *YouTube* channel link, please specify *language* of the channel they are using to teach in for example English, Hindi, Spanish etc. In cases where the language is NOT specified, then just remove the `language` property. 
 
   
 > **⚠️Important**
 >
-> - Do not make duplicate entries (always confirm that an entry does not exist by searching through the JSON file.
+> - **Do not** make duplicate entries. Always confirm that an entry does not exist by searching through the JSON file.
 > - Ensure that your entries are error-free by double-checking before staging your changes.
 > - Your entries should follow the above structure.
 
 --- 
+## Issues
+* Select an issue template from [issues](https://github.com/rupali-codes/LinksHub/issues/new/choose) tab. Otherwise, choose **Other** if it doesn't match what you're looking for.
+* When creating an issue, make sure you fill up all the fields properly. 
+* Make sure that you are NOT raising a **duplicate issue**.
+* If you want to work on the issue, please click on the *I am willing to work on this issue* checkmark. 
+* **Note:** If you are apart of GSSoC'23, please check the *I am a GSSoC'23 contributor* check mark as shown in the image below:  
+![issue checkmark for gssoc'23](https://github.com/CBID2/LinksHub-my-version-/assets/105683440/c31b245d-420a-4513-bb58-d6be8b2fcdb1)
+ * **Do not create the PR until you have confirmed with the maintainers that you are participating in this program** 
+ 
+* If you aren't the owner of the issue, please comment that you're willing to work on the issue and wait for maintainers to assign you the issue. Also, don't work on the issue if you're NOT assigned.
+* Please do **not** start working on the issue if you aren't yet assigned.
+* Work on only **ONE** issue at a time. 
+  
+**Closing the issue**
+
+* If you decide to close the issue, please leave a brief comment describing why(e.g., I'm busy with other obligations.) before you do. 
+* **Note:** If the Pull Request associated with the issue gets merged and the issue still remains open, it's **your** responsibility to close the issue. 
+
+## Commits
+* Please keep your commit messages short and clear.
+* Use `type: subject` format for writing your commit messages. `type` could be one the followings:
+  * `feat`: use this if you're adding any new feature
+  * `fix`: use this if you're fixing anything in the codebase
+  * `chore`: use this when you're adding new links/resources AND when making any small changes
+  (ex. chore: add *resource_name* in *subcategory_name* *category_name* )
+If you need more tips, check out [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 ## Making Pull Requests
 
 1. When you submit a pull request, several tests are automatically run
@@ -90,4 +133,6 @@ The subcategory object should follow this pattern
 --- 
 ## Remarks ✅
 
-If something is missing here, or you feel something is not well described, either directly create a PR or [create an issue](https://github.com/rupali-codes/LinksHub/issues).
+- If something is missing here, or you feel something is not well described, either create a PR, [raise an issue](https://github.com/rupali-codes/LinksHub/issues), or [do a code review of the person’s PR](https://www.freecodecamp.org/news/code-review-tips/) (ensure that your review conforms to the [Code of Conduct](https://github.com/CBID2/LinksHub-my-version-/blob/main/CODE_OF_CONDUCT.md))
+
+
