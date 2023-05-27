@@ -150,5 +150,13 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "Hindi"
+  },
+  {
+    "name": "CodeHelp",
+    "description": "This is one of the Best Free Beginner to Advance course for all those people who wants to learn Full Stack Web Development",
+    "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "Hindi"
   }
 ]
