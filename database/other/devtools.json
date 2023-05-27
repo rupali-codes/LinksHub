@@ -56,9 +56,9 @@
     "subcategory": "devtools"
   },
   {
-    "name": "Replit",
-    "description": "Build software collaboratively, harnessing the power of AI, on any device, without wasting a single second on setup.",
-    "url": "https://replit.com/",
+    "name": "Deepsource",
+    "description": "Deepsource is a game-changer for maintaining secure and high-quality code. With its proactive static analysis, developers, security teams, and engineering leaders can address code issues and improve code coverage, leading to the faster merging of pull requests and enhanced codebase stability.",
+    "url": "https://deepsource.com/",
     "category": "other",
     "subcategory": "devtools"
   }
