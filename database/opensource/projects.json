@@ -33,5 +33,12 @@
     "url": "https://www.codecademy.com/pages/contribute-docs",
     "category": "opensource",
     "subcategory": "projects"
+  },
+  {
+    "name": "Eddie Jaoude",
+    "description": "Custom GitHub profile for Eddie Jaoude",
+    "url": "https://github.com/eddiejaoude/eddiejaoude",
+    "category": "opensource",
+    "subcategory": "projects"
   }
 ]
