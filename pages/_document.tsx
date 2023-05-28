@@ -4,6 +4,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
         {/* Should be changed on hosting the website */}
         <meta property="og:url" content="https://linkshub.vercel.app/" />
         <meta property="og:type" content="website" />
