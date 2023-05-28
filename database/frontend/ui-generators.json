@@ -103,5 +103,12 @@
     "url": "https://styled-components.com/",
     "category": "frontend",
     "subcategory": "ui-generators"
+  },
+  {
+    "name": "CSS Loaders & Spinners",
+    "description": "CSS Loaders is a website that offers a collection of animated loading spinners or loaders created purely with CSS (Cascading Style Sheets). These loaders are used to indicate that content is being loaded or processed on a web page",
+    "url": "https://cssloaders.github.io/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
   }
 ]
