@@ -56,6 +56,13 @@
     "subcategory": "devtools"
   },
   {
+    "name": "Deepsource",
+    "description": "Deepsource is a game-changer for maintaining secure and high-quality code. With its proactive static analysis, developers, security teams, and engineering leaders can address code issues and improve code coverage, leading to the faster merging of pull requests and enhanced codebase stability.",
+    "url": "https://deepsource.com/",
+    "category": "other",
+    "subcategory": "devtools"
+  },
+  {
     "name": "AI search engine for developers",
     "description": "Phind is a search engine that simply tells users what the answer is. It is optimized for developers and technical questions.",
     "url": "https://www.phind.com/",
