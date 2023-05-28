@@ -36,7 +36,7 @@
     },
     {
         "name": "Free React Bootcamp",
-        "description": "Discover a comprehensive 4-day React boot camp that offers a solid foundation in React development. Each day of the boot camp features an in-depth video, providing a comprehensive learning experience for mastering React's concepts and techniques.",
+        "description": "This 4-day React boot camp offers a solid foundation in React development. Each day features an in-depth video, providing a comprehensive learning experience for mastering React's concepts and techniques.",
         "url": "https://ui.dev/free-react-bootcamp",
         "category": "frontend",
         "subcategory": "react"
