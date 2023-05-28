@@ -1,44 +1,58 @@
 [
   {
+      "name": "Good First Issue",
+      "description": "This website curates the issues with good first issue tag from various open-source projects and displays them with a nice and clean UI.",
+      "url": "https://goodfirstissue.dev/",
+      "category": "other",
+      "subcategory": "github"
+  },
+  {
+      "name": "First Pull Request",
+      "description": "This site will asks you the GitHub username of your favorite programmers and in return displays their first pull request.",
+      "url": "https://firstpr.me/",
+      "category": "other",
+      "subcategory": "github"
+  }, 
+  {
     "name": "ReadmeSo",
     "description": "One of the best and efficient site to generate Readme file for your project.",
     "url": "https://readme.so/",
-    "category": "Other",
+    "category": "other",
     "subcategory": "github"
   },
   {
     "name": "MakeReadme",
     "description": "It can generate readme.md and contribute.md files with pre-built templates and suggestions.",
     "url": "https://www.makeareadme.com/",
-    "category": "Other",
+    "category": "other",
     "subcategory": "github"
   },
   {
     "name": "Profile README Generator",
     "description": "This site will help you to generate markdowns for your GitHub profile",
     "url": "https://rahuldkjain.github.io/gh-profile-readme-generator/",
-    "category": "Other",
+    "category": "other",
     "subcategory": "github"
   },
   {
     "name": "GitHub Profile ReadMe Maker",
     "description": "This site will help you to generate markdowns for your GitHub profile",
     "url": "https://gprm.itsvg.in/",
-    "category": "Other",
+    "category": "other",
     "subcategory": "github"
   },
   {
     "name": "First Interaction",
     "description": "An action for filtering pull requests and issues from first-time contributors.",
     "url": "https://github.com/marketplace/actions/first-interaction",
-    "category": "Other",
+    "category": "other",
     "subcategory": "github"
   },
   {
     "name": "GitHub's Maintainer Community",
     "description": "GitHub's Maintainer Community is a private space for maintainers to connect with peers, preview GitHub features, and help us support the open source community.",
     "url": "https://maintainers.github.com/auth/signin",
-    "category": "Other",
+    "category": "other",
     "subcategory": "github"
   }
 ]
