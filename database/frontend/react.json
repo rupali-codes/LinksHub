@@ -19,5 +19,12 @@
         "url":"https://react.dev/",
         "category":"frontend",
         "subcategory":"react"
-    }
+    },
+    {
+        "name": "React 2025",
+        "description": "React2025 is the ultimate free course that guides you from zero lines of code to launching a fully functional SaaS app. Learn Next.js, React, Firebase Authentication, Firestore, Stripe for subscription payments, and Vercel for serverless deployment all in one comprehensive package.",
+        "url": "https://react2025.com/",
+        "category": "frontend",
+        "subcategory": "react"
+    }    
 ]
