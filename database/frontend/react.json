@@ -1,24 +1,31 @@
 [
     {
-        "name":"React js",
-        "description":"Free online course for learning react js",
-        "url":"https://scrimba.com/learn/learnreact#",
-        "category":"frontend",
-        "subcategory":"react"
+        "name": "React js",
+        "description": "Free online course for learning react js",
+        "url": "https://scrimba.com/learn/learnreact#",
+        "category": "frontend",
+        "subcategory": "react"
     },
     {
-        "name":"React Tutorial for Beginners",
+        "name": "React Tutorial for Beginners",
         "description": "This tutorial is beginner-friendly, well-structured, hands-on, and helpful in understanding React",
-        "url":"https://www.youtube.com/watch?v=SqcY0GlETPk",
-        "category":"frontend",
-        "subcategory":"react"
+        "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "category": "frontend",
+        "subcategory": "react"
     },
     {
-        "name":"React JS Official Documentation",
+        "name": "React JS Official Documentation",
         "description": "The go-to resource for React JS, offering comprehensive guides, tutorials, and API references to help you learn and master React development.",
-        "url":"https://react.dev/",
-        "category":"frontend",
-        "subcategory":"react"
+        "url": "https://react.dev/",
+        "category": "frontend",
+        "subcategory": "react"
+    },
+    {
+        "name": "Fullstack Open",
+        "description": "This course serves as an introduction to modern web application development with JavaScript. The main focus is on building single page applications with ReactJS and use REST APIs built with Node.js. The course also contains a section on GraphQL, a modern alternative to REST APIs.",
+        "url": "https://fullstackopen.com/en/",
+        "category": "frontend",
+        "subcategory": "react"
     },
     {
         "name": "React 2025",
@@ -26,5 +33,5 @@
         "url": "https://react2025.com/",
         "category": "frontend",
         "subcategory": "react"
-    }    
+    }
 ]
