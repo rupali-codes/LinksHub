@@ -5,5 +5,19 @@
         "url": "https://www.codecademy.com/learn/learn-python-3",
         "category": "languages",
         "subcategory": "python"
-    }    
+    },
+    {
+        "name": "Python Programiz",
+        "description": "This course covers all the fundamental concepts of Python.",
+        "url": "https://www.programiz.com/python-programming",
+        "category": "languages",
+        "subcategory": "python"
+    },
+    {
+        "name": "Python Tutorial",
+        "description": "Learn Python through this interactive Python tutorial and exercises. You also receive a certificate if you pass them.",
+        "url": "https://www.learnpython.org/",
+        "category": "languages",
+        "subcategory": "python"
+    }
 ]
