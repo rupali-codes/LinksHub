@@ -62,5 +62,12 @@
         "category": "youtube",
         "subcategory": "machine-learning",
         "language": "english"
+    },{
+        "name":"Rob Mulla",
+        "description": "Medallion Data Science is a channel devoted to growing a community of people interested in learning machine learning, data science and coding in python. Also streaming live coding sessions on twitch as Medallion Stallion https://www.twitch.tv/medallionstallion",
+        "url":"https://www.youtube.com/@robmulla",
+        "category":"youtube",
+        "subcategory":"machine-learning",
+        "language":"english" 
     }
 ]
