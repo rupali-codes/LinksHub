@@ -33,5 +33,12 @@
         "url": "https://react2025.com/",
         "category": "frontend",
         "subcategory": "react"
+    },
+    {
+        "name": "React Tutorial",
+        "description": "Learn react in an interactive environment.",
+        "url": "https://react-tutorial.app/",
+        "category": "frontend",
+        "subcategory": "react"
     }
 ]
