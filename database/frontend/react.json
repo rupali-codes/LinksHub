@@ -4,13 +4,40 @@
         "description": "Free online course for learning react js",
         "url": "https://scrimba.com/learn/learnreact#",
         "category": "frontend",
-        "subcategory": "react",
-        "language": "english"
+        "subcategory": "react"
     },
     {
-        "name": "Learning React Docs",
-        "description": "This React documentation provides comprehensive resources for learning React, including tutorials, guides, and API references. It also covers fundamental concepts, advanced topics, and best practices, making it an essential reference for beginners and experienced React developers.",
-        "url": "https://react.dev/learn",
+        "name": "React Tutorial for Beginners",
+        "description": "This tutorial is beginner-friendly, well-structured, hands-on, and helpful in understanding React",
+        "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "category": "frontend",
+        "subcategory": "react"
+    },
+    {
+        "name": "React JS Official Documentation",
+        "description": "The go-to resource for React JS, offering comprehensive guides, tutorials, and API references to help you learn and master React development.",
+        "url": "https://react.dev/",
+        "category": "frontend",
+        "subcategory": "react"
+    },
+    {
+        "name": "Fullstack Open",
+        "description": "This course serves as an introduction to modern web application development with JavaScript. The main focus is on building single page applications with ReactJS and use REST APIs built with Node.js. The course also contains a section on GraphQL, a modern alternative to REST APIs.",
+        "url": "https://fullstackopen.com/en/",
+        "category": "frontend",
+        "subcategory": "react"
+    },
+    {
+        "name": "React 2025",
+        "description": "React2025 is the ultimate free course that guides you from zero lines of code to launching a fully functional SaaS app. Learn Next.js, React, Firebase Authentication, Firestore, Stripe for subscription payments, and Vercel for serverless deployment all in one comprehensive package.",
+        "url": "https://react2025.com/",
+        "category": "frontend",
+        "subcategory": "react"
+    },
+    {
+        "name": "Free React Bootcamp",
+        "description": "Discover a comprehensive 4-day React boot camp that offers a solid foundation in React development. Each day of the boot camp features an in-depth video, providing a comprehensive learning experience for mastering React's concepts and techniques.",
+        "url": "https://ui.dev/free-react-bootcamp",
         "category": "frontend",
         "subcategory": "react"
     }
