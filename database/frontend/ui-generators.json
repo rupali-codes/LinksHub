@@ -1,5 +1,12 @@
 [
   {
+    "name": "Fffuel.co",
+    "description": "fffuel is a collection of color tools and free SVG generators for gradients, patterns, textures, shapes & backgrounds.",
+    "url": "https://fffuel.co/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
     "name": "Neumorphism.io",
     "description": "It's a platform where you can generate Soft-UI CSS elements for your webiste or app.",
     "url": "https://neumorphism.io/#e0e0e0",

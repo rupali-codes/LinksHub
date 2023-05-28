@@ -3,21 +3,21 @@
       "name": "Chrissy’s Open Source Survival Guide",
       "description": "Whether you are a coding newbie or an experienced developer looking to keep your skills sharp, my series will help you navigate the fun and whimsical world of open source projects.",
       "url": "https://chrissycodes.hashnode.dev/",
-      "category": "opensource",
-      "subcategory": "opensource_blogs"
+      "category": "open source",
+      "subcategory": "open-source-blogs"
    },
    {
       "name": "Ways to get more contributors to your open source project",
       "description": "Several ways to get more contributors to your Open Source project.",
       "url": "https://blog.pradumnasaraf.dev/ways-to-get-more-contributors-to-your-open-source-project",
-      "category": "opensource",
-      "subcategory": "opensource_blogs"
+      "category": "open source",
+      "subcategory": "open-source-blogs"
    },
    {
       "name": "How to make your first pull request on Github",
       "description": "This blog will help you to make your first pull request on Github",
       "url": "https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/",
-      "category": "opensource",
-      "subcategory": "opensource_blogs"
+      "category": "open source",
+      "subcategory": "open-source-blogs"
    }
 ]
