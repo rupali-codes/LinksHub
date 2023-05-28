@@ -36,7 +36,7 @@
     },
     {
         "name": "React Tutorial",
-        "description": "Learn react in an interactive environment.",
+        "description": "Learn modern React from scratch, and practice in an intuitive environment. Throughout this course, you will build an online supermarket shopping app with Stripe integration.",
         "url": "https://react-tutorial.app/",
         "category": "frontend",
         "subcategory": "react"
