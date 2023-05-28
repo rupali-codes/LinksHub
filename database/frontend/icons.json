@@ -131,5 +131,12 @@
     "url": "https://animated-fluent-emoji.vercel.app/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Feather Icons",
+    "description": "Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency, and flexibility",
+    "url": "https://feathericons.com/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
