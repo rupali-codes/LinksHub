@@ -50,7 +50,7 @@
     },
     {
         "name": "Learn Js",
-        "description": "An open-source interactive JavaScript tutorial website intended for everyone who wishes to learn the JavaScript programming language, whether they are an experienced programmer or not.",
+        "description": "This website provides interactive tutorials for anyone who wishes to learn the JavaScript programming language, whether they are an experienced programmer or not.",
         "url": "https://learn-js.org/",
         "category": "languages",
         "subcategory": "javascript"
