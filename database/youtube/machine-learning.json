@@ -49,7 +49,7 @@
     },
     {
         "name": "FreeCodeCamp",
-        "description": "Learn Machine Learning in a way that is accessible to absolute beginners. You will learn the basics of Machine Learning and how to use TensorFlow to implement many different concepts.",
+        "description": "Here, you will learn the basics of Machine Learning and how to use TensorFlow in different scenarios.",
         "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg&t=769s&ab_channel=freeCodeCamp.org",
         "category": "youtube",
         "subcategory": "machine-learning",
