@@ -32,6 +32,8 @@ export const sidebarData: ISidebar[] = [
       { name: 'caching', url: '/caching' },
       { name: 'testing', url: '/testing' },
       { name: 'system design', url: '/system-design' },
+      { name: 'database', url: '/database' },
+      
     ],
   },
   {
@@ -90,6 +92,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Github', url: '/github' },
       { name: 'Dev Tools', url: '/devtools' },
       { name: 'Podcasts', url: '/podcasts' },
+      { name: 'Other Resources', url: '/other-resources' },
     ],
   },
 ]
