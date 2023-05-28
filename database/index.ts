@@ -52,3 +52,4 @@ export { default as competitiveProgramming } from './youtube/competitive-program
 export { default as github } from "./other/github.json";
 export { default as devtools } from "./other/devtools.json";
 export { default as podcasts } from "./other/podcasts.json";
+export { default as otherResources } from "./other/other-resources.json";

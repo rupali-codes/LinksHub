@@ -54,5 +54,12 @@
     "url": "https://app.codecrafters.io/tracks",
     "category": "other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "AI search engine for developers",
+    "description": "Phind is a search engine that simply tells users what the answer is. It is optimized for developers and technical questions.",
+    "url": "https://www.phind.com/",
+    "category": "Other",
+    "subcategory": "devtools"
   }
 ]

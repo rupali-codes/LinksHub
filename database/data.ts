@@ -92,6 +92,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Github', url: '/github' },
       { name: 'Dev Tools', url: '/devtools' },
       { name: 'Podcasts', url: '/podcasts' },
+      { name: 'Other Resources', url: '/other-resources' },
     ],
   },
 ]
