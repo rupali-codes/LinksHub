@@ -1,14 +1,14 @@
-name: Close Old PRs
+name: Close PRs Without Linked Issues
 on:
   schedule:
     - cron: "0 0 * * *"
 
 jobs:
-  close_old_prs:
+  close_prs_without_issue:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check and Close Old PRs
+      - name: Check and Close PRs Without Linked Issues
         id: close_prs
         uses: actions/github-script@v6
         env:
@@ -16,24 +16,25 @@ jobs:
         with:
           script: |
             const daysThreshold = 45;
-            const octokit = require('@octokit/rest')();
-
-            octokit.authenticate({
-              type: 'token',
-              token: process.env.GITHUB_TOKEN,
-            });
 
             const { owner, repo } = context.repo;
 
-            const { data: pullRequests } = await octokit.pulls.list({ owner, repo, state: 'open' });
+            const { data: pullRequests } = await github.pulls.list({ owner, repo, state: 'open' });
 
             pullRequests.forEach(async (pr) => {
-              const { data: reviews } = await octokit.pulls.listReviews({ owner, repo, pull_number: pr.number });
+              const { data: issues } = await github.issues.listForRepo({ owner, repo, per_page: 100 });
 
-              const lastReview = reviews[reviews.length - 1];
-              const daysSinceLastUpdate = Math.floor((new Date() - new Date(lastReview.submitted_at)) / (1000 * 60 * 60 * 24));
+              const linkedIssue = issues.find((issue) =>
+                issue.pull_request && issue.pull_request.url === pr.url
+              );
 
-              if (daysSinceLastUpdate >= daysThreshold) {
-                await octokit.pulls.update({ owner, repo, pull_number: pr.number, state: 'closed' });
+              if (!linkedIssue) {
+                await github.pulls.update({ owner, repo, pull_number: pr.number, state: 'closed' });
+                await github.issues.createComment({
+                  owner,
+                  repo,
+                  issue_number: pr.number,
+                  body: "This pull request has been closed because it does not mention the issue that it solves. Please refer to the [Contributing files](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md#issues) to help you add this information. Then, tag the maintainers so your PR can be reopened."
+                });
               }
             });
