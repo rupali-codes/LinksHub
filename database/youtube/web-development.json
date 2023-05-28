@@ -152,6 +152,14 @@
     "language": "Hindi"
   },
   {
+    "name": "Slaying the dragon",
+    "description": "Slaying the dragon is about facing your fears, pursuing meaning and transforming into the web developer you were always destined to be.",
+    "url": "https://www.youtube.com/@slayingthedragon/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
     "name": "CodeHelp",
     "description": "This is one of the Best Free Beginner to Advance course for all those people who wants to learn Full Stack Web Development",
     "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD",
@@ -159,4 +167,5 @@
     "subcategory": "web-development",
     "language": "Hindi"
   }
+ 
 ]

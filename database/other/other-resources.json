@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Resource Collection",
+        "description": "This is a list containing the best learning resources available for programmers. It is categorized by language and technology for easy navigation.",
+        "url": "https://rentry.co/ProgrammingLearningResources",
+        "category": "Other",
+        "subcategory": "other-resources"
+    },
+    {
+        "name": "Awesome Certificates",
+        "description": "A curated of list of IT, computer science, and business courses with certificates & digital badges to earn upon completion. Each course on the list is free.",
+        "url": "https://github.com/PanXProject/awesome-certificates",
+        "category": "Other",
+        "subcategory": "other-resources"
+    }
+]

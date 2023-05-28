@@ -4,7 +4,20 @@
         "description":"Free online course for learning react js",
         "url":"https://scrimba.com/learn/learnreact#",
         "category":"frontend",
-        "subcategory":"react",
-        "language":"english"
+        "subcategory":"react"
+    },
+    {
+        "name":"React Tutorial for Beginners",
+        "description": "This tutorial is beginner-friendly, well-structured, hands-on, and helpful in understanding React",
+        "url":"https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "category":"frontend",
+        "subcategory":"react"
+    },
+    {
+        "name":"React JS Official Documentation",
+        "description": "The go-to resource for React JS, offering comprehensive guides, tutorials, and API references to help you learn and master React development.",
+        "url":"https://react.dev/",
+        "category":"frontend",
+        "subcategory":"react"
     }
 ]
