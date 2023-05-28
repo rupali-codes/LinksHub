@@ -14,5 +14,13 @@
         "category": "resource",
         "subcategory": "e-book",
         "language": "english"
+    },
+    {
+        "name": "Eloquent JavaScript",
+        "description": "Eloquent JavaScript is all about JavaScript, programming, and the wonders of the digital. You can read it online it's completely revised and updated, one of the best-selling e-book. It focuses on writing real applications.",
+        "url": "https://eloquentjavascript.net/",
+        "category": "resource",
+        "subcategory": "e-book",
+        "language": "english"
     }
 ]
