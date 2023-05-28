@@ -47,5 +47,12 @@
     "url": "https://www.codecademy.com/pages/contribute-docs",
     "category": "open source",
     "subcategory": "open-source-projects"
+  },
+  {
+    "name": "GSoC Organizations",
+    "description": "A site that views and analyzed information on the organizations participating in Google Summer of Code, filtering them by various factors like years of participation, categories, etc.",
+    "url": "https://www.gsocorganizations.dev/",
+    "category": "open source",
+    "subcategory": "open-source-projects"
   }
 ]
