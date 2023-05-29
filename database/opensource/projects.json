@@ -21,9 +21,9 @@
     "subcategory": "open-source-projects"
   },
   {
-    "name":"Good Docs Project",
-    "description":"Looking to gain tech writing experience? Join the Good Docs Project. In this open source project, you will learn best practices for creating templates and writing instructions when documenting open source software.",
-    "url":"https://thegooddocsproject.dev/",
+    "name": "Good Docs Project",
+    "description": "Looking to gain tech writing experience? Join the Good Docs Project. In this open source project, you will learn best practices for creating templates and writing instructions when documenting open source software.",
+    "url": "https://thegooddocsproject.dev/",
     "category": "open source",
     "subcategory": "open-source-projects"
   },
@@ -45,6 +45,20 @@
     "name": "Codeacademy Docs",
     "description": "Looking for a way to gain experience in tech writing? Codecademy Docs offer developers and open source enthusiasts a hands-on opportunity to collaborate with other learners. Together, you’ll create free, useful resources for developers and tech community members of all experience levels.",
     "url": "https://www.codecademy.com/pages/contribute-docs",
+    "category": "open source",
+    "subcategory": "open-source-projects"
+  },
+  {
+    "name": "GSoC Organizations",
+    "description": "A site that views and analyzed information on the organizations participating in Google Summer of Code, filtering them by various factors like years of participation, categories, etc.",
+    "url": "https://www.gsocorganizations.dev/",
+    "category": "open source",
+    "subcategory": "open-source-projects"
+  },
+  {
+    "name": "ProjectMate",
+    "description": "It's an open source platform where new maintainers can connect with experienced maintainers, and collaborate with a community of passionate contributors.",
+    "url": "https://github.com/rohitdasu/projectmate",
     "category": "open source",
     "subcategory": "open-source-projects"
   }
