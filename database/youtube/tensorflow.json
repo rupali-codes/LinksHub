@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Udacity",
+        "description": "Free online course for learning tensorflow for Deep learning",
+        "url": "https://learn.udacity.com/courses/ud187",
+        "category": "online platform",
+        "subcategory": "tensorflow",
+        "language": "english"
+    },
+    {
+        "name": "Daniel Bourke",
+        "description": "This channel offers a comprehensive instructional series consisting of two videos, serving as a complete guide for learning TensorFlow.",
+        "url": "https://www.youtube.com/@mrdbourke/videos",
+        "category": "youtube",
+        "subcategory": "tensorflow",
+        "language": "english"
+    }
+]

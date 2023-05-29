@@ -8,14 +8,6 @@
         "language": "english"
     },
     {
-        "name": "Udacity",
-        "description": "Free online course for learning tensorflow for Deep learning",
-        "url": "https://learn.udacity.com/courses/ud187",
-        "category": "online platform",
-        "subcategory": "tensorflow",
-        "language": "english"
-    },
-    {
         "name": "5 Minutes Engineering",
         "description": "This channel offers lectures on Machine Learning from basic to advanced with real world scenarios.",
         "url": "https://youtube.com/playlist?list=PLYwpaL_SFmcBhOEPwf5cFwqo5B-cP9G4P",
