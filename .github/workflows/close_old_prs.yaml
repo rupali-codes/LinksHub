@@ -1,0 +1,40 @@
+name: Close PRs Without Linked Issues
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  close_prs_without_issue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check and Close PRs Without Linked Issues
+        id: close_prs
+        uses: actions/github-script@v6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          script: |
+            const daysThreshold = 45;
+
+            const { owner, repo } = context.repo;
+
+            const { data: pullRequests } = await github.pulls.list({ owner, repo, state: 'open' });
+
+            pullRequests.forEach(async (pr) => {
+              const { data: issues } = await github.issues.listForRepo({ owner, repo, per_page: 100 });
+
+              const linkedIssue = issues.find((issue) =>
+                issue.pull_request && issue.pull_request.url === pr.url
+              );
+
+              if (!linkedIssue) {
+                await github.pulls.update({ owner, repo, pull_number: pr.number, state: 'closed' });
+                await github.issues.createComment({
+                  owner,
+                  repo,
+                  issue_number: pr.number,
+                  body: "This pull request has been closed because it does not mention the issue that it solves. Please refer to the [Contributing files](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md#issues) to help you add this information. Then, tag the maintainers so your PR can be reopened."
+                });
+              }
+            });

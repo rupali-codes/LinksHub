@@ -1,21 +1,20 @@
-import { FC } from "react";
-import { FaAngleDown } from "react-icons/fa";
-import { SideNavbarElement } from "./SideNavbarElement";
-import type { ISidebar,Category } from "../../types";
+import { FC } from 'react'
+import { FaAngleDown } from 'react-icons/fa'
+import { SideNavbarElement } from './SideNavbarElement'
+import type { ISidebar, Category } from '../../types'
 
 export const SideNavbarCategory: FC<{
-  item: ISidebar;
-  openByDefault: string;
-  handleToggle: (category:Category, isOpen:boolean) => void;
-  isOpen: boolean;
+  item: ISidebar
+  handleToggle: (category: Category, isOpen: boolean) => void
+  isOpen: boolean
 }> = (props) => {
-  const { item, isOpen } = props;
+  const { item, isOpen } = props
 
   const handleToggle = () => {
-    props.handleToggle(item.category, isOpen);
-  };
+    props.handleToggle(item.category, isOpen)
+  }
 
-  let subcategoryList = null;
+  let subcategoryList = null
 
   if (props.isOpen) {
     subcategoryList = (
@@ -29,10 +28,10 @@ export const SideNavbarCategory: FC<{
               <li className="-ml-0.5" key={i}>
                 <SideNavbarElement {...list} />
               </li>
-            );
+            )
           })}
       </ul>
-    );
+    )
   }
 
   return (
@@ -44,11 +43,11 @@ export const SideNavbarCategory: FC<{
         <h2 className="font-bold uppercase">{item.category}</h2>
         <FaAngleDown
           className={`${
-            isOpen && "rotate-180"
+            isOpen && 'rotate-180'
           } self-center transition duration-300 ease-in-out`}
         />
       </button>
       {subcategoryList}
     </li>
-  );
-};
+  )
+}
