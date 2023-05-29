@@ -158,5 +158,29 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
+  },
+    {
+    "name": "Apna College",
+    "description": "Apna College is a popular YouTube channel dedicated to providing valuable content and resources to college students. The channel aims to support students in navigating various aspects of college life, including academics, career development, personal growth, and student well-being.",
+    "url": "https://www.youtube.com/@ApnaCollegeOfficial",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "hindi"
+  },
+    {
+    "name": "Codedamn",
+    "description": "Codedamn is a popular YouTube channel that focuses on teaching programming and web development. The channel is known for its concise and easy-to-follow tutorials, making it a valuable resource for beginners and experienced coders alike. Whether you're interested in learning HTML, CSS, JavaScript, or diving into frameworks like React or Angular, Codedamn offers a wide range of video lessons to cater to different skill levels.",
+    "url": "https://www.youtube.com/@codedamn",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "CodeHelp",
+    "description": "This is one of the best free beginner to advanced course for people who want to learn Full Stack Web Development",
+    "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "hindi"
   }
 ]

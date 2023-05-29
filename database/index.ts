@@ -20,19 +20,19 @@ export { default as validation } from './backend/validation.json'
 export { default as systemDesign } from './backend/system-design.json'
 export { default as database } from './backend/database.json'
 // languages
-export { default as javascript } from "./languages/javascript.json";
-export { default as python } from "./languages/python.json";
-export { default as golang } from "./languages/golang.json";
-export { default as csharp } from "./languages/csharp.json";
-export { default as typescript } from "./languages/typescript.json";
+export { default as javascript } from './languages/javascript.json'
+export { default as python } from './languages/python.json'
+export { default as golang } from './languages/golang.json'
+export { default as csharp } from './languages/csharp.json'
+export { default as typescript } from './languages/typescript.json'
 // ml & ai
-export { default as ml } from "./ml&ai/ml.json";
-export { default as dataScience } from "./ml&ai/datascience.json";
-export { default as deepLearning } from "./ml&ai/deeplearning.json";
+export { default as ml } from './ml&ai/ml.json'
+export { default as dataScience } from './ml&ai/datascience.json'
+export { default as deepLearning } from './ml&ai/deeplearning.json'
 // Open-source
-export { default as openSourceBlogs } from "./opensource/blogs.json";
-export { default as openSourceProjects } from "./opensource/projects.json";
-export { default as openSourceTools } from "./opensource/tools.json";
+export { default as openSourceBlogs } from './opensource/blogs.json'
+export { default as openSourceProjects } from './opensource/projects.json'
+export { default as openSourceTools } from './opensource/tools.json'
 // resources
 export { default as blogs } from './resources/blogs.json'
 export { default as hosting } from './resources/hosting.json'
@@ -43,13 +43,14 @@ export { default as android } from './youtube/android.json'
 export { default as dataStructures } from './youtube/data-structures.json'
 export { default as css } from './youtube/css.json'
 export { default as machineLearning } from './youtube/machine-learning.json'
+export { default as tensorflow } from './youtube/tensorflow.json'
 export { default as webDevelopment } from './youtube/web-development.json'
 export { default as web3metaverse } from './youtube/web3-metaverse.json'
 export { default as youtubTesting } from './youtube/testing.json'
 export { default as computerScience } from './youtube/computer-science.json'
 export { default as competitiveProgramming } from './youtube/competitive-programming.json'
 // other
-export { default as github } from "./other/github.json";
-export { default as devtools } from "./other/devtools.json";
-export { default as podcasts } from "./other/podcasts.json";
-export { default as otherResources } from "./other/other-resources.json";
+export { default as github } from './other/github.json'
+export { default as devtools } from './other/devtools.json'
+export { default as podcasts } from './other/podcasts.json'
+export { default as otherResources } from './other/other-resources.json'

@@ -8,6 +8,14 @@
         "language": "english"
     },
     {
+        "name": "Luv",
+        "description": "This channel offers a wealth of videos focused on enhancing coding skills and excelling in competitive programming challenges.",
+        "url": "https://www.youtube.com/watch?v=OMcxQ3IY-qc&list=PLauivoElc3ggagradg8MfOZreCMmXMmJ-",
+        "category": "youtube",
+        "subcategory": "competitive-programming",
+        "language": "english"
+    },
+    {
         "name": "Priyansh Agarwal",
         "description": "This channel provides insightful content on competitive programming topics and solutions for Codeforces, LeetCode, and CodeChef coding contests.",
         "url": "https://www.youtube.com/c/PriyanshAgarwal",
