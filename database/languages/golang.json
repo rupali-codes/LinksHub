@@ -17,7 +17,7 @@
     "name": "Practical Go Lessons",
     "description": "This site provides beginners-level GOlang lessons through docs and videos.",
     "url": "https://www.practical-go-lessons.com/",
-    "category": "Languages",
+    "category": "languages",
     "subcategory": "golang"
   }
 ]
