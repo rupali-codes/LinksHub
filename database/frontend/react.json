@@ -33,5 +33,12 @@
         "url": "https://react2025.com/",
         "category": "frontend",
         "subcategory": "react"
+    },
+    {
+        "name": "Free React Bootcamp",
+        "description": "This 4-day React boot camp offers a solid foundation in React development. Each day features an in-depth video, providing a comprehensive learning experience for mastering React's concepts and techniques.",
+        "url": "https://ui.dev/free-react-bootcamp",
+        "category": "frontend",
+        "subcategory": "react"
     }
 ]
