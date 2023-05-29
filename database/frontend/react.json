@@ -35,6 +35,13 @@
         "subcategory": "react"
     },
     {
+        "name": "React Tutorial",
+        "description": "Learn modern React from scratch, and practice in an intuitive environment. Throughout this course, you will build an online supermarket shopping app with Stripe integration.",
+        "url": "https://react-tutorial.app/",
+        "category": "frontend",
+        "subcategory": "react"
+    },
+    {
         "name": "Free React Bootcamp",
         "description": "This 4-day React boot camp offers a solid foundation in React development. Each day features an in-depth video, providing a comprehensive learning experience for mastering React's concepts and techniques.",
         "url": "https://ui.dev/free-react-bootcamp",
