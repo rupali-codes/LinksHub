@@ -10,7 +10,7 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'frontend',
     subcategory: [
-      { name: 'react js', url: '/react'},
+      { name: 'react js', url: '/react' },
       { name: 'images', url: '/images' },
       { name: 'fonts', url: '/fonts' },
       { name: 'colors', url: '/colors' },
@@ -41,7 +41,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'web development', url: '/web-development' },
       { name: 'CSS', url: '/css' },
       { name: 'machine learning', url: '/machine-learning' },
-      { name: 'tensorflow', url: '/tensorflow'},
+      { name: 'tensorflow', url: '/tensorflow' },
       { name: 'data structures', url: '/dsa' },
       { name: 'Android', url: '/android' },
       { name: 'Web3 & Metaverse', url: '/web3-metaverse' },
@@ -54,7 +54,8 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'blogs', url: '/blogs' },
       { name: 'hosting', url: '/hosting' },
-      {name : 'e-book', url:'/e-book'}
+      { name: 'Official Docs', url: '/officialdocs' },
+      { name: 'e-book', url: '/e-book' },
     ],
   },
   {
@@ -63,7 +64,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'JavaScript', url: '/javascript' },
       { name: 'Python', url: '/python' },
       { name: 'Go', url: '/golang' },
-      { name: 'Csharp (C#)', url: '/csharp' }
+      { name: 'Csharp (C#)', url: '/csharp' },
     ],
   },
   {
