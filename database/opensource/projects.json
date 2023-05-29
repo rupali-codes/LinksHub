@@ -61,5 +61,12 @@
     "url": "https://github.com/rohitdasu/projectmate",
     "category": "open source",
     "subcategory": "open-source-projects"
+  },
+  {
+    "name": "LinkedIn Bot",
+    "description": "It's a bot designed to assist users in automatically accepting LinkedIn connection requests. If you have multiple LinkedIn connection requests and prefer not to accept each one individually, this bot can be used and customized accordingly.",
+    "url": "https://github.com/hkirat/linkedin-bot",
+    "category": "open source",
+    "subcategory": "open-source-projects"
   }
 ]
