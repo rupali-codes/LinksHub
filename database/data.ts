@@ -19,7 +19,8 @@ export const sidebarData: ISidebar[] = [
       { name: 'design inspiration', url: '/design-inspiration' },
       { name: 'themes & templates', url: '/themes-templates' },
       { name: 'UI Generators', url: '/ui-generator' },
-      { name: 'online code editors', url: '/online-code-editors' }
+      { name: 'online code editors', url: '/online-code-editors' },
+      { name: 'accessibility', url: '/accessibility' }
     ],
   },
   {
