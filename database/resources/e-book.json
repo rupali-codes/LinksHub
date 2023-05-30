@@ -14,5 +14,13 @@
         "category": "resource",
         "subcategory": "e-book",
         "language": "english"
+    },
+    {
+        "name": "Eloquent JavaScript",
+        "description": "Eloquent JavaScript is an e-book that describes the wonders of Javascript and provides exercises on creating real world applications.",
+        "url": "https://eloquentjavascript.net/",
+        "category": "resource",
+        "subcategory": "e-book",
+        "language": "english"
     }
 ]

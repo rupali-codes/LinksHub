@@ -10,7 +10,14 @@
     "name": "Hitesh Choudhary",
     "description": "This playlist contains all the concepts of Golang along with two mini projects",
     "url": "https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa",
-    "category": "youtube",
+    "category": "languages",
+    "subcategory": "golang"
+  },
+  {
+    "name": "Practical Go Lessons",
+    "description": "This site provides beginners-level GOlang lessons through docs and videos.",
+    "url": "https://www.practical-go-lessons.com/",
+    "category": "languages",
     "subcategory": "golang"
   }
 ]

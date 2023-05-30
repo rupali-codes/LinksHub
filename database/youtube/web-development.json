@@ -174,5 +174,21 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
+  },
+  {
+    "name": "CodeHelp",
+    "description": "This is one of the best free beginner to advanced course for people who want to learn Full Stack Web Development",
+    "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "hindi"
+  },
+  {
+    "name": "PedroTechnologies",
+    "description": "Welcome to PedroTechnologies' captivating world of Web Development! Explore a treasure trove of educational videos covering ReactJS, NodeJS, MySQL, Express, MongoDB, GraphQL, and more!",
+    "url": "https://www.youtube.com/@PedroTechnologies",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
   }
 ]
