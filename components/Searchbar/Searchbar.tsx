@@ -1,16 +1,20 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import SearchIcon from "assets/icons/SearchIcon";
 
-export const Searchbar = ({ setSearch }) => {
+interface SearchbarProps {
+  setSearch: (search: string) => void;
+}
+
+export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
   const [searchQuery, setSearchQuery] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  const handleSearchChange = (e) => {
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value);
-    setErrorMessage(""); // Clear the error message when the search query is changed
+    setErrorMessage("");
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (searchQuery.trim() === "") {
       setErrorMessage("Please enter a search query");
@@ -21,7 +25,7 @@ export const Searchbar = ({ setSearch }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} noValidate> {/* Add the noValidate attribute */}
+    <form onSubmit={handleSubmit} noValidate>
       <div className="flex items-center">
         <div className="relative flex items-center">
           <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
