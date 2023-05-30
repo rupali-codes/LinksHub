@@ -139,13 +139,15 @@ and the website will be built in one single click. No extra setup is required.
 
 <a name="our-contributors"></a>
 
-## Our Contributors ✨
+## Top 50 Contributors ✨
 
 We would like to express our sincere gratitude to all the contributors who have helped make LinksHub an invaluable resource for developers. Without your contributions, this project wouldn't have been possible. Thank you so much for your time, efforts, and dedication.
 
 <a href="https://github.com/rupali-codes/LinksHub/graphs/contributors">
-  <img src="https://contrib.rocks/image?max=100&repo=rupali-codes/LinksHub" />
+  <img src="https://contrib.rocks/image?max=50&repo=rupali-codes/LinksHub" />
 </a>
+
+View the complete list of project contributors here. [here](https://github.com/rupali-codes/LinksHub/graphs/contributors).
 
 <a name="license"></a>
 
