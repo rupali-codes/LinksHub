@@ -14,6 +14,7 @@ export const SocialMediaIconsList:FC<{className?: string}> = (props) => {
         target="_blank"
         rel="noopener noreferrer"
         href="https://discord.com/invite/NvK67YnJX5"
+        aria-label="Visit us on Discord"
         >
           <IconContext.Provider
             value={{ className: "shared-class", size: "24" }}
@@ -29,6 +30,7 @@ export const SocialMediaIconsList:FC<{className?: string}> = (props) => {
         target="_blank"
         rel="noopener noreferrer"
         href="https://github.com/rupali-codes/LinksHub"
+        aria-label="Visit us on Github"
         >
           <IconContext.Provider
             value={{ className: "shared-class", size: "24" }}
@@ -44,6 +46,7 @@ export const SocialMediaIconsList:FC<{className?: string}> = (props) => {
           target="_blank"
           rel="noopener noreferrer"
           href="https://twitter.com/the_linkshub"
+          aria-label="Visit us on Twitter"
         >
         <IconContext.Provider
           value={{ className: "shared-class", size: "24" }}
