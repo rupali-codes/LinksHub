@@ -18,10 +18,18 @@
   {
     "name": "Apna College",
     "description": "This channel provides free courses for DSA, Java, C++, C etc.",
-    "url": "https://www.youtube.com/@ApnaCollegeOfficial",
+    "url": "https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "hindi"
+  },
+  {
+    "name": "Kunal Kushwaha",
+    "description": "This channel provides free Java specific DSA course with interview-preparation.",
+    "url": "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+    "category": "youtube",
+    "subcategory": "dsa",
+    "language": "english"
   },
   {
     "name": "CodeWithHarry",
@@ -34,7 +42,7 @@
   {
     "name": "Luv",
     "description": "This channel provides free Competitive Programming content.",
-    "url": "https://www.youtube.com/@iamluv/playlists",
+    "url": "https://www.youtube.com/watch?v=OMcxQ3IY-qc&list=PLauivoElc3ggagradg8MfOZreCMmXMmJ-",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "hindi"
@@ -58,7 +66,23 @@
   {
     "name": "Abdul Bari",
     "description": "This channel is focused on teaching Data Structures and Algorithms. They also provide courses on different computer science subjects.",
-    "url": "https://www.youtube.com/@abdul_bari",
+    "url": "https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLAXnLdrLnQpRcveZTtD644gM9uzYqJCwr",
+    "category": "youtube",
+    "subcategory": "dsa",
+    "language": "english"
+  },
+  {
+    "name": "MIT OpenCourseWare",
+    "description": "This channel is focused on the explanation of Algorithms concepts. The resources for Algorithm are limited but this course is one of the best Algorithm resources available on the Web.",
+    "url": "https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
+    "category": "youtube",
+    "subcategory": "dsa",
+    "language": "english"
+  },
+  {
+    "name": "WilliamFiset",
+    "description": "One of the best channels to understand DSA and mathematical concepts that will be helpful for Competitive Programming.",
+    "url": "https://www.youtube.com/@WilliamFiset-videos/featured",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "english"

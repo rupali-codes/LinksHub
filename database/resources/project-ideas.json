@@ -1,0 +1,43 @@
+[{    
+    "name": "Flutter Projects",
+    "description": "This website provides free fifteen flutter-based projects with source code.",
+    "url": "https://www.interviewbit.com/blog/flutter-projects/",
+    "category": "resources",
+    "subcategory": "project-ideas"
+  },
+  {
+    "name": "HTML & CSS Projects",
+    "description": "This website provides free ten beginner-friendly projects in HTML & CSS with source code.",
+    "url": "https://www.geeksforgeeks.org/top-10-projects-for-beginners-to-practice-html-and-css-skills/",
+    "category": "resources",
+    "subcategory": "project-ideas"
+  },
+  {
+    "name": "JavaScript Projects",
+    "description": "This website provides free fifteen JavaScript projects with source code.",
+    "url": "https://www.interviewbit.com/blog/javascript-projects/",
+    "category": "resources",
+    "subcategory": "project-ideas"
+  },
+  {
+    "name": "React.Js Projects",
+    "description": "This website provides free eight React.Js projects with source code.",
+    "url": "https://www.freecodecamp.org/news/react-projects-to-improve-your-skills/",
+    "category": "resources",
+    "subcategory": "project-ideas"
+  },
+  {
+    "name": "Machine Learning Projects",
+    "description": "This website provides free Machine-Learning projects for beginners to advanced with source code.",
+    "url": "https://www.interviewbit.com/blog/machine-learning-projects/",
+    "category": "resources",
+    "subcategory": "project-ideas"
+  },
+  {
+    "name": "Python Projects",
+    "description": "This website provides free twenty-five beginner-friendly Python projects with source code.",
+    "url": "https://www.freecodecamp.org/news/python-projects-for-beginners/",
+    "category": "resources",
+    "subcategory": "project-ideas"
+  }
+]

@@ -1,10 +1,26 @@
 [
     {
-        "name":"The Deep Learning textbook",
-        "description":"The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning in general and deep learning in particular. The online version of the book is now complete and will remain available online for free.",
-        "url":"https://www.deeplearningbook.org/",
-        "category":"resource",
-        "subcategory":"e-book",
-        "language":"english"
+        "name": "The Deep Learning textbook",
+        "description": "The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning in general and deep learning in particular. The online version of the book is now complete and will remain available online for free.",
+        "url": "https://www.deeplearningbook.org/",
+        "category": "resource",
+        "subcategory": "e-book",
+        "language": "english"
+    },
+    {
+        "name": "RIP Tutorial",
+        "description": "RIP Tutorial is a free website that contains plenty of eBook resources and examples that can be helpful to developers.",
+        "url": "https://riptutorial.com/",
+        "category": "resource",
+        "subcategory": "e-book",
+        "language": "english"
+    },
+    {
+        "name": "Eloquent JavaScript",
+        "description": "Eloquent JavaScript is an e-book that describes the wonders of Javascript and provides exercises on creating real world applications.",
+        "url": "https://eloquentjavascript.net/",
+        "category": "resource",
+        "subcategory": "e-book",
+        "language": "english"
     }
 ]
