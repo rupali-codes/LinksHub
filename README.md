@@ -147,7 +147,7 @@ We would like to express our sincere gratitude to all the contributors who have 
   <img src="https://contrib.rocks/image?max=50&repo=rupali-codes/LinksHub" />
 </a>
 
-View the complete list of project contributors [here](https://github.com/rupali-codes/LinksHub/graphs/contributors).
+_View the list of all contributors [here](https://github.com/rupali-codes/LinksHub/graphs/contributors)._
 
 <a name="license"></a>
 
