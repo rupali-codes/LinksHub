@@ -84,7 +84,8 @@ export const sidebarData: ISidebar[] = [
       { name: 'Web3 & Metaverse', url: '/web3-metaverse' },
       { name: 'Testing', url: '/testing' },
       { name: 'Computer Science', url: '/computer-science' },
-      { name: 'Competitive Programming',url:'/competitive-programming'}
+      { name: 'Competitive Programming',url:'/competitive-programming'},
+      { name: 'FinTech',url:'/fintech'}
     ],
   },
   {
