@@ -94,5 +94,13 @@
     "category": "youtube",
     "subcategory": "dsa",
     "language": "english"
+  },
+  {
+    "name":"Hello World DSA", 
+    "description":"Hello World youtube channels provides C++ specific DSA Course focused on explanation of Algorithms.",
+    "url":"https://www.youtube.com/@HelloWorldbyprince/playlists",
+    "category":"youtube", 
+    "subcategory":"dsa",
+    "language": "hindi"
   }
 ]
