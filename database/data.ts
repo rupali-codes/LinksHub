@@ -19,7 +19,8 @@ export const sidebarData: ISidebar[] = [
       { name: 'design inspiration', url: '/design-inspiration' },
       { name: 'themes & templates', url: '/themes-templates' },
       { name: 'UI Generators', url: '/ui-generator' },
-      { name: 'online code editors', url: '/online-code-editors' }
+      { name: 'online code editors', url: '/online-code-editors' },
+      { name: 'accessibility', url: '/accessibility' }
     ],
   },
   {
@@ -32,6 +33,8 @@ export const sidebarData: ISidebar[] = [
       { name: 'caching', url: '/caching' },
       { name: 'testing', url: '/testing' },
       { name: 'system design', url: '/system-design' },
+      { name: 'database', url: '/database' },
+      
     ],
   },
   {
@@ -81,7 +84,8 @@ export const sidebarData: ISidebar[] = [
       { name: 'Web3 & Metaverse', url: '/web3-metaverse' },
       { name: 'Testing', url: '/testing' },
       { name: 'Computer Science', url: '/computer-science' },
-      { name: 'Competitive Programming',url:'/competitive-programming'}
+      { name: 'Competitive Programming',url:'/competitive-programming'},
+      { name: 'FinTech',url:'/fintech'}
     ],
   },
   {
@@ -90,6 +94,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Github', url: '/github' },
       { name: 'Dev Tools', url: '/devtools' },
       { name: 'Podcasts', url: '/podcasts' },
+      { name: 'Other Resources', url: '/other-resources' },
     ],
   },
 ]
