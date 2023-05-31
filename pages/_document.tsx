@@ -48,6 +48,7 @@ export default function Document() {
         />
       </Head>
       <body>
+<a class="github-button" href="https://github.com/rupali-codes/LinksHub/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork rupali-codes/LinksHub on GitHub">Fork</a>
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-PC5DFJG"
