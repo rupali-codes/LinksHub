@@ -22,11 +22,11 @@ export function ThemeToggler() {
     >
       {resolvedTheme === "dark" ? (
         <HiSun
-          className="dark:text-gray-200 hover:text-violet-500"
+          className="text-gray-200 hover:text-violet-500 transition duration-300 ease-in-out"
           size={"1.5rem"}
         />
       ) : (
-        <HiMoon className="hover:text-violet-500" size={"1.5rem"} />
+        <HiMoon className="hover:text-violet-500 transition duration-300 ease-in-out" size={"1.5rem"} />
       )}
     </button>
   );
