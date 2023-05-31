@@ -66,14 +66,14 @@
     "name": "AI search engine for developers",
     "description": "Phind is a search engine that simply tells users what the answer is. It is optimized for developers and technical questions.",
     "url": "https://www.phind.com/",
-    "category": "Other",
+    "category": "other",
     "subcategory": "devtools"
   },
   {
     "name": "SmallDevTools",
     "description": "This website has a collection of useful tools for developers in a minimal ui and ad free experience.",
     "url": "https://smalldev.tools/",
-    "category": "Other",
+    "category": "other",
     "subcategory": "devtools"
   }
 ]
