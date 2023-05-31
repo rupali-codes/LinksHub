@@ -80,6 +80,7 @@ export type SubCategory =
   | 'open-source-projects'
   | 'open-source-tools'
   | 'officialdocs'
+  | 'fintech'
 export type SubCategories = {
   name: string
   url: string

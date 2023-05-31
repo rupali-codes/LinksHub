@@ -1,4 +1,5 @@
 // frontend
+export { default as accessibility } from './frontend/accessibility.json'
 export { default as animations } from './frontend/animations.json'
 export { default as colors } from './frontend/colors.json'
 export { default as designInspirations } from './frontend/design-inspirations.json'
@@ -50,6 +51,7 @@ export { default as web3metaverse } from './youtube/web3-metaverse.json'
 export { default as youtubTesting } from './youtube/testing.json'
 export { default as computerScience } from './youtube/computer-science.json'
 export { default as competitiveProgramming } from './youtube/competitive-programming.json'
+export { default as fintech } from './youtube/fintech.json'
 // other
 export { default as github } from './other/github.json'
 export { default as devtools } from './other/devtools.json'
