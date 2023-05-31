@@ -35,7 +35,7 @@ export { default as openSourceProjects } from './opensource/projects.json'
 export { default as openSourceTools } from './opensource/tools.json'
 // resources
 export { default as blogs } from './resources/blogs.json'
-export { default as officialdocs } from './resources/officialdocs.json'
+export { default as officialdocs } from './resources/official-docs.json'
 export { default as hosting } from './resources/hosting.json'
 export { default as ebook } from './resources/e-book.json'
 export { default as project } from './resources/project-ideas.json'

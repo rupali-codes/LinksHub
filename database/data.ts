@@ -65,6 +65,7 @@ export const sidebarData: ISidebar[] = [
     category: 'resources',
     subcategory: [
       { name: 'blogs', url: '/blogs' },
+      { name: 'Official Docs', url: '/officialdocs' },
       { name: 'hosting', url: '/hosting' },
       { name: 'e-book', url: '/e-book' },
       { name: 'project ideas', url: '/project-ideas' },
@@ -83,15 +84,6 @@ export const sidebarData: ISidebar[] = [
       { name: 'Testing', url: '/testing' },
       { name: 'Computer Science', url: '/computer-science' },
       { name: 'Competitive Programming', url: '/competitive-programming' },
-    ],
-  },
-  {
-    category: 'resources',
-    subcategory: [
-      { name: 'blogs', url: '/blogs' },
-      { name: 'hosting', url: '/hosting' },
-      { name: 'Official Docs', url: '/officialdocs' },
-      { name: 'e-book', url: '/e-book' },
     ],
   },
   {
