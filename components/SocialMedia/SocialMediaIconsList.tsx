@@ -18,7 +18,7 @@ export const SocialMediaIconsList:FC<{className?: string}> = (props) => {
           <IconContext.Provider
             value={{ className: "shared-class", size: "24" }}
           >
-            <FaDiscord className="hover:text-violet-500" />
+            <FaDiscord className="hover:text-violet-500 transition duration-300 ease-in-out " />
           </IconContext.Provider>
         </a>
       </li>
@@ -33,7 +33,7 @@ export const SocialMediaIconsList:FC<{className?: string}> = (props) => {
           <IconContext.Provider
             value={{ className: "shared-class", size: "24" }}
           >
-              <FaGithub className="hover:text-violet-500" />
+              <FaGithub className="hover:text-violet-500 transition duration-300 ease-in-out" />
           </IconContext.Provider>
         </a>
       </li>
@@ -48,7 +48,7 @@ export const SocialMediaIconsList:FC<{className?: string}> = (props) => {
         <IconContext.Provider
           value={{ className: "shared-class", size: "24" }}
         >
-          <FaTwitter className="hover:text-violet-500" />
+          <FaTwitter className="hover:text-violet-500 transition duration-300 ease-in-out" />
         </IconContext.Provider>
         </a>
       </li>

@@ -1,12 +1,11 @@
 [
-
     {
-        "name":"Udacity",
-        "description":"Free online course for learning tensorflow for Deep learning",
-        "url":"https://learn.udacity.com/courses/ud187",
-        "category":"online platform",
-        "subcategory":"tensorflow",
-        "language":"english"
+        "name": "Two Minute Papers",
+        "description": "These research papers discuss Artificial Intelligence and Machine Learning in an engaging and detailed manner. What a Time to be Alive!",
+        "url": "https://www.youtube.com/@TwoMinutePapers",
+        "category": "youtube",
+        "subcategory": "machine-learning",
+        "language": "english"
     },
     {
         "name": "5 Minutes Engineering",
@@ -25,36 +24,43 @@
         "language": "english"
     },
     {
-    "name": "Krish Naik",
-    "description": "This channel provides videos on Machine Learning, Deep Learning and Artificial Intelligence with real-world problem scenarios.",
-    "url": "https://www.youtube.com/user/krishnaik06",
-    "category": "youtube",
-    "subcategory": "machine-learning",
-    "language": "english"
-     },
-    {
-        "name":"Google",
-        "description":"Free online course provided by google to learn machine learning and it's implementations",
-        "url":"https://developers.google.com/machine-learning",
-        "category":"online platform",
-        "subcategory":"machine-learning",
-        "language":"english"
+        "name": "Krish Naik",
+        "description": "This channel provides videos on Machine Learning, Deep Learning, and Artificial Intelligence with real-world problems.",
+        "url": "https://www.youtube.com/user/krishnaik06",
+        "category": "youtube",
+        "subcategory": "machine-learning",
+        "language": "english"
     },
     {
-        "name":"FreeCodeCamp",
-        "description":"Learn Machine Learning in a way that is accessible to absolute beginners. You will learn the basics of Machine Learning and how to use TensorFlow to implement many different concepts.",
-        "url":"https://www.youtube.com/watch?v=i_LwzRVP7bg&t=769s&ab_channel=freeCodeCamp.org",
-        "category":"youtube",
-        "subcategory":"machine-learning",
-        "language":"english"
+        "name": "Google",
+        "description": "Free online course provided by Google to learn Machine Learning and it's implementations",
+        "url": "https://developers.google.com/machine-learning",
+        "category": "online platform",
+        "subcategory": "machine-learning",
+        "language": "english"
     },
     {
-        "name":"DeepLearningAI",
+        "name": "FreeCodeCamp",
+        "description": "Here, you will learn the basics of Machine Learning and how to use TensorFlow in different scenarios.",
+        "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg&t=769s&ab_channel=freeCodeCamp.org",
+        "category": "youtube",
+        "subcategory": "machine-learning",
+        "language": "english"
+    },
+    {
+        "name": "DeepLearningAI",
         "description": "Access the lectures of Andrew Ng on Deep Learning and Machine Learning",
-        "url":"https://www.youtube.com/c/Deeplearningai",
+        "url": "https://www.youtube.com/c/Deeplearningai",
+        "category": "youtube",
+        "subcategory": "machine-learning",
+        "language": "english"
+    },
+    {
+        "name":"Rob Mulla",
+        "description": "Medallion Data Science is a channel devoted to growing a community of people interested in learning machine learning, data science,and coding in Python. They also provide streaming live coding sessions on [Twitch](https://www.twitch.tv/)",
+        "url":"https://www.youtube.com/@robmulla",
         "category":"youtube",
         "subcategory":"machine-learning",
         "language":"english" 
     }
-
 ]
