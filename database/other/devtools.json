@@ -68,5 +68,12 @@
     "url": "https://www.phind.com/",
     "category": "Other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "SmallDevTools",
+    "description": "This website has a collection of useful tools for developers in a minimal ui and ad free experience.",
+    "url": "https://smalldev.tools/",
+    "category": "Other",
+    "subcategory": "devtools"
   }
 ]
