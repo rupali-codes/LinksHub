@@ -5,5 +5,12 @@
     "url": "https://www.mongodb.com/",
     "category": "backend",
     "subcategory": "database"
+  },
+  {
+    "name": "Tigris",
+    "description": "Tigris is an open source NoSQL transactional database and search platform",
+    "url": "https://www.tigrisdata.com/",
+    "category": "backend",
+    "subcategory": "database"
   }
 ]
