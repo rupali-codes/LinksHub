@@ -17,7 +17,7 @@ const Card: FC<{ data: IData }> = (props) => {
       <div className="card-body">
         <header className="flex justify-between items-center">
           <h2
-            className="cursor-default truncate ... text-xl text-violet-600 dark:text-violet-400"
+            className="cursor-default md:truncate ... text-xl text-violet-600 dark:text-violet-400"
             title={name}
           >
             {name}
