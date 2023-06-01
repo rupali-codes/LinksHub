@@ -45,7 +45,7 @@ export const SocialMediaIconsList:FC<{className?: string}> = (props) => {
           className="dark:text-gray-300"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://twitter.com/the_linkshub"
+          href="https://twitter.com/linkshubdotdev"
           aria-label="Visit us on Twitter"
         >
         <IconContext.Provider
