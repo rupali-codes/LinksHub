@@ -117,5 +117,12 @@
         "url": "https://blog.openreplay.com/",
         "category": "resources",
         "subcategory": "blogs"
+    },
+     {
+        "name": "ReactTraining",
+        "description": "ReactTraining is the world-renowned React training company who's committed to diversity and education in the tech community.",
+        "url": "https://reacttraining.com/blog/using-hooks-in-classes",
+        "category": "resources",
+        "subcategory": "blogs"
     }
 ]
