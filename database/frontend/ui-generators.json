@@ -1,5 +1,12 @@
 [
   {
+    "name": "Fffuel.co",
+    "description": "fffuel is a collection of color tools and free SVG generators for gradients, patterns, textures, shapes & backgrounds.",
+    "url": "https://fffuel.co/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
     "name": "Neumorphism.io",
     "description": "It's a platform where you can generate Soft-UI CSS elements for your webiste or app.",
     "url": "https://neumorphism.io/#e0e0e0",
@@ -101,6 +108,13 @@
     "name": "Styled Components",
     "description": "Visual primitives for the component age. Type checking & No class policy means dynamic class declaration on run-time",
     "url": "https://styled-components.com/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
+    "name": "CSS Grid Generator",
+    "description": "This website facilitates efficient utilization of CSS Grid functionalities, enabling users to swiftly generate dynamic layouts.",
+    "url": "https://css-grid-generator.netlify.app/",
     "category": "frontend",
     "subcategory": "ui-generators"
   }

@@ -1,8 +1,8 @@
 [
   {
     "name": "Jennys Lectures CSIT",
-    "description": "This channel provides free courses for DSA, C, C++, Python etc.",
-    "url": "https://www.youtube.com/watch?v=AT14lCXuMKI&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU",
+    "description": "This channel provides free courses for DSA, C, C++, Python, etc.",
+    "url": "https://www.youtube.com/@JennyslecturesCSIT",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "english"
@@ -33,8 +33,8 @@
   },
   {
     "name": "CodeWithHarry",
-    "description": "Data Stucture and Algorithm playlist by codewith harry.",
-    "url": "https://www.youtube.com/watch?v=5_5oE5lgrhw&list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi",
+    "description": "An all-in-one destination for DSA, Python, C++, JavaScript, Nodejs, Java, PHP & many more.",
+    "url": "https://www.youtube.com/@CodeWithHarry/playlists",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "hindi"
@@ -49,16 +49,16 @@
   },
   {
     "name": "take U forward",
-    "description": "One of the best channel for DSA, you will find the thought process behind every problem and not just simple algorithms.",
-    "url": "https://www.youtube.com/watch?v=EAR7De6Goz4&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz",
+    "description": "One of the best channels for DSA. Here, you will find the thought process behind every problem and not just simple algorithms.",
+    "url": "https://www.youtube.com/@takeUforward/featured",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "english"
   },
   {
     "name": "Pepcoding",
-    "description": "One of the best channel for DSA in Java and helpful for both students and working professionals.",
-    "url": "https://www.youtube.com/watch?v=F8xQ5joLlD0&list=PL-Jc9J83PIiFj7YSPl2ulcpwy-mwj1SSk",
+    "description": "One of the best channels for DSA and Java. It is also helpful for both students and working professionals.",
+    "url": "https://www.youtube.com/@Pepcoding/featured",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "hindi"
@@ -75,6 +75,30 @@
     "name": "MIT OpenCourseWare",
     "description": "This channel is focused on the explanation of Algorithms concepts. The resources for Algorithm are limited but this course is one of the best Algorithm resources available on the Web.",
     "url": "https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
+    "category": "youtube",
+    "subcategory": "dsa",
+    "language": "english"
+  },
+  {
+    "name": "WilliamFiset",
+    "description": "One of the best channels to understand DSA and mathematical concepts that will be helpful for Competitive Programming.",
+    "url": "https://www.youtube.com/@WilliamFiset-videos/featured",
+    "category": "youtube",
+    "subcategory": "dsa",
+    "language": "english"
+  },
+  {
+    "name": "Anuj Bhaiya",
+    "description": "Explanations of DSA concepts are provided in this resource. It also covers both CPP and Java.",
+    "url": "https://www.youtube.com/playlist?list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p",
+    "category": "youtube",
+    "subcategory": "dsa",
+    "language": "english"
+  },
+   {
+    "name": "TAP ACADEMY",
+    "description": "A well-structured DSA playlist from beginner to advanced level in Java",
+    "url": "https://youtube.com/playlist?list=PLU83Ru7iGtAvP1rqt65MCDSBPFCzUKGXG",
     "category": "youtube",
     "subcategory": "dsa",
     "language": "english"
