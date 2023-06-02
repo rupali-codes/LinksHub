@@ -22,13 +22,5 @@
         "category": "youtube",
         "subcategory": "testing",
         "language": "english"
-    },
-    {
-        "name": "Joan",
-        "description": "In this channel you will find free content related to the Software Engineer Area(Front End, Backend, Software Quality Assurance/Quality Control, and Devops).",
-        "url": "https://www.youtube.com",
-        "category": "youtube",
-        "subcategory": "testing",
-        "language": "english"
     }
 ]
