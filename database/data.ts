@@ -70,6 +70,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'hosting', url: '/hosting' },
       { name: 'e-book', url: '/e-book' },
       { name: 'project ideas', url: '/project-ideas' },
+      { name: 'community', url: '/communities' },
     ],
   },
   {

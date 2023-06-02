@@ -40,6 +40,7 @@ export { default as blogs } from './resources/blogs.json'
 export { default as hosting } from './resources/hosting.json'
 export { default as ebook } from './resources/e-book.json'
 export { default as project } from './resources/project-ideas.json'
+export { default as community } from './resources/communities.json'
 // youtube
 export { default as android } from './youtube/android.json'
 export { default as dataStructures } from './youtube/data-structures.json'
