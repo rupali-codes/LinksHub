@@ -22,5 +22,13 @@
         "category": "resource",
         "subcategory": "e-book",
         "language": "english"
+    },
+       {
+        "name": "Learning REACT",
+        "description": "This is a comprehensive guide that teaches you how to build modern web applications using the React JavaScript library",
+        "url": "https://drive.google.com/file/d/1AZwshgVyazeIJ95ng6Pg1zUbVQoYX93t/view?usp=share_link",
+        "category": "resource",
+        "subcategory": "e-book",
+        "language": "english"
     }
 ]
