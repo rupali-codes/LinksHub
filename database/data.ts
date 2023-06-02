@@ -45,6 +45,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Go', url: '/golang' },
       { name: 'TypeScript', url: '/typescript' },
       { name: 'Ruby', url: '/ruby' },
+      { name: 'C Programming', url: '/c-programming' },
     ],
   },
   {
