@@ -75,5 +75,12 @@
     "url": "https://smalldev.tools/",
     "category": "other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "Devhints",
+    "description": "This website has over 358 curated cheatsheets, by developers for developers.",
+    "url": "https://devhints.io/",
+    "category": "other",
+    "subcategory": "devtools"
   }
 ]
