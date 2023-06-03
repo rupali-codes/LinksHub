@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "Google Fonts",
         "description": "The No. 1 resource for free and easy-to-use webfonts by Google. It has a huge library of fonts. ",
         "url": "https://fonts.google.com/",
@@ -37,6 +38,13 @@
         "name": "Fontesk",
         "description": "Curated online font library that contains the best high-quality free fonts to download for commercial and personal use.",
         "url": "https://fontesk.com/",
+        "category": "frontend",
+        "subcategory": "fonts"
+    },
+    {
+        "name": "Befonts",
+        "description": "Befonts is a platform when you can download the best fonts, free fonts for personal or commercial use.",
+        "url": "https://befonts.com/",
         "category": "frontend",
         "subcategory": "fonts"
     }
