@@ -19,5 +19,12 @@
     "url": "https://basarat.gitbook.io/typescript/",
     "category": "languages",
     "subcategory": "typescript"
+  },
+  {
+    "name": "Build a TypeScript Project From Scratch",
+    "description": "Resource for learning TypeScript from scratch to level-up skills. End-to-end experience of taking from a blank editor to battle-tested production code. A hands-on tutorial where we build a library from scratch, share it with the world, and consume it in a production application.",
+    "url": "https://www.typescriptcourse.com/tutorials/build-a-typescript-project-from-scratch",
+    "category": "languages",
+    "subcategory": "typescript"
   }
 ]
