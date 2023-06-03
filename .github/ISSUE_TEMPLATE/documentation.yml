@@ -36,9 +36,9 @@ body:
       label: "Checklist"
       description: "By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/rupali-codes/LinksHub/blob/main/CODE_OF_CONDUCT.md)"
       options:
-        - label: "I have checked the existing [issues](https://github.com/rupali-codes/LinksHub/issues?q=is%3Aissue+)"
+        - label: "I have checked the existing [issues(https://github.com/rupali-codes/LinksHub/issues?q=is%3Aissue+)"
           required: true
-        - label: "I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)"
+        - label: "I have read the [Contributing Guidelines(https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)"
           required: true
         - label: "I have checked that this category does not exist"
           required: false
