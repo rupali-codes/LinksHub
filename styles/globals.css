@@ -94,3 +94,40 @@ body {
   position: relative;
 }
 }
+/* setting root value for main scrollbar */
+:root{
+  --scroll-thumb:#bbb;
+  --scroll-thumb-hover:#aaa;
+  --scroll-track:#f3f4f6;
+}
+
+[data-theme="dark"] {
+  --scroll-thumb:#202c46;
+  --scroll-thumb-hover:#304269;
+  --scroll-track:#101623;
+}
+
+/* for the main website scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: var(--scroll-track);
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scroll-thumb-hover);
+}
