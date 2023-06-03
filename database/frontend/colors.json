@@ -79,7 +79,7 @@
   {
     "name": "ColorMagic",
     "description": "ColorMagic is an AI color palette generator. Generate colors by entering the keyword into the textbox.",
-      "url": "https://colormagic.app/",
+    "url": "https://colormagic.app/",
     "category": "frontend",
     "subcategory": "colors"
   },
@@ -93,21 +93,28 @@
   {
     "name": "Colorion",
     "description": "Colorion is an immersive color palette generator and exploration tool that inspires creativity. With a wide range of beautiful combinations, it offers endless possibilities for designers and artists. Discover stunning palettes and elevate your designs with Colorion.",
-      "url": "https://www.colorion.co/",
+    "url": "https://www.colorion.co/",
     "category": "frontend",
     "subcategory": "colors"
   },
-   {
+  {
     "name": "Happy Hues",
     "description": "Not sure what colors to use in your designs or where to use them? Happy Hues is a color palette inspiration site that acts as a real-world example of how the colors could be used in your projects.",
-      "url": "https://www.happyhues.co/",
+    "url": "https://www.happyhues.co/",
     "category": "frontend",
     "subcategory": "colors"
   },
-   {
+  {
     "name": "Khroma",
     "description": "This is an innovative color palette generator that simplifies the process of choosing harmonious colors for your design projects.",
     "url": "https://www.khroma.co/",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
+    "name": "AI Colors",
+    "description": "Generate stunning, validated color palettes  based on text prompts and witness their practical application as they dynamically come to life on a generated user interface, allowing you to visualize and explore the impact of colors in real-time.",
+    "url": "https://aicolors.co/",
     "category": "frontend",
     "subcategory": "colors"
   }
