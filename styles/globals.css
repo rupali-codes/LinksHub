@@ -109,25 +109,50 @@ body {
 
 /* for the main website scrollbar */
 
+/* Webkit Browsers */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
-
 ::-webkit-scrollbar-track {
   background: var(--scroll-track);
 }
-
-/* Handle */
 
 ::-webkit-scrollbar-thumb {
   background: var(--scroll-thumb);
   border-radius: 25px;
 }
 
-/* Handle on hover */
-
 ::-webkit-scrollbar-thumb:hover {
   background: var(--scroll-thumb-hover);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) var(--scroll-track);
+}
+
+/* Microsoft Edge and IE */
+*::-ms-scrollbar {
+  width: 10px;
+}
+
+*::-ms-scrollbar-track {
+  background: var(--scroll-track);
+}
+
+*::-ms-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 25px;
+}
+
+*::-ms-scrollbar-thumb:hover {
+  background: var(--scroll-thumb-hover);
+}
+
+/* Standard Scrollbar (Chrome, Opera, Edge, and IE) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) var(--scroll-track);
 }
