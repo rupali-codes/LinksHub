@@ -110,5 +110,12 @@
     "url": "https://styled-components.com/",
     "category": "frontend",
     "subcategory": "ui-generators"
+  },
+  {
+    "name": "CSS Grid Generator",
+    "description": "This website facilitates efficient utilization of CSS Grid functionalities, enabling users to swiftly generate dynamic layouts.",
+    "url": "https://css-grid-generator.netlify.app/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
   }
 ]
