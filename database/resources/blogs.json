@@ -131,5 +131,12 @@
         "url": "https://reacttraining.com/blog/using-hooks-in-classes",
         "category": "resources",
         "subcategory": "blogs"
+    },
+    {
+        "name": "Daily.dev",
+        "description": "Daily.dev is a website that provides a curated feed of developer news and articles to help you stay updated with the latest trends and developments in the tech industry.",
+        "url": "https://app.daily.dev/",
+        "category": "resources",
+        "subcategory": "blogs"
     }
 ]
