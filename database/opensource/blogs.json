@@ -17,6 +17,13 @@
       "name": "How to make your first pull request on Github",
       "description": "This blog will help you to make your first pull request on Github",
       "url": "https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/",
+      "category": "opensource",
+      "subcategory": "opensource_blogs"
+   },
+   {
+      "name": "Resolving merge conflict on Github",
+      "description": "This blog will help you to resolve merge conflicts on GitHub",
+      "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github",
       "category": "open source",
       "subcategory": "open-source-blogs"
    }

@@ -17,7 +17,7 @@ const Card: FC<{ data: IData }> = (props) => {
       <div className="card-body">
         <header className="flex justify-between items-center">
           <h2
-            className="cursor-default truncate ... text-xl text-violet-600 dark:text-violet-400"
+            className="cursor-default md:truncate ... text-xl text-violet-600 dark:text-violet-400"
             title={name}
           >
             {name}
@@ -36,7 +36,7 @@ const Card: FC<{ data: IData }> = (props) => {
             onClick={(e) => e.stopPropagation()}
             href={url}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className={
               'mt-2 flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-transparent bg-violet-600 px-6 py-2 text-center text-white duration-100 hover:border-violet-400 hover:bg-transparent hover:text-violet-500 dark:hover:text-violet-400'
             }

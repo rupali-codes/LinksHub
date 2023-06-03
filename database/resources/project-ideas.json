@@ -39,5 +39,12 @@
     "url": "https://www.freecodecamp.org/news/python-projects-for-beginners/",
     "category": "resources",
     "subcategory": "project-ideas"
+  },
+  {
+    "name": "Artificial Intelligence Projects",
+    "description": "This website provides free twenty Artificial Intelligence projects for beginners to advanced with source code.",
+    "url": "https://www.interviewbit.com/blog/artificial-intelligence-projects/",
+    "category": "resources",
+    "subcategory": "project-ideas"
   }
 ]

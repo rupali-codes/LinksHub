@@ -131,5 +131,12 @@
     "url": "https://animated-fluent-emoji.vercel.app/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Icon Finder",
+    "description": "Icon finder is a robust platform designed to facilitate the discovery and integration of icons, illustrations, and stickers into your project.",
+    "url": "https://www.iconfinder.com/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]

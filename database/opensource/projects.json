@@ -54,5 +54,12 @@
     "url": "https://github.com/rohitdasu/projectmate",
     "category": "open source",
     "subcategory": "open-source-projects"
+  },
+  {
+    "name": "Zod",
+    "description": "It is a TypeScript-first schema declaration and validation library to eliminate duplicative type declarations.",
+    "url": "https://github.com/colinhacks/zod",
+    "category": "open source",
+    "subcategory": "open-source-projects"
   }
 ]
