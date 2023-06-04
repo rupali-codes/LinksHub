@@ -46,5 +46,12 @@
     "url": "https://www.interviewbit.com/blog/artificial-intelligence-projects/",
     "category": "resources",
     "subcategory": "project-ideas"
+  },
+  {
+    "name": "Cloud Computing Projects",
+    "description": "This website provides free Cloud Computing projects for beginners to advanced level with source code.",
+    "url": "https://www.interviewbit.com/blog/cloud-computing-projects/",
+    "category": "resources",
+    "subcategory": "project-ideas"
   }
 ]
