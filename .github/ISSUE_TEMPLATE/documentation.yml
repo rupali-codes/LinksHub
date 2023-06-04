@@ -1,0 +1,53 @@
+name: "Documentation 📋"
+description: "Use this form to present your suggestions on how to improve our docs"
+title: "[DOCS] <write your suggestion here>"
+labels: ["documenation", "goal: enhancement"]
+
+body:
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Issue Description
+      description: "Please provide a brief summary of the documentation issue you are experiencing or would like to address."
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: "If there is any additional context or information that would be helpful for addressing the documentation issue, please provide it here."
+
+ 
+  - type: textarea
+    id: screenshots_examples
+    attributes:
+      label: Screenshots or Examples (if applicable)
+      description: "Please include relevant screenshots or examples to help illustrate the problem."
+
+  
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution (optional)
+      description: "If you have a proposed solution for the documentation issue, please provide it here. This can be helpful for speeding up the resolution process."
+
+  - type: checkboxes
+    id: terms_checklist
+    attributes:
+      label: "Checklist"
+      description: "By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/rupali-codes/LinksHub/blob/main/CODE_OF_CONDUCT.md)"
+      options:
+        - label: "I have checked the existing [issues(https://github.com/rupali-codes/LinksHub/issues?q=is%3Aissue+)"
+          required: true
+        - label: "I have read the [Contributing Guidelines(https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)"
+          required: true
+        - label: "I have checked that this category does not exist"
+          required: false
+        - label: "I have checked that this subcategory does not exist"
+          required: true
+        - label: "I am willing to work on this issue (optional)"
+          required: false
+        - label: "I am a GSSoC'23 contributor"
+          required: false
+  - type: markdown
+    attributes:
+      value: "Thank you for taking the time to raise this issue! Your input is greatly appreciated."

@@ -53,5 +53,12 @@
         "url": "https://firebase.google.com/",
         "category": "resources",
         "subcategory": "hosting"
+    },
+    {
+        "name": "000webhost",
+        "description": "a hosting sevice provided by Hostinger, useful for quick testing purposes",
+        "url": "https://www.000webhost.com/",
+        "category": "resources",
+        "subcategory": "hosting"
     }
 ]
