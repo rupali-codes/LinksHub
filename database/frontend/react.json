@@ -12,15 +12,13 @@
         "description":"the official documentation of ReactJS",
         "url":"https://react.dev/learn",
         "category":"frontend",
-        "subcategory":"react",
-        "language":"english"
+        "subcategory":"react"
     },
     {
         "name":"30 days of React",
         "description":"a very nice repository and a challenge at the same time to learn ReactJS",
         "url":"https://github.com/Asabeneh/30-Days-Of-React",
         "category":"frontend",
-        "subcategory":"react",
-        "language":"english"
+        "subcategory":"react"
     }
 ]
