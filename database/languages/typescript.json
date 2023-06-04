@@ -22,7 +22,7 @@
   },
   {
     "name": "Build a TypeScript Project From Scratch",
-    "description": "Resource for learning TypeScript from scratch to level-up skills. End-to-end experience of taking from a blank editor to battle-tested production code. A hands-on tutorial where we build a library from scratch, share it with the world, and consume it in a production application.",
+    "description": "If you want to learn TypeScript from scratch, this resource is for you. You will have the experience of turning a  blank editor into battle-tested production code. This source also provides a hands-on tutorial where we build a library from scratch, share it with the world.",
     "url": "https://www.typescriptcourse.com/tutorials/build-a-typescript-project-from-scratch",
     "category": "languages",
     "subcategory": "typescript"
