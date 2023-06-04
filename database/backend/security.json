@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "name": "Django Forbid",
+    "description": "Django Forbid provides documentation for a growing OSS tool forbidding geolocated individuals in forbidden countries, regions, and territories.",
+    "url": "https://docs.pysnippet.org/django-forbid/",
+    "category": "backend",
+    "subcategory": "security"
+  }
+]
