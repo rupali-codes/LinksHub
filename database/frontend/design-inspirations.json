@@ -165,6 +165,13 @@
         "url": "https://saasinterface.com/",
         "category": "frontend",
         "subcategory": "design-inspiration"
+    },
+    {
+        "name": "One Page Love",
+        "description": "One Page Love is a premier resource showcasing exceptional single-page website designs, inspiring designers and developers worldwide with its curated collection of visually stunning and functionally impressive creations.",
+        "url": "https://onepagelove.com/",
+        "category": "frontend",
+        "subcategory": "design-inspiration"
     }
     
 ]
