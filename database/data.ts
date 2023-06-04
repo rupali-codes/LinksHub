@@ -21,6 +21,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'UI Generators', url: '/ui-generator' },
       { name: 'online code editors', url: '/online-code-editors' },
       { name: 'accessibility', url: '/accessibility' },
+      { name: 'videos', url: '/videos' },
     ],
   },
   {
