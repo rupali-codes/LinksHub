@@ -22,8 +22,8 @@
   },
   {
     "name": "OnlineGDB",
-    "description": "Another online platform for testing codes written in HTML, CSS and JavaScript.",
-    "url": "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
+    "description": "OnlineGDB is an online integrated development environment (IDE) that provides a convenient platform for coding and testing HTML, CSS, and JavaScript.",
+    "url": "https://www.onlinegdb.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
   },
