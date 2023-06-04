@@ -61,5 +61,12 @@
     "url": "https://github.com/colinhacks/zod",
     "category": "open source",
     "subcategory": "open-source-projects"
+  },
+  {
+    "name": "Code Thesaurus",
+    "description": "The Polyglot Developer Reference.Use this tool to compare language components from languages you know and don't know, or just use it as a language reference cheat sheet.",
+    "url": "https://codethesaur.us/",
+    "category": "open source",
+    "subcategory": "open-source-projects"
   }
 ]
