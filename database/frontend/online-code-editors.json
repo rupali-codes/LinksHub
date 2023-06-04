@@ -82,5 +82,12 @@
     "url": "https://leetcode.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Programiz",
+    "description": "Learn to program with our beginner-friendly tutorials and examples. Read tutorials, try examples, write code, and learn to program.",
+    "url": "https://www.programiz.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
   }
 ]
