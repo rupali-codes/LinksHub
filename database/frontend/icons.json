@@ -132,11 +132,18 @@
     "category": "frontend",
     "subcategory": "icons"
   },
-    {
+  {
+    "name": "Icon Finder",
+    "description": "Icon finder is a robust platform designed to facilitate the discovery and integration of icons, illustrations, and stickers into your project.",
+    "url": "https://www.iconfinder.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
     "name": "3dicons",
     "description": "All the 3D icons you need in one place. A collection of free, beautiful, trending 3D icons that you can use in your website, app, or project.",
     "url": "https://3dicons.co/",
     "category": "frontend",
     "subcategory": "icons"
-  }
+  },
 ]

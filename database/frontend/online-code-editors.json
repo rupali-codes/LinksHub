@@ -22,8 +22,8 @@
   },
   {
     "name": "OnlineGDB",
-    "description": "Another online platform for testing codes written in HTML, CSS and JavaScript.",
-    "url": "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
+    "description": "OnlineGDB is an online integrated development environment (IDE) that provides a convenient platform for coding and testing HTML, CSS, and JavaScript.",
+    "url": "https://www.onlinegdb.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
   },
@@ -80,6 +80,13 @@
     "name": "LeetCode",
     "description": "LeetCode is the best platform to help you enhance your programming skills, expand your knowledge.",
     "url": "https://leetcode.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Programiz",
+    "description": "Learn to program with our beginner-friendly tutorials and examples. Read tutorials, try examples, write code, and learn to program.",
+    "url": "https://www.programiz.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
   }

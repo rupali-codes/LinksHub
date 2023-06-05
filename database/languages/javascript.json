@@ -46,6 +46,13 @@
         "description": "This site takes you through the entire JavaScript curriculum. You'll learn everything you need to know to create beautiful responsive websites from scratch using JavaScript and NodeJS.",
         "url": "https://www.theodinproject.com/paths/full-stack-javascript",
         "category": "languages",
+        "subcategory": "javascript" 
+    },
+    {
+       "name": "Learn JavaScript Programming",
+       "description": "Javascript tutorial by Programiz.",
+       "url": "https://www.programiz.com/javascript",
+       "category": "languages",
         "subcategory": "javascript"
     },
     {
