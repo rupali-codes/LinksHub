@@ -1,0 +1,25 @@
+[
+    {
+        "name": "c++ Tutorial",
+        "description": " Learn the basics of C++ it is a popular programming language.C++ is used to create computer programs, and is one of the most used language in game development.",
+        "url": "https://www.w3schools.com/cpp/default.asp",
+        "category": "Languages",
+        "subcategory": "C++"
+    },
+    {
+        "name": "C++ Recent Articles! ",
+        "description": "Recent Articles on C++",
+        "url": "https://www.geeksforgeeks.org/category/cpp/",
+        "category": "Languages",
+        "subcategory": "C++"
+    },
+    {
+        "name": "C++ Interview Questions",
+        "description": "Top 50 C++ Interview Questions and Answers (2023)",
+        "url": "https://www.geeksforgeeks.org/cpp-interview-questions/",
+        "category": "Languages",
+        "subcategory": "C++"
+    }
+    
+
+]
