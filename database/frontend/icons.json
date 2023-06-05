@@ -131,5 +131,12 @@
     "url": "https://animated-fluent-emoji.vercel.app/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+    {
+    "name": "3dicons",
+    "description": "All the 3D icons you need in one place. A collection of free, beautiful, trending 3D icons that you can use in your website, app, or project.",
+    "url": "https://3dicons.co/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
