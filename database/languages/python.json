@@ -26,5 +26,12 @@
         "url": "https://www.learnpython.org/",
         "category": "languages",
         "subcategory": "python"
+    },
+    {
+        "name": "Real Python Tutorial",
+        "description": "Learn Python through Real Hands on experience",
+        "url": "https://realpython.com/",
+        "category": "languages",
+        "subcategory": "python"
     }
 ]
