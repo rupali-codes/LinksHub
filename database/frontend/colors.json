@@ -117,5 +117,12 @@
     "url": "https://aicolors.co/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+   {
+    "name": "Khroma",
+    "description": "This is an innovative color palette generator that simplifies the process of choosing harmonious colors for your design projects.",
+    "url": "https://www.khroma.co/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
