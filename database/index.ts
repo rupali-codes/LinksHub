@@ -45,6 +45,8 @@ export { default as javascript } from "./languages/javascript.json";
 export { default as python } from "./languages/python.json";
 export { default as golang } from "./languages/golang.json";
 export { default as csharp } from "./languages/csharp.json";
+export { default as c++ } from "./languages/c++.json";
+
 //Open-source
 export { default as opensource_blogs } from "./opensource/opensource_blogs.json";
 export { default as projects } from "./opensource/projects.json";

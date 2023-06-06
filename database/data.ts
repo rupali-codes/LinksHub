@@ -71,7 +71,8 @@ export const sidebarData: ISidebar[] = [
       { name: 'JavaScript', url: '/javascript' },
       { name: 'Python', url: '/python' },
       { name: 'Csharp (C#)', url: '/csharp' },
-      { name: 'Go', url: '/golang' }
+      { name: 'Go', url: '/golang' },
+      {name: 'c++', url: '/c++'}
     ],
   },
   {
