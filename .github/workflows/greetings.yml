@@ -14,8 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - name: Get issue author
+        id: get_author
+        run: echo "::set-output name=author::${{ github.event.issue.user.login }}"
       - uses: EddieHubCommunity/gh-action-community/src/welcome@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "Hello @${author}! \n Thank you for raising this issue! 😊 Your contribution is valuable to us! 😊 \n\nPlease make sure to follow our [Contributing Guidelines. 💪🏻](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md) \n\nOur review team will carefully assess the issue and reach out to you soon! 😇 \n We appreciate your patience! "
-          pr-message: "Thank you, @${author}, for creating this pull request and contributing to LinksHub! 💗\n\n The maintainers will review this Pull Request and provide feedback as soon as possible! 😇\nWe appreciate your patience and contribution, Keep up the great work! 😀"
+          issue-message: "Hello @${{ steps.get_author.outputs.author }}! \n Thank you for raising this issue! 😊 Your contribution is valuable to us! 😊 \n\nPlease make sure to follow our [Contributing Guidelines. 💪🏻](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md) \n\nOur review team will carefully assess the issue and reach out to you soon! 😇 \n We appreciate your patience! "
+          pr-message: "Thank you, @${{ steps.get_author.outputs.author }}, for creating this pull request and contributing to LinksHub! 💗\n\n The maintainers will review this Pull Request and provide feedback as soon as possible! 😇\nWe appreciate your patience and contribution, Keep up the great work! 😀"
