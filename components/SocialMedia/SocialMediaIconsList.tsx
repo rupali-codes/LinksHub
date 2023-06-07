@@ -1,35 +1,15 @@
 import { FC } from "react";
 import { IconContext } from "react-icons";
 import { FaDiscord, FaGithub, FaTwitter } from "react-icons/fa";
-import Link from "next/link";
-import { useEffect } from "react";
+import { GitHubForkButton } from "components/ForkButton/GitHubForkButton";
 
 export const SocialMediaIconsList: FC<{ className?: string }> = (props) => {
   const { className } = props;
 
-  useEffect(() => {
-    const script = document.createElement('script')
-    script.src = 'https://buttons.github.io/buttons.js'
-    script.async = true
-    script.defer = true
-    document.head.appendChild(script)
-    return () => {
-      document.head.removeChild(script)
-    }
-  }, [])
   return (
     <ul className={`flex items-center gap-6 ${className}`}>
-      <li className="mt-2 mr-2 hidden md:block">
-        <Link
-          className="github-button"
-          href="https://github.com/rupali-codes/LinksHub"
-          data-icon="octicon-repo-forked"
-          data-size="large"
-          data-show-count="true"
-          aria-label="Fork rupali-codes/LinksHub on GitHub"
-        >
-          Fork
-        </Link>
+      <li className="mr-2 hidden md:block">
+        <GitHubForkButton repo="rupali-codes/LinksHub" />
       </li>
       <li>
         <a
