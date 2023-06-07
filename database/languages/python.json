@@ -14,6 +14,13 @@
         "subcategory": "python"
     },
     {
+        "name": "100 days of Python",
+        "description": "A 100 days of code challenge to learn python from basics to advanced.",
+        "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg",
+        "category": "youtube",
+        "subcategory": "python"
+    }, 
+    {
         "name": "Python Tutorial",
         "description": "Learn Python through this interactive Python tutorial and exercises. You also receive a certificate if you pass them.",
         "url": "https://www.learnpython.org/",

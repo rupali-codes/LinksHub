@@ -21,7 +21,7 @@
     "subcategory": "ui-generators"
   },
   {
-    "name": "Universe.io",
+    "name": "Uiverse.io",
     "description": "It provides tons of cool UI elements made with HTML & CSS.",
     "url": "https://uiverse.io/all",
     "category": "frontend",
@@ -115,6 +115,13 @@
     "name": "CSS Grid Generator",
     "description": "This website facilitates efficient utilization of CSS Grid functionalities, enabling users to swiftly generate dynamic layouts.",
     "url": "https://css-grid-generator.netlify.app/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
+    "name": "SuperDesigner.Co",
+    "description": "Generate stunning design elements effortlessly with this free website that offers a diverse range of generators, including SVG backgrounds, 3D shapes, patterns, blobs, and gradients.",
+    "url": "https://superdesigner.co/",
     "category": "frontend",
     "subcategory": "ui-generators"
   }
