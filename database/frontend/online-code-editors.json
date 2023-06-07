@@ -84,6 +84,13 @@
     "subcategory": "online-code-editors"
   },
   {
+    "name": "Programiz",
+    "description": "Learn to program with our beginner-friendly tutorials and examples. Read tutorials, try examples, write code, and learn to program.",
+    "url": "https://www.programiz.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
 
     "name": "codewars",
     "description": "Codewars serves as an online platform offering coding challenges suited for individuals across diverse programming proficiency levels.",
