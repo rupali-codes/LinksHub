@@ -138,5 +138,12 @@
     "url": "https://www.iconfinder.com/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Vertex",
+    "description": "The Vertex website offers a collection of freely available 3D icons that can be fully customized and utilized without any cost.",
+    "url": "https://vertex.im/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
