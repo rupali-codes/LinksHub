@@ -19,5 +19,19 @@
     "url": "https://www.tigrisdata.com/",
     "category": "backend",
     "subcategory": "database"
+  },
+  {
+    "name": "Supabase",
+    "description": "Supabase is a powerful open-source platform that combines database and authentication services to simplify backend development for web and mobile applications.",
+    "url": "https://supabase.com/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
+    "name": "SurrealDB",
+    "description": "SurrealDB.com is an innovative platform merging reality and imagination, offering a unique and immersive experience through its surreal database.",
+    "url": "https://surrealdb.com/",
+    "category": "backend",
+    "subcategory": "database"
   }
 ]
