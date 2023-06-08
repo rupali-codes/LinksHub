@@ -31,6 +31,12 @@ export { default as ruby } from './languages/ruby.json'
 export { default as ml } from './ml&ai/ml.json'
 export { default as dataScience } from './ml&ai/datascience.json'
 export { default as deepLearning } from './ml&ai/deeplearning.json'
+
+//cloud architect
+
+export { default as about } from './cloud architect/about.json'
+export { default as Platforms } from './cloud architect/platforms.json'
+
 // Open-source
 export { default as openSourceBlogs } from './opensource/blogs.json'
 export { default as openSourceProjects } from './opensource/projects.json'

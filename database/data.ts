@@ -56,6 +56,13 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'cloud architect',
+    subcategory: [
+      { name: 'About', url: '/about' },
+      { name: 'Platforms', url: '/Platforms' },
+    ],
+  },
+  {
     category: 'open source',
     subcategory: [
       { name: 'Blogs', url: '/open-source-blogs' },
