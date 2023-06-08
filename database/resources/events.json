@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Hackathon",
+    "description": "This guide provides information regarding what is a Hackathon and how does it works.",
+    "url": "https://tips.hackathon.com/article/what-is-a-hackathon",
+    "category": "resources",
+    "subcategory": "events"
+  },
+  {
+    "name": "Your First Hackathon: A Survival Guide",
+    "description": "Getting started for a hackathon? Here is an article for your reference.This guide provides the best practices for your first Hackathon.",
+    "url": "https://medium.com/geekculture/survival-guide-for-your-first-hackathon-1b799e2d4f8f",
+    "category": "resources",
+    "subcategory": "events"
+  },
+  
+  {
+    "name": "The 8 Best Websites to Find a Hackathon",
+    "description": "A list of websites where can you find the best virtual hackathons to participate in.",
+    "url": "https://blog.teamtreehouse.com/your-first-hackathon",
+    "category": "resources",
+    "subcategory": "events"
+  }
+]
