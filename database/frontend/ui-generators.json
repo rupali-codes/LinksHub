@@ -103,5 +103,12 @@
     "url": "https://styled-components.com/",
     "category": "frontend",
     "subcategory": "ui-generators"
+  },
+  {
+    "name": "Frontend Mentor",
+    "description": "Join 632,729 developers in tackling real-world HTML, CSS, and JavaScript challenges. Build projects, review code, and collaborate with a supportive community to enhance your skills and grow together.",
+    "url": "https://www.frontendmentor.io/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
   }
 ]
