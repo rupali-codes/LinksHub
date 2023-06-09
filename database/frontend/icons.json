@@ -138,5 +138,12 @@
     "url": "https://www.iconfinder.com/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "3dicons",
+    "description": "It provides a collection of free, beautiful and trending 3D icons that you can use in your projects.",
+    "url": "https://3dicons.co/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
