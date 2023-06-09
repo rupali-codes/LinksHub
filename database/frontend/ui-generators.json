@@ -98,16 +98,16 @@
     "subcategory": "ui-generators"
   },
   {
-    "name": "Frontend Mentor",
-    "description": "Join 632,729 developers in tackling real-world HTML, CSS, and JavaScript challenges. Build projects, review code, and collaborate with a supportive community to enhance your skills and grow together.",
-    "url": "https://www.frontendmentor.io/",
+    "name": "Styled Components",
+    "description": "Visual primitives for the component age. Type checking & No class policy means dynamic class declaration on run-time",
+    "url": "https://styled-components.com/",
     "category": "frontend",
     "subcategory": "ui-generators"
   },
   {
-    "name": "Styled Components",
-    "description": "Visual primitives for the component age. Type checking & No class policy means dynamic class declaration on run-time",
-    "url": "https://styled-components.com/",
+    "name": "Frontend Mentor",
+    "description": "Join our community of 632,729 developers and conquer real-world challenges in HTML, CSS, and JavaScript. Build projects, collaborate, and receive valuable feedback from a supportive community. Enhance your skills and grow together with us!",
+    "url": "https://www.frontendmentor.io/",
     "category": "frontend",
     "subcategory": "ui-generators"
   }
