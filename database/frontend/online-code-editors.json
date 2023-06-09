@@ -89,5 +89,13 @@
     "url": "https://www.programiz.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
+  },
+  {
+
+    "name": "codewars",
+    "description": "Codewars is an online platform that offers coding challenges suitable for individuals with diverse programming proficiency levels.",
+    "url": "https://www.codewars.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
   }
 ]
