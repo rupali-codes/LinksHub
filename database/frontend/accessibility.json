@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Accessibility Checklist",
+    "description": "This checklist uses The Web Content Accessibility Guidelines (WCAG) as a reference point, which is a shared standard for web content accessibility for individuals, organizations, and governments.",
+    "url": "https://www.a11yproject.com/checklist/",
+    "category": "frontend",
+    "subcategory": "accessibility"
+  },
+  {
+    "name": "WhoCanUse - color checker",
+    "description": "It's a tool that brings attention and understanding to how color contrast can affect different people with visual impairments.",
+    "url": "https://www.whocanuse.com/",
+    "category": "frontend",
+    "subcategory": "accessibility"
+  },
+  {
+    "name": "WAVE Web Accessibility Evaluation Tools",
+    "description": "WAVE is a free web accessibility evaluation tool that identifies ways to make a webpage more accessible to people with disabilities.",
+    "url": "https://wave.webaim.org/",
+    "category": "frontend",
+    "subcategory": "accessibility"
+  },
+  {
+    "name": "Microsoft Inclusive Design Methodology",
+    "description": "An amazing resource for anyone who wants to build more inclusive experiences for everyone.",
+    "url": "https://inclusive.microsoft.design/",
+    "category": "frontend",
+    "subcategory": "accessibility"
+  }
+]

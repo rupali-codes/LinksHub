@@ -13,9 +13,9 @@ jobs:
   welcome:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - uses: EddieHubCommunity/gh-action-community/src/welcome@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "Hello ${{ github.actor }}, thanks for opening a issue, your contribution is valuable to us. The maintainers will review this issue and provide feedback as soon as possible."
-          pr-message: "Hello ${{ github.actor }}, thanks for rising a Pull request, your contribution is valuable to us. The maintainers will review this Pull Request and provide feedback as soon as possible. Keep the great work up!"
+          issue-message: "Hello ${{ github.actor }}! \n Thank you for raising this issue! 😊 Your contribution is valuable to us! 😊 \n\nPlease make sure to follow our [Contributing Guidelines. 💪🏻](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md) \n\nOur review team will carefully assess the issue and reach out to you soon! 😇 \n We appreciate your patience! "
+          pr-message: "Thank you, ${{ github.actor }}, for creating this pull request and contributing to LinksHub! 💗\n\n The maintainers will review this Pull Request and provide feedback as soon as possible! 😇\nWe appreciate your patience and contribution, Keep up the great work! 😀"

@@ -1,5 +1,12 @@
 [
   {
+    "name": "Fffuel.co",
+    "description": "fffuel is a collection of color tools and free SVG generators for gradients, patterns, textures, shapes & backgrounds.",
+    "url": "https://fffuel.co/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
     "name": "Neumorphism.io",
     "description": "It's a platform where you can generate Soft-UI CSS elements for your webiste or app.",
     "url": "https://neumorphism.io/#e0e0e0",
@@ -14,7 +21,7 @@
     "subcategory": "ui-generators"
   },
   {
-    "name": "Universe.io",
+    "name": "Uiverse.io",
     "description": "It provides tons of cool UI elements made with HTML & CSS.",
     "url": "https://uiverse.io/all",
     "category": "frontend",
@@ -108,6 +115,19 @@
     "name": "Frontend Mentor",
     "description": "Join 632,729 developers in tackling real-world HTML, CSS, and JavaScript challenges. Build projects, review code, and collaborate with a supportive community to enhance your skills and grow together.",
     "url": "https://www.frontendmentor.io/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+    "name": "CSS Grid Generator",
+    "description": "This website facilitates efficient utilization of CSS Grid functionalities, enabling users to swiftly generate dynamic layouts.",
+    "url": "https://css-grid-generator.netlify.app/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
+    "name": "SuperDesigner.Co",
+    "description": "Generate stunning design elements effortlessly with this free website that offers a diverse range of generators, including SVG backgrounds, 3D shapes, patterns, blobs, and gradients.",
+    "url": "https://superdesigner.co/",
     "category": "frontend",
     "subcategory": "ui-generators"
   }
