@@ -82,5 +82,12 @@
     "url": "https://www.lifeofpix.com/",
     "category": "frontend",
     "subcategory": "images"
+  },
+    {
+    "name": "Shutterstock",
+    "description": "Access all the images, videos, music, and tools you need to turn ideas into achievements.",
+    "url": "https://www.shutterstock.com/",
+    "category": "frontend",
+    "subcategory": "images"
   }
 ]
