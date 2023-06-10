@@ -1,7 +1,7 @@
 [
   {
     "name": "Django Forbid",
-    "description": "Django Forbid provides documentation for a growing OSS tool forbidding geolocated individuals in forbidden countries, regions, and territories.",
+    "description": "Secure your Django app by controlling the access - grant or deny user access based on device and location, including VPN detection.",
     "url": "https://docs.pysnippet.org/django-forbid/",
     "category": "backend",
     "subcategory": "security"
