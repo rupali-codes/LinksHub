@@ -33,7 +33,7 @@ export const SideNavbarCategory: FC<{
         <h1 className="font-bold uppercase">{item.category}</h1>
         <FaAngleDown
           className={`${
-            isOpen && 'rotate-180'
+            isExpanded && 'rotate-180'
           } self-center transition duration-300 ease-in-out`}
         />
       </button>
