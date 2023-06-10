@@ -30,5 +30,13 @@
     "category": "youtube",
     "subcategory": "android",
     "language": "hindi"
+  },
+  {
+    "name": "Android App Development course (Beginner to Advanced)  | WsCude Tech 2.0",
+    "description": "This playlist provide beginner to advance level android devlopmenet course with step by step proccess in hindi.",
+    "url": "https://www.youtube.com/playlist?list=PLjVLYmrlmjGdDps6HAwOOVoAtBPAgIOXL",
+    "category": "youtube",
+    "subcategory": "android",
+    "language": "hindi"
   }
 ]
