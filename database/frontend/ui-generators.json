@@ -124,5 +124,26 @@
     "url": "https://superdesigner.co/",
     "category": "frontend",
     "subcategory": "ui-generators"
+  },
+  {
+    "name": "Keyframes.app",
+    "description": "This site contains browser-based, mobile-friendly, actually private tools that make CSS a little less bad.",
+    "url": "https://keyframes.app/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
+    "name": "Animated Backgrounds",
+    "description": "This Site offers a wide range of styles and colors to choose from, you'll find the perfect background to match your brand and message.",
+    "url": "https://animatedbackgrounds.me/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
+    "name": "Charts.css",
+    "description": "This is a modern CSS framework. It uses CSS utility classes to style HTML elements as charts.",
+    "url": "https://chartscss.org/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
   }
 ]
