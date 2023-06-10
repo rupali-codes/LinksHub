@@ -88,6 +88,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Computer Science', url: '/computer-science' },
       { name: 'Competitive Programming', url: '/competitive-programming' },
       { name: 'FinTech', url: '/fintech' },
+      { name: 'Game Development', url: '/game-development' },
     ],
   },
   {
