@@ -9,7 +9,7 @@ export const SocialMediaIconsList: FC<{ className?: string }> = (props) => {
   return (
     <ul className={`flex items-center gap-6 ${className}`}>
       <li className="mr-2 hidden md:block">
-        <GitHubForkButton repo="rupali-codes/LinksHub/fork" />
+        <GitHubForkButton repo="rupali-codes/LinksHub" />
       </li>
       <li>
         <a

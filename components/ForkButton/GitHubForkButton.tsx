@@ -24,7 +24,7 @@ export const GitHubForkButton: FC<{ repo: string }> = ({ repo }) => {
 
     return (
         <Link
-            href={`https://github.com/${repo}`}
+            href={`https://github.com/${repo}/fork`}
             passHref
             target="_blank"
             rel="noopener noreferrer"
