@@ -1,1 +1,7 @@
-[]
+[ {
+    "name": "FreeCodeCamp",
+    "description": "FreeCodeCamp offers a free C programming course with interactive lessons and coding challenges.",
+    "url": "https://www.freecodecamp.org/news/learn-c-programming-classic-book-dr-chuck/",
+    "category": "languages",
+    "subcategory": "c-programming"
+}]
