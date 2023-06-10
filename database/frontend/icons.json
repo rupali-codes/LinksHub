@@ -140,6 +140,13 @@
     "subcategory": "icons"
   },
   {
+    "name": "3dicons",
+    "description": "It provides a collection of free, beautiful and trending 3D icons that you can use in your projects.",
+    "url": "https://3dicons.co/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
     "name": "CSS Icons",
     "description": "CSS.gg is a website that offers a collection of minimalistic, customizable, and open-source CSS icons for web design.",
     "url": " https://css.gg/",

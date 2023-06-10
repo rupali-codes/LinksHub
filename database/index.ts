@@ -54,6 +54,7 @@ export { default as youtubTesting } from './youtube/testing.json'
 export { default as computerScience } from './youtube/computer-science.json'
 export { default as competitiveProgramming } from './youtube/competitive-programming.json'
 export { default as fintech } from './youtube/fintech.json'
+export { default as gameDevelopment } from './youtube/game-development.json'
 // other
 export { default as github } from './other/github.json'
 export { default as devtools } from './other/devtools.json'
