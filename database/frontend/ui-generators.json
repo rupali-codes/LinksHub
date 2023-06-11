@@ -127,14 +127,14 @@
   },
   {
     "name": "Keyframes.app",
-    "description": "This site contains browser-based, mobile-friendly, actually private tools that make CSS a little less bad.",
+    "description": "This site contains browser-based, mobile-friendly,and private tools that make CSS a little less bad.",
     "url": "https://keyframes.app/",
     "category": "frontend",
     "subcategory": "ui-generators"
   },
   {
     "name": "Animated Backgrounds",
-    "description": "This Site offers a wide range of styles and colors to choose from, you'll find the perfect background to match your brand and message.",
+    "description": "This site offers a wide range of styles and colors to choose from. You'll find the perfect background to match your brand and message.",
     "url": "https://animatedbackgrounds.me/",
     "category": "frontend",
     "subcategory": "ui-generators"
