@@ -124,5 +124,12 @@
     "url": "https://superdesigner.co/",
     "category": "frontend",
     "subcategory": "ui-generators"
+  },
+  {
+    "name": "Glassmorphism CSS Generator",
+    "description": "Glassmorphism is a new design technique which is primarely based on the blurry effect of an element and a background.",
+    "url": "https://ui.glass/generator/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
   }
 ]
