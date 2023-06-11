@@ -140,6 +140,13 @@
     "subcategory": "icons"
   },
   {
+    "name": "Vertex",
+    "description": "The Vertex website offers a collection of freely available 3D icons that can be fully customized and used for free.",
+    "url": "https://vertex.im/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
     "name": "3dicons",
     "description": "It provides a collection of free, beautiful and trending 3D icons that you can use in your projects.",
     "url": "https://3dicons.co/",
