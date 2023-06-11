@@ -21,7 +21,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 ## How to Contribute 🤔
 
 - Look at the existing [**Issues**](https://github.com/rupali-codes/LinksHub/issues) or [**create a new issue**](https://github.com/rupali-codes/LinksHub/issues/new/choose)!
-- [**Fork the Repo**](https://github.com/rupali-codes/LinksHub/fork). Then, create a branch for any issue that you are working on. Finally, commit to your work.
+- [**Fork the Repo**](https://github.com/rupali-codes/LinksHub/fork). Then, create a branch for any issue that you are working on. Finally, start working! 😊.
 - Create a **[Pull Request](https://github.com/rupali-codes/LinksHub/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
 - Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
 
