@@ -12,7 +12,9 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
       <Header />
       <SideNavbar />
       <div className="row-start-2 row-end-3 min-h-[100vh-72px] w-full bg-gray-100 dark:bg-[#101623]">
-        <Aside />
+        <nav>
+          <Aside />
+        </nav>
         <main
           className="h-full px-4 lg:ml-[290px] lg:w-[calc(100%-290px)]"
           id="main"

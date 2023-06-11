@@ -1,8 +1,15 @@
 [
     {
         "name": "Firebase Authentication",
-        "description": "This guide provides information on best practices and patterns for building applications using Firebase.",
+        "description": "This guide provides information on best practices and patterns when building applications using Firebase.",
         "url": "https://firebase.google.com/docs/auth/",
+        "category": "backend",
+        "subcategory": "authentication"
+    },
+    {
+        "name": "NextAuth.js",
+        "description": "NextAuth.js is a open-source authentication solution for Next.js applications. It is designed to support Next.js, Serverless, the latest Next.js 13 app router, and route handlers.",
+        "url": "https://next-auth.js.org/",
         "category": "backend",
         "subcategory": "authentication"
     }
