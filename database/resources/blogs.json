@@ -77,37 +77,72 @@
         "subcategory": "blogs"
     },
     {
-        "name": "Hackernoon",
-        "description": "This is a platform where developers and technologists from all walks of life write blog posts about their experiences in tech.",
-        "url": "https://hackernoon.com/",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "Hacker News",
-        "description": "Hacker News is a tech-focused social news and discussion site run by startup accelerator Y Combinator, with a vibrant community of tech enthusiasts and insiders.",
-        "url": "https://news.ycombinator.com/",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "MDN Web Docs",
-        "description": "Discover the latest web development insights on our new MDN Blog",
-        "url": "https://developer.mozilla.org/en-US/",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "Andrew Ng's Blog",
-        "description": "Andrew Ng's blog provides insightful articles on AI, machine learning, and deep learning topics.",
-        "url": "https://www.andrewng.org/",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
+       "name": "Hackernoon",
+       "description": "This is a platform where developers and technologists from all walks of life write blog posts about their experiences in tech.",
+       "url": "https://hackernoon.com/",
+       "category": "resources",
+       "subcategory": "blogs"
+   },
+   {
+       "name": "Hacker News",
+       "description": "Hacker News is a tech-focused social news and discussion site run by startup accelerator Y Combinator, with a vibrant community of tech enthusiasts and insiders.",
+       "url": "https://news.ycombinator.com/",
+       "category": "resources",
+       "subcategory": "blogs"
+   },
+   {
+    "name": "MDN Web Docs",
+    "description": "Discover the latest web development insights on our new MDN Blog",
+    "url": "https://developer.mozilla.org/en-US/",
+     "category": "resources",
+    "subcategory": "blogs"
+   },
+   {
+    "name": "Andrew Ng's Blog",
+    "description": "Andrew Ng's blog provides insightful articles on AI, machine learning, and deep learning topics.",
+    "url": "https://www.andrewng.org/",
+    "category": "resources",
+    "subcategory": "blogs"
+   },
+   {
+     "name": "Code With Harry",
+     "description": "This website contains tutorials, cheatsheets, notes etc. on many topics.",
+     "url": "https://www.codewithharry.com/",
+     "category": "resources",
+     "subcategory": "blogs"
+   },
+   {
         "name": "JavaScript Tricks-Raj's Blog",
         "description": "This Blog provides you top 10 tips and tricks of JavaScript",
         "url": "https://resourcegallery.live/blog/JavaScript%20Top%2010%20Tips%20&%20Tricks/",
+        "category": "resources",
+        "subcategory": "blogs"
+    },
+    {
+        "name": "OpenReplay Blogs",
+        "description": "OpenReplay blogs provide highly informative and curated content for tech enthusiasts, offering insights into diverse technical topics",
+        "url": "https://blog.openreplay.com/",
+        "category": "resources",
+        "subcategory": "blogs"
+    },
+    {
+        "name": "Girls Who Code",
+        "description": "Girls Who Code is an international nonprofit organization that strives to close the gender gap in technology . It aims to support and increase the participation of women in computer science and technology.",
+        "url": "https://girlswhocode.medium.com/",
+        "category": "resources",
+        "subcategory": "blogs"
+    },
+    {
+        "name": "ReactTraining",
+        "description": "ReactTraining is the world-renowned React training company who's committed to diversity and education in the tech community.",
+        "url": "https://reacttraining.com/blog/using-hooks-in-classes",
+        "category": "resources",
+        "subcategory": "blogs"
+    },
+    {
+        "name": "Daily.dev",
+        "description": "Daily.dev is a website that provides a curated feed of developer news and articles to help you stay updated with the latest trends and developments in the tech industry.",
+        "url": "https://app.daily.dev/",
         "category": "resources",
         "subcategory": "blogs"
     }

@@ -21,6 +21,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'UI Generators', url: '/ui-generator' },
       { name: 'online code editors', url: '/online-code-editors' },
       { name: 'accessibility', url: '/accessibility' },
+      { name: 'videos', url: '/videos' },
     ],
   },
   {
@@ -44,6 +45,8 @@ export const sidebarData: ISidebar[] = [
       { name: 'Csharp (C#)', url: '/csharp' },
       { name: 'Go', url: '/golang' },
       { name: 'TypeScript', url: '/typescript' },
+      { name: 'Ruby', url: '/ruby' },
+      { name: 'C Programming', url: '/c-programming' },
     ],
   },
   {
@@ -86,6 +89,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Computer Science', url: '/computer-science' },
       { name: 'Competitive Programming', url: '/competitive-programming' },
       { name: 'FinTech', url: '/fintech' },
+      { name: 'Game Development', url: '/game-development' },
     ],
   },
   {
@@ -95,6 +99,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Dev Tools', url: '/devtools' },
       { name: 'Podcasts', url: '/podcasts' },
       { name: 'Other Resources', url: '/other-resources' },
+      { name: 'communities', url: '/communities' },
     ],
   },
 ]

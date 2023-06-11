@@ -32,5 +32,12 @@
         "url": "https://type-scale.com",
         "category": "frontend",
         "subcategory": "fonts"
+    },
+    {
+        "name": "Fontesk",
+        "description": "Curated online font library that contains the best high-quality free fonts to download for commercial and personal use.",
+        "url": "https://fontesk.com/",
+        "category": "frontend",
+        "subcategory": "fonts"
     }
 ]
