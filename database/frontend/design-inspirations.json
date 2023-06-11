@@ -39,7 +39,8 @@
         "url": "https://www.landingfolio.com/",
         "category": "frontend",
         "subcategory": "design-inspiration"
-    },
+     },
+
     {
         "name": "Land-book",
         "description": "Find the best hand-picked website design inspiration.",
@@ -129,14 +130,18 @@
         "name": "Uiverse",
         "description": "this is a completely free website where you can build cool solution with HTML and CSS. there's is also CSS challenge to show off your skills",
         "url": "https://uiverse.io",
+        "category": "frontend"
+        "subcategory": "design-inspiration"
+      },
 
+    {
         "name": "Screenlane",
         "description": "You can find app screens, landing pages, user flow inspirations, and keep up with the latest mobile UI design trends.",
         "url": "https://screenlane.com/",
         "category": "frontend",
-        "subcategory": "design-inspiration" 
-    },
-    {
+        "subcategory": "design-inspiration"
+     },
+     {
         "name": "Design Vault",
         "description": "Design Vault is a website that showcases designs from real products, giving you access to the latest and greatest in UI patterns and trends.",
         "url": "https://designvault.io/",
