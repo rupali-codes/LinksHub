@@ -128,13 +128,13 @@
     {
 
         "name": "Uiverse",
-        "description": "this is a completely free website where you can build cool solution with HTML and CSS. there's is also CSS challenge to show off your skills",
+        "description": "this is a completely free website where you can build cool solution with HTML and CSS. there's is also lots of CSS challenges to show off your skills",
         "url": "https://uiverse.io",
         "category": "frontend"
         "subcategory": "design-inspiration"
       },
 
-    {
+     {
         "name": "Screenlane",
         "description": "You can find app screens, landing pages, user flow inspirations, and keep up with the latest mobile UI design trends.",
         "url": "https://screenlane.com/",
