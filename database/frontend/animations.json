@@ -81,5 +81,12 @@
         "url": "https://nzbin.github.io/three-dots/",
         "category": "frontend",
         "subcategory": "animations"
+    },
+    {
+        "name": "Animista",
+        "description": "Animista is a CSS animation library and a place where you can play with a collection of ready-made CSS animations and download only those you will use.",
+        "url": "https://animista.net/",
+        "category": "frontend",
+        "subcategory": "animations"
     }
 ]
