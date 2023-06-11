@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "Lottie files",
         "description": "LottieFiles takes away the complexity from Motion Design. It lets you Create, Edit, Test, Collaborate and Ship a Lottie in the easiest way possible.",
         "url": "https://lottiefiles.com/",
@@ -21,7 +22,7 @@
     },
     {
         "name": "Proton",
-        "description": "A JavaScript particle based animation engine. Which provides you tones of animated elements.",
+        "description": "A JavaScript particle-based animation engine. Which provides you tones of animated elements.",
         "url": "https://drawcall.github.io/Proton/",
         "category": "frontend",
         "subcategory": "animations"
@@ -35,14 +36,14 @@
     },
     {
         "name": "Spline",
-        "description": "Spline is an easy to use 3D design tool to create interactive animation within the browser.",
+        "description": "Spline is an easy-to-use 3D design tool to create interactive animation within the browser.",
         "url": "https://spline.design/",
         "category": "frontend",
         "subcategory": "animations"
     },
     {
         "name": "Whirl",
-        "description": "It's a tool for generating html + css loading animation.",
+        "description": "It's a tool for generating HTML + CSS loading animation.",
         "url": "https://whirl.netlify.app/",
         "category": "frontend",
         "subcategory": "animations"
@@ -70,14 +71,14 @@
     },
     {
         "name": "Magic Animations",
-        "description": "Using the library’s presets, you can create magical effects such as TwisterInDown, vanish, swap and many more. Similarly, it provides other animation effects like bling, static, and perspective. Overall, the Magic Animations library is a must-try animation library for UI designers.",
+        "description": "Using the libraries presets, you can create magical effects such as TwisterInDown, vanish, swap and many more. Similarly, it provides other animation effects like bling, static, and perspective. Overall, the Magic Animations library is a must-try animation library for UI designers.",
         "url": "https://www.minimamente.com/project/magic/",
         "category": "frontend",
         "subcategory": "animations"
     },
     {
         "name": "Three Dots",
-        "description": "Three Dots is a set of CSS loading animations made with just single element. I hope this project can not only enhance your CSS skills but also inspire your imagination",
+        "description": "Three Dots is a set of CSS loading animations made with just a single element. I hope this project can not only enhance your CSS skills but also inspire your imagination",
         "url": "https://nzbin.github.io/three-dots/",
         "category": "frontend",
         "subcategory": "animations"

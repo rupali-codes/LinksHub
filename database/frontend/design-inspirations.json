@@ -1,4 +1,5 @@
-[ {
+[
+    {
         "name": "Dribbble",
         "description": "Explore the world’s leading design portfolios.",
         "url": "https://dribbble.com",
@@ -35,7 +36,7 @@
     },
     {
         "name": "Landingfolio",
-        "description": "Landingfolio features the best landing page designs, templates, component and more on teh web.",
+        "description": "Landingfolio features the best landing page designs, templates, components and more on the web.",
         "url": "https://www.landingfolio.com/",
         "category": "frontend",
         "subcategory": "design-inspiration"
@@ -49,7 +50,7 @@
     },
     {
         "name": "Lapa Ninja",
-        "description": "Lapa Ninja is a gallery featuring the best 5443 landing page examples, free books for designers and free UI kits from aroun the web.",
+        "description": "Lapa Ninja is a gallery featuring the best 5443 landing page examples, free books for designers and free UI kits from around the web.",
         "url": "https://www.lapa.ninja/",
         "category": "frontend",
         "subcategory": "design-inspiration"
@@ -91,7 +92,7 @@
     },
     {
         "name": "Dope Ui ",
-        "description": "Design templates for dopeass Developers and Designers",
+        "description": "Design templates for dope-ass Developers and Designers",
         "url": "https://dopeui.co/",
         "category": "frontend",
         "subcategory": "design-inspiration"
@@ -105,7 +106,7 @@
     },
     {
         "name": "Webframe",
-        "description": "It is a platform to discover and be inspired by for beautiful webapp designs",
+        "description": "It is a platform to discover and be inspired by beautiful web app designs",
         "url": "https://webframe.xyz/",
         "category": "frontend",
         "subcategory": "design-inspiration"
@@ -129,7 +130,7 @@
         "description": "You can find app screens, landing pages, user flow inspirations, and keep up with the latest mobile UI design trends.",
         "url": "https://screenlane.com/",
         "category": "frontend",
-        "subcategory": "design-inspiration" 
+        "subcategory": "design-inspiration"
     },
     {
         "name": "Design Vault",
@@ -147,7 +148,7 @@
     },
     {
         "name": "Mobbin",
-        "description": "Mobbin is a hand-picked collection of latest design patterns from mobile apps that reflect the best in design.",
+        "description": "Mobbin is a hand-picked collection of the latest design patterns from mobile apps that reflect the best in design.",
         "url": "https://mobbin.com/",
         "category": "frontend",
         "subcategory": "design-inspiration"
@@ -173,5 +174,4 @@
         "category": "frontend",
         "subcategory": "design-inspiration"
     }
-    
 ]

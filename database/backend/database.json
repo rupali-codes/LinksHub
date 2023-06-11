@@ -8,7 +8,7 @@
   },
   {
     "name": "Firebase",
-    "description": "It is a set of backend cloud computing services and application development platform provided by Google. It hosts databases, services, authentication, and integration for a variety of applications, including Android, iOS, JavaScript, Node.js, Java, Unity, PHP, and C++.",
+    "description": "It is a set of backend cloud computing services and application development platforms provided by Google. It hosts databases, services, authentication, and integration for a variety of applications, including Android, iOS, JavaScript, Node.js, Java, Unity, PHP, and C++.",
     "url": "https://firebase.google.com/docs/database",
     "category": "backend",
     "subcategory": "database"
