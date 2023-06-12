@@ -124,5 +124,12 @@
     "url": "https://www.khroma.co/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  {
+    "name": "ColorClaim",
+    "description": "ColorClaim is a color library that helps designers, photographers, and others create beautiful and effective color palettes.",
+    "url": "https://vanschneider.com/colors",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
