@@ -76,6 +76,11 @@ body {
   background: #aaa;
 }
 
+/* Homepage Paragraph equally aligned   */
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+  text-align: justify !important;
+}
+
 
 @media (min-width: 992px) {
   .coming-soon 

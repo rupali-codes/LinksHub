@@ -82,5 +82,47 @@
     "url": "https://www.lifeofpix.com/",
     "category": "frontend",
     "subcategory": "images"
+  },
+  {
+    "name": "Free Photos",
+    "description": "FreePhotos.cc is a user-friendly website offering a vast collection of high-quality, royalty-free images for personal and commercial use.",
+    "url": "https://freephotos.cc/en",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Moose",
+    "description": "Moose Photos is a comprehensive online platform offering a vast collection of high-quality royalty-free photos for various creative projects.",
+    "url": " https://icons8.com/photos",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Burst",
+    "description": "Burst is a user-friendly website offering a vast collection of high-quality, royalty-free images for personal and commercial use.",
+    "url": "https://burst.shopify.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Barn Images",
+    "description": "Barnimages.com offers a stunning collection of high-quality, royalty-free photographs capturing the rustic charm and natural beauty of rural settings.",
+    "url": "https://barnimages.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Vecteezy",
+    "description": "Vecteezy.com is a website offering a vast collection of free vector graphics and illustrations for creative projects.",
+    "url": " https://www.vecteezy.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Pikwizard",
+    "description": "Pikwizard is a website that provides a vast collection of high-quality, free stock photos for personal and commercial use.",
+    "url": "  https://pikwizard.com/",
+    "category": "frontend",
+    "subcategory": "images"
   }
 ]
