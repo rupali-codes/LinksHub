@@ -4,6 +4,14 @@
         "description": "Free online course for learning react js",
         "url": "https://scrimba.com/learn/learnreact#",
         "category": "frontend",
+        "subcategory": "react",
+        "language": "english"
+    },
+    {
+        "name": "30 days of React",
+        "description": "a very nice repository and a challenge at the same time to learn ReactJS",
+        "url": "https://github.com/Asabeneh/30-Days-Of-React",
+        "category": "frontend",
         "subcategory": "react"
     },
     {

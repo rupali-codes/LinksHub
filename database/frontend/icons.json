@@ -131,5 +131,47 @@
     "url": "https://animated-fluent-emoji.vercel.app/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Icon Finder",
+    "description": "Icon finder is a robust platform designed to facilitate the discovery and integration of icons, illustrations, and stickers into your project.",
+    "url": "https://www.iconfinder.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Vertex",
+    "description": "The Vertex website offers a collection of freely available 3D icons that can be fully customized and used for free.",
+    "url": "https://vertex.im/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "3dicons",
+    "description": "It provides a collection of free, beautiful and trending 3D icons that you can use in your projects.",
+    "url": "https://3dicons.co/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "CSS Icons",
+    "description": "CSS.gg is a website that offers a collection of minimalistic, customizable, and open-source CSS icons for web design.",
+    "url": " https://css.gg/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Feather Icons",
+    "description": "Feather Icons is a website offering a collection of beautifully designed, open-source icons for web and mobile applications.",
+    "url": " https://feathericons.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Icon Hub",
+    "description": "IconHub.io is a website offering a diverse collection of high-quality icons for all your design needs.",
+    "url": "https://iconhub.io/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]

@@ -103,5 +103,12 @@
     "url": "https://freesvgillustration.com/",
     "category": "frontend",
     "subcategory": "illustrations"
+  },
+  {
+    "name": "Awesome Illustrations 4 Projects",
+    "description": "Indulge in the enchanting world of over 250 illustrations sourced from 50+ carefully curated websites, especially sorted into four categories, and conveniently accompanied by quick previews.",
+    "url": "https://github.com/Anmol-Baranwal/Awesome-Illustrations-4Projects",
+    "category": "frontend",
+    "subcategory": "illustrations"
   }
 ]

@@ -1,4 +1,5 @@
-[{
+[
+  {
     "name": "FreeCodeCamp",
     "description": "This channel provides free multi programming language courses for Web-dev, android and more.",
     "url": "https://www.youtube.com/watch?v=fis26HvvDII",
@@ -15,10 +16,19 @@
     "language": "english"
 },
 {
+    "name": "Android Development Tutorial for Beginners",
+    "description": "This playlist is a beginner friendly course to get you started with android development.",
+    "url": "https://www.youtube.com/playlist?list=PLUcsbZa0qzu3Mri2tL1FzZy-5SX75UJfb",
+    "category": "youtube",
+    "subcategory": "android",
+    "language": "hindi"
+  },
+  {
     "name": "Android App Development course in 2023 | Saumya Singh",
     "description": "This is a comprehensive Android tutorial playlist, designed to take you from a beginner to a proficient Android developer. With step-by-step instructions, this curated collection covers everything from setting up your development environment to advanced topics like networking, testing, and debugging.",
     "url": "https://www.youtube.com/watch?v=BePWJavW_w4&list=PLTV_nsuD2lf4UCTV6xwvNPvFdmCNKyhc8&pp=iAQB",
     "category": "youtube",
     "subcategory": "android",
     "language": "hindi"
-}]
+  }
+]
