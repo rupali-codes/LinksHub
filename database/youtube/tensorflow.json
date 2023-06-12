@@ -14,5 +14,13 @@
         "category": "youtube",
         "subcategory": "tensorflow",
         "language": "english"
+    },
+    {
+        "name": "Codebasics",
+        "description": "A complete playlist for learning Tensorflow.",
+        "url": "https://youtu.be/Mubj_fqiAv8",
+        "category": "youtube",
+        "subcategory": "tensorflow",
+        "language": "english"
     }
 ]
