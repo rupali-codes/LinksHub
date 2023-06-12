@@ -61,5 +61,12 @@
     "url": "https://learn-js.org/",
     "category": "languages",
     "subcategory": "javascript"
+  },
+  {
+    "name": "JavaScript30",
+    "description": "JavaScript30 is an online educational platform that offers a free 30-day JavaScript coding challenge.",
+    "url": "https://javascript30.com/",
+    "category": "languages",
+    "subcategory": "javascript"
   }
 ]

@@ -79,6 +79,7 @@ export type SubCategory =
   | 'open-source-blogs'
   | 'open-source-projects'
   | 'open-source-tools'
+  | 'officialdocs'
   | 'fintech'
 export type SubCategories = {
   name: string

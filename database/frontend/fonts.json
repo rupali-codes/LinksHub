@@ -40,5 +40,12 @@
     "url": "https://fontesk.com/",
     "category": "frontend",
     "subcategory": "fonts"
+  },
+  {
+    "name": "Fontshare",
+    "description": "Fontshare is a website that offers a wide selection of high-quality, free fonts for personal and commercial use.",
+    "url": "https://www.fontshare.com/",
+    "category": "frontend",
+    "subcategory": "fonts"
   }
 ]
