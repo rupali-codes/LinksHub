@@ -109,7 +109,7 @@ You can see the live demo at: https://linkshub.vercel.app
 9. Commit your changes
 
    ```sh
-   git commit -m <your-commit-message>
+   git commit -m "<your-commit-message>"
    ```
 
 10. Push your changes into your branch
