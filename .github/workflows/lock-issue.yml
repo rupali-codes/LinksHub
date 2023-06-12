@@ -19,4 +19,4 @@ jobs:
           exclude-issue-labels: '🚀 ready'
           skip-closed-issue-comment: true
           issue-comment: >
-            To reduce notifications, issues are locked. Your issue will be unlocked when we will add label as `🚀 ready`.
+            To reduce notifications, issues are locked. Your issue will be unlocked when we add the label, `🚀 ready`.
