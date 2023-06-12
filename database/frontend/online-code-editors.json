@@ -22,14 +22,21 @@
   },
   {
     "name": "OnlineGDB",
-    "description": "Another online platform for testing codes written in HTML, CSS and JavaScript.",
-    "url": "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
+    "description": "OnlineGDB is an online integrated development environment (IDE) that provides a convenient platform for coding and testing HTML, CSS, and JavaScript.",
+    "url": "https://www.onlinegdb.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "StackEdit",
+    "description": "StackEdit is a user-friendly online Markdown editor with real-time collaboration and cloud storage integration, making writing and editing documents effortless and accessible from anywhere.",
+    "url": "https://stackedit.io/",
     "category": "frontend",
     "subcategory": "online-code-editors"
   },
   {
     "name": "Sololearn",
-    "description": "It's multi-language online code editor test and share your code snippets.",
+    "description": "It's multi-language online code editor where you can test and share your code snippets.",
     "url": "https://sololearn.com/compiler-playground/cVRUy2BwauK8",
     "category": "frontend",
     "subcategory": "online-code-editors"
@@ -80,6 +87,21 @@
     "name": "LeetCode",
     "description": "LeetCode is the best platform to help you enhance your programming skills, expand your knowledge.",
     "url": "https://leetcode.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Programiz",
+    "description": "Learn to program with our beginner-friendly tutorials and examples. Read tutorials, try examples, write code, and learn to program.",
+    "url": "https://www.programiz.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+
+    "name": "codewars",
+    "description": "Codewars is an online platform that offers coding challenges suitable for individuals with diverse programming proficiency levels.",
+    "url": "https://www.codewars.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
   }

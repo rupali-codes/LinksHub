@@ -76,6 +76,11 @@ body {
   background: #aaa;
 }
 
+/* Homepage Paragraph equally aligned   */
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+  text-align: justify !important;
+}
+
 
 @media (min-width: 992px) {
   .coming-soon 
@@ -93,4 +98,66 @@ body {
   top:150px;
   position: relative;
 }
+}
+/* setting root value for main scrollbar */
+:root{
+  --scroll-thumb:#bbb;
+  --scroll-thumb-hover:#aaa;
+  --scroll-track:#f3f4f6;
+}
+
+[data-theme="dark"] {
+  --scroll-thumb:#202c46;
+  --scroll-thumb-hover:#304269;
+  --scroll-track:#101623;
+}
+
+/* for the main website scrollbar */
+
+/* Webkit Browsers */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scroll-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scroll-thumb-hover);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) var(--scroll-track);
+}
+
+/* Microsoft Edge and IE */
+*::-ms-scrollbar {
+  width: 10px;
+}
+
+*::-ms-scrollbar-track {
+  background: var(--scroll-track);
+}
+
+*::-ms-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 25px;
+}
+
+*::-ms-scrollbar-thumb:hover {
+  background: var(--scroll-thumb-hover);
+}
+
+/* Standard Scrollbar (Chrome, Opera, Edge, and IE) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) var(--scroll-track);
 }

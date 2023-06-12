@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "Google Fonts",
         "description": "The No. 1 resource for free and easy-to-use webfonts by Google. It has a huge library of fonts. ",
         "url": "https://fonts.google.com/",
@@ -30,6 +31,20 @@
         "name": "Type Scale",
         "description": "A tool to create visual type scales - sets of font sizes that follow good-looking proportions.",
         "url": "https://type-scale.com",
+        "category": "frontend",
+        "subcategory": "fonts"
+    },
+    {
+        "name": "Fontesk",
+        "description": "Curated online font library that contains the best high-quality free fonts to download for commercial and personal use.",
+        "url": "https://fontesk.com/",
+        "category": "frontend",
+        "subcategory": "fonts"
+    },
+    {
+        "name": "Fontshare",
+        "description": "Fontshare is a website that offers a wide selection of high-quality, free fonts for personal and commercial use.",
+        "url": "https://www.fontshare.com/",
         "category": "frontend",
         "subcategory": "fonts"
     }

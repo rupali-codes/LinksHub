@@ -159,7 +159,7 @@
     "subcategory": "web-development",
     "language": "english"
   },
-    {
+  {
     "name": "Apna College",
     "description": "Apna College is a popular YouTube channel dedicated to providing valuable content and resources to college students. The channel aims to support students in navigating various aspects of college life, including academics, career development, personal growth, and student well-being.",
     "url": "https://www.youtube.com/@ApnaCollegeOfficial",
@@ -167,7 +167,7 @@
     "subcategory": "web-development",
     "language": "hindi"
   },
-    {
+  {
     "name": "Codedamn",
     "description": "Codedamn is a popular YouTube channel that focuses on teaching programming and web development. The channel is known for its concise and easy-to-follow tutorials, making it a valuable resource for beginners and experienced coders alike. Whether you're interested in learning HTML, CSS, JavaScript, or diving into frameworks like React or Angular, Codedamn offers a wide range of video lessons to cater to different skill levels.",
     "url": "https://www.youtube.com/@codedamn",
@@ -182,5 +182,69 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "hindi"
+  },
+  {
+    "name": "PedroTechnologies",
+    "description": "Welcome to PedroTechnologies' captivating world of Web Development! Explore a treasure trove of educational videos covering ReactJS, NodeJS, MySQL, Express, MongoDB, GraphQL, and more!",
+    "url": "https://www.youtube.com/@PedroTechnologies",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Codevolution",
+    "description": "Codevolution is a YouTube channel dedicated to providing comprehensive tutorials and resources for learning programming and web development.",
+    "url": " https://www.youtube.com/@Codevolution/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Easy Tutorials",
+    "description": "EasyTutorialsVideo offers a wide range of informative and user-friendly tutorials on Web Development, making learning easy and accessible for all.",
+    "url": " https://www.youtube.com/@EasyTutorialsVideo/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Coding Nepal",
+    "description": "This channel offers engaging tutorials and resources for web enthusiasts, helping them master web development skills.",
+    "url": "https://www.youtube.com/@CodingNepal/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Mr.Web Designer",
+    "description": "This channel features videos on web design and development tutorials by Anas, offering valuable insights and guidance for aspiring designers.",
+    "url": " https://www.youtube.com/@MrWebDesignerAnas/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "CodingLab",
+    "description": "This channel offers engaging web development tutorials and projects for beginners and experienced programmers alike.",
+    "url": " https://www.youtube.com/@CodingLabYT/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "dotWebdesigns",
+    "description": "dotWebdesigns is a YouTube channel dedicated to showcasing innovative web design concepts and tutorials for aspiring designers.",
+    "url": " https://www.youtube.com/@dotWebdesigns/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "CodeWithSadee",
+    "description": "This YouTube channel features informative and engaging Web development tutorials for all skill levels.",
+    "url": "https://www.youtube.com/@codewithsadee/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
   }
 ]

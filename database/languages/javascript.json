@@ -49,9 +49,23 @@
         "subcategory": "javascript"
     },
     {
+        "name": "Learn JavaScript Programming",
+        "description": "Javascript tutorial by Programiz.",
+        "url": "https://www.programiz.com/javascript",
+        "category": "languages",
+        "subcategory": "javascript"
+    },
+    {
         "name": "Learn Js",
         "description": "This website provides interactive tutorials for anyone who wishes to learn the JavaScript programming language, whether they are an experienced programmer or not.",
         "url": "https://learn-js.org/",
+        "category": "languages",
+        "subcategory": "javascript"
+    },
+    {
+        "name": "JavaScript30",
+        "description": "JavaScript30 is an online educational platform that offers a free 30-day JavaScript coding challenge.",
+        "url": "https://javascript30.com/",
         "category": "languages",
         "subcategory": "javascript"
     }
