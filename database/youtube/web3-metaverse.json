@@ -62,5 +62,21 @@
     "category": "youtube",
     "subcategory": "web3-metaverse",
     "language": "english"
+  },
+  {
+    "name": "Alchemy",
+    "description": "This channel is a great resource for anyone who wants to learn more about blockchain, cryptocurrency, and DeFi.",
+    "url": " https://www.youtube.com/@AlchemyPlatform/",
+    "category": "youtube",
+    "subcategory": "web3-metaverse",
+    "language": "english"
+  },
+  {
+    "name": "Dualat Hussain",
+    "description": "This channel provides web3 projects, guidance, and a roadmap to help you become a web3 developer.",
+    "url": " https://www.youtube.com/@daulathussain/",
+    "category": "youtube",
+    "subcategory": "web3-metaverse",
+    "language": "english"
   }
 ]

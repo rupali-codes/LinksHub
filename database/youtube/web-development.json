@@ -190,5 +190,61 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
+  },
+  {
+    "name": "Codevolution",
+    "description": "Codevolution is a YouTube channel dedicated to providing comprehensive tutorials and resources for learning programming and web development.",
+    "url": " https://www.youtube.com/@Codevolution/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Easy Tutorials",
+    "description": "EasyTutorialsVideo offers a wide range of informative and user-friendly tutorials on Web Development, making learning easy and accessible for all.",
+    "url": " https://www.youtube.com/@EasyTutorialsVideo/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Coding Nepal",
+    "description": "This channel offers engaging tutorials and resources for web enthusiasts, helping them master web development skills.",
+    "url": "https://www.youtube.com/@CodingNepal/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Mr.Web Designer",
+    "description": "This channel features videos on web design and development tutorials by Anas, offering valuable insights and guidance for aspiring designers.",
+    "url": " https://www.youtube.com/@MrWebDesignerAnas/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "CodingLab",
+    "description": "This channel offers engaging web development tutorials and projects for beginners and experienced programmers alike.",
+    "url": " https://www.youtube.com/@CodingLabYT/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "dotWebdesigns",
+    "description": "dotWebdesigns is a YouTube channel dedicated to showcasing innovative web design concepts and tutorials for aspiring designers.",
+    "url": " https://www.youtube.com/@dotWebdesigns/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "CodeWithSadee",
+    "description": "This YouTube channel features informative and engaging Web development tutorials for all skill levels.",
+    "url": "https://www.youtube.com/@codewithsadee/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
   }
 ]
