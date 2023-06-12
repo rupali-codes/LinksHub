@@ -133,6 +133,27 @@
     "subcategory": "ui-generators"
   },
   {
+    "name": "Keyframes.app",
+    "description": "This site contains browser-based, mobile-friendly,and private tools that make CSS a little less bad.",
+    "url": "https://keyframes.app/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
+    "name": "Animated Backgrounds",
+    "description": "This site offers a wide range of styles and colors to choose from. You'll find the perfect background to match your brand and message.",
+    "url": "https://animatedbackgrounds.me/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
+    "name": "Charts.css",
+    "description": "This is a modern CSS framework. It uses CSS utility classes to style HTML elements as charts.",
+    "url": "https://chartscss.org/",
+     "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
     "name": "Glassmorphism CSS Generator",
     "description": "Glassmorphism is a new design technique which is primarely based on the blurry effect of an element and a background.",
     "url": "https://ui.glass/generator/",
