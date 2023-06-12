@@ -159,6 +159,5 @@ LinksHub is licensed under the terms of the MIT License. check out [LICENSE](htt
 
 ## Support ⭐
 
-_We would love to have you, feel free to open issues and pull requests and Don't forget to leave a star⭐_
 
 _We would be thrilled to have you contribute to LinksHub! Your support, whether through opening issues, submitting pull requests, or even just leaving a star, means a lot to us. Together, we can continue to improve and expand this resource hub for developers worldwide._
