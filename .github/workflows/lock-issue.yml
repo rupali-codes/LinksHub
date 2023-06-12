@@ -1,0 +1,22 @@
+name: 'Issue Lockdown'
+
+on:
+  issues:
+    types: opened
+
+permissions:
+  issues: write
+
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dessant/repo-lockdown@v3 # Reference: https://github.com/dessant/repo-lockdown
+        with:
+          close-issue: false
+          process-only: 'issues'
+          issue-labels: '🔒 locked'
+          exclude-issue-labels: '🚀 ready'
+          skip-closed-issue-comment: true
+          issue-comment: >
+            To reduce notifications, issues are locked. Your issue will be unlocked when we will add label as `🚀 ready`.
