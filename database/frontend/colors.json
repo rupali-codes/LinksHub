@@ -127,7 +127,7 @@
   },
   {
     "name": "ColorClaim",
-    "description": "ColorClaim is a color library that helps designers, photographers, and others create beautiful and effective color palettes.",
+    "description": "ColorClaim is a library of colors that helps developers, designers, photographers, and others to create beautiful and effective color palettes.",
     "url": "https://vanschneider.com/colors",
     "category": "frontend",
     "subcategory": "colors"
