@@ -1,15 +1,18 @@
-import { FC } from "react";
-import { IconContext } from "react-icons";
-import { FaDiscord, FaGithub, FaTwitter } from "react-icons/fa";
-import { GitHubForkButton } from "components/ForkButton/GitHubForkButton";
-
+import { FC } from 'react'
+import { IconContext } from 'react-icons'
+import { FaDiscord, FaGithub, FaTwitter } from 'react-icons/fa'
+import { GitHubForkButton } from 'components/ForkButton/GitHubForkButton'
+import { GitHubStarButton } from 'components/StarButton/GitHubStarButton'
 export const SocialMediaIconsList: FC<{ className?: string }> = (props) => {
-  const { className } = props;
+  const { className } = props
 
   return (
     <ul className={`flex items-center gap-6 ${className}`}>
       <li className="mr-2 hidden md:block">
         <GitHubForkButton repo="rupali-codes/LinksHub" />
+      </li>
+      <li className="mr-2 hidden md:block">
+        <GitHubStarButton repo="rupali-codes/LinksHub" />
       </li>
       <li>
         <a
@@ -21,7 +24,7 @@ export const SocialMediaIconsList: FC<{ className?: string }> = (props) => {
           aria-label="Visit us on Discord"
         >
           <IconContext.Provider
-            value={{ className: "shared-class", size: "24" }}
+            value={{ className: 'shared-class', size: '24' }}
           >
             <FaDiscord className="hover:text-violet-500 transition duration-300 ease-in-out " />
           </IconContext.Provider>
@@ -37,7 +40,7 @@ export const SocialMediaIconsList: FC<{ className?: string }> = (props) => {
           aria-label="Visit us on Github"
         >
           <IconContext.Provider
-            value={{ className: "shared-class", size: "24" }}
+            value={{ className: 'shared-class', size: '24' }}
           >
             <FaGithub className="hover:text-violet-500 transition duration-300 ease-in-out" />
           </IconContext.Provider>
@@ -53,12 +56,12 @@ export const SocialMediaIconsList: FC<{ className?: string }> = (props) => {
           aria-label="Visit us on Twitter"
         >
           <IconContext.Provider
-            value={{ className: "shared-class", size: "24" }}
+            value={{ className: 'shared-class', size: '24' }}
           >
             <FaTwitter className="hover:text-violet-500 transition duration-300 ease-in-out" />
           </IconContext.Provider>
         </a>
       </li>
     </ul>
-  );
-};
+  )
+}
