@@ -1,28 +1,28 @@
-import { FC, useState } from 'react';
-import { FaAngleDown } from 'react-icons/fa';
-import { SideNavbarElement } from './SideNavbarElement';
-import type { ISidebar, Category } from '../../types';
+import { FC, useState } from 'react'
+import { FaAngleDown } from 'react-icons/fa'
+import { SideNavbarElement } from './SideNavbarElement'
+import type { ISidebar, Category } from '../../types'
 
 export const SideNavbarCategory: FC<{
-  item: ISidebar;
-  handleToggle: (category: Category, isOpen: boolean) => void;
-  isOpen: boolean;
+  item: ISidebar
+  handleToggle: (category: Category, isOpen: boolean) => void
+  isOpen: boolean
 }> = (props) => {
-  const { item, isOpen } = props;
-  const [isExpanded, setExpanded] = useState(false);
+  const { item, isOpen } = props
+  const [isExpanded, setExpanded] = useState(false)
 
   const handleToggle = () => {
-    props.handleToggle(item.category, isOpen);
-    setExpanded(!isExpanded);
-  };
+    props.handleToggle(item.category, isOpen)
+    setExpanded(!isExpanded)
+  }
 
   const subcategoryList = item.subcategory
-    .sort((a, b) => a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1)
+    .sort((a, b) => (a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1))
     .map((list, i) => (
       <li className="-ml-0.5" key={i}>
         <SideNavbarElement {...list} />
       </li>
-    ));
+    ))
 
   return (
     <li className="relative w-full transition-all ease-in-out text-violet-600 dark:text-violet-400 dark:bg-opacity-5 hover:text-violet-500 dark:hover:text-violet-300 rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-violet-400">
@@ -47,5 +47,5 @@ export const SideNavbarCategory: FC<{
         </ul>
       </div>
     </li>
-  );
-};
+  )
+}

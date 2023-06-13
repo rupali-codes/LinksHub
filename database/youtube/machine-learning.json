@@ -1,66 +1,66 @@
 [
-    {
-        "name": "Two Minute Papers",
-        "description": "These research papers discuss Artificial Intelligence and Machine Learning in an engaging and detailed manner. What a Time to be Alive!",
-        "url": "https://www.youtube.com/@TwoMinutePapers",
-        "category": "youtube",
-        "subcategory": "machine-learning",
-        "language": "english"
-    },
-    {
-        "name": "5 Minutes Engineering",
-        "description": "This channel offers lectures on Machine Learning from basic to advanced with real world scenarios.",
-        "url": "https://youtube.com/playlist?list=PLYwpaL_SFmcBhOEPwf5cFwqo5B-cP9G4P",
-        "category": "youtube",
-        "subcategory": "machine-learning",
-        "language": "hindi"
-    },
-    {
-        "name": "3Blue1Brown",
-        "description": "3Blue1Brown, by Grant Sanderson, is a combination of math and entertainment, depending on your disposition. The goal is for difficult problems to be made simple with changes in perspective.",
-        "url": "https://www.youtube.com/@3blue1brown",
-        "category": "youtube",
-        "subcategory": "machine-learning",
-        "language": "english"
-    },
-    {
-        "name": "Krish Naik",
-        "description": "This channel provides videos on Machine Learning, Deep Learning, and Artificial Intelligence with real-world problems.",
-        "url": "https://www.youtube.com/user/krishnaik06",
-        "category": "youtube",
-        "subcategory": "machine-learning",
-        "language": "english"
-    },
-    {
-        "name": "Google",
-        "description": "Free online course provided by Google to learn Machine Learning and it's implementations",
-        "url": "https://developers.google.com/machine-learning",
-        "category": "online platform",
-        "subcategory": "machine-learning",
-        "language": "english"
-    },
-    {
-        "name": "FreeCodeCamp",
-        "description": "Here, you will learn the basics of Machine Learning and how to use TensorFlow in different scenarios.",
-        "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg&t=769s&ab_channel=freeCodeCamp.org",
-        "category": "youtube",
-        "subcategory": "machine-learning",
-        "language": "english"
-    },
-    {
-        "name": "DeepLearningAI",
-        "description": "Access the lectures of Andrew Ng on Deep Learning and Machine Learning",
-        "url": "https://www.youtube.com/c/Deeplearningai",
-        "category": "youtube",
-        "subcategory": "machine-learning",
-        "language": "english"
-    },
-    {
-        "name":"Rob Mulla",
-        "description": "Medallion Data Science is a channel devoted to growing a community of people interested in learning machine learning, data science,and coding in Python. They also provide streaming live coding sessions on [Twitch](https://www.twitch.tv/)",
-        "url":"https://www.youtube.com/@robmulla",
-        "category":"youtube",
-        "subcategory":"machine-learning",
-        "language":"english" 
-    }
+  {
+    "name": "Two Minute Papers",
+    "description": "These research papers discuss Artificial Intelligence and Machine Learning in an engaging and detailed manner. What a Time to be Alive!",
+    "url": "https://www.youtube.com/@TwoMinutePapers",
+    "category": "youtube",
+    "subcategory": "machine-learning",
+    "language": "english"
+  },
+  {
+    "name": "5 Minutes Engineering",
+    "description": "This channel offers lectures on Machine Learning from basic to advanced with real world scenarios.",
+    "url": "https://youtube.com/playlist?list=PLYwpaL_SFmcBhOEPwf5cFwqo5B-cP9G4P",
+    "category": "youtube",
+    "subcategory": "machine-learning",
+    "language": "hindi"
+  },
+  {
+    "name": "3Blue1Brown",
+    "description": "3Blue1Brown, by Grant Sanderson, is a combination of math and entertainment, depending on your disposition. The goal is for difficult problems to be made simple with changes in perspective.",
+    "url": "https://www.youtube.com/@3blue1brown",
+    "category": "youtube",
+    "subcategory": "machine-learning",
+    "language": "english"
+  },
+  {
+    "name": "Krish Naik",
+    "description": "This channel provides videos on Machine Learning, Deep Learning, and Artificial Intelligence with real-world problems.",
+    "url": "https://www.youtube.com/user/krishnaik06",
+    "category": "youtube",
+    "subcategory": "machine-learning",
+    "language": "english"
+  },
+  {
+    "name": "Google",
+    "description": "Free online course provided by Google to learn Machine Learning and it's implementations",
+    "url": "https://developers.google.com/machine-learning",
+    "category": "online platform",
+    "subcategory": "machine-learning",
+    "language": "english"
+  },
+  {
+    "name": "FreeCodeCamp",
+    "description": "Here, you will learn the basics of Machine Learning and how to use TensorFlow in different scenarios.",
+    "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg&t=769s&ab_channel=freeCodeCamp.org",
+    "category": "youtube",
+    "subcategory": "machine-learning",
+    "language": "english"
+  },
+  {
+    "name": "DeepLearningAI",
+    "description": "Access the lectures of Andrew Ng on Deep Learning and Machine Learning",
+    "url": "https://www.youtube.com/c/Deeplearningai",
+    "category": "youtube",
+    "subcategory": "machine-learning",
+    "language": "english"
+  },
+  {
+    "name": "Rob Mulla",
+    "description": "Medallion Data Science is a channel devoted to growing a community of people interested in learning machine learning, data science,and coding in Python. They also provide streaming live coding sessions on [Twitch](https://www.twitch.tv/)",
+    "url": "https://www.youtube.com/@robmulla",
+    "category": "youtube",
+    "subcategory": "machine-learning",
+    "language": "english"
+  }
 ]
