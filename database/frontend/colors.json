@@ -124,5 +124,12 @@
     "url": "https://vanschneider.com/colors",
     "category": "frontend",
     "subcategory": "colors"
+  },
+   {
+    "name": "Muzli Colors",
+    "description": "This is a vibrant hub for endless inspiration, showcasing curated color palettes for your creative projects. Explore, discover, and elevate your projects with ease.",
+    "url": "https://colors.muz.li/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
