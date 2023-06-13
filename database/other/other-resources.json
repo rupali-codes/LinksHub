@@ -19,5 +19,12 @@
         "url": "https://roadmap.sh/",
         "category": "other",
         "subcategory": "other-resources"
+    },
+    {
+        "name": "Every Programmer Should Know",
+        "description": "A collection of (mostly) technical things every software developer should know about.",
+        "url": "https://github.com/mtdvio/every-programmer-should-know",
+        "category": "other",
+        "subcategory": "other-resources"
     }
 ]
