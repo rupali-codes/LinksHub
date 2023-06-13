@@ -76,35 +76,49 @@ body {
   background: #aaa;
 }
 
+/* Homepage Paragraph equally aligned   */
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  text-align: justify !important;
+}
 
 @media (min-width: 992px) {
-  .coming-soon 
-{
-  text-align: center;
-  top:220px;
-  position: relative;
-}
+  .coming-soon {
+    text-align: center;
+    top: 220px;
+    position: relative;
+  }
 }
 
 @media (max-width: 800px) {
-  .coming-soon 
-{
-  text-align: center;
-  top:150px;
-  position: relative;
-}
+  .coming-soon {
+    text-align: center;
+    top: 150px;
+    position: relative;
+  }
 }
 /* setting root value for main scrollbar */
-:root{
-  --scroll-thumb:#bbb;
-  --scroll-thumb-hover:#aaa;
-  --scroll-track:#f3f4f6;
+:root {
+  --scroll-thumb: #bbb;
+  --scroll-thumb-hover: #aaa;
+  --scroll-track: #f3f4f6;
 }
 
-[data-theme="dark"] {
-  --scroll-thumb:#202c46;
-  --scroll-thumb-hover:#304269;
-  --scroll-track:#101623;
+[data-theme='dark'] {
+  --scroll-thumb: #202c46;
+  --scroll-thumb-hover: #304269;
+  --scroll-track: #101623;
 }
 
 /* for the main website scrollbar */
