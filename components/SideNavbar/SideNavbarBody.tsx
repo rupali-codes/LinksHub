@@ -23,7 +23,7 @@ export const SideNavbarBody: FC<{}> = () => {
       <SideNavbarCategoryList
         items={searchResults}
         isSearching={debouncedSearch.length > 0}
-        openByDefault={'frontend'}
+        openByDefault={''}
       />
     </div>
   )
