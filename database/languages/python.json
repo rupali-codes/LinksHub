@@ -29,7 +29,7 @@
     },
     {
         "name": "Real Python Tutorial",
-        "description": "Learn Python through Real Hands on experience. Learn Web development using Python, Data Science, Machine learning through well explained projects",
+        "description": "Learn Web development using Python, Data Science, Machine learning through well explained projects.",
         "url": "https://realpython.com/",
         "category": "languages",
         "subcategory": "python"
