@@ -1,7 +1,7 @@
 [ {
-        "name": "Dribble" ,
+        "name": "Dribble",
         "description": "Explore the world’s leading design portfolios.",
-        "url": "https://dribbble.com",
+        "url": "https://dribble.com",
         "category": "frontend",
         "subcategory": "design-inspiration"
     },
