@@ -150,7 +150,7 @@
     "name": "Charts.css",
     "description": "This is a modern CSS framework. It uses CSS utility classes to style HTML elements as charts.",
     "url": "https://chartscss.org/",
-     "category": "frontend",
+    "category": "frontend",
     "subcategory": "ui-generators"
   },
   {
