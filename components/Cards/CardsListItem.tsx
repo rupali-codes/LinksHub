@@ -1,9 +1,9 @@
-import { FC } from "react";
-import Card from "./Card";
-import type { IData } from "types";
+import { FC } from 'react'
+import Card from './Card'
+import type { IData } from 'types'
 
-const CardsListItem: FC<{ data: IData, onClick: () => void }> = (props) => {
-  const { data, onClick } = props;
+const CardsListItem: FC<{ data: IData; onClick: () => void }> = (props) => {
+  const { data, onClick } = props
 
   return (
     <li 
@@ -15,4 +15,4 @@ const CardsListItem: FC<{ data: IData, onClick: () => void }> = (props) => {
   )
 }
 
-export default CardsListItem;
+export default CardsListItem

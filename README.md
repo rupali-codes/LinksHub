@@ -4,17 +4,17 @@
 
 ## Table of Contents
 
-  - [Welcome to LinksHub 👋](#welcome-to-linkshub-)
-  - [Demo 💻](#demo-)
-  - [Tech stack 📚](#tech-stack-)
-  - [Socials 📱](#socials-)
-  - [Getting Started 👩‍💻](#getting-started-)
-  - [Let's jump right in🌟](#lets-jump-right-in)
-  - [_Want to add your favorite links into the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
-  - [Building with Gitpod 💣](#building-with-gitpod-)
-  - [Our Contributors ✨](#our-contributors-)
-  - [License 📝](#license-)
-  - [Support ⭐](#support-)
+- [Welcome to LinksHub 👋](#welcome-to-linkshub-)
+- [Demo 💻](#demo-)
+- [Tech stack 📚](#tech-stack-)
+- [Socials 📱](#socials-)
+- [Getting Started 👩‍💻](#getting-started-)
+- [Let's jump right in🌟](#lets-jump-right-in)
+- [_Want to add your favorite links into the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
+- [Building with Gitpod 💣](#building-with-gitpod-)
+- [Our Contributors ✨](#our-contributors-)
+- [License 📝](#license-)
+- [Support ⭐](#support-)
 
 <a name="welcome-to-linkshub"></a>
 
@@ -50,9 +50,8 @@ You can see the live demo at: https://linkshub.vercel.app
 
 ## Socials 📱
 
-* [Join LinksHub community on Discord](https://discord.com/invite/NvK67YnJX5) 
-* [Tag us on Twitter](https://twitter.com/the_linkshub)
-
+- [Join LinksHub community on Discord](https://discord.com/invite/NvK67YnJX5)
+- [Tag us on Twitter](https://twitter.com/the_linkshub)
 
 ---
 
@@ -110,7 +109,7 @@ You can see the live demo at: https://linkshub.vercel.app
 9. Commit your changes
 
    ```sh
-   git commit -m <your-commit-message>
+   git commit -m "<your-commit-message>"
    ```
 
 10. Push your changes into your branch
@@ -140,13 +139,15 @@ and the website will be built in one single click. No extra setup is required.
 
 <a name="our-contributors"></a>
 
-## Our Contributors ✨
+## Top 50 Contributors ✨
 
 We would like to express our sincere gratitude to all the contributors who have helped make LinksHub an invaluable resource for developers. Without your contributions, this project wouldn't have been possible. Thank you so much for your time, efforts, and dedication.
 
 <a href="https://github.com/rupali-codes/LinksHub/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=rupali-codes/LinksHub" />
+  <img src="https://contrib.rocks/image?max=50&repo=rupali-codes/LinksHub" />
 </a>
+
+_View the list of all contributors [here](https://github.com/rupali-codes/LinksHub/graphs/contributors)._
 
 <a name="license"></a>
 

@@ -1,4 +1,4 @@
-import { FC,useState, useRef, useEffect } from 'react'
+import { FC, useState, useRef, useEffect } from 'react'
 import { BsBoxArrowUpRight } from 'react-icons/bs'
 import { CopyToClipboard } from 'components/CopyToClipboard'
 import type { IData } from 'types'
@@ -6,10 +6,13 @@ import type { IData } from 'types'
 const Card: FC<{ data: IData }> = (props) => {
   const { data } = props
   const { name, description, url } = data
-  const descriptionRef = useRef(document.createElement("p"));
-  const [isOverflow, setIsOverflow] = useState(false);
-  useEffect (() => {
-    setIsOverflow(descriptionRef.current?.scrollHeight > descriptionRef.current?.offsetHeight);
+  const descriptionRef = useRef(document.createElement('p'))
+  const [isOverflow, setIsOverflow] = useState(false)
+  useEffect(() => {
+    setIsOverflow(
+      descriptionRef.current?.scrollHeight >
+        descriptionRef.current?.offsetHeight
+    )
   }, [])
 
   return (
@@ -17,7 +20,7 @@ const Card: FC<{ data: IData }> = (props) => {
       <div className="card-body">
         <header className="flex justify-between items-center">
           <h2
-            className="cursor-default truncate ... text-xl text-violet-600 dark:text-violet-400"
+            className="cursor-default md:truncate ... text-xl text-violet-600 dark:text-violet-400"
             title={name}
           >
             {name}
@@ -25,18 +28,24 @@ const Card: FC<{ data: IData }> = (props) => {
           <CopyToClipboard url={url} />
         </header>
         <div className="h-[7rem]">
-          <p ref={descriptionRef} className="h-24 w-full overflow-hidden font-sans text-ellipsis line-clamp-4">{description}</p>
-          {
-            (isOverflow) && 
-            <p className="text-sm underline text-violet-600 dark:text-violet-400 text-right hover:text-violet-400 dark:hover:text-violet-300" >Read More</p>
-          }
+          <p
+            ref={descriptionRef}
+            className="h-24 w-full overflow-hidden font-sans text-ellipsis line-clamp-4"
+          >
+            {description}
+          </p>
+          {isOverflow && (
+            <p className="text-sm underline text-violet-600 dark:text-violet-400 text-right hover:text-violet-400 dark:hover:text-violet-300">
+              Read More
+            </p>
+          )}
         </div>
         <footer className="card-actions justify-end">
           <a
             onClick={(e) => e.stopPropagation()}
             href={url}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className={
               'mt-2 flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-transparent bg-violet-600 px-6 py-2 text-center text-white duration-100 hover:border-violet-400 hover:bg-transparent hover:text-violet-500 dark:hover:text-violet-400'
             }
