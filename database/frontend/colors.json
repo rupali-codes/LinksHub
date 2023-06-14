@@ -118,10 +118,17 @@
     "category": "frontend",
     "subcategory": "colors"
   },
-   {
+  {
     "name": "Khroma",
     "description": "This is an innovative color palette generator that simplifies the process of choosing harmonious colors for your design projects.",
     "url": "https://www.khroma.co/",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
+    "name": "ColorClaim",
+    "description": "ColorClaim is a library of colors that helps developers, designers, photographers, and others to create beautiful and effective color palettes.",
+    "url": "https://vanschneider.com/colors",
     "category": "frontend",
     "subcategory": "colors"
   }

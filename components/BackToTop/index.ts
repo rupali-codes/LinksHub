@@ -1,1 +1,1 @@
-export { BackToTopButton } from "./BackToTopButton";
+export { BackToTopButton } from './BackToTopButton'
