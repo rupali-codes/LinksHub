@@ -1,177 +1,177 @@
-[ {
-        "name": "Dribbble",
-        "description": "Explore the world’s leading design portfolios.",
-        "url": "https://dribbble.com",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Godly Website",
-        "description": "A curated collection of good web design from all over the web",
-        "url": "https://godly.website",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Behance",
-        "description": "Behance is the world's largest creative network for showcasing and discovering creative work.",
-        "url": "https://www.behance.net/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Refero Design",
-        "description": "Get inspired by the best examples of product design.",
-        "url": "https://refero.design/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Page Collective",
-        "description": "Get inspired and keep up with the latest landing page design trends.",
-        "url": "https://pagecollective.com/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Landingfolio",
-        "description": "Landingfolio features the best landing page designs, templates, component and more on teh web.",
-        "url": "https://www.landingfolio.com/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Land-book",
-        "description": "Find the best hand-picked website design inspiration.",
-        "url": "https://land-book.com/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Lapa Ninja",
-        "description": "Lapa Ninja is a gallery featuring the best 5443 landing page examples, free books for designers and free UI kits from aroun the web.",
-        "url": "https://www.lapa.ninja/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Landings dev",
-        "description": "Discover hundreds of landing pages created by leading companies for your design inspiration.",
-        "url": "https://landings.dev/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Awwwards",
-        "description": "Awwward are the Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world.",
-        "url": "https://www.awwwards.com/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Saas Landing Page",
-        "description": "Saas Landing Page showcases the best landing page examples created bt top-class SaaS companies. Get ideas and inspirations for your next design project.",
-        "url": "https://saaslandingpage.com/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "SiteInspire",
-        "description": "Siteinspire is a showcase of the finest web and interactive design.",
-        "url": "https://www.siteinspire.com/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Best Website Gallery ",
-        "description": "The most beautiful websites handpicked for you — since 2008!",
-        "url": "https://bestwebsite.gallery/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Dope Ui ",
-        "description": "Design templates for dopeass Developers and Designers",
-        "url": "https://dopeui.co/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Dark Mode Design",
-        "description": "Dark Mode Design is a showcase of beautifully designed and inspiring dark mode websites.",
-        "url": "https://www.darkmodedesign.com/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Webframe",
-        "description": "It is a platform to discover and be inspired by for beautiful webapp designs",
-        "url": "https://webframe.xyz/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Nicelydone",
-        "description": "The largest web applications inspiration examples & user flows library",
-        "url": "https://nicelydone.club/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "SaasUI",
-        "description": "SaaS UI is a hand-picked collection of SaaS application designs that exhibit the best in class design.",
-        "url": "https://www.saasui.design/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Screenlane",
-        "description": "You can find app screens, landing pages, user flow inspirations, and keep up with the latest mobile UI design trends.",
-        "url": "https://screenlane.com/",
-        "category": "frontend",
-        "subcategory": "design-inspiration" 
-    },
-    {
-        "name": "Design Vault",
-        "description": "Design Vault is a website that showcases designs from real products, giving you access to the latest and greatest in UI patterns and trends.",
-        "url": "https://designvault.io/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Page Flows",
-        "description": "The smarter way to research user interface flows, screen, and email best practices and get unstuck is by learning from proven products.",
-        "url": "https://pageflows.com/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Mobbin",
-        "description": "Mobbin is a hand-picked collection of latest design patterns from mobile apps that reflect the best in design.",
-        "url": "https://mobbin.com/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "Appshots",
-        "description": "AppShots is an easy-to-use screenshot production tool for App Store applications. You can create beautiful application screenshots, promote, and share your apps.",
-        "url": "https://appshots.design/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "SaasInterface",
-        "description": "Save yourself hours of research and create beautiful apps by taking inspiration from the best SaaS products.",
-        "url": "https://saasinterface.com/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    },
-    {
-        "name": "One Page Love",
-        "description": "One Page Love is a premier resource showcasing exceptional single-page website designs, inspiring designers and developers worldwide with its curated collection of visually stunning and functionally impressive creations.",
-        "url": "https://onepagelove.com/",
-        "category": "frontend",
-        "subcategory": "design-inspiration"
-    }
-    
+[
+  {
+    "name": "Dribbble",
+    "description": "Explore the world’s leading design portfolios.",
+    "url": "https://dribbble.com",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Godly Website",
+    "description": "A curated collection of good web design from all over the web",
+    "url": "https://godly.website",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Behance",
+    "description": "Behance is the world's largest creative network for showcasing and discovering creative work.",
+    "url": "https://www.behance.net/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Refero Design",
+    "description": "Get inspired by the best examples of product design.",
+    "url": "https://refero.design/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Page Collective",
+    "description": "Get inspired and keep up with the latest landing page design trends.",
+    "url": "https://pagecollective.com/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Landingfolio",
+    "description": "Landingfolio features the best landing page designs, templates, component and more on teh web.",
+    "url": "https://www.landingfolio.com/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Land-book",
+    "description": "Find the best hand-picked website design inspiration.",
+    "url": "https://land-book.com/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Lapa Ninja",
+    "description": "Lapa Ninja is a gallery featuring the best 5443 landing page examples, free books for designers and free UI kits from aroun the web.",
+    "url": "https://www.lapa.ninja/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Landings dev",
+    "description": "Discover hundreds of landing pages created by leading companies for your design inspiration.",
+    "url": "https://landings.dev/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Awwwards",
+    "description": "Awwward are the Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world.",
+    "url": "https://www.awwwards.com/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Saas Landing Page",
+    "description": "Saas Landing Page showcases the best landing page examples created bt top-class SaaS companies. Get ideas and inspirations for your next design project.",
+    "url": "https://saaslandingpage.com/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "SiteInspire",
+    "description": "Siteinspire is a showcase of the finest web and interactive design.",
+    "url": "https://www.siteinspire.com/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Best Website Gallery ",
+    "description": "The most beautiful websites handpicked for you — since 2008!",
+    "url": "https://bestwebsite.gallery/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Dope Ui ",
+    "description": "Design templates for dopeass Developers and Designers",
+    "url": "https://dopeui.co/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Dark Mode Design",
+    "description": "Dark Mode Design is a showcase of beautifully designed and inspiring dark mode websites.",
+    "url": "https://www.darkmodedesign.com/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Webframe",
+    "description": "It is a platform to discover and be inspired by for beautiful webapp designs",
+    "url": "https://webframe.xyz/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Nicelydone",
+    "description": "The largest web applications inspiration examples & user flows library",
+    "url": "https://nicelydone.club/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "SaasUI",
+    "description": "SaaS UI is a hand-picked collection of SaaS application designs that exhibit the best in class design.",
+    "url": "https://www.saasui.design/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Screenlane",
+    "description": "You can find app screens, landing pages, user flow inspirations, and keep up with the latest mobile UI design trends.",
+    "url": "https://screenlane.com/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Design Vault",
+    "description": "Design Vault is a website that showcases designs from real products, giving you access to the latest and greatest in UI patterns and trends.",
+    "url": "https://designvault.io/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Page Flows",
+    "description": "The smarter way to research user interface flows, screen, and email best practices and get unstuck is by learning from proven products.",
+    "url": "https://pageflows.com/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Mobbin",
+    "description": "Mobbin is a hand-picked collection of latest design patterns from mobile apps that reflect the best in design.",
+    "url": "https://mobbin.com/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "Appshots",
+    "description": "AppShots is an easy-to-use screenshot production tool for App Store applications. You can create beautiful application screenshots, promote, and share your apps.",
+    "url": "https://appshots.design/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "SaasInterface",
+    "description": "Save yourself hours of research and create beautiful apps by taking inspiration from the best SaaS products.",
+    "url": "https://saasinterface.com/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  },
+  {
+    "name": "One Page Love",
+    "description": "One Page Love is a premier resource showcasing exceptional single-page website designs, inspiring designers and developers worldwide with its curated collection of visually stunning and functionally impressive creations.",
+    "url": "https://onepagelove.com/",
+    "category": "frontend",
+    "subcategory": "design-inspiration"
+  }
 ]

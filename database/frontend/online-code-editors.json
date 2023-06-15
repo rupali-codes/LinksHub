@@ -8,7 +8,7 @@
   },
   {
     "name": "Codepen",
-    "description": "An amazing online community for testing and showcasing HTML, CSS, JavaScript code snippets.",
+    "description": "An amazing online community for testing and showcasing HTML, CSS, and JavaScript code snippets.",
     "url": "https://codepen.io",
     "category": "frontend",
     "subcategory": "online-code-editors"
@@ -28,15 +28,22 @@
     "subcategory": "online-code-editors"
   },
   {
+    "name": "StackEdit",
+    "description": "StackEdit is a user-friendly online Markdown editor with real-time collaboration and cloud storage integration, making writing and editing documents effortless and accessible from anywhere.",
+    "url": "https://stackedit.io/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
     "name": "Sololearn",
-    "description": "It's multi-language online code editor test and share your code snippets.",
+    "description": "It's a multi-language online code editor where you can test and share your code snippets.",
     "url": "https://sololearn.com/compiler-playground/cVRUy2BwauK8",
     "category": "frontend",
     "subcategory": "online-code-editors"
   },
   {
     "name": "CodeChef",
-    "description": "An online IDE to practice you competitive programming skills. It allows you to code in multiple languages.",
+    "description": "An online IDE to practice your competitive programming skills. It allows you to code in multiple languages.",
     "url": "https://www.codechef.com/ide",
     "category": "frontend",
     "subcategory": "online-code-editors"
@@ -64,21 +71,21 @@
   },
   {
     "name": "StackBlitz",
-    "description": "StackBlitz is an online code editor powered by WebContainers that allow users to create, collaborate, and deploy web applications.",
+    "description": "StackBlitz is an online code editor powered by WebContainers that allows users to create, collaborate, and deploy web applications.",
     "url": "https://stackblitz.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
   },
   {
     "name": "HackerRank",
-    "description": "An online IDE to practice you competitive programming skills. It allows you to code in multiple languages.",
+    "description": "An online IDE to practice your competitive programming skills. It allows you to code in multiple languages.",
     "url": "https://www.hackerrank.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
   },
   {
     "name": "LeetCode",
-    "description": "LeetCode is the best platform to help you enhance your programming skills, expand your knowledge.",
+    "description": "LeetCode is the best platform to help you enhance your programming skills, and expand your knowledge.",
     "url": "https://leetcode.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
@@ -87,6 +94,13 @@
     "name": "Programiz",
     "description": "Learn to program with our beginner-friendly tutorials and examples. Read tutorials, try examples, write code, and learn to program.",
     "url": "https://www.programiz.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "codewars",
+    "description": "Codewars is an online platform that offers coding challenges suitable for individuals with diverse programming proficiency levels.",
+    "url": "https://www.codewars.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
   }

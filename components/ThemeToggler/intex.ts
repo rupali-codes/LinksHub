@@ -1,1 +1,1 @@
-export { ThemeToggler } from "./themeToggler";
+export { ThemeToggler } from './themeToggler'

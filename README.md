@@ -10,7 +10,7 @@
 - [Socials 📱](#socials-)
 - [Getting Started 👩‍💻](#getting-started-)
 - [Let's jump right in🌟](#lets-jump-right-in)
-- [_Want to add your favorite links into the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
+- [_Want to add your favorite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
 - [Building with Gitpod 💣](#building-with-gitpod-)
 - [Our Contributors ✨](#our-contributors-)
 - [License 📝](#license-)
@@ -61,7 +61,7 @@ You can see the live demo at: https://linkshub.vercel.app
 
 > ⚠️Prerequisites
 >
-> - Before getting into, it make you sure you have [pnpm](https://nodejs.org/download) installed.
+> - Before getting into it, it make you sure you have [pnpm](https://nodejs.org/download) installed.
 >
 > - Also, make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)
 
@@ -109,20 +109,20 @@ You can see the live demo at: https://linkshub.vercel.app
 9. Commit your changes
 
    ```sh
-   git commit -m <your-commit-message>
+   git commit -m "<your-commit-message>"
    ```
 
 10. Push your changes into your branch
 
     ```sh
-    git push origin <your_branch_name>
+    git push origin "<your_branch_name>"
     ```
 
 11. Create a [Pull Request](https://github.com/rupali-codes/linkshub/compare)
 
     > Click _compare across forks_ if you don't see your branch
 
-#### _Want to add your favorite links into the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/linkshub/blob/main/CONTRIBUTING.md)._
+#### _Want to add your favourite links to the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/linkshub/blob/main/CONTRIBUTING.md)._
 
 ---
 
@@ -153,7 +153,7 @@ _View the list of all contributors [here](https://github.com/rupali-codes/LinksH
 
 ## License 📝
 
-LinksHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENSE) for details.
+LinksHub is licensed under the terms of the MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENSE) for details.
 
 <a name="support"></a>
 
@@ -161,4 +161,4 @@ LinksHub is licensed under the terms of MIT License. check out [LICENSE](https:/
 
 _We would love to have you, feel free to open issues and pull requests and Don't forget to leave a star⭐_
 
-_We would be absolutely thrilled to have you contribute to LinksHub! Your support, whether through opening issues, submitting pull requests, or even just leaving a star, means a lot to us. Together, we can continue to improve and expand this resource hub for developers worldwide._
+_We would be thrilled to have you contribute to LinksHub! Your support, whether through opening issues, submitting pull requests, or even just leaving a star, means a lot to us. Together, we can continue to improve and expand this resource hub for developers worldwide._
