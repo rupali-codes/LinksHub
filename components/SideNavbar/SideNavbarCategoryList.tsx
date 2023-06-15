@@ -47,7 +47,7 @@ export const SideNavbarCategoryList: FC<{
    */
   const handleToggle = (category: Category, isOpen: boolean) => {
     setIsItemsOpen((prev) => ({ ...prev, [category]: !isOpen }))
-    console.log({ isItemsOpen })
+    // console.log({ isItemsOpen })
 
     if (!isSearching) {
       /**
