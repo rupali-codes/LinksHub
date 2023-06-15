@@ -32,7 +32,7 @@ export const GitHubStarButton: FC<{ repo: string }> = ({ repo }) => {
     >
       <div className="inline-flex items-center px-4 py-1 text-sm bg-violet-500 text-white border border-dashed border-transparent rounded-sm transition-colors shadow-md hover:bg-transparent hover:border-violet-400 hover:text-violet-400">
         <FaStar className="mr-1" />
-        <span className="font-semibold">Star</span>
+        <span>Star</span>
         <span className="ml-2">{starCount}</span>
       </div>
     </Link>
