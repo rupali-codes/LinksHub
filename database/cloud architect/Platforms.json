@@ -4,13 +4,13 @@
         "description": "Embark on a comprehensive learning journey tailored to equip you and your team with the necessary skills and knowledge to confidently prepare for the AZ-300 Microsoft Azure Architect Technologies exam.",
         "url": "https://learn.microsoft.com/en-us/certifications/azure-solutions-architect/",
         "category": "cloud architect",
-        "subcategory": "Platforms"
+        "subcategory": "platforms"
     },
     {
         "name": "Google cloud-Professional Cloud Architect",
         "description": "Discover about Cloud architect skills ,Technical skills , Workplace skills,Cloud architect jobs and much more ",
         "url": "https://cloud.google.com/learn/certification/cloud-architect",
         "category": "cloud architect",
-        "subcategory": "Platforms"
+        "subcategory": "platforms"
     }
 ]

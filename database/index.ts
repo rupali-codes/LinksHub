@@ -35,7 +35,7 @@ export { default as deepLearning } from './ml&ai/deeplearning.json'
 //cloud architect
 
 export { default as about } from './cloud architect/about.json'
-export { default as Platforms } from './cloud architect/platforms.json'
+export { default as platforms } from './cloud architect/platforms.json'
 
 // Open-source
 export { default as openSourceBlogs } from './opensource/blogs.json'

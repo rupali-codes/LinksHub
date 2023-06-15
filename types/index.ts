@@ -82,7 +82,7 @@ export type SubCategory =
   | 'open-source-tools'
   | 'fintech'
   | 'about'
-  | 'Platforms'
+  | 'platforms'
 
 export type SubCategories = {
   name: string
