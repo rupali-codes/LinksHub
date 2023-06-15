@@ -1,7 +1,7 @@
 [
     {
         "name": "Oracle java Tutorial",
-        "description": "This is the official Java tutorial provided by Oracle, the company behind Java. It covers the basics of Java programming and provides comprehensive documentation on various Java topics.",
+        "description": "This is the official Java tutorial provided by Oracle, the company behind Java. It covers the basics of this programming language and provides comprehensive documentation on various Java topics.",
         "url": "https://docs.oracle.com/javase/tutorial/",
         "category": "languages",
         "subcategory": "java"
