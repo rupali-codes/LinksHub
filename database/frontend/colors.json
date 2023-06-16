@@ -134,7 +134,7 @@
   },
   {
     "name": "FarbVélo",
-    "description": "FarbVélo is a playful color picking tool, It can come up with the most pleasing color combinations.",
+    "description": "A playful color picking tool which can generate most pleasing color combinations.",
     "url": "https://farbvelo.elastiq.ch/",
     "category": "frontend",
     "subcategory": "colors"
