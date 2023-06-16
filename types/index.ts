@@ -75,6 +75,7 @@ export type SubCategory =
   | 'devtools'
   | 'javascript'
   | 'python'
+  | 'kotlin'
   | 'golang'
   | 'open-source-blogs'
   | 'open-source-projects'
