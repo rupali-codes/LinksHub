@@ -61,5 +61,12 @@
     "url": "https://www.interviewbit.com/blog/cloud-computing-projects/",
     "category": "resources",
     "subcategory": "project-ideas"
+  },
+  {
+    "name": "Blockchain Projects",
+    "description": "This website provides free fifteen beginner-advanced level Blockchain projects with source code.",
+    "url": "https://www.interviewbit.com/blog/blockchain-projects/",
+    "category": "resources",
+    "subcategory": "project-ideas"
   }
 ]
