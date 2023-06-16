@@ -35,7 +35,6 @@ const Popup: React.FC<{
                   {currentCard?.name}
                 </h2>
               </div>
-              {/* start */}
               <div className="max-w-[25]%] text-xsm text-violet-500 capitalize flex items-center gap-2">
                 <CopyToClipboard url={currentCard?.url ?? ''} />
                 {currentCard?.language ? (
@@ -50,7 +49,6 @@ const Popup: React.FC<{
             </div>
             <p className="">{currentCard?.description}</p>
           </div>
-          {/* start */}
           <div className="card-actions justify-end">
             <a
               onClick={(e) => e.stopPropagation()}
