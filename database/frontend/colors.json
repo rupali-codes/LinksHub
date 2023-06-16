@@ -22,14 +22,14 @@
   },
   {
     "name": "Tailwind Colors",
-    "description": "This an excellent and popular set of color pallettes by TailwindCSS. Get beautiful colors of all shades ",
+    "description": "This an excellent and popular set of color palettes by TailwindCSS. Get beautiful colors of all shades ",
     "url": "https://tailwindcss.com/docs/customizing-colors",
     "category": "frontend",
     "subcategory": "colors"
   },
   {
     "name": "Color Contract Checker",
-    "description": "This an excellent site to check whether contrast of two colors is good or not ",
+    "description": "This an excellent site to check whether the contrast of two colors is good or not ",
     "url": "https://coolors.co/contrast-checker",
     "category": "frontend",
     "subcategory": "colors"
@@ -50,14 +50,14 @@
   },
   {
     "name": "HTML Color Picker",
-    "description": "This is a color picker by w3schools which provides different shades of colors based on your requirements. It also gives Hex and RGB value of color.",
+    "description": "This is a color picker by w3schools which provides different shades of colors based on your requirements. It also gives Hex and RGB values of color.",
     "url": "https://w3schools.com/colors/colors_picker.asp",
     "category": "frontend",
     "subcategory": "colors"
   },
   {
     "name": "UI Color Picker",
-    "description": "A color picker that contains different shades of solid colors & gradients. Which can be used in any kind of projects.",
+    "description": "A Color picker that contains different shades of solid colors & gradients. Which can be used in any kind of project.",
     "url": "https://uicolorpicker.com/",
     "category": "frontend",
     "subcategory": "colors"
@@ -118,10 +118,17 @@
     "category": "frontend",
     "subcategory": "colors"
   },
-   {
+  {
     "name": "Khroma",
     "description": "This is an innovative color palette generator that simplifies the process of choosing harmonious colors for your design projects.",
     "url": "https://www.khroma.co/",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
+    "name": "ColorClaim",
+    "description": "ColorClaim is a library of colors that helps developers, designers, photographers, and others to create beautiful and effective color palettes.",
+    "url": "https://vanschneider.com/colors",
     "category": "frontend",
     "subcategory": "colors"
   }

@@ -1,30 +1,30 @@
 [
-    {
-        "name": "Learn Python 3",
-        "description": "Learn the basics of Python 3, one of the most powerful, versatile, and in-demand programming languages today.",
-        "url": "https://www.codecademy.com/learn/learn-python-3",
-        "category": "languages",
-        "subcategory": "python"
-    },
-    {
-        "name": "Python Programiz",
-        "description": "This course covers all the fundamental concepts of Python.",
-        "url": "https://www.programiz.com/python-programming",
-        "category": "languages",
-        "subcategory": "python"
-    },
-    {
-        "name": "100 days of Python",
-        "description": "A 100 days of code challenge to learn python from basics to advanced.",
-        "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg",
-        "category": "youtube",
-        "subcategory": "python"
-    }, 
-    {
-        "name": "Python Tutorial",
-        "description": "Learn Python through this interactive Python tutorial and exercises. You also receive a certificate if you pass them.",
-        "url": "https://www.learnpython.org/",
-        "category": "languages",
-        "subcategory": "python"
-    }
+  {
+    "name": "Learn Python 3",
+    "description": "Learn the basics of Python 3, one of the most powerful, versatile, and in-demand programming languages today.",
+    "url": "https://www.codecademy.com/learn/learn-python-3",
+    "category": "languages",
+    "subcategory": "python"
+  },
+  {
+    "name": "Python Programiz",
+    "description": "This course covers all the fundamental concepts of Python.",
+    "url": "https://www.programiz.com/python-programming",
+    "category": "languages",
+    "subcategory": "python"
+  },
+  {
+    "name": "100 days of Python",
+    "description": "A 100 days of code challenge to learn python from basics to advanced.",
+    "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg",
+    "category": "youtube",
+    "subcategory": "python"
+  },
+  {
+    "name": "Python Tutorial",
+    "description": "Learn Python through this interactive Python tutorial and exercises. You also receive a certificate if you pass them.",
+    "url": "https://www.learnpython.org/",
+    "category": "languages",
+    "subcategory": "python"
+  }
 ]

@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react'
 
 const useLoader = () => {
-  const [loader, setLoader] = useState(true);
+  const [loader, setLoader] = useState(true)
 
   useEffect(() => {
     setTimeout(() => {
-      setLoader(false);
-    }, 2000);
-  });
+      setLoader(false)
+    }, 2000)
+  })
 
-  return { loader };
-};
+  return { loader }
+}
 
-export default useLoader;
+export default useLoader

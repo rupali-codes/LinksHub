@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "name": "Django Forbid",
+    "description": "This source helps grant or deny user access to Django apps based on device and location, including VPN detection.",
+    "url": "https://docs.pysnippet.org/django-forbid/",
+    "category": "backend",
+    "subcategory": "security"
+  }
+]
