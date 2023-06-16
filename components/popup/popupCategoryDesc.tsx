@@ -1,10 +1,8 @@
 import React from 'react'
 import { IData } from 'types'
-import { BsGlobe } from 'react-icons/bs'
 import { Backdrop } from 'components/Backdrop/Backdrop'
 import { createPortal } from 'react-dom'
 import useDelayUnmount from 'hooks/useDelayUnmount'
-import { CopyToClipboard } from 'components/CopyToClipboard'
 
 const Popup: React.FC<{
   currentCard: IData | null
@@ -35,32 +33,8 @@ const Popup: React.FC<{
                   {currentCard?.name}
                 </h2>
               </div>
-              {/* start */}
-              <div className="max-w-[25]%] text-xsm text-violet-500 capitalize flex items-center gap-2">
-                <CopyToClipboard url={currentCard?.url ?? ''} />
-                {currentCard?.language ? (
-                  <>
-                    <BsGlobe />
-                    {currentCard?.language}
-                  </>
-                ) : (
-                  ''
-                )}
-              </div>
             </div>
             <p className="">{currentCard?.description}</p>
-          </div>
-          {/* start */}
-          <div className="card-actions justify-end">
-            <a
-              onClick={(e) => e.stopPropagation()}
-              href={currentCard?.url}
-              target="_blank"
-              rel="noreferrer"
-              className="mt-2 px-6 py-2 text-white text-center bg-violet-600 rounded-2xl w-full hover:bg-transparent hover:text-violet-500 border border-dashed border-transparent duration-100 hover:border-violet-400  bottom-0 flex items-center justify-center bottom-0 relative"
-            >
-              Visit site
-            </a>
           </div>
         </div>,
         document.getElementById('overlay-root')!
