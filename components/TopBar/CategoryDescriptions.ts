@@ -15,7 +15,7 @@ const categoryDescriptions: CategoryDescriptions = {
   onlineCodeEditors: 'Online Code Editors category description',
   react: 'React category description',
   'themes templates': 'Themes and Templates category description',
-  'ui generators': 'UI Generators category description',
+  'ui generator': 'UI Generators category description',
   videos: 'Videos Category description',
   //backend
   architecture: 'Architecture category description',
