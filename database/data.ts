@@ -68,7 +68,6 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'resources',
     subcategory: [
-      { name: 'events', url: '/events'},
       { name: 'blogs', url: '/blogs' },
       { name: 'hosting', url: '/hosting' },
       { name: 'e-book', url: '/e-book' },
@@ -95,6 +94,7 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'other',
     subcategory: [
+      { name: 'events', url: '/events'},
       { name: 'Github', url: '/github' },
       { name: 'Dev Tools', url: '/devtools' },
       { name: 'Podcasts', url: '/podcasts' },
