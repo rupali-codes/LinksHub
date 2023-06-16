@@ -96,14 +96,14 @@
     "language": "english"
   },
   {
-    "name":"Hello World DSA", 
-    "description":"This channel provides C++ specific DSA content. This course also provides explanations of Algorithms.",
-    "url":"https://www.youtube.com/@HelloWorldbyprince/playlists",
-    "category":"youtube", 
-    "subcategory":"dsa",
+    "name": "Hello World DSA",
+    "description": "This channel provides C++ specific DSA content. This course also provides explanations of Algorithms.",
+    "url": "https://www.youtube.com/@HelloWorldbyprince/playlists",
+    "category": "youtube",
+    "subcategory": "dsa",
     "language": "hindi"
   },
-   {
+  {
     "name": "TAP ACADEMY",
     "description": "A well-structured DSA playlist from beginner to advanced level in Java",
     "url": "https://youtube.com/playlist?list=PLU83Ru7iGtAvP1rqt65MCDSBPFCzUKGXG",
