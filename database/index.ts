@@ -29,6 +29,7 @@ export { default as csharp } from './languages/csharp.json'
 export { default as typescript } from './languages/typescript.json'
 export { default as ruby } from './languages/ruby.json'
 export { default as CProgramming } from './languages/c-programming.json'
+export { default as java} from './languages/java.json'
 // ml & ai
 export { default as ml } from './ml&ai/ml.json'
 export { default as dataScience } from './ml&ai/datascience.json'
