@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "name": "freeCodeCamp",
+        "description": "This course will give you a full introduction into all of the core concepts in the C programming language.",
+        "url": "https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org",
+        "category": "languages",
+        "subcategory": "c-programming"
+    }
+]
