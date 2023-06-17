@@ -11,7 +11,10 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value)
-    setErrorMessage('')
+    if (e.target.value.trim() === '') {
+      setErrorMessage('')
+      setSearch(searchQuery)
+    }
   }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
