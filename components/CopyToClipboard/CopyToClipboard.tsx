@@ -1,12 +1,17 @@
 import useCopyToClipboard from 'hooks/useCopyToClipboard'
 import React from 'react'
 import { FaRegCopy } from 'react-icons/fa'
+import { Tooltip } from 'react-tooltip'
 
 type CopyToClipboardProps = {
   url: string
+  id: string
 }
 
-export const CopyToClipboard = ({ url }: CopyToClipboardProps): JSX.Element => {
+export const CopyToClipboard = ({
+  url,
+  id,
+}: CopyToClipboardProps): JSX.Element => {
   const [copyToClipboard, { success }] = useCopyToClipboard()
 
   function handleCopy(e: React.MouseEvent<SVGElement, MouseEvent>) {
@@ -18,13 +23,14 @@ export const CopyToClipboard = ({ url }: CopyToClipboardProps): JSX.Element => {
     <div className="dropdown dropdown-left dropdown-hover">
       <FaRegCopy
         size={'1.3rem'}
+        data-tooltip-id={id}
         className="text-violet-500 cursor-pointer"
         title="Copy link"
         onClick={(e) => handleCopy(e)}
       />
-      <p className="dropdown-content bg-violet-500 text-white text-sm rounded-lg p-1.5 cursor-default">
+      <Tooltip id={id} place="top">
         {success ? 'Copied!' : 'Copy'}
-      </p>
+      </Tooltip>
     </div>
   )
 }

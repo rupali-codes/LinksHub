@@ -5,7 +5,7 @@ import type { IData } from 'types'
 
 const Card: FC<{ data: IData }> = (props) => {
   const { data } = props
-  const { name, description, url } = data
+  const { name, description, url, id } = data
   const descriptionRef = useRef(document.createElement('p'))
   const [isOverflow, setIsOverflow] = useState(false)
   useEffect(() => {
@@ -25,7 +25,7 @@ const Card: FC<{ data: IData }> = (props) => {
           >
             {name}
           </h2>
-          <CopyToClipboard url={url} />
+          <CopyToClipboard url={url} id={id}/>
         </header>
         <div className="h-[7rem]">
           <p
