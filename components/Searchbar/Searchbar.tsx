@@ -13,7 +13,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
     setSearchQuery(e.target.value)
     if (e.target.value.trim() === '') {
       setErrorMessage('')
-      setSearch(searchQuery)
+      setSearch('')
     }
   }
 
