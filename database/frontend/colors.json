@@ -131,5 +131,12 @@
     "url": "https://vanschneider.com/colors",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  {
+    "name": "ColorPalettes",
+    "description": "Color Palettes provide a free collection of color palette ideas for all use cases.",
+    "url": "https://colorpalettes.net/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
