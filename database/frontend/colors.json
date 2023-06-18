@@ -131,5 +131,12 @@
     "url": "https://vanschneider.com/colors",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  {
+    "name": "FarbVélo",
+    "description": "A playful color picking tool that can generate most pleasing color combinations.",
+    "url": "https://farbvelo.elastiq.ch/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
