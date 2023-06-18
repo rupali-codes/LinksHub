@@ -70,10 +70,9 @@ export type SubCategory =
   | 'c-programming'
   | 'csharp (C#)'
   | 'golang'
+  | 'java'
   | 'javascript'
   | 'python'
-  | 'java'
-  | 'golang'
   | 'ruby'
   | 'typescript'
   // ml & ai
