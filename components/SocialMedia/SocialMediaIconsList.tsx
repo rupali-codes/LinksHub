@@ -3,6 +3,10 @@ import { IconContext } from 'react-icons'
 import { FaDiscord, FaGithub, FaTwitter } from 'react-icons/fa'
 import { GitHubForkButton } from 'components/ForkButton/GitHubForkButton'
 
+import { GitHubStarButton } from 'components/StarButton/GitHubStarButton'
+
+
+
 export const SocialMediaIconsList: FC<{ className?: string }> = (props) => {
   const { className } = props
 
@@ -10,6 +14,9 @@ export const SocialMediaIconsList: FC<{ className?: string }> = (props) => {
     <ul className={`flex items-center gap-6 ${className}`}>
       <li className="mr-2 hidden md:block">
         <GitHubForkButton repo="rupali-codes/LinksHub" />
+      </li>
+      <li className="mr-2 hidden md:block">
+        <GitHubStarButton repo="rupali-codes/LinksHub" />
       </li>
       <li>
         <a
