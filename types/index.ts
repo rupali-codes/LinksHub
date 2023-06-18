@@ -80,6 +80,7 @@ export type SubCategory =
   | 'devtools'
   | 'javascript'
   | 'python'
+  | 'kotlin'
   | 'java'
   | 'golang'
   | 'open-source-blogs'
