@@ -42,10 +42,17 @@
         "subcategory": "fonts"
     },
     {
-        "name": "Fontshare",
-        "description": "Fontshare is a website that offers a wide selection of high-quality, free fonts for personal and commercial use.",
-        "url": "https://www.fontshare.com/",
+        "name": "Befonts",
+        "description": "Befonts is a platform where you can download fonts for free for personal or commercial use.",
+        "url": "https://befonts.com/",
         "category": "frontend",
         "subcategory": "fonts"
-    }
+    },
+  {
+    "name": "Fontshare",
+    "description": "Fontshare is a website that offers a wide selection of high-quality, free fonts for personal and commercial use.",
+    "url": "https://www.fontshare.com/",
+    "category": "frontend",
+    "subcategory": "fonts"
+  }
 ]

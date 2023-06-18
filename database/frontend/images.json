@@ -1,7 +1,7 @@
 [
   {
     "name": "Unsplash",
-    "description": "Unsplash is a site to get free images, you can download all kind of HD images in here for free.",
+    "description": "Unsplash is a site to get free images, you can download all kinds of HD images here for free.",
     "url": "https://unsplash.com",
     "category": "frontend",
     "subcategory": "images"
@@ -22,7 +22,7 @@
   },
   {
     "name": "Kaboompics",
-    "description": "it allows to search pictures by color, and  it provides a complementary palette of colors in the photo.",
+    "description": "It allows you to search pictures by color, and  it provides a complementary palette of colors in the photo.",
     "url": "https://kaboompics.com/",
     "category": "frontend",
     "subcategory": "images"
@@ -64,7 +64,7 @@
   },
   {
     "name": "Flickr",
-    "description": "Flickr is a community of photographers with stunning images. Its search and social features make following favorites effortless.",
+    "description": "Flickr is a community of photographers with stunning images. Its search and social features make following favourites effortless.",
     "url": "https://www.flickr.com/",
     "category": "frontend",
     "subcategory": "images"

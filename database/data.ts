@@ -47,6 +47,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'TypeScript', url: '/typescript' },
       { name: 'Ruby', url: '/ruby' },
       { name: 'C Programming', url: '/c-programming' },
+      { name:  'Java', url: '/java'}
     ],
   },
   {
@@ -95,6 +96,7 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'other',
     subcategory: [
+      { name: 'events', url: '/events'},
       { name: 'Github', url: '/github' },
       { name: 'Dev Tools', url: '/devtools' },
       { name: 'Podcasts', url: '/podcasts' },

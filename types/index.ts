@@ -8,6 +8,11 @@ export interface ISideNavbarElement {
   title: string
 }
 
+export interface ICategoryData {
+  name: string
+  description: string
+}
+
 export interface IDBData {
   name: string
   description: string
@@ -75,6 +80,7 @@ export type SubCategory =
   | 'devtools'
   | 'javascript'
   | 'python'
+  | 'java'
   | 'golang'
   | 'open-source-blogs'
   | 'open-source-projects'
