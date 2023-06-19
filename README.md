@@ -61,7 +61,7 @@ You can see the live demo at: https://linkshub.vercel.app
 
 > ⚠️Prerequisites
 >
-> - Before getting into it, it make you sure you have [pnpm](https://nodejs.org/download) installed.
+> - Before getting into it, make you sure you have [pnpm](https://nodejs.org/download) installed.
 >
 > - Also, make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)
 
@@ -112,7 +112,7 @@ You can see the live demo at: https://linkshub.vercel.app
    git commit -m "<your-commit-message>"
    ```
 
-10. Push your changes into your branch
+10. Push your changes to your branch
 
     ```sh
     git push origin "<your_branch_name>"
