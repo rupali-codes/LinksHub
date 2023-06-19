@@ -1,19 +1,19 @@
-import { FC } from "react";
-import { useContext } from "react";
-import { GlobalContext } from "context/GlobalContext";
-import { Backdrop } from "components/Backdrop/Backdrop";
-import { SideNavbarHeader } from "./SideNavbarHeader";
-import { SideNavbarBody } from "./SideNavbarBody";
-import { createPortal } from "react-dom";
-import { SocialMediaIconsList } from "components/SocialMedia/SocialMediaIconsList";
-import useDelayUnmount from "hooks/useDelayUnmount";
+import { FC } from 'react'
+import { useContext } from 'react'
+import { GlobalContext } from 'context/GlobalContext'
+import { Backdrop } from 'components/Backdrop/Backdrop'
+import { SideNavbarHeader } from './SideNavbarHeader'
+import { SideNavbarBody } from './SideNavbarBody'
+import { createPortal } from 'react-dom'
+import { SocialMediaIconsList } from 'components/SocialMedia/SocialMediaIconsList'
+import useDelayUnmount from 'hooks/useDelayUnmount'
 
-export const SideNavbar:FC<{}> = () => {
-  const { sidebar, closeNav } = useContext(GlobalContext);
-  const showElement = useDelayUnmount(sidebar, 300);
+export const SideNavbar: FC<{}> = () => {
+  const { sidebar, closeNav } = useContext(GlobalContext)
+  const showElement = useDelayUnmount(sidebar, 300)
 
   if (!showElement) {
-    return null;
+    return null
   }
 
   return (
@@ -28,8 +28,9 @@ export const SideNavbar:FC<{}> = () => {
           <SideNavbarHeader />
           <SocialMediaIconsList className="bg-gray-100 px-6 py-2 dark:bg-gray-900" />
           <SideNavbarBody />
-        </div>, document.getElementById('overlay-root')!
+        </div>,
+        document.getElementById('overlay-root')!
       )}
     </>
-  );
-};
+  )
+}

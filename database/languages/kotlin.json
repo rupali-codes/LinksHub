@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Kotlin Tutorial",
+        "description": "This is the official Kotlin docs created by Jetbrains. It covers all the topics from beginner to advanced level and provides comprehensive documentation on how to effectively use Kotlin in your projects. It also provides a playground where you can learn and practice using Kotlin.",
+        "url": "https://kotlinlang.org/docs/getting-started.html",
+        "category": "languages",
+        "subcategory": "kotlin"
+    },
+    {
+        "name": "Programiz Kotlin",
+        "description": "It is a beginner friendly tutorial along with examples to learn Kotlin one step at a time.",
+        "url": "https://www.programiz.com/kotlin-programming",
+        "category": "languages",
+        "subcategory": "kotlin"
+    }
+]
