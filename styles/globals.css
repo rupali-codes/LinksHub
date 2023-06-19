@@ -170,3 +170,8 @@ pre {
   scrollbar-width: thin;
   scrollbar-color: var(--scroll-thumb) var(--scroll-track);
 }
+@media (min-width:597px) and (max-width:800px){
+    .grid-cols-1 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  }

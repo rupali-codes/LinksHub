@@ -1,5 +1,12 @@
 [
   {
+    "name": "Favicon",
+    "description": "Favicon is a platform where you can generate favicons from text, image, or choose from hundreds of emojis.",
+    "url": "https://favicon.io/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
     "name": "Font Awesome",
     "description": "A highly popular icon font, consisting of 1000+ icons spread across countless categories.",
     "url": "https://fontawesome.com/",
