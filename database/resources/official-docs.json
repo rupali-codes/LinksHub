@@ -22,7 +22,7 @@
   },
   {
     "name": "Django",
-    "description": "This page is an overview of the Django documentation and related resources.",
+    "description": "This page gives an overview of the Django documentation and related resources.",
     "url": "https://docs.djangoproject.com/en/4.2/",
     "category": "resources",
     "subcategory": "officialdocs"
