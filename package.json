@@ -9,7 +9,8 @@
     "start": "next start",
     "dev-setup": "pnpm install",
     "start-setup": "pnpm install ",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@next/font": "13.2.4",
@@ -39,6 +40,7 @@
     "@types/uuid": "^9.0.1",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "autoprefixer": "^10.4.14",
+    "husky": "^8.0.3",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.3.1"
   }

@@ -64,7 +64,7 @@
   },
   {
     "name": "Skribbl",
-    "description": "Enrich your creative projects and support free access to art of education with the collection of hand-drawn illustrations.",
+    "description": "Enrich your creative projects and support free access to the art of education with the collection of hand-drawn illustrations.",
     "url": "https://weareskribbl.com/",
     "category": "frontend",
     "subcategory": "illustrations"
@@ -87,6 +87,34 @@
     "name": "Craftwork",
     "description": "This is a powerful toolkit for designers and developers, offering a wide range of UI components, icons, and illustrations with seamless customization and integration. It streamlines the design process, saving time and elevating project quality. Unleash your creativity with Craftwork's intuitive tools and resources.",
     "url": "https://craftwork.design/",
+    "category": "frontend",
+    "subcategory": "illustrations"
+  },
+  {
+    "name": "Getillustrations",
+    "description": "Access a vast collection of 16,149 creative web and app illustrations, available for download to enhance your websites, applications, and print projects. Stay inspired with weekly updates and enjoy the convenience of multiple formats with Figma, AI, XD, and Sketch.",
+    "url": "https://www.getillustrations.com/",
+    "category": "frontend",
+    "subcategory": "illustrations"
+  },
+  {
+    "name": "Free SVG illustrations",
+    "description": "Free SVG illustrations are available for any idea you can imagine. You can change the primary and secondary colors of the illustrations to match your project's style guide. Download the illustrations in either PNG or SVG format. Premium illustrations are also available.",
+    "url": "https://freesvgillustration.com/",
+    "category": "frontend",
+    "subcategory": "illustrations"
+  },
+  {
+    "name": "Awesome Illustrations 4 Projects",
+    "description": "Indulge in the enchanting world of over 250 illustrations sourced from 50+ carefully curated websites, especially sorted into four categories, and conveniently accompanied by quick previews.",
+    "url": "https://github.com/Anmol-Baranwal/Awesome-Illustrations-4Projects",
+    "category": "frontend",
+    "subcategory": "illustrations"
+  },
+  {
+    "name": "Pixeltrue",
+    "description": "Get access to different, high-quality illustrations and animations that are free to use for personal and commercial use.",
+    "url": "https://www.pixeltrue.com/free-illustrations",
     "category": "frontend",
     "subcategory": "illustrations"
   }
