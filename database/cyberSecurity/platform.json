@@ -1,0 +1,31 @@
+[
+    {
+        "name":"kali Linux",
+        "description":"Kali Linux is an open-source, Debian-based Linux distribution geared towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering.",
+        "url":"https://www.kali.org/",
+        "category":"cyberSecurity",
+        "subcategory":"platform"
+    },
+    {
+        "name":"TryHackMe",
+        "description":"TryHackMe provides a hands on cybersecurity skill experience in real world.",
+        "url":"https://tryhackme.com/",
+        "category":"cyberSecurity",
+        "subcategory":"platform"
+    },
+    {
+        "name":"HackTheBox",
+        "description":"HackTheBox platform provide learning experience with project on real world issue in cyber security and ethical hacking.",
+        "url":"https://www.hackthebox.com/",
+        "category":"cyberSecurity",
+        "subcategory":"platform"
+    },
+    {
+        "name":"Cybrary",
+        "description":"Cybrary is accessible, affordable training platform provides curated career paths in cybersecurity, threat-informed training, and certification preparation.",
+        "url":"https://www.cybrary.it/",
+        "category":"cyberSecurity",
+        "subcategory":"platform"
+    }
+
+]

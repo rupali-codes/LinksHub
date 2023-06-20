@@ -60,6 +60,16 @@ export const sidebarData: ISidebar[] = [
       { name: 'deep learning', url: '/deep-learning' },
     ],
   },
+
+  {
+    category: 'cyberSecurity',
+    subcategory: [
+      { name: 'basic', url: '/basic'},
+      { name: 'certificate', url: '/certificate'},
+      { name: 'tools' , url: '/tools'},
+      { name: 'platform', url: '/platform'},
+    ],
+  },
   {
     category: 'open source',
     subcategory: [
@@ -93,6 +103,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Competitive Programming', url: '/competitive-programming' },
       { name: 'FinTech', url: '/fintech' },
       { name: 'Game Development', url: '/game-development' },
+      { name: 'cybersecurity' ,url:'/cybersecurity'},
     ],
   },
   {

@@ -1,0 +1,30 @@
+[
+    {
+        "name":"Nmap",
+        "description":"Nmap known as Network Mapper is a free and open source utility for network discovery and security auditing",
+        "url":"https://nmap.org/",
+        "category":"cyberSecurity",
+        "subcategory":"tools"
+    },
+    {
+        "name":"BurpSuite",
+        "description":"Burp Suite is a tool designed to support and speed up efficiency in penetration testing, CI/CD integration in DevOps with a proper reporting system.",
+        "url":"https://www.softwaretestinghelp.com/burp-suite-tutorial/",
+        "category":"cyberSecurity",
+        "subcategory":"tools"
+    },
+    {
+        "name":"Wireshark",
+        "description":"Wireshark is a network packet analyzer, that capture live packet data from a network interface.",
+        "url":"https://www.wireshark.org/docs/",
+        "category":"cyberSecurity",
+        "subcategory":"tools"
+    },
+    {
+        "name":"Metasploit",
+        "description":"Metasploit is used as penetration testing tools, is a very powerful all-in-one tool for performing different steps of a penetration test.",
+        "url":"https://nooblinux.com/metasploit-tutorial/",
+        "category":"cyberSecurity",
+        "subcategory":"tools"
+    }
+]

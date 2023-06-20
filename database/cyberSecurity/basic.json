@@ -1,0 +1,44 @@
+[
+    {
+        "name": "THELINUXFOUNDATION",
+        "description": "THELINUXFOUNDATION  is a website that provides complete knowledge of the linux operating system .",
+        "url": "https://www.linuxfoundation.org/",
+        "category": "cyberSecurity",
+        "subcategory": "basic"
+    },
+    {
+        "name":"JAVAPOINT-COMPUTERNETWORK",
+        "description":"JAVAPOINT-COMPUTERNETWORK ,This is a complete Hub for mastering computer network",
+        "url":"https://www.javatpoint.com/computer-network-tutorial",
+        "category": "cyberSecurity",
+        "subcategory":"basic"
+    },
+    {
+        "name":"OWASP-TOP-THREAT",
+        "description":"OWASP gives details explaintion of cyber threat and how to rescue from it.",
+        "url":"https://owasp.org/Top10/",
+        "category":"cyberSecurity",
+        "subcategory":"basic"
+    },
+    {
+        "name":"Malwarebytes",
+        "description":"Malwarebytes is website that provide information about malware and malicious software.",
+        "url":"https://www.malwarebytes.com/",
+        "category":"cyberSecurity",
+        "subcategory":"basic"
+    },
+    {
+        "name":"CRYPTOGRAPHY-FORTINET",
+        "description":"FORTINET website provides information on what is cryptography ? and importance of cryptography in cyber security.",
+        "url":"https://www.fortinet.com/resources/cyberglossary/what-is-cryptography",
+        "category":"cyberSecurity",
+        "subcategory":"basic"
+    },
+    {
+        "name":"Reverse Engineering-TechTarget",
+        "description":"TechTarget gives essential knowledge about Reverse Enginnering and about the stages of reverse engineering",
+        "url":"https://www.techtarget.com/searchsoftwarequality/definition/reverse-engineering",
+        "category":"cyberSecurity",
+        "subcategory":"basic"
+    }
+]

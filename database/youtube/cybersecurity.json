@@ -1,0 +1,26 @@
+[
+    {
+        "name": "NetworkChuck",
+        "description": "This channel provides free courses on different cybersecurity tools, platform and more.",
+        "url": "https://youtube.com/@NetworkChuck",
+        "category": "youtube",
+        "subcategory": "cybersecurity",
+        "language": "english"
+    },
+    {
+        "name": "Cyberspatial",
+        "description": "This channel shares knowledge about different cybersecurity, network threats and more in cybersecurity realted information.",
+        "url": "https://youtube.com/@Cyberspatial",
+        "category": "youtube",
+        "subcategory": "cybersecurity",
+        "language": "english"  
+    },
+    {
+        "name":"The Cyber Mentor",
+        "description":"This channel provides knowledge about hacking , information security and also had free course related to ethical hacking.",
+        "url":"https://youtube.com/@TCMSecurityAcademy",
+        "category":"youtube",
+        "subcategory":"cybersecurity",
+        "language":"english"
+    }
+]

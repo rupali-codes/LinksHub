@@ -35,6 +35,12 @@ export { default as java} from './languages/java.json'
 export { default as ml } from './ml&ai/ml.json'
 export { default as dataScience } from './ml&ai/datascience.json'
 export { default as deepLearning } from './ml&ai/deeplearning.json'
+// Cyber Security
+export { default as basic} from './cyberSecurity/basic.json'
+export { default as certificate} from './cyberSecurity/certificate.json'
+export { default as tools} from './cyberSecurity/tools.json'
+export { default as platform} from './cyberSecurity/platform.json'
+
 // Open-source
 export { default as openSourceBlogs } from './opensource/blogs.json'
 export { default as openSourceProjects } from './opensource/projects.json'
@@ -59,6 +65,7 @@ export { default as computerScience } from './youtube/computer-science.json'
 export { default as competitiveProgramming } from './youtube/competitive-programming.json'
 export { default as fintech } from './youtube/fintech.json'
 export { default as gameDevelopment } from './youtube/game-development.json'
+export { default as cybersecurity } from './youtube/cybersecurity.json'
 // other
 export { default as github } from './other/github.json'
 export { default as devtools } from './other/devtools.json'
