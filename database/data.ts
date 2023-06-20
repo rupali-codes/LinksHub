@@ -48,8 +48,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Ruby', url: '/ruby' },
       { name: 'C Programming', url: '/c-programming' },
       { name:  'Java', url: '/java'},
-      { name:  'Kotlin', url: '/kotlin'}
-      
+      { name:  'Kotlin', url: '/kotlin'},      
     ],
   },
   {
@@ -86,8 +85,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Python', url: '/python' },
       { name: 'Csharp (C#)', url: '/csharp' },
       { name: 'Go', url: '/golang' },
-      {name: 'c++', url: '/c++'}
-
+      {name: 'C++', url: '/c++'},
       { name: 'web development', url: '/web-development' },
       { name: 'CSS', url: '/css' },
       { name: 'machine learning', url: '/machine-learning' },
@@ -100,7 +98,6 @@ export const sidebarData: ISidebar[] = [
       { name: 'Competitive Programming', url: '/competitive-programming' },
       { name: 'FinTech', url: '/fintech' },
       { name: 'Game Development', url: '/game-development' },
-
     ],
   },
   {
