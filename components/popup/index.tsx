@@ -36,7 +36,7 @@ const Popup: React.FC<{
                 </h2>
               </div>
               <div className="max-w-[25]%] text-xsm text-violet-500 capitalize flex items-center gap-2">
-                <CopyToClipboard url={currentCard?.url ?? ''} />
+                <CopyToClipboard url={currentCard?.url ?? ''} id={currentCard?.id??''}/>
                 {currentCard?.language ? (
                   <>
                     <BsGlobe />
