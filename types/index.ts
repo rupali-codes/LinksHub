@@ -72,6 +72,7 @@ export type SubCategory =
   | 'golang'
   | 'java'
   | 'javascript'
+  | 'kotlin'
   | 'python'
   | 'ruby'
   | 'typescript'
