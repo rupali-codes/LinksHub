@@ -1,7 +1,11 @@
 version: 2
 updates:
   # Update GitHub Actions
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: 'github-actions'
+    labels:
+      - 📦 dependencies
+    directory: '/' # refers to the location of package.json
+    commit-message:
+      prefix: 'chore(deps)'
     schedule:
-      interval: "daily"
+      interval: 'daily'
