@@ -19,5 +19,12 @@
     "url": "https://docs.flutter.dev/",
     "category": "resources",
     "subcategory": "officialdocs"
+  },
+  {
+    "name": "Angular",
+    "description": "This page is an overview of the Angular documentation and related resources.",
+    "url": "https://angular.io/docs",
+    "category": "resources",
+    "subcategory": "officialdocs"
   }
 ]
