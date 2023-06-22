@@ -133,6 +133,13 @@
     "subcategory": "colors"
   },
   {
+    "name": "ColorPalettes",
+    "description": "Color Palettes provides a free collection of color palette ideas for professional and commercial use.",
+    "url": "https://colorpalettes.net/",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
     "name": "FarbVélo",
     "description": "A playful color picking tool that can generate most pleasing color combinations.",
     "url": "https://farbvelo.elastiq.ch/",
