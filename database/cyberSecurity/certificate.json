@@ -1,35 +1,35 @@
 [
     {
         "name":"CompTIA A+",
-        "description":"CompTIA A+ is entry level certificate for the person who is new in cyber security field and it is also most recommend for beginner.",
+        "description":"CompTIA A+ is entry level certificate for the person who is new in cyber security field and it is also recommended for beginners.",
         "url":"https://www.comptia.org/certifications/a",
         "category":"cyberSecurity",
         "subcategory":"certificate"
     },
     {
         "name":"Cisco CCNA",
-        "description":"Cisco provides a computer network certificate to gain the knowledge of network and tools.",
+        "description":"Cisco provides computer network certificate to gain the knowledge of networking and its tools.",
         "url":"https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html",
         "category":"cyberSecurity",
         "subcategory":"certificate"
     },
     {
         "name":"Certified Ethical Hacker(CEH)",
-        "description":"Certified Ethical Hacker(CEH)  this certificate is help you gain good hand on skills on Ethical Hacking and knowledge about it .",
+        "description":"Certified Ethical Hacker(CEH) helps you to get good knowledge about Ethical Hacking.",
         "url":"https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
         "category":"cyberSecurity",
         "subcategory":"certificate"
     },
     {
         "name":"CompTIA Security+",
-        "description":"CompTIA Security+ is mid level certificate for the person who has good basic knowledge in cyber security and it is also most recommend by professional.",
+        "description":"CompTIA Security+ is mid level certificate for the person who have basic knowledge of cyber security.",
         "url":"https://www.comptia.org/certifications/security",
         "category":"cyberSecurity",
         "subcategory":"certificate"
     },
     {
         "name":"CISSP",
-        "description":"CISSP is for the person who is interest in cloud security.",
+        "description":"This certificate is recommended for the person who is interested in cloud security.",
         "url":"https://www.isc2.org/Certifications/CCSP",
         "category":"cyberSecurity",
         "subcategory":"certificate"

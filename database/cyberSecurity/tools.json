@@ -1,7 +1,7 @@
 [
     {
         "name":"Nmap",
-        "description":"Nmap known as Network Mapper is a free and open source utility for network discovery and security auditing",
+        "description":"Nmap known as Network Mapper, is a free and open source utility for network discovery and security auditing.",
         "url":"https://nmap.org/",
         "category":"cyberSecurity",
         "subcategory":"tools"
@@ -15,14 +15,14 @@
     },
     {
         "name":"Wireshark",
-        "description":"Wireshark is a network packet analyzer, that capture live packet data from a network interface.",
+        "description":"Wireshark is a network packet analyzer, that captures live packet data from a network interface.",
         "url":"https://www.wireshark.org/docs/",
         "category":"cyberSecurity",
         "subcategory":"tools"
     },
     {
         "name":"Metasploit",
-        "description":"Metasploit is used as penetration testing tools, is a very powerful all-in-one tool for performing different steps of a penetration test.",
+        "description":"Metasploit is used as penetration testing tools, Its a very powerful and all-in-one tool for performing different steps of a penetration test.",
         "url":"https://nooblinux.com/metasploit-tutorial/",
         "category":"cyberSecurity",
         "subcategory":"tools"

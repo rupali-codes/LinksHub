@@ -1,28 +1,28 @@
 [
     {
-        "name": "THELINUXFOUNDATION",
-        "description": "THELINUXFOUNDATION  is a website that provides complete knowledge of the linux operating system .",
+        "name": "The Linux Foundation",
+        "description": "The Linux Foundation is a website that provides complete knowledge of the Linux operating system .",
         "url": "https://www.linuxfoundation.org/",
         "category": "cyberSecurity",
         "subcategory": "basic"
     },
     {
-        "name":"JAVAPOINT-COMPUTERNETWORK",
-        "description":"JAVAPOINT-COMPUTERNETWORK ,This is a complete Hub for mastering computer network",
+        "name":"Javapoint Computer Network",
+        "description":"This platform covers all the concepts of computer network from basic-to-advanced level.",
         "url":"https://www.javatpoint.com/computer-network-tutorial",
         "category": "cyberSecurity",
         "subcategory":"basic"
     },
     {
-        "name":"OWASP-TOP-THREAT",
-        "description":"OWASP gives details explaintion of cyber threat and how to rescue from it.",
+        "name":"Owasp",
+        "description":"Owasp gives detailed explaintion of cyber threats and how to rescue from them.",
         "url":"https://owasp.org/Top10/",
         "category":"cyberSecurity",
         "subcategory":"basic"
     },
     {
-        "name":"Malwarebytes",
-        "description":"Malwarebytes is website that provide information about malware and malicious software.",
+        "name":"Malware Bytes",
+        "description":"Malware Bytes is website that provideS information about malware and malicious software.",
         "url":"https://www.malwarebytes.com/",
         "category":"cyberSecurity",
         "subcategory":"basic"
@@ -36,7 +36,7 @@
     },
     {
         "name":"Reverse Engineering-TechTarget",
-        "description":"TechTarget gives essential knowledge about Reverse Enginnering and about the stages of reverse engineering",
+        "description": "TechTarget gives essential knowledge about Reverse Engineering and the stages of reverse engineering",
         "url":"https://www.techtarget.com/searchsoftwarequality/definition/reverse-engineering",
         "category":"cyberSecurity",
         "subcategory":"basic"

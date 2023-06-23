@@ -15,14 +15,14 @@
     },
     {
         "name":"HackTheBox",
-        "description":"HackTheBox platform provide learning experience with project on real world issue in cyber security and ethical hacking.",
+        "description":"HackTheBox platform provides learning experience with projects on real world issues in cyber security and ethical hacking.",
         "url":"https://www.hackthebox.com/",
         "category":"cyberSecurity",
         "subcategory":"platform"
     },
     {
         "name":"Cybrary",
-        "description":"Cybrary is accessible, affordable training platform provides curated career paths in cybersecurity, threat-informed training, and certification preparation.",
+        "description":"Cybrary is accessible, affordable training platform that provides curated career paths in cybersecurity, threat-informed training and more.",
         "url":"https://www.cybrary.it/",
         "category":"cyberSecurity",
         "subcategory":"platform"

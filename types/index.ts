@@ -36,7 +36,7 @@ export type Category =
   | 'frontend'
   | 'backend'
   | 'ml & ai'
-  | 'cyberSecurity'//owais
+  | 'cyberSecurity'
   | 'youtube'
   | 'resources'
   | 'other'
