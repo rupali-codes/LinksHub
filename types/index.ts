@@ -68,7 +68,7 @@ export type SubCategory =
   | 'validation'
   // languages
   | 'c-programming'
-  | 'csharp (C#)'
+  | 'csharp'
   | 'golang'
   | 'java'
   | 'javascript'
@@ -94,7 +94,7 @@ export type SubCategory =
   | 'android'
   | 'competitive-programming'
   | 'css'
-  | 'dsa'
+  | 'data-structures'
   | 'fintech'
   | 'game-development'
   | 'machine-learning'
