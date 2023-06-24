@@ -90,27 +90,31 @@ const ContributorsPage: FC = () => {
         {sortedContributors.map((contributor) => (
           <div
             key={contributor.id}
-            className="bg-white rounded-lg p-4 shadow-md"
+            className="bg-gray-100 rounded-3xl py-5 px-2 border border-dashed border-violet-500 dark:border-violet-400 shadow-lg dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm flex flex-col"
           >
-            <Image
-              src={contributor.avatar_url}
-              alt={contributor.login}
-              width="80"
-              height="80"
-              className="w-16 h-16 rounded-full mx-auto mb-4"
-            />
-            <h2 className="text-xl font-bold text-center mb-2">
-              {contributor.name}
-            </h2>
-            <p className="text-gray-500 text-center mb-4">
-              Contributions: {contributor.contributions}
-            </p>
             <div className="flex justify-center">
+              <Image
+                src={contributor.avatar_url}
+                alt={contributor.login}
+                width={80}
+                height={80}
+                className="w-16 h-16 rounded-full mb-4"
+              />
+            </div>
+            <div className="text-center">
+              <h2 className="text-xl text-violet-600 dark:text-violet-400">
+                {contributor.name}
+              </h2>
+              <p className="text-gray-500 mb-2">
+                Contributions: {contributor.contributions}
+              </p>
+            </div>
+            <div className="flex justify-evenly mt-auto">
               <Link
                 href={`https://github.com/${contributor.login}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md"
+                className="bg-violet-600 hover:bg-transparent text-white px-4 py-2 rounded-md border border-dashed border-transparent duration-100 hover:border-violet-400 hover:text-violet-500 dark:hover:text-violet-400"
               >
                 View Profile
               </Link>
@@ -118,7 +122,7 @@ const ContributorsPage: FC = () => {
                 href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md"
+                className="bg-violet-600 hover:bg-transparent text-white px-4 py-2 rounded-md border border-dashed border-transparent duration-100 hover:border-violet-400 hover:text-violet-500 dark:hover:text-violet-400"
               >
                 Contributions
               </Link>
