@@ -36,7 +36,7 @@
     },
     {
         "name":"Reverse Engineering-TechTarget",
-        "description": "TechTarget gives essential knowledge about Reverse Engineering and the stages of reverse engineering",
+        "description": "TechTarget gives essential knowledge about Reverse Engineering",
         "url":"https://www.techtarget.com/searchsoftwarequality/definition/reverse-engineering",
         "category":"cyberSecurity",
         "subcategory":"basic"
