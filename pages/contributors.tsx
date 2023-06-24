@@ -32,16 +32,9 @@ const ContributorsPage: FC = () => {
         )
       }
     }
-    // console.log(contributors)
 
     fetchContributorsData()
   }, [])
-
-  //   useEffect(() => {
-  //     if (contributors.length > 0) {
-  //       console.log('First Contributor Login:', contributors[0].login)
-  //     }
-  //   }, [contributors])
 
   useEffect(() => {
     const fetchContributorNames = async () => {
@@ -68,6 +61,7 @@ const ContributorsPage: FC = () => {
           )
         }
       }
+
       setContributors(updatedContributors)
     }
 
@@ -77,7 +71,7 @@ const ContributorsPage: FC = () => {
   }, [contributors])
 
   const filteredContributors = contributors.filter(
-    (contributor) => contributor.contributions >= 5
+    (contributor) => contributor.contributions >= 6
   )
 
   const sortedContributors = filteredContributors.sort(
@@ -86,7 +80,7 @@ const ContributorsPage: FC = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
         {sortedContributors.map((contributor) => (
           <div
             key={contributor.id}
@@ -98,16 +92,16 @@ const ContributorsPage: FC = () => {
                 alt={contributor.login}
                 width={80}
                 height={80}
-                className="w-16 h-16 rounded-full mb-4"
+                className=" rounded-full mb-4"
               />
             </div>
             <div className="text-center">
-              <h2 className="text-xl text-violet-600 dark:text-violet-400">
+              <div className="text-xl text-violet-600 dark:text-violet-400">
                 {contributor.name}
-              </h2>
-              <p className="text-gray-500 mb-2">
-                Contributions: {contributor.contributions}
-              </p>
+              </div>
+              <div className="text-gray-400 mb-2 pb-4 pt-1">
+                {contributor.contributions} Contributions
+              </div>
             </div>
             <div className="flex justify-evenly mt-auto">
               <Link
@@ -116,7 +110,7 @@ const ContributorsPage: FC = () => {
                 rel="noopener noreferrer"
                 className="bg-violet-600 hover:bg-transparent text-white px-4 py-2 rounded-md border border-dashed border-transparent duration-100 hover:border-violet-400 hover:text-violet-500 dark:hover:text-violet-400"
               >
-                View Profile
+                GitHub Profile
               </Link>
               <Link
                 href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
@@ -136,6 +130,6 @@ const ContributorsPage: FC = () => {
 
 export default ContributorsPage
 
-// api reference
+// api reference data
 // https://api.github.com/repos/rupali-codes/LinksHub/contributors
 // https://api.github.com/users/Anmol-Baranwal
