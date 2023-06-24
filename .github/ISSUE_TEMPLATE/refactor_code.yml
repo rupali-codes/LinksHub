@@ -1,0 +1,38 @@
+name: Refactor Code 🔧
+description: Use this label for code refactoring tasks.
+title: '[Refactor] <write what you want to add>'
+labels: ['goal: refactor']
+body:
+  - type: input
+    attributes:
+      label: File Name
+      description: 'Enter the file that you want to refactor in the codebase.'
+      placeholder: 'For example - component/Cards/Card.tsx'
+    validations:
+      required: true
+  - type: textarea
+    id: refactor_description
+    attributes:
+      label: 'Reason for Refactoring the Code'
+      description: 'Describe what improvements can be made in the codebase without introducing breaking changes.'
+    validations:
+      required: true
+  - type: checkboxes
+    id: no-duplicate-issues
+    attributes:
+      label: 'Checklist'
+      options:
+        - label: 'I have checked the existing [issues](https://github.com/rupali-codes/LinksHub/issues).'
+          required: true
+
+        - label: 'I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md).'
+          required: true
+
+        - label: "The changes don't break the code and don't introduce new functionality."
+          required: true
+
+        - label: 'I am willing to work on this issue (optional).'
+          required: false
+
+        - label: 'I am a GSSoC23 contributor.'
+          required: false
