@@ -4,7 +4,7 @@ import Image from 'next/image'
 interface Contributor {
   id: number
   avatar_url: string
-  name: string // https://github.com/rupali-codes/LinksHub/commits?author=Anmol-Baranwal
+  name: string
   login: string
   contributions: number
 }
@@ -42,6 +42,39 @@ const ContributorsPage: FC = () => {
   //     }
   //   }, [contributors])
 
+  useEffect(() => {
+    const fetchContributorNames = async () => {
+      const updatedContributors: Contributor[] = []
+      for (const contributor of contributors) {
+        try {
+          const response = await fetch(
+            `https://api.github.com/users/${contributor.login}`
+          )
+          if (response.ok) {
+            const data = await response.json()
+            const updatedContributor: Contributor = {
+              ...contributor,
+              name: data.name || contributor.login, // Using login as second option if name is not available
+            }
+            updatedContributors.push(updatedContributor)
+          } else {
+            console.error('Failed to fetch contributor name:', response.status)
+          }
+        } catch (error) {
+          console.error(
+            'Failed to fetch contributor name from GitHub API:',
+            error
+          )
+        }
+      }
+      setContributors(updatedContributors)
+    }
+
+    if (contributors.length > 0) {
+      fetchContributorNames()
+    }
+  }, [contributors])
+
   const filteredContributors = contributors.filter(
     (contributor) => contributor.contributions >= 5
   )
@@ -66,7 +99,7 @@ const ContributorsPage: FC = () => {
               className="w-16 h-16 rounded-full mx-auto mb-4"
             />
             <h2 className="text-xl font-bold text-center mb-2">
-              {contributor.login}
+              {contributor.name}
             </h2>
             <p className="text-gray-500 text-center mb-4">
               Contributions: {contributor.contributions}
