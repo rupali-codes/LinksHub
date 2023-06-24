@@ -1,5 +1,6 @@
 import { FC, useEffect, useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 interface Contributor {
   id: number
@@ -105,14 +106,22 @@ const ContributorsPage: FC = () => {
               Contributions: {contributor.contributions}
             </p>
             <div className="flex justify-center">
-              <a
+              <Link
                 href={`https://github.com/${contributor.login}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md"
               >
                 View Profile
-              </a>
+              </Link>
+              <Link
+                href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md"
+              >
+                Contributions
+              </Link>
             </div>
           </div>
         ))}
@@ -122,3 +131,7 @@ const ContributorsPage: FC = () => {
 }
 
 export default ContributorsPage
+
+// api reference
+// https://api.github.com/repos/rupali-codes/LinksHub/contributors
+// https://api.github.com/users/Anmol-Baranwal
