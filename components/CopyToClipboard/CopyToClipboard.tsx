@@ -28,7 +28,7 @@ export const CopyToClipboard = ({
         title="Copy link"
         onClick={(e) => handleCopy(e)}
       />
-      <Tooltip id={id} place="top" style={{background:'#7C3AED'}}>
+      <Tooltip id={id} place="top" style={{background:'#8b5cf6'}}>
         {success ? 'Copied!' : 'Copy'}
       </Tooltip>
     </div>
