@@ -15,19 +15,19 @@ body:
       description: Provide Name of Subctaegory
     validations:
       required: true
-   - type: textarea
+  - type: textarea
     attributes:
       label: New or updated description of above subcategory
     validations:
       required: true
-  -type: checkboxes
+  - type: checkboxes
     attributes:
       label: Status of Description
       options:
         - label: "Adding new description"
           required: false
-      options:
-        - label: "UPdating existing description"
+
+        - label: "Updating existing description"
           required: false
   - type: checkboxes
     id: no-duplicate-issues
