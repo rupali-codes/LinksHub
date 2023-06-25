@@ -109,7 +109,7 @@ When adding _YouTube_ channel link, please specify _the language_ of the channel
 ---
 
 ### Adding and Updating Category Description 📝
-> ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) to suggest new descriptions, and someone else will take care of them.
+> ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) to suggest new descriptions. The maintainers will review them and then assign them.
 
 #### 🌟Follow these steps to add your links to the Hub
 
