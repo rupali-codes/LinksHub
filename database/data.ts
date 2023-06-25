@@ -160,7 +160,11 @@ export const sidebarData: ISidebar[] = [
         url: '/web3-metaverse',
         resources: DB.web3metaverse,
       },
-      { name: 'Testing', url: '/youtube-testing', resources: DB.youtubTesting },
+      {
+        name: 'Testing',
+        url: '/youtube-testing',
+        resources: DB.youtubeTesting,
+      },
       {
         name: 'Computer Science',
         url: '/computer-science',
