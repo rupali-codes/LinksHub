@@ -145,5 +145,12 @@
     "url": "https://farbvelo.elastiq.ch/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  {
+    "name": "Culrs",
+    "description": "A resource to get beautiful and well-curated color palettes that you can use in your work.",
+    "url": "https://culrs.com/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
