@@ -52,12 +52,13 @@ export const sidebarData: ISidebar[] = [
       { name:  'Java', url: '/java'},
       { name:  'Kotlin', url: '/kotlin'}
       
+
     ],
   },
   {
     category: 'ml & ai',
     subcategory: [
-      { name: 'machine learning', url: '/ml' },
+      { name: 'machine learning', url: '/machine-learning' },
       { name: 'data science', url: '/data-science' },
       { name: 'deep learning', url: '/deep-learning' },
     ],
@@ -87,7 +88,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'CSS', url: '/css' },
       { name: 'machine learning', url: '/machine-learning' },
       { name: 'tensorflow', url: '/tensorflow' },
-      { name: 'data structures', url: '/dsa' },
+      { name: 'data structures', url: '/data-structures' },
       { name: 'Android', url: '/android' },
       { name: 'Web3 & Metaverse', url: '/web3-metaverse' },
       { name: 'Testing', url: '/testing' },
@@ -100,7 +101,7 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'other',
     subcategory: [
-      { name: 'events', url: '/events'},
+      { name: 'events', url: '/events' },
       { name: 'Github', url: '/github' },
       { name: 'Dev Tools', url: '/devtools' },
       { name: 'Podcasts', url: '/podcasts' },

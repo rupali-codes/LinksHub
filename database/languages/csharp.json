@@ -4,20 +4,20 @@
     "description": "This site teaches fundamentals of the Csharp or C# programming language in a simplified way",
     "url": "https://www.tutorialsteacher.com/csharp/",
     "category": "languages",
-    "subcategory": "csharp (C#)"
+    "subcategory": "csharp"
   },
   {
     "name": "Introduction to C#",
     "description": "A beginner friendly interactive tutorial to C# by Microsoft itself.",
     "url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/",
     "category": "languages",
-    "subcategory": "csharp (C#)"
+    "subcategory": "csharp"
   },
   {
     "name": "Programiz",
     "description": "A nice and beginner friendly tutorial for C#.",
     "url": "https://www.programiz.com/csharp-programming",
     "category": "languages",
-    "subcategory": "csharp (C#)"
+    "subcategory": "csharp"
   }
 ]
