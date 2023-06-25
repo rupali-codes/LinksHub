@@ -50,7 +50,6 @@ export const sidebarData: ISidebar[] = [
       { name: 'C++ Programming', url: '/cpp-programming' },
       { name:  'Java', url: '/java'},
       { name:  'Kotlin', url: '/kotlin'}
-      
     ],
   },
   {
