@@ -1,1 +1,8 @@
-[]
+[{
+    "name": "Game Design 101",
+    "description": "Videos that look at the fundamental lessons of game design, applicable to pretty much every type of game. It is playlist created by Mark Brown a well know game developer",
+    "url": "https://youtube.com/playlist?list=PLc38fcMFcV_vToz9Nvc_YQTNH8hkIQ2uC",
+    "category": "youtube",
+    "subcategory": "game-development",
+    "language": "english"
+  }]
