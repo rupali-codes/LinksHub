@@ -11,7 +11,7 @@
 - [Getting Started 👩‍💻](#getting-started-)
 - [Let's jump right in🌟](#lets-jump-right-in)
 - [_Want to add your favorite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
-- [Add or update description](#want-to-add-or-update-the-descriptions-of-subcategroies)
+- [Add or update description](#want-to-add-or-update-the-descriptions-of-subcategories)
 - [Building with Gitpod 💣](#building-with-gitpod-)
 - [Our Contributors ✨](#our-contributors-)
 - [License 📝](#license-)
