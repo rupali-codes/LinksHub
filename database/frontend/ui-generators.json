@@ -159,5 +159,12 @@
     "url": "https://ui.glass/generator/",
     "category": "frontend",
     "subcategory": "ui-generators"
+  },
+  {
+    "name":"Tailwind Awesome",
+    "description":"Tailwind Awesome is a curated list of the best Tailwind templates & UI kits on the internet.",
+    "url": "https://www.tailwindawesome.com/?technology=3",
+    "category":"frontend",
+    "subcategory":"ui-generators"
   }
 ]
