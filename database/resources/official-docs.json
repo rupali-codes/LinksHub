@@ -26,5 +26,12 @@
     "url": "https://docs.djangoproject.com/en/4.2/",
     "category": "resources",
     "subcategory": "officialdocs"
+  },
+  {
+   "name": "Next.js",
+   "description": "This page provides an overview of the Next.js documentation and related resources.",
+   "url": "https://nextjs.org/",
+   "category": "resources",
+   "subcategory": "officialdocs"
   }
 ]
