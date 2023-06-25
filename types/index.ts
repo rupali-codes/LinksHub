@@ -112,6 +112,7 @@ export type SubCategory =
 export type SubCategories = {
   name: string
   url: string
+  resources: IDBData[]
 }
 
 export interface ISidebar {
