@@ -32,7 +32,6 @@ export { default as CProgramming } from './languages/c-programming.json'
 export { default as kotlin} from './languages/kotlin.json'
 export { default as java} from './languages/java.json'
 export {default as cpp} from './languages/c++.json'
-
 // ml & ai
 export { default as ml } from './ml&ai/machine-learning.json'
 export { default as dataScience } from './ml&ai/datascience.json'
