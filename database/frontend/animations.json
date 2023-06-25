@@ -96,5 +96,12 @@
     "url": "https://animxyz.com/",
     "category": "frontend",
     "subcategory": "animations"
+  },
+  {
+    "name": "CSS Scan",
+    "description": "CSS Scan is a website that provides a collection of CSS box shadow examples and a handy tool for generating and customizing box shadows.",
+    "url": "https://getcssscan.com/css-box-shadow-examples",
+    "category": "frontend",
+    "subcategory": "animations"
   }
 ]
