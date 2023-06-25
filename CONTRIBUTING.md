@@ -117,7 +117,7 @@ When adding _YouTube_ channel link, please specify _the language_ of the channel
 - Locate the file: `components/TopBar/CategoryDescriptions.ts`
 - Add or update the description in front of the subcategory name.
 
-  > For example, to add description of `fonts` subcategory under `frontend` categrogy
+  > For example, to add the description of the `fonts` subcategory under the `frontend` category, you would do the following: 
 
   ```js
   const categoryDescriptions: CategoryDescriptions = {
