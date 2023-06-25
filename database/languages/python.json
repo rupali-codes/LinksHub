@@ -34,7 +34,7 @@
         "category": "languages",
         "subcategory": "python"
     },
-     {
+    {
         "name": "Complete Python Tutorial",
         "description": "Learn complete python through live examples. This tutorial includes file handling, various module, matplotlib, ML, Mongodb and MySql",
         "url": "https://www.w3schools.com/python/",
