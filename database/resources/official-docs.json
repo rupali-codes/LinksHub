@@ -28,13 +28,13 @@
     "subcategory": "officialdocs"
   },
   {
-
    "name": "Next.js",
    "description": "This page provides an overview of the Next.js documentation and related resources.",
    "url": "https://nextjs.org/",
    "category": "resources",
    "subcategory": "officialdocs"
   },
+  {
     "name": "Angular",
     "description": "This page is an overview of the Angular documentation and related resources.",
     "url": "https://angular.io/docs",
