@@ -52,7 +52,6 @@ export const sidebarData: ISidebar[] = [
       { name:  'Java', url: '/java'},
       { name:  'Kotlin', url: '/kotlin'}
       
-
     ],
   },
   {
