@@ -36,10 +36,10 @@ export { default as ml } from './ml&ai/ml.json'
 export { default as dataScience } from './ml&ai/datascience.json'
 export { default as deepLearning } from './ml&ai/deeplearning.json'
 // Cyber Security
-export { default as basic} from './cyberSecurity/basic.json'
-export { default as certificate} from './cyberSecurity/certificate.json'
+export { default as basics} from './cyberSecurity/basics.json'
+export { default as certification} from './cyberSecurity/certification.json'
 export { default as tools} from './cyberSecurity/tools.json'
-export { default as platform} from './cyberSecurity/platform.json'
+export { default as cyberSecurityResources} from './cyberSecurity/resources.json'
 
 // Open-source
 export { default as openSourceBlogs } from './opensource/blogs.json'

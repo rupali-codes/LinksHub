@@ -1,0 +1,37 @@
+[
+    {
+        "name":"CompTIA A+",
+        "description":"CompTIA A+ provides entry-level certificates for beginners and people who just started their career in Cybersecurity.",
+        "url":"https://www.comptia.org/certifications/a",
+        "category":"cyberSecurity",
+        "subcategory":"certificate"
+    },
+    {
+        "name":"Cisco CCNA",
+        "description":"Cisco provides computer network certificate to help people gain the knowledge of networking and its tools.",
+        "url":"https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html",
+        "category":"cyberSecurity",
+        "subcategory":"certificate"
+    },
+    {
+        "name":"Certified Ethical Hacker(CEH)",
+        "description":"Certified Ethical Hacker(CEH) helps you learn about Ethical Hacking.",
+        "url":"https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+        "category":"cyberSecurity",
+        "subcategory":"certificate"
+    },
+    {
+        "name":"CompTIA Security+",
+        "description":"CompTIA Security+ is a mid-level certificate for the person who has basic knowledge about Cybersecurity.",
+        "url":"https://www.comptia.org/certifications/security",
+        "category":"cyberSecurity",
+        "subcategory":"certificate"
+    },
+    {
+        "name":"CISSP",
+        "description":"This certificate is recommended for the person who is interested in cloud security.",
+        "url":"https://www.isc2.org/Certifications/CCSP",
+        "category":"cyberSecurity",
+        "subcategory":"certificate"
+    }
+]

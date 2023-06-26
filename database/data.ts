@@ -64,10 +64,10 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'cyberSecurity',
     subcategory: [
-      { name: 'basic', url: '/basic'},
-      { name: 'certificate', url: '/certificate'},
+      { name: 'basics', url: '/basics'},
+      { name: 'certification', url: '/certification'},
       { name: 'tools' , url: '/tools'},
-      { name: 'platform', url: '/platform'},
+      { name: 'cyberSecurityResources', url: '/resources'},
     ],
   },
   {
