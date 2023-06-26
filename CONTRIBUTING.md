@@ -45,6 +45,24 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
 - Make sure to export the newly created JSON file in the index file.
 
+- There are a couple of additional steps you need to follow:
+
+  - Navigate to `types/index.ts`.
+
+    - If you are adding a category, include the name of the category used in `database/data.ts` in the `Category` type.
+
+      > For example, if you are adding a category called `open source`, add it to the `export type` statement in the appropriate style.
+
+    - If you are adding a subcategory, include the name of the JSON file used for the subcategory in the `SubCategory` type.
+
+      > For example, if you are adding a subcategory using the file `online-code-editors.json`, add `online-code-editors` to the `export type` statement in the appropriate style.
+
+  - If you are adding a subcategory, go to `components/TopBar/CategoryDescriptions.ts` and add the subcategory name used when exporting the name in `database/index.ts`, along with a proper description in the correct format.
+
+    > For example, if you export the subcategory name as `onlineCodeEditors` in `database/index.ts`, add the same name to `CategoryDescriptions.ts` using the following style:
+
+    > subcategoryName: 'description of this subcategory'
+
 ### Appending new Links 🔗
 
 > ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) to suggest new links, and someone else will take care of them.
@@ -87,6 +105,29 @@ When adding _YouTube_ channel link, please specify _the language_ of the channel
 > - **Do not** make duplicate entries. Always confirm that an entry does not exist by searching through the JSON file.
 > - Ensure that your entries are error-free by double-checking before staging your changes.
 > - Your entries should follow the above structure.
+
+---
+
+### Adding and Updating Category Description 📝
+> ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) to suggest new descriptions. The maintainers will review them and then assign them.
+
+#### 🌟Follow these steps to add your links to the Hub
+
+- Choose the category and subcategory under which you want to add a description.
+- Locate the file: `components/TopBar/CategoryDescriptions.ts`
+- Add or update the description in front of the subcategory name.
+
+  > For example, to add the description of the `fonts` subcategory under the `frontend` category, you would do the following: 
+
+  ```js
+  const categoryDescriptions: CategoryDescriptions = {
+    //frontend
+    -                      //other subcatogery
+    -
+    fonts: 'New Description here',
+    -
+    -
+  ```
 
 ---
 
