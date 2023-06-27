@@ -1,7 +1,7 @@
 [
   {
     "name": "PostgreSQL",
-    "description": "PostgreSQL is a free, open-source relational database and it is handling structured data and widely used database management system. ",
+    "description": "PostgreSQL is a free, open-source relational database that handles structured data and a widely used database management system. ",
     "url": "https://www.postgresql.org/",
     "category": "backend",
     "subcategory": "database"
