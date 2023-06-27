@@ -60,7 +60,6 @@ export const sidebarData: ISidebar[] = [
       { name: 'deep learning', url: '/deep-learning' },
     ],
   },
-
   {
     category: 'cyberSecurity',
     subcategory: [
