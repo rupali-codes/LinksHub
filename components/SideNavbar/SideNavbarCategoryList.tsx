@@ -24,20 +24,20 @@ export const SideNavbarCategoryList: FC<{
 
   // console.log(isItemsOpen, openByDefault)
 
-  useEffect(() => {
-    setIsItemsOpen(
-      !isSearching
-        ? { ...statePriorToSearch }
-        : items.reduce(
-            (acc, item) => ({
-              ...acc,
-              [item.category]:
-                isSearching || isItemsOpen[item.category] || false,
-            }),
-            {}
-          )
-    )
-  }, [isSearching, items])
+  // useEffect(() => {
+  //   setIsItemsOpen(
+  //     !isSearching
+  //       ? { ...statePriorToSearch }
+  //       : items.reduce(
+  //           (acc, item) => ({
+  //             ...acc,
+  //             [item.category]:
+  //               isSearching || isItemsOpen[item.category] || false,
+  //           }),
+  //           {}
+  //         )
+  //   )
+  // }, [isSearching, items])
 
   /**
    * @param category the category to toggle
@@ -57,27 +57,21 @@ export const SideNavbarCategoryList: FC<{
   }
   return (
     <ul className="mt-2 flex flex-col justify-center px-4 pb-24">
-      {items.length !== 0 ? (
-        items.map((item, index) => {
-          return (
-            <SideNavbarCategory
-              key={index}
-              item={item}
-              handleToggle={handleToggle}
-              isOpen={
-                isSearching
-                  ? isItemsOpen[item.category]
-                  : statePriorToSearch[item.category] ||
-                    isItemsOpen[item.category]
-              }
-            />
-          )
-        })
-      ) : (
-        <div className="dark:text-gray-200 text-gray-500 text-lg text-center py-2">
-          No Links Found
-        </div>
+      {items.map(
+        (item, index) => (
+          <SideNavbarCategory
+            key={index}
+            item={item}
+            handleToggle={handleToggle}
+            isOpen={
+              isSearching
+                ? isItemsOpen[item.category]
+                : statePriorToSearch[item.category] ||
+                  isItemsOpen[item.category]
+            }
+          />
+        )
       )}
     </ul>
-  )
+  );
 }
