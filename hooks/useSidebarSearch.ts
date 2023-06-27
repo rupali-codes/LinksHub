@@ -26,7 +26,6 @@ function useSidebarSearch() {
         return {
           ...sidebarData,
           subcategory: sidebarData.subcategory.filter((sc) => {
-            console.log(sc)
             if (debouncedSearch.length < 1) return true
             else if (
               sc.name.toLowerCase().includes(debouncedSearch.toLowerCase()) ||
