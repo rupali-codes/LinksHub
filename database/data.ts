@@ -77,7 +77,6 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'languages',
     subcategory: [
- search-enhancement
       { name: 'JavaScript', url: '/javascript', resources: DB.javascript },
       { name: 'Python', url: '/python', resources: DB.python },
       { name: 'Csharp (C#)', url: '/csharp', resources: DB.csharp },
@@ -101,7 +100,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'C Programming', url: '/c-programming' },
       { name: 'C++ Programming', url: '/cpp-programming' },
       { name:  'Java', url: '/java'},
-      { name:  'Kotlin', url: '/kotlin'
+      { name:  'Kotlin', url: '/kotlin'},
     ],
   },
   {
