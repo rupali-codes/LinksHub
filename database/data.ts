@@ -48,8 +48,8 @@ export const sidebarData: ISidebar[] = [
       { name: 'Ruby', url: '/ruby' },
       { name: 'C Programming', url: '/c-programming' },
       { name: 'C++ Programming', url: '/cpp-programming' },
-      { name:  'Java', url: '/java'},
-      { name:  'Kotlin', url: '/kotlin'}
+      { name: 'Java', url: '/java' },
+      { name: 'Kotlin', url: '/kotlin' },
     ],
   },
   {

@@ -161,10 +161,17 @@
     "subcategory": "ui-generators"
   },
   {
-    "name":"Tailwind Awesome",
-    "description":"Tailwind Awesome is a curated list of the best Tailwind templates & UI kits on the internet.",
+    "name": "Tailwind Awesome",
+    "description": "Tailwind Awesome is a curated list of the best Tailwind templates & UI kits on the internet.",
     "url": "https://www.tailwindawesome.com/?technology=3",
-    "category":"frontend",
-    "subcategory":"ui-generators"
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
+    "name": "CSS Filters",
+    "description": "Visual playground for generating CSS for custom and Instagram like photo filters. Experiment with your own uploaded photo or select one from the Unsplash collection.",
+    "url": "https://www.cssfilters.co/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
   }
 ]
