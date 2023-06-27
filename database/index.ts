@@ -40,7 +40,6 @@ export { default as basics} from './cyberSecurity/basics.json'
 export { default as certification} from './cyberSecurity/certification.json'
 export { default as tools} from './cyberSecurity/tools.json'
 export { default as cyberSecurityResources} from './cyberSecurity/resources.json'
-
 // Open-source
 export { default as openSourceBlogs } from './opensource/blogs.json'
 export { default as openSourceProjects } from './opensource/projects.json'
