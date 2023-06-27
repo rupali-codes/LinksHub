@@ -11,6 +11,7 @@
 - [Getting Started 👩‍💻](#getting-started-)
 - [Let's jump right in🌟](#lets-jump-right-in)
 - [_Want to add your favorite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
+- [Add or update description](#want-to-add-or-update-the-descriptions-of-subcategories)
 - [Building with Gitpod 💣](#building-with-gitpod-)
 - [Our Contributors ✨](#our-contributors-)
 - [License 📝](#license-)
@@ -123,6 +124,9 @@ You can see the live demo at: https://linkshub.vercel.app
     > Click _compare across forks_ if you don't see your branch
 
 #### _Want to add your favourite links to the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/linkshub/blob/main/CONTRIBUTING.md)._
+
+#### Want to add or update the descriptions of subcategories?
+Make sure to follow [CONTRIBUTING guidelines](./CONTRIBUTING.md#Adding-and-Updating-Category-Description-).
 
 ---
 
