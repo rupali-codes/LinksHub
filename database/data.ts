@@ -21,6 +21,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'UI Generators', url: '/ui-generator' },
       { name: 'online code editors', url: '/online-code-editors' },
       { name: 'accessibility', url: '/accessibility' },
+      { name: 'videos', url: '/videos' },
     ],
   },
   {
@@ -45,12 +46,16 @@ export const sidebarData: ISidebar[] = [
       { name: 'Go', url: '/golang' },
       { name: 'TypeScript', url: '/typescript' },
       { name: 'Ruby', url: '/ruby' },
+      { name: 'C Programming', url: '/c-programming' },
+      { name: 'C++ Programming', url: '/cpp-programming' },
+      { name:  'Java', url: '/java'},
+      { name:  'Kotlin', url: '/kotlin'}
     ],
   },
   {
     category: 'ml & ai',
     subcategory: [
-      { name: 'machine learning', url: '/ml' },
+      { name: 'machine learning', url: '/machine-learning' },
       { name: 'data science', url: '/data-science' },
       { name: 'deep learning', url: '/deep-learning' },
     ],
@@ -67,6 +72,7 @@ export const sidebarData: ISidebar[] = [
     category: 'resources',
     subcategory: [
       { name: 'blogs', url: '/blogs' },
+      { name: 'Official Docs', url: '/officialdocs' },
       { name: 'hosting', url: '/hosting' },
       { name: 'e-book', url: '/e-book' },
       { name: 'project ideas', url: '/project-ideas' },
@@ -79,22 +85,25 @@ export const sidebarData: ISidebar[] = [
       { name: 'CSS', url: '/css' },
       { name: 'machine learning', url: '/machine-learning' },
       { name: 'tensorflow', url: '/tensorflow' },
-      { name: 'data structures', url: '/dsa' },
+      { name: 'data structures', url: '/data-structures' },
       { name: 'Android', url: '/android' },
       { name: 'Web3 & Metaverse', url: '/web3-metaverse' },
       { name: 'Testing', url: '/testing' },
       { name: 'Computer Science', url: '/computer-science' },
       { name: 'Competitive Programming', url: '/competitive-programming' },
       { name: 'FinTech', url: '/fintech' },
+      { name: 'Game Development', url: '/game-development' },
     ],
   },
   {
     category: 'other',
     subcategory: [
+      { name: 'events', url: '/events' },
       { name: 'Github', url: '/github' },
       { name: 'Dev Tools', url: '/devtools' },
       { name: 'Podcasts', url: '/podcasts' },
       { name: 'Other Resources', url: '/other-resources' },
+      { name: 'communities', url: '/communities' },
     ],
   },
 ]

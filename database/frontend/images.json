@@ -1,7 +1,7 @@
 [
   {
     "name": "Unsplash",
-    "description": "Unsplash is a site to get free images, you can download all kind of HD images in here for free.",
+    "description": "Unsplash is a site to get free images, you can download all kinds of HD images here for free.",
     "url": "https://unsplash.com",
     "category": "frontend",
     "subcategory": "images"
@@ -22,7 +22,7 @@
   },
   {
     "name": "Kaboompics",
-    "description": "it allows to search pictures by color, and  it provides a complementary palette of colors in the photo.",
+    "description": "It allows you to search pictures by color, and  it provides a complementary palette of colors in the photo.",
     "url": "https://kaboompics.com/",
     "category": "frontend",
     "subcategory": "images"
@@ -64,7 +64,7 @@
   },
   {
     "name": "Flickr",
-    "description": "Flickr is a community of photographers with stunning images. Its search and social features make following favorites effortless.",
+    "description": "Flickr is a community of photographers with stunning images. Its search and social features make following favourites effortless.",
     "url": "https://www.flickr.com/",
     "category": "frontend",
     "subcategory": "images"
@@ -80,6 +80,48 @@
     "name": "Life of Pix",
     "description": "Life of Pix is a user-friendly platform that offers free, premium photos from skilled photographers worldwide with no copyright restrictions.",
     "url": "https://www.lifeofpix.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Free Photos",
+    "description": "FreePhotos.cc is a user-friendly website offering a vast collection of high-quality, royalty-free images for personal and commercial use.",
+    "url": "https://freephotos.cc/en",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Moose",
+    "description": "Moose Photos is a comprehensive online platform offering a vast collection of high-quality royalty-free photos for various creative projects.",
+    "url": " https://icons8.com/photos",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Burst",
+    "description": "Burst is a user-friendly website offering a vast collection of high-quality, royalty-free images for personal and commercial use.",
+    "url": "https://burst.shopify.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Barn Images",
+    "description": "Barnimages.com offers a stunning collection of high-quality, royalty-free photographs capturing the rustic charm and natural beauty of rural settings.",
+    "url": "https://barnimages.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Vecteezy",
+    "description": "Vecteezy.com is a website offering a vast collection of free vector graphics and illustrations for creative projects.",
+    "url": " https://www.vecteezy.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Pikwizard",
+    "description": "Pikwizard is a website that provides a vast collection of high-quality, free stock photos for personal and commercial use.",
+    "url": "  https://pikwizard.com/",
     "category": "frontend",
     "subcategory": "images"
   }
