@@ -8,7 +8,7 @@
   },
   {
     "name": "Firebase",
-    "description": "It is a set of backend cloud computing services and application development platform provided by Google. It hosts databases, services, authentication, and integration for a variety of applications, including Android, iOS, JavaScript, Node.js, Java, Unity, PHP, and C++.",
+    "description": "It is a set of backend cloud computing services and application development platforms provided by Google. It hosts databases, services, authentication, and integration for a variety of applications, including Android, iOS, JavaScript, Node.js, Java, Unity, PHP, and C++.",
     "url": "https://firebase.google.com/docs/database",
     "category": "backend",
     "subcategory": "database"
@@ -17,6 +17,20 @@
     "name": "Tigris",
     "description": "Tigris is an open source NoSQL transactional database and search platform",
     "url": "https://www.tigrisdata.com/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
+    "name": "Supabase",
+    "description": "Supabase is a powerful open-source platform that combines database and authentication services to simplify backend development for web and mobile applications.",
+    "url": "https://supabase.com/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
+    "name": "SurrealDB",
+    "description": "SurrealDB.com is an innovative platform merging reality and imagination, offering a unique and immersive experience through its surreal database.",
+    "url": "https://surrealdb.com/",
     "category": "backend",
     "subcategory": "database"
   }

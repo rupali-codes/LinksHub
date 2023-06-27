@@ -1,47 +1,47 @@
-import React, { useEffect, useState } from "react";
-import { useTransition } from "react-transition-state";
-import { FaArrowUp } from "react-icons/fa";
-import { SCROLL_LIMIT } from "app/constants";
+import React, { useEffect, useState } from 'react'
+import { useTransition } from 'react-transition-state'
+import { FaArrowUp } from 'react-icons/fa'
+import { SCROLL_LIMIT } from 'app/constants'
 
 export const BackToTopButton = () => {
-  const [scrollY, setScrollY] = useState(0);
+  const [scrollY, setScrollY] = useState(0)
   const [{ isMounted, status }, toggle] = useTransition({
     mountOnEnter: true,
     unmountOnExit: true,
     preEnter: true,
-  });
+  })
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
+      setScrollY(window.scrollY)
+    }
 
-    handleScroll();
+    handleScroll()
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll)
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
 
   useEffect(() => {
-    toggle(scrollY > SCROLL_LIMIT);
-  }, [scrollY]);
+    toggle(scrollY > SCROLL_LIMIT)
+  }, [scrollY])
 
   const handleClick = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
-    });
-  };
+      behavior: 'smooth',
+    })
+  }
 
   return isMounted ? (
     <div
       className={`group fixed z-20 bottom-12 right-12 transform transition duration-300${
-        status === "preEnter" || status === "exiting"
-          ? " opacity-0 translate-y-3"
-          : ""
+        status === 'preEnter' || status === 'exiting'
+          ? ' opacity-0 translate-y-3'
+          : ''
       }`}
     >
       <button
@@ -55,5 +55,5 @@ export const BackToTopButton = () => {
         👾
       </span>
     </div>
-  ) : null;
-};
+  ) : null
+}

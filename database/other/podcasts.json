@@ -1,9 +1,9 @@
 [
-    {
-        "name": "Open Source Stories",
-        "description": "Founded by Amanda Casari and Julia Ferraioli, Open Source Stories is a podcast where individuals record their experiences about being in the open source community. In contrast to other podcasts, these stories are saved in the StoryCorps archive at the United States Congress! So what are you waiting for? Share your story!",
-        "url": "https://www.opensourcestories.org/",
-        "category": "other",
-        "subcategory": "podcasts"
-    }
+  {
+    "name": "Open Source Stories",
+    "description": "Founded by Amanda Casari and Julia Ferraioli, Open Source Stories is a podcast where individuals record their experiences about being in the open source community. In contrast to other podcasts, these stories are saved in the StoryCorps archive at the United States Congress! So what are you waiting for? Share your story!",
+    "url": "https://www.opensourcestories.org/",
+    "category": "other",
+    "subcategory": "podcasts"
+  }
 ]
