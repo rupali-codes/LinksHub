@@ -90,17 +90,6 @@ export const sidebarData: ISidebar[] = [
       },
       { name: 'Java', url: '/java', resources: DB.java },
       { name: 'Kotlin', url: '/kotlin', resources: DB.kotlin },
-
-      { name: 'JavaScript', url: '/javascript' },
-      { name: 'Python', url: '/python' },
-      { name: 'Csharp (C#)', url: '/csharp' },
-      { name: 'Go', url: '/golang' },
-      { name: 'TypeScript', url: '/typescript' },
-      { name: 'Ruby', url: '/ruby' },
-      { name: 'C Programming', url: '/c-programming' },
-      { name: 'C++ Programming', url: '/cpp-programming' },
-      { name:  'Java', url: '/java'},
-      { name:  'Kotlin', url: '/kotlin'},
     ],
   },
   {
