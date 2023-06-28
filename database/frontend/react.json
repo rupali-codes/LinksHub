@@ -55,5 +55,19 @@
     "url": "https://ui.dev/free-react-bootcamp",
     "category": "frontend",
     "subcategory": "react"
+  },
+  {
+    "name": "React Redux ",
+    "description": "Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. Similar to Facebook's Flux architecture, it was created by Dan Abramov and Andrew Clark",
+    "url": "https://redux.js.org/introduction/getting-started",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "Recoil Js ",
+    "description": "Recoil is an experimental state management library and It provides several capabilities that are difficult to achieve with React alone.In this article we learn about the recoil. js, and how it is managing state in react. JavaScript React Recoil. Recoil js is another state management library for React.",
+    "url": "https://recoiljs.org/docs/introduction/getting-started/",
+    "category": "frontend",
+    "subcategory": "react"
   }
 ]
