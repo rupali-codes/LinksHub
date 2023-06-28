@@ -33,5 +33,12 @@
     "url": "https://surrealdb.com/",
     "category": "backend",
     "subcategory": "database"
+  },
+  {
+    "name": "MySQL",
+    "description": "MySQL is an open-source relational database management system widely used for storing and retrieving structured data efficiently.",
+    "url": "https://docs.oracle.com/en-us/iaas/mysql-database/doc/getting-started.html",
+    "category": "backend",
+    "subcategory": "database"
   }
 ]
