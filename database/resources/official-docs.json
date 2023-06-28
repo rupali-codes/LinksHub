@@ -42,8 +42,8 @@
     "subcategory": "officialdocs"
   },
   {
-    "name": "Vuejs",
-    "description": "This page contains comprehensive documentation of Vue.js,the progressive JavaScript framework.",
+    "name": "Vue.js",
+    "description": "This page contains comprehensive documentation of Vue.js, it's the progressive JavaScript framework.",
     "url": "https://vuejs.org/",
     "category": "resources",
     "subcategory": "officialdocs"
