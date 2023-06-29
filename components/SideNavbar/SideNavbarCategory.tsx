@@ -1,4 +1,4 @@
-import { FC, useState } from 'react'
+import { FC } from 'react'
 import { FaAngleDown } from 'react-icons/fa'
 import { SideNavbarElement } from './SideNavbarElement'
 import type { ISidebar, Category } from '../../types'
@@ -9,11 +9,9 @@ export const SideNavbarCategory: FC<{
   isOpen: boolean
 }> = (props) => {
   const { item, isOpen } = props
-  const [isExpanded, setExpanded] = useState(false)
 
   const handleToggle = () => {
     props.handleToggle(item.category, isOpen)
-    setExpanded(!isExpanded)
   }
 
   const subcategoryList = item.subcategory
@@ -33,13 +31,13 @@ export const SideNavbarCategory: FC<{
         <h1 className="font-bold uppercase">{item.category}</h1>
         <FaAngleDown
           className={`${
-            isExpanded && 'rotate-180'
+            isOpen && 'rotate-180'
           } self-center transition duration-300 ease-in-out`}
         />
       </button>
       <div
         className={`overflow-hidden transition-all duration-500 ease-in-out max-h-0 ${
-          isExpanded ? 'max-h-screen' : ''
+          isOpen ? 'max-h-screen' : ''
         }`}
       >
         <ul className="relative ml-1 border-l-2 border-slate-300 dark:border-slate-700 -pl-0.5">
