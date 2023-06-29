@@ -36,9 +36,6 @@ const CardsList: FC<{ cards: IData[] }> = ({ cards }) => {
         className={`grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-stretch`}
       >
         {currentCards.map((data: IData) => (
-
-      <ul className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-stretch">
-        {cards.map((data: IData) => (
           <CardsListItem
             key={data.id}
             data={data}
