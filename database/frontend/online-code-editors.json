@@ -70,6 +70,13 @@
     "subcategory": "online-code-editors"
   },
   {
+    "name": "OneCompiler",
+    "description": "Got a new feature for your web app? Implement it with OneCompiler on mobile and anywhere. It supports over 60+ programming languages and frontend frameworks.",
+    "url": "https://onecompiler.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
     "name": "StackBlitz",
     "description": "StackBlitz is an online code editor powered by WebContainers that allows users to create, collaborate, and deploy web applications.",
     "url": "https://stackblitz.com/",
