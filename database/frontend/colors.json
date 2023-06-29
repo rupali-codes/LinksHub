@@ -152,5 +152,12 @@
     "url": "https://culrs.com/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  {
+    "name": "Eva Colors",
+    "description": "Unleash the power of deep learning to generate captivating color palettes and effortlessly discover complementary shades.",
+    "url": "https://colors.eva.design/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
