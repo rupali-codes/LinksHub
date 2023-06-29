@@ -1,8 +1,10 @@
-{
-    "name": "Game Design 101",
-    "description": "This playlist consists of videos where Mark Brown, a well-known game developer, teaches you the fundamental lessons of game design. These videos are applicable to pretty much every type of game.",
-    "url": "https://youtube.com/playlist?list=PLc38fcMFcV_vToz9Nvc_YQTNH8hkIQ2uC",
-    "category": "youtube",
-    "subcategory": "game-development",
-    "language": "english"
-}
+[
+    {
+        "name": "Game Design 101",
+        "description": "This playlist consists of videos where Mark Brown, a well-known game developer, teaches you the fundamental lessons of game design. These videos are applicable to pretty much every type of game.",
+        "url": "https://youtube.com/playlist?list=PLc38fcMFcV_vToz9Nvc_YQTNH8hkIQ2uC",
+        "category": "youtube",
+        "subcategory": "game-development",
+        "language": "english"
+    }
+]
