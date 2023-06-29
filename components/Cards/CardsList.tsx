@@ -5,7 +5,8 @@ import CardsListItem from './CardsListItem'
 import type { IData } from 'types'
 import { ConfigProvider, Pagination } from 'antd'
 
-const CardsList: FC<{ cards: IData[] }> = ({ cards }) => {
+const CardsList: FC<{ cards: IData[] }> = (props) => {
+  const { cards } = props
   const [currentCard, setCurrentCard] = useState<IData | null>(null)
 
   const [page, setPage] = useState(1)
@@ -24,12 +25,12 @@ const CardsList: FC<{ cards: IData[] }> = ({ cards }) => {
     setCurrentCard(null)
   }
 
-    cards.sort((a: IData, b: IData) => {
+  cards.sort((a: IData, b: IData) => {
     if (a.name < b.name) return -1
     if (a.name > b.name) return 1
     return 0
   })
-  
+
   return (
     <>
       <ul
