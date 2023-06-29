@@ -24,8 +24,12 @@ const CardsList: FC<{ cards: IData[] }> = ({ cards }) => {
     setCurrentCard(null)
   }
 
-  cards.sort((a: IData, b: IData) => a.name.localeCompare(b.name))
-
+    cards.sort((a: IData, b: IData) => {
+    if (a.name < b.name) return -1
+    if (a.name > b.name) return 1
+    return 0
+  })
+  
   return (
     <>
       <ul
