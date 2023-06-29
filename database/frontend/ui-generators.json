@@ -169,7 +169,7 @@
   },
   {
     "name": "CSS Filters",
-    "description": "Visual playground for generating CSS for custom and Instagram like photo filters. Experiment with your own uploaded photo or select one from the Unsplash collection.",
+    "description": "This is a visual playground for generating CSS for custom and Instagram-like photo filters. Experiment with your own uploaded photo or select one from the Unsplash collection.",
     "url": "https://www.cssfilters.co/",
     "category": "frontend",
     "subcategory": "ui-generators"
