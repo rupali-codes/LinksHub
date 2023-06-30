@@ -33,5 +33,12 @@
         "url": "https://realpython.com/",
         "category": "languages",
         "subcategory": "python"
+    },
+    {
+        "name": "Complete Python Tutorial",
+        "description": "Live examples will help you learn Python. This tutorial covers file handling, various modules, Matplotlib, machine learning, MongoDB, and MySQL.",
+        "url": "https://www.w3schools.com/python/",
+        "category": "languages",
+        "subcategory": "python"
     }
 ]

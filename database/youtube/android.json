@@ -30,5 +30,13 @@
     "category": "youtube",
     "subcategory": "android",
     "language": "hindi"
+  },
+  {
+    "name": "Android Development Tutorials in Hindi | CodeWithHarry",
+    "description": " In this Android Java Course one can learn how Android applications are built using programming in Java and XML.",
+    "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9aiL0kysYlfSOUgY5rNlOhUd",
+    "category": "youtube",
+    "subcategory": "android",
+    "language": "hindi"
   }
 ]
