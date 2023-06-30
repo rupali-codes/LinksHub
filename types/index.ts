@@ -101,6 +101,11 @@ export type SubCategory =
   | 'data-science'
   | 'deep-learning'
   | 'ml'
+  //cyberSecurity
+  | 'basics'
+  | 'certification'
+  | 'resources'
+  | 'tools'
   // Open-source
   | 'open-source-blogs'
   | 'open-source-projects'
