@@ -120,6 +120,7 @@ export type SubCategory =
   | 'android'
   | 'competitive-programming'
   | 'css'
+  | 'cybersecurity'
   | 'dsa'
   | 'fintech'
   | 'game-development'
