@@ -173,5 +173,12 @@
     "url": "https://www.cssfilters.co/",
     "category": "frontend",
     "subcategory": "ui-generators"
+  },
+  {
+    "name": "Patternizer",
+    "description": "This website will generate CSS code for Patterns",
+    "url": "https://patternizer.com/",
+    "category": "frontend",
+    "subcategory": "UI Generators"
   }
 ]
