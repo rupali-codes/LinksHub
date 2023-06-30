@@ -4,7 +4,7 @@
     "description": "This channel provides free courses for DSA, C, C++, Python, etc.",
     "url": "https://www.youtube.com/@JennyslecturesCSIT",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "english"
   },
   {
@@ -12,7 +12,7 @@
     "description": "This channel provides free placement specific DSA course in C++.",
     "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "hindi"
   },
   {
@@ -20,7 +20,7 @@
     "description": "This channel provides free courses for DSA, Java, C++, C etc.",
     "url": "https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "hindi"
   },
   {
@@ -28,7 +28,7 @@
     "description": "This channel provides free Java specific DSA course with interview-preparation.",
     "url": "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "english"
   },
   {
@@ -36,7 +36,7 @@
     "description": "An all-in-one destination for DSA, Python, C++, JavaScript, Nodejs, Java, PHP & many more.",
     "url": "https://www.youtube.com/@CodeWithHarry/playlists",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "hindi"
   },
   {
@@ -44,7 +44,7 @@
     "description": "This channel provides free Competitive Programming content.",
     "url": "https://www.youtube.com/watch?v=OMcxQ3IY-qc&list=PLauivoElc3ggagradg8MfOZreCMmXMmJ-",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "hindi"
   },
   {
@@ -52,7 +52,7 @@
     "description": "One of the best channels for DSA. Here, you will find the thought process behind every problem and not just simple algorithms.",
     "url": "https://www.youtube.com/@takeUforward/featured",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "english"
   },
   {
@@ -60,7 +60,7 @@
     "description": "One of the best channels for DSA and Java. It is also helpful for both students and working professionals.",
     "url": "https://www.youtube.com/@Pepcoding/featured",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "hindi"
   },
   {
@@ -68,7 +68,7 @@
     "description": "This channel is focused on teaching Data Structures and Algorithms. They also provide courses on different computer science subjects.",
     "url": "https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLAXnLdrLnQpRcveZTtD644gM9uzYqJCwr",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "english"
   },
   {
@@ -76,7 +76,7 @@
     "description": "This channel is focused on the explanation of Algorithms concepts. The resources for Algorithm are limited but this course is one of the best Algorithm resources available on the Web.",
     "url": "https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "english"
   },
   {
@@ -84,7 +84,7 @@
     "description": "One of the best channels to understand DSA and mathematical concepts that will be helpful for Competitive Programming.",
     "url": "https://www.youtube.com/@WilliamFiset-videos/featured",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "english"
   },
   {
@@ -92,7 +92,7 @@
     "description": "Explanations of DSA concepts are provided in this resource. It also covers both CPP and Java.",
     "url": "https://www.youtube.com/playlist?list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "english"
   },
   {
@@ -100,7 +100,7 @@
     "description": "This channel provides C++ specific DSA content. This course also provides explanations of Algorithms.",
     "url": "https://www.youtube.com/@HelloWorldbyprince/playlists",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "hindi"
   },
   {
@@ -108,7 +108,7 @@
     "description": "A well-structured DSA playlist from beginner to advanced level in Java",
     "url": "https://youtube.com/playlist?list=PLU83Ru7iGtAvP1rqt65MCDSBPFCzUKGXG",
     "category": "youtube",
-    "subcategory": "dsa",
+    "subcategory": "data-structures",
     "language": "english"
   }
 ]

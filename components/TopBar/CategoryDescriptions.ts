@@ -37,7 +37,7 @@ const categoryDescriptions: CategoryDescriptions = {
   // ml & ai
   'data science': 'Data Science category description',
   'deep learning': 'Deep Learning category description',
-  ml: 'ML category description',
+  'machine-learning': 'ML category description',
   // Open-source
   openSourceBlogs: 'Open Source Blogs category description',
   openSourceProjects: 'Open Source Projects category description',
@@ -53,12 +53,12 @@ const categoryDescriptions: CategoryDescriptions = {
   'competitive programming': 'Competitive Programming category description',
   'computer science': 'Computer Science category description',
   css: 'CSS category description',
-  dsa: 'Data Structures category description',
+  'data structures': 'Data Structures category description',
   fintech: 'Fintech category description',
   'game development': 'Game Development category description',
   'machine learning': 'Machine Learning category description',
   tensorflow: 'TensorFlow category description',
-  youtubTesting: 'Youtube Testing category description',
+  youtubeTesting: 'Youtube Testing category description',
   'web development': 'Web Development category description',
   'web3 metaverse': 'Web3 Metaverse category description',
   // other

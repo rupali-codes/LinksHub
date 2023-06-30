@@ -89,7 +89,7 @@ export type SubCategory =
   | 'validation'
   // languages
   | 'c-programming'
-  | 'csharp (C#)'
+  | 'csharp'
   | 'golang'
   | 'java'
   | 'javascript'
@@ -122,6 +122,7 @@ export type SubCategory =
   | 'css'
   | 'cybersecurity'
   | 'dsa'
+  | 'data-structures'
   | 'fintech'
   | 'game-development'
   | 'machine-learning'
@@ -139,6 +140,7 @@ export type SubCategory =
 export type SubCategories = {
   name: string
   url: string
+  resources: IDBData[]
 }
 
 export interface ISidebar {
