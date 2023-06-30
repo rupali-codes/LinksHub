@@ -78,9 +78,18 @@ const ContributorsPage: FC = () => {
     (a, b) => b.contributions - a.contributions
   )
 
+  const buttonStyles =
+    'bg-violet-600 hover:bg-transparent text-white px-4 py-2 md:px-3 text-sm tracking-[.6px] rounded-md border border-dashed border-transparent duration-100 hover:border-violet-400 hover:text-violet-500 dark:hover:text-violet-400'
+
+  const linkProps = {
+    target: '_blank',
+    rel: 'noopener noreferrer',
+    className: buttonStyles,
+  }
+
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {sortedContributors.map((contributor) => (
           <div
             key={contributor.id}
@@ -106,17 +115,13 @@ const ContributorsPage: FC = () => {
             <div className="flex justify-evenly mt-auto">
               <Link
                 href={`https://github.com/${contributor.login}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-violet-600 hover:bg-transparent text-white px-4 py-2 rounded-md border border-dashed border-transparent duration-100 hover:border-violet-400 hover:text-violet-500 dark:hover:text-violet-400"
+                {...linkProps}
               >
-                GitHub Profile
+                GitHub
               </Link>
               <Link
                 href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-violet-600 hover:bg-transparent text-white px-4 py-2 rounded-md border border-dashed border-transparent duration-100 hover:border-violet-400 hover:text-violet-500 dark:hover:text-violet-400"
+                {...linkProps}
               >
                 Contributions
               </Link>
