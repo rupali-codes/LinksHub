@@ -40,5 +40,12 @@
     "url": "https://angular.io/docs",
     "category": "resources",
     "subcategory": "officialdocs"
+  },
+  {
+    "name": "Vue.js",
+    "description": "This page contains comprehensive documentation of Vue.js, a progressive JavaScript framework.",
+    "url": "https://vuejs.org/",
+    "category": "resources",
+    "subcategory": "officialdocs"
   }
 ]
