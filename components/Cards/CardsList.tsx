@@ -11,11 +11,10 @@ const CardsList: FC<{ cards: IData[] }> = (props) => {
 
   const [page, setPage] = useState(1)
   const pageSize = 6
-
-  let indexOfFirstPage, indexOfLastPage, currentCards
-  indexOfLastPage = page * pageSize
-  indexOfFirstPage = indexOfLastPage - pageSize
-  currentCards = cards.slice(indexOfFirstPage, indexOfLastPage)
+  
+  const indexOfLastPage = page * pageSize
+  const indexOfFirstPage = indexOfLastPage - pageSize
+  const currentCards = cards.slice(indexOfFirstPage, indexOfLastPage)
 
   const getCardId = (item: IData | null) => {
     setCurrentCard(item)
