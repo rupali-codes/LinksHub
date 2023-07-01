@@ -83,11 +83,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Go', url: '/golang', resources: DB.golang },
       { name: 'TypeScript', url: '/typescript', resources: DB.typescript },
       { name: 'Ruby', url: '/ruby', resources: DB.ruby },
-      {
-        name: 'C Programming',
-        url: '/c-programming',
-        resources: DB.CProgramming,
-      },
+      { name: 'C Programming', url: '/c-programming', resources: DB.CProgramming },
       { name: 'Java', url: '/java', resources: DB.java },
       { name: 'Kotlin', url: '/kotlin', resources: DB.kotlin },
     ],

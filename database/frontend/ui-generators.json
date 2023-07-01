@@ -168,10 +168,17 @@
     "subcategory": "ui-generators"
   },
   {
+    "name": "CSS Filters",
+    "description": "This is a visual playground for generating CSS for custom and Instagram-like photo filters. Experiment with your own uploaded photo or select one from the Unsplash collection.",
+    "url": "https://www.cssfilters.co/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
     "name": "Patternizer",
     "description": "This website will generate CSS code for Patterns",
     "url": "https://patternizer.com/",
-    "category": "Frontend",
+    "category": "frontend",
     "subcategory": "UI Generators"
   }
 ]
