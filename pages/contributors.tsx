@@ -22,32 +22,31 @@ export const getStaticProps: GetStaticProps<{
       const contributors: Contributor[] = await response.json()
 
       // Fetch contributor names
-      const contributorLogins = contributors.map(
-        (contributor) => contributor.login
-      )
-      const nameResponse = await fetch(
-        `https://api.github.com/users?login=${contributorLogins.join(',')}`
-      )
-      if (nameResponse.ok) {
-        const nameData = await nameResponse.json()
-
-        const updatedContributors = contributors.map((contributor) => {
-          const matchingData = nameData.find(
-            (item: { login: string }) => item.login === contributor.login
+      const updatedContributors: Contributor[] = []
+      for (const contributor of contributors) {
+        try {
+          const response = await fetch(
+            `https://api.github.com/users/${contributor.login}`
           )
-          if (matchingData) {
-            return {
+          if (response.ok) {
+            const data = await response.json()
+            const updatedContributor: Contributor = {
               ...contributor,
-              name: matchingData.name || contributor.login,
+              name: data.name || contributor.login,
             }
+            updatedContributors.push(updatedContributor)
+          } else {
+            console.error('Failed to fetch contributor name:', response.status)
           }
-          return contributor
-        })
-
-        return { props: { contributors: updatedContributors } }
-      } else {
-        console.error('Failed to fetch contributor names:', nameResponse.status)
+        } catch (error) {
+          console.error(
+            'Failed to fetch contributor name from GitHub API:',
+            error
+          )
+        }
       }
+
+      return { props: { contributors: updatedContributors } }
     } else {
       console.error('Failed to fetch contributors data:', response.status)
     }
