@@ -1,9 +1,30 @@
 [
-    {
-        "name": "Google Developer Groups",
-        "description": "It gives tech professionals opportunity to learn new skills in a variety of formats. Here, events, workshops, meet-ups are organised virtually or in-person for people with similar interests in technology.",
-        "url": "https://gdg.community.dev/",
-        "category": "other",
-        "subcategory": "communities"
-    }
+  {
+    "name": "Google Developer Groups",
+    "description": "It gives tech professionals the opportunity to learn new skills in a variety of formats. Here, events, workshops, and meet-ups are organised virtually or in-person for people with similar interests in technology.",
+    "url": "https://gdg.community.dev/",
+    "category": "other",
+    "subcategory": "communities"
+  },
+  {
+    "name": "GitHub Campus Expert",
+    "description": "It is a global community of student leaders who are passionate about technology and helping others learn about it. It provides students with the opportunity to develop their technical skills, network with peers, and give back to their communities.",
+    "url": "https://education.github.com/experts",
+    "category": "other",
+    "subcategory": "communities"
+  },
+  {
+    "name": "Microsoft Learn Student Ambassador Program",
+    "description": "This program empowers students to become technology leaders in their communities. Ambassadors gain access to exclusive resources, mentorship, and networking opportunities while developing their skills and promoting Microsoft technologies. It's a unique platform for students to make a meaningful impact and shape the future of technology.",
+    "url": "https://studentambassadors.microsoft.com/",
+    "category": "other",
+    "subcategory": "communities"
+  },
+  {
+    "name": "Intel Student Ambassador Program",
+    "description": "Focuses on providing leadership events to students from the college who are pursuing graduate or Ph.D. level studies in the field of HPC, data science, and artificial intelligence.",
+    "url": "https://devmesh.intel.com/member-programs/intel-student-ambassador-program",
+    "category": "other",
+    "subcategory": "communities"
+  }
 ]

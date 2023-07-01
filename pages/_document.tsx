@@ -35,6 +35,18 @@ export default function Document() {
           property="twitter:image"
           content="https://res.cloudinary.com/dhnkuonev/image/upload/v1683805184/linkshub_gcahgs.png"
         />
+        <meta name="language" content="English" />
+        <meta name="linkedin:profile" content="" />
+        <meta property="instagram:username" content="" />
+        <meta
+          name="twitter:site"
+          content="https://twitter.com/linkshubdotdev"
+        />
+        <meta property="discord:server" content="1064977356198006805" />
+        <meta
+          property="discord:invite"
+          content="https://discord.com/invite/NvK67YnJX5"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

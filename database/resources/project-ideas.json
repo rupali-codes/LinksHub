@@ -1,4 +1,5 @@
-[{    
+[
+  {
     "name": "Flutter Projects",
     "description": "This website provides free fifteen flutter-based projects with source code.",
     "url": "https://www.interviewbit.com/blog/flutter-projects/",
@@ -58,6 +59,13 @@
     "name": "Cloud Computing Projects",
     "description": "This website provides free Cloud Computing projects for beginners to advanced level with source code.",
     "url": "https://www.interviewbit.com/blog/cloud-computing-projects/",
+    "category": "resources",
+    "subcategory": "project-ideas"
+  },
+  {
+    "name": "Blockchain Projects",
+    "description": "This website provides free fifteen beginner-advanced level Blockchain projects with source code.",
+    "url": "https://www.interviewbit.com/blog/blockchain-projects/",
     "category": "resources",
     "subcategory": "project-ideas"
   }

@@ -1,28 +1,34 @@
-import React, { useState } from "react";
-import SearchIcon from "assets/icons/SearchIcon";
+import React, { useState } from 'react'
+import SearchIcon from 'assets/icons/SearchIcon'
+import { useRouter } from 'next/router'
 
 interface SearchbarProps {
-  setSearch: (search: string) => void;
+  setSearch: (search: string) => void
 }
 
 export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
+  const router = useRouter()
+  const query = router.query.query
+  const [searchQuery, setSearchQuery] = useState((query as string) ?? '')
+  const [errorMessage, setErrorMessage] = useState('')
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchQuery(e.target.value);
-    setErrorMessage("");
-  };
+    setSearchQuery(e.target.value)
+    if (e.target.value.trim() === '') {
+      setErrorMessage('')
+      setSearch('')
+    }
+  }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    if (searchQuery.trim() === "") {
-      setErrorMessage("Please enter a search query");
+    e.preventDefault()
+    if (searchQuery.trim() === '') {
+      setErrorMessage('Please enter a search query')
     } else {
-      setErrorMessage("");
-      setSearch(searchQuery);
+      setErrorMessage('')
+      setSearch(searchQuery)
     }
-  };
+  }
 
   return (
     <form onSubmit={handleSubmit} noValidate>
@@ -41,13 +47,14 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
             required
           />
         </div>
-        <button type="submit" className="ml-2 px-4 py-2.5 bg-violet-500 text-white rounded-md border border-dashed border-transparent hover:border-violet-400 hover:bg-transparent hover:text-violet-400 dark:hover:text-violet-400">
+        <button
+          type="submit"
+          className="ml-2 px-4 py-2.5 bg-violet-500 text-white rounded-md border border-dashed border-transparent hover:border-violet-400 hover:bg-transparent hover:text-violet-400 dark:hover:text-violet-400"
+        >
           <SearchIcon className="w-5 h-5" />
         </button>
       </div>
-      {errorMessage && (
-        <p className="text-red-500">{errorMessage}</p>
-      )}
+      {errorMessage && <p className="text-red-500">{errorMessage}</p>}
     </form>
-  );
-};
+  )
+}

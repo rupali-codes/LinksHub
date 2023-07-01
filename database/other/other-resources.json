@@ -1,23 +1,37 @@
 [
-    {
-        "name": "Resource Collection",
-        "description": "This is a list containing the best learning resources available for programmers. It is categorized by language and technology for easy navigation.",
-        "url": "https://rentry.co/ProgrammingLearningResources",
-        "category": "other",
-        "subcategory": "other-resources"
-    },
-    {
-        "name": "Awesome Certificates",
-        "description": "A curated of list of IT, computer science, and business courses with certificates & digital badges to earn upon completion. Each course on the list is free.",
-        "url": "https://github.com/PanXProject/awesome-certificates",
-        "category": "other",
-        "subcategory": "other-resources"
-    },
-    {
-        "name": "Developer Roadmaps",
-        "description": "This website is a community effort to create roadmaps, guides and other educational content to help guide developers in picking up the path and guide their learnings.",
-        "url": "https://roadmap.sh/",
-        "category": "other",
-        "subcategory": "other-resources"
-    }
+  {
+    "name": "Resource Collection",
+    "description": "This is a list containing the best learning resources available for programmers. It is categorized by language and technology for easy navigation.",
+    "url": "https://rentry.co/ProgrammingLearningResources",
+    "category": "other",
+    "subcategory": "other-resources"
+  },
+  {
+    "name": "Awesome Certificates",
+    "description": "A curated of list of IT, computer science, and business courses with certificates & digital badges to earn upon completion. Each course on the list is free.",
+    "url": "https://github.com/PanXProject/awesome-certificates",
+    "category": "other",
+    "subcategory": "other-resources"
+  },
+  {
+    "name": "Developer Roadmaps",
+    "description": "This website is a community effort to create roadmaps, guides and other educational content to help guide developers in picking up the path and guide their learnings.",
+    "url": "https://roadmap.sh/",
+    "category": "other",
+    "subcategory": "other-resources"
+  },
+  {
+    "name": "Every Programmer Should Know",
+    "description": "A collection of (mostly) technical things every software developer should know about.",
+    "url": "https://github.com/mtdvio/every-programmer-should-know",
+    "category": "other",
+    "subcategory": "other-resources"
+  },
+  {
+    "name": "QR Code Generator using ControlNet",
+    "description": "QR codes seem to be the latest trend on stable diffusion, so let's dive in and see how we can create our own!.",
+    "url": "https://learn.thinkdiffusion.com/creating-qr-codes-with-controlnet/",
+    "category": "other",
+    "subcategory": "other-resources"
+  }
 ]
