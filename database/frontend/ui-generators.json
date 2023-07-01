@@ -161,10 +161,17 @@
     "subcategory": "ui-generators"
   },
   {
-    "name":"Tailwind Awesome",
-    "description":"Tailwind Awesome is a curated list of the best Tailwind templates & UI kits on the internet.",
+    "name": "Tailwind Awesome",
+    "description": "Tailwind Awesome is a curated list of the best Tailwind templates & UI kits on the internet.",
     "url": "https://www.tailwindawesome.com/?technology=3",
-    "category":"frontend",
-    "subcategory":"ui-generators"
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
+    "name": "Patternizer",
+    "description": "This website will generate CSS code for Patterns",
+    "url": "https://patternizer.com/",
+    "category": "Frontend",
+    "subcategory": "UI Generators"
   }
 ]

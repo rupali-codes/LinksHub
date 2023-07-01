@@ -46,7 +46,11 @@ const Header: FC<Props> = () => {
         </Link>
         <TopBar className="absolute left-8 hidden h-full md:flex" />
         <div className="absolute right-8 flex h-full gap-4">
-          <SocialMediaIconsList className={'hidden lg:flex'} />
+          <SocialMediaIconsList className="hidden lg:flex" />
+          <ThemeToggler />
+          <button className="dark:text-gray-300 lg:hidden" onClick={toggleNav}>
+            <AiOutlineMenu size={24} />
+          </button>
         </div>
       </div>
     </div>
