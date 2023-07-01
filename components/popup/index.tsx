@@ -31,7 +31,7 @@ const Popup: React.FC<{
           <div className="flex flex-col gap-5">
             <div className="flex justify-between items-center">
               <div className="w-full flex justify-between items-center">
-                <h2 className="max-w-[80%] text-2xl text-violet-400 capitalize">
+                <h2 className="text-2xl text-violet-400 capitalize">
                   {currentCard?.name}
                 </h2>
               </div>
