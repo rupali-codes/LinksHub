@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Java Fundamentals by javatpoint",
+        "description": "This site teaches fundamentals of the Java programming language in an amazing and simplified way",
+        "url": "https://www.javatpoint.com/java-tutorial",
+        "category": "Languages",
+        "subcategory": "java"
+    },
+    {
+        "name": "Bro Code",
+        "description": "This playlist contains all the fundamental concepts that every Java learner should know. Bro code teaches these concepts in a simple manner with visuals",
+        "url": "https://youtu.be/NBIUbTddde4",
+        "category": "languages",
+        "subcategory": "java"
+    },
+    {
+        "name": "DSA with TutorialsPoint",
+        "description": "This site provides all basic and advanced lessons on DSA and Java with examples",
+        "url": "https://www.tutorialspoint.com/dsa_using_java/index.htm",
+        "category": "languages",
+        "subcategory": "java"
+    },
+    {
+        "name": "Kunal Kushwaha",
+        "description": "This playlist covers the DSA concepts with good number of problems as well as DSA exercises you solve on your own",
+        "url": "https://youtu.be/rZ41y93P2Qo",
+        "category": "languages",
+        "subcategory": "java"
+    },
+    {
+        "name": "Oracle java Tutorial",
+        "description": "This is the official Java tutorial provided by Oracle, the company behind Java. It covers the basics of this programming language and provides comprehensive documentation on various Java topics.",
+        "url": "https://docs.oracle.com/javase/tutorial/",
+        "category": "languages",
+        "subcategory": "java"
+    }
+]

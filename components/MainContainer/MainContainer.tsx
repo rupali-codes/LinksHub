@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export const MainContainer = () => {
   return (
@@ -9,5 +9,5 @@ export const MainContainer = () => {
       </h2>
       <p className="uppercase font-semibold text-xl mt-6">...coming soon</p>
     </div>
-  );
-};
+  )
+}

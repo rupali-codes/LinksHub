@@ -64,7 +64,7 @@
   },
   {
     "name": "Skribbl",
-    "description": "Enrich your creative projects and support free access to art of education with the collection of hand-drawn illustrations.",
+    "description": "Enrich your creative projects and support free access to the art of education with the collection of hand-drawn illustrations.",
     "url": "https://weareskribbl.com/",
     "category": "frontend",
     "subcategory": "illustrations"
@@ -108,6 +108,13 @@
     "name": "Awesome Illustrations 4 Projects",
     "description": "Indulge in the enchanting world of over 250 illustrations sourced from 50+ carefully curated websites, especially sorted into four categories, and conveniently accompanied by quick previews.",
     "url": "https://github.com/Anmol-Baranwal/Awesome-Illustrations-4Projects",
+    "category": "frontend",
+    "subcategory": "illustrations"
+  },
+  {
+    "name": "Pixeltrue",
+    "description": "Get access to different, high-quality illustrations and animations that are free to use for personal and commercial use.",
+    "url": "https://www.pixeltrue.com/free-illustrations",
     "category": "frontend",
     "subcategory": "illustrations"
   }
