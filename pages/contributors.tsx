@@ -1,6 +1,7 @@
-import { FC, useEffect, useState } from 'react'
+import { FC } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import type { GetStaticProps } from 'next'
 
 interface Contributor {
   id: number
@@ -10,66 +11,56 @@ interface Contributor {
   contributions: number
 }
 
-const ContributorsPage: FC = () => {
-  const [contributors, setContributors] = useState<Contributor[]>([])
+export const getStaticProps: GetStaticProps<{
+  contributors: Contributor[]
+}> = async () => {
+  try {
+    const response = await fetch(
+      'https://api.github.com/repos/rupali-codes/LinksHub/contributors'
+    )
+    if (response.ok) {
+      const contributors: Contributor[] = await response.json()
 
-  useEffect(() => {
-    const fetchContributorsData = async () => {
-      try {
-        const response = await fetch(
-          'https://api.github.com/repos/rupali-codes/LinksHub/contributors'
-        )
-        if (response.ok) {
-          const data = await response.json()
-          setContributors(data)
-        } else {
-          console.error('Failed to fetch contributors data:', response.status)
-        }
-      } catch (error) {
-        console.error(
-          'Failed to fetch contributors data from GitHub API:',
-          error
-        )
-      }
-    }
+      // Fetch contributor names
+      const contributorLogins = contributors.map(
+        (contributor) => contributor.login
+      )
+      const nameResponse = await fetch(
+        `https://api.github.com/users?login=${contributorLogins.join(',')}`
+      )
+      if (nameResponse.ok) {
+        const nameData = await nameResponse.json()
 
-    fetchContributorsData()
-  }, [])
-
-  useEffect(() => {
-    const fetchContributorNames = async () => {
-      const updatedContributors: Contributor[] = []
-      for (const contributor of contributors) {
-        try {
-          const response = await fetch(
-            `https://api.github.com/users/${contributor.login}`
+        const updatedContributors = contributors.map((contributor) => {
+          const matchingData = nameData.find(
+            (item: { login: string }) => item.login === contributor.login
           )
-          if (response.ok) {
-            const data = await response.json()
-            const updatedContributor: Contributor = {
+          if (matchingData) {
+            return {
               ...contributor,
-              name: data.name || contributor.login, // Using login as second option if name is not available
+              name: matchingData.name || contributor.login,
             }
-            updatedContributors.push(updatedContributor)
-          } else {
-            console.error('Failed to fetch contributor name:', response.status)
           }
-        } catch (error) {
-          console.error(
-            'Failed to fetch contributor name from GitHub API:',
-            error
-          )
-        }
+          return contributor
+        })
+
+        return { props: { contributors: updatedContributors } }
+      } else {
+        console.error('Failed to fetch contributor names:', nameResponse.status)
       }
-
-      setContributors(updatedContributors)
+    } else {
+      console.error('Failed to fetch contributors data:', response.status)
     }
+  } catch (error) {
+    console.error('Failed to fetch contributors data from GitHub API:', error)
+  }
 
-    if (contributors.length > 0) {
-      fetchContributorNames()
-    }
-  }, [contributors])
+  return { props: { contributors: [] } }
+}
 
+const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
+  contributors,
+}) => {
   const filteredContributors = contributors.filter(
     (contributor) => contributor.contributions >= 6
   )
@@ -134,7 +125,3 @@ const ContributorsPage: FC = () => {
 }
 
 export default ContributorsPage
-
-// api reference data
-// https://api.github.com/repos/rupali-codes/LinksHub/contributors
-// https://api.github.com/users/Anmol-Baranwal
