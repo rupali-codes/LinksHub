@@ -23,11 +23,7 @@ export const Footer: FC = () => {
           <span className={nameStyles}>Rupali Haldiya</span>
         </Link>{' '}
         and{' '}
-        <Link
-          href="https://github.com/rupali-codes/LinksHub/graphs/contributors"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link href="/contributors" rel="noopener noreferrer">
           <span className={nameStyles}>Open Source Community</span>
         </Link>
       </p>
