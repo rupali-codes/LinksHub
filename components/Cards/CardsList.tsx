@@ -10,11 +10,12 @@ const CardsList: FC<{ cards: IData[] }> = (props) => {
   const [currentCard, setCurrentCard] = useState<IData | null>(null)
 
   const [page, setPage] = useState(1)
-  const pageSize = 6
-  
-  const indexOfLastPage = page * pageSize
-  const indexOfFirstPage = indexOfLastPage - pageSize
-  const currentCards = cards.slice(indexOfFirstPage, indexOfLastPage)
+  const pageSize = 9
+
+  let indexOfFirstPage, indexOfLastPage, currentCards
+  indexOfLastPage = page * pageSize
+  indexOfFirstPage = indexOfLastPage - pageSize
+  currentCards = cards.slice(indexOfFirstPage, indexOfLastPage)
 
   const getCardId = (item: IData | null) => {
     setCurrentCard(item)
@@ -43,28 +44,31 @@ const CardsList: FC<{ cards: IData[] }> = (props) => {
           />
         ))}
       </ul>
-      <ConfigProvider
-        theme={{
-          token: {
-            colorText: 'white',
-            colorTextDisabled: 'white',
-            //colorBgContainer: '#7c3aed'
-          },
-        }}
-      > 
-        <Pagination
-          className="bg-violet-600 table mx-auto mt-5 p-2 rounded-full "
-          size='small'
-          responsive
-          total={cards.length}
-          current={page}
-          pageSize={pageSize}
-          onChange={(page) => {
-            setPage(page)
-          }}
-        />
-      </ConfigProvider>
 
+      {cards.length > 9 && (
+        <ConfigProvider
+          theme={{
+            token: {
+              colorText: 'white',
+              colorTextDisabled: 'white',
+              colorBgContainer: '#7c3aed',
+              colorPrimary: 'white',
+            },
+          }}
+        >
+          <Pagination
+            className="bg-violet-600 table mx-auto mt-10 mb-20 py-1.5 rounded-full"
+            //size='small'
+            responsive
+            total={cards.length}
+            current={page}
+            pageSize={pageSize}
+            onChange={(page) => {
+              setPage(page)
+            }}
+          />
+        </ConfigProvider>
+      )}
       <BackToTopButton />
       <Popup currentCard={currentCard} onClose={removeCurrentCard} />
     </>
