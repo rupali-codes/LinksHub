@@ -9,7 +9,7 @@ import { SocialMediaIconsList } from "components/SocialMedia/SocialMediaIconsLis
 
 interface Props {}
 
-const Header: FC<Props> = () => {
+export const Header: FC<Props> = () => {
   const { toggleNav } = useContext(GlobalContext);
 
   useEffect(() => {
@@ -56,5 +56,3 @@ const Header: FC<Props> = () => {
     </div>
   );
 };
-
-export default Header;
