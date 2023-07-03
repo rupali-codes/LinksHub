@@ -1,17 +1,23 @@
 import React, { useState } from 'react'
 import SearchIcon from 'assets/icons/SearchIcon'
+import { useRouter } from 'next/router'
 
 interface SearchbarProps {
   setSearch: (search: string) => void
 }
 
 export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
-  const [searchQuery, setSearchQuery] = useState('')
+  const router = useRouter()
+  const query = router.query.query
+  const [searchQuery, setSearchQuery] = useState((query as string) ?? '')
   const [errorMessage, setErrorMessage] = useState('')
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value)
-    setErrorMessage('')
+    if (e.target.value.trim() === '') {
+      setErrorMessage('')
+      setSearch('')
+    }
   }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {

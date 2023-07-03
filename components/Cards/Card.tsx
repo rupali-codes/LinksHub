@@ -3,16 +3,22 @@ import { BsBoxArrowUpRight } from 'react-icons/bs'
 import { CopyToClipboard } from 'components/CopyToClipboard'
 import type { IData } from 'types'
 
-const Card: FC<{ data: IData }> = (props) => {
-  const { data } = props
+interface CardProps {
+  data: IData
+}
+
+const Card: FC<CardProps> = ({ data }) => {
   const { name, description, url } = data
-  const descriptionRef = useRef(document.createElement('p'))
+  const descriptionRef = useRef<HTMLParagraphElement>(null)
   const [isOverflow, setIsOverflow] = useState(false)
+
   useEffect(() => {
-    setIsOverflow(
-      descriptionRef.current?.scrollHeight >
-        descriptionRef.current?.offsetHeight
-    )
+    if (descriptionRef.current) {
+      setIsOverflow(
+        descriptionRef.current.scrollHeight >
+          descriptionRef.current.offsetHeight
+      )
+    }
   }, [])
 
   return (
@@ -28,12 +34,12 @@ const Card: FC<{ data: IData }> = (props) => {
           <CopyToClipboard url={url} />
         </header>
         <div className="h-[7rem]">
-          <p
+          <div
             ref={descriptionRef}
             className="h-24 w-full overflow-hidden font-sans text-ellipsis line-clamp-4"
           >
             {description}
-          </p>
+          </div>
           {isOverflow && (
             <p className="text-sm underline text-violet-600 dark:text-violet-400 text-right hover:text-violet-400 dark:hover:text-violet-300">
               Read More

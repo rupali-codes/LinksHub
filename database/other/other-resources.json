@@ -21,10 +21,17 @@
     "subcategory": "other-resources"
   },
   {
-        "name": "Every Programmer Should Know",
-        "description": "A collection of (mostly) technical things every software developer should know about.",
-        "url": "https://github.com/mtdvio/every-programmer-should-know",
-        "category": "other",
-        "subcategory": "other-resources"
-    }
+    "name": "Every Programmer Should Know",
+    "description": "A collection of (mostly) technical things every software developer should know about.",
+    "url": "https://github.com/mtdvio/every-programmer-should-know",
+    "category": "other",
+    "subcategory": "other-resources"
+  },
+  {
+    "name": "QR Code Generator using ControlNet",
+    "description": "QR codes seem to be the latest trend on stable diffusion, so let's dive in and see how we can create our own!.",
+    "url": "https://learn.thinkdiffusion.com/creating-qr-codes-with-controlnet/",
+    "category": "other",
+    "subcategory": "other-resources"
+  }
 ]

@@ -8,7 +8,7 @@
   },
   {
     "name": "Neumorphism.io",
-    "description": "It's a platform where you can generate Soft-UI CSS elements for your webiste or app.",
+    "description": "It's a platform where you can generate Soft-UI CSS elements for your website or app.",
     "url": "https://neumorphism.io/#e0e0e0",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -29,7 +29,7 @@
   },
   {
     "name": "CSS Portal",
-    "description": "A bundle of amazing and UI CSS elements for you to use in your project.",
+    "description": "A bundle of amazing UI CSS elements for you to use in your project.",
     "url": "https://www.cssportal.com/ui-generators.php",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -50,7 +50,7 @@
   },
   {
     "name": "Code Magic",
-    "description": "An amazing open source platform for generating ready to use CSS elements for your project. ",
+    "description": "An amazing open-source platform for generating ready-to-use CSS elements for your project. ",
     "url": "https://code-magic.vercel.app/",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -150,7 +150,7 @@
     "name": "Charts.css",
     "description": "This is a modern CSS framework. It uses CSS utility classes to style HTML elements as charts.",
     "url": "https://chartscss.org/",
-     "category": "frontend",
+    "category": "frontend",
     "subcategory": "ui-generators"
   },
   {
@@ -159,5 +159,26 @@
     "url": "https://ui.glass/generator/",
     "category": "frontend",
     "subcategory": "ui-generators"
+  },
+  {
+    "name": "Tailwind Awesome",
+    "description": "Tailwind Awesome is a curated list of the best Tailwind templates & UI kits on the internet.",
+    "url": "https://www.tailwindawesome.com/?technology=3",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
+    "name": "CSS Filters",
+    "description": "This is a visual playground for generating CSS for custom and Instagram-like photo filters. Experiment with your own uploaded photo or select one from the Unsplash collection.",
+    "url": "https://www.cssfilters.co/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
+    "name": "Patternizer",
+    "description": "This website will generate CSS code for Patterns",
+    "url": "https://patternizer.com/",
+    "category": "frontend",
+    "subcategory": "UI Generators"
   }
 ]
