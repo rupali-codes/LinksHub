@@ -1,14 +1,14 @@
 [
     {
         "name": "Learn Rust Programming - Official Docs ",
-        "description": "Rust is a multi-paradigm, general-purpose programming language that emphasizes performance, type safety, and concurrency. It enforces memory safety—ensuring that all references point to valid memory—without requiring the use of a garbage collector or reference counting present in other memory-safe languages",
+        "description": "Rust is a multi-paradigm, general-purpose programming language that highlights performance, type safety, and concurrency. It enforces memory-safety, ensuring that all references point to valid memory—without requiring the use of a garbage collector or reference counting present in other memory-safe languages",
         "url": "https://www.rust-lang.org/learn/get-started",
         "category": "languages",
         "subcategory": "rust"
     },
     {
         "name": "Learn Rust Programming - Complete Course ",
-        "description": "Rust course for beginners, you will learn about the core concepts of the language and underlying mechanisms in theory",
+        "description": "In this beginner-level course, you will learn about the core concepts of Rust and underlying mechanisms in theory about the programming language",
         "url": "https://www.youtube.com/watch?v=BpPEoZW5IiY",
         "category": "languages",
         "subcategory": "rust"
