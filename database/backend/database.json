@@ -47,5 +47,12 @@
     "url": "https://docs.oracle.com/en-us/iaas/mysql-database/doc/getting-started.html",
     "category": "backend",
     "subcategory": "database"
+  },
+  {
+    "name": "Appwrite",
+    "description": "Appwrite is an open-source backend server software that simplifies the development of web and mobile applications. It provides ready-to-use features like user authentication, database management, and file storage, allowing developers to focus on building their app's front-end functionality.",
+    "url": "https://appwrite.io/docs",
+    "category": "backend",
+    "subcategory": "database"
   }
 ]
