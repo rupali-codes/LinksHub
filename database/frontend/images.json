@@ -124,5 +124,12 @@
     "url": "  https://pikwizard.com/",
     "category": "frontend",
     "subcategory": "images"
+  },
+  {
+    "name": "Getty Images",
+    "description": "Getty Images is a well-known stock photography platform. While it contains a vast collection of professional images, it also offers unique and creative visuals that can add a distinct touch to the projects.",
+    "url": "  https://www.gettyimages.in/",
+    "category": "frontend",
+    "subcategory": "images"
   }
 ]
