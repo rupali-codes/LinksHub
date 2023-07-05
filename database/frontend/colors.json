@@ -119,16 +119,16 @@
     "subcategory": "colors"
   },
   {
-    "name": "Khroma",
-    "description": "This is an innovative color palette generator that simplifies the process of choosing harmonious colors for your design projects.",
-    "url": "https://www.khroma.co/",
+    "name": "ColorClaim",
+    "description": "ColorClaim is a library of colors that helps developers, designers, photographers, and others to create beautiful and effective color palettes.",
+    "url": "https://vanschneider.com/colors",
     "category": "frontend",
     "subcategory": "colors"
   },
   {
-    "name": "ColorClaim",
-    "description": "ColorClaim is a library of colors that helps developers, designers, photographers, and others to create beautiful and effective color palettes.",
-    "url": "https://vanschneider.com/colors",
+    "name": "Muzli Colors",
+    "description": "This is a vibrant hub for endless inspiration, showcasing curated color palettes for your creative projects. Explore, discover, and elevate your projects with ease.",
+    "url": "https://colors.muz.li/",
     "category": "frontend",
     "subcategory": "colors"
   },

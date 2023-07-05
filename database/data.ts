@@ -86,6 +86,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'C Programming', url: '/c-programming', resources: DB.CProgramming },
       { name: 'Java', url: '/java', resources: DB.java },
       { name: 'Kotlin', url: '/kotlin', resources: DB.kotlin },
+      { name: 'Rust', url: '/rust', resources: DB.Rust },
     ],
   },
   {
