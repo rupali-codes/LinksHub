@@ -99,6 +99,7 @@ export const sidebarData: ISidebar[] = [
         url: '/deep-learning',
         resources: DB.deepLearning,
       },
+      { name: 'AI', url: '/ai', resources: DB.ai },
     ],
   },
   {
