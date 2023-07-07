@@ -103,5 +103,12 @@
     "url": "https://getcssscan.com/css-box-shadow-examples",
     "category": "frontend",
     "subcategory": "animations"
+  },
+  {
+    "name": "Hover.css",
+    "description": "Hover.css is a collection of CSS3 transitions and animations that can be applied to various elements, including buttons and links. It provides a wide range of unique hover effects that can add flair to your user interface.",
+    "url": "https://ianlunn.github.io/Hover/",
+    "category": "frontend",
+    "subcategory": "animations"
   }
 ]
