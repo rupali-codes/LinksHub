@@ -128,6 +128,56 @@ You can see the live demo at: https://linkshub.vercel.app
 #### Want to add or update the descriptions of subcategories?
 Make sure to follow [CONTRIBUTING guidelines](./CONTRIBUTING.md#Adding-and-Updating-Category-Description-).
 
+
+	
+<h1>GSSOC'23 Issue TimeLine</h1>
+	
+	
+- Once an issue is assigned,the assignee is expected to submit a pr for review within a week of the assignment. 
+	
+- If the assignee fails to comply with the deadline, the issue will be assigned to the next person who had who had requested to be assigned.
+	
+	
+
+<h1>GSSOC'23 Pointer System</h1>
+<h2> Level 1 - Documentation/Minor bug fix </h2>
+<h3> Points - 10 </h3>
+	
+	
+- Contributors can update existing documentation, write new documentation for features or code and improve the overall organisation and clarity of the projects documentation.  
+	
+	
+- Minor bug fixes refer to fixing small isolated issues in the codebase.  
+	
+	
+- Fixing issues such as typos, brokel links, or minor performance problems.
+	
+	
+- Bug fixes are an important part of maintaining stability of and reliability of of an open-source project and every bug fix, no matter how small, contributes to the overall health of the project. 
+	
+	
+
+	
+	
+<h2> Level 2 - Enhancement of existing features </h2>
+<h3> Points - 25 </h3>
+	
+	
+-  Feature or enhancement contributions refer to adding new functionality to an open source project.  
+	
+- Contributors can add new features, improve existing features, or add new functionality to existing features.
+	
+
+	
+	
+	
+	
+<h2> Level 3 - Refactoring/ Adding functionalities </h2>
+<h3> Points - 45 </h3>
+
+- Core contributions, such as implementing major features or refactoring significant parts of the codebase. This needs a deep understanding of the codebase and its patterns.
+
+
 ---
 
 <a name="building-with-gitpod"></a>
