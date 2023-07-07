@@ -7,8 +7,8 @@ import useDelayUnmount from 'hooks/useDelayUnmount'
 import { CopyToClipboard } from 'components/CopyToClipboard'
 
 const Popup: React.FC<{
-  currentCard: IData | null;
-  onClose: () => void;
+  currentCard: IData | null
+  onClose: () => void
 }> = ({ currentCard, onClose }) => {
   const showElement = useDelayUnmount(currentCard, 300)
 
@@ -26,12 +26,12 @@ const Popup: React.FC<{
             currentCard ? 'animate-scale-appearance' : 'animate-scale-hide'
           } flex h-fit w-[90%] flex-col justify-between gap-5 overflow-hidden rounded-2xl border border-dashed border-violet-500 dark:border-violet-400 bg-gray-100 px-5 py-10 dark:bg-gray-900`}
           role="dialog"
-          title={`${currentCard?.name ?? "Card"} Popup`}
+          title={`${currentCard?.name ?? 'Card'} Popup`}
         >
           <div className="flex flex-col gap-5">
             <div className="flex justify-between items-center">
               <div className="w-full flex justify-between items-center">
-                <h2 className="max-w-[80%] text-2xl text-violet-400 capitalize">
+                <h2 className="text-2xl text-violet-400 capitalize">
                   {currentCard?.name}
                 </h2>
               </div>

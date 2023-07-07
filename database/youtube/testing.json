@@ -1,26 +1,26 @@
 [
-    {
-        "name": "SoftwaretestingbyMKT",
-        "description": "This channel is for everyone who wants to learn Manual testing and Automation Testing for FREE.The reason he have made this YouTube channel is to educate people who want to learn in easy language. I have a good theory and practical knowledge on testing.",
-        "url": "https://www.youtube.com/@SoftwaretestingbyMKT",
-        "category": "youtube",
-        "subcategory": "testing",
-        "language": "english"
-    },
-    {
-        "name": "Automation Bro-Dilpreet johal",
-        "description": "This channel is beginner friendly as well take you up to advanced level in automation with almost every framework",
-        "url": "https://www.youtube.com/@dilpreetjohal",
-        "category": "youtube",
-        "subcategory": "testing",
-        "language": "english"
-    },
-    {
-        "name": "JoanMedia",
-        "description": "In this channel you will find free content related to the Software Engineer Area(Front End, Backend, Software Quality Assurance/Quality Control, and Devops).",
-        "url": "https://www.youtube.com/@joanmedia",
-        "category": "youtube",
-        "subcategory": "testing",
-        "language": "english"
-    }
+  {
+    "name": "SoftwaretestingbyMKT",
+    "description": "This channel is for everyone who wants to learn Manual testing and Automation Testing for FREE.The reason he have made this YouTube channel is to educate people who want to learn in easy language. I have a good theory and practical knowledge on testing.",
+    "url": "https://www.youtube.com/@SoftwaretestingbyMKT",
+    "category": "youtube",
+    "subcategory": "testing",
+    "language": "english"
+  },
+  {
+    "name": "Automation Bro-Dilpreet johal",
+    "description": "This channel is beginner friendly as well take you up to advanced level in automation with almost every framework",
+    "url": "https://www.youtube.com/@dilpreetjohal",
+    "category": "youtube",
+    "subcategory": "testing",
+    "language": "english"
+  },
+  {
+    "name": "JoanMedia",
+    "description": "In this channel you will find free content related to the Software Engineer Area(Front End, Backend, Software Quality Assurance/Quality Control, and Devops).",
+    "url": "https://www.youtube.com/@joanmedia",
+    "category": "youtube",
+    "subcategory": "testing",
+    "language": "english"
+  }
 ]
