@@ -4,7 +4,8 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 import useFilterDB from 'hooks/useFilterDB'
 import CardsList from 'components/Cards/CardsList'
-import ComingSoon from 'components/NewIssue/NewIssue'
+// import ComingSoon from 'components/NewIssue/NewIssue'
+import ErrorPage from 'components/Errorpage/not-found'
 
 const SubCategory = () => {
   const router = useRouter()
@@ -18,7 +19,7 @@ const SubCategory = () => {
   if (filterDB.length > 0) {
     content = <CardsList cards={filterDB[0]} />
   } else {
-    content = <ComingSoon />
+    content = <ErrorPage />
   }
 
   return (
