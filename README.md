@@ -99,7 +99,7 @@ You can see the live demo at: https://linkshub.vercel.app
    pnpm run dev
    ```
 
-> **P.S**: In case you have `docker` installed in your system, you can follow these steps to setup the environment:
+> **P.S**: If you have `docker` installed in your system, you can follow these steps to set up the environment:
 > 1. After forking and cloning the repo(as mentioned above), get into the project directory:
 > ```bash
 > cd LinksHub/
@@ -109,7 +109,7 @@ You can see the live demo at: https://linkshub.vercel.app
 > docker compose up
 > ```
 > 3. Now start adding your changes.
-> 4. No need to restart the container again and again after starting it once, because the changes you make will reflect into the container instantly.
+> **Note:** You don't need to restart the container again and again after starting it once, because the changes you make will reflect into the container instantly.
 
 7. Make your changes before staging them.
 
