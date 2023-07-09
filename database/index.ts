@@ -34,6 +34,7 @@ export { default as Rust } from './languages/rust.json'
 export { default as java } from './languages/java.json'
 export { default as cpp } from './languages/c++.json'
 // ml & ai
+export { default as ai } from './ml&ai/ai.json'
 export { default as ml } from './ml&ai/machine-learning.json'
 export { default as dataScience } from './ml&ai/datascience.json'
 export { default as deepLearning } from './ml&ai/deeplearning.json'
