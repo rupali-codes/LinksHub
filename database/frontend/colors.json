@@ -166,5 +166,12 @@
     "url": "https://pigment.shapefactory.co/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  {
+    "name": "Paletton",
+    "description": "This is a go-to platform for developers and designers, offering an intuitive interface to effortlessly explore, generate, and visualize stunning color schemes for your projects.",
+    "url": "https://paletton.com/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
