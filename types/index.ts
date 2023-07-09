@@ -36,7 +36,8 @@ export type Category =
   | 'frontend'
   | 'backend'
   | 'languages'
-  | 'ml & ai'
+  | 'artificial intelligence'
+  | 'machine learning'
   | 'open source'
   | 'resources'
   | 'youtube'
@@ -76,10 +77,12 @@ export type SubCategory =
   | 'python'
   | 'ruby'
   | 'typescript'
-  // ml & ai
+  //artificial intelligence
+  | 'artificial-intelligence'
+  // machin learning
   | 'data-science'
   | 'deep-learning'
-  | 'ml'
+  | 'machine-learning'
   // Open-source
   | 'open-source-blogs'
   | 'open-source-projects'
