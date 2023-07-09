@@ -159,5 +159,12 @@
     "url": "https://colors.eva.design/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  {
+    "name": "Pigment",
+    "description": "A unique way to generate fresh and vibrant colors.",
+    "url": "https://pigment.shapefactory.co/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
