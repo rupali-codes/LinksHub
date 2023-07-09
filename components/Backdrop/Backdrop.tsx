@@ -8,6 +8,7 @@ export const Backdrop: FC<{
 }> = (props) => {
   const { onClick, className } = props
   const [{ status }, toggle] = useTransition({
+    timeout: 500,
     preEnter: true,
   })
 
@@ -18,8 +19,10 @@ export const Backdrop: FC<{
   return createPortal(
     <div
       className={`fixed inset-0 z-50 h-full w-full cursor-pointer bg-black/80
-      ${status === 'preEnter' ? '' : 'opacity-0'}
-      ${className}`}
+         ${className}
+         ${status === 'preEnter' || status === 'entering' ? '' : 'opacity-0'}
+         ${status === 'entered' ? 'opacity-100' : ''}
+         `}
       onClick={onClick}
     ></div>,
     document.getElementById('backdrop-root')!
