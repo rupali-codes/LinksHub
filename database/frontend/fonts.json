@@ -61,5 +61,12 @@
         "url": "https://fontawesome.com/",
         "category": "frontend",
         "subcategory": "fonts"
+    },
+    {
+        "name": "DaFont",
+        "description": "DaFont is a versatile platform enabling users to download and share a wide range of fonts, encompassing both free and commercial options.",
+        "url": "https://www.dafont.com/",
+        "category": "frontend",
+        "subcategory": "fonts"
     }
 ]
