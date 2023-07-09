@@ -18,7 +18,10 @@ export const SideNavbar: FC<{}> = () => {
 
   return (
     <>
-      <Backdrop onClick={closeNav} className="lg:hidden" />
+      <Backdrop
+        onClick={closeNav}
+        className="lg:hidden transition duration-300 delay-200"
+      />
       {createPortal(
         <div
           className={`fixed top-0 left-0 z-[100] h-full w-[75%] transition-all lg:hidden
