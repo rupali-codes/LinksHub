@@ -9,7 +9,6 @@ export const Backdrop: FC<{
   const { onClick, className } = props
   const [{ status }, toggle] = useTransition({
     preEnter: true,
-    unmountOnExit: true,
   })
 
   useEffect(() => {
