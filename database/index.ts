@@ -33,15 +33,16 @@ export { default as kotlin } from './languages/kotlin.json'
 export { default as Rust } from './languages/rust.json'
 export { default as java } from './languages/java.json'
 export { default as cpp } from './languages/c++.json'
-// ml & ai
-export { default as ai } from './ml&ai/ai.json'
-export { default as ml } from './ml&ai/machine-learning.json'
-export { default as dataScience } from './ml&ai/datascience.json'
-export { default as deepLearning } from './ml&ai/deeplearning.json'
+//artificial intelligence
+export { default as artificialIntelligence } from './artificial_intelligence/artificial-intelligence.json'
+//machine learning
+export { default as ml } from './machine_learning/machine-learning.json'
+export { default as dataScience } from './machine_learning/data-science.json'
+export { default as deepLearning } from './machine_learning/deep-learning.json'
 // Open-source
-export { default as openSourceBlogs } from './opensource/blogs.json'
-export { default as openSourceProjects } from './opensource/projects.json'
-export { default as openSourceTools } from './opensource/tools.json'
+export { default as openSourceBlogs } from './open_source/blogs.json'
+export { default as openSourceProjects } from './open_source/projects.json'
+export { default as openSourceTools } from './open_source/tools.json'
 // resources
 export { default as blogs } from './resources/blogs.json'
 export { default as officialdocs } from './resources/official-docs.json'

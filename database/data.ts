@@ -83,23 +83,14 @@ export const sidebarData: ISidebar[] = [
       { name: 'Go', url: '/golang', resources: DB.golang },
       { name: 'TypeScript', url: '/typescript', resources: DB.typescript },
       { name: 'Ruby', url: '/ruby', resources: DB.ruby },
-      { name: 'C Programming', url: '/c-programming', resources: DB.CProgramming },
+      {
+        name: 'C Programming',
+        url: '/c-programming',
+        resources: DB.CProgramming,
+      },
       { name: 'Java', url: '/java', resources: DB.java },
       { name: 'Kotlin', url: '/kotlin', resources: DB.kotlin },
       { name: 'Rust', url: '/rust', resources: DB.Rust },
-    ],
-  },
-  {
-    category: 'ml & ai',
-    subcategory: [
-      { name: 'machine learning', url: '/ml', resources: DB.machineLearning },
-      { name: 'data science', url: '/data-science', resources: DB.dataScience },
-      {
-        name: 'deep learning',
-        url: '/deep-learning',
-        resources: DB.deepLearning,
-      },
-      { name: 'AI', url: '/ai', resources: DB.ai },
     ],
   },
   {
@@ -121,6 +112,24 @@ export const sidebarData: ISidebar[] = [
         resources: DB.openSourceTools,
       },
     ],
+  },
+  {
+    category: 'machine learning',
+    subcategory: [
+      { name: 'machine learning', url: '/machine-learning', resources: DB.machineLearning },
+      { name: 'data science', url: '/data-science', resources: DB.dataScience },
+      {
+        name: 'deep learning',
+        url: '/deep-learning',
+        resources: DB.deepLearning,
+      },
+    ],
+  },
+  {
+    category: 'artificial intelligence',
+    subcategory: [
+      { name: 'Artificial Int.', url: '/artificial-intelligence', resources: DB.artificialIntelligence },
+    ]
   },
   {
     category: 'resources',
