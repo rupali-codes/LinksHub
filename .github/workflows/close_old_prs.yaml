@@ -1,7 +1,7 @@
 name: Close PRs Without Linked Issues
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *'
 
 jobs:
   close_prs_without_issue:
@@ -15,7 +15,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           script: |
-            const daysThreshold = 45;
+            const daysThreshold = 30;
 
             const { owner, repo } = context.repo;
 
