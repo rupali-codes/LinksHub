@@ -10,7 +10,15 @@ const PopupDesc: React.FC<{
 }> = ({ currentCategory, onClose }) => {
   const showElement = useDelayUnmount(!!currentCategory, 300)
 
-  if (!showElement) {
+  if (!showElement || !currentCategory) {
+    return null
+  }
+
+  const { name, description } = currentCategory
+
+  const overlayRoot = document.getElementById('overlay-root')
+
+  if (!overlayRoot) {
     return null
   }
 
@@ -24,20 +32,20 @@ const PopupDesc: React.FC<{
             currentCategory ? 'animate-scale-appearance' : 'animate-scale-hide'
           } flex h-fit w-[90%] flex-col justify-between gap-5 overflow-hidden rounded-2xl border border-dashed border-violet-500 dark:border-violet-400 bg-gray-100 px-5 py-10 dark:bg-gray-900`}
           role="dialog"
-          title={`${currentCategory?.name ?? 'Card'} Popup`}
+          title={`${name ?? 'Card'} Popup`}
         >
           <div className="flex flex-col gap-5">
             <div className="flex justify-between items-center">
               <div className="w-full flex justify-between items-center">
                 <h2 className="max-w-[80%] text-2xl text-violet-400 capitalize">
-                  {currentCategory?.name}
+                  {name}
                 </h2>
               </div>
             </div>
-            <p className="">{currentCategory?.description}</p>
+            <p className="">{description}</p>
           </div>
         </div>,
-        document.getElementById('overlay-root')!
+        overlayRoot
       )}
     </>
   )
