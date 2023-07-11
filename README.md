@@ -99,7 +99,7 @@ You can see the live demo at: https://linkshub.vercel.app
    pnpm run dev
    ```
 
-7. Make your changes
+7. Make your changes before staging them.
 
 8. Stage your changes
 
