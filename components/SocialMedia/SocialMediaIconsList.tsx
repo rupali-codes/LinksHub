@@ -75,10 +75,10 @@ export const SocialMediaIconsList: FC<{
       <li className="flex-1" />
       {showGithubButtons && (
         <div className="flex justify-end">
-          <li className="mr-2 hidden md:block">
+          <li className="mr-2 sm:block">
             <GitHubForkButton repo="rupali-codes/LinksHub" />
           </li>
-          <li className="mr-2 hidden md:block">
+          <li className="mr-2 sm:block">
             <GitHubStarButton repo="rupali-codes/LinksHub" />
           </li>
         </div>

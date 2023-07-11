@@ -21,7 +21,7 @@ export const SideNavbar: FC<{}> = () => {
       <Backdrop onClick={closeNav} className="lg:hidden" />
       {createPortal(
         <div
-          className={`fixed top-0 left-0 z-[100] h-full w-[340px] transition-all lg:hidden
+          className={`fixed top-0 left-0 z-[100] h-full w-[310px] transition-all lg:hidden
           ${sidebar ? 'animate-slide-in' : 'animate-slide-out'}
           `}
         >
