@@ -62,5 +62,13 @@
     "category": "youtube",
     "subcategory": "machine-learning",
     "language": "english"
+  },
+  {
+    "name": "100 days of Machine Learning",
+    "description": "100 Days of Machine Learning is an educational YouTube playlist that provides a comprehensive and structured learning journey for individuals interested in delving into machine learning",
+    "url": "https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH",
+    "category": "youtube",
+    "subcategory": "machine-learning",
+    "language": "english"
   }
 ]

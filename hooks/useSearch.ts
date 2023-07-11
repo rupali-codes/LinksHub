@@ -1,8 +1,13 @@
-import { useEffect, useState } from 'react'
+import { useRouter } from 'next/router'
+import { useEffect, useRef, useState } from 'react'
 
 function useSearch() {
   const [search, setSearch] = useState('')
   const [debouncedSearch, setDebouncedSearch] = useState(search)
+  const firstRender = useRef(true)
+
+  const router = useRouter()
+  const query = router.query.query
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -13,6 +18,12 @@ function useSearch() {
       clearTimeout(timeout)
     }
   }, [search])
+
+  useEffect(() => {
+    if (query && firstRender.current) {
+      setSearch(query as string)
+    }
+  }, [])
 
   return { search, setSearch, debouncedSearch }
 }

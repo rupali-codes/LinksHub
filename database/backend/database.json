@@ -1,5 +1,12 @@
 [
   {
+    "name": "PostgreSQL",
+    "description": "PostgreSQL is a free, open-source relational database that handles structured data and a widely used database management system. ",
+    "url": "https://www.postgresql.org/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
     "name": "MongoDB",
     "description": "MongoDB is a source cross-platform document-oriented NoSQL database program",
     "url": "https://www.mongodb.com/",
@@ -40,5 +47,13 @@
     "url": "https://docs.oracle.com/en-us/iaas/mysql-database/doc/getting-started.html",
     "category": "backend",
     "subcategory": "database"
+  },
+  {
+    "name": "Appwrite",
+    "description": "Appwrite is an open-source backend server software that simplifies the development of web and mobile applications. It provides ready-to-use features like user authentication, database management, and file storage, allowing developers to focus on building their app's front-end functionality.",
+    "url": "https://appwrite.io/docs",
+    "category": "backend",
+    "subcategory": "database"
   }
+  
 ]

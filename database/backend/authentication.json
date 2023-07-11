@@ -12,5 +12,12 @@
     "url": "https://next-auth.js.org/",
     "category": "backend",
     "subcategory": "authentication"
+  },
+  {
+    "name": "Appwrite Authentication",
+    "description": "Appwrite authentication is a secure and convenient way to verify user identities and control access to applications, providing features like user registration, login, and password reset, ensuring that only authorized users can interact with the app's services.",
+    "url": "https://appwrite.io/docs/authentication",
+    "category": "backend",
+    "subcategory": "authentication"
   }
 ]

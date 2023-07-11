@@ -29,7 +29,7 @@
   },
   {
     "name": "Next.js",
-    "description": "This documentation is a comprehensive resource for building fast, scalable, and production-ready web apps using Next.js",
+    "description": "This documentation is a comprehensive resource for building fast, scalable, and production-ready web apps using Next.js.",
     "url": "https://nextjs.org/",
     "category": "resources",
     "subcategory": "officialdocs"
@@ -38,6 +38,20 @@
     "name": "Angular",
     "description": "This page is an overview of the Angular documentation and related resources.",
     "url": "https://angular.io/docs",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Vue.js",
+    "description": "This page contains comprehensive documentation of Vue.js, a progressive JavaScript framework.",
+    "url": "https://vuejs.org/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Nuxt.js",
+    "description": "Nuxt.js is a progressive framework based on Vue.js that simplifies the development of server-side rendered (SSR) and static generated (SSG) Vue.js applications.",
+    "url": "https://nuxtjs.org/",
     "category": "resources",
     "subcategory": "officialdocs"
   }
