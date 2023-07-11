@@ -14,10 +14,10 @@ export const SocialMediaIconsList: FC<{
     <ul className={`flex flex-wrap gap-6 ${className}`}>
       {!showGithubButtons && (
         <>
-          <li className="mr-2 hidden md:block">
+          <li className="pt-6 hidden md:block">
             <GitHubForkButton repo="rupali-codes/LinksHub" />
           </li>
-          <li className="mr-2 hidden md:block">
+          <li className="mr-2 pt-6 hidden md:block">
             <GitHubStarButton repo="rupali-codes/LinksHub" />
           </li>
         </>
@@ -72,10 +72,9 @@ export const SocialMediaIconsList: FC<{
           </a>
         </li>
       </div>
-      <li className="flex-1" />
       {showGithubButtons && (
-        <div className="flex justify-end">
-          <li className="mr-2 sm:block">
+        <div className="flex">
+          <li className="mr-4 sm:block">
             <GitHubForkButton repo="rupali-codes/LinksHub" />
           </li>
           <li className="mr-2 sm:block">
