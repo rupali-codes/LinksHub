@@ -22,5 +22,13 @@
     "category": "youtube",
     "subcategory": "tensorflow",
     "language": "english"
+  },
+  {
+    "name": "TensorFlow Playlist",
+    "description": "A complete You-Tube playlist for learning Tensorflow and advanced concepts of Machine Learning",
+    "url": "https://www.youtube.com/@TensorFlow",
+    "category": "youtube",
+    "subcategory": "tensorflow",
+    "language": "english"
   }
 ]

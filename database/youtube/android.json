@@ -46,5 +46,13 @@
     "category": "youtube",
     "subcategory": "android",
     "language": "hindi"
+  },
+  {
+    "name": "Android Development Course| Neat Roots",
+    "description": "In this Android Java Course, you learn Android Development to become a Full Stack Android Developer",
+    "url": "https://www.youtube.com/playlist?list=PLUhfM8afLE_Ok-0Lx2v9hfrmbxi3GgsX1",
+    "category": "youtube",
+    "subcategory": "android",
+    "language": "hindi"
   }
 ]
