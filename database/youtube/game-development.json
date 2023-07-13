@@ -14,5 +14,13 @@
         "category": "youtube",
         "subcategory": "game-development",
         "language": "Hindi"
+    },
+    {
+        "name": "Godot Game Development",
+        "description": "This tutorial teaches the best gaming engine to create games, if you are a beginner",
+        "url": "https://www.youtube.com/watch?v=S8lMTwSRoRg",
+        "category": "youtube",
+        "subcategory": "game-development",
+        "language": "English"
     }
 ]
