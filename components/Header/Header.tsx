@@ -4,7 +4,6 @@ import { AiOutlineMenu } from 'react-icons/ai'
 import Logo from 'components/logo'
 import { GlobalContext } from 'context/GlobalContext'
 import { ThemeToggler } from '../ThemeToggler/themeToggler'
-import { TopBar } from '../TopBar/TopBar'
 import { SocialMediaIconsList } from 'components/SocialMedia/SocialMediaIconsList'
 
 export const Header: FC<{}> = () => {
@@ -18,7 +17,6 @@ export const Header: FC<{}> = () => {
         </Link>
       </div>
       <div className="bg-base-200 relative h-full grow px-8 dark:bg-gray-900 lg:bg-gray-100 lg:dark:bg-[#101623]">
-        <TopBar className="absolute left-8 hidden h-full md:flex" />
         <div className="absolute right-8 flex h-full gap-4">
           <SocialMediaIconsList className="hidden lg:flex" />
           <ThemeToggler />
