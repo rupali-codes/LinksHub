@@ -74,7 +74,7 @@ filters:
 
   - label: 'accessibility'
     regexs:
-      - /\brefactor\b/
-      - /refactor/i
+      - /\baccessibility\b/
+      - /accessibility/i
     events: [issues, pull_request] # default
     targets: [title, comment] # default
