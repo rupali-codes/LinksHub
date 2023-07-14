@@ -10,9 +10,13 @@ export const TopBar: FC<{ className?: string | undefined }> = (props) => {
   const [currentCategory, setCurrentCategory] = useState<ICategoryData | null>(
     null
   )
+  console.log('currentCategory:' + currentCategory)
   const router = useRouter()
   const category = router.asPath.replace('/', '')
+  console.log('category:' + category)
   const categoryName = category.split('-').join(' ')
+  console.log('categoryName:' + categoryName)
+  const regEx = /[ `!@#$%^&*()_+\=\[\]{};':"\\|,.<>\/?~]/
 
   if (router.pathname.length === 1) {
     return null
@@ -32,21 +36,25 @@ export const TopBar: FC<{ className?: string | undefined }> = (props) => {
   }
 
   return (
-    <div
-      className={`flex items-center text-xl dark:text-gray-300 ${className}`}
-    >
-      <FaSlackHash className="mr-2 text-gray-600 dark:text-gray-300" />
-      <span className="flex uppercase text-gray-900 dark:text-gray-100">
-        {category.split('-').join(' ')}
-        <FaInfoCircle
-          className="ml-4 mt-2 text-sm cursor-pointer"
-          onClick={handleCardClick}
-        />
-        <PopupDesc
-          currentCategory={currentCategory}
-          onClose={removeCurrentCard}
-        />
-      </span>
-    </div>
+    <>
+      {!regEx.test(category) && (
+        <div
+          className={`flex items-center text-xl dark:text-gray-300 ${className}`}
+        >
+          <FaSlackHash className="mr-2 text-gray-600 dark:text-gray-300" />
+          <span className="flex uppercase text-gray-900 dark:text-gray-100">
+            {category.split('-').join(' ')}
+            <FaInfoCircle
+              className="ml-4 mt-2 text-sm cursor-pointer"
+              onClick={handleCardClick}
+            />
+            <PopupDesc
+              currentCategory={currentCategory}
+              onClose={removeCurrentCard}
+            />
+          </span>
+        </div>
+      )}
+    </>
   )
 }
