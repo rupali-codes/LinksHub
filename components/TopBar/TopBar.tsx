@@ -10,12 +10,9 @@ export const TopBar: FC<{ className?: string | undefined }> = (props) => {
   const [currentCategory, setCurrentCategory] = useState<ICategoryData | null>(
     null
   )
-  console.log('currentCategory:' + currentCategory)
   const router = useRouter()
   const category = router.asPath.replace('/', '')
-  console.log('category:' + category)
   const categoryName = category.split('-').join(' ')
-  console.log('categoryName:' + categoryName)
   const regEx = /[ `!@#$%^&*()_+\=\[\]{};':"\\|,.<>\/?~]/
 
   if (router.pathname.length === 1) {
