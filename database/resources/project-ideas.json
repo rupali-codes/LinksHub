@@ -75,5 +75,12 @@
     "url": "https://copyassignment.com/100-java-projects-for-beginners-2023/",
     "category": "resources",
     "subcategory": "project-ideas"
+  },
+  {
+    "name": "Django Projects",
+    "description": "This website provides free beginner-advanced level Django projects with source code.",
+    "url": "https://www.interviewbit.com/blog/django-projects/",
+    "category": "resources",
+    "subcategory": "project-ideas"
   }
 ]
