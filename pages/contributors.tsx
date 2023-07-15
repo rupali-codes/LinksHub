@@ -4,6 +4,7 @@ import Link from 'next/link'
 import type { GetStaticProps } from 'next'
 import { useTheme } from 'next-themes'
 import { maintainersData } from '../data/maintainersData'
+import { useState } from 'react'
 
 interface Contributor {
   id: number
@@ -63,6 +64,7 @@ export const getStaticProps: GetStaticProps<{
 const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   contributors,
 }) => {
+  const [hovered, setHovered] = useState(false)
   const { resolvedTheme } = useTheme()
   const filteredContributors = contributors.filter(
     (contributor) => contributor.contributions >= 6
@@ -103,13 +105,23 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                 height={80}
                 className=" rounded-full mb-4"
               />
-              <span className={imageInfo}>
+              <span
+                className={imageInfo}
+                onMouseEnter={() => setHovered(true)}
+                onMouseLeave={() => setHovered(false)}
+              >
                 {maintainersData.some(
                   (data) => data.login === contributor.login
                 ) ? (
-                  <span className="hidden sm:inline">Maintainer</span>
-                ) : (
+                  hovered ? (
+                    <span className="hidden sm:inline">Maintainer</span>
+                  ) : (
+                    <span>M</span>
+                  )
+                ) : hovered ? (
                   <span className="hidden sm:inline">Contributor</span>
+                ) : (
+                  <span>C</span>
                 )}
               </span>
             </div>
