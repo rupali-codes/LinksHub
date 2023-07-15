@@ -184,6 +184,25 @@ pre {
   position: absolute;
   top: 20px;
   right: 90px;
+  /* font-size: 1rem; */
   /* width: 20px; */
   /* height: 20px; */
+}
+
+.image-effect span:not(:hover) {
+}
+
+.image-effect:hover span {
+  position: absolute;
+  top: -2px;
+  left: -1px;
+  white-space: nowrap;
+  padding: 0.3rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: #6b46c1;
+  color: white;
+  border-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
