@@ -83,9 +83,9 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
 
   const isDarkMode = resolvedTheme === 'dark'
 
-  const imageInfo = `image-effect w-9 h-9 rounded-full bg-gray-100 border text-xl text-gray-900 pl-[9px] pt-1 ${
+  const imageInfo = `image-effect w-9 h-9 rounded-full bg-gray-100 border text-lg text-gray-900 pl-[9px] pt-1 ${
     isDarkMode ? '' : 'border-dashed border-violet-400'
-  }`
+  } `
 
   return (
     <div>
@@ -106,10 +106,11 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
               <span className={imageInfo}>
                 {maintainersData.some(
                   (data) => data.login === contributor.login
-                )
-                  ? 'M'
-                  : 'C'}
-                {/* ['rupali-codes', 'CBID2', 'Anmol-Baranwal'] - We can also use this */}
+                ) ? (
+                  <span className="hidden sm:inline">Maintainer</span>
+                ) : (
+                  <span className="hidden sm:inline">Contributor</span>
+                )}
               </span>
             </div>
             <div className="text-center">
