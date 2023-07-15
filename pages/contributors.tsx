@@ -2,6 +2,7 @@ import { FC } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import type { GetStaticProps } from 'next'
+import { useTheme } from 'next-themes'
 
 interface Contributor {
   id: number
@@ -28,6 +29,7 @@ export const getStaticProps: GetStaticProps<{
           const response = await fetch(
             `https://api.github.com/users/${contributor.login}`
           )
+          console.log(contributor.login)
           if (response.ok) {
             const data = await response.json()
             const updatedContributor: Contributor = {
@@ -60,6 +62,7 @@ export const getStaticProps: GetStaticProps<{
 const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   contributors,
 }) => {
+  const { resolvedTheme } = useTheme()
   const filteredContributors = contributors.filter(
     (contributor) => contributor.contributions >= 6
   )
@@ -77,6 +80,12 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
     className: buttonStyles,
   }
 
+  const isDarkMode = resolvedTheme === 'dark'
+
+  const imageInfo = `image-effect w-9 h-9 rounded-full bg-gray-100 border ${
+    isDarkMode ? '' : 'border-dashed border-violet-400'
+  }`
+
   return (
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -85,7 +94,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
             key={contributor.id}
             className="bg-gray-100 rounded-3xl py-5 px-2 border border-dashed border-violet-500 dark:border-violet-400 shadow-lg dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm flex flex-col"
           >
-            <div className="flex justify-center">
+            <div className="flex justify-center image-wrapper">
               <Image
                 src={contributor.avatar_url}
                 alt={contributor.login}
@@ -93,6 +102,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                 height={80}
                 className=" rounded-full mb-4"
               />
+              <span className={imageInfo}></span>
             </div>
             <div className="text-center">
               <div className="text-xl text-violet-600 dark:text-violet-400">
