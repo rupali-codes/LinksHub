@@ -31,7 +31,6 @@ export const getStaticProps: GetStaticProps<{
           const response = await fetch(
             `https://api.github.com/users/${contributor.login}`
           )
-          console.log(contributor.login)
           if (response.ok) {
             const data = await response.json()
             const updatedContributor: Contributor = {
@@ -64,7 +63,7 @@ export const getStaticProps: GetStaticProps<{
 const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   contributors,
 }) => {
-  const [hovered, setHovered] = useState(false)
+  const [hoveredContributor, setHoveredContributor] = useState<string>('')
   const { resolvedTheme } = useTheme()
   const filteredContributors = contributors.filter(
     (contributor) => contributor.contributions >= 6
@@ -107,19 +106,19 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
               />
               <span
                 className={imageInfo}
-                onMouseEnter={() => setHovered(true)}
-                onMouseLeave={() => setHovered(false)}
+                onMouseEnter={() => setHoveredContributor(contributor.login)}
+                onMouseLeave={() => setHoveredContributor('')}
               >
                 {maintainersData.some(
                   (data) => data.login === contributor.login
                 ) ? (
-                  hovered ? (
-                    <span className="hidden sm:inline">Maintainer</span>
+                  hoveredContributor === contributor.login ? (
+                    <span>Maintainer</span>
                   ) : (
                     <span>M</span>
                   )
-                ) : hovered ? (
-                  <span className="hidden sm:inline">Contributor</span>
+                ) : hoveredContributor === contributor.login ? (
+                  <span>Contributor</span>
                 ) : (
                   <span>C</span>
                 )}
