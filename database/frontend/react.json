@@ -8,6 +8,14 @@
     "language": "english"
   },
   {
+    "name": "React js",
+    "description": "Free React course in order to learn fundamentals of React by FreeCodeCamp. This course is beginner friendly and easy to understand and to apply in large codebase.",
+    "url": "https://youtu.be/4UZrsTqkcW4",
+    "category": "frontend",
+    "subcategory": "react",
+    "language": "english"
+  },
+  {
     "name": "30 days of React",
     "description": "a very nice repository and a challenge at the same time to learn ReactJS",
     "url": "https://github.com/Asabeneh/30-Days-Of-React",
