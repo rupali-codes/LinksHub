@@ -181,15 +181,9 @@ pre {
 }
 
 .image-effect {
-  position: absolute;
+  position: relative;
   top: 20px;
-  right: 90px;
-  /* font-size: 1rem; */
-  /* width: 20px; */
-  /* height: 20px; */
-}
-
-.image-effect span:not(:hover) {
+  right: 15px;
 }
 
 .image-effect:hover span {
