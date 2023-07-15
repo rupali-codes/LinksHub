@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { GetStaticProps } from 'next'
 import { useTheme } from 'next-themes'
+import { maintainersData } from '../data/maintainersData'
 
 interface Contributor {
   id: number
@@ -82,7 +83,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
 
   const isDarkMode = resolvedTheme === 'dark'
 
-  const imageInfo = `image-effect w-9 h-9 rounded-full bg-gray-100 border ${
+  const imageInfo = `image-effect w-9 h-9 rounded-full bg-gray-100 border text-xl text-gray-900 pl-[9px] pt-1 ${
     isDarkMode ? '' : 'border-dashed border-violet-400'
   }`
 
@@ -102,7 +103,14 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                 height={80}
                 className=" rounded-full mb-4"
               />
-              <span className={imageInfo}></span>
+              <span className={imageInfo}>
+                {maintainersData.some(
+                  (data) => data.login === contributor.login
+                )
+                  ? 'M'
+                  : 'C'}
+                {/* ['rupali-codes', 'CBID2', 'Anmol-Baranwal'] - We can also use this */}
+              </span>
             </div>
             <div className="text-center">
               <div className="text-xl text-violet-600 dark:text-violet-400">
