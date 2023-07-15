@@ -1,7 +1,7 @@
 [
   {
     "name": "Fffuel.co",
-    "description": "fffuel is a collection of color tools and free SVG generators for gradients, patterns, textures, shapes & backgrounds.",
+    "description": "Fffuel is a collection of color tools and free SVG generators for gradients, patterns, textures, shapes & backgrounds.",
     "url": "https://fffuel.co/",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -113,7 +113,7 @@
   },
   {
     "name": "Frontend Mentor",
-    "description": "This site solve real-world HTML, CSS, and JavaScript challenges whilst working to professional designs.",
+    "description": "This site solves real-world HTML, CSS, and JavaScript challenges whilst working to professional designs.",
     "url": "https://www.frontendmentor.io/",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -134,14 +134,14 @@
   },
   {
     "name": "Keyframes.app",
-    "description": "This site contains browser-based, mobile-friendly,and private tools that make CSS a little less bad.",
+    "description": "This site contains browser-based, mobile-friendly, and private tools that make CSS a little less bad.",
     "url": "https://keyframes.app/",
     "category": "frontend",
     "subcategory": "ui-generators"
   },
   {
     "name": "Animated Backgrounds",
-    "description": "This site offers a wide range of styles and colors to choose from. You'll find the perfect background to match your brand and message.",
+    "description": "This site offers a wide range of styles and colors. You'll find the perfect background to match your brand and message.",
     "url": "https://animatedbackgrounds.me/",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -155,7 +155,7 @@
   },
   {
     "name": "Glassmorphism CSS Generator",
-    "description": "Glassmorphism is a new design technique which is primarely based on the blurry effect of an element and a background.",
+    "description": "Glassmorphism is a new design technique which is primarily based on the blurry effect of an element and a background.",
     "url": "https://ui.glass/generator/",
     "category": "frontend",
     "subcategory": "ui-generators"
@@ -178,6 +178,13 @@
     "name": "Patternizer",
     "description": "This website will generate CSS code for Patterns",
     "url": "https://patternizer.com/",
+    "category": "frontend",
+    "subcategory": "UI Generators"
+  }, 
+  {
+    "name": "Chakra UI",
+    "description": "Chakra UI is a simple, modular, and accessible component library that gives you the building blocks you need to build your React applications.",
+    "url": "https://chakra-ui.com/",
     "category": "frontend",
     "subcategory": "UI Generators"
   }
