@@ -5,7 +5,7 @@ import classNames from 'classnames'
 import { useTheme } from 'next-themes'
 import { SideNavbarCategoryList } from './SideNavbarCategoryList'
 
-export const SideNavbarBody: FC<{}> = () => {
+export const SideNavbarBody: FC = () => {
   const { theme } = useTheme()
 
   const { setSearch, searchResults, debouncedSearch } = useSidebarSearch()
