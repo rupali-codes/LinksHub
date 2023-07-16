@@ -7,12 +7,19 @@ import { SideNavbarBody } from './SideNavbarBody'
 import { createPortal } from 'react-dom'
 import { SocialMediaIconsList } from 'components/SocialMedia/SocialMediaIconsList'
 import useDelayUnmount from 'hooks/useDelayUnmount'
+import { IContext } from 'types'
 
-export const SideNavbar: FC<{}> = () => {
-  const { sidebar, closeNav } = useContext(GlobalContext)
+export const SideNavbar: FC = () => {
+  const { sidebar, closeNav } = useContext<IContext>(GlobalContext)
   const showElement = useDelayUnmount(sidebar, 300)
 
   if (!showElement) {
+    return null
+  }
+
+  const overlayRoot = document.getElementById('overlay-root')
+
+  if (!overlayRoot) {
     return null
   }
 
@@ -32,7 +39,7 @@ export const SideNavbar: FC<{}> = () => {
           />
           <SideNavbarBody />
         </div>,
-        document.getElementById('overlay-root')!
+        overlayRoot
       )}
     </>
   )
