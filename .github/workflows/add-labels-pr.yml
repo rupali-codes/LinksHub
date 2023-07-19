@@ -1,11 +1,7 @@
 # reference: https://github.com/hoho4190/issue-pr-labeler
-name: Issue PR Labeler
+name: PR Labeler
 
 on:
-  issues:
-    types:
-      - opened
-      - edited
   pull_request_target:
     types:
       - opened
@@ -17,11 +13,10 @@ jobs:
 
     permissions:
       contents: read # to read configuration yml file
-      issues: write # to add labels to issues
       pull-requests: write # to add labels to pull requests
 
     steps:
-      - name: Run Issue PR Labeler
+      - name: Run PR Labeler
         uses: hoho4190/issue-pr-labeler@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
