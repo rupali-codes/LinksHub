@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         discord: '#7289DA',
-        github: '#211F1F',
+        github: '#6E6C6C',
         twitter: '#1DA1F2',
       },
       screens: {
