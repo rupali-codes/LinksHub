@@ -80,7 +80,7 @@
   },
   {
     "name": "React Router v6",
-    "description": "In this, you'll learn key aspects of React Router, including layout and index routes, nested routes, search parameter filtering, protected routes for authenticated users, and Remix-inspired data router APIs like Loaders and Actions.",
+    "description": "In this video, you'll learn key aspects of React Router, including layout and index routes, nested routes, search parameter filtering, protected routes for authenticated users, and Remix-inspired data routers APIs like Loaders and Actions.",
     "url": "https://youtu.be/nDGA3km5He4",
     "category": "frontend",
     "subcategory": "react"
