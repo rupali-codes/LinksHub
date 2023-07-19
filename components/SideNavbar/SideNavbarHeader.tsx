@@ -4,9 +4,10 @@ import { useContext } from 'react'
 import { AiOutlineClose } from 'react-icons/ai'
 import { GlobalContext } from 'context/GlobalContext'
 import Logo from '../logo'
+import { IContext } from 'types'
 
-export const SideNavbarHeader: FC<{}> = (props) => {
-  const { toggleNav } = useContext(GlobalContext)
+export const SideNavbarHeader: FC = () => {
+  const { toggleNav } = useContext<IContext>(GlobalContext)
 
   return (
     <header>
