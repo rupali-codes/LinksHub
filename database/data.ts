@@ -133,11 +133,7 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'artificial intelligence',
     subcategory: [
-      {
-        name: 'Artificial Int.',
-        url: '/artificial-intelligence',
-        resources: DB.artificialIntelligence,
-      },
+      { name: 'Artificial Int.', url: '/artificial-intelligence', resources: DB.artificialIntelligence },
     ],
   },
   {
@@ -163,11 +159,7 @@ export const sidebarData: ISidebar[] = [
         resources: DB.webDevelopment,
       },
       { name: 'CSS', url: '/css', resources: DB.css },
-      {
-        name: 'machine learning',
-        url: '/machine-learning',
-        resources: DB.machineLearning,
-      },
+      { name: 'machine learning', url: '/machine-learning', resources: DB.machineLearning },
       { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
       { name: 'data structures', url: '/dsa', resources: DB.dataStructures },
       { name: 'Android', url: '/android', resources: DB.android },
