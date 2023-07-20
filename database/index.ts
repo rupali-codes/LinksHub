@@ -32,7 +32,7 @@ export { default as CProgramming } from './languages/c-programming.json'
 export { default as kotlin } from './languages/kotlin.json'
 export { default as Rust } from './languages/rust.json'
 export { default as java } from './languages/java.json'
-export { default as cpp } from './languages/c++.json'
+export { default as cpp } from './languages/cpp.json'
 //artificial intelligence
 export { default as artificialIntelligence } from './artificial_intelligence/artificial-intelligence.json'
 //machine learning
@@ -69,4 +69,3 @@ export { default as devtools } from './other/devtools.json'
 export { default as podcasts } from './other/podcasts.json'
 export { default as otherResources } from './other/other-resources.json'
 export { default as communities } from './other/communities.json'
-
