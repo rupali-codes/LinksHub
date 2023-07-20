@@ -22,7 +22,7 @@
   },
   {
     "name": "Passport Authentication",
-    "description": "Passport is authentication middleware for Node.js. Extremely flexible and modular, this tool can be unobtrusively dropped in to any Express-based web application. It also provides a comprehensive set of strategies support authentication for a username and password, Facebook, Twitter, and more.",
+    "description": "Passport is authentication middleware for Node.js. Extremely flexible and modular, this tool can be unobtrusively dropped in to any Express-based web application. It also provides a comprehensive set of support authentication strategies for usernames, passwords, Facebook, Twitter, and more.",
     "url": "https://www.passportjs.org/",
     "category": "backend",
     "subcategory": "authentication"
