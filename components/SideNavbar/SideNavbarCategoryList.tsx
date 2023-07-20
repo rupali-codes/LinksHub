@@ -1,7 +1,6 @@
 import { FC, useEffect, useState } from 'react'
 import type { ISidebar, Category } from '../../types'
 import { SideNavbarCategory } from './SideNavbarCategory'
-import { useRouter } from 'next/router'
 
 export const SideNavbarCategoryList: FC<{
   items: ISidebar[]
@@ -9,8 +8,6 @@ export const SideNavbarCategoryList: FC<{
   isSearching: boolean
 }> = (props) => {
   const { items, openByDefault, isSearching } = props
-  const router = useRouter()
-  const query = router.query.query
 
   const initialOpenState = items.reduce(
     (acc, item) => ({
@@ -21,25 +18,36 @@ export const SideNavbarCategoryList: FC<{
   )
 
   const [isItemsOpen, setIsItemsOpen] =
-    useState<Record<any, boolean>>(initialOpenState)
+    useState<Record<string, boolean>>(initialOpenState)
   const [statePriorToSearch, setStatePriorToSearch] =
     useState<Record<string, boolean>>(initialOpenState)
 
   // console.log(isItemsOpen, isSearching)
 
   useEffect(() => {
-    setIsItemsOpen(
-      !isSearching
-        ? { ...statePriorToSearch }
-        : items.reduce(
-            (acc, item) => ({
-              ...acc,
-              [item.category]:
-                isSearching || isItemsOpen[item.category] || false,
-            }),
-            {}
-          )
-    )
+    setIsItemsOpen((prev) => ({
+      ...prev,
+      ...items.reduce(
+        (acc, item) => ({
+          ...acc,
+          [item.category]: isSearching || prev[item.category],
+        }),
+        {}
+      ),
+    }))
+
+    if (!isSearching) {
+      setStatePriorToSearch((prev) => ({
+        ...prev,
+        ...items.reduce(
+          (acc, item) => ({
+            ...acc,
+            [item.category]: prev[item.category],
+          }),
+          {}
+        ),
+      }))
+    }
   }, [isSearching, items])
 
   /**

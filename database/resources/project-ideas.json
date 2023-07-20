@@ -43,7 +43,7 @@
   },
   {
     "name": "Projects Using HTML, CSS & JavaScript",
-    "description": "This is a beginner-friendly Web Development projects playlist with source code just using HTML,CSS,JS.",
+    "description": "This is a beginner-friendly Web Development projects playlist with source code just using HTML, CSS, and JS.",
     "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9aiQiOwthuSvinxoflmhRxM3",
     "category": "resources",
     "subcategory": "project-ideas"
@@ -57,7 +57,7 @@
   },
   {
     "name": "Cloud Computing Projects",
-    "description": "This website provides free Cloud Computing projects for beginners to advanced level with source code.",
+    "description": "This website provides free Cloud Computing projects for beginners to advanced with source code.",
     "url": "https://www.interviewbit.com/blog/cloud-computing-projects/",
     "category": "resources",
     "subcategory": "project-ideas"
@@ -73,6 +73,13 @@
     "name": "Java Projects",
     "description": "Are you a beginner and looking for interesting Java Projects ideas? If yes, check out this article! It will show you 100+ Java project ideas and topics with source code for coders like you.",
     "url": "https://copyassignment.com/100-java-projects-for-beginners-2023/",
+    "category": "resources",
+    "subcategory": "project-ideas"
+  },
+  {
+    "name": "Django Projects",
+    "description": "This website provides free beginner to advanced level Django projects with source code.",
+    "url": "https://www.interviewbit.com/blog/django-projects/",
     "category": "resources",
     "subcategory": "project-ideas"
   }

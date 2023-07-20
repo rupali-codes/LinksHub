@@ -23,7 +23,7 @@ export const Footer: FC = () => {
           <span className={nameStyles}>Rupali Haldiya</span>
         </Link>{' '}
         and{' '}
-        <Link href="/contributors" rel="noopener noreferrer">
+        <Link href="/contributors" rel="noopener noreferrer" target="_blank">
           <span className={nameStyles}>Open Source Community</span>
         </Link>
       </p>

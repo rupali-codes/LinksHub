@@ -16,6 +16,12 @@ const Popup: React.FC<{
     return null
   }
 
+  const overlayRoot = document.getElementById('overlay-root')
+
+  if (!overlayRoot) {
+    return null
+  }
+
   return (
     <>
       <Backdrop onClick={onClose} />
@@ -61,7 +67,7 @@ const Popup: React.FC<{
             </a>
           </div>
         </div>,
-        document.getElementById('overlay-root')!
+        overlayRoot
       )}
     </>
   )
