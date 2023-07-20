@@ -18,7 +18,7 @@ export const TopBar: FC<{ className?: string | undefined }> = (props) => {
     return null
   }
 
-  const handleCardClick = () => {
+  const handleCardClick: () => void = () => {
     const description = categoryDescriptions[categoryName] || ''
     const categoryInfo = {
       name: categoryName,
@@ -27,7 +27,7 @@ export const TopBar: FC<{ className?: string | undefined }> = (props) => {
     setCurrentCategory(categoryInfo)
   }
 
-  const removeCurrentCard = () => {
+  const removeCurrentCard: () => void = () => {
     setCurrentCategory(null)
   }
 

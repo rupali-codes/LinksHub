@@ -79,26 +79,26 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
 
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
         {sortedContributors.map((contributor) => (
           <div
             key={contributor.id}
-            className="bg-gray-100 rounded-3xl py-5 px-2 border border-dashed border-violet-500 dark:border-violet-400 shadow-lg dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm flex flex-col"
+            className="bg-gray-100 rounded-3xl py-5 px-2 border border-dashed border-violet-500 dark:border-violet-400 shadow-lg dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer m-1"
           >
             <div className="flex justify-center">
               <Image
                 src={contributor.avatar_url}
                 alt={contributor.login}
-                width={80}
-                height={80}
-                className=" rounded-full mb-4"
+                width={110}
+                height={110}
+                className=" rounded-full mb-4 border-2 border-violet-500 dark:border-violet-400 transition-transform duration-300 hover:scale-105 hover:border-dotted m-2"
               />
             </div>
             <div className="text-center">
-              <div className="text-xl text-violet-600 dark:text-violet-400">
+              <div className="text-2xl text-violet-600 dark:text-violet-400 m-2">
                 {contributor.name}
               </div>
-              <div className="text-gray-400 mb-2 pb-4 pt-1">
+              <div className="text-gray-400 mb-2 pb-4 pt-1 m-2">
                 {contributor.contributions} Contributions
               </div>
             </div>
