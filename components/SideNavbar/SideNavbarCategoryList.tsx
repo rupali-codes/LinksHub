@@ -18,25 +18,36 @@ export const SideNavbarCategoryList: FC<{
   )
 
   const [isItemsOpen, setIsItemsOpen] =
-    useState<Record<any, boolean>>(initialOpenState)
+    useState<Record<string, boolean>>(initialOpenState)
   const [statePriorToSearch, setStatePriorToSearch] =
     useState<Record<string, boolean>>(initialOpenState)
 
-  // console.log(isItemsOpen, openByDefault)
+  // console.log(isItemsOpen, isSearching)
 
   useEffect(() => {
-    setIsItemsOpen(
-      !isSearching
-        ? { ...statePriorToSearch }
-        : items.reduce(
-            (acc, item) => ({
-              ...acc,
-              [item.category]:
-                isSearching || isItemsOpen[item.category] || false,
-            }),
-            {}
-          )
-    )
+    setIsItemsOpen((prev) => ({
+      ...prev,
+      ...items.reduce(
+        (acc, item) => ({
+          ...acc,
+          [item.category]: isSearching || prev[item.category],
+        }),
+        {}
+      ),
+    }))
+
+    if (!isSearching) {
+      setStatePriorToSearch((prev) => ({
+        ...prev,
+        ...items.reduce(
+          (acc, item) => ({
+            ...acc,
+            [item.category]: prev[item.category],
+          }),
+          {}
+        ),
+      }))
+    }
   }, [isSearching, items])
 
   /**
@@ -47,7 +58,6 @@ export const SideNavbarCategoryList: FC<{
    */
   const handleToggle = (category: Category, isOpen: boolean) => {
     setIsItemsOpen((prev) => ({ ...prev, [category]: !isOpen }))
-    console.log({ isItemsOpen })
 
     if (!isSearching) {
       /**

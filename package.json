@@ -9,7 +9,8 @@
     "start": "next start",
     "dev-setup": "pnpm install",
     "start-setup": "pnpm install ",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@next/font": "13.2.4",
@@ -25,8 +26,10 @@
     "git": "^0.1.5",
     "next": "13.4.3",
     "next-themes": "^0.2.1",
+    "pnpm": "^8.6.6",
     "prettier": "^2.8.7",
     "react": "18.2.0",
+    "react-autosuggest": "^10.1.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-spinners": "^0.13.8",
@@ -39,6 +42,7 @@
     "@types/uuid": "^9.0.1",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "autoprefixer": "^10.4.14",
+    "husky": "^8.0.3",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.3.1"
   }

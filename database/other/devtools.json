@@ -36,14 +36,14 @@
   },
   {
     "name": "CodeSandbox",
-    "description": "This IDE will make it easier for you to code. You can get any design you want as well as filter it by framework,dependiences, and tags.",
+    "description": "This IDE will make it easier for you to code. You can get any design you want as well as filter it by framework,dependencies, and tags.",
     "url": "https://codesandbox.io/search?refinementList",
     "category": "other",
     "subcategory": "devtools"
   },
   {
     "name": "OpenSauced",
-    "description": "OpenSauced is a great tool to display your merged and opened pull requests, highlight your favorite contributions, and find other open source projects to contribute to!",
+    "description": "OpenSauced is a great tool to display your merged and opened pull requests, highlight your favorite contributions, and find other open-source projects to contribute to!",
     "url": "https://opensauced.pizza/",
     "category": "other",
     "subcategory": "devtools"

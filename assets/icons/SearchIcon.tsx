@@ -1,5 +1,5 @@
-import React from "react";
-import { SVGProps } from "react";
+import React from 'react'
+import { SVGProps } from 'react'
 const SearchIcon = ({ ...rest }: SVGProps<SVGSVGElement>) => {
   return (
     <svg
@@ -15,7 +15,7 @@ const SearchIcon = ({ ...rest }: SVGProps<SVGSVGElement>) => {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
-};
+  )
+}
 
-export default SearchIcon;
+export default SearchIcon

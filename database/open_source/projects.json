@@ -61,5 +61,19 @@
     "url": "https://github.com/colinhacks/zod",
     "category": "open source",
     "subcategory": "open-source-projects"
+  },
+  {
+    "name": "Code Thesaurus",
+    "description": "The Polyglot Developer Reference.Use this tool to compare language components from languages you know and don't know, or just use it as a language reference cheat sheet.",
+    "url": "https://codethesaur.us/",
+    "category": "open source",
+    "subcategory": "open-source-projects"
+  },
+  {
+    "name": "Women-Led-Open-Source",
+    "description": "A living resource unveiling trailblazing leaders, from women to transgender and nonbinary individuals, shaping open source.",
+    "url": "https://github.com/amandamartin-dev/women-led-open-source",
+    "category": "open source",
+    "subcategory": "open-source-projects"
   }
 ]

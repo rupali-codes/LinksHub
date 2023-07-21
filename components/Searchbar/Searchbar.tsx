@@ -1,36 +1,82 @@
-import React, { useState } from "react";
-import SearchIcon from "assets/icons/SearchIcon";
+import React, { useState, useRef } from 'react'
+import SearchIcon from 'assets/icons/SearchIcon'
+import { useRouter } from 'next/router'
+// import type { ISidebar, SubCategories, subcategoryArray } from '../../types'
+import { subcategoryArray } from '../../types'
 
 interface SearchbarProps {
-  setSearch: (search: string) => void;
+  setSearch: (search: string) => void
 }
 
+// const subcategory =subcategoryArray;
+
+// const subcategoryList: SubCategory[] = Object.keys(SubCategory).filter(
+//   (key) => isNaN(Number(key))
+// ) as SubCategory[];
+
+const searchOptions = subcategoryArray
+
 export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
+  const router = useRouter()
+  const query = router.query.query
+  const [searchQuery, setSearchQuery] = useState((query as string) ?? '')
+  const [errorMessage, setErrorMessage] = useState('')
+  const [suggestions, setSuggestions] = useState<string[]>([])
+  const dropdownRef = useRef<HTMLUListElement>(null)
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchQuery(e.target.value);
-    setErrorMessage("");
-  };
+    const value = e.target.value
+    setSearchQuery(value)
+
+    const trimmedValue = value.trim().toLowerCase()
+    if (trimmedValue === '') {
+      setErrorMessage('')
+      setSuggestions([])
+      setSearch('')
+    } else {
+      const filteredSuggestions = searchOptions.filter((option) =>
+        option.toLowerCase().includes(trimmedValue)
+      )
+      setSuggestions(filteredSuggestions)
+    }
+  }
+
+  const handleSuggestionClick = (suggestion: string) => {
+    setSearchQuery(suggestion)
+    setSearch(suggestion)
+    setSuggestions([])
+  }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    if (searchQuery.trim() === "") {
-      setErrorMessage("Please enter a search query");
+    e.preventDefault()
+    if (searchQuery.trim() === '') {
+      setErrorMessage('Please enter a search query')
     } else {
-      setErrorMessage("");
-      setSearch(searchQuery);
+      setErrorMessage('')
+      setSearch(searchQuery)
     }
-  };
+  }
+
+  const handleClickOutsideDropdown = (e: MouseEvent) => {
+    if (
+      dropdownRef.current &&
+      !dropdownRef.current.contains(e.target as Node)
+    ) {
+      setSuggestions([])
+    }
+  }
+
+  React.useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutsideDropdown)
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutsideDropdown)
+    }
+  }, [])
 
   return (
     <form onSubmit={handleSubmit} noValidate>
-      <div className="flex items-center">
-        <div className="relative flex items-center">
-          {/* <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-            <SearchIcon className="w-5 h-5 text-violet-600 dark:text-violet-400" />
-          </div> */}
+      <div className="relative">
+        <div className="flex items-center">
           <input
             type="text"
             id="simple-search"
@@ -40,14 +86,31 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
             onChange={handleSearchChange}
             required
           />
+          <button
+            type="submit"
+            className="ml-2 px-4 py-2.5 bg-violet-500 text-white rounded-md border border-dashed border-transparent hover:border-violet-400 hover:bg-transparent hover:text-violet-400 dark:hover:text-violet-400"
+          >
+            <SearchIcon className="w-5 h-5" />
+          </button>
         </div>
-        <button type="submit" className="ml-2 px-4 py-2.5 bg-violet-500 text-white rounded-md border border-dashed border-transparent hover:border-violet-400 hover:bg-transparent hover:text-violet-400 dark:hover:text-violet-400">
-          <SearchIcon className="w-5 h-5" />
-        </button>
+        {suggestions.length > 0 && (
+          <ul
+            ref={dropdownRef}
+            className="absolute z-10 bg-white dark:bg-gray-800 w-full py-2 mt-1 rounded-lg shadow-lg"
+          >
+            {suggestions.map((suggestion) => (
+              <li
+                key={suggestion}
+                className="px-4 py-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700"
+                onClick={() => handleSuggestionClick(suggestion)}
+              >
+                {suggestion}
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
-      {errorMessage && (
-        <p className="text-red-500">{errorMessage}</p>
-      )}
+      {errorMessage && <p className="text-red-500">{errorMessage}</p>}
     </form>
-  );
-};
+  )
+}
