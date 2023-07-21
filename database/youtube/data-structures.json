@@ -105,8 +105,16 @@
   },
   {
     "name": "TAP ACADEMY",
-    "description": "A well-structured DSA playlist from beginner to advanced level in Java",
+    "description": "A well-structured DSA playlist from beginner to advanced level in Java.",
     "url": "https://youtube.com/playlist?list=PLU83Ru7iGtAvP1rqt65MCDSBPFCzUKGXG",
+    "category": "youtube",
+    "subcategory": "data-structures",
+    "language": "english"
+  },
+  {
+    "name": "CODING NINJAS",
+    "description": "This channel provides DSA course in Python from beginner to advance level.",
+    "url": "https://youtube.com/playlist?list=PLrk5tgtnMN6TYBW0-U4YhIRyYEVpqVEnJ",
     "category": "youtube",
     "subcategory": "data-structures",
     "language": "english"
