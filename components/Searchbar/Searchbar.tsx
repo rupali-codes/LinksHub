@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import SearchIcon from 'assets/icons/SearchIcon'
 import { useRouter } from 'next/router'
 // import type { ISidebar, SubCategories, subcategoryArray } from '../../types'
@@ -19,17 +19,20 @@ const searchOptions = subcategoryArray
 export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
   const router = useRouter()
   const query = router.query.query
+
   const [searchQuery, setSearchQuery] = useState((query as string) ?? '')
+  const [showSuggestions, setShowSuggestions] = useState(false)
   const [errorMessage, setErrorMessage] = useState('')
-  const dropdownRef = useRef<HTMLUListElement>(null)
+  const formRef = useRef<HTMLFormElement>(null)
 
   const suggestions = getFilteredSuggestions(searchQuery)
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value
-    setSearchQuery(value)
-
     const trimmedValue = value.trim().toLowerCase()
+
+    setSearchQuery(value)
+    setShowSuggestions(true)
     if (trimmedValue === '') {
       setErrorMessage('')
       setSearch('')
@@ -39,10 +42,13 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
   const handleSuggestionClick = (suggestion: string) => {
     setSearchQuery(suggestion)
     setSearch(suggestion)
+    setShowSuggestions(false)
   }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+
+    setShowSuggestions(false)
     if (searchQuery.trim() === '') {
       setErrorMessage('Please enter a search query')
     } else {
@@ -51,23 +57,22 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
     }
   }
 
-  const handleClickOutsideDropdown = (e: MouseEvent) => {
-    if (
-      dropdownRef.current &&
-      !dropdownRef.current.contains(e.target as Node)
-    ) {
+  useEffect(() => {
+    const handleClickOutsideDropdown = (e: MouseEvent) => {
+      if ((formRef.current as HTMLFormElement).contains(e.target as Node))
+        return
+      setShowSuggestions(false)
     }
-  }
 
-  React.useEffect(() => {
     document.addEventListener('mousedown', handleClickOutsideDropdown)
+
     return () => {
       document.removeEventListener('mousedown', handleClickOutsideDropdown)
     }
   }, [])
 
   return (
-    <form onSubmit={handleSubmit} noValidate>
+    <form noValidate ref={formRef} onSubmit={handleSubmit}>
       <div className="relative">
         <div className="flex items-center">
           <input
@@ -86,11 +91,8 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
             <SearchIcon className="w-5 h-5" />
           </button>
         </div>
-        {suggestions.length > 0 && (
-          <ul
-            ref={dropdownRef}
-            className="absolute z-10 bg-white dark:bg-gray-800 w-full py-2 mt-1 rounded-lg shadow-lg"
-          >
+        {suggestions.length > 0 && showSuggestions && (
+          <ul className="absolute z-10 bg-white dark:bg-gray-800 w-full py-2 mt-1 rounded-lg shadow-lg">
             {suggestions.map((suggestion) => (
               <li
                 key={suggestion}
