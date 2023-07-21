@@ -33,5 +33,12 @@
     "url": "https://geeksrepos.com/",
     "category": "open source",
     "subcategory": "open-source-tools"
+  },
+  {
+    "name":"Good First Issues",
+    "description":"Looking for good first issues based on your tech stack? This website will help you find them.",
+    "url":"https://goodfirstissues.com/",
+    "category":"open source",
+    "subcategory":"open-source-tools"
   }
 ]
