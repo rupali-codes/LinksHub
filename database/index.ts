@@ -35,6 +35,8 @@ export { default as java } from './languages/java.json'
 export { default as cpp } from './languages/c++.json'
 //artificial intelligence
 export { default as artificialIntelligence } from './artificial_intelligence/artificial-intelligence.json'
+//internet of things
+export { default as coursera } from './IOT/coursera.json'
 //machine learning
 export { default as ml } from './machine_learning/machine-learning.json'
 export { default as dataScience } from './machine_learning/data-science.json'
@@ -69,4 +71,3 @@ export { default as devtools } from './other/devtools.json'
 export { default as podcasts } from './other/podcasts.json'
 export { default as otherResources } from './other/other-resources.json'
 export { default as communities } from './other/communities.json'
-
