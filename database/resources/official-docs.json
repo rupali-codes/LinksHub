@@ -54,5 +54,12 @@
     "url": "https://nuxtjs.org/",
     "category": "resources",
     "subcategory": "officialdocs"
+  },
+  {
+    "name": "Tailwind Css",
+    "description": " Comprehensive documentation for the utility-first CSS framework, enabling efficient web development through its extensive class-based approach",
+    "url": "https://tailwindcss.com/docs/installation",
+    "category": "resources",
+    "subcategory": "officialdocs"
   }
 ]
