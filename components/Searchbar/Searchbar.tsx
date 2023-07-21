@@ -15,6 +15,7 @@ interface SearchbarProps {
 // ) as SubCategory[];
 
 const searchOptions = subcategoryArray
+const SEARCH_ERROR_MSG = 'Please enter a valid search query'
 
 export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
   const router = useRouter()
@@ -22,19 +23,21 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
 
   const [searchQuery, setSearchQuery] = useState((query as string) ?? '')
   const [showSuggestions, setShowSuggestions] = useState(false)
-  const [errorMessage, setErrorMessage] = useState('')
+  const [queryIsValid, setQueryIsValid] = useState(true)
   const formRef = useRef<HTMLFormElement>(null)
 
   const suggestions = getFilteredSuggestions(searchQuery)
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value
-    const trimmedValue = value.trim().toLowerCase()
+    const query = e.target.value
+    const normalisedQuery = query.trim().toLowerCase()
 
-    setSearchQuery(value)
+    setQueryIsValid(true)
+    setSearchQuery(query)
     setShowSuggestions(true)
-    if (trimmedValue === '') {
-      setErrorMessage('')
+
+    // empty searchQuery renders all the categories in the SideNavBar
+    if (normalisedQuery === '') {
       setSearch('')
     }
   }
@@ -50,9 +53,8 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
 
     setShowSuggestions(false)
     if (searchQuery.trim() === '') {
-      setErrorMessage('Please enter a search query')
+      setQueryIsValid(false)
     } else {
-      setErrorMessage('')
       setSearch(searchQuery)
     }
   }
@@ -105,7 +107,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
           </ul>
         )}
       </div>
-      {errorMessage && <p className="text-red-500">{errorMessage}</p>}
+      {!queryIsValid && <p className="text-red-500 mt-2">{SEARCH_ERROR_MSG}</p>}
     </form>
   )
 }
