@@ -21,8 +21,9 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
   const query = router.query.query
   const [searchQuery, setSearchQuery] = useState((query as string) ?? '')
   const [errorMessage, setErrorMessage] = useState('')
-  const [suggestions, setSuggestions] = useState<string[]>([])
   const dropdownRef = useRef<HTMLUListElement>(null)
+
+  const suggestions = getFilteredSuggestions(searchQuery)
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value
@@ -31,20 +32,13 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
     const trimmedValue = value.trim().toLowerCase()
     if (trimmedValue === '') {
       setErrorMessage('')
-      setSuggestions([])
       setSearch('')
-    } else {
-      const filteredSuggestions = searchOptions.filter((option) =>
-        option.toLowerCase().includes(trimmedValue)
-      )
-      setSuggestions(filteredSuggestions)
     }
   }
 
   const handleSuggestionClick = (suggestion: string) => {
     setSearchQuery(suggestion)
     setSearch(suggestion)
-    setSuggestions([])
   }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -62,7 +56,6 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
       dropdownRef.current &&
       !dropdownRef.current.contains(e.target as Node)
     ) {
-      setSuggestions([])
     }
   }
 
@@ -113,4 +106,22 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
       {errorMessage && <p className="text-red-500">{errorMessage}</p>}
     </form>
   )
+}
+
+const getFilteredSuggestions = (query: string) => {
+  const normalisedQuery = query.trim().toLowerCase()
+
+  if (normalisedQuery.length === 0) {
+    return []
+  }
+
+  const suggestions = new Set<string>([])
+  searchOptions.forEach((option) => {
+    const normalisedOption = option.toLowerCase()
+    if (normalisedOption.includes(normalisedQuery)) {
+      suggestions.add(normalisedOption)
+    }
+  })
+
+  return Array.from(suggestions)
 }
