@@ -57,7 +57,7 @@
   },
   {
     "name": "Node.js",
-    "description": "Node.js is built on top of the Google Chrome V8 JavaScript engine, and it's mainly used to create web servers - but it's not limited to just that.",
+    "description": "Node.js is built on top of the Google Chrome V8 JavaScript engine, and it's mainly used to create web servers - but it can be used for other purposes too.",
     "url": "https://nodejs.dev/en/learn/",
     "category": "resources",
     "subcategory": "officialdocs"
