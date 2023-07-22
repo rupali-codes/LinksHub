@@ -1,27 +1,22 @@
 import { useState, useRef, useEffect } from 'react'
 import SearchIcon from 'assets/icons/SearchIcon'
-import { useRouter } from 'next/router'
-// import type { ISidebar, SubCategories, subcategoryArray } from '../../types'
 import { subcategoryArray } from '../../types'
+import { SearchbarSuggestions } from './SearchbarSuggestions'
 
 interface SearchbarProps {
-  setSearch: (search: string) => void
+  onQueryChange: (query: string) => void
+  onCategoryChange: (query: string, updateRoute?: boolean) => void
+  searchQuery: string
 }
-
-// const subcategory =subcategoryArray;
-
-// const subcategoryList: SubCategory[] = Object.keys(SubCategory).filter(
-//   (key) => isNaN(Number(key))
-// ) as SubCategory[];
 
 const searchOptions = subcategoryArray
 const SEARCH_ERROR_MSG = 'Please enter a valid search query'
 
-export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
-  const router = useRouter()
-  const query = router.query.query
-
-  const [searchQuery, setSearchQuery] = useState((query as string) ?? '')
+export const Searchbar: React.FC<SearchbarProps> = ({
+  onQueryChange,
+  onCategoryChange,
+  searchQuery,
+}) => {
   const [showSuggestions, setShowSuggestions] = useState(false)
   const [queryIsValid, setQueryIsValid] = useState(true)
   const formRef = useRef<HTMLFormElement>(null)
@@ -30,21 +25,16 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const query = e.target.value
-    const normalisedQuery = query.trim().toLowerCase()
 
+    onQueryChange(query)
+    if (query.trim().length === 0) onCategoryChange(query, false)
     setQueryIsValid(true)
-    setSearchQuery(query)
     setShowSuggestions(true)
-
-    // empty searchQuery renders all the categories in the SideNavBar
-    if (normalisedQuery === '') {
-      setSearch('')
-    }
   }
 
-  const handleSuggestionClick = (suggestion: string) => {
-    setSearchQuery(suggestion)
-    setSearch(suggestion)
+  const handleSuggestionClick = (query: string) => {
+    onQueryChange(query)
+    onCategoryChange(query)
     setShowSuggestions(false)
   }
 
@@ -53,10 +43,9 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
 
     setShowSuggestions(false)
     if (searchQuery.trim() === '') {
-      setQueryIsValid(false)
-    } else {
-      setSearch(searchQuery)
+      return setQueryIsValid(false)
     }
+    onCategoryChange(searchQuery)
   }
 
   useEffect(() => {
@@ -94,17 +83,10 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
           </button>
         </div>
         {suggestions.length > 0 && showSuggestions && (
-          <ul className="absolute z-10 bg-white dark:bg-gray-800 w-full py-2 mt-1 rounded-lg shadow-lg">
-            {suggestions.map((suggestion) => (
-              <li
-                key={suggestion}
-                className="px-4 py-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700"
-                onClick={() => handleSuggestionClick(suggestion)}
-              >
-                {suggestion}
-              </li>
-            ))}
-          </ul>
+          <SearchbarSuggestions
+            suggestions={suggestions}
+            onSuggestionClick={handleSuggestionClick}
+          />
         )}
       </div>
       {!queryIsValid && <p className="text-red-500 mt-2">{SEARCH_ERROR_MSG}</p>}
@@ -114,7 +96,6 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
 
 const getFilteredSuggestions = (query: string) => {
   const normalisedQuery = query.trim().toLowerCase()
-
   if (normalisedQuery.length === 0) {
     return []
   }

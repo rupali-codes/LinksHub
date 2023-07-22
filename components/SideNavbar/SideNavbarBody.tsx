@@ -1,14 +1,33 @@
-import { FC } from 'react'
+import { FC, useState } from 'react'
 import { Searchbar } from '../Searchbar'
-import useSidebarSearch from 'hooks/useSidebarSearch'
 import classNames from 'classnames'
 import { useTheme } from 'next-themes'
 import { SideNavbarCategoryList } from './SideNavbarCategoryList'
+import { useRouter } from 'next/router'
 
 export const SideNavbarBody: FC = () => {
   const { theme } = useTheme()
+  const router = useRouter()
+  const [searchQuery, setSearchQuery] = useState(
+    (router.query.query as string) ?? ''
+  )
+  const [categoryQuery, setCategoryQuery] = useState(searchQuery)
 
-  const { setSearch, searchResults, debouncedSearch } = useSidebarSearch()
+  const onQueryChange = (query: string) => {
+    setSearchQuery(query)
+  }
+
+  const onCategoryChange = (query: string, updateRoute = true) => {
+    setCategoryQuery(query)
+    if (updateRoute) {
+      router.push({
+        pathname: '/search',
+        query: {
+          query,
+        },
+      })
+    }
+  }
 
   return (
     <div
@@ -18,13 +37,13 @@ export const SideNavbarBody: FC = () => {
       )}
     >
       <div className="bg-base-200 transiton-all w-full p-4 transition-none ease-in dark:bg-gray-900">
-        <Searchbar setSearch={setSearch} />
+        <Searchbar
+          searchQuery={searchQuery}
+          onQueryChange={onQueryChange}
+          onCategoryChange={onCategoryChange}
+        />
       </div>
-      <SideNavbarCategoryList
-        items={searchResults}
-        isSearching={debouncedSearch.length > 0}
-        openByDefault={''}
-      />
+      <SideNavbarCategoryList query={categoryQuery} />
     </div>
   )
 }
