@@ -1,58 +1,69 @@
-import { useState, useRef, useEffect } from 'react'
+import { useRef, useEffect } from 'react'
+
 import SearchIcon from 'assets/icons/SearchIcon'
-import { subcategoryArray } from '../../types'
 import { SearchbarSuggestions } from './SearchbarSuggestions'
+import { ErrorMessage } from 'components/ErrorMessage'
+
+import { subcategoryArray } from '../../types'
+import { SearchbarAction } from './SearchbarReducer'
+import { useRouter } from 'next/router'
 
 interface SearchbarProps {
-  onQueryChange: (query: string) => void
-  onCategoryChange: (query: string, updateRoute?: boolean) => void
+  dispatchSearch: (action: SearchbarAction) => void
   searchQuery: string
+  showSuggestions: boolean
+  searchQueryIsValid: boolean
 }
 
 const searchOptions = subcategoryArray
 const SEARCH_ERROR_MSG = 'Please enter a valid search query'
 
 export const Searchbar: React.FC<SearchbarProps> = ({
-  onQueryChange,
-  onCategoryChange,
+  dispatchSearch,
   searchQuery,
+  showSuggestions,
+  searchQueryIsValid,
 }) => {
-  const [showSuggestions, setShowSuggestions] = useState(false)
-  const [queryIsValid, setQueryIsValid] = useState(true)
   const formRef = useRef<HTMLFormElement>(null)
-
+  const router = useRouter()
   const suggestions = getFilteredSuggestions(searchQuery)
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const query = e.target.value
-
-    onQueryChange(query)
-    if (query.trim().length === 0) onCategoryChange(query, false)
-    setQueryIsValid(true)
-    setShowSuggestions(true)
+    dispatchSearch({
+      type: 'search_query_change',
+      searchQuery: e.target.value,
+    })
   }
 
-  const handleSuggestionClick = (query: string) => {
-    onQueryChange(query)
-    onCategoryChange(query)
-    setShowSuggestions(false)
+  const handleSuggestionClick = (searchQuery: string) => {
+    dispatchSearch({ type: 'suggestion_click', searchQuery })
+    router.push({
+      pathname: '/search',
+      query: {
+        query: searchQuery,
+      },
+    })
   }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 
-    setShowSuggestions(false)
-    if (searchQuery.trim() === '') {
-      return setQueryIsValid(false)
+    dispatchSearch({ type: 'submit' })
+    if (searchQuery.trim() !== '') {
+      router.push({
+        pathname: '/search',
+        query: {
+          query: searchQuery,
+        },
+      })
     }
-    onCategoryChange(searchQuery)
   }
 
   useEffect(() => {
     const handleClickOutsideDropdown = (e: MouseEvent) => {
       if ((formRef.current as HTMLFormElement).contains(e.target as Node))
         return
-      setShowSuggestions(false)
+      dispatchSearch({ type: 'close_suggestions' })
     }
 
     document.addEventListener('mousedown', handleClickOutsideDropdown)
@@ -60,7 +71,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
     return () => {
       document.removeEventListener('mousedown', handleClickOutsideDropdown)
     }
-  }, [])
+  }, [dispatchSearch])
 
   return (
     <form noValidate ref={formRef} onSubmit={handleSubmit}>
@@ -89,7 +100,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
           />
         )}
       </div>
-      {!queryIsValid && <p className="text-red-500 mt-2">{SEARCH_ERROR_MSG}</p>}
+      {!searchQueryIsValid && <ErrorMessage>{SEARCH_ERROR_MSG}</ErrorMessage>}
     </form>
   )
 }
