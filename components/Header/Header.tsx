@@ -1,7 +1,7 @@
 import { FC, useContext } from 'react'
 import Link from 'next/link'
 import { AiOutlineMenu } from 'react-icons/ai'
-import Logo from 'components/logo'
+import Logo from 'components/logo/logo'
 import { GlobalContext } from 'context/GlobalContext'
 import { ThemeToggler } from '../ThemeToggler/themeToggler'
 import { TopBar } from '../TopBar/TopBar'
@@ -22,7 +22,10 @@ export const Header: FC = () => {
         <div className="absolute right-8 flex h-full gap-4">
           <SocialMediaIconsList className="hidden lg:flex" />
           <ThemeToggler />
-          <button className="dark:text-text-primary lg:hidden" onClick={toggleNav}>
+          <button
+            className="dark:text-text-primary lg:hidden"
+            onClick={toggleNav}
+          >
             <AiOutlineMenu size={24} />
           </button>
         </div>
