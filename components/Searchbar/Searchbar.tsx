@@ -8,13 +8,6 @@ interface SearchbarProps {
   setSearch: (search: string) => void
 }
 
-// const subcategory =subcategoryArray;
-
-// const subcategoryList: SubCategory[] = Object.keys(SubCategory).filter(
-//   (key) => isNaN(Number(key))
-// ) as SubCategory[];
-
-const searchOptions = subcategoryArray
 
 export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
   const router = useRouter()
@@ -34,7 +27,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
       setSuggestions([])
       setSearch('')
     } else {
-      const filteredSuggestions = searchOptions.filter((option) =>
+      const filteredSuggestions = subcategoryArray.filter((option) =>
         option.toLowerCase().includes(trimmedValue)
       )
       setSuggestions(filteredSuggestions)
@@ -80,15 +73,15 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
           <input
             type="text"
             id="simple-search"
-            className="block p-2.5 w-full bg-transparent text-sm text-gray-900 dark:text-gray-200 border border-dashed border-gray-400 dark:border-gray-500 focus:border-violet-500 dark:focus:border-violet-500 dark:focus:ring-violet-500 focus:ring-violet-500 dark:placeholder-gray-400 outline-none transition-all ease-in-out duration-300 rounded-lg"
-            placeholder="Start searching..."
+            className="block p-2.5 w-full bg-transparent text-sm text-dark dark:text-text-primary border border-dashed border-gray-text focus:border-theme-secondary dark:focus:border-theme-primary dark:focus:ring-theme-primary focus:ring-theme-secondary dark:placeholder-gray-text outline-none transition-all ease-in-out duration-300 rounded-lg capitalize"
+            placeholder="Quick search..."
             value={searchQuery}
             onChange={handleSearchChange}
             required
           />
           <button
             type="submit"
-            className="ml-2 px-4 py-2.5 bg-violet-500 text-white rounded-md border border-dashed border-transparent hover:border-violet-400 hover:bg-transparent hover:text-violet-400 dark:hover:text-violet-400"
+            className="ml-2 px-4 py-2.5 bg-theme-secondary text-light-primary rounded-md border border-dashed border-transparent hover:border-theme-primary hover:bg-transparent hover:text-theme-primary dark:hover:text-theme-primary transition-colors transition duration-300 ease-in-out"
           >
             <SearchIcon className="w-5 h-5" />
           </button>
@@ -96,15 +89,15 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
         {suggestions.length > 0 && (
           <ul
             ref={dropdownRef}
-            className="absolute z-10 bg-white dark:bg-gray-800 w-full py-2 mt-1 rounded-lg shadow-lg"
+            className="absolute z-10 text-light-primary bg-theme-secondary w-full mt-1 rounded-lg shadow-2xl"
           >
             {suggestions.map((suggestion) => (
               <li
                 key={suggestion}
-                className="px-4 py-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="px-4 py-2 cursor-pointer hover:bg-[rgba(0,0,0,0.2)] capitalize"
                 onClick={() => handleSuggestionClick(suggestion)}
               >
-                {suggestion}
+                {suggestion.split('-').join(' ')}
               </li>
             ))}
           </ul>

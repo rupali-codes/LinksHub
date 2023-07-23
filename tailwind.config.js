@@ -8,19 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        discord: '#7289DA',
-        github: '#211F1F',
-        twitter: '#1DA1F2',
-        'theme-primary': '#a78bfa',   //violet
-        'theme-secondary': '#8b5cf6', //violet
-        'light': '#ffffff',
+        'theme-primary': '#a78bfa', 
+        'theme-secondary': '#8b5cf6',
         'light-primary': '#f5f3ff',
-        'light-secondary': '',
-        'dark': '#0f172a',
-        'dark-primary': '#101623',
-        'dark-secondary': '',
+        'dark': '#0f172a',  
+        'dark-primary': '#101623', 
+        'gray-text': '#9ca3af',
         'text-primary': '#d1d5db',
         'text-secondary': '#4b5563',
+
       },
       screens: {
         xs: '200px',

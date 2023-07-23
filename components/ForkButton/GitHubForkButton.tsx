@@ -29,7 +29,7 @@ export const GitHubForkButton: FC<{ repo: string }> = ({ repo }) => {
       aria-label={`Fork ${repo} on GitHub`}
     >
       <div
-        className="inline-flex items-center py-1 text-sm font-semibold bg-transparent text-theme-secondary rounded-sm transition-colors transition duration-300 ease-in-out hover:text-text-secondary transition duration-300 ease-in-out dark:hover:text-gray-300 dark:text-theme-primary hover:underline"
+        className="inline-flex items-center py-1 text-sm font-semibold bg-transparent text-theme-secondary rounded-sm transition-colors transition duration-300 ease-in-out hover:text-text-secondary transition duration-300 ease-in-out dark:hover:text-text-primary dark:text-theme-primary"
       >
         <FaCodeBranch className="mr-1" />
         <span className="font-semibold">Fork</span>
