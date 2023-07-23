@@ -7,7 +7,7 @@ import { ThemeToggler } from '../ThemeToggler/themeToggler'
 import { TopBar } from '../TopBar/TopBar'
 import { SocialMediaIconsList } from 'components/SocialMedia/SocialMediaIconsList'
 
-export const Header: FC<{}> = () => {
+export const Header: FC = () => {
   const { toggleNav } = useContext(GlobalContext)
 
   return (

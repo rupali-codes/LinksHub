@@ -8,6 +8,14 @@
     "language": "english"
   },
   {
+    "name": "React js",
+    "description": "Free React course in order to learn fundamentals of React by FreeCodeCamp. This course is beginner friendly and easy to understand and to apply in large codebase.",
+    "url": "https://youtu.be/4UZrsTqkcW4",
+    "category": "frontend",
+    "subcategory": "react",
+    "language": "english"
+  },
+  {
     "name": "30 days of React",
     "description": "a very nice repository and a challenge at the same time to learn ReactJS",
     "url": "https://github.com/Asabeneh/30-Days-Of-React",
@@ -67,6 +75,13 @@
     "name": "Recoil Js ",
     "description": "Recoil is an experimental state management library. It provides several capabilities that are difficult to achieve with React alone. In this article, we learn about the recoil. js, and how it is managing state in React. Recoil js is another state management library for React.",
     "url": "https://recoiljs.org/docs/introduction/getting-started/",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "React Router v6",
+    "description": "In this video, you'll learn key aspects of React Router, including layout and index routes, nested routes, search parameter filtering, protected routes for authenticated users, and Remix-inspired data routers APIs like Loaders and Actions.",
+    "url": "https://youtu.be/nDGA3km5He4",
     "category": "frontend",
     "subcategory": "react"
   }
