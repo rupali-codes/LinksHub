@@ -58,6 +58,7 @@ export type Category =
 //   | 'themes-templates'
 //   | 'ui-generators'
 //   | 'videos'
+//   | 'bootstrap'
 //   //backend
 //   | 'architecture'
 //   | 'authentication'
@@ -154,6 +155,7 @@ export const subcategoryArray = [
   'themes-templates',
   'ui-generators',
   'videos',
+  'bootstrap',
   //backend
   'architecture',
   'authentication',

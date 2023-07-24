@@ -12,6 +12,7 @@ export { default as themesTemplates } from './frontend/themes-templates.json'
 export { default as uiGenerators } from './frontend/ui-generators.json'
 export { default as react } from './frontend/react.json'
 export { default as videos } from './frontend/videos.json'
+export { default as bootstrap} from './frontend/bootstrap.json'
 // backend
 export { default as authentication } from './backend/authentication.json'
 export { default as architecture } from './backend/architecture.json'

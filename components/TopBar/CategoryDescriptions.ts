@@ -17,6 +17,7 @@ const categoryDescriptions: CategoryDescriptions = {
   'themes templates': 'Themes and Templates category description',
   'ui generator': 'UI Generators category description',
   videos: 'Videos Category description',
+  bootstrap: 'Bootstrap frame work description',
   //backend
   architecture: 'Architecture category description',
   authentication: 'Authentication category description',

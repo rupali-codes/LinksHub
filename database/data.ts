@@ -47,6 +47,11 @@ export const sidebarData: ISidebar[] = [
         resources: DB.accessibility,
       },
       { name: 'videos', url: '/videos', resources: DB.videos },
+      {
+        name: 'bootstrap',
+        url: '/bootstrap',
+        resources: DB.accessibility,
+      }
     ],
   },
   {
