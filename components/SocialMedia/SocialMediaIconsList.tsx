@@ -85,9 +85,3 @@ export const SocialMediaIconsList: FC<{
     </ul>
   )
 }
-
-// colors: {
-//   discord: '#7289DA',
-//   github: '#211F1F',
-//   twitter: '#1DA1F2',
-// },
