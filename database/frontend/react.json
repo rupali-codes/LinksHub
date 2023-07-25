@@ -1,7 +1,7 @@
 [
   {
     "name": "React js",
-    "description": "Free online course for learning react js",
+    "description": "Free online course for learning React js",
     "url": "https://scrimba.com/learn/learnreact#",
     "category": "frontend",
     "subcategory": "react",
@@ -9,7 +9,7 @@
   },
   {
     "name": "React js",
-    "description": "Free React course in order to learn fundamentals of React by FreeCodeCamp. This course is beginner friendly and easy to understand and to apply in large codebase.",
+    "description": "This freecodecamp course is beginner friendly and provides information that developers can apply in large codebases.",
     "url": "https://youtu.be/4UZrsTqkcW4",
     "category": "frontend",
     "subcategory": "react",
@@ -87,7 +87,7 @@
   },
   {
     "name": "DEVHINTS.IO React.js Cheatsheet",
-    "description": "This is a React.js cheatsheet that gives a comprehensive guide on the most fundamental concepts of React.js, and it offers a knowledge management approach to help remember those concepts easily.",
+    "description": "This React.js cheatsheet gives comprehensive information on the language's fundamental concepts and implements a knowledge management approach to help developers understand them.",
     "url": "https://devhints.io/react",
     "category": "frontend",
     "subcategory": "react"
