@@ -1,5 +1,47 @@
 [
   {
+    "name": "React",
+    "description": "This page is an overview of the React documentation and related resources.",
+    "url": "https://legacy.reactjs.org/docs/getting-started.html",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "JavaScript",
+    "description": "This page is an overview of the JavaScript documentation and related resources.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Flutter",
+    "description": "This page is an overview of the Flutter documentation and related resources.",
+    "url": "https://docs.flutter.dev/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Django",
+    "description": "This page gives an overview of the Django documentation and related resources.",
+    "url": "https://docs.djangoproject.com/en/4.2/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Next.js",
+    "description": "This documentation is a comprehensive resource for building fast, scalable, and production-ready web apps using Next.js.",
+    "url": "https://nextjs.org/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Angular",
+    "description": "This page is an overview of the Angular documentation and related resources.",
+    "url": "https://angular.io/docs",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
     "name": "Vue.js",
     "description": "This page contains comprehensive documentation of Vue.js, a progressive JavaScript framework.",
     "url": "https://vuejs.org/",
