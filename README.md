@@ -5,17 +5,17 @@
 ## Table of Contents
 
 - [Welcome to LinksHub 👋](#welcome-to-linkshub-)
-- [Demo 💻](#demo-)
-- [Tech stack 📚](#tech-stack-)
-- [Socials 📱](#socials-)
-- [Getting Started 👩‍💻](#getting-started-)
-- [Let's jump right in🌟](#lets-jump-right-in)
-- [_Want to add your favorite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
-- [Add or update description](#want-to-add-or-update-the-descriptions-of-subcategories)
-- [Building with Gitpod 💣](#building-with-gitpod-)
-- [Our Contributors ✨](#our-contributors-)
-- [License 📝](#license-)
-- [Support ⭐](#support-)
+  - [Demo 💻](#demo-)
+  - [Tech stack 📚](#tech-stack-)
+  - [Socials 📱](#socials-)
+  - [Getting Started 👩‍💻](#getting-started-)
+    - [Let's jump right in🌟](#lets-jump-right-in)
+      - [_Want to add your favourite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favourite-links-to-the-hub-make-sure-to-follow-contributing-guidelines)
+      - [Want to add or update the descriptions of subcategories?](#want-to-add-or-update-the-descriptions-of-subcategories)
+  - [Building with Gitpod 💣](#building-with-gitpod-)
+  - [Top 50 Contributors ✨](#top-50-contributors-)
+  - [License 📝](#license-)
+  - [Support ⭐](#support-)
 
 <a name="welcome-to-linkshub"></a>
 
@@ -98,6 +98,18 @@ You can see the live demo at: https://linkshub.vercel.app
    ```sh
    pnpm run dev
    ```
+
+> **P.S**: If you have `docker` installed in your system, you can follow these steps to set up the environment:
+> 1. After forking and cloning the repo(as mentioned above), get into the project directory:
+> ```bash
+> cd LinksHub/
+> ```
+> 2. Start the docker container with:
+> ```bash 
+> docker compose up
+> ```
+> 3. Now start adding your changes.
+> **Note:** You don't need to restart the container again and again after starting it once, because the changes you make will reflect into the container instantly.
 
 7. Make your changes before staging them.
 

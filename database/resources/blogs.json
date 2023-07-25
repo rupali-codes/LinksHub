@@ -145,5 +145,12 @@
     "url": "https://app.daily.dev/",
     "category": "resources",
     "subcategory": "blogs"
+  },
+  {
+    "name": "Notion",
+    "description": "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team.",
+    "url": "https://www.notion.so/personal",
+    "category": "resources",
+    "subcategory": "blogs"
   }
 ]

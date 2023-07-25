@@ -7,11 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        discord: '#7289DA',
-        github: '#211F1F',
-        twitter: '#1DA1F2',
-      },
       screens: {
         xs: '200px',
       },
