@@ -40,7 +40,7 @@ export const BackToTopButton = () => {
     return null
   }
 
-  const buttonClasses = `focus:animate-button-press rounded-full border border-white bg-violet-600 p-4 text-white shadow-xl duration-300 transition-colors focus:ring group-hover:border-dashed group-hover:border-violet-400 group-hover:bg-white dark:drop-shadow-[5px_5px_8px_rgba(124,58,237,0.25)] dark:group-hover:bg-[#101623] md:border-violet-600 ${
+  const buttonClasses = `focus:animate-button-press rounded-full border border-light-primary bg-theme-secondary p-4 text-light-primary shadow-xl duration-300 transition-colors focus:ring group-hover:border-dashed group-hover:border-theme-primary group-hover:bg-light-primary dark:drop-shadow-[5px_5px_8px_rgba(124,58,237,0.25)] dark:group-hover:bg-[#101623] md:border-violet-600 ${
     status === 'preEnter' || status === 'exiting'
       ? 'opacity-0 translate-y-3'
       : ''
@@ -53,7 +53,7 @@ export const BackToTopButton = () => {
         onClick={handleClick}
         title="Back to top"
       >
-        <FaArrowUp className="group-hover:text-violet-500" />
+        <FaArrowUp className="group-hover:text-theme-secondary" />
       </button>
       <span className="absolute left-1/2 top-1/2 -z-10 hidden -translate-x-1/2 -translate-y-1/2 rotate-0 text-2xl transition-all duration-100 ease-in-out group-hover:ml-8 group-hover:block group-hover:rotate-45">
         👾
