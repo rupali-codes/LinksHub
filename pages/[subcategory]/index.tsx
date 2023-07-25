@@ -38,7 +38,7 @@ const SubCategory = () => {
         <meta name="revisit-after" content="7 days" />
 
         {/* Open Graph */}
-        <meta property="og:url" content="https://linkshub.vercel.app/" />
+        <meta property="og:url" content="https://linkshub.dev" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -56,7 +56,7 @@ const SubCategory = () => {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://linkshub.vercel.app/" />
+        <meta property="twitter:url" content="https://linkshub.dev" />
         <meta
           property="twitter:title"
           content="LinksHub: A hub of ready-to-use tech resources"
