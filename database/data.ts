@@ -88,6 +88,7 @@ export const sidebarData: ISidebar[] = [
         url: '/c-programming',
         resources: DB.CProgramming,
       },
+      { name: 'C++ Programming', url: '/cpp', resources: DB.cpp },
       { name: 'Java', url: '/java', resources: DB.java },
       { name: 'Kotlin', url: '/kotlin', resources: DB.kotlin },
       { name: 'Rust', url: '/rust', resources: DB.Rust },
@@ -116,7 +117,11 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'machine learning',
     subcategory: [
-      { name: 'machine learning', url: '/machine-learning', resources: DB.machineLearning },
+      {
+        name: 'machine learning',
+        url: '/machine-learning',
+        resources: DB.machineLearning,
+      },
       { name: 'data science', url: '/data-science', resources: DB.dataScience },
       {
         name: 'deep learning',
@@ -129,7 +134,7 @@ export const sidebarData: ISidebar[] = [
     category: 'artificial intelligence',
     subcategory: [
       { name: 'Artificial Int.', url: '/artificial-intelligence', resources: DB.artificialIntelligence },
-    ]
+    ],
   },
   {
     category: 'resources',
@@ -154,11 +159,7 @@ export const sidebarData: ISidebar[] = [
         resources: DB.webDevelopment,
       },
       { name: 'CSS', url: '/css', resources: DB.css },
-      {
-        name: 'machine learning',
-        url: '/machine-learning',
-        resources: DB.machineLearning,
-      },
+      { name: 'machine learning', url: '/machine-learning', resources: DB.machineLearning },
       { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
       { name: 'data structures', url: '/dsa', resources: DB.dataStructures },
       { name: 'Android', url: '/android', resources: DB.android },

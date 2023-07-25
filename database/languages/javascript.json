@@ -68,5 +68,12 @@
     "url": "https://javascript30.com/",
     "category": "languages",
     "subcategory": "javascript"
+  },
+  {
+    "name": "javaTpoint",
+    "description": "Our JavaScript tutorial caters to beginners and professionals, utilizing lightweight, cross-platform object-based scripting for creating dynamic client-side pages using the JavaScript Translator.",
+    "url": "https://www.javatpoint.com/javascript-tutorial",
+    "category": "languages",
+    "subcategory": "javascript"
   }
 ]

@@ -19,5 +19,12 @@
     "url": "https://appwrite.io/docs/authentication",
     "category": "backend",
     "subcategory": "authentication"
+  },
+  {
+    "name": "Passport Authentication",
+    "description": "Passport is authentication middleware for Node.js. Extremely flexible and modular, this tool can be unobtrusively dropped in to any Express-based web application. It also provides a comprehensive set of support authentication strategies for usernames, passwords, Facebook, Twitter, and more.",
+    "url": "https://www.passportjs.org/",
+    "category": "backend",
+    "subcategory": "authentication"
   }
 ]
