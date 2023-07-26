@@ -22,5 +22,29 @@
     "category": "youtube",
     "subcategory": "testing",
     "language": "english"
+  },
+  {
+    "name": "Software Testing Mentor",
+    "description": "This channel is for all who want to learn testing",
+    "url": "https://www.youtube.com/@softwaretestingmentor",
+    "category": "youtube",
+    "subcategory": "testing",
+    "language": "english"
+  },
+  {
+    "name": "Automation Step by Step",
+    "description": "Step by Step Learn from Scratch for Beginners",
+    "url": "https://www.youtube.com/@RaghavPal",
+    "category": "youtube",
+    "subcategory": "testing",
+    "language": "english"
+  },
+  {
+    "name": "EDUREKA! (Testing)",
+    "description": "Learn Full Stack Testing from Scratch using Selenium with Java Combination",
+    "url": "https://www.youtube.com/watch?v=9p6NNapsUvQ&t=2s",
+    "category": "youtube",
+    "subcategory": "testing",
+    "language": "english"
   }
 ]
