@@ -56,6 +56,13 @@
     "subcategory": "officialdocs"
   },
   {
+    "name": "Tailwind CSS",
+    "description": "Comprehensive documentation for the utility-first CSS framework, enabling efficient web development through its extensive class-based approach.",
+    "url": "https://tailwindcss.com/docs/installation",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
     "name": "Node.js",
     "description": "Node.js is built on top of the Google Chrome V8 JavaScript engine, and it's mainly used to create web servers - but it can be used for other purposes too.",
     "url": "https://nodejs.dev/en/learn/",
