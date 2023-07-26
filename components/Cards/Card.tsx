@@ -22,11 +22,11 @@ const Card: FC<CardProps> = ({ data }) => {
   }, [])
 
   return (
-    <article className="z-10 h-full w-full rounded-3xl border border-dashed border-violet-500 dark:border-violet-400 bg-gray-100 shadow-lg dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm">
+    <article className="z-10 h-full w-full rounded-3xl border border-dashed border-theme-secondary dark:border-theme-primary bg-[rgba(255,255,255,0.3)] shadow-md dark:bg-dark dark:text-text-primary dark:shadow-sm">
       <div className="card-body">
         <header className="flex justify-between items-center">
           <h2
-            className="cursor-default md:truncate ... text-xl text-violet-600 dark:text-violet-400"
+            className="cursor-default md:truncate ... text-xl text-theme-secondary dark:text-theme-primary"
             title={name}
           >
             {name}
@@ -41,7 +41,7 @@ const Card: FC<CardProps> = ({ data }) => {
             {description}
           </div>
           {isOverflow && (
-            <p className="text-sm underline text-violet-600 dark:text-violet-400 text-right hover:text-violet-400 dark:hover:text-violet-300">
+            <p className="text-sm underline text-theme-secondary dark:text-theme-primary text-right hover:text-theme-primary dark:hover:text-text-primary">
               Read More
             </p>
           )}
@@ -53,7 +53,7 @@ const Card: FC<CardProps> = ({ data }) => {
             target="_blank"
             rel="noopener noreferrer"
             className={
-              'mt-2 flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-transparent bg-violet-600 px-6 py-2 text-center text-white duration-100 hover:border-violet-400 hover:bg-transparent hover:text-violet-500 dark:hover:text-violet-400'
+              'mt-2 flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-transparent bg-theme-secondary px-6 py-2 text-center text-light-primary duration-100 hover:border-theme-primary hover:bg-transparent hover:text-theme-secondary dark:hover:text-theme-primary'
             }
           >
             Visit site

@@ -11,7 +11,7 @@ export const SocialMediaIconsList: FC<{
   const { className, showGithubButtons } = props
 
   return (
-    <ul className={`flex flex-wrap gap-6 ${className}`}>
+    <ul className={`flex flex-wrap gap-5 ${className}`}>
       {!showGithubButtons && (
         <>
           <li className="pt-6 hidden md:block">
@@ -26,7 +26,7 @@ export const SocialMediaIconsList: FC<{
         <li>
           <a
             title="Link to Discord server (External Link)"
-            className="dark:text-gray-300"
+            className="dark:text-light-primary text-text-secondary"
             target="_blank"
             rel="noopener noreferrer"
             href="https://discord.com/invite/NvK67YnJX5"
@@ -35,14 +35,14 @@ export const SocialMediaIconsList: FC<{
             <IconContext.Provider
               value={{ className: 'shared-class', size: '24' }}
             >
-              <FaDiscord className="hover:text-discord transition duration-300 ease-in-out" />
+              <FaDiscord className="hover:text-theme-primary transition duration-300 ease-in-out" />
             </IconContext.Provider>
           </a>
         </li>
         <li>
           <a
             title="Link to Github project (External Link)"
-            className="dark:text-gray-300"
+            className="dark:text-light-primary text-text-secondary"
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/rupali-codes/LinksHub"
@@ -51,14 +51,14 @@ export const SocialMediaIconsList: FC<{
             <IconContext.Provider
               value={{ className: 'shared-class', size: '24' }}
             >
-              <FaGithub className="hover:text-github transition duration-300 ease-in-out" />
+              <FaGithub className="hover:text-theme-primary transition duration-300 ease-in-out" />
             </IconContext.Provider>
           </a>
         </li>
         <li>
           <a
             title="Link to Twitter page (External Link)"
-            className="dark:text-gray-300"
+            className="dark:text-light-primary text-text-secondary"
             target="_blank"
             rel="noopener noreferrer"
             href="https://twitter.com/linkshubdotdev"
@@ -67,7 +67,7 @@ export const SocialMediaIconsList: FC<{
             <IconContext.Provider
               value={{ className: 'shared-class', size: '24' }}
             >
-              <FaTwitter className="hover:text-twitter transition duration-300 ease-in-out" />
+              <FaTwitter className="hover:text-theme-primary transition duration-300 ease-in-out" />
             </IconContext.Provider>
           </a>
         </li>
@@ -85,9 +85,3 @@ export const SocialMediaIconsList: FC<{
     </ul>
   )
 }
-
-// colors: {
-//   discord: '#7289DA',
-//   github: '#211F1F',
-//   twitter: '#1DA1F2',
-// },

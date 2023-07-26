@@ -19,7 +19,7 @@ export function ThemeToggler() {
   }
 
   const iconProps = {
-    className: 'hover:text-violet-500 transition duration-300 ease-in-out',
+    className: 'hover:text-theme-primary transition duration-300 ease-in-out',
     size: '1.5rem',
   }
 
@@ -29,9 +29,9 @@ export function ThemeToggler() {
       title={`Toggle dark mode (current state: ${resolvedTheme})`}
     >
       {resolvedTheme === 'dark' ? (
-        <HiSun {...iconProps} className="text-gray-200" />
+        <HiSun {...iconProps} className='text-light-primary hover:text-theme-primary transition duration-300 ease-in-out' />
       ) : (
-        <HiMoon {...iconProps} />
+        <HiMoon {...iconProps} className='text-text-secondary hover:text-theme-primary transition duration-300 ease-in-out' />
       )}
     </button>
   )
