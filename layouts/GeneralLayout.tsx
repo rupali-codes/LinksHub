@@ -11,7 +11,7 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
       <SkipLink />
       <Header />
       <SideNavbar />
-      <div className="row-start-2 row-end-3 min-h-[100vh-72px] w-full bg-gray-100 dark:bg-[#101623]">
+      <div className="row-start-2 row-end-3 min-h-[100vh-72px] w-full bg-[--secondary-10] dark:bg-[#101623]">
         <nav>
           <Aside />
         </nav>

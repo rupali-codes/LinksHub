@@ -33,10 +33,10 @@ export const TopBar: FC<{ className?: string | undefined }> = (props) => {
 
   return (
     <div
-      className={`flex items-center text-xl dark:text-gray-300 ${className}`}
+      className={`flex items-center text-xl dark:text-[--secondary-40] ${className}`}
     >
-      <FaSlackHash className="mr-2 text-gray-600 dark:text-gray-300" />
-      <span className="flex uppercase text-gray-900 dark:text-gray-100">
+      <FaSlackHash className="mr-2 text-[--secondary-100] dark:text-[--secondary-40]" />
+      <span className="flex uppercase text[--secondary-200] dark:text-[--secondary-10]">
         {category.split('-').join(' ')}
         <FaInfoCircle
           className="ml-4 mt-2 text-sm cursor-pointer"

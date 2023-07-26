@@ -18,7 +18,7 @@ export const SocialMediaIconsList: FC<{ className?: string }> = (props) => {
       <li>
         <a
           title="Link to Discord server (External Link)"
-          className="dark:text-gray-300"
+          className="dark:text-[--secondary-40]"
           target="_blank"
           rel="noopener noreferrer"
           href="https://discord.com/invite/NvK67YnJX5"
@@ -34,7 +34,7 @@ export const SocialMediaIconsList: FC<{ className?: string }> = (props) => {
       <li>
         <a
           title="Link to Github project (External Link)"
-          className="dark:text-gray-300"
+          className="dark:text-[--secondary-40]"
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/rupali-codes/LinksHub"
@@ -50,7 +50,7 @@ export const SocialMediaIconsList: FC<{ className?: string }> = (props) => {
       <li>
         <a
           title="Link to Twitter page (External Link)"
-          className="dark:text-gray-300"
+          className="dark:text-[--secondary-40]"
           target="_blank"
           rel="noopener noreferrer"
           href="https://twitter.com/linkshubdotdev"

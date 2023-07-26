@@ -35,12 +35,12 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
       <div className="flex items-center">
         <div className="relative flex items-center">
           {/* <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-            <SearchIcon className="w-5 h-5 text-violet-600 dark:text-violet-400" />
+            <SearchIcon className="w-5 h-5 text-[--primary-100] dark:text-[--primary-60]" />
           </div> */}
           <input
             type="text"
             id="simple-search"
-            className="block p-2.5 w-full bg-transparent text-sm text-gray-900 dark:text-gray-200 border border-dashed border-gray-400 dark:border-gray-500 focus:border-violet-500 dark:focus:border-violet-500 dark:focus:ring-violet-500 focus:ring-violet-500 dark:placeholder-gray-400 outline-none transition-all ease-in-out duration-300 rounded-lg"
+            className="block p-2.5 w-full bg-transparent text-sm text-[--secondary-200] dark:text-[--secondary-20] border border-dashed border-[--secondary-60] dark:border-[--secondary-80] focus:border-[--primary-80] dark:focus:border-[--primary-80] dark:focus:ring-[--primary-80] focus:ring-[--primary-80] dark:placeholder-[--secondary-60] outline-none transition-all ease-in-out duration-300 rounded-lg"
             placeholder="Start searching..."
             value={searchQuery}
             onChange={handleSearchChange}
@@ -49,7 +49,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
         </div>
         <button
           type="submit"
-          className="ml-2 px-4 py-2.5 bg-violet-500 text-white rounded-md border border-dashed border-transparent hover:border-violet-400 hover:bg-transparent hover:text-violet-400 dark:hover:text-violet-400"
+          className="ml-2 px-4 py-2.5 bg-[--primary-80] text-white rounded-md border border-dashed border-transparent hover:border-[--primary-60] hover:bg-transparent hover:text-[--primary-60] dark:hover:text-[--primary-60]"
         >
           <SearchIcon className="w-5 h-5" />
         </button>

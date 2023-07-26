@@ -113,6 +113,28 @@ pre {
   --scroll-thumb: #bbb;
   --scroll-thumb-hover: #aaa;
   --scroll-track: #f3f4f6;
+
+  --primary-150:#5b21b6;/* violet-800 */
+  --primary-100:#7c3aed;/* violet-600 */
+  --primary-80:#8b5cf6; /* violet-500 */
+  --primary-60:#a78bfa; /* violet-400 */
+  --primary-40:#c4b5fd; /* violet-300 */
+  --primary-20:#ddd6fe; /* violet-200 */
+  --primary-10:#ede9fe; /* violet-100 */
+
+  --secondary-200:#111827; /* gray-900 */ /* background */ 
+  --secondary-100:#4b5563;  /* gray-600 */
+  --secondary-80:#6b7280;  /* gray-500 */  
+  --secondary-60:#9ca3af;  /* gray-400 */
+  --secondary-40:#d1d5db;   /* gray-300 */ /* dark: card-text */
+  --secondary-20:#e5e7eb;   /* gray-200 */
+  --secondary-10:#F3F4F6;   /* gray-100 */
+
+  --tertiary-60:#334155;  /* slate-700 */
+  --tertiary-5:#cbd5e1;  /* slate-300 */
+
+  --dark-background : #101623;
+
 }
 
 [data-theme='dark'] {

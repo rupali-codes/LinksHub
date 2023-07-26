@@ -69,7 +69,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   )
 
   const buttonStyles =
-    'bg-violet-600 hover:bg-transparent text-white px-4 py-2 md:px-3 text-sm tracking-[.6px] rounded-md border border-dashed border-transparent duration-100 hover:border-violet-400 hover:text-violet-500 dark:hover:text-violet-400'
+    'bg-[--primary-100] hover:bg-transparent text-white px-4 py-2 md:px-3 text-sm tracking-[.6px] rounded-md border border-dashed border-transparent duration-100 hover:border-[--primary-60] hover:text-[--primary-80] dark:hover:text-[--primary-60]'
 
   const linkProps = {
     target: '_blank',
@@ -83,7 +83,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
         {sortedContributors.map((contributor) => (
           <div
             key={contributor.id}
-            className="bg-gray-100 rounded-3xl py-5 px-2 border border-dashed border-violet-500 dark:border-violet-400 shadow-lg dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm flex flex-col"
+            className="bg-[--secondary-10] rounded-3xl py-5 px-2 border border-dashed border-[--primary-80] dark:border-[--primary-60] shadow-lg dark:bg-[--secondary-200] dark:text-[--secondary-40] dark:shadow-sm flex flex-col"
           >
             <div className="flex justify-center">
               <Image
@@ -95,10 +95,10 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
               />
             </div>
             <div className="text-center">
-              <div className="text-xl text-violet-600 dark:text-violet-400">
+              <div className="text-xl text-[--primary-100] dark:text-[--primary-60]">
                 {contributor.name}
               </div>
-              <div className="text-gray-400 mb-2 pb-4 pt-1">
+              <div className="text-[--secondary-60] mb-2 pb-4 pt-1">
                 {contributor.contributions} Contributions
               </div>
             </div>

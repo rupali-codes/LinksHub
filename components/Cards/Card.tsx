@@ -16,17 +16,17 @@ const Card: FC<CardProps> = ({ data }) => {
     if (descriptionRef.current) {
       setIsOverflow(
         descriptionRef.current.scrollHeight >
-          descriptionRef.current.offsetHeight
+        descriptionRef.current.offsetHeight
       )
     }
   }, [])
 
   return (
-    <article className="z-10 h-full w-full rounded-3xl border border-dashed border-violet-500 dark:border-violet-400 bg-gray-100 shadow-lg dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm">
+    <article className="z-10 h-full w-full rounded-3xl border border-dashed border-[--primary-80] dark:[--primary-60] bg-[--background] shadow-lg dark:[--background-dark] dark:text-[--secondary-40] dark:shadow-sm">
       <div className="card-body">
         <header className="flex justify-between items-center">
           <h2
-            className="cursor-default md:truncate ... text-xl text-violet-600 dark:text-violet-400"
+            className="cursor-default md:truncate ... text-xl text-[--primary-100] dark:text-[--primary-60]"
             title={name}
           >
             {name}
@@ -41,7 +41,7 @@ const Card: FC<CardProps> = ({ data }) => {
             {description}
           </div>
           {isOverflow && (
-            <p className="text-sm underline text-violet-600 dark:text-violet-400 text-right hover:text-violet-400 dark:hover:text-violet-300">
+            <p className="text-sm underline text-[--primary-100] dark:text-[--primary-60] text-right hover:text-[--primary-60] dark:hover:text-[primary-40]">
               Read More
             </p>
           )}
@@ -53,7 +53,7 @@ const Card: FC<CardProps> = ({ data }) => {
             target="_blank"
             rel="noopener noreferrer"
             className={
-              'mt-2 flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-transparent bg-violet-600 px-6 py-2 text-center text-white duration-100 hover:border-violet-400 hover:bg-transparent hover:text-violet-500 dark:hover:text-violet-400'
+              'mt-2 flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-transparent bg-[--primary-100] px-6 py-2 text-center text-white duration-100 hover:border-[--primary-60] hover:bg-transparent hover:text-[--primary-80] dark:hover:text-[--primary-60]'
             }
           >
             Visit site

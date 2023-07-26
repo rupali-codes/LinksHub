@@ -20,7 +20,7 @@ export const GitHubForkButton: FC<{ repo: string }> = ({ repo }) => {
     fetchForkCount()
   }, [repo])
 
-  // Other Styles for Light Mode: [bg-violet-500 text-white] OR [text-black-500 border border-black]
+  // Other Styles for Light Mode: [bg-[--primary-80] text-white] OR [text-black-500 border border-black]
 
   return (
     <Link
@@ -32,9 +32,9 @@ export const GitHubForkButton: FC<{ repo: string }> = ({ repo }) => {
     >
       <div 
         className={
-          `${`inline-flex items-center px-4 py-1 text-sm font-semibold bg-transparent text-violet-500 border 
-            border-violet-500 border-transparent rounded-sm transition-colors shadow-md transition duration-300
-            ease-in-out hover:text-black hover:border-black dark:hover:text-gray-300 dark:hover:border-gray-300`
+          `${`inline-flex items-center px-4 py-1 text-sm font-semibold bg-transparent text-[--primary-80] border 
+            border-[--primary-80] border-transparent rounded-sm transition-colors shadow-md transition duration-300
+            ease-in-out hover:text-black hover:border-black dark:hover:text-[--secondary-40] dark:hover:border-[--secondary-40]`
             }`
         }
       >
