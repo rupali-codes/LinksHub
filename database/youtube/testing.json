@@ -25,7 +25,8 @@
   },
   {
     "name": "Software Testing Mentor",
-    "description": "This channel is for all who want to learn testing",
+    "description": "This channel to share the practical knowledge about Jira, Confluence, Software Testing, Test Automation, Testing Tools, Jenkins, Docker, GIT, Agile and many more topics.
+",
     "url": "https://www.youtube.com/@softwaretestingmentor",
     "category": "youtube",
     "subcategory": "testing",
@@ -33,7 +34,7 @@
   },
   {
     "name": "Automation Step by Step",
-    "description": "Step by Step Learn from Scratch for Beginners",
+    "description": "Step by Step Learn from Scratch for Beginners in different Tools and Technologies like Automation Testing, DevOps and CI, API Testing, Mobile Testing, Performance Testing and UI Testing.",
     "url": "https://www.youtube.com/@RaghavPal",
     "category": "youtube",
     "subcategory": "testing",
@@ -41,7 +42,7 @@
   },
   {
     "name": "EDUREKA! (Testing)",
-    "description": "Learn Full Stack Testing from Scratch using Selenium with Java Combination",
+    "description": "Learn Full Stack Testing from Scratch using Selenium with Java Combination along with Concepts related to Selenium WebDriver, IDE, Grid & Selenium's industry implementation methodologies",
     "url": "https://www.youtube.com/watch?v=9p6NNapsUvQ&t=2s",
     "category": "youtube",
     "subcategory": "testing",
