@@ -22,5 +22,13 @@
         "category": "youtube",
         "subcategory": "game-development",
         "language": "English"
+    },
+    {
+        "name": "Game Development with Vanilla JavaScript",
+        "description": "This tutorial teaches beginners how to code and make your own game by creating these games.",
+        "url": "https://www.youtube.com/playlist?list=PLYElE_rzEw_sowQGjRdvwh9eAEt62d_Eu",
+        "category": "youtube",
+        "subcategory": "game-development",
+        "language": "English"
     }
 ]
