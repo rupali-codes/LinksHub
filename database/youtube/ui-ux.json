@@ -1,1 +1,26 @@
-
+[
+    {
+        "name": "UI/UX Design Course For Beginners ",
+        "description": "The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design, and offers practical, skill-based instruction centered around a visual communications perspective, rather than on one focused on marketing or programming alone",
+        "url": "https://www.youtube.com/watch?v=pyQAiRuqUSM",
+        "category": "youtube",
+        "subcategory": "ux-designing",
+        "language": "English"
+    },
+    {
+        "name": "Step by Step Roadmap for how to become a UX Designer",
+        "description": "In this video, Ansh Mehra talks about the Step by step method to become a UX designer. If you want to become a UX designer and need a step-by-step roadmap for the same, this video is a perfect fit for you",
+        "url": "https://www.youtube.com/watch?v=cwPU547bCDs",
+        "category": "youtube",
+        "subcategory": "ux-designing",
+        "language": "Hindi"
+    },
+    {
+        "name": "UI / UX Design Tutorial – Wireframe, Mockup & Design in Figma",
+        "description": "Learn the process of UI / UX design.  In this tutorial you will learn how a professional designer builds a full website design from scratch following the process of user experience and user interface. The video covers wireframing, prototyping, and designing in Figma.",
+        "url": "https://www.youtube.com/watch?v=c9Wg6Cb_YlU&t=4094s",
+        "category": "youtube",
+        "subcategory": "ux-designing",
+        "language": "English"
+    }
+]
