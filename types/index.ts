@@ -37,6 +37,7 @@ export type Category =
   | 'backend'
   | 'languages'
   | 'artificial intelligence'
+  | 'internet of things'
   | 'machine learning'
   | 'open source'
   | 'resources'
@@ -175,6 +176,11 @@ export const subcategoryArray = [
   'typescript',
   //artificial intelligence
   'artificial-intelligence',
+  //Internet of Things
+  'coursera',
+  'Esp-32',
+  'Sensors',
+  'Raspberry pi',
   // machin learning
   'data-science',
   'deep-learning',

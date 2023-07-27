@@ -134,8 +134,16 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'artificial intelligence',
     subcategory: [
-      { name: 'Artificial Int.', url: '/artificial-intelligence', resources: DB.artificialIntelligence },
+      {
+        name: 'Artificial Int.',
+        url: '/artificial-intelligence',
+        resources: DB.artificialIntelligence,
+      },
     ],
+  },
+  {
+    category: 'internet of things',
+    subcategory: [{ name: 'coursera', url: '/coursera', resources: DB.coursera }],
   },
   {
     category: 'resources',
