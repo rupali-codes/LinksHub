@@ -92,7 +92,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Java', url: '/java', resources: DB.java },
       { name: 'Kotlin', url: '/kotlin', resources: DB.kotlin },
       { name: 'Rust', url: '/rust', resources: DB.Rust },
-      {name:'Dart', url: '/dart', resources: DB.dart},
+      { name: 'Dart', url: '/dart', resources: DB.dart },
     ],
   },
   {
@@ -143,7 +143,23 @@ export const sidebarData: ISidebar[] = [
   },
   {
     category: 'internet of things',
-    subcategory: [{ name: 'coursera', url: '/coursera', resources: DB.coursera }],
+    subcategory: [
+      { name: 'coursera', url: '/coursera', resources: DB.coursera },
+    ],
+  },
+  {
+    category: 'cloud computing',
+    subcategory: [
+      { name: 'google cloud', url: '/gcp', resources: DB.blogs },
+      {
+        name: 'AWS cloud',
+        url: '/aws',
+        resources: DB.officialdocs,
+      },
+      { name: 'Microsoft cloud', url: '/azure', resources: DB.hosting },
+      { name: 'Oracle cloud', url: '/oracle', resources: DB.ebook },
+      { name: 'IBM cloud', url: '/ibm', resources: DB.project },
+    ],
   },
   {
     category: 'resources',
@@ -168,9 +184,17 @@ export const sidebarData: ISidebar[] = [
         resources: DB.webDevelopment,
       },
       { name: 'CSS', url: '/css', resources: DB.css },
-      { name: 'machine learning', url: '/machine-learning', resources: DB.machineLearning },
+      {
+        name: 'machine learning',
+        url: '/machine-learning',
+        resources: DB.machineLearning,
+      },
       { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
-      { name: 'data structures', url: '/data-structures', resources: DB.dataStructures },
+      {
+        name: 'data structures',
+        url: '/data-structures',
+        resources: DB.dataStructures,
+      },
       { name: 'Android', url: '/android', resources: DB.android },
       {
         name: 'Web3 & Metaverse',
