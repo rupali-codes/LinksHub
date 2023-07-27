@@ -71,7 +71,7 @@
   },
   {
     "name": "svelte",
-    "description": "Svelte is a JavaScript framework that compiles components to highly efficient vanilla JavaScript at build time",
+    "description": "Svelte is a JavaScript framework that compiles components to generate highly efficient vanilla JavaScript at build time",
     "url": "https://svelte.dev/docs/introduction",
     "category": "resources",
     "subcategory": "officialdocs"
