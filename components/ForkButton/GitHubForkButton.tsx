@@ -20,8 +20,6 @@ export const GitHubForkButton: FC<{ repo: string }> = ({ repo }) => {
     fetchForkCount()
   }, [repo])
 
-  // Other Styles for Light Mode: [bg-violet-500 text-white] OR [text-black-500 border border-black]
-
   return (
     <Link
       href={`https://github.com/${repo}/fork`}
@@ -30,13 +28,8 @@ export const GitHubForkButton: FC<{ repo: string }> = ({ repo }) => {
       rel="noopener noreferrer"
       aria-label={`Fork ${repo} on GitHub`}
     >
-      <div 
-        className={
-          `${`inline-flex items-center px-4 py-1 text-sm font-semibold bg-transparent text-violet-500 border 
-            border-violet-500 border-transparent rounded-sm transition-colors shadow-md transition duration-300
-            ease-in-out hover:text-black hover:border-black dark:hover:text-gray-300 dark:hover:border-gray-300`
-            }`
-        }
+      <div
+        className="inline-flex items-center py-1 text-sm font-semibold bg-transparent text-theme-secondary rounded-sm transition-colors transition duration-300 ease-in-out hover:text-text-secondary transition duration-300 ease-in-out dark:hover:text-text-primary dark:text-theme-primary"
       >
         <FaCodeBranch className="mr-1" />
         <span className="font-semibold">Fork</span>

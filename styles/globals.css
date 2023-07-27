@@ -92,22 +92,6 @@ p,
 pre {
   text-align: justify !important;
 }
-
-@media (min-width: 992px) {
-  .coming-soon {
-    text-align: center;
-    top: 220px;
-    position: relative;
-  }
-}
-
-@media (max-width: 800px) {
-  .coming-soon {
-    text-align: center;
-    top: 150px;
-    position: relative;
-  }
-}
 /* setting root value for main scrollbar */
 :root {
   --scroll-thumb: #bbb;

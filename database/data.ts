@@ -92,6 +92,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Java', url: '/java', resources: DB.java },
       { name: 'Kotlin', url: '/kotlin', resources: DB.kotlin },
       { name: 'Rust', url: '/rust', resources: DB.Rust },
+      {name:'Dart', url: '/dart', resources: DB.dart},
     ],
   },
   {
@@ -169,7 +170,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'CSS', url: '/css', resources: DB.css },
       { name: 'machine learning', url: '/machine-learning', resources: DB.machineLearning },
       { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
-      { name: 'data structures', url: '/dsa', resources: DB.dataStructures },
+      { name: 'data structures', url: '/data-structures', resources: DB.dataStructures },
       { name: 'Android', url: '/android', resources: DB.android },
       {
         name: 'Web3 & Metaverse',
