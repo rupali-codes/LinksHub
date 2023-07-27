@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import { FaStar } from 'react-icons/fa'
+import { FaRegStar } from 'react-icons/fa'
 
 export const GitHubStarButton: FC<{ repo: string }> = ({ repo }) => {
   const [starCount, setStarCount] = useState(0)
@@ -20,8 +20,6 @@ export const GitHubStarButton: FC<{ repo: string }> = ({ repo }) => {
     fetchStarCount()
   }, [repo])
 
-  // Other Styles for Light Mode: [bg-yellow-400 text-black] OR [text-white border border-white]
-
   return (
     <Link
       href={`https://github.com/${repo}/stargazers`}
@@ -30,8 +28,8 @@ export const GitHubStarButton: FC<{ repo: string }> = ({ repo }) => {
       rel="noopener noreferrer"
       aria-label={`Star ${repo} on GitHub`}
     >
-      <div className="inline-flex items-center px-4 py-1 text-sm bg-violet-500 text-white border border-dashed border-transparent rounded-sm transition-colors shadow-md hover:bg-transparent hover:border-violet-400 hover:text-violet-400">
-        <FaStar className="mr-1" />
+      <div className="inline-flex items-center py-1 text-sm font-semibold bg-transparent text-theme-secondary rounded-sm transition-colors transition duration-300 ease-in-out hover:text-text-secondary transition duration-300 ease-in-out dark:hover:text-text-primary dark:text-theme-primary">
+        <FaRegStar className="mr-1" />
         <span>Star</span>
         <span className="ml-2">{starCount}</span>
       </div>
