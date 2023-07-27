@@ -22,7 +22,7 @@
   },
   {
     "name": "Kaggle",
-    "description": "Kaggle is a data science competition platform and online community of data scientists and machine learning practitioners under Google.",
+    "description": "Kaggle is an online platform that hosts data science competitions. It's also where data scientists and machine learning practitioners worldwide come and network with each other.",
     "url": "https://www.kaggle.com/",
     "category": "ml & ai",
     "subcategory": "data-science"
