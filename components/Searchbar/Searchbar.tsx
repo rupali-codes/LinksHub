@@ -1,14 +1,12 @@
 import React, { useState, useRef } from 'react'
 import SearchIcon from 'assets/icons/SearchIcon'
 import { useRouter } from 'next/router'
-// import type { ISidebar, SubCategories, subcategoryArray } from '../../types'
 import { subcategoryArray } from '../../types'
 
 interface SearchbarProps {
   setSearch: (search: string) => void
 }
-
-
+  
 export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
   const router = useRouter()
   const query = router.query.query
