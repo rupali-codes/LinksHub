@@ -142,7 +142,7 @@ export const sidebarData: ISidebar[] = [
   },
   {
     category: 'internet of things',
-    subcategory: [{ name: 'coursera', url: '/iot', resources: DB.coursera }],
+    subcategory: [{ name: 'coursera', url: '/coursera', resources: DB.coursera }],
   },
   {
     category: 'resources',
