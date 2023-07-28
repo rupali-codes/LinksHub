@@ -10,9 +10,6 @@ import useFilterSearch from 'hooks/useFilterSearch'
 
 const Search = () => {
   const router = useRouter()
-  const title = `LinksHub - ${router.asPath
-    .charAt(1)
-    .toUpperCase()}${router.asPath.slice(2)}`
   const query = router.query.query
   const { filterSearch } = useFilterSearch()
 
@@ -20,25 +17,26 @@ const Search = () => {
     if (!query || query === '') router.replace('/')
   }, [query, router])
 
-  let content: JSX.Element[] | JSX.Element
+  const renderContent = () => {
+    const data = filterSearch(query as string)
+    return data.length > 0 ? <CardsList cards={data} /> : <ComingSoon />
+  }
 
-  const data = filterSearch(query as string)
-
-  if (data.length > 0) {
-    content = <CardsList cards={data} />
-  } else {
-    content = <ComingSoon />
+  const generateTitle = () => {
+    const capitalizedPath =
+      router.asPath.charAt(1).toUpperCase() + router.asPath.slice(2)
+    return `LinksHub - ${capitalizedPath}`
   }
 
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>{generateTitle()}</title>
         <meta name="theme-color" content="#202c46" />
       </Head>
       <TopBar className="shadow-black-500/50 fixed top-[76px] z-30 flex w-full -translate-x-4 items-center bg-gray-100 px-4 pt-6 pb-4 shadow-xl dark:bg-gray-900 md:hidden" />
       <div className="min-h-[calc(100%-68px)] w-full pt-[85px] pb-4 md:min-h-[calc(100%-76px)] md:px-10 md:pt-10">
-        {content}
+        {renderContent()}
       </div>
     </>
   )
