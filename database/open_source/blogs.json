@@ -26,5 +26,12 @@
     "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github",
     "category": "open source",
     "subcategory": "open-source-blogs"
+  },
+  {
+    "name": "Open Source With Pradumna",
+    "description": "Building the repo you need to get started with Open Source",
+    "url": "https://os.pradumnasaraf.dev/#/",
+    "category": "open source",
+    "subcategory": "open-source-blogs"
   }
 ]
