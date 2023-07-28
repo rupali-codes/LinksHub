@@ -7,12 +7,12 @@ export const Footer: FC = () => {
   const isDarkMode = resolvedTheme === 'dark'
 
   const nameStyles = `underline ${
-    isDarkMode ? 'text-gray-200' : 'text-violet-700'
+    isDarkMode ? 'text-light-primary' : 'text-theme-secondary'
   } `
 
   return (
     <footer className="z-10 mb-4 flex w-full items-baseline justify-center rounded-lg py-2 backdrop-blur-md sm:py-3">
-      <p className="leading-7 tracking-wide text-center text-black dark:text-violet-400">
+      <p className="leading-7 tracking-wide text-center text-black dark:text-theme-primary">
         <span>&copy; {new Date().getFullYear()} LinksHub | </span>
         Developed by{' '}
         <Link
@@ -23,7 +23,7 @@ export const Footer: FC = () => {
           <span className={nameStyles}>Rupali Haldiya</span>
         </Link>{' '}
         and{' '}
-        <Link href="/contributors" rel="noopener noreferrer">
+        <Link href="/contributors" rel="noopener noreferrer" target="_blank">
           <span className={nameStyles}>Open Source Community</span>
         </Link>
       </p>

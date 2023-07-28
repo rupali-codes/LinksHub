@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    expose:
+      - 3000
+    volumes:
+      - .:/app:rw
+    command:
+      - pnpm
+      - run
+      - dev
+

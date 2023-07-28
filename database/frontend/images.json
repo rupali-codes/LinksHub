@@ -131,5 +131,12 @@
     "url": "  https://www.gettyimages.in/",
     "category": "frontend",
     "subcategory": "images"
+  },
+  {
+    "name": "Shutterstock",
+    "description": "Shutterstock provides a wide range of royalty-free media, including images, photos, vectors, videos, and music.",
+    "url": "https://www.shutterstock.com/",
+    "category": "frontend",
+    "subcategory": "images"
   }
 ]

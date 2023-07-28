@@ -1,8 +1,16 @@
 [
   {
     "name": "React js",
-    "description": "Free online course for learning react js",
+    "description": "Free online course for learning React js",
     "url": "https://scrimba.com/learn/learnreact#",
+    "category": "frontend",
+    "subcategory": "react",
+    "language": "english"
+  },
+  {
+    "name": "React js",
+    "description": "This freecodecamp course is beginner friendly and provides information that developers can apply in large codebases.",
+    "url": "https://youtu.be/4UZrsTqkcW4",
     "category": "frontend",
     "subcategory": "react",
     "language": "english"
@@ -69,5 +77,27 @@
     "url": "https://recoiljs.org/docs/introduction/getting-started/",
     "category": "frontend",
     "subcategory": "react"
+  },
+  {
+    "name": "React Router v6",
+    "description": "In this video, you'll learn key aspects of React Router, including layout and index routes, nested routes, search parameter filtering, protected routes for authenticated users, and Remix-inspired data routers APIs like Loaders and Actions.",
+    "url": "https://youtu.be/nDGA3km5He4",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "DEVHINTS.IO React.js Cheatsheet",
+    "description": "This React.js cheatsheet gives comprehensive information on the language's fundamental concepts and implements a knowledge management approach to help developers understand them.",
+    "url": "https://devhints.io/react",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "React js beginner",
+    "description": "In this Hindi video series, you will learn topics ranging from props to react hooks and work on simple projects to gain first-hand experience with React.",
+    "url": "https://www.youtube.com/watch?v=tiLWCNFzThE&list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ&ab_channel=ThapaTechnical",
+    "category": "frontend",
+    "subcategory": "react",
+    "language": "hindi"
   }
 ]

@@ -23,7 +23,7 @@ export const SideNavbarCategory: FC<{
     ))
 
   return (
-    <li className="relative w-full transition-all ease-in-out text-violet-600 dark:text-violet-400 dark:bg-opacity-5 hover:text-violet-500 dark:hover:text-violet-300 rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-violet-400">
+    <li className="relative w-full transition-all ease-in-out text-theme-secondary dark:text-theme-primary dark:bg-opacity-5 hover:text-theme-secondary dark:hover:text-theme-primary rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-theme-primary">
       <button
         className="flex w-full cursor-pointer justify-between py-2"
         onClick={handleToggle}
@@ -40,7 +40,7 @@ export const SideNavbarCategory: FC<{
           isOpen ? 'max-h-screen' : ''
         }`}
       >
-        <ul className="relative ml-1 border-l-2 border-slate-300 dark:border-slate-700 -pl-0.5">
+        <ul className="relative ml-1 border-l-2 dark:border-zinc-500 border-zinc-300 -pl-0.5">
           {subcategoryList}
         </ul>
       </div>

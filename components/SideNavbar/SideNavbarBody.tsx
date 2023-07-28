@@ -5,7 +5,7 @@ import classNames from 'classnames'
 import { useTheme } from 'next-themes'
 import { SideNavbarCategoryList } from './SideNavbarCategoryList'
 
-export const SideNavbarBody: FC<{}> = () => {
+export const SideNavbarBody: FC = () => {
   const { theme } = useTheme()
 
   const { setSearch, searchResults, debouncedSearch } = useSidebarSearch()
@@ -13,11 +13,11 @@ export const SideNavbarBody: FC<{}> = () => {
   return (
     <div
       className={classNames(
-        `bg-base-200 h-full w-full overflow-x-hidden whitespace-nowrap transition-all transition-none ease-in dark:bg-gray-900 dark:text-gray-300`,
+        `bg-[rgba(255,255,255,0.3)] h-full w-full overflow-x-hidden whitespace-nowrap transition-all ease-in dark:bg-dark dark:text-text-primary`,
         theme === 'light' ? 'scrollColorLight' : 'scrollColorDark'
       )}
     >
-      <div className="bg-base-200 transiton-all w-full p-4 transition-none ease-in dark:bg-gray-900">
+      <div className="bg-primary-light transiton-all w-full p-4 transition-none ease-in dark:bg-dark">
         <Searchbar setSearch={setSearch} />
       </div>
       <SideNavbarCategoryList
