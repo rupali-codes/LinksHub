@@ -184,9 +184,3 @@ pre {
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
 }
-
-.search-sticky-top {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
