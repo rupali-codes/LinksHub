@@ -118,5 +118,13 @@
     "category": "youtube",
     "subcategory": "data-structures",
     "language": "english"
+  },
+  {
+    "name": "CampusX",
+    "description": "As Python is a widely used language in the tech industry a dedicated playlist on these topics in Python would be a valuable addition.",
+    "url": "https://www.youtube.com/watch?v=f9Aje_cN_CY&list=RDCMUCCWi3hpnq_Pe03nGxuS7isg&start_radio=1&rv=f9Aje_cN_CY&t=41378",
+    "category": "youtube",
+    "subcategory": "data-structures",
+    "language": "english"
   }
 ]
