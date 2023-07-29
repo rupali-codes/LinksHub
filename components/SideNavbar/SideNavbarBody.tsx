@@ -17,8 +17,10 @@ export const SideNavbarBody: FC = () => {
         theme === 'light' ? 'scrollColorLight' : 'scrollColorDark'
       )}
     >
-      <div className="bg-primary-light transiton-all w-full p-4 transition-none ease-in dark:bg-dark">
-        <Searchbar setSearch={setSearch} />
+      <div className="search-sticky-top">
+        <div className="bg-light-primary transiton-all w-full p-4 transition-none ease-in dark:bg-dark">
+          <Searchbar setSearch={setSearch} />
+        </div>
       </div>
       <SideNavbarCategoryList
         items={searchResults}
