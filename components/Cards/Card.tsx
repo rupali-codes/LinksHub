@@ -1,7 +1,7 @@
 import { FC, useState, useRef, useEffect } from 'react'
 import { BsBoxArrowUpRight } from 'react-icons/bs'
 import { CopyToClipboard } from 'components/CopyToClipboard'
-import { Share } from 'components/Share';
+import { Share } from 'components/Share'
 import type { IData } from 'types'
 
 interface CardProps {
@@ -34,7 +34,7 @@ const Card: FC<CardProps> = ({ data }) => {
           </h2>
           <div className="flex items-center gap-1">
             <CopyToClipboard url={url} />
-            <Share url={url} title={name} />
+            <Share url={`${url}?ref=LinksHub`} title={name} />
           </div>
         </header>
         <div className="h-[7rem]">
