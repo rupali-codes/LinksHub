@@ -37,80 +37,81 @@ export type Category =
   | 'backend'
   | 'languages'
   | 'artificial intelligence'
+  | 'internet of things'
   | 'machine learning'
   | 'open source'
   | 'resources'
   | 'youtube'
   | 'other'
 
-export type SubCategory =
-  //frontend
-  | 'accessibility'
-  | 'animations'
-  | 'colors'
-  | 'design-inspiration'
-  | 'fonts'
-  | 'icons'
-  | 'illustrations'
-  | 'images'
-  | 'online-code-editors'
-  | 'react'
-  | 'themes-templates'
-  | 'ui-generators'
-  | 'videos'
-  //backend
-  | 'architecture'
-  | 'authentication'
-  | 'caching'
-  | 'database'
-  | 'security'
-  | 'system-design'
-  | 'testing'
-  | 'validation'
-  // languages
-  | 'c-programming'
-  | 'csharp'
-  | 'golang'
-  | 'java'
-  | 'javascript'
-  | 'kotlin'
-  | 'python'
-  | 'ruby'
-  | 'typescript'
-  //artificial intelligence
-  | 'artificial-intelligence'
-  // machin learning
-  | 'data-science'
-  | 'deep-learning'
-  | 'machine-learning'
-  // Open-source
-  | 'open-source-blogs'
-  | 'open-source-projects'
-  | 'open-source-tools'
-  // resources
-  | 'blogs'
-  | 'e-book'
-  | 'hosting'
-  | 'officialdocs'
-  | 'project-ideas'
-  // youtube
-  | 'android'
-  | 'competitive-programming'
-  | 'css'
-  | 'data-structures'
-  | 'fintech'
-  | 'game-development'
-  | 'machine-learning'
-  | 'tensorflow'
-  | 'testing'
-  | 'web-development'
-  | 'web3-metaverse'
-  // other
-  | 'communities'
-  | 'devtools'
-  | 'github'
-  | 'other-resources'
-  | 'podcasts'
+// export const SubCategory =
+//   //frontend
+//   | 'accessibility'
+//   | 'animations'
+//   | 'colors'
+//   | 'design-inspiration'
+//   | 'fonts'
+//   | 'icons'
+//   | 'illustrations'
+//   | 'images'
+//   | 'online-code-editors'
+//   | 'react'
+//   | 'themes-templates'
+//   | 'ui-generators'
+//   | 'videos'
+//   //backend
+//   | 'architecture'
+//   | 'authentication'
+//   | 'caching'
+//   | 'database'
+//   | 'security'
+//   | 'system-design'
+//   | 'testing'
+//   | 'validation'
+//   // languages
+//   | 'c-programming'
+//   | 'csharp'
+//   | 'golang'
+//   | 'java'
+//   | 'javascript'
+//   | 'kotlin'
+//   | 'python'
+//   | 'ruby'
+//   | 'typescript'
+//   //artificial intelligence
+//   | 'artificial-intelligence'
+//   // machin learning
+//   | 'data-science'
+//   | 'deep-learning'
+//   | 'machine-learning'
+//   // Open-source
+//   | 'open-source-blogs'
+//   | 'open-source-projects'
+//   | 'open-source-tools'
+//   // resources
+//   | 'blogs'
+//   | 'e-book'
+//   | 'hosting'
+//   | 'officialdocs'
+//   | 'project-ideas'
+//   // youtube
+//   | 'android'
+//   | 'competitive-programming'
+//   | 'css'
+//   | 'data-structures'
+//   | 'fintech'
+//   | 'game-development'
+//   | 'machine-learning'
+//   | 'tensorflow'
+//   | 'testing'
+//   | 'web-development'
+//   | 'web3-metaverse'
+//   // other
+//   | 'communities'
+//   | 'devtools'
+//   | 'github'
+//   | 'other-resources'
+//   | 'podcasts'
 
 export type SubCategories = {
   name: string
@@ -138,3 +139,78 @@ export interface IUseFilterDBResponse {
   filterSubCat: IData[][]
   filterDB: IData[][]
 }
+
+export const subcategoryArray = [
+  //frontend
+  'accessibility',
+  'animations',
+  'colors',
+  'design-inspiration',
+  'fonts',
+  'icons',
+  'illustrations',
+  'images',
+  'online-code-editors',
+  'react',
+  'themes-templates',
+  'ui-generators',
+  'videos',
+  //backend
+  'architecture',
+  'authentication',
+  'caching',
+  'database',
+  'security',
+  'system-design',
+  'testing',
+  'validation',
+  // languages
+  'c-programming',
+  'csharp',
+  'golang',
+  'java',
+  'javascript',
+  'kotlin',
+  'python',
+  'ruby',
+  'typescript',
+  //artificial intelligence
+  'artificial-intelligence',
+  //Internet of Things
+  'coursera',
+  'Esp-32',
+  'Sensors',
+  'Raspberry pi',
+  // machin learning
+  'data-science',
+  'deep-learning',
+  'machine-learning',
+  // Open-source
+  'open-source-blogs',
+  'open-source-projects',
+  'open-source-tools',
+  // resources
+  'blogs',
+  'e-book',
+  'hosting',
+  'officialdocs',
+  'project-ideas',
+  // youtube
+  'android',
+  'competitive-programming',
+  'css',
+  'data-structures',
+  'fintech',
+  'game-development',
+  'machine-learning',
+  'tensorflow',
+  'testing',
+  'web-development',
+  'web3-metaverse',
+  // other
+  'communities',
+  'devtools',
+  'github',
+  'other-resources',
+  'podcasts',
+]

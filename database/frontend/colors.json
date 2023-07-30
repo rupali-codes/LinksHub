@@ -71,7 +71,7 @@
   },
   {
     "name": "MaterialUI",
-    "description": "In Material UI color website you can find different shades of colors plates. It also provides Hex and RGB value of color.",
+    "description": "On this website, you can find different shades of color palettes. It also provides Hex and RGB value of color.",
     "url": "https://materialui.co/",
     "category": "frontend",
     "subcategory": "colors"
@@ -141,7 +141,7 @@
   },
   {
     "name": "FarbVélo",
-    "description": "A playful color picking tool that can generate most pleasing color combinations.",
+    "description": "A playful color-picking tool that can generate the most pleasing color combinations.",
     "url": "https://farbvelo.elastiq.ch/",
     "category": "frontend",
     "subcategory": "colors"
@@ -164,6 +164,13 @@
     "name": "Pigment",
     "description": "A unique way to generate fresh and vibrant colors.",
     "url": "https://pigment.shapefactory.co/",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
+    "name": "Paletton",
+    "description": "This is the go-to platform for developers and designers, offering an intuitive interface to effortlessly explore, generate, and visualize stunning color schemes for your projects.",
+    "url": "https://paletton.com/",
     "category": "frontend",
     "subcategory": "colors"
   }
