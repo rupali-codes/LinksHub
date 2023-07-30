@@ -26,5 +26,12 @@
     "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github",
     "category": "open source",
     "subcategory": "open-source-blogs"
+  },
+  {
+    "name": "Beginner's Guide to Open Source",
+    "description": "Learn about open source. A complete guide to beginner's open source journey...",
+    "url": "https://sulagnaduttaro.hashnode.dev/open-source-a-beginner-guide-2022",
+    "category": "open source",
+    "subcategory": "open-source-blogs"
   }
 ]
