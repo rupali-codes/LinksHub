@@ -26,5 +26,12 @@
     "url": "https://devmesh.intel.com/member-programs/intel-student-ambassador-program",
     "category": "other",
     "subcategory": "communities"
+  },
+  {
+    "name": "AI Student Community",
+    "description": "An online community for students from all across the country, providing a platform for learning, sharing experiences and leveraging their knowledge to create AI-enabled social impact solutions along with spreading AI awareness in an inclusive way.",
+    "url": "https://aistudent.community/",
+    "category": "other",
+    "subcategory": "communities"
   }
 ]
