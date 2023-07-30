@@ -1,0 +1,4 @@
+# ignoring files that are necessary for the project to run/develop
+*.md
+node_modules/
+LICENSE
