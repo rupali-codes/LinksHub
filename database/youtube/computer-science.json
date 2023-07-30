@@ -22,5 +22,13 @@
     "category": "youtube",
     "subcategory": "computer-science",
     "language": "hindi"
+  },
+  {
+    "name": "KNOWLEDGE GATE",
+    "description": " KNOWLEDGE GATE is a YouTube channel for core computer-science subjects and helps CS/IT students to prepare for University/semester and also for GATE Exams",
+    "url": "https://www.youtube.com/@KNOWLEDGEGATE_kg/about",
+    "category": "youtube",
+    "subcategory": "computer-science",
+    "language": "hindi"
   }
 ]
