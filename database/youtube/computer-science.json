@@ -9,7 +9,7 @@
   },
   {
     "name": "Jenny's Lectures CS IT",
-    "description": "Jenny’s Lectures CS IT is a Free YouTube Channel providing Computer Science / Information Technology / Computer-related tutorials, including NET & JRF Coaching Videos, GATE Coaching Videos, UGC NET, NTA NET, JRF, BTech, MTech, Ph.D., tips and other helpful videos for Computer Science / Information Technology students.",
+    "description": "Jenny’s Lectures CS IT is a Free YouTube Channel providing Computer Science / Information Technology / Computer-related tutorials, including NET & JRF Coaching Videos, GATE Coaching Videos, UGC NET, NTA NET, JRF, BTech, MTech, Ph.D., tips, and other helpful videos for Computer Science / Information Technology students.",
     "url": "https://www.youtube.com/@JennyslecturesCSIT",
     "category": "youtube",
     "subcategory": "computer-science",
@@ -17,8 +17,16 @@
   },
   {
     "name": "5 Minutes Engineering",
-    "description": "On 5 Minutes Engineering, you can find EASIEST explanations for all following mentioned subjects in HINDI: Aptitude, Machine Learning, Deep Learning, C, R and Python Programming Languages, Discrete Mathematics (DM), Theory Of Computation (TOC), Artificial Intelligence(AI), Database Management System(DBMS), Software Modeling and Designing(SMD), Software Engineering and Project Planning(SEPM), Data mining and Warehouse(DMW), Data analytics(DA), Mobile Communication(MC), Computer networks(CN), High performance Computing(HPC), Operating system, System programming (SPOS), Internet of things(IOT), and Design and analysis of algorithm(DAA)",
+    "description": "On 5 Minutes Engineering, you can find EASIEST explanations for all following mentioned subjects in HINDI: Aptitude, Machine Learning, Deep Learning, C, R, and Python Programming Languages, Discrete Mathematics (DM), Theory Of Computation (TOC), Artificial Intelligence(AI), Database Management System(DBMS), Software Modeling and Designing(SMD), Software Engineering and Project Planning(SEPM), Data mining and Warehouse(DMW), Data analytics(DA), Mobile Communication(MC), Computer networks(CN), High performance Computing(HPC), Operating system, System programming (SPOS), Internet of things(IOT), and Design and analysis of algorithm(DAA)",
     "url": "https://www.youtube.com/@5MinutesEngineering",
+    "category": "youtube",
+    "subcategory": "computer-science",
+    "language": "hindi"
+  },
+  {
+    "name": "KNOWLEDGE GATE",
+    "description": " KNOWLEDGE GATE is a YouTube channel that discusses core Computer Science subjects and helps CS/IT students to prepare for University/semester and GATE Exams",
+    "url": "https://www.youtube.com/@KNOWLEDGEGATE_kg/about",
     "category": "youtube",
     "subcategory": "computer-science",
     "language": "hindi"
