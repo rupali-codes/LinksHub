@@ -119,6 +119,13 @@
     "subcategory": "online-code-editors"
   },
   {
+    "name": "Sublime Text",
+    "description": "Sublime Text is a shareware text and source code editor available for Windows, macOS, and Linux. It supports many programming and markup languages.",
+    "url": "https://www.sublimetext.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
     "name": "GeeksforGeeks",
     "description": " It is a free online compiler and debugger where programmers and developers can compile and run their code.",
     "url": "https://ide.geeksforgeeks.org/",
