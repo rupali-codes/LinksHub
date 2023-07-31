@@ -21,6 +21,13 @@
     "subcategory": "authentication"
   },
   {
+    "name": "Passport Authentication",
+    "description": "Passport is authentication middleware for Node.js. Extremely flexible and modular, this tool can be unobtrusively dropped in to any Express-based web application. It also provides a comprehensive set of support authentication strategies for usernames, passwords, Facebook, Twitter, and more.",
+    "url": "https://www.passportjs.org/",
+    "category": "backend",
+    "subcategory": "authentication"
+  }
+  {
     "name": "AWS Amplify Authentication",
     "description": "AWS Amplify Authentication is a fully managed service within AWS Amplify that offers easy-to-use and secure authentication capabilities for web and mobile applications. It supports various authentication methods, including social sign-in, multi-factor authentication, and user management, enabling developers to add user authentication and access control to their applications with minimal effort.",
     "url": "https://docs.amplify.aws/lib/auth/getting-started/",
