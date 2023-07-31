@@ -6,7 +6,7 @@ import { subcategoryArray } from '../../types'
 interface SearchbarProps {
   setSearch: (search: string) => void
 }
-  
+
 export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
   const router = useRouter()
   const query = router.query.query
@@ -75,6 +75,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
             placeholder="Quick search..."
             value={searchQuery}
             onChange={handleSearchChange}
+            autoComplete="off"
             required
           />
           <button
