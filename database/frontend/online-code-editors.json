@@ -120,7 +120,7 @@
   },
   {
     "name": "Sublime Text",
-    "description": "Sublime Text is a shareware text and source code editor available for Windows, macOS, and Linux. It natively supports many programming languages and markup languages.",
+    "description": "Sublime Text is a shareware text and source code editor available for Windows, macOS, and Linux. It supports many programming and markup languages.",
     "url": "https://www.sublimetext.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
