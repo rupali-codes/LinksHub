@@ -57,11 +57,13 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
       > For example, if you are adding a subcategory using the file `online-code-editors.json`, add `online-code-editors` to the `export type` statement in the appropriate style.
 
-  - If you are adding a subcategory, go to `components/TopBar/CategoryDescriptions.ts` and add the subcategory name used when exporting the name in `database/index.ts`, along with a proper description in the correct format.
+  - If you are adding a subcategory, go to `components/TopBar/CategoryDescriptions.ts` and add the subcategory name used when exporting the name in `database/index.ts`, along with a concise description in the correct format.
 
     > For example, if you export the subcategory name as `onlineCodeEditors` in `database/index.ts`, add the same name to `CategoryDescriptions.ts` using the following style:
 
     > subcategoryName: 'description of this subcategory'
+
+  - You can check out similar examples [here](components/TopBar/CategoryDescriptions.ts). It's essential to add a description when submitting a pull request to add a subcategory; to merge it in the codebase.
 
 ### Appending new Links 🔗
 
