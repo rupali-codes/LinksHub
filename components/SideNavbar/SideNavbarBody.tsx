@@ -11,7 +11,7 @@ export const SideNavbarBody: FC = () => {
 
   return (
     <div className="bg-[rgba(255,255,255,0.3)] w-full overflow-x-hidden whitespace-nowrap transition-all ease-in dark:bg-dark dark:text-text-primary">
-      <div className="bg-light-primary p-4 transition-all ease-in dark:bg-dark">
+      <div className="bg-light-primary p-4 pt-0 transition-all ease-in dark:bg-dark">
         <Searchbar setSearch={setSearch} />
       </div>
 
