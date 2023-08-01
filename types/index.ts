@@ -44,6 +44,7 @@ export type Category =
   | 'resources'
   | 'youtube'
   | 'other'
+  | 'devops'
 
 export type SubCategories = {
   name: string
@@ -73,6 +74,13 @@ export interface IUseFilterDBResponse {
 }
 
 export const subcategoryArray = [
+  // devops
+  'cicd',
+  'devopsLifecycle',
+  'devopsMethodologies',
+  'docker',
+  'kubernetes',
+  'microservices',
   //frontend
   'accessibility',
   'animations',

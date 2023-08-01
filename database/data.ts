@@ -50,6 +50,21 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'devops',
+    subcategory: [
+      { name: 'cicd', url: '/cicd', resources: DB.cicd },
+      { name: 'devopsLifecycle', url: '/devopsLifecycle', resources: DB.devopsLifecycle },
+      { name: 'devopsMethodologies', url: '/devopsMethodologies', resources: DB.devopsMethodologies },
+      { name: 'docker', url: '/docker', resources: DB.docker },
+      {
+        name: 'kubernetes',
+        url: '/kubernetes',
+        resources: DB.kubernetes,
+      },
+      { name: 'microservices', url: '/microservices', resources: DB.microservices },
+    ],
+  },
+  {
     category: 'backend',
     subcategory: [
       {
