@@ -33,5 +33,12 @@
     "url": "https://www.youtube.com/playlist?list=PLnCV5fTAsUgpaLMY_Z8FqPxZ89v-_pcfY",
     "category": "open source",
     "subcategory": "open-source-blogs"
+  },
+  {
+    "name": "Open Source With Pradumna",
+    "description": "This blog provides tips on how to get your open source journey started",
+    "url": "https://os.pradumnasaraf.dev/#/",
+    "category": "open source",
+    "subcategory": "open-source-blogs"
   }
 ]
