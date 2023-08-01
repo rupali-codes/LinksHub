@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Google Maps API",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://developers.google.com/maps",
+        "description": "Google Maps Platform offers a free $200 monthly credit for Maps, Routes, and Places."
+    },
+    {
+        "name": "Stripe",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://stripe.com",
+        "description": "Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes."
+    },
+    {
+        "name": "Youtube API",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://developers.google.com/youtube",
+        "description": "The YouTube Data API (v3) lets you incorporate YouTube functionality into your own application."
+    },
+    {
+        "name": "RapidAPI",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://rapidapi.com",
+        "description": "RapidAPI is the world's largest API marketplace with over 1,000,000 developers and 10,000 APIs."
+    },
+    {
+        "name": "Movie API",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://www.omdbapi.com",
+        "description": "The API is a RESTful web service to obtain movie information, all content and images."
+    },
+    {
+        "name": "Spotify API",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://developer.spotify.com",
+        "description": "The Spotify Web API is a set of web APIs to access Spotify's database of music, artists, albums, and playlists."
+    },
+    {
+        "name": "Free Weather API",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://openweathermap.org/api",
+        "description": "OpenWeather is a team of IT experts and data scientists that has been practising deep weather."
+    },
+    {
+        "name": "Joke API",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://sv443.net/jokeapi/v2/",
+        "description": "The JokeAPI is a REST API that serves uniformly and well formatted jokes."
+    },
+    {
+        "name": "Twitter API",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://developer.twitter.com/en/docs/twitter-api",
+        "description": "The Twitter API enables programmatic access to Twitter in unique and advanced ways."
+    },
+    {
+        "name": "Facebook API",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://developers.facebook.com",
+        "description": "The Facebook API is a platform for building applications that are available to the members of the social network of Facebook."
+    },
+    {
+        "name": "Instagram API",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://developers.facebook.com/docs/instagram",
+        "description": "The Instagram API Platform can be used to build non-automated, authentic, high-quality apps and services."
+    },
+    {
+        "name": "PayPal API",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://developer.paypal.com/docs/api/overview",
+        "description": "PayPal is an American company operating an online payments system in majority of countries that supports online money transfers and server."
+    },
+    {
+        "name": "WhatsApp API",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://developers.facebook.com/docs/whatsapp",
+        "description": "The WhatsApp Business API is a fast, secure, and reliable way for businesses to reach their customers all over the world."
+    },
+    {
+        "name": "PayTM API",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://developer.paytm.com/docs",
+        "description": "Paytm is an Indian e-commerce payment system and financial technology company, based in Noida, India."
+    },
+    {
+        "name": "Stock API",
+        "category": "backend",
+        "subcategory": "api",
+        "url": "https://www.alphavantage.co",
+        "description": "Alpha Vantage offers free stock APIs in JSON and CSV formats for realtime and historical equity, forex, cryptocurrency data and over 50 technical indicators."
+    }
+]

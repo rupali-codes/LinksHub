@@ -21,6 +21,7 @@ export { default as testing } from './backend/testing.json'
 export { default as validation } from './backend/validation.json'
 export { default as systemDesign } from './backend/system-design.json'
 export { default as database } from './backend/database.json'
+export {default as api} from './backend/api.json'
 // languages
 export { default as javascript } from './languages/javascript.json'
 export { default as python } from './languages/python.json'
