@@ -28,8 +28,7 @@ export const GitHubStarButton: FC<{ repo: string }> = ({ repo }) => {
       rel="noopener noreferrer"
       aria-label={`Star ${repo} on GitHub`}
     >
-      <div className="inline-flex items-center px-4 py-1 text-sm font-semibold bg-transparen border border-dashed border-transparent shadow-md text-theme-secondary rounded-sm hover:text-text-secondary transition duration-300 ease-in-out dark:hover:text-text-primary dark:text-theme-primary">
-        {/* <div className="inline-flex items-center px-4 py-1 text-sm bg-violet-500 text-white border border-dashed border-transparent rounded-sm transition-colors shadow-md hover:bg-transparent hover:border-violet-400 hover:text-violet-400"> */}
+      <div className="inline-flex items-center py-1 text-sm font-semibold bg-transparent text-theme-secondary rounded-sm hover:text-text-secondary transition duration-300 ease-in-out dark:hover:text-text-primary dark:text-theme-primary">
         <FaRegStar className="mr-1" />
         <span>Star</span>
         <span className="ml-2">{starCount}</span>
