@@ -32,7 +32,7 @@
         "category": "backend",
         "subcategory": "api",
         "url": "https://www.omdbapi.com",
-        "description": "The API is a RESTful web service to obtain movie information, all content and images."
+        "description": "The Movie API is a RESTful web service to obtain movie information, all content and images."
     },
     {
         "name": "Spotify API",
