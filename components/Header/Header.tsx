@@ -6,9 +6,11 @@ import { GlobalContext } from 'context/GlobalContext'
 import { ThemeToggler } from '../ThemeToggler/themeToggler'
 import { TopBar } from '../TopBar/TopBar'
 import { SocialMediaIconsList } from 'components/SocialMedia/SocialMediaIconsList'
+import { useResults } from 'hooks/ResultsContext'
 
 export const Header: FC = () => {
   const { toggleNav } = useContext(GlobalContext)
+  const { results } = useResults()
 
   return (
     <header className="fixed top-0 left-0 z-30 row-start-1 row-end-2 flex h-[76px] w-screen items-center justify-between bg-light-primary dark:bg-dark">
@@ -18,7 +20,10 @@ export const Header: FC = () => {
         </Link>
       </div>
       <div className="bg-light-primary relative h-full grow px-8 dark:bg-dark lg:dark:bg-dark-primary">
-        <TopBar className="absolute left-8 hidden h-full md:flex" />
+        <TopBar
+          className="absolute left-8 hidden h-full md:flex"
+          results={results}
+        />
         <div className="absolute right-8 flex h-full gap-4">
           <SocialMediaIconsList className="hidden lg:flex" />
           <ThemeToggler />
