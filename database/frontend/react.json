@@ -99,5 +99,13 @@
     "category": "frontend",
     "subcategory": "react",
     "language": "hindi"
+  },
+  {
+    "name": "React js",
+    "description": "In this series, you will learn the basics of React.js while creating projects to gain a better understanding of concepts and their working.",
+    "url": "https://www.youtube.com/watch?v=v02P0AsTm2o&list=PLt5mNkGuWcuWSUHxSzWP74IU9U4BTVLt0",
+    "category": "frontend",
+    "subcategory": "react",
+    "language": "hindi"
   }
 ]
