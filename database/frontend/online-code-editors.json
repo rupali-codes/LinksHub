@@ -113,8 +113,22 @@
   },
   {
     "name": "Interviewbit",
-    "description": "Everything you need to crack your next tech interview is provided in this website",
+    "description": "Everything you need to crack your next tech interview is provided on this website",
     "url": "https://www.interviewbit.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Sublime Text",
+    "description": "Sublime Text is a shareware text and source code editor available for Windows, macOS, and Linux. It supports many programming and markup languages.",
+    "url": "https://www.sublimetext.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "GeeksforGeeks",
+    "description": " It is a free online compiler and debugger where programmers and developers can compile and run their code.",
+    "url": "https://ide.geeksforgeeks.org/",
     "category": "frontend",
     "subcategory": "online-code-editors"
   }

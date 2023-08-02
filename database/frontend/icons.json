@@ -180,5 +180,12 @@
     "url": "https://iconhub.io/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Free3Dicon",
+    "description": "Free3Dicon is a website that offers a collection of free, beautiful, trending 3D icons that you can use in your website, app, or in any project.",
+    "url": "https://free3dicon.com/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]

@@ -84,6 +84,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
             placeholder="Quick search..."
             value={searchQuery}
             onChange={handleSearchChange}
+            autoComplete="off"
             required
           />
           <button
