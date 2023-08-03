@@ -1,107 +1,107 @@
 [
     {
         "name": "Google Maps API",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "Google Maps Platform offers a free $200 monthly credit for Maps, Routes, and Places.",
         "url": "https://developers.google.com/maps",
-        "description": "Google Maps Platform offers a free $200 monthly credit for Maps, Routes, and Places."
+        "category": "backend",
+        "subcategory": "api"  
     },
     {
         "name": "Stripe",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes.",
         "url": "https://stripe.com",
-        "description": "Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes."
+        "category": "backend",
+        "subcategory": "api"       
     },
     {
         "name": "Youtube API",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "The YouTube Data API (v3) lets you incorporate YouTube functionality into your own application.",
         "url": "https://developers.google.com/youtube",
-        "description": "The YouTube Data API (v3) lets you incorporate YouTube functionality into your own application."
+        "category": "backend",
+        "subcategory": "api"
     },
     {
         "name": "RapidAPI",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "RapidAPI is the world's largest API marketplace with over 1,000,000 developers and 10,000 APIs.",
         "url": "https://rapidapi.com",
-        "description": "RapidAPI is the world's largest API marketplace with over 1,000,000 developers and 10,000 APIs."
+        "category": "backend",
+        "subcategory": "api"
     },
     {
         "name": "Movie API",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "The Movie API is a RESTful web service to obtain movie information, all content and images.",
         "url": "https://www.omdbapi.com",
-        "description": "The Movie API is a RESTful web service to obtain movie information, all content and images."
+        "category": "backend",
+        "subcategory": "api"
     },
     {
         "name": "Spotify API",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "The Spotify Web API is a set of web APIs to access Spotify's database of music, artists, albums, and playlists.",
         "url": "https://developer.spotify.com",
-        "description": "The Spotify Web API is a set of web APIs to access Spotify's database of music, artists, albums, and playlists."
+        "category": "backend",
+        "subcategory": "api"
     },
     {
         "name": "Free Weather API",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "OpenWeather is a team of IT experts and data scientists that has been practising deep weather.",
         "url": "https://openweathermap.org/api",
-        "description": "OpenWeather is a team of IT experts and data scientists that has been practising deep weather."
+        "category": "backend",
+        "subcategory": "api"
     },
     {
         "name": "Joke API",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "The JokeAPI is a REST API that serves uniformly and well formatted jokes.",
         "url": "https://sv443.net/jokeapi/v2/",
-        "description": "The JokeAPI is a REST API that serves uniformly and well formatted jokes."
+        "category": "backend",
+        "subcategory": "api"
     },
     {
         "name": "Twitter API",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "The Twitter API enables programmatic access to Twitter in unique and advanced ways.",
         "url": "https://developer.twitter.com/en/docs/twitter-api",
-        "description": "The Twitter API enables programmatic access to Twitter in unique and advanced ways."
+        "category": "backend",
+        "subcategory": "api"
     },
     {
         "name": "Facebook API",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "The Facebook API is a platform for building applications that are available to the members of the social network of Facebook.",
         "url": "https://developers.facebook.com",
-        "description": "The Facebook API is a platform for building applications that are available to the members of the social network of Facebook."
+        "category": "backend",
+        "subcategory": "api"
     },
     {
         "name": "Instagram API",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "The Instagram API Platform can be used to build non-automated, authentic, high-quality apps and services.",
         "url": "https://developers.facebook.com/docs/instagram",
-        "description": "The Instagram API Platform can be used to build non-automated, authentic, high-quality apps and services."
+        "category": "backend",
+        "subcategory": "api"
     },
     {
         "name": "PayPal API",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "Developers can use PayPal's API to authorize payments, capture authorized payments, and refund captured payments, and display payment information.",
         "url": "https://developer.paypal.com/docs/api/overview",
-        "description": "Developers can use PayPal's API to authorize payments, capture authorized payments, and refund captured payments, and display payment information."
+        "category": "backend",
+        "subcategory": "api"
     },
     {
         "name": "WhatsApp API",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "The WhatsApp Business API is a fast, secure, and reliable way for businesses to reach their customers all over the world.",
         "url": "https://developers.facebook.com/docs/whatsapp",
-        "description": "The WhatsApp Business API is a fast, secure, and reliable way for businesses to reach their customers all over the world."
+        "category": "backend",
+        "subcategory": "api"
     },
     {
         "name": "PayTM API",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "Paytm is an Indian e-commerce payment system and financial technology company, based in Noida, India.",
         "url": "https://developer.paytm.com/docs",
-        "description": "Paytm is an Indian e-commerce payment system and financial technology company, based in Noida, India."
+        "category": "backend",
+        "subcategory": "api"
     },
     {
         "name": "Stock API",
-        "category": "backend",
-        "subcategory": "api",
+        "description": "Alpha Vantage offers free stock APIs in JSON and CSV formats for realtime and historical equity, forex, cryptocurrency data and over 50 technical indicators.",
         "url": "https://www.alphavantage.co",
-        "description": "Alpha Vantage offers free stock APIs in JSON and CSV formats for realtime and historical equity, forex, cryptocurrency data and over 50 technical indicators."
+        "category": "backend",
+        "subcategory": "api"
     }
 ]
