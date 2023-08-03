@@ -5,13 +5,15 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>LinksHub</title>
         <meta name="title" content="LinksHub" />
         <meta
           name="description"
           content="LinksHub is the ultimate hub of ready-to-use tech resources. Discover free tools and libraries to streamline your development process and build better projects."
         />
-        <meta name="keywords" content="LinksHub, developers, free resources, tools, software, libraries, frameworks, applications, websites" />
+        <meta
+          name="keywords"
+          content="LinksHub, developers, free resources, tools, software, libraries, frameworks, applications, websites"
+        />
         <meta name="author" content="Rupali Haldiya" />
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="7 days" />
