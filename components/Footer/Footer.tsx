@@ -19,11 +19,17 @@ export const Footer: FC = () => {
           href="https://linkfree.io/rupali-codes"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="GitHub Profile of Rupali Haldiya"
         >
           <span className={nameStyles}>Rupali Haldiya</span>
         </Link>{' '}
         and{' '}
-        <Link href="/contributors" rel="noopener noreferrer" target="_blank">
+        <Link
+          href="/contributors"
+          rel="noopener noreferrer"
+          target="_blank"
+          aria-label="List of Contributors in LinksHub"
+        >
           <span className={nameStyles}>Open Source Community</span>
         </Link>
       </p>

@@ -52,6 +52,7 @@ export const BackToTopButton = () => {
         className={buttonClasses}
         onClick={handleClick}
         title="Back to top"
+        aria-label="Back to top button"
       >
         <FaArrowUp className="group-hover:text-theme-secondary" />
       </button>

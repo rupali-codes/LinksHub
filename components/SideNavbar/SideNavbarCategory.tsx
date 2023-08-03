@@ -27,6 +27,7 @@ export const SideNavbarCategory: FC<{
       <button
         className="flex w-full cursor-pointer justify-between py-2"
         onClick={handleToggle}
+        aria-label="toggle category"
       >
         <h1 className="font-bold uppercase">{item.category}</h1>
         <FaAngleDown

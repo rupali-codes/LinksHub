@@ -136,12 +136,14 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
               <Link
                 href={`https://github.com/${contributor.login}`}
                 {...linkProps}
+                aria-label={`GitHub Profile of ${contributor.login}`}
               >
                 GitHub
               </Link>
               <Link
                 href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
                 {...linkProps}
+                aria-label={`Commit History of ${contributor.login} in LinksHub`}
               >
                 Contributions
               </Link>
