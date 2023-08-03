@@ -54,6 +54,12 @@
     "url": "https://appwrite.io/docs",
     "category": "backend",
     "subcategory": "database"
+  },
+  {
+    "name": "AWS Amplify",
+    "description": "AWS Amplify is a comprehensive development platform offered by Amazon Web Services (AWS) that simplifies building scalable and secure web and mobile applications. It provides a set of tools, services, and libraries that enable developers to quickly create and deploy full-stack applications with seamless integration to various AWS services.",
+    "url": "https://docs.aws.amazon.com/amplify/",
+    "category": "backend",
+    "subcategory": "database"
   }
-  
 ]
