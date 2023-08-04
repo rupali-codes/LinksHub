@@ -1,6 +1,7 @@
 import React from 'react'
 import { IData } from 'types'
 import { BsGlobe } from 'react-icons/bs'
+import { AiOutlineClose } from 'react-icons/ai' // Import the close icon
 import { Backdrop } from 'components/Backdrop/Backdrop'
 import { createPortal } from 'react-dom'
 import useDelayUnmount from 'hooks/useDelayUnmount'
@@ -34,6 +35,14 @@ const Popup: React.FC<{
           role="dialog"
           title={`${currentCard?.name ?? 'Card'} Popup`}
         >
+          {/* Close Icon */}
+          <button
+            onClick={onClose}
+            className="absolute top-3 right-3 text-xl text-theme-primary"
+          >
+            <AiOutlineClose />
+          </button>
+
           <div className="flex flex-col gap-5">
             <div className="flex justify-between items-center">
               <div className="w-full flex justify-between items-center">
