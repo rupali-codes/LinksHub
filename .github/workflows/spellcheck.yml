@@ -21,4 +21,4 @@ jobs:
         run: pip install codespell
 
       - name: Run spellcheck
-        run: codespell --quiet-level=2 --check-filenames --ignore-words=".codespellignore" '*.json'
+        run: codespell --quiet-level=2 --check-filenames -- ./**/*.json
