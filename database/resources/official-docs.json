@@ -78,7 +78,7 @@
   } ,
     {
     "name": "Express",
-    "description": "Express is a Fast, unopinionated, minimalist web framework for Node.js",
+    "description": "Express is a fast, unopinionated, and minimalist web framework for Node.js",
     "url": "https://svelte.dev/docs/introduction",
     "category": "resources",
     "subcategory": "officialdocs"
