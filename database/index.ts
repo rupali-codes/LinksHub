@@ -21,6 +21,13 @@ export { default as testing } from './backend/testing.json'
 export { default as validation } from './backend/validation.json'
 export { default as systemDesign } from './backend/system-design.json'
 export { default as database } from './backend/database.json'
+//devops
+export { default as cicd } from './DevOps/cicd.json'
+export { default as devopsLifecycle } from './DevOps/devopsLifecycle.json'
+export { default as devopsMethodologies } from './DevOps/devopsMethodologies.json'
+export { default as docker } from './DevOps/docker.json'
+export { default as kubernetes } from './DevOps/kubernetes.json'
+export { default as microservices } from './DevOps/microservices.json'
 // languages
 export { default as javascript } from './languages/javascript.json'
 export { default as python } from './languages/python.json'
