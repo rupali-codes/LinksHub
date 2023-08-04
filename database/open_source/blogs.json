@@ -26,5 +26,26 @@
     "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github",
     "category": "open source",
     "subcategory": "open-source-blogs"
+  },
+  {
+    "name": "How to contribute in Quine Open source platform",
+    "description": "Are you a beginner in open source? This site will help you in making your first open-source contribution, teach you about the Quine open source platform, and connect with other open source contributors.",
+    "url": "https://www.youtube.com/playlist?list=PLnCV5fTAsUgpaLMY_Z8FqPxZ89v-_pcfY",
+    "category": "open source",
+    "subcategory": "open-source-blogs"
+  },
+  {
+    "name": "Open Source With Pradumna",
+    "description": "This blog provides tips on how to get your open source journey started",
+    "url": "https://os.pradumnasaraf.dev/#/",
+    "category": "open source",
+    "subcategory": "open-source-blogs"
+  },
+  {
+    "name": "Beginner's Guide to Open Source",
+    "description": "A complete guide for beginners to start their open source journey.",
+    "url": "https://sulagnaduttaro.hashnode.dev/open-source-a-beginner-guide-2022",
+    "category": "open source",
+    "subcategory": "open-source-blogs"
   }
 ]

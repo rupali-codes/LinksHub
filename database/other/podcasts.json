@@ -5,5 +5,12 @@
     "url": "https://www.opensourcestories.org/",
     "category": "other",
     "subcategory": "podcasts"
+  },
+  {
+    "name": "CodeNewbie Podcast",
+    "description": "In this podcast, Saron Yitbarek interviews a new guest every week about their coding journey, how they landed their first coding job, and more.",
+    "url": "https://www.codenewbie.org/podcast",
+    "category": "other",
+    "subcategory": "podcasts"
   }
 ]

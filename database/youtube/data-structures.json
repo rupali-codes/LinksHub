@@ -112,9 +112,25 @@
     "language": "english"
   },
   {
+    "name": "Data Structure & Algorithms Full Course In Hindi",
+    "description": "DSA playlist for understanding concepts of core coding using the c++ language",
+    "url": "https://www.youtube.com/playlist?list=PLzjZaW71kMwQ1DIWTn0d_KDHU4_E52-rq",
+    "category": "youtube",
+    "subcategory": "data-structures",
+    "language": "hindi"
+  },
+  {
     "name": "CODING NINJAS",
     "description": "This channel provides DSA course in Python from beginner to advance level.",
     "url": "https://youtube.com/playlist?list=PLrk5tgtnMN6TYBW0-U4YhIRyYEVpqVEnJ",
+    "category": "youtube",
+    "subcategory": "data-structures",
+    "language": "english"
+  },
+  {
+    "name": "CampusX",
+    "description": "Since Python is a widely used language in the tech industry, a playlist that focuses on various aspects of this programming language would be a valuable addition to this website.",
+    "url": "https://www.youtube.com/watch?v=f9Aje_cN_CY&list=RDCMUCCWi3hpnq_Pe03nGxuS7isg&start_radio=1&rv=f9Aje_cN_CY&t=41378",
     "category": "youtube",
     "subcategory": "data-structures",
     "language": "english"

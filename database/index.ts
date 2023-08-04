@@ -21,6 +21,13 @@ export { default as testing } from './backend/testing.json'
 export { default as validation } from './backend/validation.json'
 export { default as systemDesign } from './backend/system-design.json'
 export { default as database } from './backend/database.json'
+//devops
+export { default as cicd } from './DevOps/cicd.json'
+export { default as devopsLifecycle } from './DevOps/devopsLifecycle.json'
+export { default as devopsMethodologies } from './DevOps/devopsMethodologies.json'
+export { default as docker } from './DevOps/docker.json'
+export { default as kubernetes } from './DevOps/kubernetes.json'
+export { default as microservices } from './DevOps/microservices.json'
 // languages
 export { default as javascript } from './languages/javascript.json'
 export { default as python } from './languages/python.json'
@@ -33,11 +40,19 @@ export { default as kotlin } from './languages/kotlin.json'
 export { default as Rust } from './languages/rust.json'
 export { default as java } from './languages/java.json'
 export { default as cpp } from './languages/cpp.json'
-export {default as dart} from './languages/dart.json'
+export { default as dart } from './languages/dart.json'
 //artificial intelligence
 export { default as artificialIntelligence } from './artificial_intelligence/artificial-intelligence.json'
 //internet of things
 export { default as coursera } from './IOT/coursera.json'
+export { default as raspberrypi } from './IOT/raspberry.json'
+//cloud computing
+export { default as gcp } from './cloud_computing_platforms/gcp.json'
+export { default as aws } from './cloud_computing_platforms/aws.json'
+export { default as azure } from './cloud_computing_platforms/azure.json'
+export { default as oracle } from './cloud_computing_platforms/oracle.json'
+export { default as ibm } from './cloud_computing_platforms/ibm.json'
+
 //machine learning
 export { default as ml } from './machine_learning/machine-learning.json'
 export { default as dataScience } from './machine_learning/data-science.json'
