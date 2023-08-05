@@ -61,6 +61,7 @@ export { default as deepLearning } from './machine_learning/deep-learning.json'
 export { default as openSourceBlogs } from './open_source/blogs.json'
 export { default as openSourceProjects } from './open_source/projects.json'
 export { default as openSourceTools } from './open_source/tools.json'
+export { default as openSourceVideos } from './open_source/videos.json'
 // resources
 export { default as blogs } from './resources/blogs.json'
 export { default as officialdocs } from './resources/official-docs.json'
