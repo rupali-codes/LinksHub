@@ -1,5 +1,5 @@
 import useCopyToClipboard from 'hooks/useCopyToClipboard';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { FaRegCopy, FaCheckSquare } from 'react-icons/fa';
 
 type CopyToClipboardProps = {
@@ -8,51 +8,50 @@ type CopyToClipboardProps = {
 
 export const CopyToClipboard = ({ url }: CopyToClipboardProps): JSX.Element => {
   const [copyToClipboard, { success }] = useCopyToClipboard();
-  const [isCopied, setIsCopied] = useState(false);
+  const [isHovering, setIsHovering] = useState(false);
 
-  function handleCopy() {
+  function handleCopy(e: React.MouseEvent<SVGElement, MouseEvent>) {
+    e.stopPropagation();
     copyToClipboard(url);
-    setIsCopied(true);
   }
 
-  useEffect(() => {
-    if (isCopied) {
-      const timeout = setTimeout(() => setIsCopied(false), 3500);
-      return () => clearTimeout(timeout);
-    }
-  }, [isCopied]);
-
   return (
-    <div 
+    <div
       className="dropdown dropdown-left dropdown-hover"
-      >
-      <button
-        className="text-theme-primary cursor-pointer relative bg-transparent border-none p-0"
-        onClick={handleCopy}
-        title={success && isCopied ? 'Link copied' : 'Copy link'}
-        aria-label="Copy link to clipboard"
-        aria-live="polite"
-      >
-        {success && isCopied ? (
-          <FaCheckSquare size={'1.3rem'} />
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
+    >
+      <button style={{ position: 'relative' }}>
+        {success ? ( // Render the FaCheckSquare icon if success is true
+          <FaCheckSquare
+            size={'1.3rem'}
+            className="text-theme-primary cursor-pointer"
+            onClick={(e) => handleCopy(e)}
+            aria-label="Link copied" // Add aria-label for accessibility
+          />
         ) : (
-          <FaRegCopy size={'1.3rem'} />
+          <FaRegCopy // Otherwise, render the default FaRegCopy icon
+            size={'1.3rem'}
+            className="text-theme-primary cursor-pointer"
+            onClick={(e) => handleCopy(e)}
+            aria-label="Copy link to clipboard" // Add aria-label for accessibility
+          />
         )}
-      </button>
-      {success && isCopied && (
-        <p
-          className="bg-theme-secondary text-white text-sm rounded-lg px-3 py-1 cursor-default"
+        {isHovering && (
+          <p
+            className="bg-theme-secondary text-white text-sm rounded-lg px-3 py-1 cursor-default"
             style={{
               position: 'absolute',
               top: '-2rem',
               left: '50%',
               transform: 'translateX(-50%)',
               zIndex: 1,
-          }}
-        >
-          Link Copied!
-        </p>
-      )}
+            }}
+          >
+            {success ? 'Copied!' : 'Copy'}
+          </p>
+        )}
+      </button>
     </div>
   );
 };
