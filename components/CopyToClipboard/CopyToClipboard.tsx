@@ -39,7 +39,7 @@ export const CopyToClipboard = ({ url }: CopyToClipboardProps): JSX.Element => {
         )}
         {isHovering && (
           <p
-            className="bg-theme-secondary text-white text-sm rounded-lg px-3 py-1 cursor-default absolute top-[-2rem] left-[50%] translate-x-3/4 z-10"
+            className="bg-theme-secondary text-white text-sm rounded-lg px-3 py-1 cursor-default absolute top-[-2rem] left-[50%] translate-x-[-75%] z-10"
           >
             {success ? 'Copied!' : 'Copy'}
           </p>
