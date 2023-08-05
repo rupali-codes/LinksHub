@@ -1,0 +1,24 @@
+# reference: https://github.com/hoho4190/issue-pr-labeler
+name: PR Labeler
+
+on:
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read # to read configuration yml file
+      pull-requests: write # to add labels to pull requests
+
+    steps:
+      - name: Run PR Labeler
+        uses: hoho4190/issue-pr-labeler@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config-file-name: labeler-config.yml
+        #   disable-bot: true  # this will prevent issues, PRs created by bots
