@@ -129,9 +129,9 @@ export const sidebarData: ISidebar[] = [
         resources: DB.openSourceTools,
       },
       {
-name: 'Videos',
-url: '/open-sources-videos',
-resources: DB.openSourceVideos, 
+        name: 'Videos',
+        url: '/open-sources-videos',
+        resources: DB.openSourceVideos, 
       },
     ],
   },
