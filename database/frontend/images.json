@@ -145,5 +145,12 @@
     "url": "https://www.dreamstime.com/",
     "category": "frontend",
     "subcategory": "images"
+  },
+  {
+    "name": "Adobe Stock",
+    "description": "Adobe Stock includes a wide range of stock photos, stock photography & royalty-free images.",
+    "url": "https://stock.adobe.com/in/",
+    "category": "frontend",
+    "subcategory": "images"
   }
 ]
