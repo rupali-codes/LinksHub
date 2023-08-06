@@ -2,21 +2,6 @@
 <img src="https://user-images.githubusercontent.com/78981177/232279811-a219b1b5-6383-4ace-9614-24c6b258fec0.png" alt="LinksHub Logo" />
 </article><hr>
 
-## Table of Contents
-
-- [Welcome to LinksHub 👋](#welcome-to-linkshub-)
-  - [Demo 💻](#demo-)
-  - [Tech stack 📚](#tech-stack-)
-  - [Socials 📱](#socials-)
-  - [Getting Started 👩‍💻](#getting-started-)
-    - [Let's jump right in🌟](#lets-jump-right-in)
-      - [_Want to add your favourite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favourite-links-to-the-hub-make-sure-to-follow-contributing-guidelines)
-      - [Want to add or update the descriptions of subcategories?](#want-to-add-or-update-the-descriptions-of-subcategories)
-  - [Building with Gitpod 💣](#building-with-gitpod-)
-  - [Top 50 Contributors ✨](#top-50-contributors-)
-  - [License 📝](#license-)
-  - [Support ⭐](#support-)
-
 <a name="welcome-to-linkshub"></a>
 
 # Welcome to LinksHub 👋
@@ -26,6 +11,21 @@ LinksHub is a Hub of Links `For Developers By Developers`. Here, we've gathered 
 We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to the right developers.
 
 <a name="demo"></a>
+
+## Table of Contents
+
+- [Welcome to LinksHub 👋](#welcome-to-linkshub-)
+- [Demo 💻](#demo-)
+- [Tech stack 📚](#tech-stack-)
+- [Socials 📱](#socials-)
+- [Getting Started 👩‍💻](#getting-started-)
+  - [Let's jump right in🌟](#lets-jump-right-in)
+  - [_Want to add your favourite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favourite-links-to-the-hub-make-sure-to-follow-contributing-guidelines)
+  - [Want to add or update the descriptions of subcategories?](#want-to-add-or-update-the-descriptions-of-subcategories)
+- [Building with Gitpod 💣](#building-with-gitpod-)
+- [Top 50 Contributors ✨](#top-50-contributors-)
+- [License 📝](#license-)
+- [Support ⭐](#support-)
 
 ## Demo 💻
 
