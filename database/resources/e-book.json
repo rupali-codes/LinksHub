@@ -32,6 +32,14 @@
     "language": "english"
   },
   {
+    "name": "BookBoon",
+    "description": "With a mission to provide everyone access to helpful and practical personal development content on an easy-to-use platform, a “boon” is exactly what we hope to deliver.",
+    "url": "www.bookboon.com",
+    "category": "resource",
+    "subcategory": "e-book",
+    "language": "english"
+  },
+  {
     "name": "Computer Books",
     "description": "Links to Free Computer, Mathematics, Technical Books all over the World",
     "url": "http://freecomputerbooks.com",
