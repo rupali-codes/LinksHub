@@ -1,1 +1,0 @@
-export { SideNavbar } from './SideNavbar'
