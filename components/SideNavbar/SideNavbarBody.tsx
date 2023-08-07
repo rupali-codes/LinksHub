@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { Searchbar } from '../Searchbar'
+import { Searchbar } from 'components/Searchbar/Searchbar'
 import useSidebarSearch from 'hooks/useSidebarSearch'
 import classNames from 'classnames'
 import { useTheme } from 'next-themes'

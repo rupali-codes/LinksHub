@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
 import { Footer } from 'components/Footer/Footer'
-import { SideNavbar } from 'components/SideNavbar'
+import { SideNavbar } from 'components/SideNavbar/SideNavbar'
 import { Header } from 'components/Header/Header'
 import { Aside } from 'components/Aside/Aside'
 import { SkipLink } from 'components/SkipLink/SkipLink'

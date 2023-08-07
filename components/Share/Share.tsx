@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { FaShareAlt } from 'react-icons/fa'
+import { FiShare2 } from 'react-icons/fi'
+import { Tooltip } from 'react-tooltip'
 
 type ShareProps = {
   url: string
@@ -16,7 +17,6 @@ export const Share: React.FC<ShareProps> = ({ url, title }) => {
           title: title,
           url: url,
         })
-        console.log('Share was successful.')
       } catch (error) {
         console.error('Error sharing:', error)
       }
@@ -33,15 +33,16 @@ export const Share: React.FC<ShareProps> = ({ url, title }) => {
         position: 'relative',
         display: 'inline-block',
       }}
-      onMouseEnter={() => setShowShareOptions(true)}
-      onMouseLeave={() => setShowShareOptions(false)}
     >
-      <FaShareAlt
+      <button data-tooltip-id="share-tooltip" data-tooltip-content="Share" data-tooltip-place="bottom">
+      <FiShare2
         size={'1.2rem'}
         className="text-theme-primary cursor-pointer"
-        title="Share link"
         onClick={handleShare}
       />
+        </button>
+      <Tooltip id='share-tooltip' style={{ backgroundColor: '#8b5cf6', fontSize: '13px', paddingLeft: '6px', paddingRight: '6px', paddingTop: '2px', paddingBottom: '2px' }} />
+      
       {showShareOptions && (
         <p
           className="bg-theme-secondary text-white text-sm rounded-lg px-3 py-1"
