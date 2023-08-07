@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaShareAlt } from 'react-icons/fa'
+import { FiShare2 } from 'react-icons/fi'
 
 type ShareProps = {
   url: string
@@ -36,7 +36,7 @@ export const Share: React.FC<ShareProps> = ({ url, title }) => {
       onMouseEnter={() => setShowShareOptions(true)}
       onMouseLeave={() => setShowShareOptions(false)}
     >
-      <FaShareAlt
+      <FiShare2
         size={'1.2rem'}
         className="text-theme-primary cursor-pointer"
         title="Share link"
