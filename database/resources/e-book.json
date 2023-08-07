@@ -38,5 +38,13 @@
     "category": "resource",
     "subcategory": "e-book",
     "language": "english"
+  },
+  {
+    "name": "Computer Books",
+    "description": "This website provides free computer, mathematics, technical books to developers all over the world",
+    "url": "http://freecomputerbooks.com",
+    "category": "resource",
+    "subcategory": "e-book",
+    "language": "english"
   }
 ]
