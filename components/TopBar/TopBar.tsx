@@ -22,6 +22,13 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
   const category = router.asPath.replace('/', '')
   const categoryName = category.split('-').join(' ')
   const regEx = /[ `!@#$%^&*()_+\=\[\]{};':"\\|,.<>\/?~]/
+  const removeString = 'searchquery='
+  const cleanedCategory = category
+    .replace(regEx, '')
+    .split('-')
+    .join(' ')
+    .replace(removeString, '')
+    .replaceAll('+', ' ')
 
   useEffect(() => {
     if (results > 0) {
@@ -57,8 +64,8 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
           <FaSlackHash className="mr-2 text-gray-600 dark:text-gray-300" />
           <span className="flex uppercase text-gray-900 dark:text-gray-100">
             {isSearchFound
-              ? `Search: Results Found`
-              : `Search: Results Not Found`}
+              ? `${cleanedCategory}`
+              : `No Results Found`}
           </span>
           <button
             data-tooltip-id="info-tooltip"
