@@ -72,6 +72,11 @@ export const sidebarData: ISidebar[] = [
         resources: DB.systemDesign,
       },
       { name: 'database', url: '/database', resources: DB.database },
+      {
+        name:'APIs',
+        url: '/api',
+        resources: DB.api,
+      }
     ],
   },
   {
