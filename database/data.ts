@@ -50,21 +50,6 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'devops',
-    subcategory: [
-      { name: 'CI/CD', url: '/cicd', resources: DB.cicd },
-      { name: 'DevOps Life Cycle', url: '/devopsLifecycle', resources: DB.devopsLifecycle },
-      { name: 'DevOps Methodologies', url: '/devopsMethodologies', resources: DB.devopsMethodologies },
-      { name: 'docker', url: '/docker', resources: DB.docker },
-      {
-        name: 'kubernetes',
-        url: '/kubernetes',
-        resources: DB.kubernetes,
-      },
-      { name: 'microservices', url: '/microservices', resources: DB.microservices },
-    ],
-  },
-  {
     category: 'backend',
     subcategory: [
       {
@@ -136,6 +121,21 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'devops',
+    subcategory: [
+      { name: 'CI/CD', url: '/cicd', resources: DB.cicd },
+      { name: 'DevOps Life Cycle', url: '/devopsLifecycle', resources: DB.devopsLifecycle },
+      { name: 'DevOps Methodologies', url: '/devopsMethodologies', resources: DB.devopsMethodologies },
+      { name: 'docker', url: '/docker', resources: DB.docker },
+      {
+        name: 'kubernetes',
+        url: '/kubernetes',
+        resources: DB.kubernetes,
+      },
+      { name: 'microservices', url: '/microservices', resources: DB.microservices },
+    ],
+  },
+  {
     category: 'artificial intelligence',
     subcategory: [
       {
@@ -157,13 +157,6 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'internet of things',
-    subcategory: [
-      { name: 'coursera', url: '/coursera', resources: DB.coursera },
-      { name: 'raspberry', url: '/raspberry', resources: DB.raspberrypi },
-    ],
-  },
-  {
     category: 'cloud computing',
     subcategory: [
       { name: 'google cloud', url: '/gcp', resources: DB.gcp },
@@ -175,6 +168,13 @@ export const sidebarData: ISidebar[] = [
       { name: 'Microsoft cloud', url: '/azure', resources: DB.azure },
       { name: 'Oracle cloud', url: '/oracle', resources: DB.oracle },
       { name: 'IBM cloud', url: '/ibm', resources: DB.ibm },
+    ],
+  },
+  {
+    category: 'internet of things',
+    subcategory: [
+      { name: 'coursera', url: '/coursera', resources: DB.coursera },
+      { name: 'raspberry', url: '/raspberry', resources: DB.raspberrypi },
     ],
   },
   {
