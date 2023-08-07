@@ -4,6 +4,7 @@ import { FaSlackHash, FaInfoCircle } from 'react-icons/fa'
 import PopupDesc from 'components/popup/popupCategoryDesc'
 import { ICategoryData } from 'types'
 import categoryDescriptions from './CategoryDescriptions'
+import { Tooltip } from 'react-tooltip'
 
 export const TopBar: FC<{ className?: string | undefined }> = (props) => {
   const { className } = props
@@ -36,17 +37,24 @@ export const TopBar: FC<{ className?: string | undefined }> = (props) => {
       className={`flex items-center text-xl dark:text-gray-300 ${className}`}
     >
       <FaSlackHash className="mr-2 text-gray-600 dark:text-gray-300" />
-      <span className="flex uppercase text-gray-900 dark:text-gray-100">
+      <span className="text-gray-900 dark:text-gray-100 uppercase">
         {category.split('-').join(' ')}
-        <FaInfoCircle
-          className="ml-4 mt-2 text-sm cursor-pointer"
-          onClick={handleCardClick}
-        />
+      </span>
+      <button
+          data-tooltip-id="info-tooltip"
+          data-tooltip-content="Description"
+          data-tooltip-place="bottom"
+        >
+          <FaInfoCircle
+            className="ml-4 mt-2 text-sm cursor-pointer hover:text-theme-primary"
+            onClick={handleCardClick}
+          />
+        </button>
+        <Tooltip id="info-tooltip" style={{ backgroundColor: '#8b5cf6', fontSize: '13px', paddingLeft: '6px', paddingRight: '6px', paddingTop: '2px', paddingBottom: '2px' }} />
         <PopupDesc
           currentCategory={currentCategory}
           onClose={removeCurrentCard}
         />
-      </span>
     </div>
   )
 }
