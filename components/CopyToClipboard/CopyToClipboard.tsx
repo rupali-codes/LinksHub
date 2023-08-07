@@ -46,5 +46,3 @@ export const CopyToClipboard = ({ url }: CopyToClipboardProps): JSX.Element => {
     </div>
   )
 }
-
-export default CopyToClipboard

@@ -1,14 +1,14 @@
 import { FC, useState, useRef, useEffect } from 'react'
 import { BsBoxArrowUpRight } from 'react-icons/bs'
-import { CopyToClipboard } from 'components/CopyToClipboard'
-import { Share } from 'components/Share'
+import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
+import Share from 'components/Share/Share'
 import type { IData } from 'types'
 
 interface CardProps {
   data: IData
 }
 
-const Card: FC<CardProps> = ({ data }) => {
+export const Card: FC<CardProps> = ({ data }) => {
   const { name, description, url } = data
   const descriptionRef = useRef<HTMLParagraphElement>(null)
   const [isOverflow, setIsOverflow] = useState(false)
@@ -69,4 +69,3 @@ const Card: FC<CardProps> = ({ data }) => {
   )
 }
 
-export default Card
