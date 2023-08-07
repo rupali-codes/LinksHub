@@ -41,19 +41,17 @@ export { default as Rust } from './languages/rust.json'
 export { default as java } from './languages/java.json'
 export { default as cpp } from './languages/cpp.json'
 export { default as dart } from './languages/dart.json'
-//artificial intelligence
-export { default as artificialIntelligence } from './artificial_intelligence/artificial-intelligence.json'
 //internet of things
-export { default as coursera } from './IOT/coursera.json'
-export { default as raspberrypi } from './IOT/raspberry.json'
+export { default as coursera } from './internet_of_things/coursera.json'
+export { default as raspberrypi } from './internet_of_things/raspberry.json'
 //cloud computing
 export { default as gcp } from './cloud_computing_platforms/gcp.json'
 export { default as aws } from './cloud_computing_platforms/aws.json'
 export { default as azure } from './cloud_computing_platforms/azure.json'
 export { default as oracle } from './cloud_computing_platforms/oracle.json'
 export { default as ibm } from './cloud_computing_platforms/ibm.json'
-
-//machine learning
+//artificial intelligence
+export { default as artificialIntelligence } from './artificial_intelligence/artificial-intelligence.json'
 export { default as ml } from './artificial_intelligence/machine-learning.json'
 export { default as dataScience } from './artificial_intelligence/data-science.json'
 export { default as deepLearning } from './artificial_intelligence/deep-learning.json'
