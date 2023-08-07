@@ -178,6 +178,54 @@ When adding _YouTube_ channel link, please specify _the language_ of the channel
 
 ---
 
+### Commit Message Guidelines using Commitlint
+
+We follow a standardized commit message format using Commitlint to ensure consistency and clarity in our commit history. Each commit message should adhere to the following guidelines:
+
+1. **Type**: The commit type must be one of the following:
+
+   - `feat`: A new feature or enhancement.
+   - `fix`: A bug fix.
+   - `docs`: Documentation changes.
+   - `style`: Code style changes (e.g., formatting, semicolons).
+   - `refactor`: Code refactorings with no feature changes or bug fixes.
+   - `test`: Adding or improving tests.
+   - `chore`: General maintenance tasks, build changes, etc.
+
+2. **Scope** (Optional): The scope provides context for the commit, indicating the specific part of the project being affected. Use a short description in lowercase (e.g., `auth`, `navbar`, `README`).
+
+3. **Description**: A brief and meaningful description of the changes made. Start with a capital letter and use the imperative mood (e.g., "Add new feature" instead of "Added new feature").
+
+4. **Issue reference** (Optional): Include the issue number associated with the commit (e.g., `#123`).
+
+### Examples:
+
+#### Valid Commit Messages:
+
+- `feat: Add user authentication feature`
+- `fix(auth): Resolve login page redirect issue`
+- `docs: Update installation instructions`
+- `style: Format code according to project guidelines`
+- `refactor(navbar): Improve responsiveness`
+- `test: Add unit tests for API endpoints`
+- `chore: Update dependencies to latest versions`
+- `fix: Handle edge case in data processing (#456)`
+
+#### Invalid Commit Messages:
+
+- `Added new stuff`
+- `Fixed a bug`
+- `Updated code`
+- `auth feature update`
+- `chore: fixed some stuff`
+
+### Commit Example with Commitlint:
+
+```bash
+git commit -m "feat(auth): Implement user signup process (#789)"
+```
+  <hr>
+
 ## Remarks ✅
 
 - If something is missing here, or you feel something is not well described, either create a PR, [raise an issue](https://github.com/rupali-codes/LinksHub/issues), or [do a code review of the person’s PR](https://www.freecodecamp.org/news/code-review-tips/) (ensure that your review conforms to the [Code of Conduct](https://github.com/CBID2/LinksHub-my-version-/blob/main/CODE_OF_CONDUCT.md))
