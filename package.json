@@ -33,6 +33,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-spinners": "^0.13.8",
+    "react-tooltip": "^5.20.0",
     "react-transition-state": "^2.1.0",
     "typescript": "5.0.3",
     "typewriter-effect": "^2.19.0",

@@ -1,6 +1,6 @@
 import { FC, useState } from 'react'
 import { BackToTopButton } from '../BackToTop/BackToTopButton'
-import Popup from 'components/popup'
+import { PopupInfo } from 'components/popup/popupInfo'
 import CardsListItem from './CardsListItem'
 import type { IData } from 'types'
 
@@ -29,7 +29,7 @@ const CardsList: FC<{ cards: IData[] }> = ({ cards }) => {
         ))}
       </ul>
       <BackToTopButton />
-      <Popup currentCard={currentCard} onClose={removeCurrentCard} />
+      <PopupInfo currentCard={currentCard} onClose={removeCurrentCard} />
     </>
   )
 }

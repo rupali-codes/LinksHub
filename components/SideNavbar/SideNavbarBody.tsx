@@ -1,13 +1,13 @@
-import React, { FC } from 'react'
+import { FC, memo } from 'react'
+import { Searchbar } from 'components/Searchbar/Searchbar'
 import classNames from 'classnames'
 import { useTheme } from 'next-themes'
 
-import { Searchbar } from '../Searchbar'
 import { SideNavbarCategoryList } from './SideNavbarCategoryList'
 
 import { useSearchReducer } from 'hooks/useSearchReducer'
 
-const MemoizedSideNavbarCategoryList = React.memo(SideNavbarCategoryList)
+const MemoizedSideNavbarCategoryList = memo(SideNavbarCategoryList)
 
 export const SideNavbarBody: FC = () => {
   const { theme } = useTheme()

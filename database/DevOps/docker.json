@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Docker",
+        "description": "In this blog post, you will learn how to use Docker.",
+        "url": "https://www.mygreatlearning.com/blog/docker-tutorial/",
+        "category": "DevOps",
+        "subcategory": "docker"
+    }
+]

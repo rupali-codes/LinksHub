@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import Card from './Card'
+import { Card } from './Card'
 import type { IData } from 'types'
 
 const CardsListItem: FC<{ data: IData; onClick: () => void }> = (props) => {
