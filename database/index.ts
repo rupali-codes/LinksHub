@@ -54,9 +54,9 @@ export { default as oracle } from './cloud_computing_platforms/oracle.json'
 export { default as ibm } from './cloud_computing_platforms/ibm.json'
 
 //machine learning
-export { default as ml } from './machine_learning/machine-learning.json'
-export { default as dataScience } from './machine_learning/data-science.json'
-export { default as deepLearning } from './machine_learning/deep-learning.json'
+export { default as ml } from './artificial_intelligence/machine-learning.json'
+export { default as dataScience } from './artificial_intelligence/data-science.json'
+export { default as deepLearning } from './artificial_intelligence/deep-learning.json'
 // Open-source
 export { default as openSourceBlogs } from './open_source/blogs.json'
 export { default as openSourceProjects } from './open_source/projects.json'

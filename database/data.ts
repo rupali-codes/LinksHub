@@ -136,8 +136,13 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'machine learning',
+    category: 'artificial intelligence',
     subcategory: [
+      {
+        name: 'artificial intelligence',
+        url: '/artificial-intelligence',
+        resources: DB.artificialIntelligence,
+      },
       {
         name: 'machine learning',
         url: '/machine-learning',
@@ -148,16 +153,6 @@ export const sidebarData: ISidebar[] = [
         name: 'deep learning',
         url: '/deep-learning',
         resources: DB.deepLearning,
-      },
-    ],
-  },
-  {
-    category: 'artificial intelligence',
-    subcategory: [
-      {
-        name: 'Artificial Int.',
-        url: '/artificial-intelligence',
-        resources: DB.artificialIntelligence,
       },
     ],
   },
