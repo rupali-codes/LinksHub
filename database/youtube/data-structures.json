@@ -126,5 +126,13 @@
     "category": "youtube",
     "subcategory": "data-structures",
     "language": "english"
+  },
+  {
+    "name": "Free code camp",
+    "description": "DSA from basic in c/c++ language",
+    "url": "https://www.youtube.com/watch?v=B31LgI4Y4DQ",
+    "category": "youtube",
+    "subcategory": "data-structures",
+    "language": "english"
   }
 ]
