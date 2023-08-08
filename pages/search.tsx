@@ -1,102 +1,100 @@
-import React, { useState, useRef, useEffect } from 'react';
-import SearchIcon from 'assets/icons/SearchIcon';
-import { useRouter } from 'next/router';
-import { subcategoryArray } from '../../types';
+import Head from 'next/head'
+import React, { useEffect } from 'react'
+import { useRouter } from 'next/router'
 
-interface SearchbarProps {
-  setSearch: (search: string) => void;
-}
+import CardsList from 'components/Cards/CardsList'
+import { TopBar } from 'components/TopBar/TopBar'
+import ComingSoon from 'components/NewIssue/NewIssue'
 
-export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
-  const router = useRouter();
-  const query = router.query.query;
-  const [searchQuery, setSearchQuery] = useState((query as string) ?? '');
-  const [errorMessage, setErrorMessage] = useState('');
-  const [suggestions, setSuggestions] = useState<string[]>([]);
-  const dropdownRef = useRef<HTMLUListElement>(null);
+import useFilterSearch from 'hooks/useFilterSearch'
 
-  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value;
-    setSearchQuery(value);
-  };
-
-  const handleSuggestionClick = (suggestion: string) => {
-    setSearchQuery(suggestion);
-    setSearch(suggestion);
-    setSuggestions([]);
-  };
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    if (searchQuery.trim() === '') {
-      setErrorMessage('Please enter a search query');
-    } else {
-      setErrorMessage('');
-      setSearch(searchQuery);
-    }
-  };
-
-  const handleClickOutsideDropdown = (e: MouseEvent) => {
-    if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
-      setSuggestions([]);
-    }
-  };
+const Search = () => {
+  const router = useRouter()
+  const title = `LinksHub - ${router.asPath
+    .charAt(1)
+    .toUpperCase()}${router.asPath.slice(2)}`
+  const query = router.query.query
+  const { filterSearch } = useFilterSearch()
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutsideDropdown);
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutsideDropdown);
-    };
-  }, []);
+    if (!query || query === '') router.replace('/')
+  }, [query, router])
 
-  const filteredSuggestions = subcategoryArray.filter((option) =>
-    option.toLowerCase().includes(searchQuery.trim().toLowerCase())
-  );
+  let content: JSX.Element[] | JSX.Element
+
+  const data = filterSearch(query as string)
+
+  if (data.length > 0) {
+    content = <CardsList cards={data} />
+  } else {
+    content = <ComingSoon />
+  }
 
   return (
-    <form onSubmit={handleSubmit} noValidate>
-      <div className="relative">
-        <div className="flex items-center" aria-role="search">
-          <label htmlFor="simple-search" className="sr-only">
-            Quickly search any resources
-          </label>
-          <input
-            type="text"
-            id="simple-search"
-            name="simple-search"
-            className="block p-2.5 w-full bg-transparent text-sm text-dark dark:text-text-primary border border-dashed border-gray-text focus:border-theme-secondary dark:focus:border-theme-primary dark:focus:ring-theme-primary focus:ring-theme-secondary dark:placeholder-gray-text outline-none transition-all ease-in-out duration-300 rounded-lg capitalize"
-            placeholder="Quick search..."
-            value={searchQuery}
-            onChange={handleSearchChange}
-            autoComplete="off"
-            required
-          />
-          <button
-            type="submit"
-            aria-role="button"
-            className="ml-2 px-4 py-2.5 bg-theme-secondary text-light-primary rounded-md border border-dashed border-transparent hover:border-theme-primary hover:bg-transparent hover:text-theme-primary dark:hover:text-theme-primary transition-colors transition duration-300 ease-in-out"
-          >
-            <SearchIcon className="w-5 h-5" aria-hidden="true" />
-          </button>
-        </div>
-        {filteredSuggestions.length > 0 && (
-          <ul
-            ref={dropdownRef}
-            className="absolute z-10 text-light-primary bg-theme-secondary w-full mt-1 rounded-lg shadow-2xl"
-          >
-            {filteredSuggestions.map((suggestion) => (
-              <li
-                key={suggestion}
-                className="px-4 py-2 cursor-pointer hover:bg-[rgba(0,0,0,0.2)] capitalize"
-                onClick={() => handleSuggestionClick(suggestion)}
-              >
-                {suggestion.split('-').join(' ')}
-              </li>
-            ))}
-          </ul>
-        )}
+    <>
+      <Head>
+        <title>{title}</title>
+        <meta name="theme-color" content="#202c46" />
+        <meta name="title" content={title} />
+        <meta
+          name="description"
+          content="LinksHub is the ultimate hub of ready-to-use tech resources. Discover free tools and libraries to streamline your development process and build better projects."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="LinksHub, developers, free resources, tools, software, libraries, frameworks, applications, websites" />
+        <meta name="author" content="Rupali Haldiya" />
+        <meta name="robots" content="index, follow" />
+        <meta name="revisit-after" content="7 days" />
+
+        {/* Open Graph */}
+        <meta property="og:url" content="https://linkshub.dev" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content={title}
+        />
+        <meta
+          property="og:description"
+          content="LinksHub aims to provide developers with access to a wide range of free resources and tools that they can use in their work."
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dhnkuonev/image/upload/v1683805184/linkshub_gcahgs.png"
+        />
+        <meta property="og:site_name" content="LinksHub" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://linkshub.dev" />
+        <meta
+          property="twitter:title"
+          content={title}
+        />
+        <meta
+          property="twitter:description"
+          content="LinksHub aims to provide developers with access to a wide range of free resources and tools that they can use in their work."
+        />
+        <meta
+          property="twitter:image"
+          content="https://res.cloudinary.com/dhnkuonev/image/upload/v1683805184/linkshub_gcahgs.png"
+        />
+        <meta name="language" content="English" />
+        <meta
+          name="twitter:site"
+          content="https://twitter.com/linkshubdotdev"
+        />
+        <meta property="discord:server" content="1064977356198006805" />
+        <meta
+          property="discord:invite"
+          content="https://discord.com/invite/NvK67YnJX5"
+        />
+      </Head>
+      <TopBar className="shadow-black-500/50 fixed top-[76px] z-30 flex w-full -translate-x-4 items-center bg-gray-100 px-4 pt-6 pb-4 shadow-xl dark:bg-gray-900 md:hidden" />
+      <div className="min-h-[calc(100%-68px)] w-full pt-[85px] pb-4 md:min-h-[calc(100%-76px)] md:px-10 md:pt-10">
+        {content}
       </div>
-      {errorMessage && <p className="text-red-500">{errorMessage}</p>}
-    </form>
-  );
-};
+    </>
+  )
+}
+
+export default Search
