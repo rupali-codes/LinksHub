@@ -1,16 +1,16 @@
 [
   {
-    "name": "HackerRank",
-    "description": "An online IDE to practice your competitive programming skills. It allows you to code in multiple languages.",
-    "url": "https://www.hackerrank.com/",
-    "category": "frontend",
-    "subcategory": "online-code-editors"
+    "name": "LeetCode",
+    "description": "It offers competitive coding challenges and interview preparation resources for software engineers and developers.",
+    "url": "https://leetcode.com/",
+    "category": "competitive_programming",
+    "subcategory": "platforms"
   },
   {
-    "name": "LeetCode",
-    "description": "LeetCode is the best platform to help you enhance your programming skills, and expand your knowledge.",
-    "url": "https://leetcode.com/",
-    "category": "frontend",
-    "subcategory": "online-code-editors"
+    "name": "HackerRank",
+    "description": "It provides competitive programming challenges to improve your skills in multiple languages. It also allows tech recruiters to asses you on your problem solving skills.",
+    "url": "https://www.hackerrank.com/",
+    "category": "competitive_programming",
+    "subcategory": "platforms"
   }
 ]
