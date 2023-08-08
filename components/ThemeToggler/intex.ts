@@ -1,1 +1,0 @@
-export { ThemeToggler } from './themeToggler'

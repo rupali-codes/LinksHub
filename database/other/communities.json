@@ -40,5 +40,12 @@
     "url": "https://t.me/zunobyfoundit",
     "category": "other",
     "subcategory": "communities"
+  },
+  {
+    "name": "AWS Educate Cloud Ambassador Program",
+    "description": "The AWS Educate Cloud Ambassador Program recognizes individuals for their innovation and contributions that prepare students for careers in the modern technology workforce.",
+    "url": "https://aws.amazon.com/education/awseducate/",
+    "category": "other",
+    "subcategory": "communities"
   }
 ]

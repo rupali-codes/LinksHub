@@ -39,7 +39,6 @@ export type Category =
   | 'artificial intelligence'
   | 'internet of things'
   | 'cloud computing'
-  | 'machine learning'
   | 'open source'
   | 'resources'
   | 'youtube'
