@@ -29,6 +29,9 @@ function useSidebarSearch() {
           query: debouncedSearch,
         },
       })
+    }else {
+      // Clear the query when search bar is empty and handle reload issue
+      router.push('/search', undefined, { shallow: true })
     }
   }, [debouncedSearch])
 
