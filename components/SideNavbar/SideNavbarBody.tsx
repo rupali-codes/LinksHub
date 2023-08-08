@@ -12,7 +12,7 @@ export const SideNavbarBody: FC = () => {
   return (
     <div
       className={classNames(
-        `bg-[rgba(255,255,255,1)] h-full w-full overflow-x-hidden whitespace-nowrap transition-all ease-in dark:bg-dark dark:text-text-primary`,
+        `bg-[rgba(243,244,246,1)] h-full w-full overflow-x-hidden whitespace-nowrap transition-all ease-in dark:bg-dark dark:text-text-primary`,
         theme === 'light' ? 'scrollColorLight' : 'scrollColorDark'
       )}
     >
