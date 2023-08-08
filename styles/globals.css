@@ -184,3 +184,39 @@ pre {
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
 }
+
+/* This media query targets devices or browsers that have enabled reduced motion preferences.
+   It ensures that animations and transitions are minimized to improve user experience for motion-sensitive users.
+*/
+@media (prefers-reduced-motion: reduce) {
+  /* Apply the following styles to all elements */
+  *,
+  /* Apply the following styles to all pseudo-elements (::before, ::after) */
+  ::before,
+  ::after {
+    /* Disables animations by setting a negative animation delay and duration.
+       This effectively cancels any animations on the page.
+    */
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    animation: none !important;
+
+      /* Disables background-attachment: fixed, which prevents elements with fixed backgrounds from remaining in place while scrolling.
+       This reduces the perception of motion when scrolling.
+      */
+    background-attachment: initial !important;
+    
+      /* Reverts scroll-behavior to its default value 'auto', which prevents smooth scrolling behavior.
+         Smooth scrolling may cause discomfort to motion-sensitive users.
+      */
+    scroll-behavior: auto !important;
+    
+      /* Sets transition duration and delay to 0 seconds, effectively disabling all transitions.
+         This prevents any element from animating when its properties change.
+      */
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+    transition: none !important;
+  }
+}

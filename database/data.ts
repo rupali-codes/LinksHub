@@ -72,6 +72,11 @@ export const sidebarData: ISidebar[] = [
         resources: DB.systemDesign,
       },
       { name: 'database', url: '/database', resources: DB.database },
+      {
+        name:'APIs',
+        url: '/api',
+        resources: DB.api,
+      }
     ],
   },
   {
@@ -92,7 +97,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Java', url: '/java', resources: DB.java },
       { name: 'Kotlin', url: '/kotlin', resources: DB.kotlin },
       { name: 'Rust', url: '/rust', resources: DB.Rust },
-      {name:'Dart', url: '/dart', resources: DB.dart},
+      { name: 'Dart', url: '/dart', resources: DB.dart },
     ],
   },
   {
@@ -113,11 +118,36 @@ export const sidebarData: ISidebar[] = [
         url: '/open-source-tools',
         resources: DB.openSourceTools,
       },
+      {
+        name: 'Videos',
+        url: '/open-source-videos',
+        resources: DB.openSourceVideos, 
+      },
     ],
   },
   {
-    category: 'machine learning',
+    category: 'devops',
     subcategory: [
+      { name: 'CI/CD', url: '/cicd', resources: DB.cicd },
+      { name: 'DevOps Life Cycle', url: '/devopsLifecycle', resources: DB.devopsLifecycle },
+      { name: 'DevOps Methodologies', url: '/devopsMethodologies', resources: DB.devopsMethodologies },
+      { name: 'docker', url: '/docker', resources: DB.docker },
+      {
+        name: 'kubernetes',
+        url: '/kubernetes',
+        resources: DB.kubernetes,
+      },
+      { name: 'microservices', url: '/microservices', resources: DB.microservices },
+    ],
+  },
+  {
+    category: 'artificial intelligence',
+    subcategory: [
+      {
+        name: 'artificial intelligence',
+        url: '/artificial-intelligence',
+        resources: DB.artificialIntelligence,
+      },
       {
         name: 'machine learning',
         url: '/machine-learning',
@@ -132,18 +162,25 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'artificial intelligence',
+    category: 'cloud computing',
     subcategory: [
+      { name: 'google cloud', url: '/gcp', resources: DB.gcp },
       {
-        name: 'Artificial Int.',
-        url: '/artificial-intelligence',
-        resources: DB.artificialIntelligence,
+        name: 'AWS cloud',
+        url: '/aws',
+        resources: DB.aws,
       },
+      { name: 'Microsoft cloud', url: '/azure', resources: DB.azure },
+      { name: 'Oracle cloud', url: '/oracle', resources: DB.oracle },
+      { name: 'IBM cloud', url: '/ibm', resources: DB.ibm },
     ],
   },
   {
     category: 'internet of things',
-    subcategory: [{ name: 'coursera', url: '/coursera', resources: DB.coursera }],
+    subcategory: [
+      { name: 'coursera', url: '/coursera', resources: DB.coursera },
+      { name: 'raspberry', url: '/raspberry', resources: DB.raspberrypi },
+    ],
   },
   {
     category: 'resources',
@@ -168,9 +205,17 @@ export const sidebarData: ISidebar[] = [
         resources: DB.webDevelopment,
       },
       { name: 'CSS', url: '/css', resources: DB.css },
-      { name: 'machine learning', url: '/machine-learning', resources: DB.machineLearning },
+      {
+        name: 'machine learning',
+        url: '/machine-learning',
+        resources: DB.machineLearning,
+      },
       { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
-      { name: 'data structures', url: '/data-structures', resources: DB.dataStructures },
+      {
+        name: 'data structures',
+        url: '/data-structures',
+        resources: DB.dataStructures,
+      },
       { name: 'Android', url: '/android', resources: DB.android },
       {
         name: 'Web3 & Metaverse',

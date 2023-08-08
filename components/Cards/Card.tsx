@@ -1,14 +1,14 @@
 import { FC, useState, useRef, useEffect } from 'react'
 import { BsBoxArrowUpRight } from 'react-icons/bs'
-import { CopyToClipboard } from 'components/CopyToClipboard'
-import { Share } from 'components/Share';
+import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
+import Share from 'components/Share/Share'
 import type { IData } from 'types'
 
 interface CardProps {
   data: IData
 }
 
-const Card: FC<CardProps> = ({ data }) => {
+export const Card: FC<CardProps> = ({ data }) => {
   const { name, description, url } = data
   const descriptionRef = useRef<HTMLParagraphElement>(null)
   const [isOverflow, setIsOverflow] = useState(false)
@@ -25,7 +25,7 @@ const Card: FC<CardProps> = ({ data }) => {
   return (
     <article className="z-10 h-full w-full rounded-3xl border border-dashed border-theme-secondary dark:border-theme-primary bg-[rgba(255,255,255,0.3)] shadow-md dark:bg-dark dark:text-text-primary dark:shadow-sm">
       <div className="card-body">
-        <header className="flex justify-between items-center">
+        <header className="flex justify-between items-center gap-2">
           <h2
             className="cursor-default md:truncate ... text-xl text-theme-secondary dark:text-theme-primary"
             title={name}
@@ -34,7 +34,7 @@ const Card: FC<CardProps> = ({ data }) => {
           </h2>
           <div className="flex items-center gap-1">
             <CopyToClipboard url={url} />
-            <Share url={url} title={name} />
+            <Share url={`${url}?ref=LinksHub`} title={name} />
           </div>
         </header>
         <div className="h-[7rem]">
@@ -69,4 +69,3 @@ const Card: FC<CardProps> = ({ data }) => {
   )
 }
 
-export default Card

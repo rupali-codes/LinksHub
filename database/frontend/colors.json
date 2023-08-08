@@ -173,5 +173,12 @@
     "url": "https://paletton.com/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  {
+    "name": "ColorSpace",
+    "description": " An intuitive color palette generator for web designers and creatives. It offers a curated collection of palettes and gradients, allowing users to fine-tune and experiment with a variety of color schemes.",
+    "url": "https://mycolor.space/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]

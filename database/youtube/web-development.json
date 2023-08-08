@@ -9,7 +9,7 @@
   },
   {
     "name": "Traversy Media",
-    "description": "This channel is for all level of developers who want to start or continue their journey in tech.",
+    "description": "This channel is for all levels of developers who want to start or continue their journey in tech.",
     "url": "https://www.youtube.com/@TraversyMedia",
     "category": "youtube",
     "subcategory": "web-development",
@@ -17,7 +17,7 @@
   },
   {
     "name": "FreeCodeCamp",
-    "description": "This channel provide free courses related to web-dev, app-dev, projects and many more.",
+    "description": "This channel provides free courses related to web-dev, app-dev, projects, and many more.",
     "url": "https://www.youtube.com/@freecodecamp",
     "category": "youtube",
     "subcategory": "web-development",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Fireship",
-    "description": "Fireship is a channel which provides short introuction videos and quick learning guides.",
+    "description": "Fireship is a channel that provides short introduction videos and quick learning guides.",
     "url": "https://www.youtube.com/@Fireship",
     "category": "youtube",
     "subcategory": "web-development",
@@ -33,7 +33,7 @@
   },
   {
     "name": "Programming with Mosh",
-    "description": "It's another great channel for starting you web development journey.",
+    "description": "It's another great channel for starting your web development journey.",
     "url": "https://www.youtube.com/@programmingwithmosh",
     "category": "youtube",
     "subcategory": "web-development",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Academind",
-    "description": "It's a great channel for web development. It's more focused on JavaScript and it's frameworks.",
+    "description": "It's a great channel for web development. It's more focused on JavaScript and its frameworks.",
     "url": "https://www.youtube.com/@academind",
     "category": "youtube",
     "subcategory": "web-development",
@@ -56,8 +56,8 @@
     "language": "english"
   },
   {
-    "name": "Thenewboston",
-    "description": "The new boston is a great channel for learning docker,blockchain,webdevelopment,Django, Angular2, and etc.",
+    "name": "thenewboston",
+    "description": "This is a great channel for learning docker, blockchain, web development, Django, Angular2, etc.",
     "url": "https://www.youtube.com/@thenewboston",
     "category": "youtube",
     "subcategory": "web-development",
@@ -97,7 +97,7 @@
   },
   {
     "name": "Milan Jovanović",
-    "description": "Milan is talking explicitly about .Net technologies and how to architect with it. He also shares videos about software engineering, software architecture, distributed systems, and Domain-Driven Design.",
+    "description": "Milan is talking explicitly about .Net technologies and how to architect with them. He also shares videos about software engineering, software architecture, distributed systems, and Domain-Driven Design.",
     "url": "https://www.youtube.com/@MilanJovanovicTech",
     "category": "youtube",
     "subcategory": "web-development",
@@ -105,7 +105,7 @@
   },
   {
     "name": "Code with Ania Kubów",
-    "description": "This channel is dedicated to provide projects based on JavaScript and it's frameworks such as React, React-Native, Next.js, Node.js, Express. It also provides courses and projects related to GraphQL, databasing and more.",
+    "description": "This channel is dedicated to providing projects based on JavaScript and its frameworks such as React, React-Native, Next.js, Node.js, and Express. It also provides courses and projects related to GraphQL, databasing, and more.",
     "url": "https://www.youtube.com/@AniaKubow/featured",
     "category": "youtube",
     "subcategory": "web-development",
@@ -113,7 +113,7 @@
   },
   {
     "name": "JavaScript Mastery",
-    "description": "This channel provides projects based on JavaScript and its frameworks like ReactJS, NextJS, NodeJS as well as API management. It also covers full stack projects with real life applications.",
+    "description": "This channel provides projects based on JavaScript and its frameworks like ReactJS, NextJS, NodeJS, and API management. It also covers full stack projects with real-life applications.",
     "url": "https://www.youtube.com/@javascriptmastery",
     "category": "youtube",
     "subcategory": "web-development",
@@ -177,7 +177,7 @@
   },
   {
     "name": "CodeHelp",
-    "description": "This is one of the best free beginner to advanced course for people who want to learn Full Stack Web Development",
+    "description": "This is one of the best free beginner to advanced courses for people who want to learn Full Stack Web Development",
     "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD",
     "category": "youtube",
     "subcategory": "web-development",
@@ -191,9 +191,9 @@
     "subcategory": "web-development",
     "language": "english"
   },
-  { 
+  {
     "name": "Apoorv Goyal",
-    "description": "Aprrov Goyal channel has web development boot camps, Git and Github playlist, Linux playlist, and Learn by doing series playlist. If you visit this channel once, you will go out of this with lots of learnings.",
+    "description": "Aprrov Goyal channel has web development boot camps, Git and Github playlist, Linux playlist, and learn-by-doing series playlist. If you visit this channel once, you will leave with coding skills and knowledge.",
     "url": "https://www.youtube.com/@ApoorvGoyalMain",
     "category": "youtube",
     "subcategory": "web-development",
@@ -251,6 +251,54 @@
     "name": "CodeWithSadee",
     "description": "This YouTube channel features informative and engaging Web development tutorials for all skill levels.",
     "url": "https://www.youtube.com/@codewithsadee/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "SCALER (Full Stack Web Dev)",
+    "description": "All-in-One Web Development Full Course where everything from basics of web dev to frontend and backend with projects is covered",
+    "url": "https://www.youtube.com/watch?v=yjmfoR2LSRM&t=2s",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "EDUREKA (Web Dev)",
+    "description": "This Full Stack Web Development tutorial is ideal for both beginners and professionals who want to master Frontend and Backend Web Development technologies.",
+    "url": "https://www.youtube.com/watch?v=YLpCPo0FDtE",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Simplilearn",
+    "description": "This channel covers FullStack Web Development Course based on the latest trends in tech",
+    "url": "https://www.youtube.com/watch?v=R6RX2Zx96fE",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Intellipaat",
+    "description": "This Full Stack Developer Course covers all the essential concepts and technologies in both frontend & backend",
+    "url": "https://www.youtube.com/watch?v=b92T8aCOwS0&t=13s",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "SuperSimpleDev",
+    "description": "This channel is dedicated to making frontend web development easier to learn",
+    "url": "https://www.youtube.com/@SuperSimpleDev/videos",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Wes Bos",
+    "description": "This is the best website to learn Javascript. It provides 30 JS projects for learners to build in 30 days.",
+    "url": "https://www.youtube.com/@WesBos",
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
