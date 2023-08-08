@@ -1,0 +1,80 @@
+filters:
+  - label: 'goal: new-feature'
+    regexs:
+      - /\bfeat\b/
+      - /feature/i
+    events: [pull_request]
+    targets: [title]
+
+  - label: 'documentation'
+    regexs:
+      - /docs/i
+    events: [pull_request]
+    targets: [title]
+
+  - label: 'bug'
+    regexs:
+      - /bug/i
+    events: [pull_request]
+    targets: [title]
+  - label: 'bug'
+    regexs:
+      - /fix/i
+    events: [pull_request]
+    targets: [title]
+
+  - label: 'chore'
+    regexs:
+      - /category/i
+    events: [pull_request]
+    targets: [title]
+  - label: 'goal: new-category'
+    regexs:
+      - /category/i
+    events: [pull_request]
+    targets: [title]
+
+  - label: 'chore'
+    regexs:
+      - /\blink\b/
+      - /link/i
+    events: [pull_request]
+    targets: [title]
+  - label: 'goal: new-link'
+    regexs:
+      - /\blink\b/
+      - /link/i
+    events: [pull_request]
+    targets: [title]
+
+  - label: 'chore'
+    regexs:
+      - /description/i
+    events: [pull_request]
+    targets: [title]
+
+  - label: 'chore'
+    regexs:
+      - /chore/i
+    events: [pull_request]
+    targets: [title]
+
+  - label: 'goal: build'
+    regexs:
+      - /build/i
+    events: [pull_request]
+    targets: [title]
+
+  - label: 'goal: refactor'
+    regexs:
+      - /\brefactor\b/
+      - /refactor/i
+    events: [pull_request]
+    targets: [title]
+
+  - label: 'accessibility'
+    regexs:
+      - /\baccessibility\b/
+      - /accessibility/i
+    events: [issues, pull_request] # default
+    targets: [title, comment] # default

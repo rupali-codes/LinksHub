@@ -26,5 +26,12 @@
     "url": "https://www.passportjs.org/",
     "category": "backend",
     "subcategory": "authentication"
+  },
+  {
+    "name": "AWS Amplify Authentication",
+    "description": "AWS Amplify Authentication is a fully managed service within AWS Amplify that offers easy-to-use and secure authentication capabilities for web and mobile applications. It supports various authentication methods, including social sign-in, multi-factor authentication, and user management, enabling developers to add user authentication and access control to their applications with minimal effort.",
+    "url": "https://docs.amplify.aws/lib/auth/getting-started/",
+    "category": "backend",
+    "subcategory": "authentication"
   }
 ]

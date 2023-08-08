@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Kubernetes Basics",
+        "description": "This part of Kubernetes' docs teaches the basics of this program.",
+        "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+        "category": "DevOps",
+        "subcategory": "kubernetes"
+    }
+]

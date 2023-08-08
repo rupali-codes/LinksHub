@@ -294,5 +294,13 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
+  },
+  {
+    "name": "Wes Bos",
+    "description": "This is the best website to learn Javascript. It provides 30 JS projects for learners to build in 30 days.",
+    "url": "https://www.youtube.com/@WesBos",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
   }
 ]
