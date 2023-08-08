@@ -1,5 +1,5 @@
 import useCopyToClipboard from "hooks/useCopyToClipboard";
-import React, { useState } from "react";
+import React from "react";
 import { FaRegCopy, FaCheckSquare } from "react-icons/fa";
 import { Tooltip } from "react-tooltip";
 
@@ -53,4 +53,3 @@ export const CopyToClipboard = ({ url }: CopyToClipboardProps): JSX.Element => {
       </div>
     </div>
   );
-};
