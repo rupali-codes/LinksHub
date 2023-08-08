@@ -8,6 +8,8 @@ type ShareProps = {
 }
 
 export const Share: React.FC<ShareProps> = ({ url, title }) => {
+  const showShareOptions = false
+
   async function handleShare() {
     if (navigator.share) {
       try {
