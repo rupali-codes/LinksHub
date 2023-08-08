@@ -4,9 +4,9 @@ import { BsGlobe } from 'react-icons/bs'
 import { Backdrop } from 'components/Backdrop/Backdrop'
 import { createPortal } from 'react-dom'
 import useDelayUnmount from 'hooks/useDelayUnmount'
-import { CopyToClipboard } from 'components/CopyToClipboard'
+import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 
-const Popup: React.FC<{
+export const PopupInfo: React.FC<{
   currentCard: IData | null
   onClose: () => void
 }> = ({ currentCard, onClose }) => {
@@ -73,4 +73,3 @@ const Popup: React.FC<{
   )
 }
 
-export default Popup
