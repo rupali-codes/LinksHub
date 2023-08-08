@@ -1,8 +1,4 @@
-lockfileVersion: '6.0'
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
+lockfileVersion: '6.1'
 
 dependencies:
   '@next/font':
@@ -65,6 +61,9 @@ dependencies:
   react-spinners:
     specifier: ^0.13.8
     version: 0.13.8(react-dom@18.2.0)(react@18.2.0)
+  react-tooltip:
+    specifier: ^5.20.0
+    version: 5.20.0(react-dom@18.2.0)(react@18.2.0)
   react-transition-state:
     specifier: ^2.1.0
     version: 2.1.0(react-dom@18.2.0)(react@18.2.0)
@@ -139,6 +138,23 @@ packages:
   /@eslint/js@8.37.0:
     resolution: {integrity: sha512-x5vzdtOOGgFVDCUs81QRB2+liax8rFg3+7hqM+QhBG0/G3F1ZsoYl97UrqgHgQ9KKT7G6c4V+aTUCgu/n22v1A==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+
+  /@floating-ui/core@1.4.1:
+    resolution: {integrity: sha512-jk3WqquEJRlcyu7997NtR5PibI+y5bi+LS3hPmguVClypenMsCY3CBa3LAQnozRCtCrYWSEtAdiskpamuJRFOQ==}
+    dependencies:
+      '@floating-ui/utils': 0.1.1
+    dev: false
+
+  /@floating-ui/dom@1.5.1:
+    resolution: {integrity: sha512-KwvVcPSXg6mQygvA1TjbN/gh///36kKtllIF8SUm0qpFj8+rvYrpvlYdL1JoA71SHpDqgSSdGOSoQ0Mp3uY5aw==}
+    dependencies:
+      '@floating-ui/core': 1.4.1
+      '@floating-ui/utils': 0.1.1
+    dev: false
+
+  /@floating-ui/utils@0.1.1:
+    resolution: {integrity: sha512-m0G6wlnhm/AX0H12IOWtK8gASEMffnX08RtKkCgTdHb9JpHKGloI7icFfLg9ZmQeavcvR0PKmzxClyuFPSjKWw==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}
@@ -2224,6 +2240,18 @@ packages:
       object-assign: 3.0.0
     dev: false
 
+  /react-tooltip@5.20.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-LWBIHEZjwDW9ZJ/Dn2xeZrsz+WKMii61CIsx2XPfs1IiIRnWyvKJXrgy6uEGOXYvrnCd4jiEvurn8Y+zJ1bw5Q==}
+    peerDependencies:
+      react: '>=16.14.0'
+      react-dom: '>=16.14.0'
+    dependencies:
+      '@floating-ui/dom': 1.5.1
+      classnames: 2.3.2
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
   /react-transition-state@2.1.0(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-b8ldw2pbZk++XM43vcD4ETaFWlzTsjpUX33CmT8BBPPFYlQ2R50wxcY4ZeJ1TesJYziYZ9/rNPFnyA9tR0iKDw==}
     peerDependencies:
@@ -2708,3 +2736,7 @@ packages:
   /zod@3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false

@@ -30,5 +30,21 @@
     "category": "resource",
     "subcategory": "e-book",
     "language": "english"
+  },
+  {
+    "name": "BookBoon",
+    "description": "With a mission to provide everyone access to helpful and practical personal development content on an easy-to-use platform, a “boon” is exactly what we hope to deliver.",
+    "url": "www.bookboon.com",
+    "category": "resource",
+    "subcategory": "e-book",
+    "language": "english"
+  },
+  {
+    "name": "Computer Books",
+    "description": "This website provides free computer, mathematics, technical books to developers all over the world",
+    "url": "http://freecomputerbooks.com",
+    "category": "resource",
+    "subcategory": "e-book",
+    "language": "english"
   }
 ]

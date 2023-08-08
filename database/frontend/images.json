@@ -138,5 +138,19 @@
     "url": "https://www.shutterstock.com/",
     "category": "frontend",
     "subcategory": "images"
+  },
+  {
+    "name": "Dreamstime",
+    "description": "Dreamstime is the world's largest community for royalty-free photos and stock photography.",
+    "url": "https://www.dreamstime.com/",
+    "category": "frontend",
+    "subcategory": "images"
+  },
+  {
+    "name": "Adobe Stock",
+    "description": "Adobe Stock includes a wide range of stock photos, stock photography,& royalty-free images.",
+    "url": "https://stock.adobe.com/in/",
+    "category": "frontend",
+    "subcategory": "images"
   }
 ]

@@ -3,6 +3,13 @@ type CategoryDescriptions = {
 }
 
 const categoryDescriptions: CategoryDescriptions = {
+  // devops
+  cicd: 'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
+  devopsLifecycle: 'DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
+  devopsMethodologies: 'DevOps methodologies are a set of practices that combine software development and information technology operations to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
+  docker: 'Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers. These are isolated from one another and bundle their own software, libraries, and configuration files; they can also communicate with each other through well-defined channels.',
+  kubernetes: 'Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.',
+  microservices: 'Microservices are a software development technique—a variant of the service-oriented architecture (SOA) architectural style that structures an application as a collection of loosely coupled services.',
   //frontend
   accessibility: 'Accessibility is the concept of whether a product or service can be used by everyone—however they encounter it. Accessibility laws exist to aid people with disabilities, but designers should try to accommodate all potential users in many contexts of use anyway. ',
   animations: 'Animation is the state of being full of life and energy, like a room full of excited kids at a birthday party. It is a method of photographing successive drawings, models, or even puppets, to create an illusion of movement in a sequence.',
@@ -45,7 +52,7 @@ const categoryDescriptions: CategoryDescriptions = {
   // resources
   blogs: 'The term “blog” is short for “weblog.” Blogs are usually maintained by an individual with regular entries of commentary, descriptions of events, or other material such as graphics or video.',
   ebook: 'An ebook (short for electronic book) is a book publication made available in digital form, consisting of text, images, or both readable on the flat-panel display of computers or other electronic devices.',
-  hosting: 'Web hosting is an online service that makes your content of your website accessible on the internet. When you purchase a hosting plan, you are renting space on a physical server to store all the files and data.',
+  hosting: 'Web hosting is an online service that makes the content of your website accessible on the internet. When you purchase a hosting plan, you are renting space on a physical server to store all the files and data.',
   officialdocs: 'Official docs is short for official documentation. Official documentation is an important resource for users of software products and services as it provides a comprehensive guide to using the software.',
   'project ideas': 'Projects play an important role in your resume. So here is a list of some great projects and their repositories.',
   // youtube

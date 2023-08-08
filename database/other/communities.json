@@ -1,7 +1,7 @@
 [
   {
     "name": "Google Developer Groups",
-    "description": "It gives tech professionals the opportunity to learn new skills in a variety of formats. Here, events, workshops, and meet-ups are organised virtually or in-person for people with similar interests in technology.",
+    "description": "It allows tech professionals to learn new skills in a variety of formats. Here, events, workshops, and meet-ups are organized virtually or in-person for people with similar interests in technology.",
     "url": "https://gdg.community.dev/",
     "category": "other",
     "subcategory": "communities"
@@ -24,6 +24,27 @@
     "name": "Intel Student Ambassador Program",
     "description": "Focuses on providing leadership events to students from the college who are pursuing graduate or Ph.D. level studies in the field of HPC, data science, and artificial intelligence.",
     "url": "https://devmesh.intel.com/member-programs/intel-student-ambassador-program",
+    "category": "other",
+    "subcategory": "communities"
+  },
+  {
+    "name": "AI Student Community",
+    "description": "An online community where students from all across the country learn, share experiences, and leverage their knowledge to create AI-enabled social impact solutions along with inclusively spreading AI awareness.",
+    "url": "https://aistudent.community/",
+    "category": "other",
+    "subcategory": "communities"
+  },
+  {
+    "name": "Zuno Foundit Community",
+    "description": "Your go-to place for internships & fresher jobs that are verified and pay well. Be a community leader.",
+    "url": "https://t.me/zunobyfoundit",
+    "category": "other",
+    "subcategory": "communities"
+  },
+  {
+    "name": "AWS Educate Cloud Ambassador Program",
+    "description": "The AWS Educate Cloud Ambassador Program recognizes individuals for their innovation and contributions that prepare students for careers in the modern technology workforce.",
+    "url": "https://aws.amazon.com/education/awseducate/",
     "category": "other",
     "subcategory": "communities"
   }
