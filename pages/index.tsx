@@ -22,7 +22,10 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#202c46" />
-        <meta name="keywords" content="LinksHub, developers, free resources, tools, software, libraries, frameworks, applications, websites" />
+        <meta
+          name="keywords"
+          content="LinksHub, developers, free resources, tools, software, libraries, frameworks, applications, websites"
+        />
         <meta name="author" content="Rupali Haldiya" />
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="7 days" />

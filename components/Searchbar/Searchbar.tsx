@@ -83,6 +83,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
           <button
             type="submit"
             className="ml-2 px-4 py-2.5 bg-theme-secondary text-light-primary rounded-md border border-dashed border-transparent hover:border-theme-primary hover:bg-transparent hover:text-theme-primary dark:hover:text-theme-primary transition-colors duration-300 ease-in-out"
+            aria-label="submit query button"
           >
             <SearchIcon className="w-5 h-5" aria-hidden="true" />
           </button>
