@@ -82,7 +82,15 @@
     "url": "https://svelte.dev/docs/introduction",
     "category": "resources",
     "subcategory": "officialdocs"
-  }
+  } , 
+      {
+    "name": "Laravel",
+    "description": "Laravel is a web application framework with the expressive, elegant syntax",
+    "url": "https://laravel.com/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  } 
+    
 
     
 ]
