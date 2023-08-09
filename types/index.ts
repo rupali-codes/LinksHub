@@ -91,6 +91,8 @@ export const subcategoryArray = [
   'images',
   'online-code-editors',
   'react',
+  'next-js',
+  'three-js',
   'themes-templates',
   'ui-generators',
   'videos',
