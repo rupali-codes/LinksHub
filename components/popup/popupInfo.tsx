@@ -71,7 +71,7 @@ export const PopupInfo: React.FC<{
           <div className="flex justify-center items-center">
             <p
               onClick={onClose}
-              className="cursor-pointer text-sm text-theme-primary -mt-3"
+              className="cursor-pointer text-sm text-text-primary -mt-3 hover:text-theme-primary hover:underline"
             >
               Close
             </p>
