@@ -5,5 +5,12 @@
         "url": "https://learn.microsoft.com/en-us/azure/?product=popular",
         "category": "cloud computing",
         "subcategory": "azure"
+    },
+    {
+        "name": "Microsoft Learn & Certified",
+        "description": "Earn certifications that show you are keeping pace with today’s technical roles and requirements. Microsoft has certification paths for many technical job roles. Each of these certifications consists of passing a series of exams to earn certification",
+        "url": "https://learn.microsoft.com/en-us/certifications/",
+        "category": "cloud computing",
+        "subcategory": "azure"
     }
 ]
