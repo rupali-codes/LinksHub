@@ -20,5 +20,12 @@
     "url": "https://medium.com/@jonathanallengrant/the-7-best-websites-to-find-a-hackathon-the-hacklife-guide-3e420f2a565b",
     "category": "other",
     "subcategory": "events"
-  }
+  },
+    {
+      "name": "Open source events to participate",
+      "description": "various programs that are available for university students and even for working professionals to get involved in open source.",
+      "url": "https://www.geeksforgeeks.org/best-open-source-programs-for-students-to-participate/",
+      "category": "other",
+      "subcategory": "events"
+    }
 ]
