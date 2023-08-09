@@ -21,14 +21,10 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
   const router = useRouter()
   const category = router.asPath.replace('/', '')
   const categoryName = category.split('-').join(' ')
-  const regEx = /[ `!@#$%^&*()_+\=\[\]{};':"\\|,.<>\/?~]/
-  const removeString = 'searchquery='
-  const cleanedCategory = category
-    .replace(regEx, '')
-    .split('-')
-    .join(' ')
-    .replace(removeString, '')
-    .replace(/\+/g, ' ')
+  const regEx = /[ `!@#$%^&*()_+\=\[\]{};':"\\|,.<>\/?~]/g
+   const cleanedCategory = category
+    .replaceAll(regEx, ' ')
+    .replaceAll('search query ', '')
 
   useEffect(() => {
     if (results > 0) {
