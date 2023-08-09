@@ -12,12 +12,13 @@ export const SideNavbarHeader: FC = () => {
   return (
     <header>
       <div className="flex items-center justify-between bg-gray-100 p-4 dark:bg-gray-900">
-        <Link href={'/'}>
+        <Link href={'/'} aria-label="Side Navbar Header Linking with Logo">
           <Logo className="text-3xl" />
         </Link>
         <button
           className="h-[24px] w-[24px] dark:text-gray-300 lg:hidden"
           onClick={toggleNav}
+          aria-label="Toggle sidebar navigation"
         >
           <AiOutlineClose size={24} id="hamburger" />
         </button>

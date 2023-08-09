@@ -27,11 +27,18 @@ export function ThemeToggler() {
     <button
       onClick={handleThemeToggle}
       title={`Toggle dark mode (current state: ${resolvedTheme})`}
+      aria-label="Toggle dark mode"
     >
       {resolvedTheme === 'dark' ? (
-        <HiSun {...iconProps} className='text-light-primary hover:text-theme-primary transition duration-300 ease-in-out' />
+        <HiSun
+          {...iconProps}
+          className="text-light-primary hover:text-theme-primary transition duration-300 ease-in-out"
+        />
       ) : (
-        <HiMoon {...iconProps} className='text-text-secondary hover:text-theme-primary transition duration-300 ease-in-out' />
+        <HiMoon
+          {...iconProps}
+          className="text-text-secondary hover:text-theme-primary transition duration-300 ease-in-out"
+        />
       )}
     </button>
   )
