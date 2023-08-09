@@ -1,14 +1,14 @@
 [
   {
     "name": "LeetCode",
-    "description": "It offers competitive coding challenges and interview preparation resources for software engineers and developers.",
+    "description": "This site offers competitive coding challenges and interview preparation resources for software engineers and developers.",
     "url": "https://leetcode.com/",
     "category": "competitive_programming",
     "subcategory": "platforms"
   },
   {
     "name": "HackerRank",
-    "description": "It provides competitive programming challenges to improve your skills in multiple languages. It also allows tech recruiters to asses you on your problem solving skills.",
+    "description": "This resource provides developers with competitive programming challenges to improve their skills in multiple languages. It also allows tech recruiters to assess developers on their problem-solving skills.",
     "url": "https://www.hackerrank.com/",
     "category": "competitive_programming",
     "subcategory": "platforms"
