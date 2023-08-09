@@ -134,5 +134,13 @@
     "category": "youtube",
     "subcategory": "data-structures",
     "language": "english"
+  },
+  {
+    "name":"Code step by step",
+    "description":"A comprehensive playlist in hindi to learn data structures in javascript from scratch.",
+    "url":"https://www.youtube.com/watch?v=wZHtZ_VJGKI&list=PL8p2I9GklV47TMMnPzqnkCtSOS3ebr4O7&ab_channel=CodeStepByStep",
+    "category":"youtube",
+    "subcategory":"data-structures",
+    "language":"hindi"
   }
 ]
