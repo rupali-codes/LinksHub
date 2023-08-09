@@ -28,7 +28,7 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
     .split('-')
     .join(' ')
     .replace(removeString, '')
-    .replaceAll('+', ' ')
+    .replace(/\+/g, ' ')
 
   useEffect(() => {
     if (results > 0) {
