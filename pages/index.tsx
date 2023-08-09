@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Logo from 'components/logo/logo'
 import TypewriterComponent from 'typewriter-effect'
 import { sidebarData } from '../database/data'
+import ExploreBtn from 'components/ExploreBtn/ExploreBtn'
 export default function Home() {
   //storing sub categories names for using in typewriter effect
   const subCategoriesNames: string[] = []
@@ -75,7 +76,7 @@ export default function Home() {
 
         <link rel="icon" href="/icon.png" className="rounded-full" />
       </Head>
-      <section className="flex min-h-[calc(100%-68px)] flex-col">
+      <section className="flex min-h-[calc(100%-68px)] flex-col ">
         <div className=" m-auto flex flex-col  items-start gap-2">
           <div className="m-auto md:text-7xl text-5xl gap-2 flex items-center justify-center">
             <Logo />
@@ -91,7 +92,7 @@ export default function Home() {
               and websites.
             </p>
             <br />
-            <p className="text-md">Navigate through menu for</p>
+            <p className="text-md">Navigate through for</p>
             <TypewriterComponent
               options={{
                 strings: subCategoriesNames,
@@ -102,6 +103,7 @@ export default function Home() {
                 loop: true,
               }}
             />
+            <ExploreBtn />
           </div>
         </div>
       </section>
