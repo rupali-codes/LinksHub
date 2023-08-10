@@ -25,6 +25,7 @@
   },
   {
     "name": "Kunal Kushwaha",
+    "description": "This channel provides free Java-specific DSA course with interview preparation.",
     "description": "This channel provides a free Java-specific DSA course with interview preparation.",
     "url": "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
     "category": "youtube",
@@ -33,7 +34,7 @@
   },
   {
     "name": "CodeWithHarry",
-    "description": "An all-in-one destination for DSA, Python, C++, JavaScript, Nodejs, Java, PHP & many more.",
+    "description": "An all-in-one destination for DSA, Python, C++, JavaScript, Nodejs, Java, PHP, & many more.",
     "url": "https://www.youtube.com/@CodeWithHarry/playlists",
     "category": "youtube",
     "subcategory": "data-structures",
@@ -57,7 +58,7 @@
   },
   {
     "name": "Pepcoding",
-    "description": "One of the best channels for DSA and Java. It is also helpful for both students and working professionals.",
+    "description": "One of the best channels for learning DSA and Java. It is also helpful for both students and working professionals.",
     "url": "https://www.youtube.com/@Pepcoding/featured",
     "category": "youtube",
     "subcategory": "data-structures",
@@ -121,7 +122,9 @@
   },
   {
     "name": "CODING NINJAS",
+  
     "description": "This channel provides a DSA course about Python from beginner to advanced.",
+
     "url": "https://youtube.com/playlist?list=PLrk5tgtnMN6TYBW0-U4YhIRyYEVpqVEnJ",
     "category": "youtube",
     "subcategory": "data-structures",
@@ -134,5 +137,13 @@
     "category": "youtube",
     "subcategory": "data-structures",
     "language": "english"
+  },
+  {
+    "name":"Code step by step",
+    "description": "A comprehensive playlist in Hindi that teaches developers data structures in Javascript from scratch.",
+    "url": "https://www.youtube.com/watch?v=wZHtZ_VJGKI&list=PL8p2I9GklV47TMMnPzqnkCtSOS3ebr4O7&ab_channel=CodeStepByStep",
+    "category":"youtube",
+    "subcategory":"data-structures",
+    "language":"hindi"
   }
 ]
