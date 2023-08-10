@@ -39,12 +39,12 @@ export type Category =
   | 'artificial intelligence'
   | 'internet of things'
   | 'cloud computing'
-  | 'machine learning'
   | 'open source'
   | 'resources'
   | 'youtube'
   | 'other'
   | 'devops'
+  | 'competitive_programming'
 
 export type SubCategories = {
   name: string
@@ -159,4 +159,6 @@ export const subcategoryArray = [
   'github',
   'other-resources',
   'podcasts',
+  // competitive programming
+  'platforms',
 ]

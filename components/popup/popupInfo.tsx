@@ -4,9 +4,9 @@ import { BsGlobe } from 'react-icons/bs'
 import { Backdrop } from 'components/Backdrop/Backdrop'
 import { createPortal } from 'react-dom'
 import useDelayUnmount from 'hooks/useDelayUnmount'
-import { CopyToClipboard } from 'components/CopyToClipboard'
+import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 
-const Popup: React.FC<{
+export const PopupInfo: React.FC<{
   currentCard: IData | null
   onClose: () => void
 }> = ({ currentCard, onClose }) => {
@@ -55,7 +55,7 @@ const Popup: React.FC<{
             </div>
             <p className="">{currentCard?.description}</p>
           </div>
-          <div className="card-actions justify-end">
+          <div className="card-actions justify-end mt-auto">
             <a
               onClick={(e) => e.stopPropagation()}
               href={currentCard?.url}
@@ -66,6 +66,16 @@ const Popup: React.FC<{
               Visit site
             </a>
           </div>
+
+          {/* Close Text */}
+          <div className="flex justify-center items-center">
+            <p
+              onClick={onClose}
+              className="cursor-pointer text-sm text-text-primary -mt-3 hover:text-theme-primary hover:underline"
+            >
+              Close
+            </p>
+          </div>
         </div>,
         overlayRoot
       )}
@@ -73,4 +83,3 @@ const Popup: React.FC<{
   )
 }
 
-export default Popup

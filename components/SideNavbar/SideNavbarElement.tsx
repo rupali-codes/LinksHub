@@ -11,6 +11,7 @@ export const SideNavbarElement = ({ name, url }: SubCategories) => {
   return (
     <Link
       href={url}
+      aria-label="Side Navbar Elements"
       onClick={closeNav}
       className={`${
         router.asPath === url

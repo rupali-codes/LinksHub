@@ -1,7 +1,7 @@
 name: New Link 🔗
 description: Use this to add new link into the Hub
-title: "[Add] <write what you want to add>"
-labels: ["chore", "goal: new-link"]
+title: '[Add] <write what you want to add>'
+labels: ['chore', 'goal: new-link']
 body:
   - type: input
     attributes:
@@ -20,7 +20,10 @@ body:
       options:
         - Frontend
         - Backend
-        - ML, AI & Data
+        - Machine Learning
+        - Artificial Intelligence
+        - Internet of Things
+        - Cloud Computing
         - Youtube
         - Resources
         - Languages
@@ -37,16 +40,16 @@ body:
   - type: checkboxes
     id: no-duplicate-issues
     attributes:
-      label: "Checklist"
+      label: 'Checklist'
       options:
-        - label: "I have checked the existing issues"
+        - label: 'I have checked the existing issues'
           required: true
 
-        - label: "I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)"
+        - label: 'I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)'
           required: true
 
-        - label: "I am willing to work on this issue (optional)"
+        - label: 'I am willing to work on this issue (optional)'
           required: false
-        
+
         - label: "I am a GSSoC'23 contributor"
           required: false
