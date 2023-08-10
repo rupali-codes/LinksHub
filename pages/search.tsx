@@ -23,11 +23,7 @@ const Search = () => {
   }, [query, router]);
 
   const data = filterSearch(query as string);
-
-  const title = `LinksHub - ${
-    router.asPath.charAt(1).toUpperCase() + router.asPath.slice(2)
-  }`;
-
+  
   useEffect(() => {
     if (data.length > 0 && data.length !== -1) {
       setResults(data.length)
