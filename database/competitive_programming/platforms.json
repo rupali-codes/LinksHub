@@ -12,5 +12,12 @@
     "url": "https://www.hackerrank.com/",
     "category": "competitive_programming",
     "subcategory": "platforms"
+  },
+   {
+    "name": "Atcoder",
+    "description": "AtCoder is a programming contest site for anyone from beginners to experts.",
+    "url": "https://atcoder.jp/",
+    "category": "competitive_programming",
+    "subcategory": "platforms"
   }
 ]
