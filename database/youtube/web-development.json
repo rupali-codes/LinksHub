@@ -303,7 +303,15 @@
     "subcategory": "web-development",
     "language": "english"
   },
-    {
+  {
+    "name": "The Coder Coder",
+    "description": "This site provides practical tips for beginner web developers.",
+    "url": "https://www.youtube.com/c/TheCoderCoder",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+ {
     "name": "Level Up Tuts",
     "description": "2000+ free video tutorials created, recorded, edited, published, and maintained by Scott Tolinski.",
     "url": "https://www.youtube.com/c/leveluptuts",
