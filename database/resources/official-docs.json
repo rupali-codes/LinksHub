@@ -89,8 +89,14 @@
     "url": "https://laravel.com/",
     "category": "resources",
     "subcategory": "officialdocs"
+  },
+ {
+    "name": "Ember.js",
+    "description": "Ember.js is a productive, battle-tested JavaScript framework used for building modern web applications",
+    "url": "https://guides.emberjs.com/release/",
+    "category": "resources",
+    "subcategory": "officialdocs"
   } 
-    
 
     
 ]

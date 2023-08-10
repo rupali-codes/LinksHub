@@ -44,6 +44,7 @@ export type Category =
   | 'youtube'
   | 'other'
   | 'devops'
+  | 'competitive_programming'
 
 export type SubCategories = {
   name: string
@@ -158,4 +159,6 @@ export const subcategoryArray = [
   'github',
   'other-resources',
   'podcasts',
+  // competitive programming
+  'platforms',
 ]
