@@ -83,6 +83,13 @@
     "category": "resources",
     "subcategory": "officialdocs"
   } , 
+      {
+    "name": "Laravel",
+    "description": "Laravel is a web application framework with the expressive, elegant syntax",
+    "url": "https://laravel.com/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
  {
     "name": "Ember.js",
     "description": "Ember.js is a productive, battle-tested JavaScript framework used for building modern web applications",
