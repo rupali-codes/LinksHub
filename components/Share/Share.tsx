@@ -8,6 +8,7 @@ type ShareProps = {
 };
 
 export const Share: React.FC<ShareProps> = ({ url, title }) => {
+  const showShareOptions = false
   async function handleShare() {
     if (navigator.share) {
       try {
@@ -55,8 +56,25 @@ export const Share: React.FC<ShareProps> = ({ url, title }) => {
           paddingRight: "6px",
           paddingTop: "2px",
           paddingBottom: "2px",
-        }}
-      />
+          }}
+        />
+              
+      {showShareOptions && (
+        <p
+          className="bg-theme-secondary text-white text-sm rounded-lg px-3 py-1"
+          style={{
+            position: 'absolute',
+            top: '100%',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            zIndex: 1,
+            boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+            cursor: 'default',
+          }}
+        >
+          Share
+        </p>
+      )}
     </div>
   );
 };
