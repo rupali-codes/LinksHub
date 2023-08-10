@@ -41,7 +41,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
   > For example, create a folder named `Resources`
 
-- If you want to add a new subcategory, add it in [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) under the correct category, and provide the appropriate `url`. You can refer to the examples in the file.
+- If you want to add a new subcategory, add it in [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) under the correct category, and provide the appropriate `URL`. You can refer to the examples in the file.
 
 - Make sure to export the newly created JSON file in the index file.
 
@@ -61,7 +61,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
     > For example, if you export the subcategory name as `onlineCodeEditors` in `database/index.ts`, add the same name to `CategoryDescriptions.ts` using the following style:
 
-    > subcategoryName: 'description of this subcategory'
+    > subcategory name: 'description of this subcategory'
 
   - You can check out similar examples [here](components/TopBar/CategoryDescriptions.ts). It's essential to add a description when submitting a pull request to add a subcategory; to merge it in the codebase.
 
@@ -91,16 +91,16 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
   - `name`: Name of the site
 
-  - `description`: A brief description of what the site does
-  - `url`: Add a valid URL of the site
-  - `category`: Choose an existing category or create a new one following the instructions mentioned above.
+  - `Description`: A brief description of what the site does
+  - `URL`: Add a valid URL of the site
+  - `Category`: Choose an existing category or create a new one following the instructions mentioned above.
   - `subcategory`: Choose an existing subcategory or create a new one following the instructions mentioned above.
   - `language`: This field is included for some of the resources, such as _React_ resources or _YouTube_ channel links. If multiple languages are involved, prioritize English if available. Otherwise, choose a language that you deem necessary.
 
 - You can use [JSONLint](https://jsonlint.com/) to check the correctness of the JSON to avoid failing tests during pull requests.
 
 **NOTE**
-When adding _YouTube_ channel link, please specify _the language_ of the channel they are using to teach for example English, Hindi, Spanish etc. In cases where the language is NOT specified, then just remove the `language` property.
+When adding _YouTube_ channel link, please specify _the language_ of the channel they are using to teach for example English, Hindi, Spanish, etc. In cases where the language is NOT specified, then just remove the `language` property.
 
 > **⚠️Important**
 >
@@ -203,12 +203,12 @@ We follow a standardized commit message format using Commitlint to ensure consis
 #### Valid Commit Messages:
 
 - `feat: Add user authentication feature`
-- `fix(auth): Resolve login page redirect issue`
-- `docs: Update installation instructions`
-- `style: Format code according to project guidelines`
+- `fix(auth): Resolve login page redirect issue
+- `docs: Update installation instructions
+- `style: Format code according to project guidelines
 - `refactor(navbar): Improve responsiveness`
 - `test: Add unit tests for API endpoints`
-- `chore: Update dependencies to latest versions`
+- `chore: Update dependencies to latest versions
 - `fix: Handle edge case in data processing (#456)`
 
 #### Invalid Commit Messages:
@@ -217,7 +217,7 @@ We follow a standardized commit message format using Commitlint to ensure consis
 - `Fixed a bug`
 - `Updated code`
 - `auth feature update`
-- `chore: fixed some stuff`
+- `chore: fixed some stuff
 
 ### Commit Example with Commitlint:
 
