@@ -9,7 +9,7 @@
   },
   {
     "name": "CodeHelp - by Babbar",
-    "description": "This channel provides free placement specific DSA course in C++.",
+    "description": "This channel provides free placement-specific DSA courses in C++.",
     "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA",
     "category": "youtube",
     "subcategory": "data-structures",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Apna College",
-    "description": "This channel provides free courses for DSA, Java, C++, C etc.",
+    "description": "This channel provides free courses for DSA, Java, C++, C, etc.",
     "url": "https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
     "category": "youtube",
     "subcategory": "data-structures",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Kunal Kushwaha",
-    "description": "This channel provides free Java specific DSA course with interview-preparation.",
+    "description": "This channel provides a free Java-specific DSA course with interview preparation.",
     "url": "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
     "category": "youtube",
     "subcategory": "data-structures",
@@ -97,7 +97,7 @@
   },
   {
     "name": "Hello World DSA",
-    "description": "This channel provides C++ specific DSA content. This course also provides explanations of Algorithms.",
+    "description": "This channel provides C++-specific DSA content. This course also provides explanations of Algorithms.",
     "url": "https://www.youtube.com/@HelloWorldbyprince/playlists",
     "category": "youtube",
     "subcategory": "data-structures",
@@ -113,7 +113,7 @@
   },
   {
     "name": "Data Structure & Algorithms Full Course In Hindi",
-    "description": "DSA playlist for understanding concepts of core coding using the c++ language",
+    "description": "DSA playlist for understanding concepts of core coding using the C++ language",
     "url": "https://www.youtube.com/playlist?list=PLzjZaW71kMwQ1DIWTn0d_KDHU4_E52-rq",
     "category": "youtube",
     "subcategory": "data-structures",
@@ -121,15 +121,15 @@
   },
   {
     "name": "CODING NINJAS",
-    "description": "This channel provides DSA course in Python from beginner to advance level.",
+    "description": "This channel provides a DSA course about Python from beginner to advanced.",
     "url": "https://youtube.com/playlist?list=PLrk5tgtnMN6TYBW0-U4YhIRyYEVpqVEnJ",
     "category": "youtube",
     "subcategory": "data-structures",
     "language": "english"
   },
   {
-    "name": "Free code camp",
-    "description": "DSA from basic in c/c++ language",
+    "name": "Data Structures - Full Course Using C and C++",
+    "description": "Learn about DSAs and how they are implemented in C or C++ in this comprehensive course by FreeCodeCamp. ",
     "url": "https://www.youtube.com/watch?v=B31LgI4Y4DQ",
     "category": "youtube",
     "subcategory": "data-structures",
