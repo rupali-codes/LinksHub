@@ -12,19 +12,5 @@
     "url": "https://www.hackerrank.com/",
     "category": "competitive_programming",
     "subcategory": "platforms"
-  },
-  {
-    "name": "Geek for Geeks",
-    "description": "Platform to practice programming problems. Solve company interview questions and improve your coding intellect",
-    "url": "https://practice.geeksforgeeks.org/",
-    "category": "competitive_programming",
-    "subcategory": "platforms"
-  },
-  {
-    "name": "Coding Ninjas",
-    "description": "Coding Ninjas Studio - The best platform to prepare for coding. Want to participate in coding war? Code Battles with coders all over the world . Compete with other coder by participating in the contests and Get Points .",
-    "url": "https://www.codingninjas.com/studio/home",
-    "category": "competitive_programming",
-    "subcategory": "platforms"
   }
 ]
