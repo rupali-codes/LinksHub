@@ -44,7 +44,7 @@ export type Category =
   | 'youtube'
   | 'other'
   | 'devops'
-  | 'competitive_programming'
+  | 'cp - competitive pro'
 
 export type SubCategories = {
   name: string

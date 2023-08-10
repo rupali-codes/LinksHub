@@ -261,7 +261,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'competitive_programming',
+    category: 'cp - competitive pro',
     subcategory: [
       { name: 'platforms', url: '/platforms', resources: DB.platforms },
     ],
