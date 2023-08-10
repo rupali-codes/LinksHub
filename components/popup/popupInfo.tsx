@@ -55,7 +55,7 @@ export const PopupInfo: React.FC<{
             </div>
             <p className="">{currentCard?.description}</p>
           </div>
-          <div className="card-actions justify-end">
+          <div className="card-actions justify-end mt-auto">
             <a
               onClick={(e) => e.stopPropagation()}
               href={currentCard?.url}
@@ -65,6 +65,16 @@ export const PopupInfo: React.FC<{
             >
               Visit site
             </a>
+          </div>
+
+          {/* Close Text */}
+          <div className="flex justify-center items-center">
+            <p
+              onClick={onClose}
+              className="cursor-pointer text-sm text-text-primary -mt-3 hover:text-theme-primary hover:underline"
+            >
+              Close
+            </p>
           </div>
         </div>,
         overlayRoot
