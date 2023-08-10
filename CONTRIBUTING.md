@@ -91,7 +91,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
   - `name`: Name of the site
 
-  - `Description`: A brief description of what the site does
+  - `description`: A brief description of what the site does
   - `URL`: Add a valid URL of the site
   - `Category`: Choose an existing category or create a new one following the instructions mentioned above.
   - `subcategory`: Choose an existing subcategory or create a new one following the instructions mentioned above.
