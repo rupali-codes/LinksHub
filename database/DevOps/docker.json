@@ -8,7 +8,7 @@
     },
     {
         "name":"Docker",
-        "description":"In this free video series by kodekloud, you will learn the basics of docker and containerisation..",
+        "description":"In this free video series, you will learn the basics of Docker and containerization..",
         "url":"https://kodekloud.com/lessons/introduction-9/",
         "category":"DevOps",
         "subcategory":"docker"
