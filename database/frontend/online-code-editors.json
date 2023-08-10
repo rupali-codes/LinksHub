@@ -120,7 +120,7 @@
   },
    {
     "name": "Ideone",
-    "description": " Ideone is an online compiler and debugging tool which allows you to compile source code and execute it online in more than 60 programming languages.",
+    "description": " Ideone is an online compiler and debugging tool that allows developers to compile source code and execute it online in more than 60 programming languages.",
     "url": "https://ideone.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
