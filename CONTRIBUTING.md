@@ -100,7 +100,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 - You can use [JSONLint](https://jsonlint.com/) to check the correctness of the JSON to avoid failing tests during pull requests.
 
 **NOTE**
-When adding _YouTube_ channel link, please specify _the language_ of the channel they are using to teach for example English, Hindi, Spanish, etc. In cases where the language is NOT specified, then just remove the `language` property.
+When adding _YouTube_ channel links, please specify _the language_ of the channel they are using to teach for example English, Hindi, Spanish, etc. In cases where the language is not specified, then just remove the `language` property.
 
 > **⚠️Important**
 >
