@@ -22,6 +22,8 @@ const Search = () => {
     if (!query || query === '') router.replace('/');
   }, [query, router]);
 
+  let content: JSX.Element[] | JSX.Element
+  
   const data = filterSearch(query as string);
   
   useEffect(() => {
