@@ -85,7 +85,7 @@
   } , 
  {
     "name": "Ember.js",
-    "description": "Ember.js is a productive, battle-tested JavaScript framework for building modern web applications",
+    "description": "Ember.js is a productive, battle-tested JavaScript framework used for building modern web applications",
     "url": "https://guides.emberjs.com/release/",
     "category": "resources",
     "subcategory": "officialdocs"
