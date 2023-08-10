@@ -302,5 +302,13 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
+  },
+  {
+    "name": "The Coder Coder",
+    "description": "Practical tips for the beginner web developer.",
+    "url": "https://www.youtube.com/c/TheCoderCoder",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
   }
 ]
