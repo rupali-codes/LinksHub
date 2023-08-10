@@ -23,11 +23,11 @@ export const Card: FC<CardProps> = ({ data }) => {
   }, [])
 
   return (
-    <article className="z-10 h-full w-full rounded-3xl border border-dashed border-theme-secondary dark:border-theme-primary bg-[rgba(255,255,255,0.3)] shadow-md dark:bg-dark dark:text-text-primary dark:shadow-sm">
+    <article className="z-10 h-full w-full rounded-3xl border border-dashed border-primary-80 dark:border-primary-60 bg-[rgba(255,255,255,0.3)] shadow-md dark:bg-dark dark:text-secondary-40 dark:shadow-sm">
       <div className="card-body">
         <header className="flex justify-between items-center gap-2">
           <h2
-            className="cursor-default md:truncate ... text-xl text-theme-secondary dark:text-theme-primary"
+            className="cursor-default md:truncate ... text-xl text-primary-80 dark:text-primary-60"
             title={name}
           >
             {name}
@@ -45,7 +45,7 @@ export const Card: FC<CardProps> = ({ data }) => {
             {description}
           </div>
           {isOverflow && (
-            <p className="text-sm underline text-theme-secondary dark:text-theme-primary text-right hover:text-theme-primary dark:hover:text-text-primary">
+            <p className="text-sm underline text-primary-80 dark:text-primary-60 text-right hover:text-primary-60 dark:hover:text-secondary-40">
               Read More
             </p>
           )}
@@ -57,7 +57,7 @@ export const Card: FC<CardProps> = ({ data }) => {
             target="_blank"
             rel="noopener noreferrer"
             className={
-              'mt-2 flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-transparent bg-theme-secondary px-6 py-2 text-center text-light-primary duration-100 hover:border-theme-primary hover:bg-transparent hover:text-theme-secondary dark:hover:text-theme-primary'
+              'mt-2 flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-transparent bg-primary-80 px-6 py-2 text-center text-light-primary duration-100 hover:border-primary-60 hover:bg-transparent hover:text-primary-80 dark:hover:text-primary-60'
             }
           >
             Visit site

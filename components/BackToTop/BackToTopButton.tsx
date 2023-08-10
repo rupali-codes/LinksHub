@@ -41,7 +41,7 @@ export const BackToTopButton = () => {
     return null
   }
 
-  const buttonClasses = `focus:animate-button-press rounded-full border border-light-primary bg-theme-secondary p-4 text-light-primary shadow-xl duration-300 transition-colors focus:ring group-hover:border-dashed group-hover:border-theme-primary group-hover:bg-light-primary dark:drop-shadow-[5px_5px_8px_rgba(124,58,237,0.25)] dark:group-hover:bg-[#101623] md:border-violet-600 ${
+  const buttonClasses = `focus:animate-button-press rounded-full border border-light-primary bg-primary-80 p-4 text-light-primary shadow-xl duration-300 transition-colors focus:ring group-hover:border-dashed group-hover:border-primary-60 group-hover:bg-light-primary dark:drop-shadow-[5px_5px_8px_rgba(124,58,237,0.25)] dark:group-hover:bg-[#101623] md:border-primary-100 ${
     status === 'preEnter' || status === 'exiting'
       ? 'opacity-0 translate-y-3'
       : ''
@@ -58,7 +58,7 @@ export const BackToTopButton = () => {
         data-tooltip-content="Back to Top"
         data-tooltip-place="top"
       >
-        <FaArrowUp className="group-hover:text-theme-secondary" />
+        <FaArrowUp className="group-hover:text-primary-80" />
       </button>
         <Tooltip id="btn-tooltip" style={{ backgroundColor: '#8b5cf6', fontSize: '13px', paddingLeft: '6px', paddingRight: '6px', paddingTop: '2px', paddingBottom: '2px' }} />
       <span className="absolute left-1/2 top-1/2 -z-10 hidden -translate-x-1/2 -translate-y-1/2 rotate-0 text-2xl transition-all duration-100 ease-in-out group-hover:ml-8 group-hover:block group-hover:rotate-45">

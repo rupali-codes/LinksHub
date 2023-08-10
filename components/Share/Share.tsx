@@ -41,7 +41,7 @@ export const Share: React.FC<ShareProps> = ({ url, title }) => {
       >
         <FiShare2
           size={'1.2rem'}
-          className="text-theme-primary cursor-pointer"
+          className="text-primary-60 cursor-pointer"
           onClick={handleShare}
         />
       </button>
@@ -59,7 +59,7 @@ export const Share: React.FC<ShareProps> = ({ url, title }) => {
 
       {showShareOptions && (
         <p
-          className="bg-theme-secondary text-white text-sm rounded-lg px-3 py-1"
+          className="bg-primary-80 text-white text-sm rounded-lg px-3 py-1"
           style={{
             position: 'absolute',
             top: '100%',

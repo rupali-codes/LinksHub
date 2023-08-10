@@ -75,7 +75,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
             type="text"
             id="simple-search"
             name="simple-search"
-            className="block p-2.5 w-full bg-transparent text-sm text-dark dark:text-text-primary border border-dashed border-gray-text focus:border-theme-secondary dark:focus:border-theme-primary dark:focus:ring-theme-primary focus:ring-theme-secondary dark:placeholder-gray-text outline-none transition-all ease-in-out duration-300 rounded-lg capitalize"
+            className="block p-2.5 w-full bg-transparent text-sm text-dark dark:text-secondary-40 border border-dashed bordersecondary-60 focus:border-primary-80 dark:focus:border-primary-60 dark:focus:ring-primary-60 focus:ring-primary-80 dark:placeholdersecondary-60 outline-none transition-all ease-in-out duration-300 rounded-lg capitalize"
             placeholder="Quick search..."
             value={searchQuery}
             onChange={handleSearchChange}
@@ -84,7 +84,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
           />
           <button
             type="submit"
-            className="ml-2 px-4 py-2.5 bg-theme-secondary text-light-primary rounded-md border border-dashed border-transparent hover:border-theme-primary hover:bg-transparent hover:text-theme-primary dark:hover:text-theme-primary transition-colors duration-300 ease-in-out"
+            className="ml-2 px-4 py-2.5 bg-primary-80 text-light-primary rounded-md border border-dashed border-transparent hover:border-primary-60 hover:bg-transparent hover:text-primary-60 dark:hover:text-primary-60 transition-colors duration-300 ease-in-out"
             aria-label="submit query button"
           >
             <SearchIcon className="w-5 h-5" aria-hidden="true" />
@@ -93,7 +93,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
         {suggestions.length > 0 && (
           <ul
             ref={dropdownRef}
-            className="absolute z-10 text-light-primary bg-theme-secondary w-full mt-1 rounded-lg shadow-2xl"
+            className="absolute z-10 text-light-primary bg-primary-80 w-full mt-1 rounded-lg shadow-2xl"
           >
             {suggestions.map((suggestion) => (
               <li

@@ -23,7 +23,7 @@ export const SideNavbarCategory: FC<{
     ))
 
   return (
-    <li className="relative w-full transition-all ease-in-out text-theme-secondary dark:text-theme-primary dark:bg-opacity-5 hover:text-theme-secondary dark:hover:text-theme-primary rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-theme-primary">
+    <li className="relative w-full transition-all ease-in-out text-primary-80 dark:text-primary-60 dark:bg-opacity-5 hover:text-primary-80 dark:hover:text-primary-60 rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-primary-60">
       <button
         className="flex w-full cursor-pointer justify-between py-2"
         onClick={handleToggle}

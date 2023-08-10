@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <ThemeProvider defaultTheme="dark">
       <GlobalProvider>
         <ResultsProvider>
-          <Preloader backgroundColor="bg-violet-800" color="#8b5cf6" size={40}>
+          <Preloader backgroundColor="bg-primary-150" color="#8b5cf6" size={40}>
             <GeneralLayout>
               <Component {...pageProps} />
             </GeneralLayout>

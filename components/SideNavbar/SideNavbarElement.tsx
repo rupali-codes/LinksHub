@@ -15,12 +15,12 @@ export const SideNavbarElement = ({ name, url }: SubCategories) => {
       onClick={closeNav}
       className={`${
         router.asPath === url
-          ? 'border-l-4 border-theme-primary text-theme-secondary dark:text-theme-primary '
-          : 'text-text-secondary dark:text-gray-text'
-      } collapse w-full text-start pl-3 hover:text-theme-secondary dark:hover:text-violet-300 
-      focus-visible:outline-none focus-visible:ring focus-visible:ring-theme-primary focus-visible:rounded-lg`}
+          ? 'border-l-4 border-primary-60 text-primary-80 dark:text-primary-60 '
+          : 'text-secondary-100 dark:textsecondary-60'
+      } collapse w-full text-start pl-3 hover:text-primary-80 dark:hover:text-primary-40 
+      focus-visible:outline-none focus-visible:ring focus-visible:ring-primary-60 focus-visible:rounded-lg`}
     >
-      <div className="ml-2 text-lg py-2 capitalize transition-all duration-300 hover:pl-2 dark:border-theme-secondary">
+      <div className="ml-2 text-lg py-2 capitalize transition-all duration-300 hover:pl-2 dark:border-primary-80">
         {name}
       </div>
     </Link>

@@ -22,7 +22,7 @@ export const CopyToClipboard = ({ url }: CopyToClipboardProps): JSX.Element => {
       <button data-tooltip-id="copy-tooltip" data-tooltip-content={success ? 'Copied!' : 'Copy'} data-tooltip-place="top">
       <FaRegCopy
           size={'1.3rem'}
-          className="text-theme-primary cursor-pointer"
+          className="text-primary-60 cursor-pointer"
           onClick={(e) => handleCopy(e)}
         />
         </button>

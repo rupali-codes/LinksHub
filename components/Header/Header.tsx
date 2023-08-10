@@ -28,7 +28,7 @@ export const Header: FC = () => {
           <SocialMediaIconsList className="hidden lg:flex" />
           <ThemeToggler />
           <button
-            className="dark:text-text-primary lg:hidden"
+            className="dark:text-secondary-40 lg:hidden"
             onClick={toggleNav}
             aria-label="toggle button"
           >

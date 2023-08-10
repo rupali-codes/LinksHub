@@ -96,8 +96,8 @@ export default function Home() {
               options={{
                 strings: subCategoriesNames,
                 wrapperClassName:
-                  'text-md text-violet-600 dark:text-violet-400',
-                cursorClassName: 'text-md text-violet-600 dark:text-violet-400',
+                  'text-md text-primary-100 dark:text-primary-60',
+                cursorClassName: 'text-md text-primary-100 dark:text-primary-60',
                 autoStart: true,
                 loop: true,
               }}

@@ -55,10 +55,10 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
     <>
       {regEx.test(category) ? (
         <div
-          className={`flex items-center text-xl dark:text-gray-300 ${className}`}
+          className={`flex items-center text-xl dark:text-secondary-40 ${className}`}
         >
-          <FaSlackHash className="mr-2 text-gray-600 dark:text-gray-300" />
-          <span className="flex uppercase text-gray-900 dark:text-gray-100">
+          <FaSlackHash className="mr-2 text-secondary-100 dark:text-secondary-40" />
+          <span className="flex uppercase text-secondary-200 dark:text-secondary-10">
             {isSearchFound
               ? `${cleanedCategory}`
               : `No Results Found`}
@@ -69,7 +69,7 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
             data-tooltip-place="bottom"
           >
             <FaInfoCircle
-              className="ml-4 mt-2 text-sm cursor-pointer hover:text-theme-primary"
+              className="ml-4 mt-2 text-sm cursor-pointer hover:text-primary-60"
               onClick={handleCardClick}
             />
           </button>
@@ -91,10 +91,10 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
         </div>
       ) : (
         <div
-          className={`flex items-center text-xl dark:text-gray-300 ${className}`}
+          className={`flex items-center text-xl dark:text-secondary-40 ${className}`}
         >
-          <FaSlackHash className="mr-2 text-gray-600 dark:text-gray-300" />
-          <span className="flex uppercase text-gray-900 dark:text-gray-100">
+          <FaSlackHash className="mr-2 text-secondary-100 dark:text-secondary-40" />
+          <span className="flex uppercase text-secondary-200 dark:text-secondary-10">
             {category.split('-').join(' ')}
           </span>
             <button
@@ -103,7 +103,7 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
             data-tooltip-place="bottom"
           >
             <FaInfoCircle
-              className="ml-4 mt-2 text-sm cursor-pointer hover:text-theme-primary"
+              className="ml-4 mt-2 text-sm cursor-pointer hover:text-primary-60"
               onClick={handleCardClick}
             />
           </button>

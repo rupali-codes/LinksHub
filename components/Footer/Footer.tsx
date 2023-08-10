@@ -7,12 +7,12 @@ export const Footer: FC = () => {
   const isDarkMode = resolvedTheme === 'dark'
 
   const nameStyles = `underline ${
-    isDarkMode ? 'text-light-primary' : 'text-theme-secondary'
+    isDarkMode ? 'text-light-primary' : 'text-primary-80'
   } `
 
   return (
     <footer className="z-10 mb-4 flex w-full items-baseline justify-center rounded-lg py-2 backdrop-blur-md sm:py-3">
-      <p className="leading-7 tracking-wide text-center text-black dark:text-theme-primary">
+      <p className="leading-7 tracking-wide text-center text-black dark:text-primary-60">
         <span>&copy; {new Date().getFullYear()} LinksHub | </span>
         Developed by{' '}
         <Link
