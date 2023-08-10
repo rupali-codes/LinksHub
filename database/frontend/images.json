@@ -152,5 +152,12 @@
     "url": "https://stock.adobe.com/in/",
     "category": "frontend",
     "subcategory": "images"
+  },
+  {
+    "name": "Vector Stock",
+    "description": "VectorStock is the world’s Premier Vector-only Image Marketplace",
+    "url": "https://www.vectorstock.com/",
+    "category": "frontend",
+    "subcategory": "images"
   }
 ]
