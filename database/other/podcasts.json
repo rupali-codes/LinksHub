@@ -12,5 +12,13 @@
     "url": "https://www.codenewbie.org/podcast",
     "category": "other",
     "subcategory": "podcasts"
+  },
+  {
+    "name": "Stackoverflow Podcast",
+    "description": " The Stack Overflow Podcast, where their hosts explore what it means to work in software and how code is reshaping our world.",
+    "url": "https://stackoverflow.blog/podcast/",
+    "category": "other",
+    "subcategory": "podcasts"
   }
+  
 ]
