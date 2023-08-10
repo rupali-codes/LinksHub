@@ -12,5 +12,12 @@
     "url": "https://www.hackerrank.com/",
     "category": "competitive_programming",
     "subcategory": "platforms"
+  },
+   {
+    "name": "Codeforces",
+    "description": "Codeforces is a website for practising competitive programming",
+    "url": "https://codeforces.com/",
+    "category": "competitive_programming",
+    "subcategory": "platforms"
   }
 ]
