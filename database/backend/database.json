@@ -64,7 +64,7 @@
   },
   {
     "name": "GraphQL",
-    "description": "GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.",
+    "description": "GraphQL provides a comprehensive description of the data in your API, which gives clients the power to ask for exactly what they need and nothing more and make it easier to evolve APIs over time. It also enables powerful developer tools.",
     "url": "https://graphql.org/",
     "category": "backend",
     "subcategory": "database"
