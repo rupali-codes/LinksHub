@@ -37,7 +37,7 @@ export const TopBar: FC<{ className?: string | undefined }> = (props) => {
       className={`flex items-center text-xl dark:text-gray-300 ${className}`}
     >
       <FaSlackHash className="mr-2 text-gray-600 dark:text-gray-300" />
-      <span className="text-gray-900 dark:text-gray-100 uppercase">
+      <span className="text-gray-900 dark:text-gray-100 uppercase w-[500px] overflow-x-auto">
         {category.split('-').join(' ')}
       </span>
       <button
