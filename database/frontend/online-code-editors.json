@@ -84,20 +84,6 @@
     "subcategory": "online-code-editors"
   },
   {
-    "name": "HackerRank",
-    "description": "An online IDE to practice your competitive programming skills. It allows you to code in multiple languages.",
-    "url": "https://www.hackerrank.com/",
-    "category": "frontend",
-    "subcategory": "online-code-editors"
-  },
-  {
-    "name": "LeetCode",
-    "description": "LeetCode is the best platform to help you enhance your programming skills, and expand your knowledge.",
-    "url": "https://leetcode.com/",
-    "category": "frontend",
-    "subcategory": "online-code-editors"
-  },
-  {
     "name": "Programiz",
     "description": "Learn to program with our beginner-friendly tutorials and examples. Read tutorials, try examples, write code, and learn to program.",
     "url": "https://www.programiz.com/",

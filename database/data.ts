@@ -260,4 +260,10 @@ export const sidebarData: ISidebar[] = [
       { name: 'communities', url: '/communities', resources: DB.communities },
     ],
   },
+  {
+    category: 'competitive_programming',
+    subcategory: [
+      { name: 'platforms', url: '/platforms', resources: DB.platforms },
+    ],
+  },
 ]
