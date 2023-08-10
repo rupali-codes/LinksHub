@@ -15,7 +15,7 @@
   },
    {
     "name": "Atcoder",
-    "description": "AtCoder is a programming contest site for anyone from beginners to experts.",
+    "description": "AtCoder is a programming contest site for beginners to experts.",
     "url": "https://atcoder.jp/",
     "category": "competitive_programming",
     "subcategory": "platforms"
