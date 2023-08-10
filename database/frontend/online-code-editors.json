@@ -117,5 +117,12 @@
     "url": "https://ide.geeksforgeeks.org/",
     "category": "frontend",
     "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Jdoodle",
+    "description": " It is a free online compiler and code editor to save, run and share code anytime",
+    "url": "https://www.jdoodle.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
   }
 ]
