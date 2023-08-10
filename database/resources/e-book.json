@@ -46,5 +46,13 @@
     "category": "resource",
     "subcategory": "e-book",
     "language": "english"
+  },
+  {
+    "name": "Book Yard",
+    "description": "'The Library to the World', in which books, education materials, information, reference materials, documents, and content will be provided freely",
+    "url": "www.bookyards.com",
+    "category": "resource",
+    "subcategory": "e-book",
+    "language": "english"
   }
 ]
