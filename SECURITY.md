@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document outlines the security policy for the [Linkshub](https://linkshub.vercel.app/) open-source project that provides links to websites for courses across the internet. The policy is intended to provide guidelines and procedures for reporting, triaging, and addressing security vulnerabilities in the project.
+This document outlines the security policy for the [Linkshub](https://linkshub.vercel.app/) open source project that provides links to websites for courses across the internet. The policy is intended to provide guidelines and procedures for reporting, triaging, and addressing security vulnerabilities in the project.
 
 ## Scope
 
