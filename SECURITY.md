@@ -6,7 +6,7 @@ This document outlines the security policy for the [Linkshub](https://linkshub.v
 
 ## Scope
 
-The security policy covers the codebase and documentation of the open-source project, as well as the external links to websites for courses.
+The security policy covers the codebase and documentation of the open source project, as well as the external links to websites for courses.
 
 ## Vulnerability Disclosure Process
 
