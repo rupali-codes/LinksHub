@@ -24,7 +24,7 @@ export function ThemeToggler() {
     size: '1.5rem',
   }
 
-  const themeColor = resolvedTheme === 'dark' ? '#101623' : '#F5F3FF';
+  const themeColor = resolvedTheme === 'dark' ? '#0F172A' : '#F5F3FF';
 
   return (
     <HelmetProvider>
