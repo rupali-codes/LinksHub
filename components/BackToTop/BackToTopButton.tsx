@@ -52,6 +52,8 @@ export const BackToTopButton = () => {
       <button
         className={buttonClasses}
         onClick={handleClick}
+        title="Back to top"
+        aria-label="Back to top button"
         data-tooltip-id="btn-tooltip"
         data-tooltip-content="Back to Top"
         data-tooltip-place="top"
