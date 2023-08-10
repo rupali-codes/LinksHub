@@ -12,5 +12,12 @@
     "url": "https://www.hackerrank.com/",
     "category": "competitive_programming",
     "subcategory": "platforms"
+  },
+  {
+    "name": "SPOJ",
+    "description": "SPOJ is an online judge system with over 315,000 registered users and over 20,000 problems.",
+    "url": "https://www.spoj.com/",
+    "category": "competitive_programming",
+    "subcategory": "platforms"
   }
 ]
