@@ -92,8 +92,8 @@ Thank you for taking the time to contribute to our project. Please take a moment
   - `name`: Name of the site
 
   - `description`: A brief description of what the site does
-  - `URL`: Add a valid URL of the site
-  - `Category`: Choose an existing category or create a new one following the instructions mentioned above.
+  - `url`: Add a valid URL of the site
+  - `category`: Choose an existing category or create a new one following the instructions mentioned above.
   - `subcategory`: Choose an existing subcategory or create a new one following the instructions mentioned above.
   - `language`: This field is included for some of the resources, such as _React_ resources or _YouTube_ channel links. If multiple languages are involved, prioritize English if available. Otherwise, choose a language that you deem necessary.
 
