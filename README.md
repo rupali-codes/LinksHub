@@ -20,7 +20,7 @@ We recognize that there's a wealth of information available, but often, it's a m
 - [Socials 📱](#socials-)
 - [Getting Started 👩‍💻](#getting-started-)
   - [Let's jump right in🌟](#lets-jump-right-in)
-  - [_Want to add your favourite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favourite-links-to-the-hub-make-sure-to-follow-contributing-guidelines)
+  - [_Want to add your favorite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favourite-links-to-the-hub-make-sure-to-follow-contributing-guidelines)
   - [Want to add or update the descriptions of subcategories?](#want-to-add-or-update-the-descriptions-of-subcategories)
 - [Building with Gitpod 💣](#building-with-gitpod-)
 - [Top 50 Contributors ✨](#top-50-contributors-)
@@ -106,10 +106,10 @@ You can see the live demo at: https://linkshub.vercel.app
 > ```
 > 2. Start the docker container with:
 > ```bash 
-> docker compose up
+> docker-compose up
 > ```
 > 3. Now start adding your changes.
-> **Note:** You don't need to restart the container again and again after starting it once, because the changes you make will reflect into the container instantly.
+> **Note:** You don't need to restart the container again and again after starting it once, because the changes you make will reflect in the container instantly.
 
 7. Make your changes before staging them.
 
@@ -135,7 +135,7 @@ You can see the live demo at: https://linkshub.vercel.app
 
     > Click _compare across forks_ if you don't see your branch
 
-#### _Want to add your favourite links to the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/linkshub/blob/main/CONTRIBUTING.md)._
+#### _Want to add your favorite links to the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/linkshub/blob/main/CONTRIBUTING.md)._
 
 #### Want to add or update the descriptions of subcategories?
 Make sure to follow [CONTRIBUTING guidelines](./CONTRIBUTING.md#Adding-and-Updating-Category-Description-).
@@ -146,7 +146,7 @@ Make sure to follow [CONTRIBUTING guidelines](./CONTRIBUTING.md#Adding-and-Updat
 
 ## Building with Gitpod 💣
 
-By using [Gitpod.io](https://www.gitpod.io), all the necessary dependencies will be installed
+By using [Gitpod. io](https://www.gitpod.io), all the necessary dependencies will be installed
 and the website will be built in one single click. No extra setup is required.
 
 [![Gitpod Ready-to-Code](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rupali-codes/LinksHub)
@@ -175,6 +175,6 @@ LinksHub is licensed under the terms of the MIT License. check out [LICENSE](htt
 
 ## Support ⭐
 
-_We would love to have you, feel free to open issues and pull requests and Don't forget to leave a star⭐_
+_We would love to have you, feel free to open issues and pull requests, and Don't forget to leave a star⭐_
 
 _We would be thrilled to have you contribute to LinksHub! Your support, whether through opening issues, submitting pull requests, or even just leaving a star, means a lot to us. Together, we can continue to improve and expand this resource hub for developers worldwide._
