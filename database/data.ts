@@ -72,6 +72,11 @@ export const sidebarData: ISidebar[] = [
         resources: DB.systemDesign,
       },
       { name: 'database', url: '/database', resources: DB.database },
+      {
+        name:'APIs',
+        url: '/api',
+        resources: DB.api,
+      }
     ],
   },
   {
@@ -253,6 +258,12 @@ export const sidebarData: ISidebar[] = [
         resources: DB.otherResources,
       },
       { name: 'communities', url: '/communities', resources: DB.communities },
+    ],
+  },
+  {
+    category: 'competitive_programming',
+    subcategory: [
+      { name: 'platforms', url: '/platforms', resources: DB.platforms },
     ],
   },
 ]

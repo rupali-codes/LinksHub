@@ -187,5 +187,19 @@
     "url": "https://free3dicon.com/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Icon-Icons",
+    "description": "Icon-Icons is a platform that provides a collection of icons to use in web design, graphic design, and projects.",
+    "url": "https://icon-icons.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "The Noun Project",
+    "description": "The Noun Project offers the world's most diverse collection of free icons and vector images.",
+    "url": "https://thenounproject.com/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]

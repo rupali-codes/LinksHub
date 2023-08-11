@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FiShare2 } from 'react-icons/fi'
 import { Tooltip } from 'react-tooltip'
 
@@ -8,7 +8,7 @@ type ShareProps = {
 }
 
 export const Share: React.FC<ShareProps> = ({ url, title }) => {
-  const [showShareOptions, setShowShareOptions] = useState(false)
+  const showShareOptions = false
 
   async function handleShare() {
     if (navigator.share) {
@@ -34,15 +34,29 @@ export const Share: React.FC<ShareProps> = ({ url, title }) => {
         display: 'inline-block',
       }}
     >
-      <button data-tooltip-id="share-tooltip" data-tooltip-content="Share" data-tooltip-place="bottom">
-      <FiShare2
-        size={'1.2rem'}
-        className="text-theme-primary cursor-pointer"
-        onClick={handleShare}
+      <button
+        data-tooltip-id="share-tooltip"
+        data-tooltip-content="Share"
+        data-tooltip-place="bottom"
+      >
+        <FiShare2
+          size={'1.2rem'}
+          className="text-theme-primary cursor-pointer"
+          onClick={handleShare}
+        />
+      </button>
+      <Tooltip
+        id="share-tooltip"
+        style={{
+          backgroundColor: '#8b5cf6',
+          fontSize: '13px',
+          paddingLeft: '6px',
+          paddingRight: '6px',
+          paddingTop: '2px',
+          paddingBottom: '2px',
+        }}
       />
-        </button>
-      <Tooltip id='share-tooltip' style={{ backgroundColor: '#8b5cf6', fontSize: '13px', paddingLeft: '6px', paddingRight: '6px', paddingTop: '2px', paddingBottom: '2px' }} />
-      
+
       {showShareOptions && (
         <p
           className="bg-theme-secondary text-white text-sm rounded-lg px-3 py-1"

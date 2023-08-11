@@ -21,6 +21,8 @@ export { default as testing } from './backend/testing.json'
 export { default as validation } from './backend/validation.json'
 export { default as systemDesign } from './backend/system-design.json'
 export { default as database } from './backend/database.json'
+export {default as api} from './backend/api.json'
+
 //devops
 export { default as cicd } from './DevOps/cicd.json'
 export { default as devopsLifecycle } from './DevOps/devopsLifecycle.json'
@@ -28,6 +30,7 @@ export { default as devopsMethodologies } from './DevOps/devopsMethodologies.jso
 export { default as docker } from './DevOps/docker.json'
 export { default as kubernetes } from './DevOps/kubernetes.json'
 export { default as microservices } from './DevOps/microservices.json'
+
 // languages
 export { default as javascript } from './languages/javascript.json'
 export { default as python } from './languages/python.json'
@@ -86,3 +89,5 @@ export { default as devtools } from './other/devtools.json'
 export { default as podcasts } from './other/podcasts.json'
 export { default as otherResources } from './other/other-resources.json'
 export { default as communities } from './other/communities.json'
+// competitive programming
+export {default as platforms } from './competitive_programming/platforms.json'

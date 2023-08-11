@@ -41,7 +41,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
   > For example, create a folder named `Resources`
 
-- If you want to add a new subcategory, add it in [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) under the correct category, and provide the appropriate `url`. You can refer to the examples in the file.
+- If you want to add a new subcategory, add it in [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) under the correct category, and provide the appropriate `URL`. You can refer to the examples in the file.
 
 - Make sure to export the newly created JSON file in the index file.
 
@@ -61,7 +61,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
     > For example, if you export the subcategory name as `onlineCodeEditors` in `database/index.ts`, add the same name to `CategoryDescriptions.ts` using the following style:
 
-    > subcategoryName: 'description of this subcategory'
+    > subcategory name: 'description of this subcategory'
 
   - You can check out similar examples [here](components/TopBar/CategoryDescriptions.ts). It's essential to add a description when submitting a pull request to add a subcategory; to merge it in the codebase.
 
@@ -100,7 +100,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 - You can use [JSONLint](https://jsonlint.com/) to check the correctness of the JSON to avoid failing tests during pull requests.
 
 **NOTE**
-When adding _YouTube_ channel link, please specify _the language_ of the channel they are using to teach for example English, Hindi, Spanish etc. In cases where the language is NOT specified, then just remove the `language` property.
+When adding _YouTube_ channel links, please specify _the language_ of the channel they are using to teach for example English, Hindi, Spanish, etc. In cases where the language is not specified, then just remove the `language` property.
 
 > **⚠️Important**
 >
@@ -177,6 +177,54 @@ When adding _YouTube_ channel link, please specify _the language_ of the channel
      > If your pull request has merge conflicts with the `main` branch (GitHub checks for this automatically and notifies you), you are responsible for resolving them. You can do this by merging the `main` branch into your branch (`git pull upstream main`), and then pushing the updated branch to your fork (`git push`). If you need more tips, check out [Resolving a merge conflict on GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github).
 
 ---
+
+### Commit Message Guidelines using Commitlint
+
+We follow a standardized commit message format using Commitlint to ensure consistency and clarity in our commit history. Each commit message should adhere to the following guidelines:
+
+1. **Type**: The commit type must be one of the following:
+
+   - `feat`: A new feature or enhancement.
+   - `fix`: A bug fix.
+   - `docs`: Documentation changes.
+   - `style`: Code style changes (e.g., formatting, semicolons).
+   - `refactor`: Code refactorings with no feature changes or bug fixes.
+   - `test`: Adding or improving tests.
+   - `chore`: General maintenance tasks, build changes, etc.
+
+2. **Scope** (Optional): The scope provides context for the commit, indicating the specific part of the project being affected. Use a short description in lowercase (e.g., `auth`, `navbar`, `README`).
+
+3. **Description**: A brief and meaningful description of the changes made. Start with a capital letter and use the imperative mood (e.g., "Add new feature" instead of "Added new feature").
+
+4. **Issue reference** (Optional): Include the issue number associated with the commit (e.g., `#123`).
+
+### Examples:
+
+#### Valid Commit Messages:
+
+- `feat: Add user authentication feature`
+- `fix(auth): Resolve login page redirect issue
+- `docs: Update installation instructions
+- `style: Format code according to project guidelines
+- `refactor(navbar): Improve responsiveness`
+- `test: Add unit tests for API endpoints`
+- `chore: Update dependencies to latest versions
+- `fix: Handle edge case in data processing (#456)`
+
+#### Invalid Commit Messages:
+
+- `Added new stuff`
+- `Fixed a bug`
+- `Updated code`
+- `auth feature update`
+- `chore: fixed some stuff
+
+### Commit Example with Commitlint:
+
+```bash
+git commit -m "feat(auth): Implement user signup process (#789)"
+```
+  <hr>
 
 ## Remarks ✅
 

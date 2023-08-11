@@ -110,5 +110,12 @@
     "url": "https://ianlunn.github.io/Hover/",
     "category": "frontend",
     "subcategory": "animations"
+  },
+  {
+    "name": "Animate.css",
+    "description": "A library that provides a wide range of cross-browser CSS animations that you can easily add to your website.",
+    "url": "https://animate.style/",
+    "category": "frontend",
+    "subcategory": "animations"
   }
 ]
