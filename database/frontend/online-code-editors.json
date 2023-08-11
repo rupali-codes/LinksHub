@@ -117,5 +117,12 @@
     "url": "https://ide.geeksforgeeks.org/",
     "category": "frontend",
     "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Rextester IDE",
+    "description": "On Rextester, you can create a execution command for the program along with code compilation.",
+    "url": "https://rextester.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
   }
 ]
