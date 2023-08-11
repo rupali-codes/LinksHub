@@ -117,5 +117,12 @@
     "url": "https://ide.geeksforgeeks.org/",
     "category": "frontend",
     "subcategory": "online-code-editors"
+  },
+  {
+    "name": "CS Academy",
+    "description": "In addition to code compilation and execution, it consists of workspaces",
+    "url": "https://csacademy.com/workspace/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
   }
 ]
