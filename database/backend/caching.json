@@ -1,1 +1,52 @@
-[]
+[
+    {
+        "name": "Aws caching overview",
+        "description": "In computing, a cache is a high-speed data storage layer which stores a subset of data, typically transient in nature, so that future requests for that data are served up faster than is possible by accessing the data’s primary storage location. Caching allows you to efficiently reuse previously retrieved or computed data.",
+        "url": "https://aws.amazon.com/caching/",
+        "category": "backend",
+        "subcategory": "caching"
+    },
+    {
+        "name": "Redis",
+        "description": "Redis is an open-source, in-memory data structure store that can be used as a cache, message broker, and more.",
+        "url": "https://redis.io/",
+        "category": "backend",
+        "subcategory": "caching"
+    },
+    {
+        "name": "Memcached",
+        "description": "Memcached is a high-performance, distributed memory object caching system. It's commonly used to speed up dynamic database-driven websites.",
+        "url": "https://memcached.org/",
+        "category": "backend",
+        "subcategory": "caching"
+    },
+    {
+        "name": "Varnish Cache",
+        "description": "Varnish Cache is a powerful open-source HTTP accelerator and caching reverse proxy that significantly improves website performance.",
+        "url": "https://varnish-cache.org/",
+        "category": "backend",
+        "subcategory": "caching"
+    },
+    {
+        "name": "NGINX Caching",
+        "description": "NGINX is a popular web server that can also be used as a reverse proxy and caching solution, enhancing website performance.",
+        "url": "https://docs.nginx.com/nginx/admin-guide/content-cache/content-caching/",
+        "category": "backend",
+        "subcategory": "caching"
+    },
+    {
+        "name": "Cloudflare CDN",
+        "description": "Cloudflare is a content delivery network that offers caching, DDoS protection, and other performance-enhancing features.",
+        "url": "https://www.cloudflare.com/",
+        "category": "backend",
+        "subcategory": "caching / cdn"
+    },
+    {
+        "name": "cache-content: Improve App performance",
+        "description": "An article that explains caching fundamentals, caching types, and how caching improves performance.",
+        "url": "https://docs.digitalocean.com/products/app-platform/how-to/cache-content/",
+        "category": "learning",
+        "subcategory": "caching"
+    }
+    
+]
