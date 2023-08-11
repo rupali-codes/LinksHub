@@ -11,6 +11,8 @@ export const sidebarData: ISidebar[] = [
     category: 'frontend',
     subcategory: [
       { name: 'react js', url: '/react', resources: DB.react },
+      { name: 'next js', url: '/next', resources: DB.next },
+      { name: 'three js', url: '/three', resources: DB.three },
       { name: 'images', url: '/images', resources: DB.images },
       { name: 'fonts', url: '/fonts', resources: DB.fonts },
       { name: 'colors', url: '/colors', resources: DB.colors },
