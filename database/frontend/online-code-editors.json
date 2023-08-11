@@ -120,7 +120,7 @@
   },
   {
     "name": "CS Academy",
-    "description": "In addition to code compilation and execution, it consists of workspaces",
+    "description": "In addition to code compilation and execution, this source consists of workspaces",
     "url": "https://csacademy.com/workspace/",
     "category": "frontend",
     "subcategory": "online-code-editors"
