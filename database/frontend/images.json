@@ -159,5 +159,12 @@
     "url": "https://www.vectorstock.com/",
     "category": "frontend",
     "subcategory": "images"
+  },
+  {
+    "name": "FreeImages",
+    "description": "FreeImages is the one-stop shop for high-quality free photos and icons.",
+    "url": "https://www.freeimages.com/",
+    "category": "frontend",
+    "subcategory": "images"
   }
 ]
