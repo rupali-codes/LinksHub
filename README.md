@@ -5,16 +5,17 @@
 ## Table of Contents
 
 - [Welcome to LinksHub 👋](#welcome-to-linkshub-)
-- [Demo 💻](#demo-)
-- [Tech stack 📚](#tech-stack-)
-- [Socials 📱](#socials-)
-- [Getting Started 👩‍💻](#getting-started-)
-- [Let's jump right in🌟](#lets-jump-right-in)
-- [_Want to add your favorite links into the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
-- [Building with Gitpod 💣](#building-with-gitpod-)
-- [Our Contributors ✨](#our-contributors-)
-- [License 📝](#license-)
-- [Support ⭐](#support-)
+  - [Demo 💻](#demo-)
+  - [Tech stack 📚](#tech-stack-)
+  - [Socials 📱](#socials-)
+  - [Getting Started 👩‍💻](#getting-started-)
+    - [Let's jump right in🌟](#lets-jump-right-in)
+      - [_Want to add your favorite links into the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-into-the-hub-make-sure-to-follow-contributing-guidelines)
+  - [Building with Gitpod 💣](#building-with-gitpod-)
+  - [Top 50 Contributors ✨](#top-50-contributors-)
+  - [License 📝](#license-)
+  - [Past Initiatives](#past-initiatives)
+  - [Support ⭐](#support-)
 
 <a name="welcome-to-linkshub"></a>
 
@@ -28,7 +29,7 @@ We recognize that there's a wealth of information available, but often, it's a m
 
 ## Demo 💻
 
-You can see the live demo at: https://linkshub.vercel.app
+You can see the live demo at: <https://linkshub.vercel.app>
 
 <a name="tech-stack"></a>
 
@@ -154,6 +155,25 @@ _View the list of all contributors [here](https://github.com/rupali-codes/LinksH
 ## License 📝
 
 LinksHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENSE) for details.
+
+<a name="Past initiatives"></a>
+
+## Past Initiatives
+
+LinksHub is passionate about helping people from all backgrounds start their open source journey. Here are some initiatives that we have partaken in:
+ <table>
+  <tr>
+    <th>Name</th>
+    <th>Logo</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+    <td>GirlScript Summer of Code 2023 </td>
+    <td><img src="company_a_logo.png" alt="a black background with the text, GirlScript Summer of Code"></td>
+    <td>  3-month summer
+open source program with a mission to help students from India and beyond in developing their technical skills </td>
+  </tr>
+</table>
 
 <a name="support"></a>
 
