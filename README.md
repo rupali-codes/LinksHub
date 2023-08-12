@@ -9,7 +9,8 @@
 LinksHub is a Hub of Links `For Developers By Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
 
 We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to the right developers.
-## Past Initiatives
+<a name="Outreach"></a>
+## Outreach 
 
 We are passionate about helping people from all backgrounds start their open source journey. Here are some initiatives that we have partaken in:
  <table>
@@ -31,7 +32,7 @@ open source program with a mission to help students from India and beyond in dev
 ## Table of Contents
 
 - [Welcome to LinksHub 👋](#welcome-to-linkshub-)
-  - [Past Initiatives](#past-initiatives)
+  - [Outreach](#outreach)
   - [Table of Contents](#table-of-contents)
   - [Demo 💻](#demo-)
   - [Tech stack 📚](#tech-stack-)
