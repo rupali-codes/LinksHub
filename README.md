@@ -9,23 +9,41 @@
 LinksHub is a Hub of Links `For Developers By Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
 
 We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to the right developers.
+## Past Initiatives
+
+We are passionate about helping people from all backgrounds start their open source journey. Here are some initiatives that we have partaken in:
+ <table>
+  <tr>
+    <th>Name</th>
+    <th>Logo</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+    <td>GirlScript Summer of Code 2023 </td>
+    <td><img src="company_a_logo.png" alt="a black background with the text, GirlScript Summer of Code"></td>
+    <td>  3-month summer
+open source program with a mission to help students from India and beyond in developing their technical skills </td>
+  </tr>
+</table>
 
 <a name="demo"></a>
 
 ## Table of Contents
 
 - [Welcome to LinksHub 👋](#welcome-to-linkshub-)
-- [Demo 💻](#demo-)
-- [Tech stack 📚](#tech-stack-)
-- [Socials 📱](#socials-)
-- [Getting Started 👩‍💻](#getting-started-)
-  - [Let's jump right in🌟](#lets-jump-right-in)
-  - [_Want to add your favorite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favourite-links-to-the-hub-make-sure-to-follow-contributing-guidelines)
-  - [Want to add or update the descriptions of subcategories?](#want-to-add-or-update-the-descriptions-of-subcategories)
-- [Building with Gitpod 💣](#building-with-gitpod-)
-- [Top 50 Contributors ✨](#top-50-contributors-)
-- [License 📝](#license-)
-- [Support ⭐](#support-)
+  - [Past Initiatives](#past-initiatives)
+  - [Table of Contents](#table-of-contents)
+  - [Demo 💻](#demo-)
+  - [Tech stack 📚](#tech-stack-)
+  - [Socials 📱](#socials-)
+  - [Getting Started 👩‍💻](#getting-started-)
+    - [Let's jump right in🌟](#lets-jump-right-in)
+      - [_Want to add your favorite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-to-the-hub-make-sure-to-follow-contributing-guidelines)
+      - [Want to add or update the descriptions of subcategories?](#want-to-add-or-update-the-descriptions-of-subcategories)
+  - [Building with Gitpod 💣](#building-with-gitpod-)
+  - [Top 50 Contributors ✨](#top-50-contributors-)
+  - [License 📝](#license-)
+  - [Support ⭐](#support-)
 
 ## Demo 💻
 
