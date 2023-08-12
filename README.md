@@ -14,6 +14,7 @@
   - [Building with Gitpod 💣](#building-with-gitpod-)
   - [Top 50 Contributors ✨](#top-50-contributors-)
   - [License 📝](#license-)
+  - [Past Initiatives](#past-initiatives)
   - [Support ⭐](#support-)
 
 <a name="welcome-to-linkshub"></a>
@@ -157,7 +158,22 @@ LinksHub is licensed under the terms of MIT License. check out [LICENSE](https:/
 
 <a name="Past initiatives"></a>
 
+## Past Initiatives
 
+LinksHub is passionate about helping people from all backgrounds start their open source journey. Here are some initiatives that we have partaken in:
+ <table>
+  <tr>
+    <th>Name</th>
+    <th>Logo</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+    <td>GirlScript Summer of Code 2023 </td>
+    <td><img src="company_a_logo.png" alt="a black background with the text, GirlScript Summer of Code"></td>
+    <td>  3-month summer
+open source program with a mission to help students from India and beyond in developing their technical skills </td>
+  </tr>
+</table>
 
 <a name="support"></a>
 
