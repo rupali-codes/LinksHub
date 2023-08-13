@@ -42,7 +42,6 @@ const Search = () => {
     <>
       <Head>
         <title>{title}</title>
-        <meta name="theme-color" content="#202c46" />
         <meta name="title" content={title} />
         <meta
           name="description"
