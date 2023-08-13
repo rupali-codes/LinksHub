@@ -1,13 +1,15 @@
 import Head from 'next/head'
-import React, { useEffect } from 'react'
 import { useRouter } from 'next/router'
+import { useEffect, memo, useMemo } from 'react'
 
 import CardsList from 'components/Cards/CardsList'
 import { TopBar } from 'components/TopBar/TopBar'
 import ComingSoon from 'components/NewIssue/NewIssue'
-
-import useFilterSearch from 'hooks/useFilterSearch'
 import { useResults } from 'hooks/ResultsContext'
+
+import { database } from 'database/data'
+
+const MemoizedCardsList = memo(CardsList)
 
 const Search = () => {
   const { results, setResults } = useResults()
@@ -15,17 +17,19 @@ const Search = () => {
   const title = `LinksHub - ${router.asPath
     .charAt(1)
     .toUpperCase()}${router.asPath.slice(2)}`
+
   const query = router.query.query
-  const { filterSearch } = useFilterSearch()
+  const filteredCardsList = useMemo(
+    () => getFilteredCardsList(query as string),
+    [query]
+  )
 
   useEffect(() => {
     if (!query || query === '') router.replace('/');
   }, [query, router]);
 
-  let content: JSX.Element[] | JSX.Element
-  
-  const data = filterSearch(query as string);
-  
+
+  const data = filteredCardsList
   useEffect(() => {
     if (data.length > 0 && data.length !== -1) {
       setResults(data.length)
@@ -33,13 +37,7 @@ const Search = () => {
       setResults(0)
     }
   }, [data])
-
-  if (data.length > 0) {
-    content = <CardsList cards={data} />
-  } else {
-    content = <ComingSoon />
-  }
-
+  
   return (
     <>
       <Head>
@@ -102,10 +100,21 @@ const Search = () => {
         results={results}
       />
       <div className="min-h-[calc(100%-68px)] w-full pt-[85px] pb-4 md:min-h-[calc(100%-76px)] md:px-10 md:pt-10">
-        {content}
+        {filteredCardsList.length > 0 ? (
+          <MemoizedCardsList cards={filteredCardsList} />
+        ) : (
+          <ComingSoon />
+        )}
       </div>
     </>
   );
 };
 
-export default Search;
+const getFilteredCardsList = (query: string) =>
+  database
+    .map((c) =>
+      c.filter((r) => r.name.toLowerCase().includes(query?.toLowerCase()))
+    )
+    .flat()
+
+export default Search
