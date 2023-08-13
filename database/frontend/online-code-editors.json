@@ -84,20 +84,6 @@
     "subcategory": "online-code-editors"
   },
   {
-    "name": "HackerRank",
-    "description": "An online IDE to practice your competitive programming skills. It allows you to code in multiple languages.",
-    "url": "https://www.hackerrank.com/",
-    "category": "frontend",
-    "subcategory": "online-code-editors"
-  },
-  {
-    "name": "LeetCode",
-    "description": "LeetCode is the best platform to help you enhance your programming skills, and expand your knowledge.",
-    "url": "https://leetcode.com/",
-    "category": "frontend",
-    "subcategory": "online-code-editors"
-  },
-  {
     "name": "Programiz",
     "description": "Learn to program with our beginner-friendly tutorials and examples. Read tutorials, try examples, write code, and learn to program.",
     "url": "https://www.programiz.com/",
@@ -129,6 +115,13 @@
     "name": "GeeksforGeeks",
     "description": " It is a free online compiler and debugger where programmers and developers can compile and run their code.",
     "url": "https://ide.geeksforgeeks.org/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Jdoodle",
+    "description": " It is a free online compiler and code editor to save, run and share code anytime",
+    "url": "https://www.jdoodle.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
   }

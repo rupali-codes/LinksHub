@@ -11,6 +11,8 @@ export { default as onlineCodeEditors } from './frontend/online-code-editors.jso
 export { default as themesTemplates } from './frontend/themes-templates.json'
 export { default as uiGenerators } from './frontend/ui-generators.json'
 export { default as react } from './frontend/react.json'
+export { default as next } from './frontend/next.json'
+export { default as three } from './frontend/three.json'
 export { default as videos } from './frontend/videos.json'
 // backend
 export { default as authentication } from './backend/authentication.json'
@@ -89,3 +91,5 @@ export { default as devtools } from './other/devtools.json'
 export { default as podcasts } from './other/podcasts.json'
 export { default as otherResources } from './other/other-resources.json'
 export { default as communities } from './other/communities.json'
+// competitive programming
+export {default as platforms } from './competitive_programming/platforms.json'

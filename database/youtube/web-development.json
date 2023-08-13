@@ -302,5 +302,37 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
+  },
+  {
+    "name": "The Coder Coder",
+    "description": "This site provides practical tips for beginner web developers.",
+    "url": "https://www.youtube.com/c/TheCoderCoder",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+ {
+    "name": "Level Up Tuts",
+    "description": "2000+ free video tutorials created, recorded, edited, published, and maintained by Scott Tolinski.",
+    "url": "https://www.youtube.com/c/leveluptuts",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Devtips",
+    "description": "This channel deep dives into the world of Web Development.",
+    "url": "https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Joseph Smith",
+    "description": "Learn programming and building with languages like HTML,CSS ,PHP, and much more.",
+    "url": "https://www.youtube.com/c/TheHelpingDevelop/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
   }
 ]
