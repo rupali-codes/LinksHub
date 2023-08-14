@@ -1,18 +1,20 @@
 import { database } from 'database/data'
 import { useRouter } from 'next/router'
-import { IData, IUseFilterDBResponse } from 'types'
+import { IData } from 'types'
+import { useResults } from './ResultsContext'
 
-const useFilterDB = (): IUseFilterDBResponse => {
+const useFilterDB = (subcategory: string) => {
   const router = useRouter()
-  const { subcategory } = router.query
-  if (typeof subcategory !== 'string') {
-    throw new Error(
-      'UseFilterDB Error: Response of Router Query is not a string'
-    )
+  const { results } = useResults()
+
+  let pageCategory = subcategory
+  if (typeof window !== 'undefined') {
+    pageCategory = router.asPath.slice(1)
   }
+
   // This filters trough the DB with the subcategory which results in an array of arrays
   const filterSubCat = database?.map((item) =>
-    item?.filter((cat: IData) => cat.subcategory.includes(subcategory))
+    item?.filter((cat: IData) => cat.subcategory.includes(pageCategory))
   )
 
   // This filters out an empty array from the filterSubCat
@@ -21,6 +23,8 @@ const useFilterDB = (): IUseFilterDBResponse => {
   return {
     filterSubCat,
     filterDB,
+    results,
+    pageCategory
   }
 }
 

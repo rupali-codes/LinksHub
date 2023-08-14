@@ -68,11 +68,6 @@ export interface IContext {
   toggleNav?: () => void
 }
 
-export interface IUseFilterDBResponse {
-  filterSubCat: IData[][]
-  filterDB: IData[][]
-}
-
 export const subcategoryArray = [
   // devops
   'cicd',

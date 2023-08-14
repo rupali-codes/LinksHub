@@ -75,7 +75,7 @@ export const sidebarData: ISidebar[] = [
       },
       { name: 'database', url: '/database', resources: DB.database },
       {
-        name:'APIs',
+        name: 'APIs',
         url: '/api',
         resources: DB.api,
       }
@@ -123,7 +123,7 @@ export const sidebarData: ISidebar[] = [
       {
         name: 'Videos',
         url: '/open-source-videos',
-        resources: DB.openSourceVideos, 
+        resources: DB.openSourceVideos,
       },
     ],
   },
@@ -269,3 +269,5 @@ export const sidebarData: ISidebar[] = [
     ],
   },
 ]
+
+export const subCategories = sidebarData.flatMap(({ subcategory }) => subcategory.map(({ url }) => url.replace('/', '')))
