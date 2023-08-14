@@ -16,10 +16,12 @@ export const Preloader = ({
   const [showLoader, setShowLoader] = useState(true)
 
   useEffect(() => {
-    setTimeout(() => {
+    const timerId = setTimeout(() => {
       setShowLoader(false)
     }, LOADER_TIMEOUT)
-  })
+
+    return () => {clearTimeout(timerId)}
+  }, [])
 
   return (
     <>

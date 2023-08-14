@@ -8,6 +8,7 @@ import ComingSoon from 'components/NewIssue/NewIssue'
 import { subCategories } from 'database/data'
 import { GetStaticProps, NextPage } from 'next'
 import { ParsedUrlQuery } from 'querystring'
+
 interface PageProps {
   subcategory: string
 }
