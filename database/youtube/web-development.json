@@ -318,5 +318,21 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
+  },
+  {
+    "name": "Devtips",
+    "description": "This channel deep dives into the world of Web Development.",
+    "url": "https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Joseph Smith",
+    "description": "Learn programming and building with languages like HTML,CSS ,PHP, and much more.",
+    "url": "https://www.youtube.com/c/TheHelpingDevelop/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
   }
 ]

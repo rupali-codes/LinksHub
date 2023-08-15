@@ -70,5 +70,13 @@
     "category": "youtube",
     "subcategory": "machine-learning",
     "language": "english"
+  },
+  {
+    "name": "CodeBasics",
+    "description": "Learn simple programming, data science, data analytics, artificial intelligence, machine learning, data structures, software architecture and much more.",
+    "url": "https://youtube.com/@codebasics",
+    "category": "youtube",
+    "subcategory": "machine-learning",
+    "language": "english"
   }
 ]

@@ -44,7 +44,7 @@ export type Category =
   | 'youtube'
   | 'other'
   | 'devops'
-  | 'competitive_programming'
+  | 'cp - competitive pro'
 
 export type SubCategories = {
   name: string
@@ -92,6 +92,8 @@ export const subcategoryArray = [
   'images',
   'online-code-editors',
   'react',
+  'next-js',
+  'three-js',
   'themes-templates',
   'ui-generators',
   'videos',
