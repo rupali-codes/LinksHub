@@ -41,7 +41,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
   > For example, create a folder named `Resources`
 
-- If you want to add a new subcategory, add it in [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) under the correct category, and provide the appropriate `url`. You can refer to the examples in the file.
+- If you want to add a new subcategory, add it in [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) under the correct category, and provide the appropriate `URL`. You can refer to the examples in the file.
 
 - Make sure to export the newly created JSON file in the index file.
 
@@ -61,7 +61,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
     > For example, if you export the subcategory name as `onlineCodeEditors` in `database/index.ts`, add the same name to `CategoryDescriptions.ts` using the following style:
 
-    > subcategoryName: 'description of this subcategory'
+    > subcategory name: 'description of this subcategory'
 
   - You can check out similar examples [here](components/TopBar/CategoryDescriptions.ts). It's essential to add a description when submitting a pull request to add a subcategory; to merge it in the codebase.
 
@@ -100,7 +100,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 - You can use [JSONLint](https://jsonlint.com/) to check the correctness of the JSON to avoid failing tests during pull requests.
 
 **NOTE**
-When adding _YouTube_ channel link, please specify _the language_ of the channel they are using to teach for example English, Hindi, Spanish etc. In cases where the language is NOT specified, then just remove the `language` property.
+When adding _YouTube_ channel links, please specify _the language_ of the channel they are using to teach for example English, Hindi, Spanish, etc. In cases where the language is not specified, then just remove the `language` property.
 
 > **⚠️Important**
 >
@@ -152,33 +152,7 @@ When adding _YouTube_ channel link, please specify _the language_ of the channel
 - If you decide to close the issue, please leave a brief comment describing why(e.g., I'm busy with other obligations.) before you do.
 - **Note:** If the Pull Request associated with the issue gets merged and the issue still remains open, it's **your** responsibility to close the issue.
 
-## Commits
-
-- Please keep your commit messages short and clear.
-- Use the `type: subject` format for writing your commit messages. `type` could be one of the following:
-  - `feat`: use this if you're adding any new feature
-  - `fix`: use this if you're fixing anything in the codebase
-  - `chore`: use this when you're adding new links/resources AND when making any small changes
-    (ex. chore: add _resource_name_ in _subcategory_name_ _category_name_ )
-    If you need more tips, check out [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-
-## Making Pull Requests
-
-1. When you submit a pull request, several tests are automatically run
-   as GitHub Actions. If any of these tests fail, it is your responsibility to try and resolve the underlying issue(s). If you don't know how to resolve the underlying issue(s), you can ask for help.
-
-2. Each pull request should contain a single logical change or related set of changes that make sense to submit together. If a pull request becomes too large or contains too many unrelated changes, it becomes too difficult to review. In such cases, the reviewer has the right to close your pull request and ask that you submit a separate pull request for each logical set of changes that belong together.
-
-3. Link the issue you have resolved in the Pull Request Template (e.g. Closes/Fixes #99).
-4. Use [Conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/) for your changes.
-5. Do not re-open a pull request that a reviewer has closed.
-   - Make sure to tick the "Allow edits from maintainers" box. This allows us to directly make minor edits / refactors and saves a lot of time.
-     > **Note**
-     > If your pull request has merge conflicts with the `main` branch (GitHub checks for this automatically and notifies you), you are responsible for resolving them. You can do this by merging the `main` branch into your branch (`git pull upstream main`), and then pushing the updated branch to your fork (`git push`). If you need more tips, check out [Resolving a merge conflict on GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github).
-
----
-
-### Commit Message Guidelines using Commitlint
+## Commits Message Guidelines
 
 We follow a standardized commit message format using Commitlint to ensure consistency and clarity in our commit history. Each commit message should adhere to the following guidelines:
 
@@ -198,26 +172,24 @@ We follow a standardized commit message format using Commitlint to ensure consis
 
 4. **Issue reference** (Optional): Include the issue number associated with the commit (e.g., `#123`).
 
-### Examples:
-
-#### Valid Commit Messages:
+#### Examples of Valid Commit Messages:
 
 - `feat: Add user authentication feature`
-- `fix(auth): Resolve login page redirect issue`
-- `docs: Update installation instructions`
-- `style: Format code according to project guidelines`
+- `fix(auth): Resolve login page redirect issue
+- `docs: Update installation instructions
+- `style: Format code according to project guidelines
 - `refactor(navbar): Improve responsiveness`
 - `test: Add unit tests for API endpoints`
-- `chore: Update dependencies to latest versions`
+- `chore: Update dependencies to latest versions
 - `fix: Handle edge case in data processing (#456)`
 
-#### Invalid Commit Messages:
+#### Examples of Invalid Commit Messages:
 
 - `Added new stuff`
 - `Fixed a bug`
 - `Updated code`
 - `auth feature update`
-- `chore: fixed some stuff`
+- `chore: fixed some stuff
 
 ### Commit Example with Commitlint:
 
@@ -225,6 +197,22 @@ We follow a standardized commit message format using Commitlint to ensure consis
 git commit -m "feat(auth): Implement user signup process (#789)"
 ```
   <hr>
+
+## Making Pull Requests
+
+1. When you submit a pull request, several tests are automatically run
+   as GitHub Actions. If any of these tests fail, it is your responsibility to try and resolve the underlying issue(s). If you don't know how to resolve the underlying issue(s), you can ask for help.
+
+2. Each pull request should contain a single logical change or related set of changes that make sense to submit together. If a pull request becomes too large or contains too many unrelated changes, it becomes too difficult to review. In such cases, the reviewer has the right to close your pull request and ask that you submit a separate pull request for each logical set of changes that belong together.
+
+3. Link the issue you have resolved in the Pull Request Template (e.g. Closes/Fixes #99).
+4. Use [Conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/) for your changes.
+5. Do not re-open a pull request that a reviewer has closed.
+   - Make sure to tick the "Allow edits from maintainers" box. This allows us to directly make minor edits / refactors and saves a lot of time.
+     > **Note**
+     > If your pull request has merge conflicts with the `main` branch (GitHub checks for this automatically and notifies you), you are responsible for resolving them. You can do this by merging the `main` branch into your branch (`git pull upstream main`), and then pushing the updated branch to your fork (`git push`). If you need more tips, check out [Resolving a merge conflict on GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github).
+
+---
 
 ## Remarks ✅
 

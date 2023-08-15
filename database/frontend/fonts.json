@@ -68,5 +68,12 @@
         "url": "https://www.dafont.com/",
         "category": "frontend",
         "subcategory": "fonts"
+    },
+    {
+        "name": "Adobe Fonts",
+        "description": "Adobe Fonts partners with the world's leading type foundries to bring thousands of beautiful fonts to designers every day.",
+        "url": "https://fonts.adobe.com/",
+        "category": "frontend",
+        "subcategory": "fonts"
     }
 ]
