@@ -119,6 +119,13 @@
     "subcategory": "online-code-editors"
   },
   {
+    "name": "Rextester IDE",
+    "description": "With Rextester, you can create a execution command for the program along with code compilation.",
+    "url": "https://rextester.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
     "name": "CS Academy",
     "description": "In addition to code compilation and execution, this source consists of workspaces",
     "url": "https://csacademy.com/workspace/",
