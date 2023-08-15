@@ -118,6 +118,13 @@
     "category": "frontend",
     "subcategory": "online-code-editors"
   },
+   {
+    "name": "Ideone",
+    "description": " Ideone is an online compiler and debugging tool that allows developers to compile source code and execute it online in more than 60 programming languages.",
+    "url": "https://ideone.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
   {
     "name": "Jdoodle",
     "description": " It is a free online compiler and code editor to save, run and share code anytime",
