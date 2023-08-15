@@ -13,7 +13,14 @@
     "category": "competitive_programming",
     "subcategory": "platforms"
   },
-   {
+  {
+    "name": "Atcoder",
+    "description": "AtCoder is a programming contest site for beginners to experts.",
+    "url": "https://atcoder.jp/",
+    "category": "competitive_programming",
+    "subcategory": "platforms"
+  },
+  {
     "name": "Codeforces",
     "description": "Codeforces is a website for practicing competitive programming",
     "url": "https://codeforces.com/",
