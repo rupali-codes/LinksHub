@@ -13,6 +13,13 @@
     "category": "competitive_programming",
     "subcategory": "platforms"
   },
+   {
+    "name": "Codeforces",
+    "description": "Codeforces is a website for practicing competitive programming",
+    "url": "https://codeforces.com/",
+    "category": "competitive_programming",
+    "subcategory": "platforms"
+  },
   {
     "name": "SPOJ",
     "description": "SPOJ is an online judge system with over 315,000 registered users and over 20,000 problems.",
