@@ -118,6 +118,13 @@
     "category": "frontend",
     "subcategory": "online-code-editors"
   },
+  {
+    "name": "CS Academy",
+    "description": "In addition to code compilation and execution, this source consists of workspaces",
+    "url": "https://csacademy.com/workspace/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
    {
     "name": "Ideone",
     "description": " Ideone is an online compiler and debugging tool that allows developers to compile source code and execute it online in more than 60 programming languages.",
