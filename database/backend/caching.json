@@ -1,51 +1,52 @@
 [
     {
-        "name": "AWS Caching Overview",
-        "description": "Accelerate application speed by storing data in a high-speed layer. Reuse fetched data efficiently, optimizing performance.",
+        "name": "Aws caching overview",
+        "description": "In computing, a cache is a high-speed data storage layer that stores a subset of data. It's typically transient in nature so that future requests for said data are served up faster than is possible, which then accesses the data’s primary storage location. Caching also allows developers to efficiently reuse previously retrieved or computed data.",
         "url": "https://aws.amazon.com/caching/",
         "category": "backend",
         "subcategory": "caching"
     },
     {
         "name": "Redis",
-        "description": "Supercharge your app with Redis. Use it as a fast cache and more for improved responsiveness.",
+        "description": "Redis is an open-source, in-memory data structure store that can be used as a cache, message broker, and more.",
         "url": "https://redis.io/",
         "category": "backend",
         "subcategory": "caching"
     },
     {
         "name": "Memcached",
-        "description": "Speed up dynamic websites using Memcached. Enhance user experiences with faster data retrieval.",
+        "description": "Memcached is a high-performance, distributed memory object caching system. It's commonly used to speed up dynamic database-driven websites.",
         "url": "https://memcached.org/",
         "category": "backend",
         "subcategory": "caching"
     },
     {
         "name": "Varnish Cache",
-        "description": "Optimize website performance using Varnish Cache. Swift content delivery for a better user experience.",
+        "description": "Varnish Cache is a powerful open-source HTTP accelerator and caching reverse proxy that significantly improves website performance.",
         "url": "https://varnish-cache.org/",
         "category": "backend",
         "subcategory": "caching"
     },
     {
         "name": "NGINX Caching",
-        "description": "Boost site speed with NGINX. Serve content faster using reverse proxy and caching.",
+        "description": "NGINX is a popular web server that can also be used as a reverse proxy and caching solution, enhancing website performance.",
         "url": "https://docs.nginx.com/nginx/admin-guide/content-cache/content-caching/",
         "category": "backend",
         "subcategory": "caching"
     },
     {
         "name": "Cloudflare CDN",
-        "description": "Enhance content delivery with Cloudflare CDN. Faster interactions and protection against DDoS.",
+        "description": "Cloudflare is a content delivery network that offers caching, DDoS protection, and other performance-enhancing features.",
         "url": "https://www.cloudflare.com/",
         "category": "backend",
-        "subcategory": "caching"
+        "subcategory": "caching / cdn"
     },
     {
-        "name": "Cache-Content: Improve App Performance",
-        "description": "Learn caching basics and optimize app performance. Reduce latency and improve user satisfaction.",
+        "name": "cache-content: Improve App performance",
+        "description": "An article that explains caching fundamentals, caching types, and how caching improves performance.",
         "url": "https://docs.digitalocean.com/products/app-platform/how-to/cache-content/",
-        "category": "backend",
+        "category": "learning",
         "subcategory": "caching"
     }
+    
 ]
