@@ -27,7 +27,6 @@ const SubCategory = () => {
     <>
       <Head>
         <title>{title}</title>
-        <meta name="theme-color" content="#202c46" />
         <meta name="title" content="LinksHub" />
         <meta
           name="description"

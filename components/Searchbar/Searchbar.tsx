@@ -1,71 +1,80 @@
-import React, { useState, useRef } from 'react'
+import { useRef, useEffect } from 'react'
+
 import SearchIcon from 'assets/icons/SearchIcon'
-import { useRouter } from 'next/router'
+import { SearchbarSuggestions } from './SearchbarSuggestions'
+import { ErrorMessage } from 'components/ErrorMessage'
+
 import { subcategoryArray } from '../../types'
+import { SearchbarAction } from './SearchbarReducer'
+import { useRouter } from 'next/router'
 
 interface SearchbarProps {
-  setSearch: (search: string) => void
+  dispatchSearch: (action: SearchbarAction) => void
+  searchQuery: string
+  showSuggestions: boolean
+  searchQueryIsValid: boolean
 }
 
-export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
+const searchOptions = subcategoryArray
+const SEARCH_ERROR_MSG = 'Please enter a valid search query'
+
+export const Searchbar: React.FC<SearchbarProps> = ({
+  dispatchSearch,
+  searchQuery,
+  showSuggestions,
+  searchQueryIsValid,
+}) => {
+  const formRef = useRef<HTMLFormElement>(null)
   const router = useRouter()
-  const query = router.query.query
-  const [searchQuery, setSearchQuery] = useState((query as string) ?? '')
-  const [errorMessage, setErrorMessage] = useState('')
-  const [suggestions, setSuggestions] = useState<string[]>([])
-  const dropdownRef = useRef<HTMLUListElement>(null)
+  const suggestions = getFilteredSuggestions(searchQuery)
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value
-    setSearchQuery(value)
-
-    const trimmedValue = value.trim().toLowerCase()
-    if (trimmedValue === '') {
-      setErrorMessage('')
-      setSuggestions([])
-      setSearch('')
-    } else {
-      const filteredSuggestions = subcategoryArray.filter((option) =>
-        option.toLowerCase().includes(trimmedValue)
-      )
-      setSuggestions(filteredSuggestions)
-    }
+    dispatchSearch({
+      type: 'search_query_change',
+      searchQuery: e.target.value,
+    })
   }
 
-  const handleSuggestionClick = (suggestion: string) => {
-    setSearchQuery(suggestion)
-    setSearch(suggestion)
-    setSuggestions([])
+  const handleSuggestionClick = (searchQuery: string) => {
+    dispatchSearch({ type: 'suggestion_click', searchQuery })
+    router.push({
+      pathname: '/search',
+      query: {
+        query: searchQuery,
+      },
+    })
   }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    if (searchQuery.trim() === '') {
-      setErrorMessage('Please enter a search query')
-    } else {
-      setErrorMessage('')
-      setSearch(searchQuery)
+
+    dispatchSearch({ type: 'submit' })
+    if (searchQuery.trim() !== '') {
+      router.push({
+        pathname: '/search',
+        query: {
+          query: searchQuery,
+        },
+      })
     }
   }
 
-  const handleClickOutsideDropdown = (e: MouseEvent) => {
-    if (
-      dropdownRef.current &&
-      !dropdownRef.current.contains(e.target as Node)
-    ) {
-      setSuggestions([])
+  useEffect(() => {
+    const handleClickOutsideDropdown = (e: MouseEvent) => {
+      if ((formRef.current as HTMLFormElement).contains(e.target as Node))
+        return
+      dispatchSearch({ type: 'close_suggestions' })
     }
-  }
 
-  React.useEffect(() => {
     document.addEventListener('mousedown', handleClickOutsideDropdown)
+
     return () => {
       document.removeEventListener('mousedown', handleClickOutsideDropdown)
     }
-  }, [])
+  }, [dispatchSearch])
 
   return (
-    <form onSubmit={handleSubmit} noValidate>
+    <form noValidate ref={formRef} onSubmit={handleSubmit}>
       <div className="relative">
         <div className="flex items-center" role="search">
           <label htmlFor="simple-search" className="sr-only">
@@ -90,24 +99,31 @@ export const Searchbar: React.FC<SearchbarProps> = ({ setSearch }) => {
             <SearchIcon className="w-5 h-5" aria-hidden="true" />
           </button>
         </div>
-        {suggestions.length > 0 && (
-          <ul
-            ref={dropdownRef}
-            className="absolute z-10 text-light-primary bg-theme-secondary w-full mt-1 rounded-lg shadow-2xl"
-          >
-            {suggestions.map((suggestion) => (
-              <li
-                key={suggestion}
-                className="px-4 py-2 cursor-pointer hover:bg-[rgba(0,0,0,0.2)] capitalize"
-                onClick={() => handleSuggestionClick(suggestion)}
-              >
-                {suggestion.split('-').join(' ')}
-              </li>
-            ))}
-          </ul>
+        {suggestions.length > 0 && showSuggestions && (
+          <SearchbarSuggestions
+            suggestions={suggestions}
+            onSuggestionClick={handleSuggestionClick}
+          />
         )}
       </div>
-      {errorMessage && <p className="text-red-500">{errorMessage}</p>}
+      {!searchQueryIsValid && <ErrorMessage>{SEARCH_ERROR_MSG}</ErrorMessage>}
     </form>
   )
+}
+
+const getFilteredSuggestions = (query: string) => {
+  const normalisedQuery = query.trim().toLowerCase()
+  if (normalisedQuery.length === 0) {
+    return []
+  }
+
+  const suggestions = new Set<string>([])
+  searchOptions.forEach((option) => {
+    const normalisedOption = option.toLowerCase()
+    if (normalisedOption.includes(normalisedQuery)) {
+      suggestions.add(normalisedOption)
+    }
+  })
+
+  return Array.from(suggestions)
 }

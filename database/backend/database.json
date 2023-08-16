@@ -61,5 +61,12 @@
     "url": "https://docs.aws.amazon.com/amplify/",
     "category": "backend",
     "subcategory": "database"
+  },
+  {
+    "name": "GraphQL",
+    "description": "GraphQL provides a comprehensive description of the data in your API, which gives clients the power to ask for exactly what they need and nothing more and make it easier to evolve APIs over time. It also enables powerful developer tools.",
+    "url": "https://graphql.org/",
+    "category": "backend",
+    "subcategory": "database"
   }
 ]
