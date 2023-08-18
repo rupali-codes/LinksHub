@@ -14,6 +14,27 @@
     "subcategory": "platforms"
   },
   {
+    "name": "Atcoder",
+    "description": "AtCoder is a programming contest site for beginners to experts.",
+    "url": "https://atcoder.jp/",
+    "category": "competitive_programming",
+    "subcategory": "platforms"
+  },
+  {
+    "name": "Codeforces",
+    "description": "Codeforces is a website for practicing competitive programming",
+    "url": "https://codeforces.com/",
+    "category": "competitive_programming",
+    "subcategory": "platforms"
+  },
+  {
+    "name": "SPOJ",
+    "description": "SPOJ is an online judge system with over 315,000 registered users and over 20,000 problems.",
+    "url": "https://www.spoj.com/",
+    "category": "competitive_programming",
+    "subcategory": "platforms"
+  },
+  {
     "name": "Geek for Geeks",
     "description": "This website is the best place to practice programming problems, review company interview questions, and improve your coding skills",
     "url": "https://practice.geeksforgeeks.org/",
