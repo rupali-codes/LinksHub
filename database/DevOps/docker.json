@@ -5,5 +5,12 @@
         "url": "https://www.mygreatlearning.com/blog/docker-tutorial/",
         "category": "DevOps",
         "subcategory": "docker"
+    },
+    {
+        "name":"Docker",
+        "description":"In this free video series, you will learn the basics of Docker and containerization..",
+        "url":"https://kodekloud.com/lessons/introduction-9/",
+        "category":"DevOps",
+        "subcategory":"docker"
     }
 ]
