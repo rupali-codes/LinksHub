@@ -119,6 +119,13 @@
     "subcategory": "online-code-editors"
   },
   {
+    "name": "Coding Blocks",
+    "description": "In addition to the IDE with code completion, you can also create an account to save your code on the server and share it with others.",
+    "url": "https://ide.codingblocks.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
+  },
+  {
     "name": "Rextester IDE",
     "description": "With Rextester, you can create a execution command for the program along with code compilation.",
     "url": "https://rextester.com/",
