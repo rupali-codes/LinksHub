@@ -46,5 +46,14 @@
     "category": "youtube",
     "subcategory": "testing",
     "language": "english"
+  },
+
+  {
+    "name": "SDET- QA Automation Techie",
+    "description": "This channel has educational videos on software testing & automation tools to help beginners and experienced professionals.",
+    "url": "https://www.youtube.com/@sdetpavan",
+    "category": "youtube",
+    "subcategory": "testing",
+    "language": "english"
   }
 ]
