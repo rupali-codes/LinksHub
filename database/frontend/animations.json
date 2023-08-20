@@ -117,5 +117,12 @@
     "url": "https://animate.style/",
     "category": "frontend",
     "subcategory": "animations"
+  },
+  {
+    "name": "codrops",
+    "description": "Codrops is a leading web design and development blog that offers tutorials, examples, and inspiration for creative animations and interactions.",
+    "url": "https://tympanus.net/codrops/",
+    "category": "frontend",
+    "subcategory": "animations"
   }
 ]
