@@ -152,7 +152,7 @@ export const subcategoryArray = [
   'game-development',
   'machine-learning',
   'tensorflow',
-  'testing',
+  'software-testing',
   'web-development',
   'web3-metaverse',
   // other
