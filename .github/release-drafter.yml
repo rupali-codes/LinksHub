@@ -6,27 +6,27 @@ categories:
       - "📈 Major"
   - title: "🚀 New Features"
     labels:
-      - "🛠 Feature"
+      - "feature"
   - title: "🐛 Bug Fixes"
     labels:
-      - "🐞 Bug"
+      - "patch"
       - "📄 aspect: docs"
   - title: "🧰 Maintenance"
     labels: 
       - "chore"
       - "dependencies"
 change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
-change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
+change-title-escapes: '\<*_&' 
 version-resolver:
   major:
     labels:
       - "📈 Major"
   minor:
     labels:
-      - "🛠 Feature"
+      - "feature"
   patch:
     labels:
-      - "🐞 Bug"
+      - "patch"
       - "dependencies"
       - "📄 aspect: docs"
   default: patch
