@@ -27,4 +27,12 @@
     "category": "languages",
     "subcategory": "golang"
   }
+  ,
+  {
+    "name": "Go Programming – Golang Course with Bonus Projects",
+    "description": "In this beginner-level Golang course, you'll practice writing performant, idiomatic Go with these hands-on lessons and challenges.",
+    "url": "https://www.youtube.com/watch?v=un6ZyFkqFKo",
+    "category": "languages",
+    "subcategory": "golang"
+  }
 ]
