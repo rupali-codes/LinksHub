@@ -1,0 +1,33 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "hostRequirements": {
+    "cpus": 4
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "pnpm install",
+  "postCreateCommand": [
+    "pnpm install -D tailwindcss@latest postcss@latest autoprefixer@latest",
+    "pnpm install -D typescript @types/react @types/node",
+    "pnpm install next react react-dom"
+  ],
+  "postAttachCommand": {
+    "server": "pnpm run dev"
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["src/App.tsx"]
+    }
+  },
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [3000],
+  "extensions": [
+    "octref.vetur",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ]
+}
