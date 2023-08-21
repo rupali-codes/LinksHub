@@ -34,5 +34,3 @@ body:
         - label: 'I am willing to work on this issue (optional).'
           required: false
 
-        - label: 'I am a GSSoC23 contributor.'
-          required: false
