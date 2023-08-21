@@ -225,9 +225,9 @@ export const sidebarData: ISidebar[] = [
         resources: DB.web3metaverse,
       },
       {
-        name: 'Testing',
-        url: '/testing',
-        resources: DB.testing,
+        name: 'Software Testing',
+        url: '/software-testing',
+        resources: DB.softwareTesting,
       },
       {
         name: 'Computer Science',
