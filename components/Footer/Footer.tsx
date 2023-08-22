@@ -6,9 +6,8 @@ export const Footer: FC = () => {
   const { resolvedTheme } = useTheme()
   const isDarkMode = resolvedTheme === 'dark'
 
-  const nameStyles = `underline ${
-    isDarkMode ? 'text-light-primary' : 'text-theme-secondary'
-  } `
+  const nameStyles = ` ${isDarkMode ? 'text-light-primary' : 'text-theme-secondary'
+    } `
 
   return (
     <footer className="z-10 mb-4 flex w-full items-baseline justify-center rounded-lg py-2 backdrop-blur-md sm:py-3">
