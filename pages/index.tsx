@@ -21,7 +21,6 @@ export default function Home() {
           content="LinksHub is the ultimate hub of ready-to-use tech resources. Discover free tools and libraries to streamline your development process and build better projects."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#202c46" />
         <meta
           name="keywords"
           content="LinksHub, developers, free resources, tools, software, libraries, frameworks, applications, websites"

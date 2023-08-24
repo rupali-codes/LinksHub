@@ -16,7 +16,7 @@ export const Footer: FC = () => {
         <span>&copy; {new Date().getFullYear()} LinksHub | </span>
         Developed by{' '}
         <Link
-          href="https://linkfree.io/rupali-codes"
+          href="https://rupali-codes.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub Profile of Rupali Haldiya"

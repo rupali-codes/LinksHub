@@ -65,7 +65,7 @@ const categoryDescriptions: CategoryDescriptions = {
   'game development': 'Game development is the process of creating games for various platforms. It involves different stages and aspects, such as design, development, release, storyboarding, writing, audio, art, coding, music, animation, modelling, testing and marketing. ',
   'machine learning': 'Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. ',
   tensorflow: 'TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.',
-  youtubeTesting: 'Testing is executing a system in order to identify any gaps, errors, or missing requirements. For example, YouTube also uses A/B testing to test different versions of their website to see which version performs better.',
+  'software testing': 'Testing is executing a system in order to identify any gaps, errors, or missing requirements.For example, YouTube also uses A/ B testing to test different versions of their website to see which version performs better.',
   'web development': 'Web development is the process of building, programming, and maintaining websites and web applications. It involves various disciplines such as web design, coding, programming, database management, and web server administration.',
   'web3 metaverse': 'Web3 is the next generation of the internet. It is a decentralized network that allows users to interact with each other without the need for intermediaries. ',
   // other

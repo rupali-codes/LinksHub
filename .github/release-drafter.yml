@@ -1,0 +1,35 @@
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
+categories:
+  - title: "🚧 Huge Updates"
+    labels:
+      - "📈 Major"
+  - title: "🚀 New Features"
+    labels:
+      - "feature"
+  - title: "🐛 Bug Fixes"
+    labels:
+      - "patch"
+      - "📄 aspect: docs"
+  - title: "🧰 Maintenance"
+    labels: 
+      - "chore"
+      - "dependencies"
+change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
+change-title-escapes: '\<*_&' 
+version-resolver:
+  major:
+    labels:
+      - "📈 Major"
+  minor:
+    labels:
+      - "feature"
+  patch:
+    labels:
+      - "patch"
+      - "dependencies"
+      - "📄 aspect: docs"
+  default: patch
+template: |
+
+  $CHANGES

@@ -9,27 +9,47 @@
 LinksHub is a Hub of Links `For Developers By Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
 
 We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to the right developers.
+<a name="Outreach"></a>
+
+## Outreach
+
+We are passionate about helping people from all backgrounds start their open source journey. Here are some initiatives that we have partaken in:
+ <table>
+  <tr>
+    <th>Name</th>
+    <th>Logo</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+    <td>GirlScript Summer of Code 2023 </td>
+    <td><img src="https://github.com/rupali-codes/LinksHub/assets/105683440/3ce6a1f0-0b6a-44e5-9a78-842bae0a670d" alt="a white background with the text, GirlScript Summer of Code next to an orange flower"></td>
+    <td>  3-month summer
+open source program with a mission to help students from India and beyond in developing their technical skills </td>
+  </tr>
+</table>
 
 <a name="demo"></a>
 
 ## Table of Contents
 
 - [Welcome to LinksHub 👋](#welcome-to-linkshub-)
-- [Demo 💻](#demo-)
-- [Tech stack 📚](#tech-stack-)
-- [Socials 📱](#socials-)
-- [Getting Started 👩‍💻](#getting-started-)
-  - [Let's jump right in🌟](#lets-jump-right-in)
-  - [_Want to add your favorite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favourite-links-to-the-hub-make-sure-to-follow-contributing-guidelines)
-  - [Want to add or update the descriptions of subcategories?](#want-to-add-or-update-the-descriptions-of-subcategories)
-- [Building with Gitpod 💣](#building-with-gitpod-)
-- [Top 50 Contributors ✨](#top-50-contributors-)
-- [License 📝](#license-)
-- [Support ⭐](#support-)
+  - [Outreach](#outreach)
+  - [Table of Contents](#table-of-contents)
+  - [Demo 💻](#demo-)
+  - [Tech stack 📚](#tech-stack-)
+  - [Socials 📱](#socials-)
+  - [Getting Started 👩‍💻](#getting-started-)
+    - [Let's jump right in🌟](#lets-jump-right-in)
+      - [_Want to add your favorite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-to-the-hub-make-sure-to-follow-contributing-guidelines)
+      - [Want to add or update the descriptions of subcategories?](#want-to-add-or-update-the-descriptions-of-subcategories)
+  - [Building with Gitpod 💣](#building-with-gitpod-)
+  - [Top 50 Contributors ✨](#top-50-contributors-)
+  - [License 📝](#license-)
+  - [Support ⭐](#support-)
 
 ## Demo 💻
 
-You can see the live demo at: https://linkshub.vercel.app
+You can see the live demo at: <https://linkshub.vercel.app>
 
 <a name="tech-stack"></a>
 
@@ -100,14 +120,19 @@ You can see the live demo at: https://linkshub.vercel.app
    ```
 
 > **P.S**: If you have `docker` installed in your system, you can follow these steps to set up the environment:
+>
 > 1. After forking and cloning the repo(as mentioned above), get into the project directory:
+>
 > ```bash
 > cd LinksHub/
 > ```
+>
 > 2. Start the docker container with:
-> ```bash 
+>
+> ```bash
 > docker-compose up
 > ```
+>
 > 3. Now start adding your changes.
 > **Note:** You don't need to restart the container again and again after starting it once, because the changes you make will reflect in the container instantly.
 
@@ -138,6 +163,7 @@ You can see the live demo at: https://linkshub.vercel.app
 #### _Want to add your favorite links to the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/linkshub/blob/main/CONTRIBUTING.md)._
 
 #### Want to add or update the descriptions of subcategories?
+
 Make sure to follow [CONTRIBUTING guidelines](./CONTRIBUTING.md#Adding-and-Updating-Category-Description-).
 
 ---
