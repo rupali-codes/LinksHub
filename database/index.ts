@@ -93,3 +93,6 @@ export { default as otherResources } from './other/other-resources.json'
 export { default as communities } from './other/communities.json'
 // competitive programming
 export { default as platforms } from './competitive_programming/platforms.json'
+// roadmaps
+export { default as DevOpsRoadmap } from './Roadmaps/DevOpsRoadmap.json'
+export { default as FrontendRoadmap } from './Roadmaps/FrontendRoadmap.json'

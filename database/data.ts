@@ -78,7 +78,7 @@ export const sidebarData: ISidebar[] = [
         name: 'APIs',
         url: '/api',
         resources: DB.api,
-      }
+      },
     ],
   },
   {
@@ -131,15 +131,27 @@ export const sidebarData: ISidebar[] = [
     category: 'devops',
     subcategory: [
       { name: 'CI/CD', url: '/cicd', resources: DB.cicd },
-      { name: 'DevOps Life Cycle', url: '/devopsLifecycle', resources: DB.devopsLifecycle },
-      { name: 'DevOps Methodologies', url: '/devopsMethodologies', resources: DB.devopsMethodologies },
+      {
+        name: 'DevOps Life Cycle',
+        url: '/devopsLifecycle',
+        resources: DB.devopsLifecycle,
+      },
+      {
+        name: 'DevOps Methodologies',
+        url: '/devopsMethodologies',
+        resources: DB.devopsMethodologies,
+      },
       { name: 'docker', url: '/docker', resources: DB.docker },
       {
         name: 'kubernetes',
         url: '/kubernetes',
         resources: DB.kubernetes,
       },
-      { name: 'microservices', url: '/microservices', resources: DB.microservices },
+      {
+        name: 'microservices',
+        url: '/microservices',
+        resources: DB.microservices,
+      },
     ],
   },
   {
@@ -268,4 +280,19 @@ export const sidebarData: ISidebar[] = [
       { name: 'platforms', url: '/platforms', resources: DB.platforms },
     ],
   },
+  // {
+  //   category: 'Roadmaps',
+  //   subcategory: [
+  //     {
+  //       name: 'DevOps-Roadmap',
+  //       url: '/DevOps-Roadmap',
+  //       resources: DB.DevOpsRoadmap,
+  //     },
+  //     {
+  //       name: 'fronted roadmaps',
+  //       url: '/FrontendRoadmap',
+  //       resources: DB.FrontendRoadmap,
+  //     },
+  //   ],
+  // },
 ]
