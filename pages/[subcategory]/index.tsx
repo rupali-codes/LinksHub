@@ -1,20 +1,23 @@
 import React from 'react'
 import { TopBar } from 'components/TopBar/TopBar'
-import { useRouter } from 'next/router'
 import Head from 'next/head'
 import useFilterDB from 'hooks/useFilterDB'
 import CardsList from 'components/Cards/CardsList'
 import ComingSoon from 'components/NewIssue/NewIssue'
-import { useResults } from 'hooks/ResultsContext'
 
-const SubCategory = () => {
-  const router = useRouter()
-  const { results } = useResults()
-  const title = `LinksHub - ${router.asPath
-    .charAt(1)
-    .toUpperCase()}${router.asPath.slice(2)}`
-  const { filterDB } = useFilterDB()
+import { subCategories } from 'database/data'
+import { GetStaticProps, NextPage } from 'next'
+import { ParsedUrlQuery } from 'querystring'
 
+interface PageProps {
+  subcategory: string
+}
+
+interface Params extends ParsedUrlQuery, PageProps{}
+
+const SubCategory: NextPage<PageProps> = ({subcategory}) => {
+  const {filterDB, results, pageCategory} = useFilterDB(subcategory)
+  const title = `LinksHub - ${pageCategory[0].toUpperCase() + pageCategory.slice(1)}`
   let content: JSX.Element[] | JSX.Element
 
   if (filterDB.length > 0) {
@@ -93,6 +96,22 @@ const SubCategory = () => {
       </div>
     </>
   )
+}
+
+export const getStaticPaths = async () => {
+  const paths  = subCategories.map(subcategory => ({
+    params: {subcategory}
+  }))
+
+  return {paths, fallback: false}
+}
+
+export const  getStaticProps: GetStaticProps = async (context) => {
+  const {subcategory} = context.params as Params
+
+  return {props: {
+    subcategory
+  }}
 }
 
 export default SubCategory

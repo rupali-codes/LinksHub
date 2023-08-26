@@ -269,3 +269,5 @@ export const sidebarData: ISidebar[] = [
     ],
   },
 ]
+
+export const subCategories = sidebarData.flatMap(({ subcategory }) => subcategory.map(({ url }) => url.replace('/', '')))
