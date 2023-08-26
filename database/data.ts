@@ -280,12 +280,6 @@ export const sidebarData: ISidebar[] = [
       { name: 'communities', url: '/communities', resources: DB.communities },
     ],
   },
-  {
-    category: 'cp - competitive pro',
-    subcategory: [
-      { name: 'platforms', url: '/platforms', resources: DB.platforms },
-    ],
-  },
   // {
   //   category: 'Roadmaps',
   //   subcategory: [
