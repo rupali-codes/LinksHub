@@ -22,8 +22,16 @@
   },
   {
     "name": "Learn Go Programming",
-    "description": "This playlist contains all the concepts of Golang along with two mini projects",
+    "description": "Our Go tutorials will guide you in learning the programming language one step at a time",
     "url": "https://www.programiz.com/golang",
+    "category": "languages",
+    "subcategory": "golang"
+  }
+  ,
+  {
+    "name": "Go Programming – Golang Course with Bonus Projects",
+    "description": "In this beginner-level Golang course, you'll practice writing performant, idiomatic Go with these hands-on lessons and challenges.",
+    "url": "https://www.youtube.com/watch?v=un6ZyFkqFKo",
     "category": "languages",
     "subcategory": "golang"
   }

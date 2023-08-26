@@ -225,9 +225,9 @@ export const sidebarData: ISidebar[] = [
         resources: DB.web3metaverse,
       },
       {
-        name: 'Testing',
-        url: '/youtube-testing',
-        resources: DB.youtubeTesting,
+        name: 'Software Testing',
+        url: '/software-testing',
+        resources: DB.softwareTesting,
       },
       {
         name: 'Computer Science',
@@ -248,6 +248,12 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'cp - competitive pro',
+    subcategory: [
+      { name: 'platforms', url: '/platforms', resources: DB.platforms },
+    ],
+  },
+  {
     category: 'other',
     subcategory: [
       { name: 'events', url: '/events', resources: DB.events },
@@ -260,12 +266,6 @@ export const sidebarData: ISidebar[] = [
         resources: DB.otherResources,
       },
       { name: 'communities', url: '/communities', resources: DB.communities },
-    ],
-  },
-  {
-    category: 'cp - competitive pro',
-    subcategory: [
-      { name: 'platforms', url: '/platforms', resources: DB.platforms },
     ],
   },
 ]

@@ -14,8 +14,10 @@ const useFilterDB = (subcategory: string) => {
 
   // This filters trough the DB with the subcategory which results in an array of arrays
   const filterSubCat = database?.map((item) =>
-    item?.filter((cat: IData) => cat.subcategory.includes(pageCategory))
+    item?.filter((cat: IData) => cat.subcategory === subcategory)
   )
+
+
 
   // This filters out an empty array from the filterSubCat
   const filterDB = filterSubCat?.filter((item) => item.length !== 0)

@@ -75,5 +75,12 @@
         "url": "https://fonts.adobe.com/",
         "category": "frontend",
         "subcategory": "fonts"
+    },
+    {
+        "name": "Fontmirror",
+        "description": "Fontmirror is a platform that contains 10000+ freely downloadable digital fonts.",
+        "url": "https://www.fontmirror.com/",
+        "category": "frontend",
+        "subcategory": "fonts"
     }
 ]

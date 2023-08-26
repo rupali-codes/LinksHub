@@ -1,1 +1,51 @@
-[]
+[
+    {
+        "name": "AWS Caching Overview",
+        "description": "Accelerate application speed by storing data in a high-speed layer. Reuse fetched data efficiently, optimizing performance.",
+        "url": "https://aws.amazon.com/caching/",
+        "category": "backend",
+        "subcategory": "caching"
+    },
+    {
+        "name": "Redis",
+        "description": "Supercharge your app with Redis. Use it as a fast cache and more for improved responsiveness.",
+        "url": "https://redis.io/",
+        "category": "backend",
+        "subcategory": "caching"
+    },
+    {
+        "name": "Memcached",
+        "description": "Speed up dynamic websites using Memcached. Enhance user experiences with faster data retrieval.",
+        "url": "https://memcached.org/",
+        "category": "backend",
+        "subcategory": "caching"
+    },
+    {
+        "name": "Varnish Cache",
+        "description": "Optimize website performance using Varnish Cache. Swift content delivery for a better user experience.",
+        "url": "https://varnish-cache.org/",
+        "category": "backend",
+        "subcategory": "caching"
+    },
+    {
+        "name": "NGINX Caching",
+        "description": "Boost site speed with NGINX. Serve content faster using reverse proxy and caching.",
+        "url": "https://docs.nginx.com/nginx/admin-guide/content-cache/content-caching/",
+        "category": "backend",
+        "subcategory": "caching"
+    },
+    {
+        "name": "Cloudflare CDN",
+        "description": "Enhance content delivery with Cloudflare CDN. Faster interactions and protection against DDoS.",
+        "url": "https://www.cloudflare.com/",
+        "category": "backend",
+        "subcategory": "caching"
+    },
+    {
+        "name": "Cache-Content: Improve App Performance",
+        "description": "Learn caching basics and optimize app performance. Reduce latency and improve user satisfaction.",
+        "url": "https://docs.digitalocean.com/products/app-platform/how-to/cache-content/",
+        "category": "backend",
+        "subcategory": "caching"
+    }
+]
