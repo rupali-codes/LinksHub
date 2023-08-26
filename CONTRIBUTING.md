@@ -145,12 +145,12 @@ When adding _YouTube_ channel links, please specify _the language_ of the channe
   
 ### Numbers
 
-We came up with this number chart so you can gauge the issue's difficulty and pick ones that fit within your skillset.
-| Points | Contribution
-| :----- | :------------------------------------------- | :--------------------------------------------------- |
-| `level 1`      | Addition of new links/categories or doing any small task (e.g fixing typos)                   |
-| `level 2`      | Modifying an existing feature                                                     |
-| `level 3`      | Making completely new feature | -                                                    |
+We came up with this number chart so you can gauge the issue's difficulty and pick ones that fit within your skillset:
+| Points     | Contribution                                                                |
+|------------|-----------------------------------------------------------------------------|
+| `level 1`: | Addition of new links/categories or doing any small task (e.g fixing typos) |
+| `level 2`: | Modifying an existing feature                                               |
+| `level 3`: | Making completely new feature                                               |
 
 **Closing the issue**
 
