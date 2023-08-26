@@ -138,14 +138,14 @@ When adding _YouTube_ channel links, please specify _the language_ of the channe
 - When creating an issue, make sure you fill up all the fields properly.
 - Make sure that you are NOT raising a **duplicate issue**.
 - If you want to work on the issue, please click on the _I am willing to work on this issue_ checkmark.
-- Add the point and topic label that corresponds to the issue. See our table below to help you.
+- Add the point label that corresponds to the issue. See [our number chart]() to help you.
 - **Note:** If you aren't the owner of the issue, please comment that you're willing to work on the issue and wait for maintainers to assign you the issue. Also, don't work on the issue if you're NOT assigned.
 - Please do **not** start working on the issue if you aren't yet assigned and have the `ready 🚀` label.
 - Work on only **ONE** issue at a time.
   
-### Points
+### Numbers
 
-We came up with this point chart so you can gauge the issue's difficulty and pick ones that fit within your skillset.
+We came up with this number chart so you can gauge the issue's difficulty and pick ones that fit within your skillset.
 | Points | Contribution
 | :----- | :------------------------------------------- | :--------------------------------------------------- |
 | `level 1`      | Addition of new links/categories or doing any small task (e.g fixing typos)                   |
