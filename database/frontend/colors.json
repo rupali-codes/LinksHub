@@ -180,5 +180,12 @@
     "url": "https://mycolor.space/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  {
+    "name": "Picular",
+    "description": " Picular is a color search engine that generates color palettes based on keywords. You can enter a specific term, and it will generate a set of colors associated with that keyword, offering a creative way to explore color possibilities.",
+    "url": "https://picular.co/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]
