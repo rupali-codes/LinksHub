@@ -290,8 +290,8 @@ export const sidebarData: ISidebar[] = [
   //   category: 'Roadmaps',
   //   subcategory: [
   //     {
-  //       name: 'DevOps-Roadmap',
-  //       url: '/DevOps-Roadmap',
+  //       name: 'DevOps Roadmap',
+  //       url: '/DevOpsRoadmap',
   //       resources: DB.DevOpsRoadmap,
   //     },
   //     {
