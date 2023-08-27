@@ -74,11 +74,11 @@ export const Searchbar: React.FC<SearchbarProps> = ({
   }, [dispatchSearch])
 
   return (
-    <form noValidate ref={formRef} onSubmit={handleSubmit}>
+    <form noValidate ref={formRef} onSubmit={handleSubmit} role="search">
       <div className="relative">
-        <div className="flex items-center" role="search">
+        <div className="flex items-center">
           <label htmlFor="simple-search" className="sr-only">
-            Quickly search any resources
+            Quick search
           </label>
           <input
             type="text"
