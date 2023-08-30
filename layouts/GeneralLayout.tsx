@@ -5,13 +5,23 @@ import { Header } from 'components/Header/Header'
 import { Aside } from 'components/Aside/Aside'
 import { SkipLink } from 'components/SkipLink/SkipLink'
 
+import { useContext } from 'react'
+import { IContext } from 'types'
+import { GlobalContext } from 'context/GlobalContext'
+
 const GeneralLayout = ({ children }: { children: ReactNode }) => {
+  const { sidebar } = useContext<IContext>(GlobalContext)
+
   return (
     <>
       <SkipLink />
       <Header />
       <SideNavbar />
-      <div className="row-start-2 row-end-3 min-h-[100vh-72px] w-full bg-gray-100 dark:bg-[#101623]">
+      <div
+        className={`row-start-2 row-end-3 min-h-[100vh-72px] w-full bg-gray-100 dark:bg-[#101623] ${
+          sidebar ? 'max-[1024px]:overflow-hidden' : ''
+        }`}
+      >
         <nav>
           <Aside />
         </nav>
