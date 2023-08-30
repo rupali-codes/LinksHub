@@ -12,7 +12,7 @@ export const Footer: FC = () => {
 
   return (
     <footer className="z-10 mb-4 flex w-full items-baseline justify-center rounded-lg py-2 backdrop-blur-md sm:py-3 text-sm md:text-base lg:text-lg xl:text-xl">
-      <p className="leading-7 tracking-wide text-center text-black dark:text-theme-primary">
+      <p className="leading-7 md:tracking-wide text-center text-black dark:text-theme-primary">
         <span>&copy; {new Date().getFullYear()} LinksHub | </span>
         Developed by{' '}
         <Link
