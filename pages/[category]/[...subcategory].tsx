@@ -6,20 +6,23 @@ import CardsList from 'components/Cards/CardsList'
 import ComingSoon from 'components/NewIssue/NewIssue'
 
 import { subCategories } from 'database/data'
-import { GetStaticProps, NextPage } from 'next'
+import { sidebarData } from 'database/data'
+import { GetStaticProps, GetStaticPaths, NextPage } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 
 interface PageProps {
-  subcategory: string
+  category: string;
+  subcategory: string;
 }
 
 interface Params extends ParsedUrlQuery, PageProps{}
 
 const SubCategory: NextPage<PageProps> = ({subcategory}) => {
-  const {filterDB, results, pageCategory} = useFilterDB(subcategory)
+  const {filterDB, results, pageCategory} = useFilterDB(subcategory[0])
   const title = `LinksHub - ${pageCategory[0].toUpperCase() + pageCategory.slice(1)}`
   let content: JSX.Element[] | JSX.Element
 
+  console.log("DATA")
   if (filterDB.length > 0) {
     content = <CardsList cards={filterDB[0]} />
   } else {
@@ -99,19 +102,25 @@ const SubCategory: NextPage<PageProps> = ({subcategory}) => {
 }
 
 export const getStaticPaths = async () => {
-  const paths  = subCategories.map(subcategory => ({
-    params: {subcategory}
-  }))
+  const paths = sidebarData.flatMap(({ category, subcategory }) =>
+    subcategory.map(({ url }) => ({
+      params: { category, subcategory: url.replace('/', '').split('/') },
+    }))
+  );
 
-  return {paths, fallback: false}
-}
+  return { paths, fallback: false };
+};
 
-export const  getStaticProps: GetStaticProps = async (context) => {
-  const {subcategory} = context.params as Params
+export const getStaticProps: GetStaticProps<PageProps, Params> = async (context) => {
+  const { category, subcategory } = context.params as PageProps;
 
-  return {props: {
-    subcategory
-  }}
-}
+  return {
+    props: {
+      category,
+      subcategory,
+    },
+  };
+};
+
 
 export default SubCategory
