@@ -152,5 +152,12 @@
     "url": "https://www.jdoodle.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
+  },
+  {
+    "name": "Edabit",
+    "description": "Edabit is a Platform to Learn Programming with 10,000+ challenges through Interactive Console Editor",
+    "url": "https://edabit.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
   }
 ]
