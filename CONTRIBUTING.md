@@ -185,7 +185,7 @@ We follow a standardized commit message format using Commitlint to ensure consis
 - `Fixed a bug`
 - `Updated code`
 - `auth feature update`
-- `chore: fixed some stuff
+- `chore: fixed some stuff`
 
 ### Commit Example with Commitlint
 
