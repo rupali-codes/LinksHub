@@ -138,19 +138,10 @@ When adding _YouTube_ channel links, please specify _the language_ of the channe
 - When creating an issue, make sure you fill up all the fields properly.
 - Make sure that you are NOT raising a **duplicate issue**.
 - If you want to work on the issue, please click on the _I am willing to work on this issue_ checkmark.
-- Add the point label that corresponds to the issue. See [our number chart]() to help you.
+- Add the point label that corresponds to the issue. See [our levels chart]() to help you.
 - **Note:** If you aren't the owner of the issue, please comment that you're willing to work on the issue and wait for maintainers to assign you the issue. Also, don't work on the issue if you're NOT assigned.
 - Please do **not** start working on the issue if you aren't yet assigned and have the `ready 🚀` label.
 - Work on only **ONE** issue at a time.
-  
-### Numbers
-
-We came up with this number chart so you can gauge the issue's difficulty and pick ones that fit within your skillset:
-| Points              | Contribution                                                                |
-|---------------------|-----------------------------------------------------------------------------|
-| `priority: low`:    | Addition of new links/categories or doing any small task (e.g fixing typos) |
-| `priority: medium`: | Modifying an existing feature                                               |
-| `priority: high`:   | Making completely new feature                                               |
 
 **Closing the issue**
 
@@ -223,3 +214,12 @@ git commit -m "feat(auth): Implement user signup process (#789)"
 ## Remarks ✅
 
 - If something is missing here, or you feel something is not well described, either create a PR, [raise an issue](https://github.com/rupali-codes/LinksHub/issues), or [do a code review of the person’s PR](https://www.freecodecamp.org/news/code-review-tips/) (ensure that your review conforms to the [Code of Conduct](https://github.com/CBID2/LinksHub-my-version-/blob/main/CODE_OF_CONDUCT.md))
+
+### Levels
+
+We came up with this chart so you can gauge the issue's difficulty and pick ones that fit within your skillset:
+| Points              | Contribution                                                                |
+|---------------------|-----------------------------------------------------------------------------|
+| `priority: low`:    | Addition of new links/categories or doing any small task (e.g fixing typos) |
+| `priority: medium`: | Modifying an existing feature                                               |
+| `priority: high`:   | Making completely new feature                                               |
