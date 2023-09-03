@@ -334,5 +334,14 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
+  },
+  {
+    "name": "SIMPLILEARN",
+    "description": "Learn programming and building with languages like HTML,CSS ,PHP, and much more.",
+    "url": "https://www.youtube.com/watch?v=R6RX2Zx96fE",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
   }
+
 ]
