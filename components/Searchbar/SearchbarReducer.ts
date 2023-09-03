@@ -2,7 +2,7 @@ export interface SearchbarState {
   searchQuery: string
   categoryQuery: string
   searchQueryIsValid: boolean
-  showSuggestions: boolean
+  showSuggestions: boolean    
 }
 
 export interface SearchbarAction extends Partial<SearchbarState> {
