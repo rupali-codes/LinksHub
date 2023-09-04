@@ -42,8 +42,8 @@ export const SocialMediaIconsList: FC<{
               <FaDiscord className="hover:text-theme-primary transition duration-300 ease-in-out" />
             </IconContext.Provider>
           </a>
-          </ol>
-        </li>
+          </li>
+        </ol>
         <ol>
         <li>
           <a
