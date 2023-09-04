@@ -11,6 +11,7 @@ export const SideNavbarCategory: FC<{
   const [isOpen, setIsOpen] = useState(expand)
 
   const { category, subcategory } = categoryData
+  console.log(category)
   const sortedSubcategoryList = subcategory
     .sort((a, b) => (a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1))
     .map((subcategoryData, i) => (
@@ -23,7 +24,6 @@ export const SideNavbarCategory: FC<{
     setIsOpen(!isOpen)
   }
 
-  console.log(isOpen, category)
   return (
     <li className="relative w-full transition-all ease-in-out text-theme-secondary dark:text-theme-primary dark:bg-opacity-5 hover:text-theme-secondary dark:hover:text-theme-primary rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-theme-primary">
       <Link

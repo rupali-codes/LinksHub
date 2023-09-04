@@ -4,10 +4,8 @@ import Head from 'next/head'
 import useFilterDB from 'hooks/useFilterDB'
 import CardsList from 'components/Cards/CardsList'
 import ComingSoon from 'components/NewIssue/NewIssue'
-
-import { subCategories } from 'database/data'
 import { sidebarData } from 'database/data'
-import { GetStaticProps, GetStaticPaths, NextPage } from 'next'
+import { GetStaticProps, NextPage } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 
 interface PageProps {
