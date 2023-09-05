@@ -87,10 +87,10 @@ export const subcategoryArray = [
   'images',
   'online-code-editors',
   'react',
-  'next-js',
-  'three-js',
+  'next',
+  'threejs',
   'themes-templates',
-  'ui-generators',
+  'ui-generator',
   'videos',
   //backend
   'architecture',
