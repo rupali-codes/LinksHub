@@ -11,12 +11,11 @@ export const SideNavbarCategory: FC<{
   const [isOpen, setIsOpen] = useState(expand)
 
   const { category, subcategory } = categoryData
-  console.log(category)
   const sortedSubcategoryList = subcategory
     .sort((a, b) => (a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1))
     .map((subcategoryData, i) => (
       <li className="-ml-0.5" key={i}>
-        <SideNavbarElement {...subcategoryData} />
+        <SideNavbarElement category={category} subcat={subcategoryData} />
       </li>
     ))
 
