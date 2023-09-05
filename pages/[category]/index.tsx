@@ -1,30 +1,43 @@
-import { useRouter } from 'next/router';
-import Logo from 'components/logo/logo';
-import { sidebarData } from 'database/data';
+import { useRouter } from 'next/router'
+import Logo from 'components/logo/logo'
+import { sidebarData } from 'database/data'
+import { SubCategories } from 'types'
+import Link from 'next/link'
 
 const CategoryPage = () => {
-  const router = useRouter();
-  const { category } = router.query;
+  const router = useRouter()
+  const { category } = router.query
 
-  const subCategoriesNames: string[] = []
+  const subcategories: SubCategories[] = []
   sidebarData.forEach((c) => {
-    c.subcategory.forEach((a) => {
-      subCategoriesNames.push(a.name.toUpperCase())
-    })
+    if (c.category == category)
+      c.subcategory.forEach((a) => {
+        subcategories.push(a)
+      })
   })
 
   return (
     <section className="flex min-h-[calc(100%-68px)] flex-col">
-        <div className=" m-auto flex flex-col  items-start gap-2">
-          <div className="m-auto md:text-4xl text-5xl gap-2 flex items-center justify-center">
-            <Logo />
-            <span>/ {category}</span>
-          </div>
-          <div className="flex flex-col mt-6 justify-center items-start w-96 max-md:w-64">
-          </div>
+      <div className=" m-auto items-start gap-2">
+        <div className="m-auto gap-2 flex flex-col items-center justify-center">
+         <p className='text-5xl uppercase font-bold text-theme-secondary dark:text-gray-text'>
+         <span className='text-theme-primary'>-/</span>{category}
+         </p>
+         <p className='text-xl hidden md:block'>Get access to all exclusive <span className='border-b-2 border-theme-primary capitalize text-theme-primary'>{category}</span> resources!</p>
         </div>
-      </section>
-  );
-};
+        <div className="flex flex-wrap gap-3 mt-6 justify-center items-start lg:w-96 mx-auto max-md:w-96">
+          {subcategories.map((subcat, i) => (
+            <Link
+              href={`/${category}${subcat.url}`}
+              className={`border-2 dark:border-theme-primary rounded-md bg-transparent dark:text-theme-primary text-text-secondary px-3 py-1 text-md capitalize hover:bg-theme-secondary hover:text-light-primary shadow-lg`}
+            >
+              {subcat.name}
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
 
-export default CategoryPage;
+export default CategoryPage
