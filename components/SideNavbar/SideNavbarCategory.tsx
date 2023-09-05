@@ -1,4 +1,4 @@
-import { FC, useState } from 'react'
+import { FC, useState, useEffect } from 'react'
 import { FaAngleDown } from 'react-icons/fa'
 import { SideNavbarElement } from './SideNavbarElement'
 import type { ISidebar } from '../../types'
@@ -19,6 +19,10 @@ export const SideNavbarCategory: FC<{
       </li>
     ))
 
+  useEffect(() => {
+    setIsOpen(expand)
+  }, [expand])
+
   const handleToggle = () => {
     setIsOpen(!isOpen)
   }
@@ -31,7 +35,9 @@ export const SideNavbarCategory: FC<{
         aria-label="toggle category"
         href={`/${category}`}
       >
-        <h1 className="font-bold uppercase">{category}</h1>
+        <h1 className="font-bold uppercase w-4/5 truncate">
+          {category.split('-').join(' ')}
+        </h1>
         <FaAngleDown
           className={`${
             isOpen && 'rotate-180'

@@ -29,7 +29,7 @@ const CategoryPage = () => {
           {subcategories.map((subcat, i) => (
             <Link
               href={`/${category}${subcat.url}`}
-              className={`border-2 dark:border-theme-primary rounded-md bg-transparent dark:text-theme-primary text-text-secondary px-3 py-1 text-md capitalize hover:bg-theme-secondary hover:text-light-primary shadow-lg`}
+              className={`border-2 dark:border-theme-primary rounded-md bg-transparent dark:text-theme-primary text-text-secondary px-3 py-1 text-md capitalize hover:border-dashed hover:text-light-primary shadow-lg`}
             >
               {subcat.name}
             </Link>
