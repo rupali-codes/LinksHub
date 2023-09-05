@@ -277,22 +277,8 @@ export const sidebarData: ISidebar[] = [
         url: '/other-resources',
         resources: DB.otherResources,
       },
-      { name: 'communities', url: '/communities', resources: DB.communities },
+      { name: 'Communities', url: '/communities', resources: DB.communities },
+      { name: 'Roadmaps', url: '/roadmaps', resources: DB.roadmaps },
     ],
   },
-  // {
-  //   category: 'Roadmaps',
-  //   subcategory: [
-  //     {
-  //       name: 'DevOps Roadmap',
-  //       url: '/DevOpsRoadmap',
-  //       resources: DB.DevOpsRoadmap,
-  //     },
-  //     {
-  //       name: 'fronted roadmaps',
-  //       url: '/FrontendRoadmap',
-  //       resources: DB.FrontendRoadmap,
-  //     },
-  //   ],
-  // },
 ]
