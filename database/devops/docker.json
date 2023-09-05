@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Docker",
+        "description": "In this blog post, you will learn how to use Docker.",
+        "url": "https://www.mygreatlearning.com/blog/docker-tutorial/",
+        "category": "devops",
+        "subcategory": "docker"
+    },
+    {
+        "name":"Docker",
+        "description":"In this free video series, you will learn the basics of Docker and containerization..",
+        "url":"https://kodekloud.com/lessons/introduction-9/",
+        "category":"devops",
+        "subcategory":"docker"
+    }
+]
