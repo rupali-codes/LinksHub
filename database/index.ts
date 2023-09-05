@@ -91,5 +91,6 @@ export { default as devtools } from './other/devtools.json'
 export { default as podcasts } from './other/podcasts.json'
 export { default as otherResources } from './other/other-resources.json'
 export { default as communities } from './other/communities.json'
+export { default as roadmaps } from './other/roadmaps.json'
 // competitive programming
 export { default as platforms } from './competitive_programming/platforms.json'
