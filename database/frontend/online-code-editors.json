@@ -152,6 +152,13 @@
     "url": "https://www.jdoodle.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
+  },
+  {
+    "name": "CodinGame",
+    "description": "This is a great website to learn and practice your coding skills. It provides interactive challenges in different programming languages ",
+    "url": "https://www.codingame.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
   }
   
 ]
