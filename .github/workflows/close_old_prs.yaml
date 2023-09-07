@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Check and Close PRs Without Linked Issues
         id: close_prs
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
