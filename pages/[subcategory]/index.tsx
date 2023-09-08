@@ -21,9 +21,8 @@ interface Params extends ParsedUrlQuery, PageProps {}
 
 const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
   const { filterDB, results, pageCategory } = useFilterDB(subcategory)
-  const { totalPages, currentPage, setCurrentPage, startIndex, endIndex, handlePageChange } = usePagination(
-    filterDB[0].length
-  )
+  const { totalPages, currentPage, startIndex, endIndex, handlePageChange } =
+    usePagination(filterDB[0].length)
   const filterData = filterDB[0].slice(startIndex, endIndex)
 
   const title = `LinksHub - ${
@@ -36,7 +35,6 @@ const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
   } else {
     content = <ComingSoon />
   }
-
 
   return (
     <>

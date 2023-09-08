@@ -35,7 +35,6 @@ export const usePagination = (totalNumberOfCards: number) => {
   return {
     totalPages,
     currentPage,
-    setCurrentPage,
     startIndex,
     endIndex,
     handlePageChange
