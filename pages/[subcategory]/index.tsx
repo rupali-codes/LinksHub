@@ -10,6 +10,7 @@ import { GetStaticProps, NextPage } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 
 import { usePagination } from 'hooks/usePagination'
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
 interface PageProps {
   subcategory: string
@@ -102,13 +103,22 @@ const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
         {/* pagination */}
         {totalPages && totalPages.length > 1 && (
           <div className="flex w-full items-center justify-center mt-8">
-            <div className="flex items-center bg-[#8b5cf6] rounded-full px-6 py-1 gap-4">
+            <div className="flex items-center bg-[#8b5cf6] rounded-full px-6 py-2 gap-4">
+              <button className="flex items-center justify-center text-white hover:text-black">
+                <FaChevronLeft />
+              </button>
               {totalPages &&
-                totalPages.map((page) => (
-                  <button className="text-white rounded-lg hover:bg-white hover:text-black px-2 py-1">
+                totalPages.map((page, index) => (
+                  <button
+                    key={index}
+                    className="flex items-center justify-center text-white rounded-full hover:bg-white hover:text-black px-2"
+                  >
                     {page}
                   </button>
                 ))}
+              <button className="flex items-center justify-center text-white  hover:text-black">
+                <FaChevronRight />
+              </button>
             </div>
           </div>
         )}

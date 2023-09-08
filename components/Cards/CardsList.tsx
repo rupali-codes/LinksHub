@@ -17,9 +17,6 @@ const CardsList: FC<{ cards: IData[] }> = ({ cards }) => {
 
   cards.sort((a: IData, b: IData) => a.name.localeCompare(b.name))
 
-  console.log(`Total Pages = ${Math.ceil(cards.length / 9)}`)
-
-
   return (
     <>
       <ul className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-stretch">
