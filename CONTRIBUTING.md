@@ -5,7 +5,6 @@ Thank you for taking the time to contribute to our project. Please take a moment
 > ⚠️IMPORTANT **Note**
 >
 > **Pull Requests having no issue associated with them will not be accepted. Firstly get an issue assigned, whether it's already opened or raised by you, and then create a Pull Request.**
-
 > **An automated process has been implemented to ensure the timely management of Pull Requests (PRs) on this platform. PRs that have been open for a duration exceeding 45 days will be automatically closed, so please plan accordingly.**
 
 ## Prerequisites
@@ -60,8 +59,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
   - If you are adding a subcategory, go to `components/TopBar/CategoryDescriptions.ts` and add the subcategory name used when exporting the name in `database/index.ts`, along with a concise description in the correct format.
 
     > For example, if you export the subcategory name as `onlineCodeEditors` in `database/index.ts`, add the same name to `CategoryDescriptions.ts` using the following style:
-
-    > subcategory name: 'description of this subcategory'
+    > `subcategory name:` `description of this subcategory`
 
   - You can check out similar examples [here](components/TopBar/CategoryDescriptions.ts). It's essential to add a description when submitting a pull request to add a subcategory; to merge it in the codebase.
 
@@ -87,15 +85,15 @@ Thank you for taking the time to contribute to our project. Please take a moment
     subcategory:''
   ```
 
-  #### Details
+#### Details
 
-  - `name`: Name of the site
+- `name`: Name of the site
 
-  - `description`: A brief description of what the site does
-  - `url`: Add a valid URL of the site
-  - `category`: Choose an existing category or create a new one following the instructions mentioned above.
-  - `subcategory`: Choose an existing subcategory or create a new one following the instructions mentioned above.
-  - `language`: This field is included for some of the resources, such as _React_ resources or _YouTube_ channel links. If multiple languages are involved, prioritize English if available. Otherwise, choose a language that you deem necessary.
+- `description`: A brief description of what the site does
+- `url`: Add a valid URL of the site
+- `category`: Choose an existing category or create a new one following the instructions mentioned above.
+- `subcategory`: Choose an existing subcategory or create a new one following the instructions mentioned above.
+- `language`: This field is included for some of the resources, such as _React_ resources or _YouTube_ channel links. If multiple languages are involved, prioritize English if available. Otherwise, choose a language that you deem necessary.
 
 - You can use [JSONLint](https://jsonlint.com/) to check the correctness of the JSON to avoid failing tests during pull requests.
 
@@ -111,6 +109,7 @@ When adding _YouTube_ channel links, please specify _the language_ of the channe
 ---
 
 ### Adding and Updating Category Description 📝
+>
 > ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) to suggest new descriptions. The maintainers will review them and then assign them.
 
 #### 🌟Follow these steps to add your links to the Hub
@@ -119,7 +118,7 @@ When adding _YouTube_ channel links, please specify _the language_ of the channe
 - Locate the file: `components/TopBar/CategoryDescriptions.ts`
 - Add or update the description in front of the subcategory name.
 
-  > For example, to add the description of the `fonts` subcategory under the `frontend` category, you would do the following: 
+  > For example, to add the description of the `fonts` subcategory under the `frontend` category, you would do the following:
 
   ```js
   const categoryDescriptions: CategoryDescriptions = {
@@ -139,12 +138,9 @@ When adding _YouTube_ channel links, please specify _the language_ of the channe
 - When creating an issue, make sure you fill up all the fields properly.
 - Make sure that you are NOT raising a **duplicate issue**.
 - If you want to work on the issue, please click on the _I am willing to work on this issue_ checkmark.
-- **Note:** If you are apart of GSSoC'23, please check the _I am a GSSoC'23 contributor_ check mark as shown in the image below:  
-  ![issue checkmark for gssoc'23](https://github.com/CBID2/LinksHub-my-version-/assets/105683440/c31b245d-420a-4513-bb58-d6be8b2fcdb1)
-- **Do not create the PR until you have confirmed with the maintainers that you are participating in this program**
-
-- If you aren't the owner of the issue, please comment that you're willing to work on the issue and wait for maintainers to assign you the issue. Also, don't work on the issue if you're NOT assigned.
-- Please do **not** start working on the issue if you aren't yet assigned.
+- Add the point label that corresponds to the issue. See [our levels chart]() to help you.
+- **Note:** If you aren't the owner of the issue, please comment that you're willing to work on the issue and wait for maintainers to assign you the issue. Also, don't work on the issue if you're NOT assigned.
+- Please do **not** start working on the issue if you aren't yet assigned and have the `ready 🚀` label.
 - Work on only **ONE** issue at a time.
 
 **Closing the issue**
@@ -172,7 +168,7 @@ We follow a standardized commit message format using Commitlint to ensure consis
 
 4. **Issue reference** (Optional): Include the issue number associated with the commit (e.g., `#123`).
 
-#### Examples of Valid Commit Messages:
+#### Examples of Valid Commit Messages
 
 - `feat: Add user authentication feature`
 - `fix(auth): Resolve login page redirect issue
@@ -183,20 +179,21 @@ We follow a standardized commit message format using Commitlint to ensure consis
 - `chore: Update dependencies to latest versions
 - `fix: Handle edge case in data processing (#456)`
 
-#### Examples of Invalid Commit Messages:
+#### Examples of Invalid Commit Messages
 
 - `Added new stuff`
 - `Fixed a bug`
 - `Updated code`
 - `auth feature update`
-- `chore: fixed some stuff
+- `chore: fixed some stuff`
 
-### Commit Example with Commitlint:
+### Commit Example with Commitlint
 
 ```bash
 git commit -m "feat(auth): Implement user signup process (#789)"
 ```
-  <hr>
+
+---
 
 ## Making Pull Requests
 
@@ -206,7 +203,7 @@ git commit -m "feat(auth): Implement user signup process (#789)"
 2. Each pull request should contain a single logical change or related set of changes that make sense to submit together. If a pull request becomes too large or contains too many unrelated changes, it becomes too difficult to review. In such cases, the reviewer has the right to close your pull request and ask that you submit a separate pull request for each logical set of changes that belong together.
 
 3. Link the issue you have resolved in the Pull Request Template (e.g. Closes/Fixes #99).
-4. Use [Conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/) for your changes.
+4. Use our [Commit messages Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md#commits-message-guidelines) for your changes.
 5. Do not re-open a pull request that a reviewer has closed.
    - Make sure to tick the "Allow edits from maintainers" box. This allows us to directly make minor edits / refactors and saves a lot of time.
      > **Note**
@@ -217,3 +214,12 @@ git commit -m "feat(auth): Implement user signup process (#789)"
 ## Remarks ✅
 
 - If something is missing here, or you feel something is not well described, either create a PR, [raise an issue](https://github.com/rupali-codes/LinksHub/issues), or [do a code review of the person’s PR](https://www.freecodecamp.org/news/code-review-tips/) (ensure that your review conforms to the [Code of Conduct](https://github.com/CBID2/LinksHub-my-version-/blob/main/CODE_OF_CONDUCT.md))
+
+### Levels
+
+We came up with this chart so you can gauge the issue's difficulty and pick ones that fit within your skillset:
+| Points              | Contribution                                                                |
+|---------------------|-----------------------------------------------------------------------------|
+| `priority: low`:    | Addition of new links/categories or doing any small task (e.g fixing typos) |
+| `priority: medium`: | Modifying an existing feature                                               |
+| `priority: high`:   | Making completely new feature                                               |
