@@ -7,7 +7,7 @@ export const usePagination = (totalNumberOfCards: number) => {
   const [endIndex, setEndIndex] = useState(totalNumberOfCards - 1)
   const pageSize: number = 9
 
-  const handlePageChange = (page: number) => { 
+  const handlePageChange = (page: number) => {
     setCurrentPage(page)
     setStartIndex((page - 1) * pageSize)
     setEndIndex(page * pageSize)
@@ -15,6 +15,13 @@ export const usePagination = (totalNumberOfCards: number) => {
 
   useMemo(() => {
     const start = 1
+
+    if (totalNumberOfCards === 0) {
+      setTotalPages([1])
+      setStartIndex(0)
+      setEndIndex(0)
+    }
+
     const stop = Math.ceil(totalNumberOfCards / pageSize)
 
     if (stop === 1) {
@@ -37,6 +44,6 @@ export const usePagination = (totalNumberOfCards: number) => {
     currentPage,
     startIndex,
     endIndex,
-    handlePageChange
+    handlePageChange,
   }
 }

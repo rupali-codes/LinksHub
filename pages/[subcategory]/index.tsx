@@ -22,15 +22,16 @@ interface Params extends ParsedUrlQuery, PageProps {}
 const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
   const { filterDB, results, pageCategory } = useFilterDB(subcategory)
   const { totalPages, currentPage, startIndex, endIndex, handlePageChange } =
-    usePagination(filterDB[0].length)
-  const filterData = filterDB[0].slice(startIndex, endIndex)
+    usePagination(filterDB.length ? filterDB[0].length : 0)
+  let filterData
 
   const title = `LinksHub - ${
     pageCategory[0].toUpperCase() + pageCategory.slice(1)
   }`
   let content: JSX.Element[] | JSX.Element
 
-  if (filterDB.length > 0) {
+  if (filterDB && filterDB.length > 0) {
+    filterData = filterDB[0].slice(startIndex, endIndex)
     content = <CardsList cards={filterData} />
   } else {
     content = <ComingSoon />
