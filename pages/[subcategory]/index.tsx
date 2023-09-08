@@ -9,15 +9,20 @@ import { subCategories } from 'database/data'
 import { GetStaticProps, NextPage } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 
+import { usePagination } from 'hooks/usePagination'
+
 interface PageProps {
   subcategory: string
 }
 
-interface Params extends ParsedUrlQuery, PageProps{}
+interface Params extends ParsedUrlQuery, PageProps {}
 
-const SubCategory: NextPage<PageProps> = ({subcategory}) => {
-  const {filterDB, results, pageCategory} = useFilterDB(subcategory)
-  const title = `LinksHub - ${pageCategory[0].toUpperCase() + pageCategory.slice(1)}`
+const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
+  const { filterDB, results, pageCategory } = useFilterDB(subcategory)
+  const { totalPages } = usePagination(filterDB[0].length)
+  const title = `LinksHub - ${
+    pageCategory[0].toUpperCase() + pageCategory.slice(1)
+  }`
   let content: JSX.Element[] | JSX.Element
 
   if (filterDB.length > 0) {
@@ -93,25 +98,41 @@ const SubCategory: NextPage<PageProps> = ({subcategory}) => {
       />
       <div className="min-h-[calc(100%-68px)] w-full pt-[85px] pb-4 md:min-h-[calc(100%-76px)] md:px-10 md:pt-10">
         {content}
+
+        {/* pagination */}
+        {totalPages && totalPages.length > 1 && (
+          <div className="flex w-full items-center justify-center mt-8">
+            <div className="flex items-center bg-[#8b5cf6] rounded-full px-6 py-1 gap-4">
+              {totalPages &&
+                totalPages.map((page) => (
+                  <button className="text-white rounded-lg hover:bg-white hover:text-black px-2 py-1">
+                    {page}
+                  </button>
+                ))}
+            </div>
+          </div>
+        )}
       </div>
     </>
   )
 }
 
 export const getStaticPaths = async () => {
-  const paths  = subCategories.map(subcategory => ({
-    params: {subcategory}
+  const paths = subCategories.map((subcategory) => ({
+    params: { subcategory },
   }))
 
-  return {paths, fallback: false}
+  return { paths, fallback: false }
 }
 
-export const  getStaticProps: GetStaticProps = async (context) => {
-  const {subcategory} = context.params as Params
+export const getStaticProps: GetStaticProps = async (context) => {
+  const { subcategory } = context.params as Params
 
-  return {props: {
-    subcategory
-  }}
+  return {
+    props: {
+      subcategory,
+    },
+  }
 }
 
 export default SubCategory

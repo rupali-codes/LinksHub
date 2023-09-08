@@ -10,28 +10,15 @@ const CardsList: FC<{ cards: IData[] }> = ({ cards }) => {
   const getCardId = (item: IData | null) => {
     setCurrentCard(item)
   }
-  return (
-    <div>
-      {currentCards.map((card) => (
-        <CardsListItem
-          key={card.id}
-          card={card}
-          getCardId={getCardId}
-        />
-      ))}
-      <Pagination
-        current={page}
-        pageSize={pageSize}
-        total={cards.length}
-        onChange={setPage}
-      />
-    </div>
-  )
+
   const removeCurrentCard = () => {
     setCurrentCard(null)
   }
 
   cards.sort((a: IData, b: IData) => a.name.localeCompare(b.name))
+
+  console.log(`Total Pages = ${Math.ceil(cards.length / 9)}`)
+
 
   return (
     <>
