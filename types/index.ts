@@ -156,6 +156,7 @@ export const subcategoryArray = [
   'github',
   'other-resources',
   'podcasts',
+  'roadmaps',
   // competitive programming
   'platforms',
 ]

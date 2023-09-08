@@ -30,9 +30,13 @@ export const Footer: FC = () => {
           target="_blank"
           aria-label="List of Contributors in LinksHub"
         >
+<<<<<<< HEAD
           <span className={nameStyles + ' flex justify-center'}>
             Open Source Community
           </span>
+=======
+          <span className={nameStyles + " flex justify-center"}>Open Source Community</span>
+>>>>>>> db0f1935a77141133328ed4622fcb5bc31736b04
         </Link>
       </p>
     </footer>
