@@ -11,6 +11,7 @@ import { ParsedUrlQuery } from 'querystring'
 
 import { usePagination } from 'hooks/usePagination'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import clsx from 'clsx'
 
 interface PageProps {
   subcategory: string
@@ -20,17 +21,22 @@ interface Params extends ParsedUrlQuery, PageProps {}
 
 const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
   const { filterDB, results, pageCategory } = useFilterDB(subcategory)
-  const { totalPages } = usePagination(filterDB[0].length)
+  const { totalPages, currentPage, setCurrentPage, startIndex, endIndex, handlePageChange } = usePagination(
+    filterDB[0].length
+  )
+  const filterData = filterDB[0].slice(startIndex, endIndex)
+
   const title = `LinksHub - ${
     pageCategory[0].toUpperCase() + pageCategory.slice(1)
   }`
   let content: JSX.Element[] | JSX.Element
 
   if (filterDB.length > 0) {
-    content = <CardsList cards={filterDB[0]} />
+    content = <CardsList cards={filterData} />
   } else {
     content = <ComingSoon />
   }
+
 
   return (
     <>
@@ -104,19 +110,36 @@ const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
         {totalPages && totalPages.length > 1 && (
           <div className="flex w-full items-center justify-center mt-8">
             <div className="flex items-center bg-[#8b5cf6] rounded-full px-6 py-2 gap-4">
-              <button className="flex items-center justify-center text-white hover:text-black">
+              <button
+                className="flex items-center justify-center text-white hover:text-black"
+                onClick={() =>
+                  currentPage > 1 && handlePageChange(currentPage - 1)
+                }
+              >
                 <FaChevronLeft />
               </button>
               {totalPages &&
                 totalPages.map((page, index) => (
                   <button
                     key={index}
-                    className="flex items-center justify-center text-white rounded-full hover:bg-white hover:text-black px-2"
+                    className={clsx(
+                      'flex items-center justify-center  rounded-full hover:bg-white hover:text-black px-2',
+                      currentPage === page
+                        ? 'bg-white text-black'
+                        : 'text-white'
+                    )}
+                    onClick={() => handlePageChange(page)}
                   >
                     {page}
                   </button>
                 ))}
-              <button className="flex items-center justify-center text-white  hover:text-black">
+              <button
+                className="flex items-center justify-center text-white  hover:text-black"
+                onClick={() =>
+                  currentPage < totalPages.length &&
+                  handlePageChange(currentPage + 1)
+                }
+              >
                 <FaChevronRight />
               </button>
             </div>
