@@ -14,19 +14,15 @@ export const SocialMediaIconsList: FC<{
     <ul className={`flex flex-wrap gap-5 ${className}`}>
       {!showGithubButtons && (
         <>
-        <ol>
-
           <li className="pt-6 hidden md:block">
             <GitHubForkButton repo="rupali-codes/LinksHub" />
           </li>
           <li className="mr-2 pt-6 hidden md:block">
             <GitHubStarButton repo="rupali-codes/LinksHub" />
           </li>
-          </ol>
         </>
       )}
       <div className="flex items-center gap-6">
-        <ol>
         <li>
           <a
             title="Link to Discord server (External Link)"
@@ -42,9 +38,7 @@ export const SocialMediaIconsList: FC<{
               <FaDiscord className="hover:text-theme-primary transition duration-300 ease-in-out" />
             </IconContext.Provider>
           </a>
-          </ol>
         </li>
-        <ol>
         <li>
           <a
             title="Link to Github project (External Link)"
@@ -61,8 +55,6 @@ export const SocialMediaIconsList: FC<{
             </IconContext.Provider>
           </a>
         </li>
-        </ol>
-        <ol>
         <li>
           <a
             title="Link to Twitter page (External Link)"
@@ -79,18 +71,15 @@ export const SocialMediaIconsList: FC<{
             </IconContext.Provider>
           </a>
         </li>
-        </ol>
       </div>
       {showGithubButtons && (
         <div className="flex">
-          <ol>
           <li className="mr-4 sm:block">
             <GitHubForkButton repo="rupali-codes/LinksHub" />
           </li>
           <li className="mr-2 sm:block">
             <GitHubStarButton repo="rupali-codes/LinksHub" />
           </li>
-          </ol>
         </div>
       )}
     </ul>
