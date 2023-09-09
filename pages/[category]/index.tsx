@@ -26,7 +26,7 @@ const CategoryPage = () => {
           </p>
           <p className="text-xl hidden md:block">
             Get access to all exclusive{' '}
-            <span className="border-b-2 border-theme-primary capitalize text-theme-primary">
+            <span className="capitalize text-theme-primary">
               {category}
             </span>{' '}
             resources!
