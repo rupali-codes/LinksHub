@@ -58,12 +58,12 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
   const removeCurrentCard: () => void = () => {
     setCurrentCategory(null)
   }
-
+  
   return (
     <>
       {subcategoryName && (
         <>
-          {regEx.test(subcategoryName) ? (
+          {isSearchFound ? (
             <div
               className={`flex items-center text-xl dark:text-gray-300 ${className}`}
             >
