@@ -20,7 +20,6 @@ const SubCategory: NextPage<PageProps> = ({subcategory}) => {
   const title = `LinksHub - ${pageCategory[0].toUpperCase() + pageCategory.slice(1)}`
   let content: JSX.Element[] | JSX.Element
 
-  console.log("DATA")
   if (filterDB.length > 0) {
     content = <CardsList cards={filterDB[0]} />
   } else {
