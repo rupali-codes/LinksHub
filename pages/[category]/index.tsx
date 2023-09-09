@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const CategoryPage = () => {
   const router = useRouter()
-  const { category } = router.query
+  const { category } = router.query as { category: string}
 
   const subcategories: SubCategories[] = []
   sidebarData.forEach((c) => {
@@ -24,12 +24,12 @@ const CategoryPage = () => {
             <div className="m-auto gap-2 flex flex-col items-center justify-center ">
               <p className="md:text-4xl text-xl uppercase font-bold text-theme-secondary dark:text-gray-text w-fit mx-auto text-center">
                 <span className="text-theme-primary">-/</span>
-                {category}
+                {category.split('-').join(' ')}
               </p>
               <p className="text-xl hidden md:block">
                 Get access to all exclusive{' '}
                 <span className="capitalize text-theme-primary">
-                  {category}
+                  {category.split('-').join(' ')}
                 </span>{' '}
                 resources!
               </p>
