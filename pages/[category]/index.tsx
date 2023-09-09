@@ -32,7 +32,7 @@ const CategoryPage = () => {
             resources!
           </p>
         </div>
-        <div className="flex flex-wrap gap-3 mt-6 justify-center items-start lg:w-96 mx-auto max-md:w-96">
+        <div className="flex flex-wrap gap-3 mt-6 justify-center items-start mx-auto lg:max-w-sm max-md:max-w-sm">
           {subcategories.map((subcat, i) => (
             <Link
               key={i}
