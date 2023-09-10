@@ -1,79 +1,79 @@
 [
   {
     "name": "LinkFree",
-    "description": "An Open Source alternative to LinkTree to showcase your open-source-projects, milestones, events, and content.",
+    "description": "An Open Source alternative to LinkTree to showcase your projects, milestones, events, and content.",
     "url": "https://github.com/EddieHubCommunity/LinkFree",
-    "category": "open source",
-    "subcategory": "open-source-projects"
+    "category": "open-source",
+    "subcategory": "projects"
   },
   {
     "name": "Milan",
     "description": "Milan is the place to connect users, charities, and NGOs thus connecting those who need help and need for a good cause.",
     "url": "https://github.com/IAmTamal/Milan",
-    "category": "open source",
-    "subcategory": "open-source-projects"
+    "category": "open-source",
+    "subcategory": "projects"
   },
   {
     "name": "AsaKatsu",
     "description": "'AsaKatsu' is a Japanese term for waking up a little early to do something productive, aligned with a specific goal. With this philosophy in mind, this product helps you keep track of your goals' progress.",
     "url": "https://github.com/asakatsuOrg/AsaKatsuProject",
-    "category": "open source",
-    "subcategory": "open-source-projects"
+    "category": "open-source",
+    "subcategory": "projects"
   },
   {
     "name": "Good Docs Project",
     "description": "Looking to gain tech writing experience? Join the Good Docs Project. In this open source project, you will learn best practices for creating templates and writing instructions when documenting open source software.",
     "url": "https://thegooddocsproject.dev/",
-    "category": "open source",
-    "subcategory": "open-source-projects"
+    "category": "open-source",
+    "subcategory": "projects"
   },
   {
     "name": "Open Contributions Project",
     "description": "This project's mission is to teach company leaders what open source is and how their businesses can benefit from creating open source software.",
     "url": "https://github.com/OpenContributionsProject/opencontributionssite",
-    "category": "open source",
-    "subcategory": "open-source-projects"
+    "category": "open-source",
+    "subcategory": "projects"
   },
   {
     "name": "Codeacademy Docs",
     "description": "Looking for a way to gain experience in tech writing? Codecademy Docs offer developers and open source enthusiasts a hands-on opportunity to collaborate with other learners. Together, you’ll create free, useful resources for developers and tech community members of all experience levels.",
     "url": "https://www.codecademy.com/pages/contribute-docs",
-    "category": "open source",
-    "subcategory": "open-source-projects"
+    "category": "open-source",
+    "subcategory": "projects"
   },
   {
     "name": "GSoC Organizations",
     "description": "A site that views and analyzed information on the organizations participating in Google Summer of Code, filtering them by various factors like years of participation, categories, etc.",
     "url": "https://www.gsocorganizations.dev/",
-    "category": "open source",
-    "subcategory": "open-source-projects"
+    "category": "open-source",
+    "subcategory": "projects"
   },
   {
     "name": "ProjectMate",
     "description": "It's an open source platform where new maintainers can connect with experienced maintainers, and collaborate with a community of passionate contributors.",
     "url": "https://github.com/rohitdasu/projectmate",
-    "category": "open source",
-    "subcategory": "open-source-projects"
+    "category": "open-source",
+    "subcategory": "projects"
   },
   {
     "name": "Zod",
     "description": "It is a TypeScript-first schema declaration and validation library to eliminate duplicative type declarations.",
     "url": "https://github.com/colinhacks/zod",
-    "category": "open source",
-    "subcategory": "open-source-projects"
+    "category": "open-source",
+    "subcategory": "projects"
   },
   {
     "name": "Code Thesaurus",
     "description": "The Polyglot Developer Reference.Use this tool to compare language components from languages you know and don't know, or just use it as a language reference cheat sheet.",
     "url": "https://codethesaur.us/",
-    "category": "open source",
-    "subcategory": "open-source-projects"
+    "category": "open-source",
+    "subcategory": "projects"
   },
   {
     "name": "Women-Led-Open-Source",
     "description": "A living resource unveiling trailblazing leaders, from women to transgender and nonbinary individuals, shaping open source.",
     "url": "https://github.com/amandamartin-dev/women-led-open-source",
-    "category": "open source",
-    "subcategory": "open-source-projects"
+    "category": "open-source",
+    "subcategory": "projects"
   }
 ]

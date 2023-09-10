@@ -10,7 +10,6 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'frontend',
     subcategory: [
-      { name: 'react js', url: '/react', resources: DB.react },
       { name: 'next js', url: '/next', resources: DB.next },
       { name: 'three js', url: '/three', resources: DB.three },
       { name: 'images', url: '/images', resources: DB.images },
@@ -48,7 +47,6 @@ export const sidebarData: ISidebar[] = [
         url: '/accessibility',
         resources: DB.accessibility,
       },
-      { name: 'videos', url: '/videos', resources: DB.videos },
     ],
   },
   {
@@ -103,27 +101,27 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'open source',
+    category: 'open-source',
     subcategory: [
       {
-        name: 'Blogs',
-        url: '/open-source-blogs',
-        resources: DB.openSourceBlogs,
+        name: 'Articles',
+        url: '/articles',
+        resources: DB.openSourceArticles,
       },
       {
         name: 'Projects',
-        url: '/open-source-projects',
+        url: '/projects',
         resources: DB.openSourceProjects,
       },
       {
         name: 'Tools',
-        url: '/open-source-tools',
+        url: '/tools',
         resources: DB.openSourceTools,
       },
       {
-        name: 'Videos',
-        url: '/open-source-videos',
-        resources: DB.openSourceVideos,
+        name: 'Tutorials',
+        url: '/os-tutorials',
+        resources: DB.openSourceTutorials,
       },
     ],
   },
@@ -131,16 +129,8 @@ export const sidebarData: ISidebar[] = [
     category: 'devops',
     subcategory: [
       { name: 'CI/CD', url: '/cicd', resources: DB.cicd },
-      {
-        name: 'DevOps Life Cycle',
-        url: '/devopsLifecycle',
-        resources: DB.devopsLifecycle,
-      },
-      {
-        name: 'DevOps Methodologies',
-        url: '/devopsMethodologies',
-        resources: DB.devopsMethodologies,
-      },
+      { name: 'DevOps Life Cycle', url: '/devops-life-cycle', resources: DB.devopsLifecycle },
+      { name: 'DevOps Methodologies', url: '/devops-methodologies', resources: DB.devopsMethodologies },
       { name: 'docker', url: '/docker', resources: DB.docker },
       {
         name: 'kubernetes',
@@ -155,7 +145,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'artificial intelligence',
+    category: 'ai',
     subcategory: [
       {
         name: 'artificial intelligence',
@@ -176,7 +166,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'cloud computing',
+    category: 'cloud-computing',
     subcategory: [
       { name: 'google cloud', url: '/gcp', resources: DB.gcp },
       {
@@ -190,7 +180,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'internet of things',
+    category: 'internet-of-things',
     subcategory: [
       { name: 'coursera', url: '/coursera', resources: DB.coursera },
       { name: 'raspberry', url: '/raspberry', resources: DB.raspberrypi },
@@ -246,11 +236,6 @@ export const sidebarData: ISidebar[] = [
         url: '/computer-science',
         resources: DB.computerScience,
       },
-      {
-        name: 'Competitive Programming',
-        url: '/competitive-programming',
-        resources: DB.competitiveProgramming,
-      },
       { name: 'FinTech', url: '/fintech', resources: DB.fintech },
       {
         name: 'Game Development',
@@ -260,9 +245,10 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'cp - competitive pro',
+    category: 'competitive-programming',
     subcategory: [
-      { name: 'platforms', url: '/platforms', resources: DB.platforms },
+      { name: 'Platforms', url: '/cp-platforms', resources: DB.cpPlatforms },
+      { name: 'Tutorials', url: '/cp-tutorials', resources: DB.cpTutorials },
     ],
   },
   {
@@ -283,4 +269,6 @@ export const sidebarData: ISidebar[] = [
   },
 ]
 
-export const subCategories = sidebarData.flatMap(({ subcategory }) => subcategory.map(({ url }) => url.replace('/', '')))
+export const subCategories = sidebarData.flatMap(({ category, subcategory }) =>
+  subcategory.map(({ url }) => ({ category, subcategory: url.replace('/', '') }))
+);
