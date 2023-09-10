@@ -10,8 +10,7 @@ import { GetStaticProps, NextPage } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 
 import { usePagination } from 'hooks/usePagination'
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
-import clsx from 'clsx'
+import Pagination from 'components/Pagination/Pagination'
 
 interface PageProps {
   subcategory: string
@@ -102,48 +101,14 @@ const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
         className="shadow-black-500/50 fixed top-[76px] z-30 flex w-full -translate-x-4 items-center bg-gray-100 px-4 pt-6 pb-4 shadow-xl dark:bg-gray-900 md:hidden"
         results={results}
       />
-      <div className="min-h-[calc(100%-68px)] w-full pt-[85px] pb-4 md:min-h-[calc(100%-76px)] md:px-10 md:pt-10">
+      <div className="relative min-h-[calc(100%-68px)] w-full pt-[85px] pb-4 md:min-h-[calc(100%-76px)] md:px-10 md:pt-10">
         {content}
 
-        {/* pagination */}
-        {totalPages && totalPages.length > 1 && (
-          <div className="flex w-full items-center justify-center mt-8">
-            <div className="flex items-center bg-[#8b5cf6] rounded-full px-6 py-2 gap-4">
-              <button
-                className="flex items-center justify-center text-white hover:text-black"
-                onClick={() =>
-                  currentPage > 1 && handlePageChange(currentPage - 1)
-                }
-              >
-                <FaChevronLeft />
-              </button>
-              {totalPages &&
-                totalPages.map((page, index) => (
-                  <button
-                    key={index}
-                    className={clsx(
-                      'flex items-center justify-center  rounded-full hover:bg-white hover:text-black px-2',
-                      currentPage === page
-                        ? 'bg-white text-black'
-                        : 'text-white'
-                    )}
-                    onClick={() => handlePageChange(page)}
-                  >
-                    {page}
-                  </button>
-                ))}
-              <button
-                className="flex items-center justify-center text-white  hover:text-black"
-                onClick={() =>
-                  currentPage < totalPages.length &&
-                  handlePageChange(currentPage + 1)
-                }
-              >
-                <FaChevronRight />
-              </button>
-            </div>
-          </div>
-        )}
+        <Pagination
+          totalPages={totalPages}
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
       </div>
     </>
   )

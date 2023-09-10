@@ -1,10 +1,12 @@
 import { useMemo, useState } from 'react'
 
-export const usePagination = (totalNumberOfCards: number) => {
+export const usePagination = (totalNumberOfCards?: number) => {
   const [currentPage, setCurrentPage] = useState(1)
-  const [totalPages, setTotalPages] = useState<number[] | null>([1])
+  const [totalPages, setTotalPages] = useState<number[] | null>(null)
   const [startIndex, setStartIndex] = useState(0)
-  const [endIndex, setEndIndex] = useState(totalNumberOfCards - 1)
+  const [endIndex, setEndIndex] = useState(
+    totalNumberOfCards && totalNumberOfCards - 1
+  )
   const pageSize: number = 9
 
   const handlePageChange = (page: number) => {
@@ -15,26 +17,26 @@ export const usePagination = (totalNumberOfCards: number) => {
 
   useMemo(() => {
     const start = 1
+    const stop = totalNumberOfCards && Math.ceil(totalNumberOfCards / pageSize)
 
     if (totalNumberOfCards === 0) {
-      setTotalPages([1])
+      setTotalPages(null)
       setStartIndex(0)
       setEndIndex(0)
     }
 
-    const stop = Math.ceil(totalNumberOfCards / pageSize)
-
-    if (stop === 1) {
+    if (stop === 1 && totalNumberOfCards) {
       setTotalPages([1])
       setStartIndex(0)
       setEndIndex(totalNumberOfCards - 1)
     } else {
-      setTotalPages(
-        Array.from(
-          { length: (stop - start) / 1 + 1 },
-          (_, index) => start + index * 1
+      stop &&
+        setTotalPages(
+          Array.from(
+            { length: (stop - start) / 1 + 1 },
+            (_, index) => start + index * 1
+          )
         )
-      )
       setEndIndex(currentPage * pageSize)
     }
   }, [totalNumberOfCards])
