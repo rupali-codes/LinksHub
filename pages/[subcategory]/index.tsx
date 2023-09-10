@@ -4,11 +4,9 @@ import Head from 'next/head'
 import useFilterDB from 'hooks/useFilterDB'
 import CardsList from 'components/Cards/CardsList'
 import ComingSoon from 'components/NewIssue/NewIssue'
-
 import { subCategories } from 'database/data'
 import { GetStaticProps, NextPage } from 'next'
 import { ParsedUrlQuery } from 'querystring'
-
 import { usePagination } from 'hooks/usePagination'
 import Pagination from 'components/Pagination/Pagination'
 
