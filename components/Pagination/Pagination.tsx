@@ -16,10 +16,10 @@ export default function Pagination({
   return (
     <>
       {totalPages && totalPages.length > 1 && (
-        <div className="w-full  lg:left-0 absolute bottom-4 z-20 flex lg:w-full items-center justify-center mt-8">
-          <div className="fixed bottom-[5rem] border-white border-4 shadow-lg flex items-center bg-[#8b5cf6] rounded-full px-6 py-2 gap-4">
+        <div className="w-full lg:left-0 absolute bottom-4 z-20 flex lg:w-full items-center justify-center mt-8">
+          <div className="fixed bottom-[1rem] md:bottom-[5rem] border-[#8b5cf6] border-4 shadow-lg flex items-center bg-white rounded-full px-6 py-2 gap-4">
             <button
-              className="flex items-center justify-center text-white hover:text-black disabled:text-gray-400"
+              className="flex items-center justify-center text-black hover:text-[#8b5cf6] disabled:text-gray-400"
               onClick={() =>
                 currentPage > 1 && handlePageChange(currentPage - 1)
               }
@@ -32,8 +32,10 @@ export default function Pagination({
                 <button
                   key={index}
                   className={clsx(
-                    'flex items-center justify-center  rounded-full hover:bg-white hover:text-black px-2',
-                    currentPage === page ? 'bg-white text-black' : 'text-white'
+                    'flex items-center justify-center  rounded-full hover:bg-[#8b5cf6] hover:text-white px-2',
+                    currentPage === page
+                      ? 'bg-[#8b5cf6] text-white'
+                      : 'text-black'
                   )}
                   onClick={() => handlePageChange(page)}
                 >
@@ -41,7 +43,7 @@ export default function Pagination({
                 </button>
               ))}
             <button
-              className="flex items-center justify-center text-white  hover:text-black disabled:text-gray-400"
+              className="flex items-center justify-center text-black  hover:text-[#8b5cf6] disabled:text-gray-400"
               onClick={() =>
                 currentPage < totalPages.length &&
                 handlePageChange(currentPage + 1)
