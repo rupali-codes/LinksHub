@@ -152,5 +152,12 @@
     "url": "https://www.notion.so/personal",
     "category": "resources",
     "subcategory": "blogs"
-  }
+  },
+   {
+     "name": "C2",
+     "description": "This site has captured several years of Extreme Programming discussion and evolution. Use this roadmap to find your way to the most important pages in a logical order. ",
+     "url": "http://wiki.c2.com/?ExtremeProgrammingRoadmap",
+     "category": "resources",
+     "subcategory": "blogs"
+   }
 ]
