@@ -1,12 +1,23 @@
-import React, { FC } from 'react'
+import React, { FC, useEffect, useState } from 'react'
 import type { SubCategories } from '../../types'
 import { sidebarData } from 'database/data'
 import { SideNavbarCategory } from './SideNavbarCategory'
+import { useRouter } from 'next/router'
 
 export const SideNavbarCategoryList: FC<{
   query: string
 }> = ({ query }) => {
   const categoriesList = getFilteredCategoryList(query)
+  const router = useRouter()
+  const [category, setCategory] = useState<string | undefined>('')
+
+  useEffect(() => {
+    const cat: string | undefined = router.query.category as string | undefined
+
+    if (cat !== undefined) {
+      setCategory(cat)
+    }
+  }, [router.query.category])
 
   if (categoriesList.length === 0) {
     return (
@@ -25,7 +36,7 @@ export const SideNavbarCategoryList: FC<{
           <SideNavbarCategory
             key={categoryData.category}
             categoryData={categoryData}
-            expand={query.length > 0}
+            expand={query.length > 0 || category === categoryData.category}
           />
         ))}
       </React.Fragment>
