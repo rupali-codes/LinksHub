@@ -10,8 +10,8 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'frontend',
     subcategory: [
-      { name: 'next js', url: '/next', resources: DB.next },
-      { name: 'three js', url: '/three', resources: DB.three },
+      { name: 'next js', url: '/next-js', resources: DB.next },
+      { name: 'three js', url: '/three-js', resources: DB.three },
       { name: 'images', url: '/images', resources: DB.images },
       { name: 'fonts', url: '/fonts', resources: DB.fonts },
       { name: 'colors', url: '/colors', resources: DB.colors },
@@ -34,7 +34,7 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'UI Generators',
-        url: '/ui-generator',
+        url: '/ui-generators',
         resources: DB.uiGenerators,
       },
       {
