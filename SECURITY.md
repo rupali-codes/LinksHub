@@ -21,7 +21,7 @@ The maintainers are responsible for handling vulnerability reports and making de
 LinksHub will aim to resolve critical vulnerabilities within 30 days and non-critical vulnerabilities within 90 days. These deadlines may extend if additional time is needed to address the issue(s).
 
 ## Secure Coding Practices
-https://linkshub.dev
+
 LinksHub will guide secure coding practices for contributors, including guidelines for input validation, authentication, authorization, and data protection.
 
 ## Regular Review and Update
