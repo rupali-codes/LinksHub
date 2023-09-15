@@ -7,7 +7,7 @@ export const Footer: FC = () => {
   const isDarkMode = resolvedTheme === 'dark'
 
   return (
-    <footer className="z-10 mb-4 flex w-full items-baseline justify-center rounded-lg py-2 backdrop-blur-md text-sm text-center px-2 py-2">
+    <footer className="z-10 mb-4 flex w-full items-baseline justify-center rounded-lg py-2 backdrop-blur-md text-sm text-center px-2 py-2 sm:text-xs">
       <p className="leading-7 md:tracking-wide text-center text-black dark:text-theme-primary ">
         <span>&copy; {new Date().getFullYear()} LinksHub | </span>
         Developed by{' '}
