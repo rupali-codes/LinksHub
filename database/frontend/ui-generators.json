@@ -187,5 +187,12 @@
     "url": "https://chakra-ui.com/",
     "category": "frontend",
     "subcategory": "UI Generators"
+  },
+  {
+    "name": "Tridiv",
+    "description":"A platform where you can generate 3D UI components based on CSS.",
+    "url" : "http://tridiv.com/",
+    "category": "frontend",
+    "subcategory": "UI Generators"
   }
 ]
