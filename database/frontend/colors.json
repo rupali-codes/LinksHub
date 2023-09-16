@@ -187,5 +187,13 @@
     "url": "https://picular.co/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  
+  {
+    "name" : "RealTime Colors",
+    "description" : "RealTime Colors offers a variety of colors and pallettes to aspiring web designers and developers , and additionally even provides a mockup website to test the colors and color pallettes in realtime",
+    "url" : "https://realtimecolors.com/",
+    "category" :"frontend",
+    "subcategory" :"colors"
   }
 ]

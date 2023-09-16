@@ -82,5 +82,12 @@
         "url": "https://www.fontmirror.com/",
         "category": "frontend",
         "subcategory": "fonts"
+    },
+    {
+        "name" : "Fonts Pair",
+        "description": "Fonts Pair is a website that lets the user choose from 1000+ fonts and font-pairings, compare them, and can easily be integrated to your projects.",
+        "url" : "https://www.fontpair.co/",
+        "category":"frontend",
+        "subcategory":"fonts"
     }
 ]

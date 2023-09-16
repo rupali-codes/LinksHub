@@ -201,5 +201,13 @@
     "url": "https://thenounproject.com/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name":"Icones",
+    "description":"Icones is a minimalistic website which allows the user to pick from a broad variety of ever-updating categories of premium and fresh icons for your projects.",
+    "url":"https://icones.js.org",
+    "category":"frontend",
+    "subcategory":"icons"
   }
+
 ]
