@@ -170,12 +170,15 @@ Make sure to follow [CONTRIBUTING guidelines](./CONTRIBUTING.md#Adding-and-Updat
 
 <a name="building-with-gitpod"></a>
 
-## Building with Gitpod 💣
+## Building with Gitpod | Codespaces 💣
 
-By using [Gitpod. io](https://www.gitpod.io), all the necessary dependencies will be installed
+By using [Gitpod. io](https://www.gitpod.io), [Codespaces](https://github.com/codespaces) all the necessary dependencies will be installed
 and the website will be built in one single click. No extra setup is required.
 
 [![Gitpod Ready-to-Code](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rupali-codes/LinksHub)
+  <a href="https://codespaces.new/rupali-codes/LinksHub" target="_blank">
+        <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces" style="max-width: 100%; height:40px">
+      </a>
 
 ---
 
