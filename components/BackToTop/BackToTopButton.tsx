@@ -48,7 +48,7 @@ export const BackToTopButton = () => {
   }`
 
   return (
-    <div className="group fixed z-20 bottom-12 right-12 transform transition duration-300">
+    <div className={`group fixed z-20 bottom-12 right-12 transform transition duration-300 ${scrollY <= SCROLL_LIMIT?'hidden':''}`}>
       <button
         className={buttonClasses}
         onClick={handleClick}
@@ -61,7 +61,7 @@ export const BackToTopButton = () => {
         <FaArrowUp className="group-hover:text-theme-secondary" />
       </button>
         <Tooltip id="btn-tooltip" style={{ backgroundColor: '#8b5cf6', fontSize: '13px', paddingLeft: '6px', paddingRight: '6px', paddingTop: '2px', paddingBottom: '2px' }} />
-      <span className="absolute left-1/2 top-1/2 -z-10 hidden -translate-x-1/2 -translate-y-1/2 rotate-0 text-2xl transition-all duration-100 ease-in-out group-hover:ml-8 group-hover:block group-hover:rotate-45">
+      <span className="absolute left-1/2 top-1/2 -z-10 -translate-x-1/2 -translate-y-1/2 rotate-0 text-2xl transition-all duration-100 ease-in-out group-hover:ml-8 group-hover:block group-hover:rotate-45">
         👾
       </span>
     </div>
