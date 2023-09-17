@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document outlines the security policy for the [Linkshub](https://linkshub.vercel.app/) open source project that provides links to websites for courses across the internet. The policy is intended to provide guidelines and procedures for reporting, triaging, and addressing security vulnerabilities in the project.
+This document outlines the security policy for the [LinksHub](https://linkshub.dev/) open source project that provides links to websites for courses across the internet. The policy is intended to provide guidelines and procedures for reporting, triaging, and addressing security vulnerabilities in the project.
 
 ## Scope
 
@@ -10,7 +10,7 @@ The security policy covers the codebase and documentation of the open source pro
 
 ## Vulnerability Disclosure Process
 
-The project will provide a dedicated email address (rupali7487@gmail.com) for submitting vulnerability reports related to the [Linkshub](https://linkshub.vercel.app/) website or any of the linked websites. Vulnerability reports will be reviewed and triaged by the project's maintainers. The owner will aim to respond to vulnerability reports within 72 hours and will provide regular updates on the status of the vulnerability and any remediation efforts.
+The project will provide a dedicated email address (linkshub.opensource@gmail.com) for submitting vulnerability reports related to the [LinksHub](https://linkshub.dev/) website or any of the linked websites. Vulnerability reports will be reviewed and triaged by the project's maintainers. The owner will aim to respond to vulnerability reports within 72 hours and will provide regular updates on the status of the vulnerability and any remediation efforts.
 
 ## Roles and Responsibilities
 
@@ -34,10 +34,10 @@ LinksHub will follow a coordinated disclosure policy, which means that vulnerabi
 
 ## Legal Disclaimer
 
-The security policy includes a legal disclaimer that limits the liability of the project maintainers and contributors for any security vulnerabilities or incidents that occur as a result of using[Linkshub's](https://linkshub.vercel.app/) website or any of the linked sources.
+The security policy includes a legal disclaimer that limits the liability of the project maintainers and contributors for any security vulnerabilities or incidents that occur as a result of using[LinksHub's](https://linkshub.dev/) website or any of the linked sources.
 
 ## Contact Information
 
 If you have any questions or concerns about the security policy or any security vulnerabilities in the project, please contact us at _linkshub.opensource@gmail.com_.
 
-By implementing this security policy, we aim to ensure that vulnerabilities are addressed promptly and that users and contributors can use [Linkshub](https://linkshub.vercel.app/) and its linked sources safely and securely.
+By implementing this security policy, we aim to ensure that vulnerabilities are addressed promptly and that users and contributors can use [Linkshub](https://linkshub.dev/) and its linked sources safely and securely.
