@@ -8,11 +8,11 @@ export const Footer: FC = () => {
 
   return (
     <footer className="z-10 mb-4 flex w-full items-baseline justify-center rounded-lg py-2 backdrop-blur-md text-center px-2 py-2">
-      <div className="text-[8px] md:text-[10px] lg:text-sm leading-7 md:tracking-wide text-center text-black dark:text-theme-primary ">
+      <div className="text-sm leading-7 md:tracking-wide text-center text-black dark:text-theme-primary ">
         <div>&copy; {new Date().getFullYear()} LinksHub </div>
         <div className="lg:flex">
-          <div className="sm: -mt-4 mr-1 md:-mt-2 lg:mt-0"> Developed by </div>
-          <div className="sm: -mt-4 md:-mt-2 lg:mt-0"></div>
+          <div className="sm: -mt-2 mr-1 md:-mt-2 lg:mt-0"> Developed by </div>
+          <div className="sm: -mt-2 md:-mt-2 lg:mt-0"></div>
           <Link
             href="https://rupali-codes.vercel.app/"
             target="_blank"
@@ -20,7 +20,7 @@ export const Footer: FC = () => {
             aria-label="GitHub Profile of Rupali Haldiya"
           >
             <span
-              className={`underline ${
+              className={`underline mr-1 ${
                 isDarkMode ? 'text-light-primary' : 'text-theme-secondary'
               } `}
             >
@@ -35,7 +35,7 @@ export const Footer: FC = () => {
             aria-label="List of Contributors in LinksHub"
           >
             <span
-              className={`underline ${
+              className={`underline ml-1 ${
                 isDarkMode ? 'text-light-primary' : 'text-theme-secondary'
               } `}
             >
