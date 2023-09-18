@@ -1,4 +1,10 @@
-[
+[  { 
+     "name": "huetiful-js", 
+     "description": "JavaScript library for simple color manipulations based on the Culori API.", 
+     "url": "https://prjctimg.github.io/huetiful", 
+     "category": "frontend", 
+     "subcategory": "colors" 
+   },
   {
     "name": "Color Hunt",
     "description": "Discover the newest hand-picked color palettes of Color Hunt. Get color inspiration for your design and art projects.",
