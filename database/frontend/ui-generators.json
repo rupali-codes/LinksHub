@@ -187,5 +187,12 @@
     "url": "https://chakra-ui.com/",
     "category": "frontend",
     "subcategory": "UI Generators"
+  },
+  {
+    "name": "CSS Portal",
+    "description":"A platform where you can generate 3D UI components based on CSS.",
+    "url" : "https://www.cssportal.com/css-3d-transform-generator/",
+    "category": "frontend",
+    "subcategory": "UI Generators"
   }
 ]
