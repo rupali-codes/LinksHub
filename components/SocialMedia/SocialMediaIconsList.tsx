@@ -15,7 +15,6 @@ export const SocialMediaIconsList: FC<{
       {!showGithubButtons && (
         <>
         <ol>
-
           <li className="pt-6 hidden md:block">
             <GitHubForkButton repo="rupali-codes/LinksHub" />
           </li>
