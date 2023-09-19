@@ -28,28 +28,25 @@ open source program with a mission to help students from India and beyond in dev
   </tr>
 </table>
 
-<a name="demo"></a>
 
 ## Table of Contents
 
 - [Welcome to LinksHub 👋](#welcome-to-linkshub-)
   - [Outreach](#outreach)
   - [Table of Contents](#table-of-contents)
-  - [Demo 💻](#demo-)
+  - [Live demo 💻](#live-demo-)
   - [Tech stack 📚](#tech-stack-)
   - [Socials 📱](#socials-)
-  - [Getting Started 👩‍💻](#getting-started-)
-    - [Let's jump right in🌟](#lets-jump-right-in)
-      - [_Want to add your favorite links to the Hub? make sure to follow CONTRIBUTING guidelines._](#want-to-add-your-favorite-links-to-the-hub-make-sure-to-follow-contributing-guidelines)
-      - [Want to add or update the descriptions of subcategories?](#want-to-add-or-update-the-descriptions-of-subcategories)
+  - [Want to Contribute? 👩‍💻](#want-to-contribute-)
   - [Building with Gitpod 💣](#building-with-gitpod-)
   - [Top 50 Contributors ✨](#top-50-contributors-)
   - [License 📝](#license-)
   - [Support ⭐](#support-)
 
-## Demo 💻
+<a name="demo"></a>
+## Live demo 💻
 
-You can see the live demo at: <https://linkshub.vercel.app>
+Visit https://linkshub.dev to see the live demo!
 
 <a name="tech-stack"></a>
 
@@ -71,102 +68,26 @@ You can see the live demo at: <https://linkshub.vercel.app>
 
 ## Socials 📱
 
-- [Join LinksHub community on Discord](https://discord.com/invite/NvK67YnJX5)
-- [Tag us on Twitter](https://twitter.com/the_linkshub)
+Connect with us for future updates
+
+- Join the LinksHub community on [Discord](https://discord.com/invite/NvK67YnJX5) 
+- Follow us on [Twitter](https://twitter.com/the_linkshub) for updates
+- Follow us on [LinkedIn](https://www.linkedin.com/company/linkshub-dev/) to stay in touch
 
 ---
 
-<a name="getting-started"></a>
+<a name="want-to-contribute"></a>
 
-## Getting Started 👩‍💻
+## Want to Contribute? 👩‍💻
 
-> ⚠️Prerequisites
->
-> - Before getting into it, make sure you have [pnpm](https://nodejs.org/download) installed.
->
-> - Also, make sure to follow the [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)
+Please follow our [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md) for the following:-
 
-### Let's jump right in🌟
+- Setup LinksHub on your local machine
+- Append new Categories
+- Append new Links
+- Adding or Updating category description
+- And more!
 
-1. [Fork](https://github.com/rupali-codes/LinksHub/fork) the project
-2. Clone the project to run on your local machine using the following command:
-
-   ```sh
-   git clone https://github.com/<your_github_username>/LinksHub.git
-   ```
-
-3. Get into the root directory
-
-   ```sh
-   cd LinksHub
-   ```
-
-4. Install all dependencies by running
-
-   ```sh
-   pnpm install
-   ```
-
-5. Create your branch
-
-   ```sh
-   git checkout -b <your_branch_name>
-   ```
-
-6. Run and view the application on localhost
-
-   ```sh
-   pnpm run dev
-   ```
-
-> **P.S**: If you have `docker` installed in your system, you can follow these steps to set up the environment:
->
-> 1. After forking and cloning the repo(as mentioned above), get into the project directory:
->
-> ```bash
-> cd LinksHub/
-> ```
->
-> 2. Start the docker container with:
->
-> ```bash
-> docker-compose up
-> ```
->
-> 3. Now start adding your changes.
-> **Note:** You don't need to restart the container again and again after starting it once, because the changes you make will reflect in the container instantly.
-
-7. Make your changes before staging them.
-
-8. Stage your changes
-
-   ```sh
-   git add <filename>
-   ```
-
-9. Commit your changes
-
-   ```sh
-   git commit -m "<your-commit-message>"
-   ```
-
-10. Push your changes to your branch
-
-    ```sh
-    git push origin "<your_branch_name>"
-    ```
-
-11. Create a [Pull Request](https://github.com/rupali-codes/linkshub/compare)
-
-    > Click _compare across forks_ if you don't see your branch
-
-#### _Want to add your favorite links to the Hub? make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/linkshub/blob/main/CONTRIBUTING.md)._
-
-#### Want to add or update the descriptions of subcategories?
-
-Make sure to follow [CONTRIBUTING guidelines](./CONTRIBUTING.md#Adding-and-Updating-Category-Description-).
-
----
 
 <a name="building-with-gitpod"></a>
 
@@ -200,7 +121,5 @@ LinksHub is licensed under the terms of the MIT License. check out [LICENSE](htt
 <a name="support"></a>
 
 ## Support ⭐
-
-_We would love to have you, feel free to open issues and pull requests, and Don't forget to leave a star⭐_
 
 _We would be thrilled to have you contribute to LinksHub! Your support, whether through opening issues, submitting pull requests, or even just leaving a star, means a lot to us. Together, we can continue to improve and expand this resource hub for developers worldwide._
