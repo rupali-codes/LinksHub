@@ -11,21 +11,18 @@ export const SocialMediaIconsList: FC<{
   const { className, showGithubButtons } = props
 
   return (
-    <ul className={`flex flex-wrap gap-5 ${className}`}>
+    <ul className={`flex flex-wrap gap-3 justify-center ${className}`}>
       {!showGithubButtons && (
         <>
-        <ol>
           <li className="pt-6 hidden md:block">
             <GitHubForkButton repo="rupali-codes/LinksHub" />
           </li>
           <li className="mr-2 pt-6 hidden md:block">
             <GitHubStarButton repo="rupali-codes/LinksHub" />
           </li>
-          </ol>
         </>
       )}
-      <div className="flex items-center gap-6">
-        <ol>
+      <ol className="flex items-center gap-6">
         <li>
           <a
             title="Link to Discord server (External Link)"
@@ -41,9 +38,7 @@ export const SocialMediaIconsList: FC<{
               <FaDiscord className="hover:text-theme-primary transition duration-300 ease-in-out" />
             </IconContext.Provider>
           </a>
-          </li>
-        </ol>
-        <ol>
+        </li>
         <li>
           <a
             title="Link to Github project (External Link)"
@@ -60,8 +55,6 @@ export const SocialMediaIconsList: FC<{
             </IconContext.Provider>
           </a>
         </li>
-        </ol>
-        <ol>
         <li>
           <a
             title="Link to Twitter page (External Link)"
@@ -78,19 +71,16 @@ export const SocialMediaIconsList: FC<{
             </IconContext.Provider>
           </a>
         </li>
-        </ol>
-      </div>
+      </ol>
       {showGithubButtons && (
-        <div className="flex">
-          <ol>
+        <ol className="flex">
           <li className="mr-4 sm:block">
             <GitHubForkButton repo="rupali-codes/LinksHub" />
           </li>
           <li className="mr-2 sm:block">
             <GitHubStarButton repo="rupali-codes/LinksHub" />
           </li>
-          </ol>
-        </div>
+        </ol>
       )}
     </ul>
   )
