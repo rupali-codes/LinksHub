@@ -91,12 +91,11 @@ Please follow our [CONTRIBUTING guidelines](https://github.com/rupali-codes/Link
 
 <a name="building-with-gitpod"></a>
 
-## Building with Gitpod 💣
+## Building with Gitpod | Codespaces 💣
 
-By using [Gitpod. io](https://www.gitpod.io), all the necessary dependencies will be installed
-and the website will be built in one single click. No extra setup is required.
+Want to avoid the complexities of setting up a local environment or just need to make quick edits? Consider using [Gitpod.io](https://gitpod.io/#https://github.com/rupali-codes/LinksHub) or [Codespaces](https://codespaces.new/rupali-codes/LinksHub). They streamline the process by automatically installing required dependencies, making it effortless to contribute in just one click!:)
 
-[![Gitpod Ready-to-Code](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rupali-codes/LinksHub)
+
 
 ---
 
