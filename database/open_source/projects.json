@@ -1,5 +1,68 @@
 [
   {
+    "name": "First-contributions",
+    "description": "This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution",
+    "url": "https://github.com/firstcontributions/first-contributions",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
+    "name": "LinksHub",
+    "description": "Yes! LinksHub is open-sourced. LinksHub aims to provide developers with access to a wide range of free resources and tools that they can use in their work.",
+    "url": "https://github.com/rupali-codes/LinksHub",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
+    "name": "Whisper",
+    "description": "A Fun Application to have a random chat with people safely.",
+    "url": "https://github.com/Dun-sin/Whisper",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
+    "name": "ProjectsHub",
+    "description": "ProjectsHub Platform is your all-in-one destination for hackathons, coding contests, project inspiration, and freelancing tasks. Whether you're an aspiring developer, a seasoned coder, or just passionate about tech, you'll find something exciting here.",
+    "url": "https://github.com/Ayushpanditmoto/projectshub",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
+    "name": "FindIssues",
+    "description": "FindIssues aims to provide you access to the most recent created issues on github which is not assigned to anyone yet, with its advance search technique.",
+    "url": "https://github.com/anand346/findissues",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
+    "name": "Muzical",
+    "description": "Muzical is a platform that let's you enjoy watching youtube videos and songs in-sync with friends and family members. All you need to do is just join a channel and start enjoying.",
+    "url": "https://github.com/anand346/muzical",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
+    "name": "Code-Magic",
+    "description": "Code Generator - Easily Generate CSS and Tailwind code based on your choice and input.",
+    "url": "https://github.com/Dun-sin/Code-Magic",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
+    "name": "ProjectsHut",
+    "description": "Projectshut is an open source web app that enables users to freely publish their projects and create user profiles within the platform.",
+    "url": "https://github.com/priyankarpal/ProjectsHut",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
+    "name": "Forem",
+    "description": "Forem is open source software for building communities. Communities for your peers, customers, fanbases, families, friends, and any other time and space where people need to come together to be part of a collective",
+    "url": "https://github.com/forem/forem",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
     "name": "LinkFree",
     "description": "An Open Source alternative to LinkTree to showcase your projects, milestones, events, and content.",
     "url": "https://github.com/EddieHubCommunity/LinkFree",
