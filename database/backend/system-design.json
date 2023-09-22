@@ -6,5 +6,21 @@
     "category": "backend",
     "subcategory": "system-design",
     "language": "english"
+  },
+  {
+    "name": "What is System Design",
+    "description": "This platform gives you an detailed overview of Sytem Design And why one should learn it. It also teaches you objectives, components of system design, its architecture and more.",
+    "url": "https://www.geeksforgeeks.org/what-is-system-design-learn-system-design/",
+    "category": "backend",
+    "subcategory": "system-design",
+    "language": "english"
+  },
+  {
+    "name": "System Design Tutorial",
+    "description": "This is the complete System Design Tutorial. You will learn Basics of System Design including SDLC, System design strategy and much more.",
+    "url": "https://www.geeksforgeeks.org/system-design-tutorial/",
+    "category": "backend",
+    "subcategory": "system-design",
+    "language": "english"
   }
 ]

@@ -5,5 +5,12 @@
     "url": "https://express-validator.github.io/docs/",
     "category": "backend",
     "subcategory": "validation"
+  },
+  {
+    "name": "Python Validators",
+    "description": "Python Validators is a simple validation library where validating a simple value does not require defining a form or a schema.",
+    "url": "https://pypi.org/project/validators/",
+    "category": "backend",
+    "subcategory": "validation"
   }
 ]
