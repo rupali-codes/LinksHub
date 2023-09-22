@@ -5,5 +5,13 @@
         "url": "https://docs.aws.amazon.com/index.html",
         "category": "cloud-computing",
         "subcategory": "aws"
+    },
+    {
+        "name": "AWS tutorial for beginners",
+        "description": "Learn AWS from basic-to-advanced level. This playlist has short and great tutorials that will help you learn AWS.",
+        "url": "https://www.youtube.com/playlist?list=PL6XT0grm_TfgtwtwUit305qS-HhDvb4du",
+        "category": "cloud-computing",
+        "subcategory": "aws",
+        "language": "hindi"
     }
 ]
