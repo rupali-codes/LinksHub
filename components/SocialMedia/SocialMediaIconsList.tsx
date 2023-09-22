@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { IconContext } from 'react-icons'
-import { FaDiscord, FaGithub, FaTwitter } from 'react-icons/fa'
+import { FaDiscord, FaGithub, FaXTwitter } from 'react-icons/fa6'
 import { GitHubForkButton } from 'components/ForkButton/GitHubForkButton'
 import { GitHubStarButton } from 'components/StarButton/GitHubStarButton'
 
@@ -25,7 +25,7 @@ export const SocialMediaIconsList: FC<{
       <ol className="flex items-center gap-6">
         <li>
           <a
-            title="Link to Discord server (External Link)"
+            title="Discord"
             className="dark:text-light-primary text-text-secondary"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,7 +41,7 @@ export const SocialMediaIconsList: FC<{
         </li>
         <li>
           <a
-            title="Link to Github project (External Link)"
+            title="Github"
             className="dark:text-light-primary text-text-secondary"
             target="_blank"
             rel="noopener noreferrer"
@@ -57,17 +57,17 @@ export const SocialMediaIconsList: FC<{
         </li>
         <li>
           <a
-            title="Link to Twitter page (External Link)"
+            title="X (Twitter)"
             className="dark:text-light-primary text-text-secondary"
             target="_blank"
             rel="noopener noreferrer"
             href="https://twitter.com/linkshubdotdev"
-            aria-label="Visit us on Twitter"
+            aria-label="Visit us on X (Twitter)"
           >
             <IconContext.Provider
-              value={{ className: 'shared-class', size: '24' }}
+              value={{ className: 'shared-class', size: '20' }}
             >
-              <FaTwitter className="hover:text-theme-primary transition duration-300 ease-in-out" />
+              <FaXTwitter className="hover:text-theme-primary transition duration-300 ease-in-out" />
             </IconContext.Provider>
           </a>
         </li>
