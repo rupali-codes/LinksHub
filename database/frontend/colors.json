@@ -1,4 +1,11 @@
-[
+[  
+ { 
+     "name": "huetiful-js", 
+     "description": "This is a JavaScript library for simple color manipulations based on the Culori API. With over 50 utilities, Huetiful allows you to filter and sort color collections and query different properties of color as well as generate different palettes.", 
+     "url": "https://github.com/prjctimg/huetiful", 
+     "category": "frontend", 
+     "subcategory": "colors" 
+  },
   {
     "name": "Color Hunt",
     "description": "Discover the newest hand-picked color palettes of Color Hunt. Get color inspiration for your design and art projects.",
