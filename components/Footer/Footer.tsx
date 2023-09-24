@@ -7,20 +7,6 @@ export const Footer: FC = () => {
   const isDarkMode = resolvedTheme === 'dark'
 
   return (
-    <footer className="z-10 mb-4 flex w-full items-baseline justify-center rounded-lg backdrop-blur-md text-sm text-center px-2 py-2">
-      <p className="leading-7 md:tracking-wide text-center text-black dark:text-theme-primary ">
-        <span>&copy; {new Date().getFullYear()} LinksHub | </span>
-        Developed by{' '}
-        <Link
-          href="https://rupali-codes.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="GitHub Profile of Rupali Haldiya"
-        >
-          <span
-            className={`underline ${
-              isDarkMode ? 'text-light-primary' : 'text-theme-secondary'
-            } `}
     <footer className="z-10 mb-4 flex w-full items-baseline justify-center rounded-lg py-2 backdrop-blur-md text-center px-2 py-2">
       <div className="text-sm leading-7 md:tracking-wide text-center text-black dark:text-theme-primary ">
         <div>&copy; {new Date().getFullYear()} LinksHub </div>
