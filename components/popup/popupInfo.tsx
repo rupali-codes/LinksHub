@@ -61,7 +61,7 @@ export const PopupInfo: React.FC<{
               href={currentCard?.url}
               target="_blank"
               rel="noreferrer"
-              className="mt-2 px-6 py-2 text-white text-center bg-theme-secondary rounded-2xl w-full hover:bg-transparent hover:text-theme-secondary border border-dashed border-transparent duration-100 hover:border-theme-primary  bottom-0 flex items-center justify-center bottom-0 relative"
+              className="mt-2 px-6 py-2 text-white text-center bg-theme-secondary rounded-2xl w-full hover:bg-transparent hover:text-theme-secondary border border-dashed border-transparent duration-100 hover:border-theme-primary flex items-center justify-center bottom-0 relative"
             >
               Visit site
             </a>
@@ -82,4 +82,3 @@ export const PopupInfo: React.FC<{
     </>
   )
 }
-
