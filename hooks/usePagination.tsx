@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 
 export const usePagination = (totalNumberOfCards?: number) => {
   const [currentPage, setCurrentPage] = useState(1)
@@ -14,6 +14,10 @@ export const usePagination = (totalNumberOfCards?: number) => {
     setStartIndex((page - 1) * pageSize)
     setEndIndex(page * pageSize)
   }
+
+  useEffect(() => {
+    handlePageChange(1)
+  }, [totalNumberOfCards])
 
   useMemo(() => {
     const start = 1
@@ -48,5 +52,6 @@ export const usePagination = (totalNumberOfCards?: number) => {
     endIndex,
     handlePageChange,
     setCurrentPage,
+    setStartIndex,
   }
 }

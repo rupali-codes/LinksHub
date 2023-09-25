@@ -13,13 +13,14 @@ export const SideNavbarElement: FC<{
   const router = useRouter()
   const { name, url } = subcat
   const { closeNav } = useContext(GlobalContext)
-  const { setCurrentPage } = usePagination()
+  const { handlePageChange, setCurrentPage } = usePagination()
+  
   return (
     <Link
       href={`/${category}${url}`}
       aria-label="Side Navbar Elements"
       onClick={() => {
-        setCurrentPage(1)
+        handlePageChange(1)
         closeNav
       }}
       className={`${
