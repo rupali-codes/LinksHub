@@ -4,16 +4,24 @@ import { useRouter } from 'next/router'
 import { useContext } from 'react'
 import { GlobalContext } from '../../context/GlobalContext'
 import { SubCategories } from '../../types'
+import { usePagination } from '../../hooks/usePagination'
 
-export const SideNavbarElement: FC<{category: string, subcat: SubCategories}> = ({category, subcat}) => {
+export const SideNavbarElement: FC<{
+  category: string
+  subcat: SubCategories
+}> = ({ category, subcat }) => {
   const router = useRouter()
   const { name, url } = subcat
   const { closeNav } = useContext(GlobalContext)
+  const { setCurrentPage } = usePagination()
   return (
     <Link
       href={`/${category}${url}`}
       aria-label="Side Navbar Elements"
-      onClick={closeNav}
+      onClick={() => {
+        setCurrentPage(1)
+        closeNav
+      }}
       className={`${
         router.asPath === url
           ? 'border-l-4 border-theme-primary text-theme-secondary dark:text-theme-primary '
