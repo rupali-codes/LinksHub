@@ -14,7 +14,6 @@ import { usePathname } from 'next/navigation'
 const GeneralLayout = ({ children }: { children: ReactNode }) => {
   const { sidebar } = useContext<IContext>(GlobalContext)
   const pathname = usePathname()
-
   return (
     <>
       <SkipLink />
