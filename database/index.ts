@@ -93,5 +93,5 @@ export { default as roadmaps } from './other/roadmaps.json'
 // competitive programming
 export { default as cpPlatforms } from './competitive_programming/cp-platforms.json'
 export { default as cpTutorials } from './competitive_programming/cp-tutorials.json'
-// technicial writing
-export { default as technical writing} from './technical-writing.json'
+// technical-writing
+export { default as technical-writing} from './technical-writing.json'
