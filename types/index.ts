@@ -160,4 +160,6 @@ export const subcategoryArray = [
   'roadmaps',
   // competitive programming
   'platforms',
+  // technical-writing
+  'tools',
 ]
