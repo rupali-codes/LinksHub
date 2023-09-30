@@ -31,6 +31,7 @@ body:
         - Languages
         - Open Source
         - Other
+        - Technical Writing
     validations:
       required: true
   - type: input
@@ -52,4 +53,3 @@ body:
 
         - label: 'I am willing to work on this issue (optional)'
           required: false
-
