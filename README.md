@@ -26,6 +26,12 @@ We are passionate about helping people from all backgrounds start their open sou
     <td>  3-month summer
 open source program with a mission to help students from India and beyond in developing their technical skills </td>
   </tr>
+   <tr>
+    <td>Hacktoberfest 2023 </td>
+    <td> <img src="https://github.com/rupali-codes/LinksHub/assets/47222685/c7b88b7f-880f-42ef-aaba-c8882a57795c" width="150" height="150" alt="official logo of Hacktoberfest 2023" >
+    </td>
+    <td>Hacktoberfest is an annual open-source contribution event that takes place throughout the month of October. This event serves as a month-long celebration of open-source software and aims to provide participants with an initial understanding of how to contribute to open-source projects.</td>
+  </tr>
 </table>
 
 
