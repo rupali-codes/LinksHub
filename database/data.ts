@@ -277,7 +277,9 @@ export const sidebarData: ISidebar[] = [
   },
   {
     category: 'technical-writing',
-    subcategory: [{ name: 'Tools', url: '/tools', resources: DB.tools }],
+    subcategory: [
+      { name: 'Tools', url: '/tools', resources: DB.technicalwritingTools },
+    ],
   },
 ]
 
