@@ -6,7 +6,7 @@
 
 # Welcome to LinksHub 👋
 
-LinksHub is a Hub of Links `For Developers By Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
+LinksHub is a Hub of Links `For Developers By Developers`. Here, we've gathered a collection of the best and most useful resources, both free and paid, to aid in the development journey.
 
 We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to the right developers.
 <a name="Outreach"></a>
@@ -25,6 +25,10 @@ We are passionate about helping people from all backgrounds start their open sou
     <td><img src="https://github.com/rupali-codes/LinksHub/assets/105683440/3ce6a1f0-0b6a-44e5-9a78-842bae0a670d" alt="a white background with the text, GirlScript Summer of Code next to an orange flower"></td>
     <td>  3-month summer
 open source program with a mission to help students from India and beyond in developing their technical skills </td>
+  </tr>
+  <tr>
+   <td>hacktoberfest 2023</td>
+   <td> img src="https://res.cloudinary.com/practicaldev/image/fetch/s--n6yDj0MN--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/12t9r8j7n9ynxbdzhs5p.png" alt="a white background with the text, hacktoberfest next to an orange flower"> </td>
   </tr>
 </table>
 
