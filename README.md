@@ -26,6 +26,11 @@ We are passionate about helping people from all backgrounds start their open sou
     <td>  3-month summer
 open source program with a mission to help students from India and beyond in developing their technical skills </td>
   </tr>
+  <tr>
+    <td>Hacktoberfest 2023</td>
+    <td><img src="./assets/hacktoberfest_icon.jpg" alt="a white background with the text, GirlScript Summer of Code next to an orange flower"></td>
+    <td>  Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR).</td>
+  </tr>
 </table>
 
 
