@@ -260,6 +260,12 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'technical-writing',
+    subcategory: [
+      { name: 'Technical Writing Tools', url: '/technical-writing-tools', resources: DB.technicalWritingTools },
+    ],
+  },
+  {
     category: 'other',
     subcategory: [
       { name: 'events', url: '/events', resources: DB.events },
@@ -273,12 +279,6 @@ export const sidebarData: ISidebar[] = [
       },
       { name: 'Communities', url: '/communities', resources: DB.communities },
       { name: 'Roadmaps', url: '/roadmaps', resources: DB.roadmaps },
-    ],
-  },
-  {
-    category: 'technical-writing',
-    subcategory: [
-      { name: 'Tools', url: '/tools', resources: DB.technicalwritingTools },
     ],
   },
 ]
