@@ -79,7 +79,9 @@ const categoryDescriptions: CategoryDescriptions = {
   github: 'Well, Github does not need description, devs know well!',
   'other resources': 'Some extra resources to help you in your coding projects.',
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
-  contributors:  'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors'
+  contributors:  'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
+  //technical-writing
+  technicalWritingTools: 'This list provides the tools to suit your tech writing needs.',
 }
 
 export default categoryDescriptions

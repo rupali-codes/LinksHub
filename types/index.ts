@@ -45,6 +45,7 @@ export type Category =
   | 'other'
   | 'devops'
   | 'competitive-programming'
+  | 'technical-writing'
 
 export type SubCategories = {
   name: string
@@ -160,4 +161,6 @@ export const subcategoryArray = [
   'roadmaps',
   // competitive programming
   'platforms',
+  // technical-writing
+  'technical-writing-tools',
 ]
