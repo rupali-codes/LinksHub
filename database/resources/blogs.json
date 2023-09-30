@@ -152,5 +152,12 @@
     "url": "https://www.notion.so/personal",
     "category": "resources",
     "subcategory": "blogs"
+  },
+  {
+    "name": "Top 100+ Machine Learning Projects for 2023 [with Source Code]",
+    "description": "In this article, you’ll find the top 100+ latest projects and Ideas on Machine Learning which are beneficial for both beginners as well experienced professionals. These projects are specially made for the students that start their journey in Machine Learning and Data Science.",
+    "url": "https://www.geeksforgeeks.org/machine-learning-projects/",
+    "category": "resources",
+    "subcategory": "blogs"
   }
 ]
