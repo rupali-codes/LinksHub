@@ -36,15 +36,16 @@ export type Category =
   | 'frontend'
   | 'backend'
   | 'languages'
-  | 'artificial intelligence'
-  | 'internet of things'
-  | 'cloud computing'
-  | 'open source'
+  | 'ai'
+  | 'internet-of-things'
+  | 'cloud-computing'
+  | 'open-source'
   | 'resources'
   | 'youtube'
   | 'other'
   | 'devops'
-  | 'cp - competitive pro'
+  | 'competitive-programming'
+  | 'technical-writing'
 
 export type SubCategories = {
   name: string
@@ -68,16 +69,11 @@ export interface IContext {
   toggleNav?: () => void
 }
 
-export interface IUseFilterDBResponse {
-  filterSubCat: IData[][]
-  filterDB: IData[][]
-}
-
 export const subcategoryArray = [
   // devops
   'cicd',
-  'devopsLifecycle',
-  'devopsMethodologies',
+  'devops-life-cycle',
+  'devops-methodologies',
   'docker',
   'kubernetes',
   'microservices',
@@ -96,7 +92,6 @@ export const subcategoryArray = [
   'three-js',
   'themes-templates',
   'ui-generators',
-  'videos',
   //backend
   'architecture',
   'authentication',
@@ -134,9 +129,10 @@ export const subcategoryArray = [
   'deep-learning',
   'machine-learning',
   // Open-source
-  'open-source-blogs',
-  'open-source-projects',
-  'open-source-tools',
+  'articles',
+  'projects',
+  'tools',
+  'os-tutorials',
   // resources
   'blogs',
   'e-book',
@@ -145,7 +141,8 @@ export const subcategoryArray = [
   'project-ideas',
   // youtube
   'android',
-  'competitive-programming',
+  'cp-platforms',
+  'cp-tutorials',
   'css',
   'data-structures',
   'fintech',
@@ -161,6 +158,9 @@ export const subcategoryArray = [
   'github',
   'other-resources',
   'podcasts',
+  'roadmaps',
   // competitive programming
   'platforms',
+  // technical-writing
+  'technical-writing-tools',
 ]

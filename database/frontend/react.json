@@ -107,5 +107,12 @@
     "category": "frontend",
     "subcategory": "react",
     "language": "hindi"
+  },
+  {
+    "name": "Odin Project",
+    "description": "The Odin Project is a free, online coding curriculum maintained by the open source community. It offers courses covering web development basics, JavaScript,Ruby on Rails, job search strategies. It also has a Discord community of nearly 718,000 learners.",
+    "url": "https://www.theodinproject.com/",
+    "category": "frontend",
+    "subcategory": "react"
   }
 ]

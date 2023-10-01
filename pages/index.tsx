@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Logo from 'components/logo/logo'
 import TypewriterComponent from 'typewriter-effect'
 import { sidebarData } from '../database/data'
+
 export default function Home() {
   //storing sub categories names for using in typewriter effect
   const subCategoriesNames: string[] = []

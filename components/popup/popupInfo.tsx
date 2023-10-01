@@ -30,18 +30,18 @@ export const PopupInfo: React.FC<{
           onClick={(e) => e.stopPropagation()}
           className={`fixed left-1/2 top-1/2 z-[150] max-w-[500px] -translate-x-1/2 -translate-y-1/2 transition-all ${
             currentCard ? 'animate-scale-appearance' : 'animate-scale-hide'
-          } flex h-fit w-[90%] flex-col justify-between gap-5 overflow-hidden rounded-2xl border border-dashed border-primary-80 dark:border-primary-60 bg-light-primary px-5 py-10 dark:bg-dark`}
+          } flex h-fit w-[90%] flex-col justify-between gap-5 overflow-hidden rounded-2xl border border-dashed border-theme-secondary dark:border-theme-primary bg-light-primary px-5 py-10 dark:bg-dark`}
           role="dialog"
           title={`${currentCard?.name ?? 'Card'} Popup`}
         >
           <div className="flex flex-col gap-5">
             <div className="flex justify-between items-center">
               <div className="w-full flex justify-between items-center">
-                <h2 className="text-2xl text-primary-60 capitalize">
+                <h2 className="text-2xl text-theme-primary capitalize">
                   {currentCard?.name}
                 </h2>
               </div>
-              <div className="max-w-[25]%] text-xsm text-primary-80 capitalize flex items-center gap-2">
+              <div className="max-w-[25]%] text-xsm text-theme-secondary capitalize flex items-center gap-2">
                 <CopyToClipboard url={currentCard?.url ?? ''} />
                 {currentCard?.language ? (
                   <>
@@ -61,7 +61,7 @@ export const PopupInfo: React.FC<{
               href={currentCard?.url}
               target="_blank"
               rel="noreferrer"
-              className="mt-2 px-6 py-2 text-white text-center bg-primary-80 rounded-2xl w-full hover:bg-transparent hover:text-primary-80 border border-dashed border-transparent duration-100 hover:border-primary-60  bottom-0 flex items-center justify-center bottom-0 relative"
+              className="mt-2 px-6 py-2 text-white text-center bg-theme-secondary rounded-2xl w-full hover:bg-transparent hover:text-theme-secondary border border-dashed border-transparent duration-100 hover:border-theme-primary flex items-center justify-center bottom-0 relative"
             >
               Visit site
             </a>
@@ -71,7 +71,7 @@ export const PopupInfo: React.FC<{
           <div className="flex justify-center items-center">
             <p
               onClick={onClose}
-              className="cursor-pointer text-sm text-secondary-40 -mt-3 hover:text-primary-60 hover:underline"
+              className="cursor-pointer text-sm text-text-primary -mt-3 hover:text-theme-primary hover:underline"
             >
               Close
             </p>
@@ -82,4 +82,3 @@ export const PopupInfo: React.FC<{
     </>
   )
 }
-

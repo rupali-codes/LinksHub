@@ -78,5 +78,13 @@
     "category": "youtube",
     "subcategory": "machine-learning",
     "language": "english"
+  },
+  {
+    "name": "Programming with Mosh",
+    "description": "This guide covers essential concepts and more complex topics for individuals who are new to machine learning.",
+    "url": "https://www.youtube.com/@programmingwithmosh",
+    "category": "youtube",
+    "subcategory": "machine-learning",
+    "language": "english"
   }
 ]

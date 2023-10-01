@@ -33,5 +33,12 @@
     "url": "https://learn.thinkdiffusion.com/creating-qr-codes-with-controlnet/",
     "category": "other",
     "subcategory": "other-resources"
+  },
+  {
+    "name": "Edabit",
+    "description": "Edabit is a platform to Learn Programming with 10,000+ challenges through Interactive Console Editor",
+    "url": "https://edabit.com/",
+    "category": "other",
+    "subcategory": "other-resources"
   }
 ]
