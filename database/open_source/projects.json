@@ -138,5 +138,14 @@
     "url": "https://github.com/amandamartin-dev/women-led-open-source",
     "category": "open-source",
     "subcategory": "projects"
+  },
+  
+  {
+    "name": "Rocket.Chat",
+    "description": "It's an open-source, fully customizable communications platform developed in JavaScript, prioritizing data protection for organizations with high standards.",
+    "url": "https://github.com/RocketChat/Rocket.Chat",
+    "category": "open-source",
+    "subcategory": "projects"
   }
+  
 ]
