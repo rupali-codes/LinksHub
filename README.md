@@ -26,6 +26,11 @@ We are passionate about helping people from all backgrounds start their open sou
     <td>  3-month summer
 open source program with a mission to help students from India and beyond in developing their technical skills </td>
   </tr>
+  <tr>
+    <td>Hacktober Fest 2023</td>
+    <td><img src="https://hacktoberfest.com/_next/static/media/opengraph.e5fafe07.png" alt="a white background with the text, GirlScript Summer of Code next to an orange flower"></td>
+    <td>Hacktoberfest is a yearly event by DigitalOcean that promotes open-source contributions during October which is open to all , regardless of their experience level in programming or open source contributions.</td>
+  </tr>
 </table>
 
 
