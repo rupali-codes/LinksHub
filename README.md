@@ -26,6 +26,11 @@ We are passionate about helping people from all backgrounds start their open sou
     <td>  3-month summer
 open source program with a mission to help students from India and beyond in developing their technical skills </td>
   </tr>
+  <tr>
+    <td>Hacktoberfest 2023 </td>
+    <td><img src="https://github.com/Anmol-Baranwal/LinksHub/assets/74038190/8785b289-e964-4986-98b2-19817ce31a7f" alt="a black background with the official logo of Hacktoberfest 2023"></td>
+    <td>  Hacktoberfest is a month-long October event welcoming all skill levels to join the open source community, contribute quality pull requests on GitHub, and earn cool swag. </td>
+  </tr>
 </table>
 
 
