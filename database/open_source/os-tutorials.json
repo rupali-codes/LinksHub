@@ -5,5 +5,12 @@
         "url": "https://youtu.be/WPaN9vIyqt4",
         "category": "open-source",
         "subcategory": "os-tutorials"
+    },
+    {
+        "name": "Complete Guide to Open Source - How to Contribute",
+        "description": "Learn why and how to contribute to open source software. You will learn about how to find projects to contribute to, how to make issues and PRs, how to make money from open source, and more.",
+        "url": "https://www.youtube.com/watch?v=yzeVMecydCE&t=1792s&ab_channel=freeCodeCamp.org",
+        "category": "open-source",
+        "subcategory": "os-tutorials"
     }
 ]
