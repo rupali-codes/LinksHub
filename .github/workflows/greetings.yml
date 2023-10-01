@@ -17,5 +17,5 @@ jobs:
       - uses: EddieHubCommunity/gh-action-community/src/welcome@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "Hello ${{ github.actor }}! \n Thank you for raising this issue! 😊 Your contribution is valuable to us! 😊 \n\nPlease make sure to follow our [Contributing Guidelines. 💪🏻](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md) \n\nOur review team will carefully assess the issue and reach out to you soon! 😇 \n We appreciate your patience! "
+          issue-message: "Hello ${{ github.actor }}! \n Thank you for raising this issue! 😊 Your contribution is valuable to us! 😊 \n\nPlease make sure to follow our [Contributing Guidelines. 💪🏻](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md) \n\nPlease only work on an issue if you're assigned; otherwise, the PR will be automatically closed.\nOur review team will carefully assess the issue and reach out to you soon! 😇 \n We appreciate your patience! "
           pr-message: "Thank you, ${{ github.actor }}, for creating this pull request and contributing to LinksHub! 💗\n\n The maintainers will review this Pull Request and provide feedback as soon as possible! 😇\nWe appreciate your patience and contribution, Keep up the great work! 😀"
