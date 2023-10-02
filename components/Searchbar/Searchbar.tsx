@@ -4,9 +4,10 @@ import SearchIcon from 'assets/icons/SearchIcon'
 import { SearchbarSuggestions } from './SearchbarSuggestions'
 import { ErrorMessage } from 'components/ErrorMessage'
 
-import { subcategoryArray } from '../../types'
+import { SubCategories, subcategoryArray } from '../../types'
 import { SearchbarAction } from './SearchbarReducer'
 import { useRouter } from 'next/router'
+import { sidebarData } from 'database/data'
 
 interface SearchbarProps {
   dispatchSearch: (action: SearchbarAction) => void
@@ -35,14 +36,14 @@ export const Searchbar: React.FC<SearchbarProps> = ({
     })
   }
 
-  const handleSuggestionClick = (searchQuery: string) => {
-    dispatchSearch({ type: 'suggestion_click', searchQuery })
-    router.push({
-      pathname: '/search',
-      query: {
-        query: searchQuery,
-      },
-    })
+  const handleSuggestionClick = (searchQuery: SubCategories) => {
+    console.log(searchQuery)
+    dispatchSearch({ type: 'suggestion_click', searchQuery: searchQuery.name })
+    const { category } = sidebarData.find((item) =>
+      item.subcategory.some((subCat) => subCat.name === searchQuery.name)
+    ) || { category: '' }
+
+    router.push(`/${category}${searchQuery.url}`)
   }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -117,13 +118,9 @@ const getFilteredSuggestions = (query: string) => {
     return []
   }
 
-  const suggestions = new Set<string>([])
-  searchOptions.forEach((option) => {
-    const normalisedOption = option.toLowerCase()
-    if (normalisedOption.includes(normalisedQuery)) {
-      suggestions.add(normalisedOption)
-    }
-  })
+  const suggestions = searchOptions.filter((option) =>
+    option.name.toLowerCase().includes(normalisedQuery)
+  )
 
-  return Array.from(suggestions)
+  return suggestions
 }
