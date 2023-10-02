@@ -1,30 +1,29 @@
-import { FC } from 'react'
-import { Searchbar } from '../Searchbar'
-import useSidebarSearch from 'hooks/useSidebarSearch'
+import { FC, memo } from 'react'
+import { Searchbar } from 'components/Searchbar/Searchbar'
 import classNames from 'classnames'
 import { useTheme } from 'next-themes'
+
 import { SideNavbarCategoryList } from './SideNavbarCategoryList'
 
-export const SideNavbarBody: FC<{}> = () => {
-  const { theme } = useTheme()
+import { useSearchReducer } from 'hooks/useSearchReducer'
 
-  const { setSearch, searchResults, debouncedSearch } = useSidebarSearch()
+const MemoizedSideNavbarCategoryList = memo(SideNavbarCategoryList)
+
+export const SideNavbarBody: FC = () => {
+  const { theme } = useTheme()
+  const [searchState, dispatchSearch] = useSearchReducer()
 
   return (
     <div
       className={classNames(
-        `bg-base-200 h-full w-full overflow-x-hidden whitespace-nowrap transition-all duration-300 ease-in dark:bg-gray-900 dark:text-gray-300`,
+        `bg-[rgba(243,244,246,1)] h-full w-full overflow-x-hidden whitespace-nowrap transition-all ease-in dark:bg-dark dark:text-text-primary`,
         theme === 'light' ? 'scrollColorLight' : 'scrollColorDark'
       )}
     >
-      <div className="bg-base-200 transiton-all w-full p-4 duration-300 ease-in dark:bg-gray-900">
-        <Searchbar setSearch={setSearch} />
+      <div className="bg-primary-light transiton-all w-full p-4 transition-none ease-in dark:bg-dark">
+        <Searchbar {...searchState} dispatchSearch={dispatchSearch} />
       </div>
-      <SideNavbarCategoryList
-        items={searchResults}
-        isSearching={debouncedSearch.length > 0}
-        openByDefault={'frontend'}
-      />
+      <MemoizedSideNavbarCategoryList query={searchState.categoryQuery} />
     </div>
   )
 }

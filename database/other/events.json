@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Hackathon",
+    "description": "This guide provides information regarding what is a Hackathon and how does it works.",
+    "url": "https://tips.hackathon.com/article/what-is-a-hackathon",
+    "category": "other",
+    "subcategory": "events"
+  },
+  {
+    "name": "Your First Hackathon: A Survival Guide",
+    "description": "Are you attending your first hackathon? Check out this article! It provides tips to help you get started.",
+    "url": "https://medium.com/geekculture/survival-guide-for-your-first-hackathon-1b799e2d4f8f",
+    "category": "other",
+    "subcategory": "events"
+  },
+  
+  {
+    "name": "The 8 Best Websites to Find a Hackathon",
+    "description": "A list of websites where can you find the best virtual hackathons to participate in.",
+    "url": "https://medium.com/@jonathanallengrant/the-7-best-websites-to-find-a-hackathon-the-hacklife-guide-3e420f2a565b",
+    "category": "other",
+    "subcategory": "events"
+  },
+  {
+    "name": "Best Open Source Programs For Students to Participate",
+    "description": "Contributing to open source is a really great way to get real-world software development and other domain experience from the comfort of your home even if you’re a beginner and don’t have a job in the industry.  In this article, you’ll learn about the various programs that are available for university students and even for working professionals to get involved in open source. So let’s get started!",
+    "url": "https://www.geeksforgeeks.org/best-open-source-programs-for-students-to-participate/",
+    "category": "other",
+    "subcategory": "events"
+  }
+]

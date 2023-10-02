@@ -1,114 +1,156 @@
 [
-    {
-        "name": "Medium",
-        "description": "Medium is a website that allows people to publish and share articles, stories, and ideas with a community of readers.",
-        "url": "https://medium.com",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "GeeksforGeeks",
-        "description": "GeeksforGeeks is a computer science portal for geeks offering coding and algorithm tutorials, interview questions and more.",
-        "url": "https://geeksforgeeks.org",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "Javatpoint",
-        "description": "A platform that provides free tutorials and interview questions about technologies related to computer science.",
-        "url": "https://www.javatpoint.com/",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "W3Schools",
-        "description": "W3Schools is a platform that offers tutorials, references, and courses covering all aspects of web development.",
-        "url": "https://www.w3schools.com",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "LogRocket",
-        "description": "It is a frontend monitoring tool that helps with debugging by providing insights into user behavior.",
-        "url": "https://logrocket.com",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "Tutorialspoint",
-        "description": "Tutorials Point is an Ed Tech platform that offers the best learning material for technical and non-technical subjects.",
-        "url": "https://tutorialspoint.com",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "Dev.to",
-        "description": "A constructive and inclusive social network for software developers where they share and discover great ideas.",
-        "url": "https://dev.to/",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "FreeCodeCamp",
-        "description": "A platform that has thousands of videos, articles, and coding lessons for helping people learn to code for free.",
-        "url": "https://freecodecamp.com",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "Hashnode",
-        "description": "A free blogging platform where people in tech, developers, and engineers share their ideas.",
-        "url": "https://hashnode.com",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "Omglinux",
-        "description": "A website that offers news, tutorials, and resources related to Linux and open source software.",
-        "url": "https://www.omglinux.com/",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "Showwcase",
-        "description": "Showwcase is a professional network built for developers to connect, build community, and find new opportunities",
-        "url": "https://www.showwcase.com/",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "Hackernoon",
-        "description": "This is a platform where developers and technologists from all walks of life write blog posts about their experiences in tech.",
-        "url": "https://hackernoon.com/",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "Hacker News",
-        "description": "Hacker News is a tech-focused social news and discussion site run by startup accelerator Y Combinator, with a vibrant community of tech enthusiasts and insiders.",
-        "url": "https://news.ycombinator.com/",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "MDN Web Docs",
-        "description": "Discover the latest web development insights on our new MDN Blog",
-        "url": "https://developer.mozilla.org/en-US/",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "Andrew Ng's Blog",
-        "description": "Andrew Ng's blog provides insightful articles on AI, machine learning, and deep learning topics.",
-        "url": "https://www.andrewng.org/",
-        "category": "resources",
-        "subcategory": "blogs"
-    },
-    {
-        "name": "JavaScript Tricks-Raj's Blog",
-        "description": "This Blog provides you top 10 tips and tricks of JavaScript",
-        "url": "https://resourcegallery.live/blog/JavaScript%20Top%2010%20Tips%20&%20Tricks/",
-        "category": "resources",
-        "subcategory": "blogs"
-    }
+  {
+    "name": "Medium",
+    "description": "Medium is a website that allows people to publish and share articles, stories, and ideas with a community of readers.",
+    "url": "https://medium.com",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "GeeksforGeeks",
+    "description": "GeeksforGeeks is a computer science portal for geeks offering coding and algorithm tutorials, interview questions and more.",
+    "url": "https://geeksforgeeks.org",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Javatpoint",
+    "description": "A platform that provides free tutorials and interview questions about technologies related to computer science.",
+    "url": "https://www.javatpoint.com/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "W3Schools",
+    "description": "W3Schools is a platform that offers tutorials, references, and courses covering all aspects of web development.",
+    "url": "https://www.w3schools.com",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "LogRocket",
+    "description": "It is a frontend monitoring tool that helps with debugging by providing insights into user behavior.",
+    "url": "https://logrocket.com",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Tutorialspoint",
+    "description": "Tutorials Point is an Ed Tech platform that offers the best learning material for technical and non-technical subjects.",
+    "url": "https://tutorialspoint.com",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Dev.to",
+    "description": "A constructive and inclusive social network for software developers where they share and discover great ideas.",
+    "url": "https://dev.to/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "FreeCodeCamp",
+    "description": "A platform that has thousands of videos, articles, and coding lessons for helping people learn to code for free.",
+    "url": "https://freecodecamp.com",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Hashnode",
+    "description": "A free blogging platform where people in tech, developers, and engineers share their ideas.",
+    "url": "https://hashnode.com",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Omglinux",
+    "description": "A website that offers news, tutorials, and resources related to Linux and open source software.",
+    "url": "https://www.omglinux.com/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Showwcase",
+    "description": "Showwcase is a professional network built for developers to connect, build community, and find new opportunities",
+    "url": "https://www.showwcase.com/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Hackernoon",
+    "description": "This is a platform where developers and technologists from all walks of life write blog posts about their experiences in tech.",
+    "url": "https://hackernoon.com/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Hacker News",
+    "description": "Hacker News is a tech-focused social news and discussion site run by startup accelerator Y Combinator, with a vibrant community of tech enthusiasts and insiders.",
+    "url": "https://news.ycombinator.com/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "MDN Web Docs",
+    "description": "Discover the latest web development insights on our new MDN Blog",
+    "url": "https://developer.mozilla.org/en-US/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Andrew Ng's Blog",
+    "description": "Andrew Ng's blog provides insightful articles on AI, machine learning, and deep learning topics.",
+    "url": "https://www.andrewng.org/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Code With Harry",
+    "description": "This website contains tutorials, cheatsheets, notes etc. on many topics.",
+    "url": "https://www.codewithharry.com/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "JavaScript Tricks-Raj's Blog",
+    "description": "This Blog provides you top 10 tips and tricks of JavaScript",
+    "url": "https://resourcegallery.live/blog/JavaScript%20Top%2010%20Tips%20&%20Tricks/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "OpenReplay Blogs",
+    "description": "OpenReplay blogs provide highly informative and curated content for tech enthusiasts, offering insights into diverse technical topics",
+    "url": "https://blog.openreplay.com/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Girls Who Code",
+    "description": "Girls Who Code is an international nonprofit organization that strives to close the gender gap in technology . It aims to support and increase the participation of women in computer science and technology.",
+    "url": "https://girlswhocode.medium.com/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "ReactTraining",
+    "description": "ReactTraining is the world-renowned React training company who's committed to diversity and education in the tech community.",
+    "url": "https://reacttraining.com/blog/using-hooks-in-classes",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Daily.dev",
+    "description": "Daily.dev is a website that provides a curated feed of developer news and articles to help you stay updated with the latest trends and developments in the tech industry.",
+    "url": "https://app.daily.dev/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Notion",
+    "description": "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team.",
+    "url": "https://www.notion.so/personal",
+    "category": "resources",
+    "subcategory": "blogs"
+  }
 ]

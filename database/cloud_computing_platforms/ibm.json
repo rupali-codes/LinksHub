@@ -1,0 +1,9 @@
+[
+    {
+        "name": "IBM Cloud",
+        "description": "The IBM Cloud platform is composed of multiple components that work together to provide a consistent and dependable cloud experience.",
+        "url": "https://cloud.ibm.com/docs",
+        "category": "cloud-computing",
+        "subcategory": "ibm"
+    }
+]

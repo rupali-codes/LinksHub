@@ -1,9 +1,24 @@
 [
-    {
-        "name": "Open Source Stories",
-        "description": "Founded by Amanda Casari and Julia Ferraioli, Open Source Stories is a podcast where individuals record their experiences about being in the open source community. In contrast to other podcasts, these stories are saved in the StoryCorps archive at the United States Congress! So what are you waiting for? Share your story!",
-        "url": "https://www.opensourcestories.org/",
-        "category": "other",
-        "subcategory": "podcasts"
-    }
+  {
+    "name": "Open Source Stories",
+    "description": "Founded by Amanda Casari and Julia Ferraioli, Open Source Stories is a podcast where individuals record their experiences about being in the open source community. In contrast to other podcasts, these stories are saved in the StoryCorps archive at the United States Congress! So what are you waiting for? Share your story!",
+    "url": "https://www.opensourcestories.org/",
+    "category": "other",
+    "subcategory": "podcasts"
+  },
+  {
+    "name": "CodeNewbie Podcast",
+    "description": "In this podcast, Saron Yitbarek interviews a new guest every week about their coding journey, how they landed their first coding job, and more.",
+    "url": "https://www.codenewbie.org/podcast",
+    "category": "other",
+    "subcategory": "podcasts"
+  },
+  {
+    "name": "Stackoverflow Podcast",
+    "description": " In Stack Overflow Podcast,  hosts Ben Popper, Cassidy Williams, and Ceora Ford explore what it means to work in software and how code is reshaping our world.",
+    "url": "https://stackoverflow.blog/podcast/",
+    "category": "other",
+    "subcategory": "podcasts"
+  }
+  
 ]

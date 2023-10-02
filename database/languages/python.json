@@ -14,9 +14,30 @@
         "subcategory": "python"
     },
     {
+        "name": "100 days of Python",
+        "description": "A 100 days of code challenge to learn python from basics to advanced.",
+        "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg",
+        "category": "youtube",
+        "subcategory": "python"
+    }, 
+    {
         "name": "Python Tutorial",
         "description": "Learn Python through this interactive Python tutorial and exercises. You also receive a certificate if you pass them.",
         "url": "https://www.learnpython.org/",
+        "category": "languages",
+        "subcategory": "python"
+    },
+    {
+        "name": "Real Python Tutorial",
+        "description": "Learn Web development using Python, Data Science, Machine learning through well explained projects.",
+        "url": "https://realpython.com/",
+        "category": "languages",
+        "subcategory": "python"
+    },
+    {
+        "name": "Complete Python Tutorial",
+        "description": "Live examples will help you learn Python. This tutorial covers file handling, various modules, Matplotlib, machine learning, MongoDB, and MySQL.",
+        "url": "https://www.w3schools.com/python/",
         "category": "languages",
         "subcategory": "python"
     }

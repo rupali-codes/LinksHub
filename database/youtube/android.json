@@ -1,16 +1,58 @@
-[{
+[
+  {
     "name": "FreeCodeCamp",
     "description": "This channel provides free multi programming language courses for Web-dev, android and more.",
     "url": "https://www.youtube.com/watch?v=fis26HvvDII",
     "category": "youtube",
     "subcategory": "android",
     "language": "english"
-},
-{
+  },
+  {
     "name": "Android Developer",
     "description": "This channel provides free programming courses on Android  development and more.",
     "url": "https://www.youtube.com/@androiddeveloper6721/featured",
     "category": "youtube",
     "subcategory": "android",
     "language": "english"
-}]
+  },
+  {
+    "name": "Android Development Tutorial for Beginners",
+    "description": "This playlist is a beginner friendly course to get you started with android development.",
+    "url": "https://www.youtube.com/playlist?list=PLUcsbZa0qzu3Mri2tL1FzZy-5SX75UJfb",
+    "category": "youtube",
+    "subcategory": "android",
+    "language": "hindi"
+  },
+  {
+    "name": "Android App Development course in 2023 | Saumya Singh",
+    "description": "This is a comprehensive Android tutorial playlist, designed to take you from a beginner to a proficient Android developer. With step-by-step instructions, this curated collection covers everything from setting up your development environment to advanced topics like networking, testing, and debugging.",
+    "url": "https://www.youtube.com/watch?v=BePWJavW_w4&list=PLTV_nsuD2lf4UCTV6xwvNPvFdmCNKyhc8&pp=iAQB",
+    "category": "youtube",
+    "subcategory": "android",
+    "language": "hindi"
+  },
+  {
+    "name": "Android Development Tutorials in Hindi | CodeWithHarry",
+    "description": " In this Android Java Course one can learn how Android applications are built using programming in Java and XML.",
+    "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9aiL0kysYlfSOUgY5rNlOhUd",
+    "category": "youtube",
+    "subcategory": "android",
+    "language": "hindi"
+  },
+  {
+    "name": "Android Development Tutorials in Hindi | WsCube Tech",
+    "description": " This  Hindi Android tutorial explains how Android applications are built using Android Studio. ",
+    "url": "https://www.youtube.com/playlist?list=PLjVLYmrlmjGdDps6HAwOOVoAtBPAgIOXL",
+    "category": "youtube",
+    "subcategory": "android",
+    "language": "hindi"
+  },
+  {
+    "name": "Android Development Course| Neat Roots",
+    "description": "In this Android Java Course, you learn Android Development to become a Full Stack Android Developer",
+    "url": "https://www.youtube.com/playlist?list=PLUhfM8afLE_Ok-0Lx2v9hfrmbxi3GgsX1",
+    "category": "youtube",
+    "subcategory": "android",
+    "language": "hindi"
+  }
+]

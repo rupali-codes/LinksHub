@@ -1,52 +1,79 @@
 [
-    {
-        "name": "JavaScript Info",
-        "description": "It is a modern JavaScript tutorial that provides detailed explanation, examples, and tasks.",
-        "url": "https://javascript.info/",
-        "category": "languages",
-        "subcategory": "javascript"
-    },
-    {
-        "name": "JavaScript-Tutorial",
-        "description": "It helps you quickly and effectively learn JavaScript.",
-        "url": "https://www.javascripttutorial.net/",
-        "category": "languages",
-        "subcategory": "javascript"
-    },
-    {
-        "name": "Eloquent Javascript",
-        "description": "This  book explains the concepts of JavaScript with real-life examples",
-        "url": "https://eloquentjavascript.net/",
-        "category": "languages",
-        "subcategory": "javascript"
-    },
-    {
-        "name": "Learn Javascript Online",
-        "description": "This website teaches Javascript in an interactive way. You can read short lessons, take notes, and complete challenges directly in your browser.",
-        "url": "https://learnjavascript.online/",
-        "category": "languages",
-        "subcategory": "javascript"
-    },
-    {
-        "name": "Exercism",
-        "description": "This website provides programming exercises and challenges to help developers improve their skills in a variety of programming languages, including JavaScript.",
-        "url": "https://exercism.org/tracks/javascript",
-        "category": "languages",
-        "subcategory": "javascript" 
-    },
-    {
-        "name": "Learn Javascript",
-        "description": "Learn the basics of JavaScript by solving 140+ interactive coding challenges. Along the way, you will build a game, a browser extension, and a mobile app!",
-        "url": "https://scrimba.com/learn/learnjavascript",
-        "category": "languages",
-        "subcategory": "javascript" 
-    },
-    {
-        "name": "Full Stack JavaScript",
-        "description": "This site takes you through the entire JavaScript curriculum. You'll learn everything you need to know to create beautiful responsive websites from scratch using JavaScript and NodeJS.",
-        "url": "https://www.theodinproject.com/paths/full-stack-javascript",
-        "category": "languages",
-        "subcategory": "javascript" 
-    }
-    
+  {
+    "name": "JavaScript Info",
+    "description": "It is a modern JavaScript tutorial that provides detailed explanation, examples, and tasks.",
+    "url": "https://javascript.info/",
+    "category": "languages",
+    "subcategory": "javascript"
+  },
+  {
+    "name": "JavaScript-Tutorial",
+    "description": "It helps you quickly and effectively learn JavaScript.",
+    "url": "https://www.javascripttutorial.net/",
+    "category": "languages",
+    "subcategory": "javascript"
+  },
+  {
+    "name": "Eloquent Javascript",
+    "description": "This  book explains the concepts of JavaScript with real-life examples",
+    "url": "https://eloquentjavascript.net/",
+    "category": "languages",
+    "subcategory": "javascript"
+  },
+  {
+    "name": "Learn Javascript Online",
+    "description": "This website teaches Javascript in an interactive way. You can read short lessons, take notes, and complete challenges directly in your browser.",
+    "url": "https://learnjavascript.online/",
+    "category": "languages",
+    "subcategory": "javascript"
+  },
+  {
+    "name": "Exercism",
+    "description": "This website provides programming exercises and challenges to help developers improve their skills in a variety of programming languages, including JavaScript.",
+    "url": "https://exercism.org/tracks/javascript",
+    "category": "languages",
+    "subcategory": "javascript"
+  },
+  {
+    "name": "Learn Javascript",
+    "description": "Learn the basics of JavaScript by solving 140+ interactive coding challenges. Along the way, you will build a game, a browser extension, and a mobile app!",
+    "url": "https://scrimba.com/learn/learnjavascript",
+    "category": "languages",
+    "subcategory": "javascript"
+  },
+  {
+    "name": "Full Stack JavaScript",
+    "description": "This site takes you through the entire JavaScript curriculum. You'll learn everything you need to know to create beautiful responsive websites from scratch using JavaScript and NodeJS.",
+    "url": "https://www.theodinproject.com/paths/full-stack-javascript",
+    "category": "languages",
+    "subcategory": "javascript"
+  },
+  {
+    "name": "Learn JavaScript Programming",
+    "description": "Javascript tutorial by Programiz.",
+    "url": "https://www.programiz.com/javascript",
+    "category": "languages",
+    "subcategory": "javascript"
+  },
+  {
+    "name": "Learn Js",
+    "description": "This website provides interactive tutorials for anyone who wishes to learn the JavaScript programming language, whether they are an experienced programmer or not.",
+    "url": "https://learn-js.org/",
+    "category": "languages",
+    "subcategory": "javascript"
+  },
+  {
+    "name": "JavaScript30",
+    "description": "JavaScript30 is an online educational platform that offers a free 30-day JavaScript coding challenge.",
+    "url": "https://javascript30.com/",
+    "category": "languages",
+    "subcategory": "javascript"
+  },
+  {
+    "name": "javaTpoint",
+    "description": "Our JavaScript tutorial caters to beginners and professionals, utilizing lightweight, cross-platform object-based scripting for creating dynamic client-side pages using the JavaScript Translator.",
+    "url": "https://www.javatpoint.com/javascript-tutorial",
+    "category": "languages",
+    "subcategory": "javascript"
+  }
 ]

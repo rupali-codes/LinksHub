@@ -1,0 +1,9 @@
+[
+    {
+      "name": "ThreeJS",
+      "description": "Three.js is the world's most popular JavaScript framework for displaying 3D content on the web. With three.js, you no longer need a fancy gaming PC console or download a special application to display photorealistic 3D graphics. All you need is a smartphone and a web browser.",
+      "url": "https://discoverthreejs.com/",
+      "category": "frontend",
+      "subcategory": "three-js"
+    }
+  ]

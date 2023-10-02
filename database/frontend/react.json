@@ -1,37 +1,118 @@
 [
-    {
-        "name": "React js",
-        "description": "Free online course for learning react js",
-        "url": "https://scrimba.com/learn/learnreact#",
-        "category": "frontend",
-        "subcategory": "react"
-    },
-    {
-        "name": "React Tutorial for Beginners",
-        "description": "This tutorial is beginner-friendly, well-structured, hands-on, and helpful in understanding React",
-        "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
-        "category": "frontend",
-        "subcategory": "react"
-    },
-    {
-        "name": "React JS Official Documentation",
-        "description": "The go-to resource for React JS, offering comprehensive guides, tutorials, and API references to help you learn and master React development.",
-        "url": "https://react.dev/",
-        "category": "frontend",
-        "subcategory": "react"
-    },
-    {
-        "name": "Fullstack Open",
-        "description": "This course serves as an introduction to modern web application development with JavaScript. The main focus is on building single page applications with ReactJS and use REST APIs built with Node.js. The course also contains a section on GraphQL, a modern alternative to REST APIs.",
-        "url": "https://fullstackopen.com/en/",
-        "category": "frontend",
-        "subcategory": "react"
-    },
-    {
-        "name": "React 2025",
-        "description": "React2025 is the ultimate free course that guides you from zero lines of code to launching a fully functional SaaS app. Learn Next.js, React, Firebase Authentication, Firestore, Stripe for subscription payments, and Vercel for serverless deployment all in one comprehensive package.",
-        "url": "https://react2025.com/",
-        "category": "frontend",
-        "subcategory": "react"
-    }
+  {
+    "name": "React js",
+    "description": "Free online course for learning React js",
+    "url": "https://scrimba.com/learn/learnreact#",
+    "category": "frontend",
+    "subcategory": "react",
+    "language": "english"
+  },
+  {
+    "name": "React js",
+    "description": "This freecodecamp course is beginner friendly and provides information that developers can apply in large codebases.",
+    "url": "https://youtu.be/4UZrsTqkcW4",
+    "category": "frontend",
+    "subcategory": "react",
+    "language": "english"
+  },
+  {
+    "name": "30 days of React",
+    "description": "a very nice repository and a challenge at the same time to learn ReactJS",
+    "url": "https://github.com/Asabeneh/30-Days-Of-React",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "React Tutorial for Beginners",
+    "description": "This tutorial is beginner-friendly, well-structured, hands-on, and helpful in understanding React",
+    "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "React JS Official Documentation",
+    "description": "The go-to resource for React JS, offering comprehensive guides, tutorials, and API references to help you learn and master React development.",
+    "url": "https://react.dev/",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "Fullstack Open",
+    "description": "This course serves as an introduction to modern web application development with JavaScript. The main focus is on building single-page applications with ReactJS and use REST APIs built with Node.js. The course also contains a section on GraphQL, a modern alternative to REST APIs.",
+    "url": "https://fullstackopen.com/en/",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "React 2025",
+    "description": "React2025 is the ultimate free course that guides you from zero lines of code to launch a fully functional SaaS app. Learn Next.js, React, Firebase Authentication, Firestore, Stripe for subscription payments, and Vercel for serverless deployment all in one comprehensive package.",
+    "url": "https://react2025.com/",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "React Tutorial",
+    "description": "Learn modern React from scratch, and practice in an intuitive environment. Throughout this course, you will build an online supermarket shopping app with Stripe integration.",
+    "url": "https://react-tutorial.app/",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "Free React Bootcamp",
+    "description": "This 4-day React bootcamp offers a solid foundation in React development. Each day features an in-depth video, providing a comprehensive learning experience for mastering React's concepts and techniques.",
+    "url": "https://ui.dev/free-react-bootcamp",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "React Redux ",
+    "description": "Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. Similar to Facebook's Flux architecture, it was created by Dan Abramov and Andrew Clark",
+    "url": "https://redux.js.org/introduction/getting-started",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "Recoil Js ",
+    "description": "Recoil is an experimental state management library. It provides several capabilities that are difficult to achieve with React alone. In this article, we learn about the recoil. js, and how it is managing state in React. Recoil js is another state management library for React.",
+    "url": "https://recoiljs.org/docs/introduction/getting-started/",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "React Router v6",
+    "description": "In this video, you'll learn key aspects of React Router, including layout and index routes, nested routes, search parameter filtering, protected routes for authenticated users, and Remix-inspired data routers APIs like Loaders and Actions.",
+    "url": "https://youtu.be/nDGA3km5He4",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "DEVHINTS.IO React.js Cheatsheet",
+    "description": "This React.js cheatsheet gives comprehensive information on the language's fundamental concepts and implements a knowledge management approach to help developers understand them.",
+    "url": "https://devhints.io/react",
+    "category": "frontend",
+    "subcategory": "react"
+  },
+  {
+    "name": "React js beginner",
+    "description": "In this Hindi video series, you will learn topics ranging from props to react hooks and work on simple projects to gain first-hand experience with React.",
+    "url": "https://www.youtube.com/watch?v=tiLWCNFzThE&list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ&ab_channel=ThapaTechnical",
+    "category": "frontend",
+    "subcategory": "react",
+    "language": "hindi"
+  },
+  {
+    "name": "React js",
+    "description": "In this series, you will learn the basics of React.js while creating projects to gain a better understanding of concepts and their working.",
+    "url": "https://www.youtube.com/watch?v=v02P0AsTm2o&list=PLt5mNkGuWcuWSUHxSzWP74IU9U4BTVLt0",
+    "category": "frontend",
+    "subcategory": "react",
+    "language": "hindi"
+  },
+  {
+    "name": "Odin Project",
+    "description": "The Odin Project is a free, online coding curriculum maintained by the open source community. It offers courses covering web development basics, JavaScript,Ruby on Rails, job search strategies. It also has a Discord community of nearly 718,000 learners.",
+    "url": "https://www.theodinproject.com/",
+    "category": "frontend",
+    "subcategory": "react"
+  }
 ]

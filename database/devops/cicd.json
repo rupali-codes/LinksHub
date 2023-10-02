@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Learn CI/CD by building projects",
+        "description": "This is an amazing blog provides projects to help you understand CI/CD.",
+        "url": "https://www.freecodecamp.org/news/what-is-ci-cd/",
+        "category": "devops",
+        "subcategory": "cicd"
+    }
+]

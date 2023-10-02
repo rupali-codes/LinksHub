@@ -36,14 +36,14 @@
   },
   {
     "name": "CodeSandbox",
-    "description": "This IDE will make it easier for you to code. You can get any design you want as well as filter it by framework,dependiences, and tags.",
+    "description": "This IDE will make it easier for you to code. You can get any design you want as well as filter it by framework,dependencies, and tags.",
     "url": "https://codesandbox.io/search?refinementList",
     "category": "other",
     "subcategory": "devtools"
   },
   {
     "name": "OpenSauced",
-    "description": "OpenSauced is a great tool to display your merged and opened pull requests, highlight your favorite contributions, and find other open source projects to contribute to!",
+    "description": "OpenSauced is a great tool to display your merged and opened pull requests, highlight your favorite contributions, and find other open-source projects to contribute to!",
     "url": "https://opensauced.pizza/",
     "category": "other",
     "subcategory": "devtools"
@@ -66,7 +66,21 @@
     "name": "AI search engine for developers",
     "description": "Phind is a search engine that simply tells users what the answer is. It is optimized for developers and technical questions.",
     "url": "https://www.phind.com/",
-    "category": "Other",
+    "category": "other",
+    "subcategory": "devtools"
+  },
+  {
+    "name": "SmallDevTools",
+    "description": "This website has a collection of useful tools for developers in a minimal UI.",
+    "url": "https://smalldev.tools/",
+    "category": "other",
+    "subcategory": "devtools"
+  },
+  {
+    "name": "Devhints",
+    "description": "This website has over 358 curated cheatsheets, by developers for developers.",
+    "url": "https://devhints.io/",
+    "category": "other",
     "subcategory": "devtools"
   },
   {

@@ -1,2 +1,30 @@
-[]
-
+[
+  {
+    "name": "What is Backend Testing?",
+    "description": "This platform gives an overview of what Backned testing exactly is and what are its types, advantages and disadvantages. ",
+    "url": "https://www.geeksforgeeks.org/what-is-backend-testing/",
+    "category": "backend",
+    "subcategory": "testing"
+  },
+  {
+    "name": "Toad by Quest",
+    "description": "It provides a development environment with hooks into Oracle's debugger and code profiler. It provides DBA utilities such as SGA tracing and system monitoring. It provides useful utilities such as ftp and telnet so that you don't have to leave your development environment to manage files. It can monitor your database or server and send you email alerts if things go wrong.",
+    "url": "https://www.quest.com/toad/",
+    "category": "backend",
+    "subcategory": "testing"
+  },
+  {
+    "name": "phpMyAdmin",
+    "description": "It's a free and open source administration tool for MySQL and MariaDB. As a portable web application written primarily in PHP, it has become one of the most popular MySQL administration tools, especially for web hosting services.",
+    "url": "https://www.phpmyadmin.net/",
+    "category": "backend",
+    "subcategory": "testing"
+  },
+  {
+    "name": "Mongo Orchestration by MongoDB",
+    "description": "Simplify MongoDB Testing with Mongo Orchestration. Mongo Orchestration is an HTTP server providing a RESTful interface to MongoDB process management running on the same machine.",
+    "url": "https://www.mongodb.com/blog/post/simplifying-mongodb-testing-mongo-orchestration",
+    "category": "backend",
+    "subcategory": "testing"
+  }
+]

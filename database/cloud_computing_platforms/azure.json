@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Microsoft Azure",
+        "description": "Learn how to build and manage powerful applications using Microsoft Azure cloud services. Get documentation, example code, tutorials, and more.",
+        "url": "https://learn.microsoft.com/en-us/azure/?product=popular",
+        "category": "cloud-computing",
+        "subcategory": "azure"
+    },
+    {
+        "name": "Microsoft Learn & Certified",
+        "description": "Microsoft has certification paths for many technical job roles. Each of these certifications consists of passing a series of exams to earn them. ",
+        "url": "https://learn.microsoft.com/en-us/certifications/",
+        "category": "cloud-computing",
+        "subcategory": "azure"
+    }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Up for grabs",
+    "description": "This is a list of projects which have curated tasks specifically for new contributors. These are a great way to get started with a project, or help share the load of working on open source projects. ",
+    "url": "https://up-for-grabs.net/",
+    "category": "open-source",
+    "subcategory": "tools"
+  },
+  {
+    "name": "CodeTriage",
+    "description": "Pick your favorite repos and receive a different open issue in your inbox every day. Fix the issue and everybody wins! 71,669 developers are working on 7,712 open source repos using CodeTriage.",
+    "url": "https://www.codetriage.com/",
+    "category": "open-source",
+    "subcategory": "tools"
+  },
+  {
+    "name": "Open Source Guides",
+    "description": "This site is like a 101 for open-source. It’ll enlighten you on Open Source and various other elements involved in it.",
+    "url": "https://opensource.guide/",
+    "category": "open-source",
+    "subcategory": "tools"
+  },
+  {
+    "name": "First Contributions",
+    "description": "Beginner in open-source ? This site will help you in making your first open-source contribution in five minutes.",
+    "url": "https://firstcontributions.github.io/",
+    "category": "open-source",
+    "subcategory": "tools"
+  },
+  {
+    "name": "Geeksrepos",
+    "description": "Whether you're a beginner or experienced,this site will help you to find different open source projects to start your journey.",
+    "url": "https://geeksrepos.com/",
+    "category": "open-source",
+    "subcategory": "tools"
+  },
+  {
+    "name":"Good First Issues",
+    "description":"Looking for good first issues based on your tech stack? This website will help you find them.",
+    "url":"https://goodfirstissues.com/",
+    "category":"open source",
+    "subcategory":"tools"
+  }
+]

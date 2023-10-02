@@ -1,0 +1,109 @@
+[
+  {
+    "name": "React",
+    "description": "This page is an overview of the React documentation and related resources.",
+    "url": "https://legacy.reactjs.org/docs/getting-started.html",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "JavaScript",
+    "description": "This page is an overview of the JavaScript documentation and related resources.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Flutter",
+    "description": "This page is an overview of the Flutter documentation and related resources.",
+    "url": "https://docs.flutter.dev/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Django",
+    "description": "This page gives an overview of the Django documentation and related resources.",
+    "url": "https://docs.djangoproject.com/en/4.2/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Next.js",
+    "description": "This documentation is a comprehensive resource for building fast, scalable, and production-ready web apps using Next.js.",
+    "url": "https://nextjs.org/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Angular",
+    "description": "This page is an overview of the Angular documentation and related resources.",
+    "url": "https://angular.io/docs",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Vue.js",
+    "description": "This page contains comprehensive documentation of Vue.js, a progressive JavaScript framework.",
+    "url": "https://vuejs.org/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Nuxt.js",
+    "description": "Nuxt.js is a progressive framework based on Vue.js that simplifies the development of server-side rendered (SSR) and static generated (SSG) Vue.js applications.",
+    "url": "https://nuxtjs.org/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Tailwind CSS",
+    "description": "Comprehensive documentation for the utility-first CSS framework, enabling efficient web development through its extensive class-based approach.",
+    "url": "https://tailwindcss.com/docs/installation",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Node.js",
+    "description": "Node.js is built on top of the Google Chrome V8 JavaScript engine, and it's mainly used to create web servers - but it can be used for other purposes too.",
+    "url": "https://nodejs.dev/en/learn/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "svelte",
+    "description": "Svelte is a JavaScript framework that compiles components to generate highly efficient vanilla JavaScript at build time",
+    "url": "https://svelte.dev/docs/introduction",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Express",
+    "description": "Express is a fast, unopinionated, and minimalist web framework for Node.js",
+    "url": "https://expressjs.com",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  } , 
+      {
+    "name": "Laravel",
+    "description": "Laravel is a web application framework with the expressive, elegant syntax",
+    "url": "https://laravel.com/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+ {
+    "name": "Ember.js",
+    "description": "Ember.js is a productive, battle-tested JavaScript framework used for building modern web applications",
+    "url": "https://guides.emberjs.com/release/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
+    "name": "Python(Official Doc)",
+    "description": "Python's documentation, tutorials, and guides are constantly evolving.  Get started here, or scroll down for documentation categorized by type and subject.",
+    "url": "https://www.python.org/doc/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  } 
+
+    
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "KDnuggets",
+    "description": "KDnuggets is a popular data science website that provides news, tutorials, and resources.",
+    "url": "https://www.kdnuggets.com/",
+    "category": "ai",
+    "subcategory": "data-science"
+  },
+  {
+    "name": "Datacamp Tutorials",
+    "description": "Provides tutorials for aspirational full stack Data Scientists.",
+    "url": "https://www.datacamp.com/tutorial",
+    "category": "ai",
+    "subcategory": "data-science"
+  },
+  {
+    "name": "Analytics Vidhya",
+    "description": "Analytics Vidhya is a platform for data science enthusiasts, offering tutorials, competitions, and community support.",
+    "url": "https://www.analyticsvidhya.com/",
+    "category": "ai",
+    "subcategory": "data-science"
+  },
+  {
+    "name": "Kaggle",
+    "description": "Kaggle is an online platform that hosts data science competitions. It's also where data scientists and machine learning practitioners worldwide come and network with each other.",
+    "url": "https://www.kaggle.com/",
+    "category": "ai",
+    "subcategory": "data-science"
+  }
+]

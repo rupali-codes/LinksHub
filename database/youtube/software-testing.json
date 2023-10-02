@@ -1,0 +1,59 @@
+[
+  {
+    "name": "SoftwaretestingbyMKT",
+    "description": "This channel is for everyone who wants to learn Manual testing and Automation Testing for FREE. The reason he has made this channel is to educate people who want to learn an easy language. I have a good theory and practical knowledge on testing.",
+    "url": "https://www.youtube.com/@SoftwaretestingbyMKT",
+    "category": "youtube",
+    "subcategory": "software-testing",
+    "language": "english"
+  },
+  {
+    "name": "Automation Bro-Dilpreet johal",
+    "description": "This channel teaches Automation from beginner to advanced with almost every framework",
+    "url": "https://www.youtube.com/@sdetunicorns",
+    "category": "youtube",
+    "subcategory": "software-testing",
+    "language": "english"
+  },
+  {
+    "name": "JoanMedia",
+    "description": "In this channel, you will find free content related to the Software Engineer Area(Front End, Backend, Software Quality Assurance/Quality Control, and DevOps).",
+    "url": "https://www.youtube.com/@joanmedia",
+    "category": "youtube",
+    "subcategory": "software-testing",
+    "language": "english"
+  },
+  {
+    "name": "Software Testing Mentor",
+    "description": "This channel to share practical knowledge about Jira, Confluence, Software Testing, Test Automation, Testing Tools, Jenkins, Docker, GIT, Agile, and many more topics",
+    "url": "https://www.youtube.com/@softwaretestingmentor",
+    "category": "youtube",
+    "subcategory": "software-testing",
+    "language": "english"
+  },
+  {
+    "name": "Automation Step by Step",
+    "description": "This beginner-friendly step-by-step course teaches automation in different tools and technologies like Automation Testing, DevOps and CI, API Testing, Mobile Testing, Performance Testing, and UI Testing.",
+    "url": "https://www.youtube.com/@RaghavPal",
+    "category": "youtube",
+    "subcategory": "software-testing",
+    "language": "english"
+  },
+  {
+    "name": "EDUREKA! (Testing)",
+    "description": "Learn fullstack testing from scratch using Selenium with Java Combination along with Concepts related to Selenium WebDriver, IDE, Grid & Selenium's industry implementation methodologies",
+    "url": "https://www.youtube.com/watch?v=9p6NNapsUvQ&t=2s",
+    "category": "youtube",
+    "subcategory": "software-testing",
+    "language": "english"
+  },
+
+  {
+    "name": "SDET- QA Automation Techie",
+    "description": "This channel has educational videos on software testing & automation tools to help beginners and experienced professionals.",
+    "url": "https://www.youtube.com/@sdetpavan",
+    "category": "youtube",
+    "subcategory": "software-testing",
+    "language": "english"
+  }
+]

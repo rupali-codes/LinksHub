@@ -1,0 +1,9 @@
+[
+    {
+        "name": "An Introduction to Raspberry Pi microcontroller",
+        "description": "The Raspberry Pi is a low-cost, credit-card-sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and mouse. It also enables people of all ages to explore computing and learn programming languages like Scratch and Python.",
+        "url": "https://www.raspberrypi.org/",
+        "category": "internet-of-things",
+        "subcategory": "raspberrypi"
+    }
+]

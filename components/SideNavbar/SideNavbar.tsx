@@ -1,35 +1,49 @@
-import { FC } from "react";
-import { useContext } from "react";
-import { GlobalContext } from "context/GlobalContext";
-import { Backdrop } from "components/Backdrop/Backdrop";
-import { SideNavbarHeader } from "./SideNavbarHeader";
-import { SideNavbarBody } from "./SideNavbarBody";
-import { createPortal } from "react-dom";
-import { SocialMediaIconsList } from "components/SocialMedia/SocialMediaIconsList";
-import useDelayUnmount from "hooks/useDelayUnmount";
+import { FC } from 'react'
+import { useContext } from 'react'
+import { GlobalContext } from 'context/GlobalContext'
+import { Backdrop } from 'components/Backdrop/Backdrop'
+import { SideNavbarHeader } from './SideNavbarHeader'
+import { SideNavbarBody } from './SideNavbarBody'
+import { createPortal } from 'react-dom'
+import { SocialMediaIconsList } from 'components/SocialMedia/SocialMediaIconsList'
+import useDelayUnmount from 'hooks/useDelayUnmount'
+import { IContext } from 'types'
 
-export const SideNavbar:FC<{}> = () => {
-  const { sidebar, closeNav } = useContext(GlobalContext);
-  const showElement = useDelayUnmount(sidebar, 300);
+export const SideNavbar: FC = () => {
+  const { sidebar, closeNav } = useContext<IContext>(GlobalContext)
+  const showElement = useDelayUnmount(sidebar, 300)
 
   if (!showElement) {
-    return null;
+    return null
+  }
+
+  const overlayRoot = document.getElementById('overlay-root')
+
+  if (!overlayRoot) {
+    return null
   }
 
   return (
     <>
-      <Backdrop onClick={closeNav} className="lg:hidden" />
+      <Backdrop
+        onClick={closeNav}
+        className="lg:hidden transition duration-300 delay-200"
+      />
       {createPortal(
         <div
-          className={`fixed top-0 left-0 z-[100] h-full w-[75%] transition-all lg:hidden
+          className={`fixed top-0 left-0 z-[100] h-full w-[310px] transition-all lg:hidden
           ${sidebar ? 'animate-slide-in' : 'animate-slide-out'}
           `}
         >
           <SideNavbarHeader />
-          <SocialMediaIconsList className="bg-gray-100 px-6 py-2 dark:bg-gray-900" />
+          <SocialMediaIconsList
+            className="bg-light-primary px-6 py-2 dark:bg-dark"
+            showGithubButtons={true} // to show the Star & Fork Button below social media icons
+          />
           <SideNavbarBody />
-        </div>, document.getElementById('overlay-root')!
+        </div>,
+        overlayRoot
       )}
     </>
-  );
-};
+  )
+}

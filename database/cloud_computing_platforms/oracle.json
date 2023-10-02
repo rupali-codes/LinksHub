@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Oracle Cloud",
+        "description": "Looking for comprehensive documentation, tutorials, or videos so you can learn about Oracle Cloud Services? You can find all of these resources here in the Oracle Help Center.",
+        "url": "https://docs.oracle.com/en/cloud/get-started/index.html",
+        "category": "cloud-computing",
+        "subcategory": "oracle"
+    },
+    {
+        "name": "OCI certifications",
+        "description": "Accelerate your cloud journey along with free certification from Oracle",
+        "url": "https://education.oracle.com/home",
+        "category": "cloud-computing",
+        "subcategory": "oracle"
+    }
+]

@@ -1,25 +1,37 @@
+import { FC } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useContext } from 'react'
 import { GlobalContext } from '../../context/GlobalContext'
 import { SubCategories } from '../../types'
+import { usePagination } from '../../hooks/usePagination'
 
-export const SideNavbarElement = ({ name, url }: SubCategories) => {
+export const SideNavbarElement: FC<{
+  category: string
+  subcat: SubCategories
+}> = ({ category, subcat }) => {
   const router = useRouter()
+  const { name, url } = subcat
   const { closeNav } = useContext(GlobalContext)
-
+  const { handlePageChange, setCurrentPage } = usePagination()
+  const path = `/${category}${url}`
+  
   return (
     <Link
-      href={url}
-      onClick={closeNav}
+      href={path}
+      aria-label="Side Navbar Elements"
+      onClick={() => {
+        handlePageChange(1)
+        closeNav
+      }}
       className={`${
-        router.asPath === url
-          ? 'border-l-4 border-violet-500 text-violet-700 dark:text-violet-400 '
-          : 'text-slate-600 dark:text-slate-400'
-      } collapse w-full text-start pl-3 hover:text-violet-500 dark:hover:text-violet-300 
-      focus-visible:outline-none focus-visible:ring focus-visible:ring-violet-400 focus-visible:rounded-lg`}
+        router.asPath === path
+          ? 'border-l-4 border-theme-primary text-theme-secondary dark:text-theme-primary '
+          : 'text-text-secondary dark:text-gray-text'
+      } collapse w-full text-start pl-3 hover:text-theme-secondary dark:hover:text-violet-300 
+      focus-visible:outline-none focus-visible:ring focus-visible:ring-theme-primary focus-visible:rounded-lg`}
     >
-      <div className="ml-2 text-lg py-2 capitalize transition-all duration-300 hover:pl-2 dark:border-violet-500">
+      <div className="ml-2 text-lg py-2 capitalize transition-all duration-300 hover:pl-2 dark:border-theme-secondary">
         {name}
       </div>
     </Link>

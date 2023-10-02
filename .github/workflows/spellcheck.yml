@@ -1,0 +1,24 @@
+name: Spellcheck
+
+on:
+  push:
+    branches:
+      - main # Adjust this branch name if needed
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install codespell
+        run: pip install codespell
+
+      - name: Run spellcheck
+        run: codespell --quiet-level=2 --check-filenames -- ./**/*.json

@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Google Cloud Platform",
+        "description": "Find guides, code samples, architectural diagrams, best practices, tutorials, API references, and more to learn how to build on Google Cloud.",
+        "url": "https://cloud.google.com/docs/",
+        "category": "cloud-computing",
+        "subcategory": "gcp"
+    }
+]

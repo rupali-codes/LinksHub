@@ -1,23 +1,38 @@
-import useLoader from "hooks/useLoader";
-import { Spinner } from "./Spinner";
+import { useEffect, useState } from 'react'
+import { Spinner } from './Spinner'
+
+const LOADER_TIMEOUT = 2000
 
 export const Preloader = ({
   backgroundColor,
   children,
-  ...rest
+  ...spinnerProps
 }: {
-  children: JSX.Element;
-  backgroundColor: string;
-  color: string;
-  size: number;
+  children: JSX.Element
+  backgroundColor: string
+  color: string
+  size: number
 }): JSX.Element => {
-  const { loader } = useLoader();
-  if (!loader) return children;
+  const [showLoader, setShowLoader] = useState(true)
+
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      setShowLoader(false)
+    }, LOADER_TIMEOUT)
+
+    return () => {clearTimeout(timerId)}
+  }, [])
+
   return (
-    <div
-      className={`loader ${backgroundColor} fixed top-0 left-0 w-full h-screen flex justify-center items-center`}
-    >
-      <Spinner {...rest} />
-    </div>
-  );
-};
+    <>
+      {children}
+      {showLoader && (
+        <div
+          className={`loader ${backgroundColor} fixed z-30 top-0 left-0 w-full h-screen flex justify-center items-center`}
+        >
+          <Spinner {...spinnerProps} />
+        </div>
+      )}
+    </>
+  )
+}

@@ -1,0 +1,46 @@
+name: Category Description 📝
+description: Use this to add or update the category's description
+title: "[Description] <write which description you want to add or update>"
+labels: ["chore", "goal: description"]
+body: 
+  - type: input
+    attributes:
+      label: Category Name
+      description: Provide Name of Category
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Subcategory Name
+      description: Provide Name of Subctaegory
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: New or updated description of above subcategory
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Status of Description
+      options:
+        - label: "Adding new description"
+          required: false
+
+        - label: "Updating existing description"
+          required: false
+  - type: checkboxes
+    id: no-duplicate-issues
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I have checked the existing issues"
+          required: true
+
+        - label: "I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)"
+          required: true
+
+        - label: "I am willing to work on this issue (optional)"
+          required: false
+        
+        

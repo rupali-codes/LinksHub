@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Caleb Curry",
+        "description": "This course provides a complete beginner guide to learn C++ programming language with all core concepts.",
+        "url": "https://www.youtube.com/watch?v=9Myk2vcK8s8&list=PL_c9BZzLwBRIwEnaRU2LC4GkqxUbD0Auc&index=2&ab_channel=CalebCurry",
+        "category": "languages",
+        "subcategory": "cpp-programming"
+    },
+    {
+        "name": "C++ Programming Course - Beginner to Advanced",
+        "description": "This is a full C++ programming course from Beginner to Advanced.",
+        "url": "https://www.youtube.com/watch?v=8jLOx1hD3_o",
+        "category": "languages",
+        "subcategory": "cpp-programming"
+    }
+]

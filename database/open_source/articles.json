@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Chrissy’s Open Source Survival Guide",
+    "description": "Whether you are a coding newbie or an experienced developer looking to keep your skills sharp, my series will help you navigate the fun and whimsical world of open source projects.",
+    "url": "https://chrissycodes.hashnode.dev/",
+    "category": "open-source",
+    "subcategory": "articles"
+  },
+  {
+    "name": "Ways to get more contributors to your open source project",
+    "description": "Several ways to get more contributors to your Open Source project.",
+    "url": "https://blog.pradumnasaraf.dev/ways-to-get-more-contributors-to-your-open-source-project",
+    "category": "open-source",
+    "subcategory": "articles"
+  },
+  {
+    "name": "How to make your first pull request on Github",
+    "description": "This blog will help you to make your first pull request on Github",
+    "url": "https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/",
+    "category": "opensource",
+    "subcategory": "articles"
+  },
+  {
+    "name": "Resolving merge conflict on Github",
+    "description": "This blog will help you to resolve merge conflicts on GitHub",
+    "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github",
+    "category": "open-source",
+    "subcategory": "articles"
+  },
+  {
+    "name": "How to contribute in Quine Open source platform",
+    "description": "Are you a beginner in open source? This site will help you in making your first open-source contribution, teach you about the Quine open source platform, and connect with other open source contributors.",
+    "url": "https://www.youtube.com/playlist?list=PLnCV5fTAsUgpaLMY_Z8FqPxZ89v-_pcfY",
+    "category": "open-source",
+    "subcategory": "articles"
+  },
+  {
+    "name": "Open Source With Pradumna",
+    "description": "This blog provides tips on how to get your open source journey started",
+    "url": "https://os.pradumnasaraf.dev/#/",
+    "category": "open-source",
+    "subcategory": "articles"
+  },
+  {
+    "name": "Beginner's Guide to Open Source",
+    "description": "A complete guide for beginners to start their open source journey.",
+    "url": "https://sulagnaduttaro.hashnode.dev/open-source-a-beginner-guide-2022",
+    "category": "open-source",
+    "subcategory": "articles"
+  }
+]

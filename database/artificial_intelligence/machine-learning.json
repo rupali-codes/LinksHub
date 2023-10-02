@@ -1,0 +1,23 @@
+[
+  {
+    "name": "CS229: Machine Learning",
+    "description": "Official site of the eponymous Stanford course. Provides a broad introduction to machine-learning.",
+    "url": "https://cs229.stanford.edu/",
+    "category": "ai",
+    "subcategory": "machine-learning"
+  },
+  {
+    "name": "Towards Data Science",
+    "description": "Learn all things Data and machine-learning. Provides simple explanations for statistical and mathematical parts.",
+    "url": "https://towardsdatascience.com/",
+    "category": "ai",
+    "subcategory": "machine-learning"
+  },
+  {
+    "name": "Machine Learning Mastery",
+    "description": "Machine Learning Mastery provides practical tutorials and resources for mastering machine learning algorithms and techniques.",
+    "url": "https://machinelearningmastery.com/",
+    "category": "ai",
+    "subcategory": "machine-learning"
+  }
+]
