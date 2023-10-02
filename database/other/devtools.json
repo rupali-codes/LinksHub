@@ -68,5 +68,12 @@
     "url": "https://www.phind.com/",
     "category": "Other",
     "subcategory": "devtools"
-  }
+  },
+  {
+    "name": "Killercoda",
+    "description": "Killercoda is a place where you open your browser and get instant access to a real Linux or Kubernetes environment ready to use.",
+    "url": "https://killercoda.com/",
+    "category": "other",
+    "subcategory": "devtools"
+  } 
 ]
