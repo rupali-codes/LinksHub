@@ -1,7 +1,7 @@
 [
   {
     "name": "Mamba UI",
-    "description": "Mamba UI is a free, open-source collection of UI components and templates based on Tailwind CSS. They have some of the most popularly used components to help you get started.",
+    "description": "Mamba UI is a free, open-source collection of UI components and templates based on Tailwind CSS. They have some of the popular components to help you get started.",
     "url": "https://www.mambaui.com/",
     "category": "frontend",
     "subcategory": "ui-generators"
