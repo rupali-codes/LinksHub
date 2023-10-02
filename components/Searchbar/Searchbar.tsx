@@ -34,6 +34,12 @@ export const Searchbar: React.FC<SearchbarProps> = ({
       type: 'search_query_change',
       searchQuery: e.target.value,
     })
+    
+    if(!e.target.value && router.asPath!="/" && router.asPath.substring(1,7)=="search" ){
+      searchQuery=""
+      
+      router.push("/")
+    }
   }
 
   const handleSuggestionClick = (searchQuery: SubCategories) => {
