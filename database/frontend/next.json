@@ -5,5 +5,12 @@
       "url": "https://nextjs.org/",
       "category": "frontend",
       "subcategory": "next-js"
+    },
+    {
+      "name": "NextUI",
+      "description": "NextUI provides a custom TailwindCSS plugin that allows you to customize the default themes or create your own. Its components are built on top of React Aria ensuring exceptional accessibility support as a top priority.",
+      "url": "https://nextui.org/",
+      "category": "frontend",
+      "subcategory": "next-js"
     }
   ]
