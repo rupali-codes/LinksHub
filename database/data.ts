@@ -1,6 +1,7 @@
 import { IDBData, IData, ISidebar } from '../types'
 import * as DB from 'database'
 import { v4 as uuidv4 } from 'uuid'
+import {otherTools} from "database";
 
 export const database: IData[][] = Object.values(DB).map((item: IDBData[]) =>
   item.map((subcat) => ({ ...subcat, id: uuidv4() }))
@@ -279,6 +280,7 @@ export const sidebarData: ISidebar[] = [
       },
       { name: 'Communities', url: '/communities', resources: DB.communities },
       { name: 'Roadmaps', url: '/roadmaps', resources: DB.roadmaps },
+      { name: 'Tools', url: '/other-tools', resources: DB.otherTools },
     ],
   },
 ]
