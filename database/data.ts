@@ -129,8 +129,16 @@ export const sidebarData: ISidebar[] = [
     category: 'devops',
     subcategory: [
       { name: 'CI/CD', url: '/cicd', resources: DB.cicd },
-      { name: 'DevOps Life Cycle', url: '/devops-life-cycle', resources: DB.devopsLifecycle },
-      { name: 'DevOps Methodologies', url: '/devops-methodologies', resources: DB.devopsMethodologies },
+      {
+        name: 'DevOps Life Cycle',
+        url: '/devops-life-cycle',
+        resources: DB.devopsLifecycle,
+      },
+      {
+        name: 'DevOps Methodologies',
+        url: '/devops-methodologies',
+        resources: DB.devopsMethodologies,
+      },
       { name: 'docker', url: '/docker', resources: DB.docker },
       {
         name: 'kubernetes',
@@ -252,6 +260,12 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'technical-writing',
+    subcategory: [
+      { name: 'Technical Writing Tools', url: '/technical-writing-tools', resources: DB.technicalWritingTools },
+    ],
+  },
+  {
     category: 'other',
     subcategory: [
       { name: 'events', url: '/events', resources: DB.events },
@@ -270,5 +284,8 @@ export const sidebarData: ISidebar[] = [
 ]
 
 export const subCategories = sidebarData.flatMap(({ category, subcategory }) =>
-  subcategory.map(({ url }) => ({ category, subcategory: url.replace('/', '') }))
-);
+  subcategory.map(({ url }) => ({
+    category,
+    subcategory: url.replace('/', ''),
+  }))
+)

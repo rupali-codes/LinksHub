@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Docsify",
+    "description": "If you're looking for a static generator that makes it easier for you to create docs, you'll love Docsify. Unlike GitBook, it does not generate static HTML files. Instead, it loads and parses your Markdown files and displays them as a website.",
+    "url": "https://docsify.js.org/#/",
+    "category": "technical-writing",
+    "subcategory": "technical-writing-tools"
+  }
+]

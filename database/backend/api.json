@@ -103,5 +103,12 @@
         "url": "https://www.alphavantage.co",
         "category": "backend",
         "subcategory": "api"
+    },
+    {
+        "name": "RazorPay API",
+        "description": "Razorpay API  provides the functionality to integrate Razorpay's payment gateway into applications, allowing operations such as payment capture, fetching, and updating, as well as managing subscriptions, invoices, and smart collect features.",
+        "url": "https://razorpay.com/docs",
+        "category": "backend",
+        "subcategory": "api"
     }
 ]

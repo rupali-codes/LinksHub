@@ -14,17 +14,18 @@ export const SideNavbarElement: FC<{
   const { name, url } = subcat
   const { closeNav } = useContext(GlobalContext)
   const { handlePageChange, setCurrentPage } = usePagination()
+  const path = `/${category}${url}`
   
   return (
     <Link
-      href={`/${category}${url}`}
+      href={path}
       aria-label="Side Navbar Elements"
       onClick={() => {
         handlePageChange(1)
         closeNav
       }}
       className={`${
-        router.asPath === url
+        router.asPath === path
           ? 'border-l-4 border-theme-primary text-theme-secondary dark:text-theme-primary '
           : 'text-text-secondary dark:text-gray-text'
       } collapse w-full text-start pl-3 hover:text-theme-secondary dark:hover:text-violet-300 
