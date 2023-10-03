@@ -201,5 +201,12 @@
     "url": "https://thenounproject.com/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Eva Icons",
+    "description": "Eva Icons is a pack of more than 480 beautifully crafted Open Source icons for common actions and items.",
+    "url": "https://akveo.github.io/eva-icons/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
