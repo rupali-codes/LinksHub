@@ -1,0 +1,16 @@
+name: Hacktoberfest Spam PR Checker
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Spamtoberfest
+        uses: maximelafarie/spamtoberfest@main
+        with:
+          action-type: flag # or close
+          repo-token: ${{ secrets.GITHUB_TOKEN }}

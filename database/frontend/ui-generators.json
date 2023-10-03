@@ -1,5 +1,12 @@
 [
   {
+    "name": "Mamba UI",
+    "description": "Mamba UI is a free, open-source collection of UI components and templates based on Tailwind CSS. They have some of the popular components to help you get started.",
+    "url": "https://www.mambaui.com/",
+    "category": "frontend",
+    "subcategory": "ui-generators"
+  },
+  {
     "name": "Fffuel.co",
     "description": "Fffuel is a collection of color tools and free SVG generators for gradients, patterns, textures, shapes & backgrounds.",
     "url": "https://fffuel.co/",

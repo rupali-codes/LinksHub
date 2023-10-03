@@ -82,5 +82,12 @@
     "url": "https://www.interviewbit.com/blog/django-projects/",
     "category": "resources",
     "subcategory": "project-ideas"
+  },
+  {
+    "name": "C# Projects",
+    "description": "This website provides free fifteen beginner to advanced level C# projects with source code.",
+    "url": "https://www.interviewbit.com/blog/c-sharp-projects/",
+    "category": "resources",
+    "subcategory": "project-ideas"
   }
 ]

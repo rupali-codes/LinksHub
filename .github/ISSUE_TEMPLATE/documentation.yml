@@ -11,11 +11,6 @@ body:
       description: 'Please provide a brief summary of the documentation issue you are experiencing or would like to address.'
     validations:
       required: true
-  - type: textarea
-    id: additional_context_docs
-    attributes:
-      label: 'Additional Context'
-      description: 'If there is any additional context or information that would be helpful for addressing the documentation issue, please provide it here.'
 
   - type: textarea
     id: screenshots_examples_docs
@@ -40,6 +35,8 @@ body:
         - label: 'I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)'
           required: true
         - label: 'I am willing to work on this issue (optional)'
+          required: false
+        - label: 'I am participating in Hacktoberfest 2023'
           required: false
   - type: markdown
     attributes:
