@@ -1,7 +1,7 @@
 name: Feature Request 💡
 description: Have any new idea or new feature for LinksHub? Please suggest!
-title: "[Feature] <write a small description here>"
-labels: ["enhancement", "goal: addition"]
+title: '[Feature] <write a small description here>'
+labels: ['enhancement', 'goal: addition']
 body:
   - type: textarea
     id: description
@@ -20,14 +20,16 @@ body:
   - type: checkboxes
     id: no-duplicate-issues
     attributes:
-      label: "Checklist"
+      label: 'Checklist'
       options:
-        - label: "I have checked the existing issues"
+        - label: 'I have checked the existing issues'
           required: true
 
-        - label: "I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)"
+        - label: 'I have read the [Contributing Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)'
           required: true
 
-        - label: "I am willing to work on this issue (optional)"
+        - label: 'I am willing to work on this issue (optional)'
           required: false
 
+        - label: 'I am participating in Hacktoberfest 2023'
+          required: false
