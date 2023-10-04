@@ -19,5 +19,12 @@
         "url": "https://www.youtube.com/watch?v=XZtlD_m59sM",
         "category": "languages",
         "subcategory": "rust"
+    },
+    {
+      "name": "Rustlings",
+      "description": "Rustlings is a collection of small exercises that get you used to reading and writing in Rust. This includes reading and responding to compiler messages!",
+      "url": "https://rustlings.cool",
+      "category": "languages",
+      "subcategory": "rust"
     }
 ]
