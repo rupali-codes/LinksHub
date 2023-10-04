@@ -203,6 +203,13 @@
     "subcategory": "icons"
   },
   {
+    "name": "Eva Icons",
+    "description": "Eva Icons is a pack of more than 480 beautifully crafted Open Source icons for common actions and items.",
+    "url": "https://akveo.github.io/eva-icons/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
     "name": "Remix Icon",
     "description": "Remix Icon is a website that provides free icons for both personal and commercial use",
     "url": "https://remixicon.com/",
