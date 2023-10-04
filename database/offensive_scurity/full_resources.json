@@ -1,0 +1,81 @@
+{
+    "offensive_security_learning_resources": {
+      "books": [
+        {
+          "title": "Metasploit: The Penetration Tester's Guide",
+          "author": "David Kennedy, Jim O'Gorman, Devon Kearns, Mati Aharoni",
+          "url": "https://www.metasploitunleashed.com/"
+        },
+        {
+          "title": "The Web Application Hacker's Handbook",
+          "author": "Dafydd Stuttard, Marcus Pinto",
+          "url": "https://www.webappsec.org/"
+        },
+        {
+          "title": "Hacking: The Art of Exploitation",
+          "author": "Jon Erickson",
+          "url": "https://nostarch.com/hacking2"
+        }
+      ],
+      "online_courses": [
+        {
+          "title": "Certified Ethical Hacker (CEH)",
+          "provider": "EC-Council",
+          "url": "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/"
+        },
+        {
+          "title": "Offensive Security Certified Professional (OSCP)",
+          "provider": "Offensive Security",
+          "url": "https://www.offensive-security.com/pwk-oscp/"
+        },
+        {
+          "title": "Metasploit Unleashed (MSFU)",
+          "provider": "Metasploit Unleashed",
+          "url": "https://www.metasploitunleashed.com/"
+        }
+      ],
+      "websites": [
+        {
+          "title": "Hack The Box",
+          "url": "https://www.hackthebox.eu/"
+        },
+        {
+          "title": "Exploit Database",
+          "url": "https://www.exploit-db.com/"
+        },
+        {
+          "title": "OWASP - Open Web Application Security Project",
+          "url": "https://owasp.org/"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Metasploit",
+          "url": "https://www.metasploit.com/"
+        },
+        {
+          "name": "Nmap",
+          "url": "https://nmap.org/"
+        },
+        {
+          "name": "Wireshark",
+          "url": "https://www.wireshark.org/"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Reddit - /r/AskNetsec",
+          "url": "https://www.reddit.com/r/AskNetsec/"
+        },
+        {
+          "name": "Stack Overflow - Security Tag",
+          "url": "https://stackoverflow.com/questions/tagged/security"
+        },
+        {
+          "name": "Hack Forums",
+          "url": "https://www.hackforums.net/"
+        }
+      ]
+    }
+  }
+  
