@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, Ref } from 'react'
 
 import SearchIcon from 'assets/icons/SearchIcon'
 import { SearchbarSuggestions } from './SearchbarSuggestions'
@@ -14,6 +14,7 @@ interface SearchbarProps {
   searchQuery: string
   showSuggestions: boolean
   searchQueryIsValid: boolean
+  inputRef : Ref<HTMLInputElement>
 }
 
 const searchOptions = subcategoryArray
@@ -24,6 +25,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
   searchQuery,
   showSuggestions,
   searchQueryIsValid,
+  inputRef,
 }) => {
   const formRef = useRef<HTMLFormElement>(null)
   const router = useRouter()
@@ -88,6 +90,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
             Quick search
           </label>
           <input
+          ref={inputRef}
             type="text"
             id="simple-search"
             name="simple-search"
