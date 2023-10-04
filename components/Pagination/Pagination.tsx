@@ -17,7 +17,7 @@ export default function Pagination({
   return (
     <>
       {totalPages && totalPages.length > 1 && (
-        <div className="w-full lg:left-0 absolute bottom-4 z-20 flex lg:w-full items-center justify-center mt-8">
+        <div className="w-full relative z-20 flex lg:w-full items-center justify-center mt-8">
           <div className="fixed bottom-[1rem] md:bottom-[5rem] border-[#8b5cf6] border-4 shadow-lg flex items-center bg-white rounded-full px-6 py-2 gap-4">
             <button
               className="flex items-center justify-center text-black hover:text-[#8b5cf6] disabled:text-gray-400"
