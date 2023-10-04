@@ -47,5 +47,12 @@
     "url": "https://www.codingninjas.com/studio/home",
     "category": "competitive-programming",
     "subcategory": "cp-platforms"
+  },
+  {
+    "name": "Code Wars",
+    "description": "CodeWars is a platform for coding challenges. Users pick languages, solve problems, and interact with a community, making it ideal for skill enhancement and networking in the coding community.",
+    "url": "https://www.codewars.com/",
+    "category": "competitive-programming",
+    "subcategory": "cp-platforms"
   }
 ]
