@@ -30,5 +30,13 @@
     "category": "competitive-programming",
     "subcategory": "cp-tutorials",
     "language": "english"
+  },
+  {
+    "name": "CodeNCode",
+    "description": "This channel offers one of the best playlists for competitive programming, covering beginner topics like number theory and advanced topics such as dynamic programming, graph theory, bit manipulations, and segment trees. These concepts are explained in a very clear and easy-to-understand format.",
+    "url": "https://www.youtube.com/@codencode",
+    "category": "competitive-programming",
+    "subcategory": "cp-tutorials",
+    "language": "english"
   }
 ]
