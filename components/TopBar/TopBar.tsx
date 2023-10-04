@@ -109,7 +109,7 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
                   data-tooltip-id="info-tooltip"
                   data-tooltip-content="Description"
                   data-tooltip-place="bottom"
-                  className="ml-4 mt-2 text-sm cursor-pointer hover:text-theme-primary"
+                  className="ml-4 mt-2 text-sm cursor-pointer hover:text-theme-primary outline-none"
                   onClick={handleCardClick}
                 />
               </button>
