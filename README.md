@@ -100,7 +100,7 @@ Want to avoid the complexities of setting up a local environment or just need to
 
 ## Maintainers 🤝
 
-Need help while contributing? Tag any of the moderators when creating the issue. You can tag us using: `@username`
+Need help while contributing? Tag any of the maintainers when creating the issue. You can tag us using: `@username`
 
 <table>
 <tr>
