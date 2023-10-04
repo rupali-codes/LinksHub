@@ -22,7 +22,7 @@
     },
     {
       "name": "Rustlings",
-      "description": "Rustlings is a collection of small exercises that get you used to reading and writing Rust code. This includes reading and responding to compiler messages!",
+      "description": "Rustlings is a collection of small exercises that get you used to reading and writing in Rust. This includes reading and responding to compiler messages!",
       "url": "https://rustlings.cool",
       "category": "languages",
       "subcategory": "rust"
