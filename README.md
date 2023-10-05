@@ -38,7 +38,8 @@ open source program with a mission to help students from India and beyond in dev
   - [Tech stack 📚](#tech-stack-)
   - [Socials 📱](#socials-)
   - [Want to Contribute? 👩‍💻](#want-to-contribute-)
-  - [Building with Gitpod 💣](#building-with-gitpod-)
+  - [Building with Gitpod 💣](#building-with-gitpod--codespaces-)
+  - [Maintainers 🤝](#maintainers-)
   - [Top 50 Contributors ✨](#top-50-contributors-)
   - [License 📝](#license-)
   - [Support ⭐](#support-)
@@ -94,6 +95,21 @@ Please follow our [CONTRIBUTING guidelines](https://github.com/rupali-codes/Link
 ## Building with Gitpod | Codespaces 💣
 
 Want to avoid the complexities of setting up a local environment or just need to make quick edits? Consider using [Gitpod.io](https://gitpod.io/#https://github.com/rupali-codes/LinksHub) or [Codespaces](https://codespaces.new/rupali-codes/LinksHub). They streamline the process by automatically installing required dependencies, making it effortless to contribute in just one click!:)
+
+---
+
+## Maintainers 🤝
+
+Need help while contributing? Tag any of the maintainers when creating the issue. You can tag us using: `@username`
+
+<table>
+<tr>
+<td align="center" width="200"><pre><a href="https://github.com/rupali-codes"><img src="https://avatars.githubusercontent.com/u/78981177?v=4" width="200" alt="GitHub Profile of Anmol Baranwal" /><br><sub>Rupali Haldiya</sub></a><br>@rupali-codes</pre></td>
+<td align="center" width="200"><pre><a href="https://github.com/CBID2"><img src="https://avatars.githubusercontent.com/u/105683440?v=4" width="200" alt="GitHub Profile of Anmol Baranwal" /><br><sub>Christine Belzie</sub></a><br>@CBID2</pre></td>
+<td align="center" width="200"><pre><a href="https://github.com/Anmol-Baranwal"><img src="https://avatars.githubusercontent.com/u/74038190?v=4" width="200" alt="GitHub Profile of Anmol Baranwal" /><br><sub>Anmol Baranwal</sub></a><br>@Anmol-Baranwal</pre></td>
+
+</tr>
+</table>
 
 
 
