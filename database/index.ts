@@ -95,3 +95,10 @@ export { default as cpPlatforms } from './competitive_programming/cp-platforms.j
 export { default as cpTutorials } from './competitive_programming/cp-tutorials.json'
 // technical-writing
 export { default as technicalWritingTools } from './technical-writing/tools.json'
+// Placement-Preparation
+export { default as interviewpreparation } from './placement_preparation/interview-preparation.json'
+export { default as jobportals } from './placement_preparation/job-portals.json'
+export { default as codingchallengesplatforms } from './placement_preparation/coding-challenges-platforms.json'
+export { default as resumeandportfoliobuilding } from './placement_preparation/resume-and-portfolio-building.json'
+export { default as careerguidance } from './placement_preparation/career-guidance.json'
+export { default as certifications } from './placement_preparation/certifications.json'

@@ -260,6 +260,33 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'Placement Preparation',
+    subcategory: [
+      {
+        name: 'Interview Preparation',
+        url: '/interview-preparation',
+        resources: DB.interviewpreparation,
+      },
+      {
+        name: 'Job Portals',
+        url: '/job-portals',
+        resources: DB.jobportals,
+      },
+      { name: 'Coding Challenges Platforms', url: '/coding-challenges-platforms', resources: DB.codingchallengesplatforms },
+      {
+        name: 'Resume and Portfolio Building',
+        url: '/resume-and-portfolio-building',
+        resources: DB.resumeandportfoliobuilding,
+      },
+      { name: 'Career Guidance', url: '/career-guidance', resources: DB.careerguidance },
+      {
+        name: 'Certifications',
+        url: '/certifications',
+        resources: DB.certifications,
+      },
+    ],
+  },
+  {
     category: 'technical-writing',
     subcategory: [
       { name: 'Technical Writing Tools', url: '/technical-writing-tools', resources: DB.technicalWritingTools },
