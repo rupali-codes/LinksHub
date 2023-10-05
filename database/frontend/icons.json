@@ -203,10 +203,24 @@
     "subcategory": "icons"
   },
   {
+    "name": "Eva Icons",
+    "description": "Eva Icons is a pack of more than 480 beautifully crafted Open Source icons for common actions and items.",
+    "url": "https://akveo.github.io/eva-icons/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
     "name": "Remix Icon",
     "description": "Remix Icon is a website that provides free icons for both personal and commercial use",
     "url": "https://remixicon.com/",
     "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Iconoir",
+    "description": "A high-quality selection of free icons. Has over 1,368 icons ready to use for your projects.",
+    "url": "https://iconoir.com/",
+    "category": "fontend",
     "subcategory": "icons"
   }
 ]

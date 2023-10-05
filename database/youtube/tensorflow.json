@@ -1,5 +1,13 @@
 [
   {
+    "name": "Alexander Amini",
+    "description": "AAmini's YouTube channel is a valuable resource for anyone interested in diving deep into the world of TensorFlow.From beginner-friendly introductions to advanced techniques, AAmini covers a wide range of topics within the TensorFlow framework. ",
+    "url": "https://www.youtube.com/@AAmini/featured",
+    "category": "youtube",
+    "subcategory": "tensorflow",
+    "language": "english"
+  },
+  {
     "name": "Udacity",
     "description": "Free online course for learning tensorflow for Deep learning",
     "url": "https://learn.udacity.com/courses/ud187",
