@@ -33,5 +33,12 @@
     "url": "https://docs.amplify.aws/lib/auth/getting-started/",
     "category": "backend",
     "subcategory": "authentication"
+  },
+  {
+    "name": "Clerk",
+    "description": "Clerk is more than a `sign-in` box. With clerk, you can integrate complete user management UIs and APIs. Clerk is built for Reactm Nextjs and the modern web",
+    "url": "https://clerk.com/",
+    "category": "backend",
+    "subcategory": "authentication"
   }
 ]
