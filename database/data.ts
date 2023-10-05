@@ -279,7 +279,6 @@ export const sidebarData: ISidebar[] = [
       },
       { name: 'Communities', url: '/communities', resources: DB.communities },
       { name: 'Roadmaps', url: '/roadmaps', resources: DB.roadmaps },
-      { name: 'Other Tools', url: '/other-tools', resources: DB.otherTools },
     ],
   },
 ]
