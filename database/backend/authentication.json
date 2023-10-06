@@ -40,5 +40,12 @@
     "url": "https://clerk.com/",
     "category": "backend",
     "subcategory": "authentication"
+  },
+  {
+    "name": "Kinde",
+    "description": "We’ve made getting set up with Kinde as simple and easy as possible. Spend less time on building authentication, and spend more time on building your core product.",
+    "url": "https://kinde.com/",
+    "category": "backend",
+    "subcategory": "authentication"
   }
 ]
