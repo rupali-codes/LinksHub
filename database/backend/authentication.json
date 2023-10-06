@@ -50,7 +50,7 @@
   },
   {
     "name": "Keycloak",
-    "description": "Add authentication to applications and secure services with minimum effort. There is no need to deal with storing or authenticating users. Keycloak provides user federation, strong authentication, user management, fine-grained authorization, and more.",
+    "description": "Keycloak is an open-source identity and access management solution for simplifying user authentication and authorization in applications and services. Keycloak provides user federation, strong authentication, user management, fine-grained authorization, and more.",
     "url": "https://www.keycloak.org/",
     "category": "backend",
     "subcategory": "authentication"
