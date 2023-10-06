@@ -222,5 +222,12 @@
     "url": "https://iconoir.com/",
     "category": "fontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Evil Icons",
+    "description": "Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt, and CDN.",
+    "url": "https://evil-icons.io/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
