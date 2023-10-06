@@ -21,13 +21,6 @@
       "subcategory": "defensive-security"
     },
     {
-      "name": "RSA Conference",
-      "description": "Information about the RSA Conference, a major event for cybersecurity professionals focusing on defensive security strategies and technologies.",
-      "url": "https://www.rsaconference.com/",
-      "category": "defensive-security",
-      "subcategory": "defensive-security"
-    },
-    {
       "name": "Incident Response and Threat Hunting",
       "description": "Learn about incident response and threat hunting techniques, crucial for identifying and mitigating security incidents.",
       "url": "https://www.sans.org/course/incident-response-and-threat-hunting",
