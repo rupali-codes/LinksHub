@@ -20,7 +20,7 @@ public/ @CBID2 @rupali-codes @Anmol-Baranwal
 .env/ @rupali-codes @Anmol-Baranwal @CBID2
 
 ## Special cases
-# Any changes to the CODEOWNERS file must be approved by @rupali-codes @A @CBID2.
+# Any changes to the CODEOWNERS file must be approved by @rupali-codes @Anmol-Baranwal @CBID2.
 # Any changes to the .gitattributes file must be approved by @rupali-codes @CBID2 @Anmol-Baranwal .
 # Any changes to the .gitignore file must be approved by @CBID2 @Anmol-Baranwal  @rupali-codes.
 
