@@ -47,5 +47,12 @@
     "url": "https://www.codingninjas.com/studio/home",
     "category": "competitive-programming",
     "subcategory": "cp-platforms"
+  },
+  {
+    "name": "CodeChef",
+    "description": "Learn to code for free using our beginner friendly and interactive learning courses. Get all the practical skills required to excel at computer science.    ",
+    "url": "https://www.codechef.com/",
+    "category": "competitive-programming",
+    "subcategory": "cp-platforms"
   }
 ]
