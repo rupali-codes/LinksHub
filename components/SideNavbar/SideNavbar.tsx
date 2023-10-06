@@ -11,7 +11,7 @@ import { IContext } from 'types'
 
 export const SideNavbar: FC = () => {
   const { sidebar, closeNav } = useContext<IContext>(GlobalContext)
-  const showElement = useDelayUnmount(sidebar, 300)
+  const showElement = useDelayUnmount(sidebar, 300) 
 
   if (!showElement) {
     return null
@@ -39,6 +39,7 @@ export const SideNavbar: FC = () => {
           <SocialMediaIconsList
             className="bg-light-primary px-6 py-2 dark:bg-dark"
             showGithubButtons={true} // to show the Star & Fork Button below social media icons
+            sidebar={true}
           />
           <SideNavbarBody />
         </div>,
