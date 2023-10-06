@@ -31,7 +31,7 @@ export const SideNavbar: FC = () => {
       />
       {createPortal(
         <div
-          className={`fixed top-0 left-0 z-[100] h-full w-[310px] transition-all lg:hidden
+          className={`fixed top-0 left-0 z-[100] h-full w-full folding:w-[310px] transition-all lg:hidden
           ${sidebar ? 'animate-slide-in' : 'animate-slide-out'}
           `}
         >
