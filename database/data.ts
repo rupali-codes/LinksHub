@@ -191,7 +191,7 @@ export const sidebarData: ISidebar[] = [
         resources: DB.malware_analysis,
       },
       {
-        name: 'Web Application Security',
+        name: 'Web Security',
         url: '/web-security',
         resources: DB.web_security,
       },

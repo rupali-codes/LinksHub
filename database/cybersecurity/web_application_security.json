@@ -16,7 +16,7 @@
     {
       "name": "Burp Suite",
       "description": "Explore Burp Suite, a popular web application security testing tool that assists in identifying and exploiting vulnerabilities.",
-      "url": "https://portswigger.net/burp",
+      "url": "https://portswigger.net/web-security",
       "category": "web-security",
       "subcategory": "web-security"
     },
