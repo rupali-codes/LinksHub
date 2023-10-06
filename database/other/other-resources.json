@@ -40,5 +40,12 @@
     "url": "https://edabit.com/",
     "category": "other",
     "subcategory": "other-resources"
+  },
+  {
+    "name": "Remote-jobs",
+    "description": "A list of semi to fully remote-friendly companies in or around tech.",
+    "url": "https://remoteintech.company",
+    "category": "other",
+    "subcategory": "other-resources"
   }
 ]

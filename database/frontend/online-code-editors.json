@@ -159,6 +159,13 @@
     "url": "https://www.codingame.com/",
     "category": "frontend",
     "subcategory": "online-code-editors"
+  },
+  {
+    "name": "JSitor",
+    "description": "An advanced editor to write, test, and share JavaScript, CSS, and HTML snippets. Supports TypeScript and libraries too.",
+    "url": "https://jsitor.com/",
+    "category": "frontend",
+    "subcategory": "online-code-editors"
   }
   
 ]

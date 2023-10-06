@@ -20,6 +20,7 @@ module.exports = {
       },
       screens: {
         xs: '200px',
+        folding: '320px',
       },
       keyframes: {
         'button-press': {
