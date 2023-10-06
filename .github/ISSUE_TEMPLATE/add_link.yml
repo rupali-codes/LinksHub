@@ -30,6 +30,7 @@ body:
         - Resources
         - Languages
         - Open Source
+        - Technical Writing 
         - Other
     validations:
       required: true
