@@ -7,11 +7,12 @@ import { GitHubStarButton } from 'components/StarButton/GitHubStarButton'
 export const SocialMediaIconsList: FC<{
   className?: string
   showGithubButtons?: boolean
+  sidebar?: boolean
 }> = (props) => {
   const { className, showGithubButtons } = props
 
   return (
-    <ul className={`flex flex-wrap gap-3 justify-center ${className}`}>
+    <ul className={`flex ${props.sidebar ? "flex-col" : ""} flex-wrap gap-3 justify-center ${className}`}>
       {!showGithubButtons && (
         <>
           <li className="pt-6 hidden md:block">
@@ -72,6 +73,7 @@ export const SocialMediaIconsList: FC<{
           </a>
         </li>
       </ol>
+
       {showGithubButtons && (
         <ol className="flex">
           <li className="mr-4 sm:block">
