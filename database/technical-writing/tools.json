@@ -5,5 +5,12 @@
     "url": "https://docsify.js.org/#/",
     "category": "technical-writing",
     "subcategory": "technical-writing-tools"
+  },
+  {
+    "name": "Hugo",
+    "description": "If you're looking for a framework to help you build your documentation site quickly, check out Hugo. It allows you to output your content in multiple formats, including JSON or AMP as well as provides shortcodes to simplify your Markdown files.",
+    "url": "https://gohugo.io/",
+    "category": "technical-writing",
+    "subcategory": "technical-writing-tools"
   }
 ]
