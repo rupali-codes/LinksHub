@@ -220,7 +220,14 @@
     "name": "Iconoir",
     "description": "A high-quality selection of free icons. Has over 1,368 icons ready to use for your projects.",
     "url": "https://iconoir.com/",
-    "category": "fontend",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Lucide",
+    "description": "Lucide is a beautiful & consistent icon toolkit made by the community.",
+    "url": "https://lucide.dev/",
+    "category": "frontend",
     "subcategory": "icons"
   },
   {
