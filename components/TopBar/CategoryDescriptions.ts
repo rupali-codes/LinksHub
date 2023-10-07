@@ -24,6 +24,10 @@ const categoryDescriptions: CategoryDescriptions = {
   'themes templates': 'Theme templates are pre-designed website themes that can be customized to fit your needs. They are useful for quickly setting up a website without having to design everything from scratch.',
   'ui generator': 'A UI generator is a tool that allows you to create user interfaces without having to write code. Some popular UI generators include Webflow, Figma, and Sketch. ',
   videos: 'Videos are visual representations of moving images and sound. They can be used to convey information in a simple and easy-to-understand way.',
+  "three js": 'Three.js is a cross-browser JavaScript library and application programming interface (API) used to create and display animated 3D computer graphics in a web browser using WebGL.',
+  "next js": 'Next.js is a flexible React framework that gives you building blocks to create fast web applications.',
+  "ui generators": 'The UI Generator, or User Interface Generator, is an Eclipse tool that takes a user model and generates a role-based user interface for a J2EE Web application.',
+  "online code editors": "Online code editors, also called cloud-based code editors, are convenient because they usually require no setup. Plus, it's way easier to collaborate with someone over the cloud.",
   //backend
   architecture: 'Architecture is the art and technique of designing and building structures. It is both the process and the product of sketching, conceiving, planning, designing.',
   authentication: 'Authentication is the process of verifying the identity of a user or system. It is used to ensure that only authorized users have access to a system or application.',
