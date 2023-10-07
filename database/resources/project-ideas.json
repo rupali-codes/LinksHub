@@ -89,5 +89,12 @@
     "url": "https://www.interviewbit.com/blog/c-sharp-projects/",
     "category": "resources",
     "subcategory": "project-ideas"
+  },
+  {
+    "name": "Flask Projects",
+    "description": "This website provides free beginner to advanced level flask projects with source code.",
+    "url": "https://www.geeksforgeeks.org/flask-projects/",
+    "category": "resources",
+    "subcategory": "project-ideas"
   }
 ]

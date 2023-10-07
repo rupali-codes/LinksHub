@@ -26,5 +26,19 @@
     "url": "https://www.mongodb.com/blog/post/simplifying-mongodb-testing-mongo-orchestration",
     "category": "backend",
     "subcategory": "testing"
+  },
+  {
+    "name": "Postman",
+    "description": "Postman is a popular API testing tool that simplifies the process of sending HTTP requests to test and analyze web services. It allows developers to create, organize, and automate API tests, making it a valuable tool for ensuring the functionality and reliability of web applications.",
+    "url": "https://www.postman.com/",
+    "category": "backend",
+    "subcategory": "testing"
+  },
+  {
+    "name": "cypress",
+    "description": "Cypress is an end-to-end testing framework for JavaScript applications. It runs in the browser and provides a simple, yet powerful API for writing and running tests. Cypress is a good choice for teams that need to test their JavaScript applications quickly and easily.",
+    "url": "https://www.cypress.io/",
+    "category": "backend",
+    "subcategory": "testing"
   }
 ]

@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Introduction to Offensive Security",
+    "description": "Learn the fundamentals of offensive security, including ethical hacking, penetration testing, and vulnerability assessment.",
+    "url": "https://www.eccouncil.org/what-is-offensive-security/",
+    "category": "offensive-security",
+    "subcategory": "offensive-security"
+  },
+
+  {
+    "name": "Certified Ethical Hacker (CEH) Certification",
+    "description": "Information on the CEH certification, which covers the skills and knowledge required for ethical hacking and penetration testing.",
+    "url": "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/",
+    "category": "offensive-security",
+    "subcategory": "offensive-security"
+  },
+
+  {
+    "name": "Metasploit Framework",
+    "description": "Explore the Metasploit Framework, a powerful tool for developing, testing, and executing exploits against remote systems.",
+    "url": "https://www.metasploitunleashed.com/",
+    "category": "offensive-security",
+    "subcategory": "offensive-security"
+  },
+
+  {
+    "name": "Black Hat Briefings",
+    "description": "Information about the Black Hat Briefings, one of the most renowned information security conferences focusing on offensive security techniques.",
+    "url": "https://www.blackhat.com/",
+    "category": "offensive-security",
+    "subcategory": "offensive-security"
+  },
+
+  {
+    "name": "Web Application Penetration Testing",
+    "description": "A guide to web application penetration testing, covering techniques and tools used to identify vulnerabilities in web applications.",
+    "url": "https://owasp.org/www-project-web-security-testing-guide/",
+    "category": "offensive-security",
+    "subcategory": "offensive-security"
+  }
+]

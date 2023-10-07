@@ -40,6 +40,7 @@ export type Category =
   | 'languages'
   | 'ai'
   | 'internet-of-things'
+  | 'cyber-security'
   | 'cloud-computing'
   | 'open-source'
   | 'resources'

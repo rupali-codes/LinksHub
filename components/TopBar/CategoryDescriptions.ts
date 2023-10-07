@@ -24,6 +24,10 @@ const categoryDescriptions: CategoryDescriptions = {
   'themes templates': 'Theme templates are pre-designed website themes that can be customized to fit your needs. They are useful for quickly setting up a website without having to design everything from scratch.',
   'ui generator': 'A UI generator is a tool that allows you to create user interfaces without having to write code. Some popular UI generators include Webflow, Figma, and Sketch. ',
   videos: 'Videos are visual representations of moving images and sound. They can be used to convey information in a simple and easy-to-understand way.',
+  "three js": 'Three.js is a cross-browser JavaScript library and application programming interface (API) used to create and display animated 3D computer graphics in a web browser using WebGL.',
+  "next js": 'Next.js is a flexible React framework that gives you building blocks to create fast web applications.',
+  "ui generators": 'The UI Generator, or User Interface Generator, is an Eclipse tool that takes a user model and generates a role-based user interface for a J2EE Web application.',
+  "online code editors": "Online code editors, also called cloud-based code editors, are convenient because they usually require no setup. Plus, it's way easier to collaborate with someone over the cloud.",
   //backend
   architecture: 'Architecture is the art and technique of designing and building structures. It is both the process and the product of sketching, conceiving, planning, designing.',
   authentication: 'Authentication is the process of verifying the identity of a user or system. It is used to ensure that only authorized users have access to a system or application.',
@@ -50,6 +54,11 @@ const categoryDescriptions: CategoryDescriptions = {
   'data science': 'Data science is an interdisciplinary field that involves the use of statistical, mathematical, and computational methods to extract insights and knowledge from data. Data science is widely used for machine learning, data analysis, and data visualization.',
   'deep learning': 'Deep learning is a subfield of machine learning that involves the use of neural networks to learn from data. Deep learning is widely used for image recognition, natural language processing, and speech recognition. ',
   'machine-learning': 'Machine learning is a subfield of artificial intelligence that uses statistical, mathematical, and computational methods to learn from data. Machine learning is widely used for data analysis, data visualization, and predictive modeling.',
+  // cyber-security
+  'offensive security' : 'Offensive security is the proactive approach to securing networks and systems from attacks by actively seeking out vulnerabilities and weaknesses. ',
+  'defensive security' : 'Defensive security is a proactive approach that focuses on prevention, detection, and response to attacks from the perspective of defending the organization.',
+  'malware analysis' : 'Malware analysis is the study of the unique features, objectives, sources, and potential effects of harmful software and code, such as spyware, viruses, malvertising, and ransomware.',
+  'web security' : 'Web application penetration testing is the practice of simulating attacks on a system in an attempt to gain access to sensitive data, with the purpose of determining whether a system is secure.',
   // Open-source
   openSourceBlogs: 'There are many open source blogging platforms available for developers. Some of the most popular ones include WordPress, Joomla, and Drupal1. Other open source blogging platforms include Ghost, Serendipity, SilverStripe, and Jekyll',
   openSourceProjects: 'Anyone can contribute to the projects are called OpenSource Projects. There are many open source projects available for developers. Some of the most popular ones include Linux, Git, and Apache1. Other open source projects include Kubernetes, TensorFlow, and React Native',
