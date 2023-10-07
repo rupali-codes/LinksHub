@@ -30,6 +30,8 @@ body:
         - Resources
         - Languages
         - Open Source
+        - Technical Writing 
+        - Cyber Security
         - Other
     validations:
       required: true
