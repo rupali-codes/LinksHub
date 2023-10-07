@@ -47,5 +47,12 @@
     "url": "https://kinde.com/",
     "category": "backend",
     "subcategory": "authentication"
+  },
+  {
+    "name": "Keycloak",
+    "description": "Keycloak is an open-source identity and access management solution for simplifying user authentication and authorization in applications and services. Keycloak provides user federation, strong authentication, user management, fine-grained authorization, and more.",
+    "url": "https://www.keycloak.org/",
+    "category": "backend",
+    "subcategory": "authentication"
   }
 ]
