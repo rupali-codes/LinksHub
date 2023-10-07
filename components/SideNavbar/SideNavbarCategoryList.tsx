@@ -13,7 +13,6 @@ export const SideNavbarCategoryList: FC<{
   const [category, setCategory] = useState<string | undefined>('')
   const listRef = useRef<HTMLUListElement | null>(null)
 
-  useOnClickOutside(listRef, () => console.log('Clicked Outside'))
 
   useEffect(() => {
     const cat: string | undefined = router.query.category as string | undefined
