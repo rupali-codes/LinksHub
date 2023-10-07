@@ -290,25 +290,29 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'Placement Preparation',
+    category: 'Placement-Prep',
     subcategory: [
       {
         name: 'Interview Preparation',
         url: '/interview-preparation',
-        resources: DB.interviewpreparation,
+        resources: DB.interviewPreparation,
       },
       {
         name: 'Job Portals',
         url: '/job-portals',
-        resources: DB.jobportals,
+        resources: DB.jobPortals,
       },
-      { name: 'Coding Challenges Platforms', url: '/coding-challenges-platforms', resources: DB.codingchallengesplatforms },
       {
-        name: 'Resume and Portfolio Building',
-        url: '/resume-and-portfolio-building',
-        resources: DB.resumeandportfoliobuilding,
+        name: 'Resume Building',
+        url: '/resume-building',
+        resources: DB.resumeBuilding,
       },
-      { name: 'Career Guidance', url: '/career-guidance', resources: DB.careerguidance },
+      {
+        name: 'Portfolio Building',
+        url: '/portfolio-building',
+        resources: DB.portfolioBuilding,
+      },
+      { name: 'Career Guidance', url: '/career-guidance', resources: DB.careerGuidance },
       {
         name: 'Certifications',
         url: '/certifications',
