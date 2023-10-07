@@ -61,5 +61,12 @@
     "url": "https://www.000webhost.com/",
     "category": "resources",
     "subcategory": "hosting"
+  },
+  {
+    "name": "Brimble",
+    "description": "Brimble is your go-to cloud platform for effortlessly deploying frontend web applications, regardless of whether you're building a simple landing page or tackling a complex, large-scale project.",
+    "url": "https://www.brimble.io/",
+    "category": "resources",
+    "subcategory": "hosting"
   }
 ]
