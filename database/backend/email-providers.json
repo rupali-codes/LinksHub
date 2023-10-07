@@ -1,0 +1,37 @@
+[
+    {
+        "name": "EmailJS",
+        "description": "EmailJS is a platform that simplifies sending emails through JavaScript by providing an API for seamless integration with web applications.",
+        "url": "https://www.emailjs.com/",
+        "category": "backend",
+        "subcategory": "email-providers"  
+    },
+    {
+        "name": "Nodemailer",
+        "description": "Nodemailer is a JavaScript library for sending emails from Node.js applications with ease and flexibility.",
+        "url": "https://nodemailer.com/",
+        "category": "backend",
+        "subcategory": "email-providers"  
+    },
+    {
+        "name": "Mailgun",
+        "description": "Mailgun is a powerful email delivery service designed for developers, offering robust APIs and tools to send, receive, and track emails effortlessly.",
+        "url": "https://www.mailgun.com/",
+        "category": "backend",
+        "subcategory": "email-providers"  
+    },
+    {
+        "name": "SendGrid",
+        "description": "SendGrid is a cloud-based email delivery platform trusted by developers for its scalability and comprehensive API solutions.",
+        "url": "https://sendgrid.com/",
+        "category": "backend",
+        "subcategory": "email-providers"  
+    },
+    {
+        "name": "Amazon SES",
+        "description": "Amazon SES is an email tool that also supports a variety of deployments including dedicated, shared, or owned IP addresses. ",
+        "url": "https://aws.amazon.com/ses/",
+        "category": "backend",
+        "subcategory": "email-providers"  
+    }
+]

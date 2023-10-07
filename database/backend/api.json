@@ -110,5 +110,12 @@
         "url": "https://razorpay.com/docs",
         "category": "backend",
         "subcategory": "api"
+    },
+    {
+        "name": "Recipe API",
+        "description": "Edamam's Recipe Search API lets you integrate a recipe database and faceted recipe search into your websites or mobile applications.",
+        "url": "https://developer.edamam.com/edamam-recipe-api",
+        "category": "backend",
+        "subcategory": "api"
     }
 ]
