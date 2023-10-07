@@ -16,7 +16,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
 - Basic familiarity with Git and GitHub: If you are also new to these tools, visit [GitHub for complete beginners](https://developer.mozilla.org/en-US/docs/MDN/Contribute/GitHub_beginners) for a comprehensive introduction to them.
 
-- Make sure you have [Node.js](https://nodejs.org/) is installed.
+- Make sure you have [Node.js](https://nodejs.org/) installed.
 - Make sure you have [PNPM](https://pnpm.io/installation) installed.
 
 ---
