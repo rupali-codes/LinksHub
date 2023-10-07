@@ -1,7 +1,7 @@
 name: New Link 🔗
 description: Use this to add new link into the Hub
 title: '[Add] <write what you want to add>'
-labels: ['chore', 'goal: new-link']
+labels: ['chore', 'goal: new-link', 'priority: low']
 body:
   - type: input
     attributes:

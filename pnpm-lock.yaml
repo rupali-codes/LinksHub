@@ -78,8 +78,8 @@ dependencies:
     specifier: 5.0.3
     version: 5.0.3
   typewriter-effect:
-    specifier: ^2.19.0
-    version: 2.19.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.21.0
+    version: 2.21.0(react-dom@18.2.0)(react@18.2.0)
   uuid:
     specifier: 9.0.0
     version: 9.0.0
