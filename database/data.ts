@@ -63,6 +63,11 @@ export const sidebarData: ISidebar[] = [
         url: '/authentication',
         resources: DB.authentication,
       },
+      {
+        name: 'email providers',
+        url: '/email-providers',
+        resources: DB.emailProviders,
+      },
       { name: 'caching', url: '/caching', resources: DB.caching },
       { name: 'testing', url: '/testing', resources: DB.testing },
       {

@@ -23,6 +23,7 @@ export { default as validation } from './backend/validation.json'
 export { default as systemDesign } from './backend/system-design.json'
 export { default as database } from './backend/database.json'
 export { default as api } from './backend/api.json'
+export { default as emailProviders } from './backend/email-providers.json'
 
 //devops
 export { default as cicd } from './devops/cicd.json'
