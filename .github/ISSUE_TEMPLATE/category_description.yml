@@ -1,7 +1,7 @@
 name: Category Description 📝
 description: Use this to add or update the category's description
 title: '[Description] <write which description you want to add or update>'
-labels: ['chore', 'goal: description']
+labels: ['chore', 'goal: description', 'priority: low']
 body:
   - type: input
     attributes:
