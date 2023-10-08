@@ -311,6 +311,12 @@ export const sidebarData: ISidebar[] = [
       { name: 'Roadmaps', url: '/roadmaps', resources: DB.roadmaps },
     ],
   },
+  {
+    category: 'DSA',
+    subcategory: [
+      { name: 'articles', url: '/articles', resources: DB.openSourceArticles },
+    ],
+  },
 ]
 
 export const subCategories = sidebarData.flatMap(({ category, subcategory }) =>

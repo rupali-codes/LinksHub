@@ -91,6 +91,8 @@ const categoryDescriptions: CategoryDescriptions = {
   contributors:  'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
   //technical-writing
   technicalWritingTools: 'This list provides the tools to suit your tech writing needs.',
+  //DSA
+  articles:'DSA articles provides helpful posts about how to deal with DSA best pratices and how to master it.'
 }
 
 export default categoryDescriptions
