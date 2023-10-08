@@ -66,7 +66,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   const [hoveredContributor, setHoveredContributor] = useState<string>('')
   const { resolvedTheme } = useTheme()
   const filteredContributors = contributors.filter(
-    (contributor) => contributor.contributions >= 6
+    (contributor) => contributor.contributions >= 1
   )
 
   const sortedContributors = filteredContributors.sort(

@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Web Application Penetration Testing Fundamentals",
+      "description": "Learn the basics of web application penetration testing, including common vulnerabilities and testing methodologies.",
+      "url": "https://www.owasp.org/index.php/Web_Application_Penetration_Testing",
+      "category": "cyber-security",
+      "subcategory": "web-security"
+    },
+    {
+      "name": "Certified Web Application Penetration Tester (CWAPT) Certification",
+      "description": "Information on the CWAPT certification, a specialized certification for professionals focusing on web application penetration testing.",
+      "url": "https://www.mile2.com/web-application-penetration-tester-cwapt.html",
+      "category": "cyber-security",
+      "subcategory": "web-security"
+    },
+    {
+      "name": "Burp Suite",
+      "description": "Explore Burp Suite, a popular web application security testing tool that assists in identifying and exploiting vulnerabilities.",
+      "url": "https://portswigger.net/web-security",
+      "category": "cyber-security",
+      "subcategory": "web-security"
+    },
+    {
+      "name": "OWASP AppSec Conferences",
+      "description": "Information about the OWASP AppSec conferences, which focus on web application security, including penetration testing techniques.",
+      "url": "https://owasp.org/www-project-appsec/",
+      "category": "cyber-security",
+      "subcategory": "web-security"
+    },
+    {
+      "name": "SQL Injection Testing",
+      "description": "Learn about SQL injection testing techniques used to identify and exploit SQL injection vulnerabilities in web applications.",
+      "url": "https://portswigger.net/web-security/sql-injection",
+      "category": "cyber-security",
+      "subcategory": "web-security"
+    }
+  ]
+  

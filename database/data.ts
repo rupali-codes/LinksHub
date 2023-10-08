@@ -1,10 +1,9 @@
 import { IDBData, IData, ISidebar } from '../types'
 import * as DB from 'database'
 import { v4 as uuidv4 } from 'uuid'
-
 export const database: IData[][] = Object.values(DB).map((item: IDBData[]) =>
-  item.map((subcat) => ({ ...subcat, id: uuidv4() }))
-)
+  item.map((subcat: IDBData) => ({ ...subcat, id: uuidv4() }))
+);
 
 export const sidebarData: ISidebar[] = [
   {
@@ -63,6 +62,11 @@ export const sidebarData: ISidebar[] = [
         name: 'authentication',
         url: '/authentication',
         resources: DB.authentication,
+      },
+      {
+        name: 'email providers',
+        url: '/email-providers',
+        resources: DB.emailProviders,
       },
       { name: 'caching', url: '/caching', resources: DB.caching },
       { name: 'testing', url: '/testing', resources: DB.testing },
@@ -173,6 +177,32 @@ export const sidebarData: ISidebar[] = [
       },
     ],
   },
+  {
+    category: 'cyber-security',
+    subcategory: [
+      {
+        name: 'Offensive security',
+        url: '/offensive-security',
+        resources: DB.offensive_security,
+      },
+      {
+        name: 'Defensive Security',
+        url: '/defensive-security',
+        resources: DB.defensive_security,
+      },
+      {
+        name: 'Malware Analysis',
+        url: '/malware-analysis',
+        resources: DB.malware_analysis,
+      },
+      {
+        name: 'Web Security',
+        url: '/web-security',
+        resources: DB.web_security,
+      },
+    ],
+  },
+ 
   {
     category: 'cloud-computing',
     subcategory: [

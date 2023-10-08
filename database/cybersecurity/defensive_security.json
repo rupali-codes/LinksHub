@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Introduction to Defensive Security",
+      "description": "Learn the fundamentals of defensive security, including strategies and practices to protect networks and systems.",
+      "url": "https://www.sans.org/cyber-security-skills-roadmap/defensive-security",
+      "category": "cyber-security",
+      "subcategory": "defensive-security"
+    },
+    {
+      "name": "Certified Information Systems Security Professional (CISSP) Certification",
+      "description": "Information on the CISSP certification, which covers a wide range of security topics and is highly regarded in the field of defensive security.",
+      "url": "https://www.isc2.org/Certifications/CISSP",
+      "category": "cyber-security",
+      "subcategory": "defensive-security"
+    },
+    {
+      "name": "Security Information and Event Management (SIEM) Solutions",
+      "description": "Explore SIEM solutions, which are essential for monitoring and responding to security incidents in real time.",
+      "url": "https://www.gartner.com/reviews/market/security-information-and-event-management-siem",
+      "category": "cyber-security",
+      "subcategory": "defensive-security"
+    },
+    {
+      "name": "Incident Response and Threat Hunting",
+      "description": "Learn about incident response and threat hunting techniques, crucial for identifying and mitigating security incidents.",
+      "url": "https://www.sans.org/course/incident-response-and-threat-hunting",
+      "category": "cyber-security",
+      "subcategory": "defensive-security"
+    }
+  ]
+  

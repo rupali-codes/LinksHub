@@ -38,7 +38,8 @@ open source program with a mission to help students from India and beyond in dev
   - [Tech stack 📚](#tech-stack-)
   - [Socials 📱](#socials-)
   - [Want to Contribute? 👩‍💻](#want-to-contribute-)
-  - [Building with Gitpod 💣](#building-with-gitpod-)
+  - [Building with Gitpod 💣](#building-with-gitpod--codespaces-)
+  - [Maintainers 🤝](#maintainers-)
   - [Top 50 Contributors ✨](#top-50-contributors-)
   - [License 📝](#license-)
   - [Support ⭐](#support-)
@@ -70,9 +71,11 @@ Visit https://linkshub.dev to see the live demo!
 
 Connect with us for future updates
 
-- Join the LinksHub community on [Discord](https://discord.com/invite/NvK67YnJX5) 
-- Follow us on [Twitter](https://twitter.com/the_linkshub) for updates
-- Follow us on [LinkedIn](https://www.linkedin.com/company/linkshub-dev/) to stay in touch
+- Join the LinksHub community on [Discord](https://discord.com/invite/NvK67YnJX5) <img src="https://github.com/shelar1423/DocsGPT/assets/82649533/bbd74228-f41f-4194-8fe2-531f7b29d61f" alt="Discord" width="20" height="20"  align="center"> .
+- Follow us on [X (Twitter) ](https://twitter.com/the_linkshub) <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-logo-icon.png" alt="Discord" width="25" height="25"  align="center"> 
+ for updates. 
+- Follow us on [LinkedIn](https://www.linkedin.com/company/linkshub-dev/) <img src="https://github.com/shelar1423/LinksHub/assets/82649533/08ffebb8-68a1-4cd1-9078-97f284de5cef" alt="Discord" width="18" height="18"  align="center">  to stay in touch.
+
 
 ---
 
@@ -94,6 +97,21 @@ Please follow our [CONTRIBUTING guidelines](https://github.com/rupali-codes/Link
 ## Building with Gitpod | Codespaces 💣
 
 Want to avoid the complexities of setting up a local environment or just need to make quick edits? Consider using [Gitpod.io](https://gitpod.io/#https://github.com/rupali-codes/LinksHub) or [Codespaces](https://codespaces.new/rupali-codes/LinksHub). They streamline the process by automatically installing required dependencies, making it effortless to contribute in just one click!:)
+
+---
+
+## Maintainers 🤝
+
+Need help while contributing? Tag any of the maintainers when creating the issue. You can tag us using: `@username`
+
+<table>
+<tr>
+<td align="center" width="200"><pre><a href="https://github.com/rupali-codes"><img src="https://avatars.githubusercontent.com/u/78981177?v=4" width="200" alt="GitHub Profile of Anmol Baranwal" /><br><sub>Rupali Haldiya</sub></a><br>@rupali-codes</pre></td>
+<td align="center" width="200"><pre><a href="https://github.com/CBID2"><img src="https://avatars.githubusercontent.com/u/105683440?v=4" width="200" alt="GitHub Profile of Anmol Baranwal" /><br><sub>Christine Belzie</sub></a><br>@CBID2</pre></td>
+<td align="center" width="200"><pre><a href="https://github.com/Anmol-Baranwal"><img src="https://avatars.githubusercontent.com/u/74038190?v=4" width="200" alt="GitHub Profile of Anmol Baranwal" /><br><sub>Anmol Baranwal</sub></a><br>@Anmol-Baranwal</pre></td>
+
+</tr>
+</table>
 
 
 

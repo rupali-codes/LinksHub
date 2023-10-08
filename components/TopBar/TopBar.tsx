@@ -49,12 +49,13 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
   const handleCardClick: () => void = () => {
     const description = categoryDescriptions[subcategoryName] || ''
     const categoryInfo = {
-      name: categoryName,
+      name: subcategoryName,
       description,
     }
     setCurrentCategory(categoryInfo)
+    
   }
-
+  
   const removeCurrentCard: () => void = () => {
     setCurrentCategory(null)
   }
@@ -71,12 +72,11 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
               <span className="flex uppercase text-gray-900 dark:text-gray-100">
                 {isSearchFound ? `${cleanedCategory}` : `No Results Found`}
               </span>
-              <button
-                data-tooltip-id="info-tooltip"
-                data-tooltip-content="Description"
-                data-tooltip-place="bottom"
-              >
+              <button>
                 <FaInfoCircle
+                  data-tooltip-id="info-tooltip"
+                  data-tooltip-content="Description"
+                  data-tooltip-place="bottom"
                   className="ml-4 mt-2 text-sm cursor-pointer hover:text-theme-primary"
                   onClick={handleCardClick}
                 />
@@ -105,13 +105,12 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
               <span className="flex uppercase text-gray-900 dark:text-gray-100">
                 {subcategoryName}
               </span>
-              <button
-                data-tooltip-id="info-tooltip"
-                data-tooltip-content="Description"
-                data-tooltip-place="bottom"
-              >
+              <button>
                 <FaInfoCircle
-                  className="ml-4 mt-2 text-sm cursor-pointer hover:text-theme-primary"
+                  data-tooltip-id="info-tooltip"
+                  data-tooltip-content="Description"
+                  data-tooltip-place="bottom"
+                  className="ml-4 mt-2 text-sm cursor-pointer hover:text-theme-primary outline-none"
                   onClick={handleCardClick}
                 />
               </button>

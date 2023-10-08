@@ -117,5 +117,12 @@
     "url": "https://www.pixeltrue.com/free-illustrations",
     "category": "frontend",
     "subcategory": "illustrations"
+  },
+  {
+    "name": "IconScout",
+    "description": "Get millions of 3Ds, icons, illustrations, Lottie animations, and best-in-class search tools for your website, mobile app or project with the IconScout API.",
+    "url": "https://iconscout.com/",
+    "category": "frontend",
+    "subcategory": "illustrations"
   }
 ]
