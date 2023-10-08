@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
 import Logo from 'components/logo/logo'
 import TypewriterComponent from 'typewriter-effect'
 import { sidebarData } from '../database/data'
+import Link from 'next/link'
 
 export default function Home() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+
   //storing sub categories names for using in typewriter effect
   const subCategoriesNames: string[] = []
   sidebarData.forEach((c) => {
@@ -12,6 +16,19 @@ export default function Home() {
       subCategoriesNames.push(a.name.toUpperCase())
     })
   })
+  const subCategoriesUrl: string[] = []
+  sidebarData.forEach((c) => {
+    c.subcategory.forEach((a) => {
+      subCategoriesUrl.push(c.category+a.url)
+    })
+  })
+  useEffect(() => {
+    const typewriterInterval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % subCategoriesNames.length);
+    }, 4000); // Adjust the interval as needed
+
+    return () => clearInterval(typewriterInterval);
+  }, []);
   return (
     <>
       <Head>
@@ -92,16 +109,17 @@ export default function Home() {
             </p>
             <br />
             <p className="text-md">Navigate through menu for</p>
+            <Link href={subCategoriesUrl[currentIndex]}>
             <TypewriterComponent
               options={{
-                strings: subCategoriesNames,
+                strings: subCategoriesNames[currentIndex],
                 wrapperClassName:
                   'text-md text-violet-600 dark:text-violet-400',
                 cursorClassName: 'text-md text-violet-600 dark:text-violet-400',
                 autoStart: true,
-                loop: true,
               }}
             />
+            </Link>
           </div>
         </div>
       </section>

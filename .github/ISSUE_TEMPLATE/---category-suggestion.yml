@@ -1,7 +1,7 @@
 name: 'Category Request ⚡'
 description: 'Use this to add new category/subcategory into the Hub'
 title: '[ADD] <write the name of category/subcategory>'
-labels: ['chore', 'goal: new-category']
+labels: ['chore', 'goal: new-category', 'priority: low']
 
 body:
   - type: input
