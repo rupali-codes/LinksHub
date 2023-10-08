@@ -26,7 +26,6 @@
   {
     "name": "Kunal Kushwaha",
     "description": "This channel provides free Java-specific DSA course with interview preparation.",
-    "description": "This channel provides a free Java-specific DSA course with interview preparation.",
     "url": "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
     "category": "DSA",
     "subcategory": "dsa-tutorials",
@@ -122,9 +121,7 @@
   },
   {
     "name": "CODING NINJAS",
-  
     "description": "This channel provides a DSA course about Python from beginner to advanced.",
-
     "url": "https://youtube.com/playlist?list=PLrk5tgtnMN6TYBW0-U4YhIRyYEVpqVEnJ",
     "category": "DSA",
     "subcategory": "dsa-tutorials",

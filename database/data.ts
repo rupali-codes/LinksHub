@@ -315,7 +315,7 @@ export const sidebarData: ISidebar[] = [
     category: 'DSA',
     subcategory: [
       { name: 'articles', url: '/articles', resources: DB.openSourceArticles },
-      { name: 'dsa-tutorials', url: '/dsa-tutorials', resources: DB.openSourceTutorials },
+      { name: 'dsa-tutorials', url: '/dsa-tutorials', resources: DB.openSourceTutorials},
     ],
   },
 ]
