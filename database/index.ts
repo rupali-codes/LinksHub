@@ -13,7 +13,7 @@ export { default as uiGenerators } from './frontend/ui-generators.json'
 export { default as react } from './frontend/react.json'
 export { default as next } from './frontend/next.json'
 export { default as three } from './frontend/three.json'
-// backend
+// backend 
 export { default as authentication } from './backend/authentication.json'
 export { default as architecture } from './backend/architecture.json'
 export { default as caching } from './backend/caching.json'
@@ -101,3 +101,7 @@ export { default as cpPlatforms } from './competitive_programming/cp-platforms.j
 export { default as cpTutorials } from './competitive_programming/cp-tutorials.json'
 // technical-writing
 export { default as technicalWritingTools } from './technical-writing/tools.json'
+//DSA
+export { default as dsatutorials } from './DSA/dsa-tutorials.json'
+export { default as articles } from './DSA/articles.json'
+

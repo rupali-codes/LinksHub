@@ -1,8 +1,12 @@
+
+
 type CategoryDescriptions = {
   [key: string]: string
 }
 
 const categoryDescriptions: CategoryDescriptions = {
+ 
+  
   // devops
   cicd: 'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
   devopsLifecycle: 'DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
@@ -91,6 +95,12 @@ const categoryDescriptions: CategoryDescriptions = {
   contributors:  'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
   //technical-writing
   technicalWritingTools: 'This list provides the tools to suit your tech writing needs.',
+  //DSA
+  articles:'ffff',
+  dsatutorial:'sfsdfsfsdf',
+  
+  
+  
 }
 
-export default categoryDescriptions
+export default categoryDescriptions;
