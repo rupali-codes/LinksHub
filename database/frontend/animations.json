@@ -124,5 +124,12 @@
     "url": "https://tympanus.net/codrops/",
     "category": "frontend",
     "subcategory": "animations"
+  },
+  {
+    "name": "React Spring",
+    "description": "React Spring is a library for building interactive, data-driven, and animated UI components. It can animate HTML, SVG, Native Elements, Three.js, and more.",
+    "url": "https://www.react-spring.dev/",
+    "category": "frontend",
+    "subcategory": "animations"
   }
 ]

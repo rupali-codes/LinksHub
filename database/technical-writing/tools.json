@@ -12,5 +12,12 @@
     "url": "https://gohugo.io/",
     "category": "technical-writing",
     "subcategory": "technical-writing-tools"
+  },
+  {
+    "name": "Grammarly",
+    "description": "Grammarly is a popular grammar and spell-checking tool that also provides suggestions for improving writing clarity and style. It can be used as a browser extension or standalone application.",
+    "url": "https://www.grammarly.com/",
+    "category": "technical-writing",
+    "subcategory": "technical-writing-tools"
   }
 ]
