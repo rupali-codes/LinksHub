@@ -92,7 +92,8 @@ const categoryDescriptions: CategoryDescriptions = {
   //technical-writing
   technicalWritingTools: 'This list provides the tools to suit your tech writing needs.',
   //DSA
-  articles:'DSA articles provides helpful posts about how to deal with DSA best pratices and how to master it.'
+  articles:'DSA articles provides helpful posts about how to deal with DSA best pratices and how to master it.',
+  dsa-tutorials:'This DSA tutorials provides all the useful videos for learning and praticing DSA theory and questions.'
 }
 
 export default categoryDescriptions

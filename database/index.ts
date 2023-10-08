@@ -103,3 +103,4 @@ export { default as cpTutorials } from './competitive_programming/cp-tutorials.j
 export { default as technicalWritingTools } from './technical-writing/tools.json'
 //DSA
 export { default as articles } from './DSA/articles.json'
+export { default as dsa-tutorials } from './DSA/dsa-tutorials.json'
