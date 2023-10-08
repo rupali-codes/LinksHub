@@ -280,6 +280,11 @@ export const sidebarData: ISidebar[] = [
         url: '/game-development',
         resources: DB.gameDevelopment,
       },
+      {
+        name: 'Kubernetes Tutorial',
+        url: '/kubernetes-tutorial',
+        resources: DB.KubernetesTutorial,
+      },
     ],
   },
   {
