@@ -90,7 +90,7 @@ const categoryDescriptions: CategoryDescriptions = {
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
   contributors:  'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
   //technical-writing
-  technicalWritingTools: 'This list provides the tools to suit your tech writing needs.',
+  'technical writing tools': 'This list provides the tools to suit your tech writing needs.',
 }
 
 export default categoryDescriptions
