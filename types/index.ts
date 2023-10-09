@@ -88,16 +88,17 @@ export const subcategoryArray = [
   'illustrations',
   'images',
   'online-code-editors',
-  'react',
   'next-js',
   'three-js',
   'themes-templates',
   'ui-generators',
   //backend
+  'api',
   'architecture',
   'authentication',
   'caching',
   'database',
+  'email-providers',
   'security',
   'system-design',
   'testing',
@@ -112,23 +113,22 @@ export const subcategoryArray = [
   'python',
   'ruby',
   'typescript',
+  'rust',
+  'dart',
   //artificial intelligence
   'artificial-intelligence',
+  'machine-learning',
+  'data-science',
+  'deep-learning',
   //Internet of Things
   'coursera',
-  'Esp-32',
-  'Sensors',
-  'Raspberry pi',
+  'raspberry',
   //cloud computing
-  'google cloud',
+  'gcp',
   'aws',
   'azure',
   'oracle',
   'ibm',
-  // machin learning
-  'data-science',
-  'deep-learning',
-  'machine-learning',
   // Open-source
   'articles',
   'projects',
@@ -142,6 +142,7 @@ export const subcategoryArray = [
   'project-ideas',
   // youtube
   'android',
+  'computer-science',
   'cp-platforms',
   'cp-tutorials',
   'css',
@@ -156,12 +157,14 @@ export const subcategoryArray = [
   // other
   'communities',
   'devtools',
+  'events',
   'github',
   'other-resources',
   'podcasts',
   'roadmaps',
   // competitive programming
-  'platforms',
+  'cp-platforms',
+  'cp-tutorials',
   // technical-writing
   'technical-writing-tools',
 ]
