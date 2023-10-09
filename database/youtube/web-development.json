@@ -334,5 +334,13 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
+  },
+  {
+    "name": "ByteGrad",
+    "description": "ByteGrad is an underrated Youtube channel which explains really complex development concepts in an easy and simple way.",
+    "url": "https://www.youtube.com/@ByteGrad",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
   }
 ]
