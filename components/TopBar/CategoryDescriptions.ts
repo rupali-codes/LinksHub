@@ -3,7 +3,7 @@ type CategoryDescriptions = {
 }
 
 const categoryDescriptions: CategoryDescriptions = {
-  // devops
+  //devops
   cicd: 'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
   devopsLifecycle:
     'DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
@@ -15,6 +15,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.',
   microservices:
     'Microservices are a software development technique—a variant of the service-oriented architecture (SOA) architectural style that structures an application as a collection of loosely coupled services.',
+
   //frontend
   accessibility:
     'Accessibility is the concept of whether a product or service can be used by everyone—however they encounter it. Accessibility laws exist to aid people with disabilities, but designers should try to accommodate all potential users in many contexts of use anyway. ',
@@ -50,6 +51,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'The UI Generator, or User Interface Generator, is an Eclipse tool that takes a user model and generates a role-based user interface for a J2EE Web application.',
   'online code editors':
     "Online code editors, also called cloud-based code editors, are convenient because they usually require no setup. Plus, it's way easier to collaborate with someone over the cloud.",
+
   //backend
   architecture:
     'Architecture is the art and technique of designing and building structures. It is both the process and the product of sketching, conceiving, planning, designing.',
@@ -67,7 +69,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not.',
   validation:
     'Validation is the process of checking whether a system or its component(s) satisfies the specified requirements or not and checks the data is correct or not.',
-  // languages
+  
+    //languages
   'c programming':
     'C is a general-purpose programming language that was developed in the early 1970s by Dennis Ritchie at Bell Labs. C is widely used for developing system software, embedded systems, and application software.',
   cpp: "C++ is a versatile and powerful programming language that builds upon the features of C, offering object-oriented programming capabilities and support for low-level memory manipulation. It's widely used for developing system software, games, high-performance applications, and more.",
@@ -87,6 +90,7 @@ const categoryDescriptions: CategoryDescriptions = {
   ruby: 'Ruby is a high-level, interpreted programming language that was developed in the mid-1990s by Yukihiro Matsumoto in Japan. Ruby is widely used for developing web applications, mobile applications, and desktop applications.',
   typescript:
     ' TypeScript is a statically typed language that supports object-oriented and functional programming styles, used for developing web applications, mobile applications, and desktop applications.',
+
   // ml & ai
   'data science':
     'Data science is an interdisciplinary field that involves the use of statistical, mathematical, and computational methods to extract insights and knowledge from data. Data science is widely used for machine learning, data analysis, and data visualization.',
@@ -94,6 +98,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'Deep learning is a subfield of machine learning that involves the use of neural networks to learn from data. Deep learning is widely used for image recognition, natural language processing, and speech recognition. ',
   'machine-learning':
     'Machine learning is a subfield of artificial intelligence that uses statistical, mathematical, and computational methods to learn from data. Machine learning is widely used for data analysis, data visualization, and predictive modeling.',
+
   // cyber-security
   'offensive security':
     'Offensive security is the proactive approach to securing networks and systems from attacks by actively seeking out vulnerabilities and weaknesses. ',
@@ -103,6 +108,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'Malware analysis is the study of the unique features, objectives, sources, and potential effects of harmful software and code, such as spyware, viruses, malvertising, and ransomware.',
   'web security':
     'Web application penetration testing is the practice of simulating attacks on a system in an attempt to gain access to sensitive data, with the purpose of determining whether a system is secure.',
+
   // Open-source
   openSourceBlogs:
     'There are many open source blogging platforms available for developers. Some of the most popular ones include WordPress, Joomla, and Drupal1. Other open source blogging platforms include Ghost, Serendipity, SilverStripe, and Jekyll',
@@ -110,7 +116,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Anyone can contribute to the projects are called OpenSource Projects. There are many open source projects available for developers. Some of the most popular ones include Linux, Git, and Apache1. Other open source projects include Kubernetes, TensorFlow, and React Native',
   openSourceTools:
     'There are various open source tools available for developers. Some of the most popular ones include Hadoop, VLC Media Player, and GIMP1. Other open source tools include TensorFlow, Eclipse Che, and OpenShift Do.',
-  // resources
+
+  //resources
   blogs:
     'The term “blog” is short for “weblog.” Blogs are usually maintained by an individual with regular entries of commentary, descriptions of events, or other material such as graphics or video.',
   ebook:
@@ -121,7 +128,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Official docs is short for official documentation. Official documentation is an important resource for users of software products and services as it provides a comprehensive guide to using the software.',
   'project ideas':
     'Projects play an important role in your resume. So here is a list of some great projects and their repositories.',
-  // youtube
+
+  //youtube
   android:
     'Android programming is the process of creating applications that run on the Android operating system. Android applications are written in Java or Kotlin programming languages .',
   'competitive programming':
@@ -145,7 +153,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Web development is the process of building, programming, and maintaining websites and web applications. It involves various disciplines such as web design, coding, programming, database management, and web server administration.',
   'web3 metaverse':
     'Web3 is the next generation of the internet. It is a decentralized network that allows users to interact with each other without the need for intermediaries. ',
-  // other
+
+  //other
   communities:
     'Communities are groups of like-minded people who work on projects and help their peers to grow  and improve their skills.',
   devtools:
@@ -156,6 +165,7 @@ const categoryDescriptions: CategoryDescriptions = {
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
   contributors:
     'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
+    
   //technical-writing
   'technical writing tools':
     'This list provides the tools to suit your tech writing needs.',
