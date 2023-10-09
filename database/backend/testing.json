@@ -40,5 +40,13 @@
     "url": "https://www.cypress.io/",
     "category": "backend",
     "subcategory": "testing"
+  },
+   {
+    "name": "Hoppscotch",
+    "description": "Hoppscotch is a lightweight, web-based API development suite. It was built from the ground up with ease of use and accessibility in mind providing all the functionality needed for API developers with minimalist, unobtrusive UI.",
+    "url": "https://docs.hoppscotch.io/",
+    "category": "backend",
+    "subcategory": "testing"
   }
+
 ]

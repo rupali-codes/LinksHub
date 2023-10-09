@@ -117,5 +117,12 @@
         "url": "https://developer.edamam.com/edamam-recipe-api",
         "category": "backend",
         "subcategory": "api"
+    },
+    {
+        "name": "CoinGecko API",
+        "description": "CoinGecko API  offers crypto prices, market data, categories, NFT floor prices, exchanges trading volume and trading pairs, metadata, historical data, and other cryptocurrencies data in real time.",
+        "url": "https://www.coingecko.com/en/api/documentation",
+        "category": "backend",
+        "subcategory": "api"
     }
 ]

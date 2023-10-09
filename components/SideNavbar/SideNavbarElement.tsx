@@ -22,7 +22,6 @@ export const SideNavbarElement: FC<{
       aria-label="Side Navbar Elements"
       onClick={() => {
         handlePageChange(1)
-        closeNav
       }}
       className={`${
         router.asPath === path
@@ -31,7 +30,9 @@ export const SideNavbarElement: FC<{
       } collapse w-full text-start pl-3 hover:text-theme-secondary dark:hover:text-violet-300 
       focus-visible:outline-none focus-visible:ring focus-visible:ring-theme-primary focus-visible:rounded-lg`}
     >
-      <div className="ml-2 text-lg py-2 capitalize transition-all duration-300 hover:pl-2 dark:border-theme-secondary">
+      <div className="ml-2 text-lg py-2 capitalize transition-all duration-300 hover:pl-2 dark:border-theme-secondary"
+      onClick={closeNav}
+      >
         {name}
       </div>
     </Link>
