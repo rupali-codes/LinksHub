@@ -4,6 +4,8 @@ import { SideNavbarElement } from './SideNavbarElement'
 import type { ISidebar } from '../../types'
 import Link from 'next/link'
 import useOnClickOutside from 'hooks/useOnClickOutside'
+import { useRouter } from 'next/router'
+
 
 export const SideNavbarCategory: FC<{
   categoryData: ISidebar
@@ -12,6 +14,7 @@ export const SideNavbarCategory: FC<{
 }> = ({ categoryData, expand, listRef }) => {
   const [isOpen, setIsOpen] = useState(expand)
   const { category, subcategory } = categoryData
+  const router = useRouter();
   const sortedSubcategoryList = subcategory
     .sort((a, b) => (a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1))
     .map((subcategoryData, i) => (
@@ -28,7 +31,10 @@ export const SideNavbarCategory: FC<{
     setIsOpen(!isOpen)
   }
 
-  useOnClickOutside(listRef, () => setIsOpen(false))
+  useOnClickOutside(listRef, () =>{
+    setIsOpen(false)
+    router.push('/')
+  })
 
   return (
     <li className="relative w-full transition-all ease-in-out text-theme-secondary dark:text-theme-primary dark:bg-opacity-5 hover:text-theme-secondary dark:hover:text-theme-primary rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-theme-primary">

@@ -1,21 +1,33 @@
-import { MutableRefObject, useEffect } from 'react';
+import { MutableRefObject, useEffect } from 'react'
 
-
-
-const useOnClickOutside = (ref : MutableRefObject<HTMLUListElement | null> , handler : () => void ) => {
+const useOnClickOutside = (
+  ref: MutableRefObject<HTMLUListElement | null>,
+  handler: () => void
+) => {
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (ref.current && !ref.current.contains(event.target as Node)) {
-        handler();
+      if (
+        event.target &&
+        (event.target as HTMLElement)?.closest('[data-custom="restrict-click-outside"]') !== null) {
+        return
       }
-    };
 
-    document.addEventListener('mousedown', handleClickOutside);
+      if (
+        ref.current &&
+        !ref.current.classList.contains('copy-to-clipboard-button') &&
+        !ref.current.contains(event.target as Node)
+      ) {
+        console.log('clicked-outside')
+        handler()
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
 
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, [ref, handler]);
-};
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [ref, handler])
+}
 
-export default useOnClickOutside;
+export default useOnClickOutside

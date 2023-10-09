@@ -3,7 +3,6 @@ import type { SubCategories } from '../../types'
 import { sidebarData } from 'database/data'
 import { SideNavbarCategory } from './SideNavbarCategory'
 import { useRouter } from 'next/router'
-import useOnClickOutside from 'hooks/useOnClickOutside'
 
 export const SideNavbarCategoryList: FC<{
   query: string
@@ -12,7 +11,6 @@ export const SideNavbarCategoryList: FC<{
   const router = useRouter()
   const [category, setCategory] = useState<string | undefined>('')
   const listRef = useRef<HTMLUListElement | null>(null)
-
 
   useEffect(() => {
     const cat: string | undefined = router.query.category as string | undefined
