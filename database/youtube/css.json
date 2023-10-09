@@ -38,5 +38,13 @@
     "category": "youtube",
     "subcategory": "css",
     "language": "english"
+  },
+  {
+    "name": "developedbyed",
+    "description": "This channel has a wide variety of educational videos on technologies like HTML,CSS,Javascript,Tailwind CSS and React",
+    "url": "https://www.youtube.com/playlist?list=PLDyQo7g0_nsUjf046cCHKJ16U1SoXrElZ",
+    "category": "youtube",
+    "subcategory": "css",
+    "language": "english"
   }
 ]
