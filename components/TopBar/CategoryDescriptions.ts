@@ -3,19 +3,6 @@ type CategoryDescriptions = {
 }
 
 const categoryDescriptions: CategoryDescriptions = {
-  //devops
-  cicd: 'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
-  devopsLifecycle:
-    'DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
-  devopsMethodologies:
-    'DevOps methodologies are a set of practices that combine software development and information technology operations to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
-  docker:
-    'Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers. These are isolated from one another and bundle their own software, libraries, and configuration files; they can also communicate with each other through well-defined channels.',
-  kubernetes:
-    'Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.',
-  microservices:
-    'Microservices are a software development technique—a variant of the service-oriented architecture (SOA) architectural style that structures an application as a collection of loosely coupled services.',
-
   //frontend
   accessibility:
     'Accessibility is the concept of whether a product or service can be used by everyone—however they encounter it. Accessibility laws exist to aid people with disabilities, but designers should try to accommodate all potential users in many contexts of use anyway. ',
@@ -69,8 +56,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not.',
   validation:
     'Validation is the process of checking whether a system or its component(s) satisfies the specified requirements or not and checks the data is correct or not.',
-  
-    //languages
+
+  //languages
   'c programming':
     'C is a general-purpose programming language that was developed in the early 1970s by Dennis Ritchie at Bell Labs. C is widely used for developing system software, embedded systems, and application software.',
   cpp: "C++ is a versatile and powerful programming language that builds upon the features of C, offering object-oriented programming capabilities and support for low-level memory manipulation. It's widely used for developing system software, games, high-performance applications, and more.",
@@ -91,7 +78,28 @@ const categoryDescriptions: CategoryDescriptions = {
   typescript:
     ' TypeScript is a statically typed language that supports object-oriented and functional programming styles, used for developing web applications, mobile applications, and desktop applications.',
 
-  // ml & ai
+  // Open-source
+  openSourceBlogs:
+    'There are many open source blogging platforms available for developers. Some of the most popular ones include WordPress, Joomla, and Drupal1. Other open source blogging platforms include Ghost, Serendipity, SilverStripe, and Jekyll',
+  openSourceProjects:
+    'Anyone can contribute to the projects are called OpenSource Projects. There are many open source projects available for developers. Some of the most popular ones include Linux, Git, and Apache1. Other open source projects include Kubernetes, TensorFlow, and React Native',
+  openSourceTools:
+    'There are various open source tools available for developers. Some of the most popular ones include Hadoop, VLC Media Player, and GIMP1. Other open source tools include TensorFlow, Eclipse Che, and OpenShift Do.',
+
+  //devops
+  cicd: 'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
+  devopsLifecycle:
+    'DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
+  devopsMethodologies:
+    'DevOps methodologies are a set of practices that combine software development and information technology operations to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
+  docker:
+    'Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers. These are isolated from one another and bundle their own software, libraries, and configuration files; they can also communicate with each other through well-defined channels.',
+  kubernetes:
+    'Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.',
+  microservices:
+    'Microservices are a software development technique—a variant of the service-oriented architecture (SOA) architectural style that structures an application as a collection of loosely coupled services.',
+
+  // AI
   'data science':
     'Data science is an interdisciplinary field that involves the use of statistical, mathematical, and computational methods to extract insights and knowledge from data. Data science is widely used for machine learning, data analysis, and data visualization.',
   'deep learning':
@@ -108,14 +116,6 @@ const categoryDescriptions: CategoryDescriptions = {
     'Malware analysis is the study of the unique features, objectives, sources, and potential effects of harmful software and code, such as spyware, viruses, malvertising, and ransomware.',
   'web security':
     'Web application penetration testing is the practice of simulating attacks on a system in an attempt to gain access to sensitive data, with the purpose of determining whether a system is secure.',
-
-  // Open-source
-  openSourceBlogs:
-    'There are many open source blogging platforms available for developers. Some of the most popular ones include WordPress, Joomla, and Drupal1. Other open source blogging platforms include Ghost, Serendipity, SilverStripe, and Jekyll',
-  openSourceProjects:
-    'Anyone can contribute to the projects are called OpenSource Projects. There are many open source projects available for developers. Some of the most popular ones include Linux, Git, and Apache1. Other open source projects include Kubernetes, TensorFlow, and React Native',
-  openSourceTools:
-    'There are various open source tools available for developers. Some of the most popular ones include Hadoop, VLC Media Player, and GIMP1. Other open source tools include TensorFlow, Eclipse Che, and OpenShift Do.',
 
   //resources
   blogs:
@@ -165,7 +165,7 @@ const categoryDescriptions: CategoryDescriptions = {
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
   contributors:
     'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
-    
+
   //technical-writing
   'technical writing tools':
     'This list provides the tools to suit your tech writing needs.',
