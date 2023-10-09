@@ -12,7 +12,11 @@ export const SocialMediaIconsList: FC<{
   const { className, showGithubButtons } = props
 
   return (
-    <ul className={`flex ${props.sidebar ? "flex-col" : ""} flex-wrap gap-3 justify-center ${className}`}>
+    <ul
+      className={`flex ${
+        props.sidebar ? 'flex-col' : ''
+      } flex-wrap gap-3 justify-center ${className}`}
+    >
       {!showGithubButtons && (
         <>
           <li className="pt-6 hidden md:block">

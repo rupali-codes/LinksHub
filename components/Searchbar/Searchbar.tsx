@@ -14,7 +14,7 @@ interface SearchbarProps {
   searchQuery: string
   showSuggestions: boolean
   searchQueryIsValid: boolean
-  inputRef : Ref<HTMLInputElement>
+  inputRef: Ref<HTMLInputElement>
 }
 
 const searchOptions = subcategoryArray
@@ -36,11 +36,15 @@ export const Searchbar: React.FC<SearchbarProps> = ({
       type: 'search_query_change',
       searchQuery: e.target.value,
     })
-    
-    if(!e.target.value && router.asPath!="/" && router.asPath.substring(1,7)=="search" ){
-      searchQuery=""
-      
-      router.push("/")
+
+    if (
+      !e.target.value &&
+      router.asPath != '/' &&
+      router.asPath.substring(1, 7) == 'search'
+    ) {
+      searchQuery = ''
+
+      router.push('/')
     }
   }
 
@@ -90,7 +94,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
             Quick search
           </label>
           <input
-          ref={inputRef}
+            ref={inputRef}
             type="text"
             id="simple-search"
             name="simple-search"

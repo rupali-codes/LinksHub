@@ -4,7 +4,6 @@ export interface SearchbarState {
   searchQueryIsValid: boolean
   showSuggestions: boolean
 }
-
 export interface SearchbarAction extends Partial<SearchbarState> {
   type: string
 }
@@ -45,12 +44,11 @@ export const searchbarReducer: (
       }
     }
     case 'submit': {
-      const searchQueryIsValid = (state.searchQuery).trim() !== ''
-
+      const searchQueryIsValid = state.searchQuery.trim() !== ''
       return {
         searchQuery: state.searchQuery,
         categoryQuery: searchQueryIsValid
-          ? (state.searchQuery)
+          ? state.searchQuery
           : state.categoryQuery,
         showSuggestions: false,
         searchQueryIsValid,
