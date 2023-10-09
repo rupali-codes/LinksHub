@@ -12,5 +12,12 @@
     "url": "https://www.youtube.com/watch?v=8jLOx1hD3_o",
     "category": "languages",
     "subcategory": "cpp"
+  },
+  {
+    "name": "Complete C++ and Data Structures and Algorithms tutorial",
+    "description": "This YouTube tutorial offers a beginner-friendly guide to learning C++, including all the data structures and algorithms required for placements.",
+    "url": "https://www.youtube.com/watch?v=WQoB2z67hvY&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA",
+    "category": "languages",
+    "subcategory": "cpp"
   }
 ]

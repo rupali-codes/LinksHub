@@ -12,5 +12,19 @@
     "url": "https://gohugo.io/",
     "category": "technical-writing",
     "subcategory": "technical-writing-tools"
+  },
+  {
+    "name": "Grammarly",
+    "description": "Grammarly is a popular grammar and spell-checking tool that also provides suggestions for improving writing clarity and style. It can be used as a browser extension or standalone application.",
+    "url": "https://www.grammarly.com/",
+    "category": "technical-writing",
+    "subcategory": "technical-writing-tools"
+  },
+  {
+    "name": "Hemingway Editor",
+    "description": "Hemingway Editor is a writing tool that focuses on improving the readability of your text. It highlights complex sentences, excessive adverbs, and passive voice to help you create clear and concise content.",
+    "url": "https://hemingwayapp.com/",
+    "category": "technical-writing",
+    "subcategory": "technical-writing-tools"
   }
 ]

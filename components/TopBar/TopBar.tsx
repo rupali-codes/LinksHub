@@ -53,9 +53,8 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
       description,
     }
     setCurrentCategory(categoryInfo)
-    
   }
-  
+
   const removeCurrentCard: () => void = () => {
     setCurrentCategory(null)
   }

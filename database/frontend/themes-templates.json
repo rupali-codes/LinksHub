@@ -47,5 +47,12 @@
     "url": "https://create.vista.com/",
     "category": "frontend",
     "subcategory": "themes-templates"
+  },
+  {
+    "name": "FreeFrontend",
+    "description": "It is a free and open-source collection of high-quality, responsive, and accessible front-end components and templates. It is a great resource for designers and developers who want to create beautiful and user-friendly websites and applications.",
+    "url": "https://freefrontend.com/",
+    "category": "frontend",
+    "subcategory": "themes-templates"
   }
 ]

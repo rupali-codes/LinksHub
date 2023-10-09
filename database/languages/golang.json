@@ -3,21 +3,18 @@
     "name": "TutorialsTeacher",
     "description": "This site teaches fundamentals of the Go programming language in a simplified way",
     "url": "https://www.tutorialsteacher.com/go/",
-    "category": "Languages",
+    "category": "languages",
     "subcategory": "golang"
   },
   {
     "name": "Hitesh Choudhary",
     "description": "This playlist contains all the concepts of Golang along with two mini projects",
     "url": "https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa",
-    "category": "Languages",
+    "category": "languages",
     "subcategory": "golang"
   },
   {
     "name": "Practical Go Lessons",
-    "description": "Practical GO lessons is a site to learn GOlang for beginners through docs and videos.",
-    "url": "https://www.practical-go-lessons.com/",
-    "category": "Languages",
     "description": "This site provides beginners-level GOlang lessons through docs and videos.",
     "url": "https://www.practical-go-lessons.com/",
     "category": "languages",
@@ -32,7 +29,7 @@
   }
   ,
   {
-    "name": "Go Programming – Golang Course with Bonus Projects",
+    "name": "Go Programming Golang Course with Bonus Projects",
     "description": "In this beginner-level Golang course, you'll practice writing performant, idiomatic Go with these hands-on lessons and challenges.",
     "url": "https://www.youtube.com/watch?v=un6ZyFkqFKo",
     "category": "languages",
