@@ -29,8 +29,8 @@
   },
   {
     "name": "TypeScript Tutorial for Beginners",
-    "description": "This is a great resource to learn Typescript for beginners",
-    "url": "https://www.youtube.com/watch?v=j89BvWz8Eag&list=PLRAV69dS1uWRPSfKzwZsIm-Axxq-LxqhW",
+    "description": "This is a comprehensive tutorial series to learn Typescript for beginners.",
+    "url": "https://www.youtube.com/playlist?list=PLRAV69dS1uWRPSfKzwZsIm-Axxq-LxqhW",
     "category": "languages",
     "subcategory": "typescript"
   }
