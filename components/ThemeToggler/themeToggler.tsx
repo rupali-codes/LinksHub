@@ -1,22 +1,22 @@
-import { useState, useEffect } from 'react';
-import { useTheme } from 'next-themes';
-import { HiSun, HiMoon } from 'react-icons/hi';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { useState, useEffect } from 'react'
+import { useTheme } from 'next-themes'
+import { HiSun, HiMoon } from 'react-icons/hi'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 export function ThemeToggler() {
-  const { resolvedTheme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  const { resolvedTheme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
+    setMounted(true)
+  }, [])
 
   if (!mounted) {
-    return null;
+    return null
   }
 
   const handleThemeToggle = () => {
-    setTheme(resolvedTheme === 'dark' ? 'light' : 'dark');
+    setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
   }
 
   const iconProps = {
@@ -24,7 +24,7 @@ export function ThemeToggler() {
     size: '1.5rem',
   }
 
-  const themeColor = resolvedTheme === 'dark' ? '#0F172A' : '#F5F3FF';
+  const themeColor = resolvedTheme === 'dark' ? '#0F172A' : '#F5F3FF'
 
   return (
     <HelmetProvider>
@@ -55,5 +55,5 @@ export function ThemeToggler() {
         )}
       </button>
     </HelmetProvider>
-  );
+  )
 }
