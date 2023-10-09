@@ -68,4 +68,3 @@ export const Card: FC<CardProps> = ({ data }) => {
     </article>
   )
 }
-
