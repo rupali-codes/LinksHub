@@ -17,7 +17,6 @@ const useOnClickOutside = (
         !ref.current.classList.contains('copy-to-clipboard-button') &&
         !ref.current.contains(event.target as Node)
       ) {
-        console.log('clicked-outside')
         handler()
       }
     }
