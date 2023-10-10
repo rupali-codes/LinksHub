@@ -197,7 +197,7 @@
   },
   {
     "name": "Realtime Colors",
-    "description": " It is a web-based tool that allows you to visualize and test color palettes for your websites and applications. It provides a variety of features, such as live previews, color contrast checking, and code export. RealtimeColors is a great tool for designers and developers who want to create beautiful and user-friendly websites and applications.",
+    "description": " RealtimeColors is a web-based tool that allows you to visualize and test color palettes for your websites and applications. It also provides a variety of features, such as live previews, color contrast checking, and code export.",
     "url": "https://www.realtimecolors.com/",
     "category": "frontend",
     "subcategory": "colors"
