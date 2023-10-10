@@ -1,7 +1,7 @@
 [
     {
         "name": "Applied Natural Language Processing",
-        "description": "This course starts with the basics of text processing including basic pre-processing, spelling correction, language modeling, Part-of-Speech tagging, Constituency and Dependency Parsing, Lexical Semantics, distributional Semantics and topic models.",
+        "description": "This course teaches  the basics of text processing including basic pre-processing, spelling correction, language modeling, Part-of-Speech tagging, Constituency and Dependency Parsing, Lexical Semantics, distributional Semantics and topic models.",
         "url": "https://archive.nptel.ac.in/courses/106/106/106106211/",
         "category": "ai",
         "subcategory": "natural-language-processing"
