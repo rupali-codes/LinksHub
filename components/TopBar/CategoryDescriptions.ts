@@ -166,10 +166,19 @@ const categoryDescriptions: CategoryDescriptions = {
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
   contributors:
     'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
-
+  
+  // Placement-Prep
+  'interview preparation' : 'Diverse resources for developers to enhance interview skills, including articles, videos, and mock interview platforms.',
+  'job portals' : 'Explore top job portals, their features, and expert tips for efficient job searching and connecting with employers.',
+  'resume building' : 'Providing resources to help developers create compelling resumes that showcase their skills and experience.',
+  'portfolio building' : 'Offer templates and examples to assist developers in building impressive portfolios that highlight their work and accomplishments.',
+  'career guidance' : 'Explore resources, articles, and guidance for career planning, goal setting, and professional growth in the tech industry.',
+   certifications : 'Curated list of globally recognized tech certifications, including requirements, benefits, and preparation strategies, emphasizing industry recognition and validity.',
+  
   //technical-writing
   'technical writing tools':
     'This list provides the tools to suit your tech writing needs.',
+
 }
 
 export default categoryDescriptions
