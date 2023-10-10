@@ -29,8 +29,6 @@ export const SideNavbarCategoryList: FC<{
 
   return (
     <ul className="mt-2 flex flex-col justify-center px-4 pb-24">
-      {/* Reset the open/close states of categories. This makes sure that
-      changes to the toggle state don't reflect when a new query is submitted */}
       <React.Fragment key={query}>
         {categoriesList.map((categoryData) => (
           <SideNavbarCategory

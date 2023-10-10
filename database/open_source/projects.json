@@ -145,5 +145,13 @@
     "url": "https://github.com/RocketChat/Rocket.Chat",
     "category": "open-source",
     "subcategory": "projects"
+  },
+  {
+    "name": "The Tor Project",
+    "description": "The Tor Project is primarily responsible for maintaining software for the Tor anonymity network.",
+    "url": "https://github.com/TheTorProject",
+    "category": "open-source",
+    "subcategory": "projects"
   }
 ]
+

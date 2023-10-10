@@ -1,10 +1,9 @@
 import { IDBData, IData, ISidebar } from '../types'
 import * as DB from 'database'
 import { v4 as uuidv4 } from 'uuid'
-
 export const database: IData[][] = Object.values(DB).map((item: IDBData[]) =>
-  item.map((subcat) => ({ ...subcat, id: uuidv4() }))
-)
+  item.map((subcat: IDBData) => ({ ...subcat, id: uuidv4() }))
+);
 
 export const sidebarData: ISidebar[] = [
   {
@@ -63,6 +62,11 @@ export const sidebarData: ISidebar[] = [
         name: 'authentication',
         url: '/authentication',
         resources: DB.authentication,
+      },
+      {
+        name: 'email providers',
+        url: '/email-providers',
+        resources: DB.emailProviders,
       },
       { name: 'caching', url: '/caching', resources: DB.caching },
       { name: 'testing', url: '/testing', resources: DB.testing },
@@ -174,6 +178,32 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'cyber-security',
+    subcategory: [
+      {
+        name: 'Offensive security',
+        url: '/offensive-security',
+        resources: DB.offensive_security,
+      },
+      {
+        name: 'Defensive Security',
+        url: '/defensive-security',
+        resources: DB.defensive_security,
+      },
+      {
+        name: 'Malware Analysis',
+        url: '/malware-analysis',
+        resources: DB.malware_analysis,
+      },
+      {
+        name: 'Web Security',
+        url: '/web-security',
+        resources: DB.web_security,
+      },
+    ],
+  },
+ 
+  {
     category: 'cloud-computing',
     subcategory: [
       { name: 'google cloud', url: '/gcp', resources: DB.gcp },
@@ -257,6 +287,37 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'Platforms', url: '/cp-platforms', resources: DB.cpPlatforms },
       { name: 'Tutorials', url: '/cp-tutorials', resources: DB.cpTutorials },
+    ],
+  },
+  {
+    category: 'Placement-Prep',
+    subcategory: [
+      {
+        name: 'Interview Preparation',
+        url: '/interview-preparation',
+        resources: DB.interviewPreparation,
+      },
+      {
+        name: 'Job Portals',
+        url: '/job-portals',
+        resources: DB.jobPortals,
+      },
+      {
+        name: 'Resume Building',
+        url: '/resume-building',
+        resources: DB.resumeBuilding,
+      },
+      {
+        name: 'Portfolio Building',
+        url: '/portfolio-building',
+        resources: DB.portfolioBuilding,
+      },
+      { name: 'Career Guidance', url: '/career-guidance', resources: DB.careerGuidance },
+      {
+        name: 'Certifications',
+        url: '/certifications',
+        resources: DB.certifications,
+      },
     ],
   },
   {

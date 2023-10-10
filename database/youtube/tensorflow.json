@@ -38,5 +38,13 @@
     "category": "youtube",
     "subcategory": "tensorflow",
     "language": "english"
+  },
+  {
+    "name": "Nicholas Renotte",
+    "description": "Nicholas Renotte, a renowned AI educator and developer, shares his expertise through a wide range of content.",
+    "url": "https://www.youtube.com/@NicholasRenotte",
+    "category": "youtube",
+    "subcategory": "tensorflow",
+    "language": "english"
   }
 ]

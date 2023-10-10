@@ -6,6 +6,13 @@ filters:
     events: [pull_request]
     targets: [title]
 
+  - label: 'priority: high'
+    regexs:
+      - /\bfeat\b/
+      - /feature/i
+    events: [pull_request]
+    targets: [title]
+
   - label: 'documentation'
     regexs:
       - /docs/i
@@ -22,6 +29,16 @@ filters:
       - /fix/i
     events: [pull_request]
     targets: [title]
+  - label: 'priority: medium'
+    regexs:
+      - /bug/i
+    events: [pull_request]
+    targets: [title]
+  - label: 'priority: medium'
+    regexs:
+      - /fix/i
+    events: [pull_request]
+    targets: [title]
 
   - label: 'chore'
     regexs:
@@ -29,6 +46,11 @@ filters:
     events: [pull_request]
     targets: [title]
   - label: 'goal: new-category'
+    regexs:
+      - /category/i
+    events: [pull_request]
+    targets: [title]
+  - label: 'priority: low'
     regexs:
       - /category/i
     events: [pull_request]
@@ -46,14 +68,30 @@ filters:
       - /link/i
     events: [pull_request]
     targets: [title]
+  - label: 'priority: low'
+    regexs:
+      - /\blink\b/
+      - /link/i
+    events: [pull_request]
+    targets: [title]
 
   - label: 'chore'
     regexs:
       - /description/i
     events: [pull_request]
     targets: [title]
+  - label: 'priority: low'
+    regexs:
+      - /description/i
+    events: [pull_request]
+    targets: [title]
 
   - label: 'chore'
+    regexs:
+      - /chore/i
+    events: [pull_request]
+    targets: [title]
+  - label: 'priority: low'
     regexs:
       - /chore/i
     events: [pull_request]
@@ -71,6 +109,12 @@ filters:
       - /refactor/i
     events: [pull_request]
     targets: [title]
+  - label: 'priority: medium'
+    regexs:
+      - /\brefactor\b/
+      - /refactor/i
+    events: [pull_request]
+    targets: [title]
 
   - label: 'accessibility'
     regexs:
@@ -78,3 +122,9 @@ filters:
       - /accessibility/i
     events: [issues, pull_request] # default
     targets: [title, comment] # default
+  - label: 'priority: medium'
+    regexs:
+      - /\baccessibility\b/
+      - /accessibility/i
+    events: [issues, pull_request] # default
+    targets: [title, comment]

@@ -4,25 +4,25 @@
 
 ## Files
 
-README.md @CBID2 @ujjawaltyagii @rupali-codes
-.gitignore @CBID2 @ujjawaltyagii @rupali-codes
-LICENSE @rupali-codes @CBID2 @ujjawaltyagii 
-.github/workflows/ @rupali-codes @CBID2 @ujjawaltyagii 
-app/ @rupali-codes  @ujjawaltyagii 
-components/ @ujjawaltyagii @CBID2 @rupali-codes
-lib/ @CBID2 @rupali-codes @ujjawaltyagii 
-tests/ @rupali-codes @CBID2 @ujjawaltyagii 
+README.md @CBID2 @Anmol-Baranwal @rupali-codes
+.gitignore @CBID2 @Anmol-Baranwal @rupali-codes
+LICENSE @rupali-codes @CBID2 @Anmol-Baranwal
+.github/workflows/ @rupali-codes @CBID2 @Anmol-Baranwal
+app/ @rupali-codes  @Anmol-Baranwal
+components/ @Anmol-Baranwal @CBID2 @rupali-codes
+lib/ @CBID2 @rupali-codes @Anmol-Baranwal
+tests/ @rupali-codes @CBID2 @Anmol-Baranwal
 
 ## Directories
-.github/ @rupali-codes @CBID2 @ujjawaltyagii 
-node_modules/ @rupali-codes @ujjawaltyagii 
-public/ @CBID2 @rupali-codes @ujjawaltyagii 
-.env/ @rupali-codes @ujjawaltyagii @CBID2
+.github/ @rupali-codes @CBID2 @Anmol-Baranwal
+node_modules/ @rupali-codes @Anmol-Baranwal 
+public/ @CBID2 @rupali-codes @Anmol-Baranwal 
+.env/ @rupali-codes @Anmol-Baranwal @CBID2
 
 ## Special cases
-# Any changes to the CODEOWNERS file must be approved by @rupali-codes @ujjawaltyagii @CBID2.
-# Any changes to the .gitattributes file must be approved by @rupali-codes @CBID2 @ujjawaltyagii.
-# Any changes to the .gitignore file must be approved by @CBID2 @ujjawaltyagii @rupali-codes.
+# Any changes to the CODEOWNERS file must be approved by @rupali-codes @Anmol-Baranwal @CBID2.
+# Any changes to the .gitattributes file must be approved by @rupali-codes @CBID2 @Anmol-Baranwal.
+# Any changes to the .gitignore file must be approved by @CBID2 @Anmol-Baranwal  @rupali-codes.
 
 ## Contact information
-# If you have any questions about the CODEOWNERS file, please contact @rupali-codes @ujjawaltyagii @CBID2.
+# If you have any questions about the CODEOWNERS file, please contact @rupali-codes @Anmol-Baranwal @CBID2.
