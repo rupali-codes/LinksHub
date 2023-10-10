@@ -14,7 +14,7 @@
         "subcategory":"docker"
     },
     {
-        "name":"Docker",
+        "name":"Docker Documentation",
         "description":"Docker is a popular platform for developing, shipping, and running applications in containers. The official Docker documentation serves as a comprehensive resource for users, offering detailed information, guidance, and best practices for effectively using Docker and its related tools.",
         "url":"https://docs.docker.com/",
         "category":"devops",
