@@ -37,7 +37,7 @@
     "react-tooltip": "^5.20.0",
     "react-transition-state": "^2.1.0",
     "typescript": "5.0.3",
-    "typewriter-effect": "^2.19.0",
+    "typewriter-effect": "^2.21.0",
     "uuid": "9.0.0"
   },
   "devDependencies": {
