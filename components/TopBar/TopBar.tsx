@@ -22,7 +22,7 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
     .replaceAll(regEx, ' ')
     .replaceAll('search query ', '')
 
-  const description = categoryDescriptions[subcategoryName] || ''
+  const description = categoryDescriptions[searchQuery || subcategoryName] || ''
   const isResourceSelected = isValidResource(searchQuery || subcategoryName)
 
   if (router.pathname.length === 1) return null
