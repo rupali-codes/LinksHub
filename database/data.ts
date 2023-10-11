@@ -176,7 +176,7 @@ export const sidebarData: ISidebar[] = [
         resources: DB.deepLearning,
       },
       {
-        name: 'natural-language-processing',
+        name: 'NLP',
         url: '/natural-language-processing',
         resources: DB.nlp,
       },
