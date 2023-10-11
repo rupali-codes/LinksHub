@@ -235,7 +235,8 @@ export const sidebarData: ISidebar[] = [
       },
       { name: 'hosting', url: '/hosting', resources: DB.hosting },
       { name: 'e-book', url: '/e-book', resources: DB.ebook },
-      { name: 'project ideas', url: '/project-ideas', resources: DB.project },
+      { name: 'dsa', url: '/dsa', resources: DB.dsa },
+      { name: 'project ideas', url: '/project-ideas', resources: DB.project }
     ],
   },
   {

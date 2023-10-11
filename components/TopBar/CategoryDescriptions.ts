@@ -125,6 +125,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'An ebook (short for electronic book) is a book publication made available in digital form, consisting of text, images, or both readable on the flat-panel display of computers or other electronic devices.',
   hosting:
     'Web hosting is an online service that makes the content of your website accessible on the internet. When you purchase a hosting plan, you are renting space on a physical server to store all the files and data.',
+  dsa:
+    'Data Structures and Algorithms play an important role in tech placements. So here is a list of important and great dsa resources',
   officialdocs:
     'Official docs is short for official documentation. Official documentation is an important resource for users of software products and services as it provides a comprehensive guide to using the software.',
   'project ideas':
