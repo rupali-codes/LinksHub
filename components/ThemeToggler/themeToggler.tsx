@@ -40,7 +40,7 @@ export function ThemeToggler() {
       </Helmet>
       <button
         onClick={handleThemeToggle}
-        title={`Toggle dark mode (current state: ${resolvedTheme})`}
+        title={`Theme ${resolvedTheme}`}
       >
         {resolvedTheme === 'dark' ? (
           <HiSun

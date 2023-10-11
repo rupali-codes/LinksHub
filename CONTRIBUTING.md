@@ -118,7 +118,7 @@ Follow these steps to setup LinksHub on your local machine
 
   > For example, create a folder named `Resources`
 
-- If you want to add a new subcategory, add it in [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) under the correct category, and provide the appropriate `URL`. You can refer to the examples in the file.
+- If you want to add a new `subcategory`, add it in [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) under the correct category, and provide the appropriate `URL`. You can refer to the examples in the file.
 
 - Make sure to export the newly created JSON file in the index file.
 
@@ -129,10 +129,6 @@ Follow these steps to setup LinksHub on your local machine
     - If you are adding a category, include the name of the category used in `database/data.ts` in the `Category` type.
 
       > For example, if you are adding a category called `open source`, add it to the `export type` statement in the appropriate style.
-
-    - If you are adding a subcategory, include the name of the JSON file used for the subcategory in the `SubCategory` type.
-
-      > For example, if you are adding a subcategory using the file `online-code-editors.json`, add `online-code-editors` to the `export type` statement in the appropriate style.
 
   - If you are adding a subcategory, go to `components/TopBar/CategoryDescriptions.ts` and add the subcategory name used when exporting the name in `database/index.ts`, along with a concise description in the correct format.
 

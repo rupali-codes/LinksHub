@@ -1,5 +1,6 @@
 <article align="center">
-<img src="https://user-images.githubusercontent.com/78981177/232279811-a219b1b5-6383-4ace-9614-24c6b258fec0.png" alt="LinksHub Logo" />
+
+![LinksHub-Banner](https://github.com/rupali-codes/LinksHub/assets/78981177/72b6554b-0186-437e-a5af-be03f6dceda4)
 </article><hr>
 
 <a name="welcome-to-linkshub"></a>
@@ -43,7 +44,7 @@ open source program with a mission to help students from India and beyond in dev
   - [Tech stack 📚](#tech-stack-)
   - [Socials 📱](#socials-)
   - [Want to Contribute? 👩‍💻](#want-to-contribute-)
-  - [Building with Gitpod 💣](#building-with-gitpod--codespaces-)
+  - [Building with Gitpod | Codespaces 💣](#building-with-gitpod--codespaces-)
   - [Maintainers 🤝](#maintainers-)
   - [Top 50 Contributors ✨](#top-50-contributors-)
   - [License 📝](#license-)

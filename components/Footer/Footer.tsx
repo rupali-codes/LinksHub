@@ -9,7 +9,7 @@ export const Footer: FC = () => {
   return (
     <footer className="z-10 mb-4 flex w-full items-baseline justify-center rounded-lg backdrop-blur-md text-center px-2">
       <div className="text-sm leading-7 md:tracking-wide text-center text-black dark:text-theme-primary ">
-        <div>&copy; {new Date().getFullYear()} LinksHub </div>
+        <div>&copy; {new Date().getFullYear()} LinksHub | MIT License </div>
         <div className="lg:flex">
           <div className="sm: -mt-2 mr-1 md:-mt-2 lg:mt-0"> Developed by </div>
           <div className="sm: -mt-2 md:-mt-2 lg:mt-0"></div>
@@ -21,7 +21,7 @@ export const Footer: FC = () => {
           >
             <span
               className={`underline mr-1 ${
-                isDarkMode ? 'text-light-primary' : 'text-theme-secondary'
+                isDarkMode ? 'text-light' : 'text-theme-secondary'
               } `}
             >
               Rupali Haldiya
@@ -36,7 +36,7 @@ export const Footer: FC = () => {
           >
             <span
               className={`underline ml-1 ${
-                isDarkMode ? 'text-light-primary' : 'text-theme-secondary'
+                isDarkMode ? 'text-light' : 'text-theme-secondary'
               } `}
             >
               Open Source Community
