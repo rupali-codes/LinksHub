@@ -23,7 +23,7 @@ export const Card: FC<CardProps> = ({ data }) => {
   }, [])
 
   return (
-    <article className="z-10 h-full w-full rounded-3xl border border-dashed border-theme-secondary dark:border-theme-primary bg-[rgba(255,255,255,0.3)] shadow-md dark:bg-dark dark:text-text-primary dark:shadow-sm">
+    <article data-custom='restrict-click-outside' className="z-10 h-full w-full rounded-3xl border border-dashed border-theme-secondary dark:border-theme-primary bg-[rgba(255,255,255,0.3)] shadow-md dark:bg-dark dark:text-text-primary dark:shadow-sm">
       <div className="card-body">
         <header className="flex justify-between items-center gap-2">
           <h2
@@ -32,7 +32,9 @@ export const Card: FC<CardProps> = ({ data }) => {
           >
             {name}
           </h2>
-          <div className="flex items-center gap-1">
+          <div
+            className="flex items-center gap-1"
+          >
             <CopyToClipboard url={url} />
             <Share url={`${url}?ref=LinksHub`} title={name} />
           </div>
