@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const CategoryPage = () => {
   const router = useRouter()
-  const { category } = router.query as { category: string}
+  const { category } = router.query as { category: string }
 
   const subcategories: SubCategories[] = []
   sidebarData.forEach((c) => {
@@ -34,7 +34,10 @@ const CategoryPage = () => {
                 resources!
               </p>
             </div>
-            <div className="flex flex-wrap gap-3 mt-6 justify-center items-start mx-auto lg:max-w-sm max-md:max-w-sm">
+            <div
+              data-custom="restrict-click-outside"
+              className="flex flex-wrap gap-3 mt-6 justify-center items-start mx-auto lg:max-w-sm max-md:max-w-sm"
+            >
               {subcategories.map((subcat, i) => (
                 <Link
                   key={i}
@@ -47,9 +50,12 @@ const CategoryPage = () => {
             </div>
           </>
         ) : (
-          <div className='text-center'>
+          <div className="text-center">
             <p className="text-theme-secondary dark:text-gray-text w-fit mx-auto text-center">
-              <span className='md:text-7xl text-xl uppercase font-bold '>404|</span> No resources found.
+              <span className="md:text-7xl text-xl uppercase font-bold ">
+                404|
+              </span>{' '}
+              No resources found.
             </p>
           </div>
         )}
