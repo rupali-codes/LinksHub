@@ -62,5 +62,12 @@
     "url": "https://auth0.com/",
     "category": "backend",
     "subcategory": "authentication"
+  },
+  {
+    "name":"Lucia",
+    "description":"Lucia is an auth library for TypeScript that abstracts away the complexity of handling users and sessions. It works alongside your database to provide an API that's easy to use, understand, and extend.",
+    "url":"https://lucia-auth.com/",
+    "category":"backend",
+    "subcategory":"authentication"
   }
 ]
