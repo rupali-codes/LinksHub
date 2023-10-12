@@ -13,6 +13,7 @@ export { default as uiGenerators } from './frontend/ui-generators.json'
 export { default as react } from './frontend/react.json'
 export { default as next } from './frontend/next.json'
 export { default as three } from './frontend/three.json'
+export { default as uilibraries } from './frontend/ui-libraries.json'
 // backend
 export { default as authentication } from './backend/authentication.json'
 export { default as architecture } from './backend/architecture.json'

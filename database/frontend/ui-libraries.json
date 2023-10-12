@@ -1,0 +1,23 @@
+[
+    {
+        "name": "MaterialUI",
+        "url": "https://material-ui.com/",
+        "description": "React components for faster and easier web development. Build your own design system, or start with Material Design.",
+        "category": "frontend",
+        "subcategory": "ui-libraries"
+    },
+    {
+        "name": "ChakraUI",
+        "url": "https://chakra-ui.com/",
+        "description": "Simple, Modular and Accessible UI Components for your React Applications. Built with Styled System",
+        "category": "frontend",
+        "subcategory": "ui-libraries"
+    },
+    {
+        "name": "AntDesign",
+        "url": "https://ant.design/",
+        "description": "A design system with values of Nature and Determinacy for better user experience of enterprise applications",
+        "category": "frontend",
+        "subcategory": "ui-libraries"
+    }
+]
