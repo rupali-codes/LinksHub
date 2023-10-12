@@ -30,6 +30,7 @@ export { default as cicd } from './devops/cicd.json'
 export { default as devopsLifecycle } from './devops/devops-life-cycle.json'
 export { default as devopsMethodologies } from './devops/devops-methodologies.json'
 export { default as docker } from './devops/docker.json'
+export { default as jenkins } from './devops/jenkins.json'
 export { default as kubernetes } from './devops/kubernetes.json'
 export { default as microservices } from './devops/microservices.json'
 
