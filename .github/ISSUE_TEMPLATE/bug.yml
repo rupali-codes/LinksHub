@@ -1,7 +1,7 @@
 name: ​🐞 Bug
 description: Report an issue to help us improve the project.
 title: '[BUG] <write a small description here>'
-labels: ['bug', 'goal: fix']
+labels: ['bug', 'goal: fix', 'priority: medium']
 body:
   - type: textarea
     attributes:

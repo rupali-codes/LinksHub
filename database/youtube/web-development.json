@@ -334,5 +334,21 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
+  },
+  {
+    "name": "ByteGrad",
+    "description": "ByteGrad is an underrated Youtube channel which explains really complex development concepts in an easy and simple way.",
+    "url": "https://www.youtube.com/@ByteGrad",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "developedbyed",
+    "description": "This channel has a wide variety of educational videos on technologies like HTML,vanilla CSS,Javascript,Tailwind CSS,and React",
+    "url": "https://www.youtube.com/playlist?list=PLDyQo7g0_nsUjf046cCHKJ16U1SoXrElZ",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
   }
 ]

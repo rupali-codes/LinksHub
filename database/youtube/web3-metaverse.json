@@ -94,5 +94,21 @@
     "category": "youtube",
     "subcategory": "web3-metaverse",
     "language": "english"
+  },
+  {
+    "name": "Dapp Mentors",
+    "description": "This is a really underrated channel which offers a wide range of tutorials on Web3 and Blockchain.",
+    "url": "https://www.youtube.com/@dappmentors",
+    "category": "youtube",
+    "subcategory": "web3-metaverse",
+    "language": "english"
+  },
+  {
+    "name": "JavaScript Mastery",
+    "description": "This site provides high quality projects on Web3 and Blockchain. Its a great source for anyone interested in learning these topics.",
+    "url": "https://www.youtube.com/playlist?list=PL6QREj8te1P5k_kIM2-8E4VP9Sej0Yez3",
+    "category": "youtube",
+    "subcategory": "web3-metaverse",
+    "language": "english"
   }
 ]

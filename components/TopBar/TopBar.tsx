@@ -49,7 +49,7 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
   const handleCardClick: () => void = () => {
     const description = categoryDescriptions[subcategoryName] || ''
     const categoryInfo = {
-      name: categoryName,
+      name: subcategoryName,
       description,
     }
     setCurrentCategory(categoryInfo)

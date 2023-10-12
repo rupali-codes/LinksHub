@@ -13,9 +13,9 @@ const useFilterDB = (subcategory: string) => {
   }
 
   // This filters trough the DB with the subcategory which results in an array of arrays
-  const filterSubCat = database?.map((item) =>
-    item?.filter((cat: IData) => cat.subcategory === subcategory)
-  )
+  const filterSubCat = database?.map((item) =>{
+    return item?.filter((cat: IData) => cat.subcategory === subcategory)
+})
 
 
 

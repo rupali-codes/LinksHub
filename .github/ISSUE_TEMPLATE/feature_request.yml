@@ -1,7 +1,7 @@
 name: Feature Request 💡
 description: Have any new idea or new feature for LinksHub? Please suggest!
 title: '[Feature] <write a small description here>'
-labels: ['enhancement', 'goal: addition']
+labels: ['enhancement', 'goal: addition', 'priority: high']
 body:
   - type: textarea
     id: description

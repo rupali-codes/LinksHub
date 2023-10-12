@@ -54,5 +54,12 @@
     "url": "https://vexpert.vmware.com/",
     "category": "other",
     "subcategory": "communities"
+  },
+  {
+    "name": "Women Who Code",
+    "description": "Women Who Code is a global non-profit organization dedicated to providing women and non-binary individuals from diverse backgrounds with the necessary tools and skills to thrive in the tech industry.",
+    "url": "https://www.womenwhocode.com/communities/",
+    "category": "other",
+    "subcategory": "communities"
   }
 ]

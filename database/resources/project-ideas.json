@@ -89,5 +89,19 @@
     "url": "https://www.interviewbit.com/blog/c-sharp-projects/",
     "category": "resources",
     "subcategory": "project-ideas"
+  },
+  {
+    "name": "Flask Projects",
+    "description": "This website provides free beginner to advanced level flask projects with source code.",
+    "url": "https://www.geeksforgeeks.org/flask-projects/",
+    "category": "resources",
+    "subcategory": "project-ideas"
+  },
+  {
+    "name": "Cyber Security Projects",
+    "description": "This website provides free ten beginner to advanced level Cyber Security projects with source code.",
+    "url": "https://www.interviewbit.com/blog/cyber-security-projects/",
+    "category": "resources",
+    "subcategory": "project-ideas"
   }
 ]

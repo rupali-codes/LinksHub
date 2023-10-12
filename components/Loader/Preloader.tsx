@@ -20,7 +20,9 @@ export const Preloader = ({
       setShowLoader(false)
     }, LOADER_TIMEOUT)
 
-    return () => {clearTimeout(timerId)}
+    return () => {
+      clearTimeout(timerId)
+    }
   }, [])
 
   return (

@@ -40,6 +40,7 @@ export type Category =
   | 'languages'
   | 'ai'
   | 'internet-of-things'
+  | 'cyber-security'
   | 'cloud-computing'
   | 'open-source'
   | 'resources'
@@ -48,6 +49,7 @@ export type Category =
   | 'devops'
   | 'competitive-programming'
   | 'technical-writing'
+  | 'Placement-Prep'
 
 export type SubCategories = {
   name: string

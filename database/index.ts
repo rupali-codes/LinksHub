@@ -23,6 +23,7 @@ export { default as validation } from './backend/validation.json'
 export { default as systemDesign } from './backend/system-design.json'
 export { default as database } from './backend/database.json'
 export { default as api } from './backend/api.json'
+export { default as emailProviders } from './backend/email-providers.json'
 
 //devops
 export { default as cicd } from './devops/cicd.json'
@@ -54,6 +55,11 @@ export { default as aws } from './cloud_computing_platforms/aws.json'
 export { default as azure } from './cloud_computing_platforms/azure.json'
 export { default as oracle } from './cloud_computing_platforms/oracle.json'
 export { default as ibm } from './cloud_computing_platforms/ibm.json'
+//cyber_security
+export { default as offensive_security } from './cybersecurity/offensive_security.json'
+export { default as defensive_security } from './cybersecurity/defensive_security.json'
+export { default as malware_analysis } from './cybersecurity/malware_analysis.json'
+export { default as web_security } from './cybersecurity/web_application_security.json'
 //artificial intelligence
 export { default as artificialIntelligence } from './artificial_intelligence/artificial-intelligence.json'
 export { default as ml } from './artificial_intelligence/machine-learning.json'
@@ -95,3 +101,10 @@ export { default as cpPlatforms } from './competitive_programming/cp-platforms.j
 export { default as cpTutorials } from './competitive_programming/cp-tutorials.json'
 // technical-writing
 export { default as technicalWritingTools } from './technical-writing/tools.json'
+// Placement-Preparation
+export { default as interviewPreparation } from './placement_prep/interview-preparation.json'
+export { default as jobPortals } from './placement_prep/job-portals.json'
+export { default as resumeBuilding } from './placement_prep/resume-building.json'
+export { default as portfolioBuilding } from './placement_prep/portfolio-building.json'
+export { default as careerGuidance } from './placement_prep/career-guidance.json'
+export { default as certifications } from './placement_prep/certifications.json'

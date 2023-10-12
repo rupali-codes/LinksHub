@@ -74,8 +74,8 @@ dependencies:
     specifier: 5.0.3
     version: 5.0.3
   typewriter-effect:
-    specifier: ^2.19.0
-    version: 2.19.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.21.0
+    version: 2.21.0(react-dom@18.2.0)(react@18.2.0)
   uuid:
     specifier: 9.0.0
     version: 9.0.0
@@ -2666,8 +2666,8 @@ packages:
     engines: {node: '>=12.20'}
     hasBin: true
 
-  /typewriter-effect@2.19.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-rhUX1ukmAXNFWUnMFx8CDU1uLWJQ7pRYzDU7WfHJRq43i6SmWSP9vFiUsOGfXINodUAgZiJ5xnzwLciHxZDGDg==}
+  /typewriter-effect@2.21.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Y3VL1fuJpUBj0gS4OTXBLzy1gnYTYaBuVuuO99tGNyTkkub5CXi+b/hsV7Og9fp6HlhogOwWJwgq7iXI5sQlEg==}
     peerDependencies:
       react: ^17.x || ^18.x
       react-dom: ^17.x || ^18.x
