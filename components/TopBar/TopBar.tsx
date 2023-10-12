@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import { useRouter } from 'next/router'
+import { useTheme } from 'next-themes'
 import { FaSlackHash, FaInfoCircle } from 'react-icons/fa'
 import categoryDescriptions from './CategoryDescriptions'
 import { Tooltip } from 'react-tooltip'
@@ -11,6 +12,7 @@ interface TopBarProps {
 
 export const TopBar: FC<TopBarProps> = ({ className }) => {
   const router = useRouter()
+  const { theme } = useTheme()
 
   const category = router.asPath
   const categoryName = category.split('/')[1].split('-').join(' ')
@@ -37,13 +39,14 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
       <button>
         <FaInfoCircle
           data-tooltip-id="info-tooltip"
-          data-tooltip-content={description}
           data-tooltip-place="bottom"
+          data-tooltip-content={description}
           className="ml-4 mt-2 text-sm cursor-pointer hover:text-theme-primary"
         />
       </button>
       <Tooltip
         id="info-tooltip"
+        opacity="1"
         style={{
           backgroundColor: '#8b5cf6',
           fontSize: '13px',
@@ -52,6 +55,10 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
           paddingTop: '2px',
           paddingBottom: '2px',
           maxWidth: '400px',
+          boxShadow:
+            theme === 'light'
+              ? '0 0 8px #bdbdbd'
+              : '0 0 0 2px rgba(189, 189, 189, 0.25)',
         }}
       />
     </div>
