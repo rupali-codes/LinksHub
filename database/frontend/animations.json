@@ -132,4 +132,11 @@
     "category": "frontend",
     "subcategory": "animations"
   }
+  {
+    "name": "Hero animation",
+    "description": "So as a flutter developer this dev tool is very useful . It had a loot of animation tool that you can use in your app building.",
+    "url": "https://pub.dev/packages/hero_animation/",
+    "category": "frontend",
+    "subcategory": "animations"
+  }
 ]
