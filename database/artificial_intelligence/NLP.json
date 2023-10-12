@@ -15,13 +15,13 @@
       },
       {
         "name": "fast.ai NLP course",
-        "description": " Fast.ai's Code-First Introduction to Natural Language Processing for beginner's.",
+        "description": " Fast.ai's Code-First Introduction to Natural Language Processing for Beginners.",
         "url": "https://www.fast.ai/posts/2019-07-08-fastai-nlp.html",
         "category": "ai",
         "subcategory": "natural-language-processing"
       },
       {
-        "name": "Free Code Camp",
+        "name": "freeCodeCamp",
         "description": "This is Freecodecamp's Natural Language Processing with spaCy & Python for beginners",
         "url": "https://youtu.be/dIUTsFT2MeQ",
         "category": "ai",
