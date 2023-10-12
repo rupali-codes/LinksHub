@@ -38,5 +38,13 @@
     "category": "competitive-programming",
     "subcategory": "cp-tutorials",
     "language": "english"
+  },
+  {
+    "name": "Neetcode",
+    "description": "This is a youtuber helps students and professional to become better in Competitive Programming and Tech Interviews.",
+    "url": "https://www.youtube.com/@NeetCode",
+    "category": "competitive-programming",
+    "subcategory": "cp-tutorials",
+    "language": "english"
   }
 ]
