@@ -28,6 +28,7 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
           <Aside />
         </nav>
         <main
+        data-custom='restrict-click-outside'
           className={clsx(
             'h-full px-4 lg:ml-[290px] lg:w-[calc(100%-290px)]',
 

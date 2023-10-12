@@ -65,6 +65,7 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
         <>
           {isSearchFound ? (
             <div
+              data-custom="restrict-click-outside"
               className={`flex items-center text-xl dark:text-gray-300 ${className}`}
             >
               <FaSlackHash className="mr-2 text-gray-600 dark:text-gray-300" />
@@ -98,6 +99,7 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
             </div>
           ) : (
             <div
+              data-custom="restrict-click-outside"
               className={`flex items-center text-xl dark:text-gray-300 ${className}`}
             >
               <FaSlackHash className="mr-2 text-gray-600 dark:text-gray-300" />
@@ -106,6 +108,7 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
               </span>
               <button>
                 <FaInfoCircle
+                  // data-custom="restrict-click-outside"
                   data-tooltip-id="info-tooltip"
                   data-tooltip-content="Description"
                   data-tooltip-place="bottom"

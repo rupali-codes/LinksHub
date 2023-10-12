@@ -44,11 +44,13 @@ export function ThemeToggler() {
       >
         {resolvedTheme === 'dark' ? (
           <HiSun
+          data-custom='restrict-click-outside'
             {...iconProps}
             className="text-light-primary hover:text-theme-primary transition duration-300 ease-in-out"
           />
         ) : (
           <HiMoon
+          data-custom='restrict-click-outside'
             {...iconProps}
             className="text-text-secondary hover:text-theme-primary transition duration-300 ease-in-out"
           />

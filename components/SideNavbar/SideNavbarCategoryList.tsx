@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from 'react'
+import React, { FC, useEffect, useRef, useState } from 'react'
 import type { SubCategories } from '../../types'
 import { sidebarData } from 'database/data'
 import { SideNavbarCategory } from './SideNavbarCategory'
@@ -10,6 +10,7 @@ export const SideNavbarCategoryList: FC<{
   const categoriesList = getFilteredCategoryList(query)
   const router = useRouter()
   const [category, setCategory] = useState<string | undefined>('')
+  const listRef = useRef<HTMLUListElement | null>(null);
 
   useEffect(() => {
     const cat: string | undefined = router.query.category as string | undefined
@@ -28,10 +29,11 @@ export const SideNavbarCategoryList: FC<{
   }
 
   return (
-    <ul className="mt-2 flex flex-col justify-center px-4 pb-24">
+    <ul ref={listRef}  className="mt-2 flex flex-col justify-center px-4 pb-24">
       <React.Fragment key={query}>
         {categoriesList.map((categoryData) => (
           <SideNavbarCategory
+            listRef = {listRef}
             key={categoryData.category}
             categoryData={categoryData}
             expand={query.length > 0 || category === categoryData.category}

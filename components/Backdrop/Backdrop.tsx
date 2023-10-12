@@ -23,7 +23,7 @@ export const Backdrop: FC<{
   }
 
   return createPortal(
-    <div
+    <div data-custom='restrict-click-outside'
       className={`fixed inset-0 z-50 h-full w-full cursor-pointer bg-black/80
          ${className}
          ${status === 'preEnter' || status === 'entering' ? '' : 'opacity-0'}

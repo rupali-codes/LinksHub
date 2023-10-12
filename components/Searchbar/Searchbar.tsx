@@ -87,7 +87,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
   }, [dispatchSearch])
 
   return (
-    <form noValidate ref={formRef} onSubmit={handleSubmit} role="search">
+    <form data-custom='restrict-click-outside' noValidate ref={formRef} onSubmit={handleSubmit} role="search">
       <div className="relative">
         <div className="flex items-center">
           <label htmlFor="simple-search" className="sr-only">
