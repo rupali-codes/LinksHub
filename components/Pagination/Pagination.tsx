@@ -13,7 +13,6 @@ export default function Pagination({
   currentPage,
   handlePageChange,
 }: PaginationProps) {
-
   return (
     <>
       {totalPages && totalPages.length > 1 && (

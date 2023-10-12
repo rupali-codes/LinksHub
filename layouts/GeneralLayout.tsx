@@ -32,7 +32,7 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
             'h-full px-4 lg:ml-[290px] lg:w-[calc(100%-290px)]',
 
             pathname != '/' &&
-              'lg:border-t lg:border-t-theme-primary lg:dark:border-t-theme-secondary transition-color ease-in-out duration-200'
+              ' transition-color ease-in-out duration-200'
           )}
           id="main"
         >

@@ -1,16 +1,24 @@
 [
     {
-        "name": "Docker",
+        "name": "Docker Tutorial",
         "description": "In this blog post, you will learn how to use Docker.",
         "url": "https://www.mygreatlearning.com/blog/docker-tutorial/",
         "category": "devops",
         "subcategory": "docker"
     },
     {
-        "name":"Docker",
+        "name":"Basics of Docker",
         "description":"In this free video series, you will learn the basics of Docker and containerization..",
         "url":"https://kodekloud.com/lessons/introduction-9/",
         "category":"devops",
         "subcategory":"docker"
+    },
+    {
+        "name":"Docker Documentation",
+        "description":"Docker is a popular platform for developing, shipping, and running applications in containers. The official Docker documentation serves as a comprehensive resource for users, offering detailed information, guidance, and best practices for effectively using Docker and its related tools.",
+        "url":"https://docs.docker.com/",
+        "category":"devops",
+        "subcategory":"docker"
     }
+
 ]
