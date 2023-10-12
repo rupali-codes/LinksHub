@@ -27,7 +27,6 @@ export const PopupInfo: React.FC<{
       <Backdrop onClick={onClose} />
       {createPortal(
         <div
-          data-custom="restrict-click-outside"
           onClick={(e) => e.stopPropagation()}
           className={`fixed left-1/2 top-1/2 z-[150] max-w-[500px] -translate-x-1/2 -translate-y-1/2 transition-all ${
             currentCard ? 'animate-scale-appearance' : 'animate-scale-hide'
