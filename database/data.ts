@@ -290,6 +290,37 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'Placement-Prep',
+    subcategory: [
+      {
+        name: 'Interview Preparation',
+        url: '/interview-preparation',
+        resources: DB.interviewPreparation,
+      },
+      {
+        name: 'Job Portals',
+        url: '/job-portals',
+        resources: DB.jobPortals,
+      },
+      {
+        name: 'Resume Building',
+        url: '/resume-building',
+        resources: DB.resumeBuilding,
+      },
+      {
+        name: 'Portfolio Building',
+        url: '/portfolio-building',
+        resources: DB.portfolioBuilding,
+      },
+      { name: 'Career Guidance', url: '/career-guidance', resources: DB.careerGuidance },
+      {
+        name: 'Certifications',
+        url: '/certifications',
+        resources: DB.certifications,
+      },
+    ],
+  },
+  {
     category: 'technical-writing',
     subcategory: [
       { name: 'Technical Writing Tools', url: '/technical-writing-tools', resources: DB.technicalWritingTools },

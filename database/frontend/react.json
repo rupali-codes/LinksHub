@@ -114,5 +114,12 @@
     "url": "https://www.theodinproject.com/",
     "category": "frontend",
     "subcategory": "react"
+  },
+  {
+    "name": "Redux Toolkit Tutorial",
+    "description": "In this beginner-level tutorial series on Redux Toolkit, we dive into the what, why, and the how.",
+    "url": "https://youtube.com/playlist?list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3&si=0J1E2PrkEUCcpEVC",
+    "category": "frontend",
+    "subcategory": "react"
   }
 ]

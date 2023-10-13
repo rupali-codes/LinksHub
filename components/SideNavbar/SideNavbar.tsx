@@ -11,7 +11,7 @@ import { IContext } from 'types'
 
 export const SideNavbar: FC = () => {
   const { sidebar, closeNav } = useContext<IContext>(GlobalContext)
-  const showElement = useDelayUnmount(sidebar, 300) 
+  const showElement = useDelayUnmount(sidebar, 300)
 
   if (!showElement) {
     return null

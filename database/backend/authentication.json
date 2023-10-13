@@ -54,5 +54,13 @@
     "url": "https://www.keycloak.org/",
     "category": "backend",
     "subcategory": "authentication"
+
+  },
+  {
+    "name": "Auth0",
+    "description": "Auth0 is a flexible, drop-in solution to add authentication and authorization services to your applications. Your team and organization can avoid the cost, time, and risk that comes with building your own solution to authenticate and authorize users.",
+    "url": "https://auth0.com/",
+    "category": "backend",
+    "subcategory": "authentication"
   }
 ]
