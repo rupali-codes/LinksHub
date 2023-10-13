@@ -108,7 +108,7 @@ const categoryDescriptions: CategoryDescriptions = {
   'machine-learning':
     'Machine learning is a subfield of artificial intelligence that uses statistical, mathematical, and computational methods to learn from data. Machine learning is widely used for data analysis, data visualization, and predictive modeling.',
   'NLP':
-    'Natural Language Processing, is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
+    'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
 
   // cyber-security
   'offensive security':
