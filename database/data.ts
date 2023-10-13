@@ -144,6 +144,7 @@ export const sidebarData: ISidebar[] = [
         resources: DB.devopsMethodologies,
       },
       { name: 'docker', url: '/docker', resources: DB.docker },
+      { name: 'jenkins', url: '/jenkins', resources: DB.jenkins },
       {
         name: 'kubernetes',
         url: '/kubernetes',
