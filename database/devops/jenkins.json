@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Learn how to automate and deploy software by building projects",
+"description": "Jenkins provides hundreds of plugins to support building, deploying, and automating any project.",
+        "url": "https://www.jenkins.io/doc/",
+        "category": "devops",
+        "subcategory": "jenkins"
+    }
+]
