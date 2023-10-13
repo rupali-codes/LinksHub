@@ -75,5 +75,13 @@
     "url": "https://www.javatpoint.com/javascript-tutorial",
     "category": "languages",
     "subcategory": "javascript"
+  },
+  {
+    "name": "Javascript Beginning To Mastery",
+    "description": "This Hindi playlist teaches you everything JavaScript from beginner to advanced.",
+    "url": "https://youtube.com/playlist?list=PLwgFb6VsUj_n15Cg_y2ULKfsOR1XiQqPx&si=UJyXUgEH0_94SpYj",
+    "category": "languages",
+    "subcategory": "javascript",
+    "language": "hindi"
   }
 ]
