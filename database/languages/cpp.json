@@ -1,20 +1,20 @@
 [
   {
     "name": "Caleb Curry",
-    "description": "This course provides a complete beginner guide to learn C++ programming language with all core concepts.",
+    "description": "A course by FreeCodeCamp that provides a complete beginner guide to learn C++ programming language with all core concepts.",
     "url": "https://www.youtube.com/watch?v=9Myk2vcK8s8&list=PL_c9BZzLwBRIwEnaRU2LC4GkqxUbD0Auc&index=2&ab_channel=CalebCurry",
     "category": "languages",
     "subcategory": "cpp"
   },
   {
-    "name": "C++ Programming Course - Beginner to Advanced",
+    "name": "A course by Caleb Curry, this course will take you from Beginner to Advanced level and will help you to understand the fundamentals of C++ in a efficient way.",
     "description": "This is a full C++ programming course from Beginner to Advanced.",
     "url": "https://www.youtube.com/watch?v=8jLOx1hD3_o",
     "category": "languages",
     "subcategory": "cpp"
   },
   {
-    "name": "Complete C++ and Data Structures and Algorithms tutorial",
+    "name": "A course by CodeHelp - by Babber, its an complete C++ and Data Structures and Algorithms tutorial",
     "description": "This YouTube tutorial offers a beginner-friendly guide to learning C++, including all the data structures and algorithms required for placements.",
     "url": "https://www.youtube.com/watch?v=WQoB2z67hvY&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA",
     "category": "languages",
