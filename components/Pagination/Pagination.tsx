@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaChevronUp, FaChevronDown } from 'react-icons/fa';
+import { useTheme } from 'next-themes';
 import clsx from 'clsx';
 
 type PaginationProps = {
@@ -13,47 +13,61 @@ export default function Pagination({
   currentPage,
   handlePageChange,
 }: PaginationProps) {
+  const { resolvedTheme } = useTheme();
+  const isDarkMode = resolvedTheme === 'dark';
+
   return (
     <>
       {totalPages && totalPages.length > 1 && (
-        <div className="fixed top-1/2 right-0  z-20 transform -translate-y-1/2 flex flex-col items-center">
-          <div className="border-[#8b5cf6] border-4 shadow-lg bg-white rounded-2xl px-2 py-2 gap-4">
-            <div className="flex items-center justify-center">
-              <button
-                className="text-black hover:text-[#8b5cf6] disabled:text-gray-400"
-                onClick={() => currentPage > 1 && handlePageChange(currentPage - 1)}
-                disabled={currentPage === 1}
-              >
-                <FaChevronUp />
-              </button>
-            </div>
+        <div
+          className={clsx(
+            'w-full z-20 flex lg:w-full items-center justify-center ',
+            'absolute bottom-2 right-0' // 
+          )}
+        >
+          <div className="flex items-center px-6 py-1 gap-4">
+            <button
+              className={clsx(
+                'flex items-center justify-center text-[#8b5cf6]',
+                isDarkMode ? 'hover:text-white' : 'hover:text-black',
+                'disabled:text-gray-400'
+              )}
+              onClick={() =>
+                currentPage > 1 && handlePageChange(currentPage - 1)
+              }
+              disabled={currentPage === 1}
+            >
+              Prev
+            </button>
             {totalPages &&
               totalPages.map((page, index) => (
                 <button
                   key={index}
                   className={clsx(
-                    'flex items-center justify-center rounded-full hover:bg-[#8b5cf6] hover:text-white px-2',
+                    'flex items-center justify-center rounded-md hover:bg-[#8b5cf6] hover:text-white px-2',
                     currentPage === page
                       ? 'bg-[#8b5cf6] text-white'
-                      : 'text-black'
+                      : isDarkMode ? 'text-light' : 'text-theme-secondary'
                   )}
                   onClick={() => handlePageChange(page)}
                 >
                   {page}
                 </button>
               ))}
-            <div className="flex items-center justify-center">
-              <button
-                className="text-black hover:text-[#8b5cf6] disabled:text-gray-400"
-                onClick={() =>
-                  currentPage < totalPages.length &&
-                  handlePageChange(currentPage + 1)
-                }
-                disabled={currentPage === totalPages.length}
-              >
-                <FaChevronDown />
-              </button>
-            </div>
+            <button
+              className={clsx(
+                'flex items-center justify-center text-[#8b5cf6]',
+                isDarkMode ? 'hover:text-white' : 'hover:text-black',
+                'disabled:text-gray-400'
+              )}
+              onClick={() =>
+                currentPage < totalPages.length &&
+                handlePageChange(currentPage + 1)
+              }
+              disabled={currentPage === totalPages.length}
+            >
+              Next
+            </button>
           </div>
         </div>
       )}
