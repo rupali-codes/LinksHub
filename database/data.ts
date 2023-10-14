@@ -175,6 +175,11 @@ export const sidebarData: ISidebar[] = [
         url: '/deep-learning',
         resources: DB.deepLearning,
       },
+      {
+        name: 'NLP',
+        url: '/natural-language-processing',
+        resources: DB.nlp,
+      },
     ],
   },
   {

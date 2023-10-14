@@ -65,6 +65,7 @@ export { default as artificialIntelligence } from './artificial_intelligence/art
 export { default as ml } from './artificial_intelligence/machine-learning.json'
 export { default as dataScience } from './artificial_intelligence/data-science.json'
 export { default as deepLearning } from './artificial_intelligence/deep-learning.json'
+export { default as nlp } from './artificial_intelligence/NLP.json'
 // Open-source
 export { default as openSourceArticles } from './open_source/articles.json'
 export { default as openSourceProjects } from './open_source/projects.json'
