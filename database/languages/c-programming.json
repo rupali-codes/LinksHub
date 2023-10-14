@@ -12,5 +12,12 @@
         "url": "https://www.freecodecamp.org/news/learn-c-programming-classic-book-dr-chuck/",
         "category": "languages",
         "subcategory": "c-programming"
+    },
+    {
+        "name": "C Language Tutorial for Beginners",
+        "description": "C Language Tutorial for Beginners (with Notes & Practice Questions)",
+        "url": "https://www.youtube.com/watch?v=irqbmMNs2Bo&t=18393s/",
+        "category": "languages",
+        "subcategory": "c-programming"
     }
 ]
