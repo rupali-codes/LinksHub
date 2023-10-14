@@ -54,5 +54,12 @@
     "url": "https://www.codechef.com/",
     "category": "competitive-programming",
     "subcategory": "cp-platforms"
+  },
+  {
+    "name": "Exercism",
+    "description": "Exercism is an online, open-source, free coding platform that offers code practice and mentorship on 67 different programming languages.",
+    "url": "https://exercism.org",
+    "category": "competitive-programming",
+    "subcategory": "cp-platforms"
   }
 ]
