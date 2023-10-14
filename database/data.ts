@@ -284,6 +284,14 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category:'DSA',
+    subcategory:[
+      {
+        name:'DSA-articles',url:'/DSA-articles',resources:DB.openSourceArticles,
+      }
+    ]
+  },
+  {
     category: 'competitive-programming',
     subcategory: [
       { name: 'Platforms', url: '/cp-platforms', resources: DB.cpPlatforms },
@@ -342,7 +350,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Communities', url: '/communities', resources: DB.communities },
       { name: 'Roadmaps', url: '/roadmaps', resources: DB.roadmaps },
     ],
-  },
+  }
 ]
 
 export const subCategories = sidebarData.flatMap(({ category, subcategory }) =>

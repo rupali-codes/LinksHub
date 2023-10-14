@@ -109,3 +109,5 @@ export { default as resumeBuilding } from './placement_prep/resume-building.json
 export { default as portfolioBuilding } from './placement_prep/portfolio-building.json'
 export { default as careerGuidance } from './placement_prep/career-guidance.json'
 export { default as certifications } from './placement_prep/certifications.json'
+//DSA
+export {default as DSAArticles} from './DSA/DSAarticles.json'

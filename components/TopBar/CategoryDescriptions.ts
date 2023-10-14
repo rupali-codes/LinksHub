@@ -180,6 +180,9 @@ const categoryDescriptions: CategoryDescriptions = {
   //technical-writing
   'technical writing tools':
     'This list provides the tools to suit your tech writing needs.',
+   
+  //DSA
+  'DSA articles':'This section provides various important articles related to DSA problem solving skills, how to tackle them, how to think about it and many more.'
 
 }
 
