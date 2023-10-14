@@ -289,7 +289,7 @@ export const sidebarData: ISidebar[] = [
         name:'DSA-articles',url:'/DSA-articles',resources:DB.openSourceArticles,
       }
     ]
-  }
+  },
   {
     category: 'competitive-programming',
     subcategory: [
