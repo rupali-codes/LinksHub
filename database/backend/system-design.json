@@ -22,5 +22,13 @@
     "category": "backend",
     "subcategory": "system-design",
     "language": "english"
+  },
+  {
+    "name": "System Design Primer",
+    "description": "The System Design Primer stands out as one of the most widely embraced GitHub repositories for acquiring knowledge in the realm of system design.",
+    "url": "https://github.com/donnemartin/system-design-primer/",
+    "category": "backend",
+    "subcategory": "system-design",
+    "language": "english"
   }
 ]
