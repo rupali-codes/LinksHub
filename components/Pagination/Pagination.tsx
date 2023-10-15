@@ -16,13 +16,22 @@ export default function Pagination({
   const { resolvedTheme } = useTheme();
   const isDarkMode = resolvedTheme === 'dark';
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const changePage = (page: number) => {
+    handlePageChange(page);
+    scrollToTop(); // Scroll to the top after page change
+  };
+
   return (
     <>
       {totalPages && totalPages.length > 1 && (
         <div
           className={clsx(
             'w-full z-20 flex lg:w-full items-center justify-center ',
-            'absolute bottom-2 right-0' // 
+            'absolute bottom-2 right-0'
           )}
         >
           <div className="flex items-center px-6 py-1 gap-4">
@@ -33,7 +42,7 @@ export default function Pagination({
                 'disabled:text-gray-400'
               )}
               onClick={() =>
-                currentPage > 1 && handlePageChange(currentPage - 1)
+                currentPage > 1 && changePage(currentPage - 1)
               }
               disabled={currentPage === 1}
             >
@@ -49,7 +58,7 @@ export default function Pagination({
                       ? 'bg-[#8b5cf6] text-white'
                       : isDarkMode ? 'text-light' : 'text-theme-secondary'
                   )}
-                  onClick={() => handlePageChange(page)}
+                  onClick={() => changePage(page)}
                 >
                   {page}
                 </button>
@@ -62,7 +71,7 @@ export default function Pagination({
               )}
               onClick={() =>
                 currentPage < totalPages.length &&
-                handlePageChange(currentPage + 1)
+                changePage(currentPage + 1)
               }
               disabled={currentPage === totalPages.length}
             >
