@@ -134,7 +134,7 @@
   },
   {
     "name": "GSAP",
-    "description": "GSAP is a robust industry standard JavaScript animation library from GreenSock that lets you craft high-performance animations that work in every major browser. Animate CSS, SVG, canvas, React, Vue, WebGL, colors, strings, motion paths, generic objects...anything JavaScript can touch!",
+    "description": "GSAP is a robust industry standard JavaScript animation library from GreenSock that lets you craft high-performance animations that works in every major browser. Animate CSS, SVG, canvas, React, Vue, WebGL, colors, strings, motion paths, generic objects...anything JavaScript can touch!",
     "url": "https://gsap.com/",
     "category": "frontend",
     "subcategory": "animations"
