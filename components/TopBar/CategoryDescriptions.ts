@@ -38,6 +38,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'The UI Generator, or User Interface Generator, is an Eclipse tool that takes a user model and generates a role-based user interface for a J2EE Web application.',
   'online code editors':
     "Online code editors, also called cloud-based code editors, are convenient because they usually require no setup. Plus, it's way easier to collaborate with someone over the cloud.",
+  'ui libraries':
+    'UI libraries are collections of reusable components that can be used to build user interfaces. They are often used in conjunction with frameworks like React or Vue.js to create web applications.',
 
   //backend
   architecture:
@@ -81,11 +83,12 @@ const categoryDescriptions: CategoryDescriptions = {
   // Open-source
   articles:
     'There are many open source blogging platforms available for developers. Some of the most popular ones include WordPress, Joomla, and Drupal1. Other open source blogging platforms include Ghost, Serendipity, SilverStripe, and Jekyll',
- projects:
+  projects:
     'Anyone can contribute to the projects are called OpenSource Projects. There are many open source projects available for developers. Some of the most popular ones include Linux, Git, and Apache1. Other open source projects include Kubernetes, TensorFlow, and React Native',
   tools:
     'There are various open source tools available for developers. Some of the most popular ones include Hadoop, VLC Media Player, and GIMP1. Other open source tools include TensorFlow, Eclipse Che, and OpenShift Do.',
-  'os tutorials': 'OS tutorials helps you to learn-by-watching. It contains the list most helping tutorials on open-source.',
+  'os tutorials':
+    'OS tutorials helps you to learn-by-watching. It contains the list most helping tutorials on open-source.',
 
   //devops
   cicd: 'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',

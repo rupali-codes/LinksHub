@@ -3,7 +3,7 @@ import * as DB from 'database'
 import { v4 as uuidv4 } from 'uuid'
 export const database: IData[][] = Object.values(DB).map((item: IDBData[]) =>
   item.map((subcat: IDBData) => ({ ...subcat, id: uuidv4() }))
-);
+)
 
 export const sidebarData: ISidebar[] = [
   {
@@ -45,6 +45,11 @@ export const sidebarData: ISidebar[] = [
         name: 'accessibility',
         url: '/accessibility',
         resources: DB.accessibility,
+      },
+      {
+        name: 'ui Libraries',
+        url: '/ui-libraries',
+        resources: DB.uilibraries,
       },
     ],
   },
@@ -208,7 +213,7 @@ export const sidebarData: ISidebar[] = [
       },
     ],
   },
- 
+
   {
     category: 'cloud-computing',
     subcategory: [
@@ -343,7 +348,11 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'technical-writing',
     subcategory: [
-      { name: 'Technical Writing Tools', url: '/technical-writing-tools', resources: DB.technicalWritingTools },
+      {
+        name: 'Technical Writing Tools',
+        url: '/technical-writing-tools',
+        resources: DB.technicalWritingTools,
+      },
     ],
   },
   {
