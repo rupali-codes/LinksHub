@@ -1,9 +1,6 @@
-import { useRouter } from "next/router"
 import { useEffect, MutableRefObject } from "react"
 
-
-const useOnClickOutside = (listRef   : MutableRefObject<HTMLUListElement | null> , handler : () => void) => {
-    const router = useRouter()
+const useOnClickOutside = (ref   : MutableRefObject<HTMLUListElement | null> , handler : () => void) => {
     useEffect(()=>{
         const handleClickOutside = (e : MouseEvent) => {
 
@@ -11,9 +8,8 @@ const useOnClickOutside = (listRef   : MutableRefObject<HTMLUListElement | null>
                 return;
             }
 
-            else if(listRef.current && !listRef.current.contains(e.target as Node)){
+            else if(ref.current && !ref.current.contains(e.target as Node)){
                 handler()
-                router.push('/')
             }
 
 
@@ -23,7 +19,7 @@ const useOnClickOutside = (listRef   : MutableRefObject<HTMLUListElement | null>
         return () => {
             document.removeEventListener('click', handleClickOutside)
         }
-    }, [listRef, handler, router])
+    }, [ref, handler])
 }
 
 export default useOnClickOutside;

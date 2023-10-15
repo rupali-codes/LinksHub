@@ -18,7 +18,7 @@ export const SideNavbarCategoryList: FC<{
     if (cat !== undefined) {
       setCategory(cat)
     }
-  }, [router.query.category])
+  }, [router.pathname, router.query])
 
   if (categoriesList.length === 0) {
     return (
@@ -29,7 +29,7 @@ export const SideNavbarCategoryList: FC<{
   }
 
   return (
-    <ul ref={listRef}  className="mt-2 flex flex-col justify-center px-4 pb-24">
+    <ul data-custom='restrict-click-outside' ref={listRef}  className="mt-2 flex flex-col justify-center px-4 pb-24">
       <React.Fragment key={query}>
         {categoriesList.map((categoryData) => (
           <SideNavbarCategory
