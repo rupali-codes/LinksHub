@@ -1,0 +1,23 @@
+[
+    {
+        "name": "MaterialUI",
+        "url": "https://material-ui.com/",
+        "description": "Material-UI is a popular open-source React component library that implements Google's Material Design principles, offering a vast collection of pre-designed and customizable UI components for creating visually appealing and responsive web applications. It's known for its seamless integration with React and extensive theming capabilities.",
+        "category": "frontend",
+        "subcategory": "ui-libraries"
+    },
+    {
+        "name": "ChakraUI",
+        "url": "https://chakra-ui.com/",
+        "description": "Chakra UI is a popular open-source React component library that simplifies building accessible and customizable user interfaces by providing a set of well-designed, composable UI components with a focus on flexibility and theming. It's known for its ease of use and integration with modern web development workflows.",
+        "category": "frontend",
+        "subcategory": "ui-libraries"
+    },
+    {
+        "name": "AntDesign",
+        "url": "https://ant.design/",
+        "description": "Ant Design is a comprehensive design system and React component library that offers a wide range of polished and customizable UI components for building modern web and mobile applications. It's widely used for its aesthetic appeal, robust feature set, and support for internationalization.",
+        "category": "frontend",
+        "subcategory": "ui-libraries"
+    }
+]
