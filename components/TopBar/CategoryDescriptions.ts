@@ -95,6 +95,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'DevOps methodologies are a set of practices that combine software development and information technology operations to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
   docker:
     'Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers. These are isolated from one another and bundle their own software, libraries, and configuration files; they can also communicate with each other through well-defined channels.',
+  jenkins:
+    'As an extensible automation server, Jenkins can be used as a simple CI server or turned into the continuous delivery hub for any project.',
   kubernetes:
     'Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.',
   microservices:
