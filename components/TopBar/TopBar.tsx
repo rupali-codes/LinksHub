@@ -54,6 +54,7 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
           paddingRight: '6px',
           paddingTop: '2px',
           paddingBottom: '2px',
+          width: 'calc(100vw - 2rem)',
           maxWidth: '400px',
           boxShadow:
             theme === 'light'
