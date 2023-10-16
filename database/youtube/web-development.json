@@ -350,5 +350,13 @@
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"
+  },
+  {
+    "name": "Chai aur Code",
+    "description": "An underrated channel with awesome content in React and JavaScript",
+    "url": "https://www.youtube.com/@chaiaurcode",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "hindi"
   }
 ]
