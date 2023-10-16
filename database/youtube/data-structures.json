@@ -145,5 +145,13 @@
     "category":"youtube",
     "subcategory":"data-structures",
     "language":"hindi"
+  },
+  {
+    "name":"Simple Snippets",
+    "description": "Data Structures and Algorithms with C++ Practical Implementation (Full Course for Beginners)",
+    "url": "https://www.youtube.com/playlist?list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG",
+    "category":"youtube",
+    "subcategory":"data-structures",
+    "language":"english"
   }
 ]
