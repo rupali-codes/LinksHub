@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "name": "Wellfound",
+    "description": "Wellfound is a platform for startup founders to hire potential talents and for potential talents to find their ideal startup.",
+    "url": "https://wellfound.com",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
+  }
+]
