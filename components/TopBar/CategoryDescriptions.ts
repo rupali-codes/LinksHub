@@ -38,6 +38,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'The UI Generator, or User Interface Generator, is an Eclipse tool that takes a user model and generates a role-based user interface for a J2EE Web application.',
   'online code editors':
     "Online code editors, also called cloud-based code editors, are convenient because they usually require no setup. Plus, it's way easier to collaborate with someone over the cloud.",
+  'ui libraries':
+    'UI libraries are collections of reusable components that can be used to build user interfaces. They are often used in conjunction with frameworks like React or Vue.js to create web applications.',
 
   //backend
   architecture:
@@ -81,11 +83,12 @@ const categoryDescriptions: CategoryDescriptions = {
   // Open-source
   articles:
     'There are many open source blogging platforms available for developers. Some of the most popular ones include WordPress, Joomla, and Drupal1. Other open source blogging platforms include Ghost, Serendipity, SilverStripe, and Jekyll',
- projects:
+  projects:
     'Anyone can contribute to the projects are called OpenSource Projects. There are many open source projects available for developers. Some of the most popular ones include Linux, Git, and Apache1. Other open source projects include Kubernetes, TensorFlow, and React Native',
   tools:
     'There are various open source tools available for developers. Some of the most popular ones include Hadoop, VLC Media Player, and GIMP1. Other open source tools include TensorFlow, Eclipse Che, and OpenShift Do.',
-  'os tutorials': 'OS tutorials helps you to learn-by-watching. It contains the list most helping tutorials on open-source.',
+  'os tutorials':
+    'OS tutorials helps you to learn-by-watching. It contains the list most helping tutorials on open-source.',
 
   //devops
   cicd: 'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
@@ -95,6 +98,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'DevOps methodologies are a set of practices that combine software development and information technology operations to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
   docker:
     'Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers. These are isolated from one another and bundle their own software, libraries, and configuration files; they can also communicate with each other through well-defined channels.',
+  jenkins:
+    'As an extensible automation server, Jenkins can be used as a simple CI server or turned into the continuous delivery hub for any project.',
   kubernetes:
     'Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.',
   microservices:
@@ -107,6 +112,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Deep learning is a subfield of machine learning that involves the use of neural networks to learn from data. Deep learning is widely used for image recognition, natural language processing, and speech recognition. ',
   'machine-learning':
     'Machine learning is a subfield of artificial intelligence that uses statistical, mathematical, and computational methods to learn from data. Machine learning is widely used for data analysis, data visualization, and predictive modeling.',
+  'natural language processing':
+    'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
 
   // cyber-security
   'offensive security':
@@ -125,6 +132,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'An ebook (short for electronic book) is a book publication made available in digital form, consisting of text, images, or both readable on the flat-panel display of computers or other electronic devices.',
   hosting:
     'Web hosting is an online service that makes the content of your website accessible on the internet. When you purchase a hosting plan, you are renting space on a physical server to store all the files and data.',
+  dsa:
+    'Data Structures and Algorithms play an important role in tech placements. So here is a list of important and great dsa resources',
   officialdocs:
     'Official docs is short for official documentation. Official documentation is an important resource for users of software products and services as it provides a comprehensive guide to using the software.',
   'project ideas':
@@ -178,6 +187,9 @@ const categoryDescriptions: CategoryDescriptions = {
   //technical-writing
   'technical writing tools':
     'This list provides the tools to suit your tech writing needs.',
+   
+  //DSA
+  'DSA articles':'This section provides various important articles related to DSA problem solving skills, how to tackle them, how to think about it and many more.'
 
 }
 

@@ -77,7 +77,7 @@ Visit https://linkshub.dev to see the live demo!
 
 Connect with us for future updates
 
-- Join the LinksHub community on [Discord](https://discord.com/invite/NvK67YnJX5) <img src="https://github.com/shelar1423/DocsGPT/assets/82649533/bbd74228-f41f-4194-8fe2-531f7b29d61f" alt="Discord" width="20" height="20"  align="center"> .
+- Join the LinksHub community on [Discord](https://discord.com/invite/NvK67YnJX5) <img src="https://github.com/rupali-codes/LinksHub/assets/74038190/0a9bece0-8378-4620-bcf5-0f6e4b1aa6bd" alt="Discord" width="20" height="20"  align="center">.
 - Follow us on [X (Twitter) ](https://twitter.com/linkshubdotdev) <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-logo-icon.png" alt="Discord" width="25" height="25"  align="center"> 
  for updates. 
 - Follow us on [LinkedIn](https://www.linkedin.com/company/linkshub-dev/) <img src="https://github.com/shelar1423/LinksHub/assets/82649533/08ffebb8-68a1-4cd1-9078-97f284de5cef" alt="Discord" width="18" height="18"  align="center">  to stay in touch.

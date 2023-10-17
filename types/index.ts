@@ -50,6 +50,7 @@ export type Category =
   | 'competitive-programming'
   | 'technical-writing'
   | 'Placement-Prep'
+  | 'DSA'
 
 export type SubCategories = {
   name: string

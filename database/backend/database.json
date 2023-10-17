@@ -63,6 +63,13 @@
     "subcategory": "database"
   },
   {
+    "name": "Apache Cassandra",
+    "description": "Apache Cassandra is a free and open-source, distributed, wide column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.",
+    "url": "https://cassandra.apache.org/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
     "name": "GraphQL",
     "description": "GraphQL provides a comprehensive description of the data in your API, which gives clients the power to ask for exactly what they need and nothing more and make it easier to evolve APIs over time. It also enables powerful developer tools.",
     "url": "https://graphql.org/",

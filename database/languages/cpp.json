@@ -19,5 +19,12 @@
     "url": "https://www.youtube.com/watch?v=WQoB2z67hvY&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA",
     "category": "languages",
     "subcategory": "cpp"
+  },
+  {
+    "name": "C++ Programming Tutorial by Apna College",
+    "description": "This exclusive YouTube playlist covers C++ programming from beginner to advanced levels.",
+    "url": "https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
+    "category": "languages",
+    "subcategory": "cpp"
   }
 ]
