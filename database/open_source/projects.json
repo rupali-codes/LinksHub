@@ -14,6 +14,20 @@
     "subcategory": "projects"
   },
   {
+    "name": "DevProfiles",
+    "description": "DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.",
+    "url": "https://github.com/oyepriyansh/DevProfiles",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
+    "name": "DevTweet",
+    "description": "An open-source developer-focused web application for sharing thoughts and knowledge within the developer community.",
+    "url": "https://github.com/oyepriyansh/DevTweet",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
     "name": "Whisper",
     "description": "A Fun Application to have a random chat with people safely.",
     "url": "https://github.com/Dun-sin/Whisper",
