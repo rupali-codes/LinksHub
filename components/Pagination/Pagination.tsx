@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import clsx from 'clsx';
 
@@ -22,8 +22,11 @@ export default function Pagination({
 
   const changePage = (page: number) => {
     handlePageChange(page);
-    scrollToTop(); // Scroll to the top after page change
   };
+
+  useEffect(() => {
+    scrollToTop();
+  }, [currentPage]);
 
   return (
     <>
@@ -41,9 +44,7 @@ export default function Pagination({
                 isDarkMode ? 'hover:text-white' : 'hover:text-black',
                 'disabled:text-gray-400'
               )}
-              onClick={() =>
-                currentPage > 1 && changePage(currentPage - 1)
-              }
+              onClick={() => changePage(currentPage - 1)}
               disabled={currentPage === 1}
             >
               Prev
@@ -69,10 +70,7 @@ export default function Pagination({
                 isDarkMode ? 'hover:text-white' : 'hover:text-black',
                 'disabled:text-gray-400'
               )}
-              onClick={() =>
-                currentPage < totalPages.length &&
-                changePage(currentPage + 1)
-              }
+              onClick={() => changePage(currentPage + 1)}
               disabled={currentPage === totalPages.length}
             >
               Next
