@@ -26,5 +26,12 @@
     "url": "https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
     "category": "languages",
     "subcategory": "cpp"
+  },
+    {
+    "name": "Complete C++ STL in 1 Video | Time Complexity and Notes",
+    "description": "This exclusive one-shot YouTube video covers the C++ Standard Template Library from beginner to advanced levels.",
+    "url": "https://www.youtube.com/watch?v=RRVYpIET_RU",
+    "category": "languages",
+    "subcategory": "cpp"
   }
 ]
