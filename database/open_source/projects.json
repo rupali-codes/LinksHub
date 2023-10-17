@@ -152,6 +152,13 @@
     "url": "https://github.com/TheTorProject",
     "category": "open-source",
     "subcategory": "projects"
+  },
+  {
+    "name": "Free Programming Books",
+    "description": "Freely available programming books.",
+    "url": "https://github.com/EbookFoundation/free-programming-books",
+    "category": "open-source",
+    "subcategory": "projects"
   }
 ]
 
