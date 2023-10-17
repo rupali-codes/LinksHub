@@ -1,7 +1,7 @@
 [
   {
     "name": "Gaurav Sen",
-    "description": "This channel teaches System Design and other computer science concepts such as Algorithm design, Dynamic programming, Software engineering, Competitive programming,and more.",
+    "description": "This channel teaches System Design and other computer science concepts such as Algorithm Design, Dynamic Programming, Software engineering, Competitive Programming, and more.",
     "url": "https://www.youtube.com/@gkcs",
     "category": "backend",
     "subcategory": "system-design",
@@ -9,7 +9,7 @@
   },
   {
     "name": "What is System Design",
-    "description": "This platform gives you an detailed overview of Sytem Design And why one should learn it. It also teaches you objectives, components of system design, its architecture and more.",
+    "description": "This platform gives you an detailed overview of Sytem Design And why one should learn it. It also teaches you objectives, components of System Design, its architecture and more.",
     "url": "https://www.geeksforgeeks.org/what-is-system-design-learn-system-design/",
     "category": "backend",
     "subcategory": "system-design",
@@ -19,6 +19,14 @@
     "name": "System Design Tutorial",
     "description": "This is the complete System Design Tutorial. You will learn Basics of System Design including SDLC, System design strategy and much more.",
     "url": "https://www.geeksforgeeks.org/system-design-tutorial/",
+    "category": "backend",
+    "subcategory": "system-design",
+    "language": "english"
+  },
+  {
+    "name": "System Design Primer",
+    "description": "The System Design Primer stands out as one of the most widely embraced GitHub repositories for acquiring knowledge in the realm of system design.",
+    "url": "https://github.com/donnemartin/system-design-primer",
     "category": "backend",
     "subcategory": "system-design",
     "language": "english"
