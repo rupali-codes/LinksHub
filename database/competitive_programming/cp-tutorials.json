@@ -46,5 +46,13 @@
     "category": "competitive-programming",
     "subcategory": "cp-tutorials",
     "language": "english"
+  },
+  {
+    "name": "Neetcode",
+    "description": "This video helps students and professionals to become better in Competitive Programming and tech interviews.",
+    "url": "https://www.youtube.com/@NeetCode",
+    "category": "competitive-programming",
+    "subcategory": "cp-tutorials",
+    "language": "english"
   }
 ]
