@@ -49,7 +49,6 @@ export const Searchbar: React.FC<SearchbarProps> = ({
   }
 
   const handleSuggestionClick = (searchQuery: SubCategories) => {
-    console.log(searchQuery)
     dispatchSearch({ type: 'suggestion_click', searchQuery: searchQuery.name })
     const { category } = sidebarData.find((item) =>
       item.subcategory.some((subCat) => subCat.name === searchQuery.name)
@@ -74,6 +73,10 @@ export const Searchbar: React.FC<SearchbarProps> = ({
 
   useEffect(() => {
     const handleClickOutsideDropdown = (e: MouseEvent) => {
+
+      if(e.target && (e.target as HTMLElement).closest("[data-custom='restrict-click-outside']") !== null){
+        return
+      }
       if ((formRef.current as HTMLFormElement).contains(e.target as Node))
         return
       dispatchSearch({ type: 'close_suggestions' })
@@ -87,7 +90,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
   }, [dispatchSearch])
 
   return (
-    <form noValidate ref={formRef} onSubmit={handleSubmit} role="search">
+    <form data-custom='restrict-click-outside' noValidate ref={formRef} onSubmit={handleSubmit} role="search">
       <div className="relative">
         <div className="flex items-center">
           <label htmlFor="simple-search" className="sr-only">

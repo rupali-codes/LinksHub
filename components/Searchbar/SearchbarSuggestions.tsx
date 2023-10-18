@@ -10,7 +10,7 @@ export const SearchbarSuggestions: React.FC<SuggestionsProps> = ({
   onSuggestionClick,
 }) => {
   return (
-    <ul className="absolute z-10 text-light-primary bg-theme-secondary w-full mt-1 rounded-lg shadow-2xl">
+    <ul data-custom='restrict-click-outside' className="absolute z-10 text-light-primary bg-theme-secondary w-full mt-1 rounded-lg shadow-2xl">
       {suggestions.map((suggestion) => (
         <li
           key={suggestion.url}
