@@ -51,6 +51,7 @@ export { default as dart } from './languages/dart.json'
 //internet of things
 export { default as coursera } from './internet_of_things/coursera.json'
 export { default as raspberrypi } from './internet_of_things/raspberrypi.json'
+export { default as arduino } from './internet_of_things/arduino.json'
 //cloud computing
 export { default as gcp } from './cloud_computing_platforms/gcp.json'
 export { default as aws } from './cloud_computing_platforms/aws.json'
