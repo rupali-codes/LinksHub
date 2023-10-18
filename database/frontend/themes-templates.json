@@ -54,5 +54,12 @@
     "url": "https://freefrontend.com/",
     "category": "frontend",
     "subcategory": "themes-templates"
+  },
+  {
+    "name": "Themesberg",
+    "description": "It is a website for free and premium Bootstrap based Templates, Themes and built-in UI Tool kits. Free and Premium themes, templates, admin dashboards and UI kits built in Bootstrap, React, Laravel, and Figma used by many popular web developers and software companies",
+    "url": "https://themesberg.com/",
+    "category": "frontend",
+    "subcategory": "themes-templates"
   }
 ]
