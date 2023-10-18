@@ -139,7 +139,19 @@ _View the list of all contributors [here](https://github.com/rupali-codes/LinksH
 
 ## License 📝
 
-LinksHub is licensed under the terms of the MIT License. check out [LICENSE](https://github.com/rupali-codes/LinksHub/blob/main/LICENSE) for details.
+
+<table>
+  <tr>
+     <td>
+       <p align="center"> <img src="https://github.com/rupali-codes/LinksHub/assets/66154908/65ae0c03-9cad-47a6-80b8-23c91cd2ac4e" width="80%"></img>
+    </td>
+    <td> 
+      <img src="https://img.shields.io/badge/License-MIT-yellow.svg"/> <br> 
+LinksHub is licensed under the terms of the MIT License. check out <a href="./LICENSE">LICENSE</a> for details. <img width=2300/>
+    </td>
+  </tr>
+</table>
+
 
 <a name="support"></a>
 
