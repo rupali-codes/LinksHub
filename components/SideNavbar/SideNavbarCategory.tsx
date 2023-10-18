@@ -1,15 +1,19 @@
-import { FC, useState, useEffect } from 'react'
+import { FC, useState, useEffect, MutableRefObject } from 'react'
 import { FaAngleDown } from 'react-icons/fa'
 import { SideNavbarElement } from './SideNavbarElement'
 import type { ISidebar } from '../../types'
 import Link from 'next/link'
+import useOnClickOutside from 'hooks/useOnClickOutside'
+import { useSearchReducer } from 'hooks/useSearchReducer'
+import { useRouter } from 'next/router'
 
 export const SideNavbarCategory: FC<{
   categoryData: ISidebar
   expand: boolean
-}> = ({ categoryData, expand }) => {
+  listRef : MutableRefObject<HTMLUListElement | null>
+}> = ({ categoryData, expand, listRef }) => {
   const [isOpen, setIsOpen] = useState(expand)
-
+  const router = useRouter()
   const { category, subcategory } = categoryData
   const sortedSubcategoryList = subcategory
     .sort((a, b) => (a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1))
@@ -25,7 +29,14 @@ export const SideNavbarCategory: FC<{
 
   const handleToggle = () => {
     setIsOpen(!isOpen)
+
   }
+
+  const handleClickOutside = async() => {
+    setIsOpen(false);
+    router.replace('/')
+  }
+  useOnClickOutside(listRef , handleClickOutside )
 
   return (
     <li className="relative w-full transition-all ease-in-out text-theme-secondary dark:text-theme-primary dark:bg-opacity-5 hover:text-theme-secondary dark:hover:text-theme-primary rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-theme-primary">

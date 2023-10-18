@@ -13,7 +13,7 @@ export const SideNavbarElement: FC<{
   const router = useRouter()
   const { name, url } = subcat
   const { closeNav } = useContext(GlobalContext)
-  const { handlePageChange, setCurrentPage } = usePagination()
+  const { handlePageChange } = usePagination()
   const path = `/${category}${url}`
 
   return (

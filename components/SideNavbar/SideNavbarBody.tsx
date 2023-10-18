@@ -12,7 +12,6 @@ export const SideNavbarBody: FC = () => {
   const [searchState, dispatchSearch] = useSearchReducer()
   const inputRef: React.RefObject<HTMLInputElement> = useRef(null)
   useSearchShortcut({ inputRef })
-
   return (
     <div
       className={classNames(

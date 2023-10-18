@@ -92,7 +92,7 @@ export default function Home() {
 
         <link rel="icon" href="/icon.png" className="rounded-full" />
       </Head>
-      <section className="flex min-h-[calc(100%-68px)] flex-col">
+      <section data-custom='restrict-click-outside' className="flex min-h-[calc(100%-68px)] flex-col">
         <div className=" m-auto flex flex-col  items-start gap-2">
           <div className="m-auto md:text-7xl text-5xl gap-2 flex items-center justify-center">
             <Logo />

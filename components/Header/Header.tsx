@@ -24,7 +24,7 @@ export const Header: FC = () => {
           className="absolute left-8 hidden h-full md:flex"
           results={results}
         />
-        <div className="absolute right-8 flex h-full gap-4">
+        <div data-custom='restrict-click-outside' className="absolute right-8 flex h-full gap-4">
           <SocialMediaIconsList className="hidden lg:flex" />
           <ThemeToggler />
           <button
