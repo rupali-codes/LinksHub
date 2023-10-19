@@ -84,7 +84,6 @@ export { default as dsa } from './resources/dsa.json'
 export { default as events } from './other/events.json'
 // youtube
 export { default as android } from './youtube/android.json'
-export { default as dataStructures } from './youtube/data-structures.json'
 export { default as css } from './youtube/css.json'
 export { default as machineLearning } from './youtube/machine-learning.json'
 export { default as Kubernetes } from './youtube/Kubernetes.json'
@@ -116,4 +115,5 @@ export { default as portfolioBuilding } from './placement_prep/portfolio-buildin
 export { default as careerGuidance } from './placement_prep/career-guidance.json'
 export { default as certifications } from './placement_prep/certifications.json'
 //DSA
-export {default as DSAArticles} from './DSA/DSAarticles.json'
+export {default as dsaArticles} from './data_structures/dsa-articles.json'
+export {default as dsaTutorials} from './data_structures/dsa-tutorials.json'
