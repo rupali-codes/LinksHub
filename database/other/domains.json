@@ -12,5 +12,12 @@
     "url": "https://js.org",
     "category": "other",
     "subcategory": "domains"
+  },
+  {
+    "name": "GitHub Student Developer Pack",
+    "description": "GitHub provides free domains to students for a year. The students can use these domains to showcase their work",
+    "url": "https://education.github.com/pack",
+    "category": "other",
+    "subcategory": "domains"
   }
 ]
