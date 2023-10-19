@@ -1,7 +1,7 @@
 [
   {
     "name": "Solidity Documentation",
-    "description": "One of the best sources to learn solidity from scratch to advance",
+    "description": "This is the official documentation for Solidity",
     "url": "https://docs.soliditylang.org/en/v0.8.21/",
     "category": "languages",
     "subcategory": "solidity"
