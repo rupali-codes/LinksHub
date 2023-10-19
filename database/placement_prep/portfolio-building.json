@@ -1,16 +1,30 @@
 [
   {
     "name": "Squarespace",
-    "description": "Squarespace is a popular website builder and web hosting site. It keeps up with design trends to offer templates that aren’t outdated. The website builder interface is streamlined and minimalistic and lets you easily navigate a number of helpful analytics, scheduling, and marketing tools.  ",
+    "description": "Squarespace is a popular website builder and web hosting site. It keeps up with design trends to offer templates that aren’t outdated. The website builder interface is streamlined and minimalistic and lets you easily navigate a number of helpful analytics, scheduling, and marketing tools.",
     "url": "https://www.squarespace.com/",
     "category": "placement-prep",
     "subcategory": "job-portals"
   },
   {
     "name": "Webflow",
-    "description": "Webflow is a webpage builder and interface for web design. You can use it design and develop your potfolio at a single place",
+    "description": "Webflow is a webpage builder and interface for web design. You can use it design and develop your potfolio at a single place.",
     "url": "https://webflow.com/",
     "category": "placement-prep",
     "subcategory": "job-portals"
   },
+  {
+    "name": "Readymag",
+    "description": "Readymag is a free-form website builder without any creativity constraints. It uses drag-and-drop design and lets you place objects exactly where you want them.",
+    "url": "https://readymag.com/",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
+  },
+  {
+    "name": "Dunked",
+    "description": "Dunked is a website builder designed for online portfolios. It provides a variety of image-based layouts and tools for portfolios.",
+    "url": "https://dunked.com/",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
+  }
 ]
