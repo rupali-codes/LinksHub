@@ -8,7 +8,7 @@
   },
   {
     "name": "Solidity by Example",
-    "description": "Teaches all solidity concepts with an example from beginner to intermediate level",
+    "description": "This site teaches all Solidity concepts with examples from beginner to intermediate level",
     "url": "https://solidity-by-example.org/",
     "category": "languages",
     "subcategory": "solidity"
