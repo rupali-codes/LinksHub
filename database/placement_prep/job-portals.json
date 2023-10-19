@@ -12,5 +12,12 @@
     "url": "https://www.linkedin.com/",
     "category": "placement-prep",
     "subcategory": "job-portals"
+  }, 
+  {
+    "name": "Indeed",
+    "description": "Indeed is another popular platform for job search. It provides you a couple of different options to land your dream job.",
+    "url": "https://in.indeed.com/",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
   }
 ]
