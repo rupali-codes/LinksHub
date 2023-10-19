@@ -26,5 +26,12 @@
     "url": "https://dunked.com/",
     "category": "placement-prep",
     "subcategory": "job-portals"
+  },
+  {
+    "name": "PortfolioBox",
+    "description": "PortfolioBox is a creative portfolio website builder. It has options geared toward each design specialization, including photography, illustration, and graphic design.",
+    "url": "https://www.portfoliobox.net/",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
   }
 ]
