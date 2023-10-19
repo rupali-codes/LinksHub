@@ -5,5 +5,12 @@
     "url": "https://resume.io/",
     "category": "placement-prep",
     "subcategory": "resume-building"
+  },
+  {
+    "name": "Canva",
+    "description": "Canva provides you a thousand of free resume templates that you can customize based on your needs.",
+    "url": "https://canva.com/",
+    "category": "placement-prep",
+    "subcategory": "resume-building"
   }
 ]
