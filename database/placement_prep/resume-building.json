@@ -12,5 +12,12 @@
     "url": "https://canva.com/",
     "category": "placement-prep",
     "subcategory": "resume-building"
-  }
+  },
+  {
+    "name": "Visual CV",
+    "description": "This resume maker offers dual windows for editing. You can either create a new resume or upload/edit an existing one.",
+    "url": "https://visualcv.com/",
+    "category": "placement-prep",
+    "subcategory": "resume-building"
+  },
 ]
