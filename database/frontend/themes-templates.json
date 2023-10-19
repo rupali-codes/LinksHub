@@ -54,5 +54,12 @@
     "url": "https://freefrontend.com/",
     "category": "frontend",
     "subcategory": "themes-templates"
+  },
+  {
+    "name": "ThemesBerg",
+    "description": "Provides Free and Premium Templates, Themes from a wide variety of Web Developers and Software Companies",
+    "url": "https://themesberg.com",
+    "category":"frontend",
+    "subcategory":"themes-templates"
   }
 ]
