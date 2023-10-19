@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "name": "Resume.io",
+    "description": "Build powerful resumes in only 5 minutes with our easy to use Resume Builder and get hired faster.",
+    "url": "https://resume.io/",
+    "category": "placement-prep",
+    "subcategory": "resume-building"
+  }
+]
