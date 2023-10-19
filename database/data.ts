@@ -118,6 +118,11 @@ export const sidebarData: ISidebar[] = [
         resources: DB.openSourceArticles,
       },
       {
+        name: 'Programs',
+        url: '/os-programs',
+        resources: DB.openSourcePrograms,
+      },
+      {
         name: 'Projects',
         url: '/projects',
         resources: DB.openSourceProjects,

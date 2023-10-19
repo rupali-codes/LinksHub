@@ -70,6 +70,7 @@ export { default as deepLearning } from './artificial_intelligence/deep-learning
 export { default as nlp } from './artificial_intelligence/NLP.json'
 // Open-source
 export { default as openSourceArticles } from './open_source/articles.json'
+export { default as openSourcePrograms } from './open_source/os-programs.json'
 export { default as openSourceProjects } from './open_source/projects.json'
 export { default as openSourceTools } from './open_source/tools.json'
 export { default as openSourceTutorials } from './open_source/os-tutorials.json'
