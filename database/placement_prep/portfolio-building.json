@@ -5,5 +5,12 @@
     "url": "https://www.squarespace.com/",
     "category": "placement-prep",
     "subcategory": "job-portals"
-  }
+  },
+  {
+    "name": "Webflow",
+    "description": "Webflow is a webpage builder and interface for web design. You can use it design and develop your potfolio at a single place",
+    "url": "https://webflow.com/",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
+  },
 ]
