@@ -166,6 +166,13 @@
     "url": "https://github.com/TheTorProject",
     "category": "open-source",
     "subcategory": "projects"
+  },
+  {
+    "name": "Free Programming Books",
+    "description": "Freely available programming books. We are a community that cares about education and open access to programming knowledge. Our main goal is to provide quality and free programming learning resources to everyone around the world. But we couldn't do it without your help!",
+    "url": "https://github.com/EbookFoundation/free-programming-books",
+    "category": "open-source",
+    "subcategory": "projects"
   }
 ]
 
