@@ -89,5 +89,20 @@
     "url": "https://planetscale.com/",
     "category": "backend",
     "subcategory": "database"
+  },
+  {
+    "name": "Neo4j",
+    "description": "Neo4j is a graph database management system that provides a flexible and efficient way to model, query, and analyze complex, connected data.",
+    "url": "https://neo4j.com/",
+    "category": "backend",
+    "subcategory": "database"
+ },
+ {
+    "name": "DynamoDB",
+    "description": "Amazon DynamoDB is a serverless NoSQL database service that provides fast and predictable performance with seamless scalability, ideal for applications that need consistent, single-digit millisecond latency at any scale.",
+    "url": "https://aws.amazon.com/dynamodb/",
+    "category": "backend",
+    "subcategory": "database"
   }
+  
 ]
