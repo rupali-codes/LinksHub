@@ -84,6 +84,13 @@
     "subcategory": "database"
   },
   {
+    "name": "PlanetScale",
+    "description": "PlanetScale is a MySQL-compatible server less database that brings you scale, performance, and reliability — without sacrificing developer experience. With PlanetScale, you get the power of horizontal sharding, non-blocking schema changes, and many more powerful database features without the pain of implementing them.",
+    "url": "https://planetscale.com/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
     "name": "Neon DB",
     "description": "Neon is Serverless Postgres built for the cloud. It separates compute and storage to offer modern developer features such as autoscaling, branching, bottomless storage, and more.",
     "url": "https://neon.tech/",
