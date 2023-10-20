@@ -13,5 +13,12 @@
         "category": "cloud-computing",
         "subcategory": "aws",
         "language": "hindi"
+    },
+    {
+        "name": "Amazon Web Services Hacks",
+        "description": "Best AWS, DevOps, Serverless, and more from top Medium writers, that will help you excel in AWS.",
+        "url": "https://awstip.com/",
+        "category": "cloud-computing",
+        "subcategory": "aws"
     }
 ]
