@@ -233,6 +233,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'coursera', url: '/coursera', resources: DB.coursera },
       { name: 'raspberrypi', url: '/raspberrypi', resources: DB.raspberrypi },
+      { name: 'arduino', url: '/arduino', resources: DB.arduino },
     ],
   },
   {
