@@ -5,15 +5,18 @@ import { GlobalProvider } from 'context/GlobalContext'
 import { Preloader } from 'components/Loader/Preloader'
 import { ThemeProvider } from 'next-themes'
 import { ResultsProvider } from 'hooks/ResultsContext'
+import { UserInfoProvider } from 'context/UserInfoContext'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider defaultTheme="dark">
       <GlobalProvider>
         <ResultsProvider>
           <Preloader backgroundColor="bg-violet-800" color="#8b5cf6" size={40}>
+              <UserInfoProvider>
             <GeneralLayout>
-              <Component {...pageProps} />
+                <Component {...pageProps} />
             </GeneralLayout>
+              </UserInfoProvider>
           </Preloader>
         </ResultsProvider>
       </GlobalProvider>

@@ -7,6 +7,7 @@ import { ThemeToggler } from '../ThemeToggler/themeToggler'
 import { TopBar } from '../TopBar/TopBar'
 import { SocialMediaIconsList } from 'components/SocialMedia/SocialMediaIconsList'
 import { useResults } from 'hooks/ResultsContext'
+import UserInfoButton from 'components/UserInfo/index'
 
 export const Header: FC = () => {
   const { toggleNav } = useContext(GlobalContext)
@@ -34,6 +35,7 @@ export const Header: FC = () => {
           >
             <AiOutlineMenu size={24} />
           </button>
+          <UserInfoButton/>
         </div>
       </div>
     </header>
