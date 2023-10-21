@@ -49,7 +49,7 @@ export const BackToTopButton = () => {
 
   return (
     <div
-      className={`group fixed z-20 bottom-12 right-12 transform transition duration-300 ${
+      className={`group fixed z-20 bottom-12 sm-right-5 md:right-12 transform transition duration-300 ${
         scrollY <= SCROLL_LIMIT ? 'hidden' : ''
       }`}
     >
