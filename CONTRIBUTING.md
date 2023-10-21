@@ -204,6 +204,7 @@ When adding _YouTube_ channel links, please specify _the language_ of the channe
     fonts: 'New Description here',
     -
     -
+  }
   ```
 
 ---
