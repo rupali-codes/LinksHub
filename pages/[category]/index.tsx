@@ -17,7 +17,7 @@ const CategoryPage = () => {
   })
 
   return (
-    <section className="flex min-h-[calc(100%-68px)] flex-col">
+    <section className="flex min-h-[calc(100vh-165px)] flex-col">
       <div className=" m-auto items-start gap-2">
         {subcategories?.length ? (
           <>
