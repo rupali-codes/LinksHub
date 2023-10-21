@@ -39,6 +39,7 @@ const CategoryPage = () => {
                 <Link
                   key={i}
                   href={`/${category}${subcat.url}`}
+                  aria-label={`Explore ${subcat.name}`}
                   className={`border-2 dark:border-theme-primary rounded-md bg-transparent dark:text-theme-primary text-text-secondary px-3 py-1 text-md capitalize hover:border-dashed hover:text-dark-primary shadow-lg`}
                 >
                   {subcat.name}
