@@ -8,14 +8,14 @@
   },
   {
     "name": "Git Book",
-    "description": "It is one of the great books to learn git. It contains expert Git guide with tutorials, code examples, and collaboration tips.",
+    "description": "This is one of the great books to learn Git. It contains tutorials, code examples, and collaboration tips.",
     "url": "https://git-scm.com/book/en/v2",
     "category": "other",
     "subcategory": "git"
   },
   {
     "name": "Version Control with Git",
-    "description": "It is a free course provided by 'Udacity' which covers the essentials of using version control system using git.",
+    "description": "It is a free course provided by Udacity, which covers the essentials of using Git.",
     "url": "https://www.udacity.com/course/version-control-with-git--ud123",
     "category": "other",
     "subcategory": "git"
