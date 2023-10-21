@@ -124,5 +124,12 @@
         "url": "https://www.coingecko.com/en/api/documentation",
         "category": "backend",
         "subcategory": "api"
+    },
+    {
+        "name": "NASA API",
+        "description": "The objective of this API is to make NASA data, including imagery, eminently accessible to application developers.",
+        "url": "https://api.nasa.gov",
+        "category": "backend",
+        "subcategory": "api"
     }
 ]
