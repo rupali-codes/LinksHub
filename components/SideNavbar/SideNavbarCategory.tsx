@@ -43,7 +43,7 @@ export const SideNavbarCategory: FC<{
       <Link
         className="flex w-full cursor-pointer justify-between py-2"
         onClick={handleToggle}
-        aria-label="toggle category"
+        aria-label={`toggle ${category.toLowerCase()} category`}
         href={`/${category}`}
       >
         <h1 className="font-bold uppercase w-4/5 truncate">

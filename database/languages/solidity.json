@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Solidity Documentation",
+    "description": "This is the official documentation for Solidity",
+    "url": "https://docs.soliditylang.org/en/v0.8.21/",
+    "category": "languages",
+    "subcategory": "solidity"
+  },
+  {
+    "name": "Solidity by Example",
+    "description": "This site teaches all Solidity concepts with examples from beginner to intermediate level",
+    "url": "https://solidity-by-example.org/",
+    "category": "languages",
+    "subcategory": "solidity"
+  },
+  {
+    "name": "Alchemy University's Solidity Development Course",
+    "description": "It is an intermediate-level series of guided video lessons and hands-on projects for learning the fundamentals of writing Solidity smart contracts",
+    "url": "https://www.alchemy.com/university/courses/solidity",
+    "category": "languages",
+    "subcategory": "solidity"
+  },
+  {
+    "name": "Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript – 32-Hour Course",
+    "description": "This course will give you a full introduction into all of the core concepts related to blockchain, smart contracts, Solidity, ERC20s, full-stack Web3 dapps, decentralized finance (DeFi), JavaScript, TypeScript, Chainlink, Ethereum, upgradable smart contracts, DAOs, the graph, moralis, aave, IPFS, and more.",
+    "url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=57740s",
+    "category": "languages",
+    "subcategory": "solidity"
+  }
+]
