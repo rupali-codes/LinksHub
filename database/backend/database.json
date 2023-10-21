@@ -89,5 +89,12 @@
     "url": "https://planetscale.com/",
     "category": "backend",
     "subcategory": "database"
+  },
+  {
+    "name": "Neon DB",
+    "description": "Neon is Serverless Postgres built for the cloud. It separates compute and storage to offer modern developer features such as autoscaling, branching, bottomless storage, and more.",
+    "url": "https://neon.tech/",
+    "category": "backend",
+    "subcategory": "database"
   }
 ]
