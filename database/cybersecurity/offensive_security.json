@@ -37,5 +37,12 @@
     "url": "https://owasp.org/www-project-web-security-testing-guide/",
     "category": "cyber-security",
     "subcategory": "offensive-security"
+  },
+  {
+    "name": "zSecurity",
+    "description": "zSecurity is a leading provider of ethical hacking and cyber security training",
+    "url": "https://zsecurity.org/",
+    "category": "cyber-security",
+    "subcategory": "offensive-security"
   }
 ]
