@@ -118,6 +118,11 @@ export const sidebarData: ISidebar[] = [
         resources: DB.openSourceArticles,
       },
       {
+        name: 'Programs',
+        url: '/os-programs',
+        resources: DB.openSourcePrograms,
+      },
+      {
         name: 'Projects',
         url: '/projects',
         resources: DB.openSourceProjects,
@@ -270,11 +275,6 @@ export const sidebarData: ISidebar[] = [
         resources: DB.machineLearning,
       },
       { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
-      {
-        name: 'data structures',
-        url: '/data-structures',
-        resources: DB.dataStructures,
-      },
       { name: 'Android', url: '/android', resources: DB.android },
       {
         name: 'Web3 & Metaverse',
@@ -300,10 +300,13 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category:'DSA',
+    category:'data-structures',
     subcategory:[
       {
-        name:'DSA-articles',url:'/DSA-articles',resources:DB.openSourceArticles,
+        name:'DSA Articles',url:'/dsa-articles',resources:DB.dsaArticles,
+      },
+      {
+        name:'DSA Tutorials',url:'/dsa-tutorials',resources:DB.dsaTutorials,
       }
     ]
   },

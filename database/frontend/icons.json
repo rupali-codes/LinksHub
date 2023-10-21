@@ -236,5 +236,12 @@
     "url": "https://evil-icons.io/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "React Icons",
+    "description": "Includes popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.",
+    "url": "https://react-icons.github.io/react-icons/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]

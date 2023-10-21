@@ -14,6 +14,20 @@
     "subcategory": "projects"
   },
   {
+    "name": "DevProfiles",
+    "description": "DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.",
+    "url": "https://github.com/oyepriyansh/DevProfiles",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
+    "name": "DevTweet",
+    "description": "An open-source developer-focused web application for sharing thoughts and knowledge within the developer community.",
+    "url": "https://github.com/oyepriyansh/DevTweet",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
     "name": "Whisper",
     "description": "A Fun Application to have a random chat with people safely.",
     "url": "https://github.com/Dun-sin/Whisper",
@@ -150,6 +164,13 @@
     "name": "The Tor Project",
     "description": "The Tor Project is primarily responsible for maintaining software for the Tor anonymity network.",
     "url": "https://github.com/TheTorProject",
+    "category": "open-source",
+    "subcategory": "projects"
+  },
+  {
+    "name": "Free Programming Books",
+    "description": "Freely available programming books. We are a community that cares about education and open access to programming knowledge. Our main goal is to provide quality and free programming learning resources to everyone around the world. But we couldn't do it without your help!",
+    "url": "https://github.com/EbookFoundation/free-programming-books",
     "category": "open-source",
     "subcategory": "projects"
   }
