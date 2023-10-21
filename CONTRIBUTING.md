@@ -108,8 +108,8 @@ Follow these steps to setup LinksHub on your local machine
 
 #### 🌟Follow these steps to add your Category/Subcategory to the Hub
 
-- To add a newly created category or subcategory, include them in the [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) & [index.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/index.ts) files located in the `database` folder.
-- Each category has its own folder with its name
+- To add a newly created category or sub-category, include them in the [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) & [index.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/index.ts) files located in the `database` folder.
+- Each category has its own folder with its name.
 - Ensure that every subcategory is placed in its respective category folder.
 
   > For example, if `images` is a subcategory, it should be inside the `frontend` folder, which is a category.
@@ -130,7 +130,7 @@ Follow these steps to setup LinksHub on your local machine
 
       > For example, if you are adding a category called `open source`, add it to the `export type` statement in the appropriate style.
 
-  - If you are adding a subcategory, go to `components/TopBar/CategoryDescriptions.ts` and add the subcategory name used when exporting the name in `database/index.ts`, along with a concise description in the correct format.
+  - If you are adding a subcategory, go to `components/TopBar/CategoryDescriptions.ts` and add the sub-category name used when exporting the name in `database/index.ts`, along with a concise description in the correct format.
 
     > For example, if you export the subcategory name as `onlineCodeEditors` in `database/index.ts`, add the same name to `CategoryDescriptions.ts` using the following style:
     > `subcategory name:` `description of this subcategory`
@@ -145,13 +145,13 @@ Follow these steps to setup LinksHub on your local machine
 
 #### 🌟Follow these steps to add your links to the Hub
 
-- Choose the category and subcategory under which you want to add the resource.
+- Choose the category and sub-category under which you want to add the resource.
 
 - Locate the appropriate structure: `database/category_name/subcategory_name.json`
 
-> For example, to add a resource in the `fonts` subcategory under the `frontend` category, navigate to `database/frontend/fonts.json`.
+> For example, to add a resource in the `fonts` sub-category under the `frontend` category, navigate to `database/frontend/fonts.json`.
 
-- The values in the JSON file should follow this pattern for the subcategory object:
+- The values in the JSON file should follow this pattern for the sub-category object:
 
   ```sh
     name:'',
@@ -192,14 +192,14 @@ When adding _YouTube_ channel links, please specify _the language_ of the channe
 
 - Choose the category and subcategory under which you want to add a description.
 - Locate the file: `components/TopBar/CategoryDescriptions.ts`
-- Add or update the description in front of the subcategory name.
+- Add or update the description in front of the sub-category name.
 
   > For example, to add the description of the `fonts` subcategory under the `frontend` category, you would do the following:
 
   ```js
   const categoryDescriptions: CategoryDescriptions = {
     //frontend
-    -                      //other subcatogery
+    -                      //other sub-catogery
     -
     fonts: 'New Description here',
     -
