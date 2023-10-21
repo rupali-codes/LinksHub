@@ -3,15 +3,77 @@ import { BsBoxArrowUpRight } from 'react-icons/bs'
 import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 import Share from 'components/Share/Share'
 import type { IData } from 'types'
+import { collection, addDoc, doc,updateDoc } from 'firebase/firestore'
+import {db} from '../../firebase/Firebase'
+import Image from 'next/image'
+import { Timestamp } from 'firebase/firestore'
 
 interface CardProps {
-  data: IData
+  data: IData,
 }
 
 export const Card: FC<CardProps> = ({ data }) => {
   const { name, description, url } = data
   const descriptionRef = useRef<HTMLParagraphElement>(null)
   const [isOverflow, setIsOverflow] = useState(false)
+  const dbInstance = collection(db,'resources')
+  const [category, setCategory] = useState("")
+  const [subCategory,setSubCategory] = useState("")
+  const [likeCount,setLikeCount] = useState(0)
+  const [tempLikeCount, setTempLikeCount]:any = useState([]);
+  const timestamp = Timestamp.fromDate(new Date())
+  const date = timestamp.toDate()
+  const user = {
+    name: 'Vidip',
+    uid: 1234
+  }
+  
+  const save = ()=>{
+    const newItem = {
+      name: name,
+      description: description,
+      url: url,
+      category: category, 
+      subCategory: subCategory,
+      upvotedBy: user,
+      upvotes: likeCount,
+      created: date,
+    }
+
+    addDoc(dbInstance,newItem).then((doc)=>{
+      console.log('Item added with ID',doc.id);
+    })
+    .catch((e)=>{
+      console.log(e);
+    })
+  }
+
+  const likeHandler = async () => {
+    if (likeCount !== undefined) {
+      const idx = tempLikeCount.indexOf(user?.uid);
+      if (idx !== -1) {
+        tempLikeCount.splice(idx, 1);
+        setLikeCount((currLikeNo) => currLikeNo - 1);
+      } else {
+        tempLikeCount.push(user?.uid);
+        setLikeCount((currLikeNo) => currLikeNo + 1);
+      }
+      const data = {
+        likeCount: tempLikeCount,
+      };
+      try {
+        const docRef = doc(db, 'resources', 'yourDocumentID'); 
+        await updateDoc(docRef, data);
+        console.log('Update successful');
+      } catch (error) {
+        console.error('Update error:', error);
+      }
+    }
+  };
+  
+  const handleClick = async()=>{
+    await Promise.all([save(),likeHandler()]);
+  }
 
   useEffect(() => {
     if (descriptionRef.current) {
@@ -37,7 +99,7 @@ export const Card: FC<CardProps> = ({ data }) => {
             <Share url={`${url}?ref=LinksHub`} title={name} />
           </div>
         </header>
-        <div className="h-[7rem]">
+        <div className="h-[7rem]" onClick={handleClick}>
           <div
             ref={descriptionRef}
             className="h-24 w-full overflow-hidden font-sans text-ellipsis line-clamp-4"
@@ -50,6 +112,7 @@ export const Card: FC<CardProps> = ({ data }) => {
             </p>
           )}
         </div>
+        {/* <button onClick={handleClick}><Image src="/upvote.png" alt="img" width={50} height={50} /></button> */}
         <footer className="card-actions justify-end">
           <a
             onClick={(e) => e.stopPropagation()}
