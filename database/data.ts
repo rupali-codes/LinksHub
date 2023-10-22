@@ -369,7 +369,7 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'Truffle',
-        url: '/truffle ',
+        url: '/truffle',
         resources: DB.truffle,
       },
       {
