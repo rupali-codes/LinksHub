@@ -33,5 +33,12 @@
     "url": "https://www.youtube.com/watch?v=RRVYpIET_RU",
     "category": "languages",
     "subcategory": "cpp"
-  }
+  },
+  {
+    "name": "C++ full course for Beginners (Learn C++ in 10 hours)",
+    "description" : "It is a full C++ programming course. It consists of many lectures whose goal is to take you from beginner to advanced programming level.",
+    "url" : "https://youtu.be/GQp1zzTwrIg?si=40MAUhhef8A8Ft1R",
+    "category" : "languages",
+    "subcategory" : "cpp"
+      }
 ]
