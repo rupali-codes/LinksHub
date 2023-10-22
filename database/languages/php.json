@@ -1,0 +1,22 @@
+[
+    {
+        "name": "PHP Programming Language Tutorial - Full Course",
+        "description": "Learn the PHP programming language in this full course / tutorial. The course is designed for new programmers, and will introduce common programming topics using the PHP language.",
+        "url": "https://www.youtube.com/watch?v=OK_JCtrrv-c",
+        "category": "languages",
+        "subcategory": "php-programming"
+    },
+    {
+        "name": "PHP For Beginners",
+        "description": "Your first step in learning PHP. We will go over all of the fundamentals and create a small PHP/MySQL project.",
+        "url": "https://www.youtube.com/watch?v=BUCiSSyIGGU",
+        "category": "languages",
+        "subcategory": "php-programming"
+    },
+    {
+        "name": "Php Tutorial for Beginners in Hindi with MySQL Project",
+       "url": "https://www.youtube.com/watch?v=1SnPKhCdlsU",
+        "category": "languages",
+        "subcategory": "php-programming"
+    }
+]
