@@ -97,6 +97,7 @@ export { default as fintech } from './youtube/fintech.json'
 export { default as gameDevelopment } from './youtube/game-development.json'
 // other
 export { default as github } from './other/github.json'
+export { default as git } from './other/git.json'
 export { default as devtools } from './other/devtools.json'
 export { default as podcasts } from './other/podcasts.json'
 export { default as otherResources } from './other/other-resources.json'
@@ -116,5 +117,5 @@ export { default as portfolioBuilding } from './placement_prep/portfolio-buildin
 export { default as careerGuidance } from './placement_prep/career-guidance.json'
 export { default as certifications } from './placement_prep/certifications.json'
 //DSA
-export {default as dsaArticles} from './data_structures/dsa-articles.json'
-export {default as dsaTutorials} from './data_structures/dsa-tutorials.json'
+export { default as dsaArticles } from './data_structures/dsa-articles.json'
+export { default as dsaTutorials } from './data_structures/dsa-tutorials.json'
