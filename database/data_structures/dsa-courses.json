@@ -1,8 +1,30 @@
 [
+
     {
-        "name": "Scaler Academy",
-        "description": "Data Structure and Algorithms (Duration: 44 weeks)\n(Level: Beginner)\n(Price: Paid)",
-        "url": "https://www.scaler.com/courses/data-structures-and-algorithms/?utm_source=ib&utm_medium=blog-inlink&utm_campaign=ib-listicle&utm_content=dsa-course-blog",
+        "name": "Coursera",
+        "description": "Princeton University : Algorithms, Part I (Level : Intermediate)\n(Price : Free)",
+        "url": "https://www.coursera.org/learn/algorithms-part1?irclickid=R3ExqL3kfxyPUlu2taT6i1SeUkFTIbR3fwlM2Q0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3294490&utm_content=b2c",
+        "category": "data-structures",
+        "subcategory": "dsa-courses"
+    },
+    {
+        "name": "Coursera",
+        "description": "Data Science Foundations: Data Structures and Algorithms Specialization : By Sriram Sankaranarayanan - Top instructor at Coursera (Duration: 12 weeks)\n(Level: Intermediate *includes prerequisites\n(Price: Financial Aid available)",
+        "url": "https://www.coursera.org/specializations/boulder-data-structures-algorithms",
+        "category": "data-structures",
+        "subcategory": "dsa-courses"
+    },
+    {
+        "name": "Udemy",
+        "description": "Data Structure - Part I : Design, Implementation and Analysis of basic data structures using Java language (Level: Beginner)\n(Price: Free)\n",
+        "url": "https://www.udemy.com/course/data-structures-part-1-lognacademy/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-NGH_Nm7INaGTQkF2wiRvPw&utm_medium=udemyads&utm_source=aff-campaign",
+        "category": "data-structures",
+        "subcategory": "dsa-courses"
+    },
+    {
+        "name": "Udemy",
+        "description": "Introduction to Algorithms and Data structures in C++\n(Level:Beginner to Intermediate)\n(Price: Free)",
+        "url": "https://www.udemy.com/course/introduction-to-algorithms-and-data-structures-in-c/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-K_N7qnzYT67YYTr7r0rPJg&utm_medium=udemyads&utm_source=aff-campaign",
         "category": "data-structures",
         "subcategory": "dsa-courses"
     },
@@ -14,46 +36,12 @@
         "subcategory": "dsa-courses"
     },
     {
-        "name": "Coding Ninjas",
-        "description": "Basics of C++ with Data Structures and Algorithms 2023",
-        "url": "https://www.codingninjas.com/courses/c-plus-plus-data-structures-and-algorithms?utm_source=google&utm_medium=%5Bsearch%5D&utm_campaign=13690713501_125452862578_p_data%20structures%20and%20algorithms%20course__586672967269_c____9061783&gad=1&gclid=CjwKCAjwysipBhBXEiwApJOcu2cKlhjLG14wHh3adtSlWgN5zCsr9bolSHe9zubasgKA55dUEynPuRoCx4IQAvD_BwE",
-        "category": "data-structures",
-        "subcategory": "dsa-courses"
-    },
-    {
-        "name": "Udemy",
-        "description": "Master the Coding Interview: Data Structures + Algorithms",
-        "url": "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.EN_cc.INDIA&utm_content=deal4584&utm_term=_._ag_120954168648_._ad_670210173806_._kw_data+structures+and+algorithms+online+class_._de_c_._dm__._pl__._ti_kwd-941239194473_._li_9061783_._pd__._&matchtype=b&gclid=CjwKCAjwysipBhBXEiwApJOcu-Hb7TGzgY6Ox11Zq3y3-yrnSSBRE-uZAepbS1tt2txRKGr4-HmdvRoCss4QAvD_BwE",
-        "category": "data-structures",
-        "subcategory": "dsa-courses"
-    },
-    {
-        "name": "Geeks for Geeks",
-        "description": "Data Structures and ALgorithms : Self Paced\n(Level:Beginner to Intermediate)\n(Price: Paid)\n(Certification: Available)\n",
-        "url": "https://practice.geeksforgeeks.org/courses/dsa-self-paced?utm_source=geeksforgeeks&utm_medium=article+gblog&utm_campaign=dsa+course+promotion",
-        "category": "data-structures",
-        "subcategory": "dsa-courses"
-    },
-    {
-        "name": "Udacity",
-        "description": "Intro to Data Structures and Algorithms\n(Duration: 4 Weeks)\n(Level: Intermediate)\n(Price: Free)\n(Certificate: Available)",
-        "url": "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256?utm_source=gsem_brand&utm_source=gsem_india_brand&utm_medium=ads_r&utm_medium=ads_r&utm_campaign=18068487072_c_individuals&utm_campaign=18068487072_c&utm_term=140610583176&utm_term=140610583176_in&utm_keyword=udacity+data+structures_p&utm_keyword=udacity+data+structures_p",
-        "category": "data-structures",
-        "subcategory": "dsa-courses"
-    },
-    {
         "name": "Harvard : CS50's Introduction to Computer Science",
         "description": "Harvard University CS50's Introduction to Computer Science by David J. Malan (Duration: 12 weeks)\n(Level: Introductory)\n(Price: Financial Aid available)\n(Certificate: Available)",
         "url": "https://pll.harvard.edu/course/cs50-introduction-computer-science",
         "category": "data-structures",
         "subcategory": "dsa-courses"
-    },
-    {
-        "name": "Coursera",
-        "description": "Data Science Foundations: Data Structures and Algorithms Specialization : By Sriram Sankaranarayanan - Top instructor at Coursera (Duration: 12 weeks)\n(Level: Intermediate *includes prerequisites\n(Price: Financial Aid available)",
-        "url": "https://www.coursera.org/specializations/boulder-data-structures-algorithms",
-        "category": "data-structures",
-        "subcategory": "dsa-courses"
     }
+    
   ]
  
