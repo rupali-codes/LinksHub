@@ -121,10 +121,8 @@ export {default as dsaArticles} from './data_structures/dsa-articles.json'
 export {default as dsaTutorials} from './data_structures/dsa-tutorials.json'
 export { default as dsaArticles } from './data_structures/dsa-articles.json'
 export { default as dsaTutorials } from './data_structures/dsa-tutorials.json'
-
 // Block Chain
 export {default as smartContracts} from './BlockChain/smart-contracts.json'
 export {default as truffle} from './BlockChain/truffle.json'
 export {default as hardhat} from './BlockChain/hardhat.json'
 export {default as ethers} from './BlockChain/ethers.json'
-
