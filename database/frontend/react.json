@@ -121,5 +121,12 @@
     "url": "https://youtube.com/playlist?list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3&si=0J1E2PrkEUCcpEVC",
     "category": "frontend",
     "subcategory": "react"
+  },
+  {
+    "name": "Introduction to Front-End Development by META",
+    "description": "This is a free online resource for learning front-end development. The course is suitable for complete beginners and offers a complete introduction to front-end development.",
+    "url": "https://www.coursera.org/learn/introduction-to-front-end-development/",
+    "category": "frontend",
+    "subcategory": "react"
   }
 ]
