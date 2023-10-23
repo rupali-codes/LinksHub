@@ -204,7 +204,7 @@
   },
   {
     "name": "UIColors",
-    "description": "UIColors is a interactive Tailwind CSS Color Palette UI with real examples. Create your own palette or edit anything from the library. It also allows you to import the palette directly to Figma file and more.",
+    "description": "UIColors is a interactive Tailwind CSS color palette UI with real examples. Create your own palette or edit anything from the library. It also allows you to import the palette directly to Figma file and more.",
     "url": "https://uicolors.app/",
     "category": "frontend",
     "subcategory": "colors"
