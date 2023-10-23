@@ -103,5 +103,12 @@
     "url": "https://www.interviewbit.com/blog/cyber-security-projects/",
     "category": "resources",
     "subcategory": "project-ideas"
+  },
+   {
+    "name": "Web Development Projects",
+    "description": "This website provides free beginner to advanced level projects for Web development with source code.",
+    "url": "https://codedamn.com/projects/",
+    "category": "resources",
+    "subcategory": "project-ideas"
   }
 ]
