@@ -33,5 +33,12 @@
     "url": "https://www.youtube.com/watch?v=RRVYpIET_RU",
     "category": "languages",
     "subcategory": "cpp"
+  },
+  {
+    "name": "Complete C++ Course in Hindi for begineers by CodeWithHarry",
+    "description": "This C++ tutorials for beginners will teach you all the c++ concepts from the very starting to the end.",
+    "url": "https://youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL&si=pPNzyQz9YyWOxObt",
+    "category": "languages",
+    "subcategory": "cpp"
   }
 ]
