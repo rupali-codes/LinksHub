@@ -1,5 +1,12 @@
 [
     {
+      "name": "Learn Web Security by Hacker101",
+      "description": "This platform offers free hacking and web security tutorials. It can help you understand security vulnerabilities from an attacker's perspective.",
+      "url": "https://www.hacker101.com/start-here",
+      "category": "cyber-security",
+      "subcategory": "web-security"
+    },
+     {
       "name": "Web Application Penetration Testing Fundamentals",
       "description": "Learn the basics of web application penetration testing, including common vulnerabilities and testing methodologies.",
       "url": "https://www.owasp.org/index.php/Web_Application_Penetration_Testing",
