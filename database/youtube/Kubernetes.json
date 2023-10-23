@@ -5,14 +5,6 @@
         "url": "https://www.youtube.com/watch?v=y3WTwzx5ABk",
         "category": "youtube",
         "subcategory": "Kubernetes",
-        "language": "English"
-      },
-    {
-        "name": "Edureka Kubernetes Tutorial",
-        "description": "Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours.",
-        "url": "hhttps://youtu.be/X48VuDVv0do?si=dKDO8pGI9Wge3lN9",
-        "category": "youtube",
-        "subcategory": "Kubernetes",
-        "language": "English"
+        "language": "english"
       }
 ]
