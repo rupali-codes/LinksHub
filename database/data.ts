@@ -372,7 +372,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       {
         name: 'Smart Contracts',
-        url: '/smart-contracts',
+        url: '/smartcontracts',
         resources: DB.smartContracts,
       },
       {
