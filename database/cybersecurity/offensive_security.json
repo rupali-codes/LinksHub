@@ -47,7 +47,7 @@
   },
   {
     "name": "ExploitDB",
-    "description": "ExploitDB is a full-fledged database of publicly available exploits for the disclosed vulnerabilities till date.",
+    "description": "ExploitDB is a full-fledged database of publicly available exploits for disclosed vulnerabilities.",
     "url": "https://exploit-db.com/",
     "category": "cyber-security",
     "subcategory": "offensive-security"
