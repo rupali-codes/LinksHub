@@ -33,5 +33,12 @@
         "url": "https://docs.oracle.com/javase/tutorial/",
         "category": "languages",
         "subcategory": "java"
+    },
+      {
+        "name": "Java Placement Series",
+        "description":"This playlist covers all the Data Structures and Algorithms (DSA) topics and problems essential for successfully preparing for technical company placements.",
+        "url": "https://shorturl.at/abgjL",
+        "category": "languages",
+        "subcategory": "java"
     }
 ]
