@@ -19,6 +19,12 @@
         "url":"https://docs.docker.com/",
         "category":"devops",
         "subcategory":"docker"
+    },
+      {
+        "name":"Docker Tutorial for Beginners - What is Docker? Introduction to Containers",
+        "description":"This covers an introduction to containers, Docker, the architecture, various concepts and terminologies, installation, hands-on examples, and more!",
+        "url":"https://www.youtube.com/watch?v=17Bl31rlnRM",
+        "category":"devops",
+        "subcategory":"docker"
     }
-
 ]
