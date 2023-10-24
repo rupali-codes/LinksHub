@@ -124,5 +124,12 @@
         "url": "https://www.coingecko.com/en/api/documentation",
         "category": "backend",
         "subcategory": "api"
+    },
+    {
+        "name": "NASA API",
+        "description": "NASA's API provides access to various data, images, and information related to space, astronomy, and space missions.",
+        "url": "https://api.nasa.gov",
+        "category": "backend",
+        "subcategory": "api"
     }
 ]

@@ -174,6 +174,7 @@ const categoryDescriptions: CategoryDescriptions = {
   devtools:
     'This list of Development tools will help you boost your programming speed and modify your projects to the next level.',
   github: 'Well, Github does not need description, devs know well!',
+  git: 'Your friendly neighborhood version control system to track the development activities.',
   'other resources':
     'Some extra resources to help you in your coding projects.',
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
