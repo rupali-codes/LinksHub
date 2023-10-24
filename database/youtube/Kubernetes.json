@@ -6,15 +6,13 @@
         "category": "youtube",
         "subcategory": "Kubernetes",
         "language": "english"
-      }
-]
-[
+    },
     {
         "name": "TechWorld with Nana",
-        "description": "TechWorld with Nana Kubernetes YouTube 4 hour tutorial offers a comprehensive and beginner-friendly guide to understanding and mastering Kubernetes.",
+        "description": "TechWorld with Nana Kubernetes YouTube 4-hour tutorial offers a comprehensive and beginner-friendly guide to understanding and mastering Kubernetes.",
         "url": "https://youtu.be/X48VuDVv0do?si=VUaShrqe0PuMrfl4",
         "category": "youtube",
         "subcategory": "Kubernetes",
         "language": "english"
-      }
+    }
 ]
