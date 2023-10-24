@@ -34,4 +34,11 @@
         "category": "languages",
         "subcategory": "java"
     }
+         {
+        "name": "Java Complete Course | Placement Series",
+        "description":"This playlist covers all the Data Structures and Algorithms (DSA) topics and problems essential for successfully preparing for technical company placements. This course is placement-oriented and focuses on the skills you need to excel in tech company placements.",
+        "url": "https://youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&si=wERZKdbONF4bMydM",
+        "category": "languages",
+        "subcategory": "java"
+    }
 ]
