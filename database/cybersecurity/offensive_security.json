@@ -44,5 +44,12 @@
     "url": "https://zsecurity.org/",
     "category": "cyber-security",
     "subcategory": "offensive-security"
+  },
+  {
+    "name": "ExploitDB",
+    "description": "ExploitDB is a full-fledged database of publicly available exploits for the disclosed vulnerabilities till date.",
+    "url": "https://exploit-db.com/",
+    "category": "cyber-security",
+    "subcategory": "offensive-security"
   }
 ]
