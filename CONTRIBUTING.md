@@ -248,12 +248,12 @@ We follow a standardized commit message format using Commitlint to ensure consis
 #### ✔️ Examples of Valid Commit Messages
 
 - `feat: Add user authentication feature`
-- `fix(auth): Resolve login page redirect issue
-- `docs: Update installation instructions
-- `style: Format code according to project guidelines
+- `fix(auth): Resolve login page redirect issue`
+- `docs: Update installation instructions`
+- `style: Format code according to project guidelines`
 - `refactor(navbar): Improve responsiveness`
 - `test: Add unit tests for API endpoints`
-- `chore: Update dependencies to latest versions
+- `chore: Update dependencies to latest versions`
 - `fix: Handle edge case in data processing (#456)`
 
 #### ❌ Examples of Invalid Commit Messages
