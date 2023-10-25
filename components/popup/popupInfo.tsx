@@ -5,6 +5,9 @@ import { Backdrop } from 'components/Backdrop/Backdrop'
 import { createPortal } from 'react-dom'
 import useDelayUnmount from 'hooks/useDelayUnmount'
 import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
+import {BsYoutube,BsPen } from 'react-icons/bs'
+import{MdArticle} from 'react-icons/md'
+import {AiOutlineRead} from 'react-icons/ai'
 
 export const PopupInfo: React.FC<{
   currentCard: IData | null
@@ -21,6 +24,8 @@ export const PopupInfo: React.FC<{
   if (!overlayRoot) {
     return null
   }
+
+  const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/
 
   return (
     <>
@@ -61,9 +66,10 @@ export const PopupInfo: React.FC<{
               href={currentCard?.url}
               target="_blank"
               rel="noreferrer"
-              className="mt-2 px-6 py-2 text-white text-center bg-theme-secondary rounded-2xl w-full hover:bg-transparent hover:text-theme-secondary border border-dashed border-transparent duration-100 hover:border-theme-primary flex items-center justify-center bottom-0 relative"
+              className="mt-2 px-6 py-2 text-white text-center bg-theme-secondary rounded-2xl w-full hover:bg-transparent hover:text-theme-secondary border border-dashed border-transparent duration-100 hover:border-theme-primary flex items-center justify-center bottom-0 relative gap-2"
             >
-              Visit site
+              Visit Site 
+              {youtubeRegex.test(currentCard?.url||'') ? <BsYoutube size="1.3em"/> : currentCard?.subcategory==='e-book'?<AiOutlineRead size="1.3em"/>:currentCard?.subcategory==='technical-writing-tools'?<BsPen size="1.2em"/>:<MdArticle size="1.3em"/>}
             </a>
           </div>
 
