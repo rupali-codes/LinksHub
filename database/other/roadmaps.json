@@ -12,5 +12,12 @@
     "url": "https://www.guvi.in/blog/dsa-roadmap-beginners-should-know/",
     "category": "other",
     "subcategory": "roadmaps"
+  },
+  {
+    "name": "Blockchain Roadmap",
+    "description": "This roadmap is open-sourced and contains a comprehensive roadmap on how to proceed in the field of Blockchain.",
+    "url": "https://roadmap.sh/blockchain",
+    "category": "other",
+    "subcategory": "roadmaps"
   }
 ]
