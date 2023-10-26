@@ -309,8 +309,8 @@ export const sidebarData: ISidebar[] = [
         name:'DSA Tutorials',url:'/dsa-tutorials',resources:DB.dsaTutorials,
       },
       {
-        name:'DSA Courses',url:'/dsa-courses',resources:DB.dsaCourses,
-      }
+        name:'DSA Courses',url:'/dsa-courses',resources: DB.dsaCourses,
+      },
     ]
   },
   {

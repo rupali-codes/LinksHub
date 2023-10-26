@@ -191,9 +191,9 @@ const categoryDescriptions: CategoryDescriptions = {
     'This list provides the tools to suit your tech writing needs.',
    
   //data-structures
-  'dsa articles':
+  'dsa-articles':
   'This section provides various important articles related to DSA problem solving skills, how to tackle them, how to think about it and many more.',
-  'dsa courses' :
+  'dsa-courses' :
    'This section provides various online courses that can help you start with the fundamentals of data structures and algorithms and also ace your coding interviews.' 
 }
 
