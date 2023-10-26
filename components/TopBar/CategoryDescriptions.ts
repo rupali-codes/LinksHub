@@ -79,6 +79,8 @@ const categoryDescriptions: CategoryDescriptions = {
   ruby: 'Ruby is a high-level, interpreted programming language that was developed in the mid-1990s by Yukihiro Matsumoto in Japan. Ruby is widely used for developing web applications, mobile applications, and desktop applications.',
   typescript:
     ' TypeScript is a statically typed language that supports object-oriented and functional programming styles, used for developing web applications, mobile applications, and desktop applications.',
+  solidity:
+  'Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.',
 
   // Open-source
   articles:
@@ -172,6 +174,7 @@ const categoryDescriptions: CategoryDescriptions = {
   devtools:
     'This list of Development tools will help you boost your programming speed and modify your projects to the next level.',
   github: 'Well, Github does not need description, devs know well!',
+  git: 'Your friendly neighborhood version control system to track the development activities.',
   'other resources':
     'Some extra resources to help you in your coding projects.',
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',

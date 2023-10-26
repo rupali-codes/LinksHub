@@ -107,6 +107,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Kotlin', url: '/kotlin', resources: DB.kotlin },
       { name: 'Rust', url: '/rust', resources: DB.Rust },
       { name: 'Dart', url: '/dart', resources: DB.dart },
+      { name: 'Solidity', url: '/solidity', resources: DB.solidity },
     ],
   },
   {
@@ -252,7 +253,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'hosting', url: '/hosting', resources: DB.hosting },
       { name: 'e-book', url: '/e-book', resources: DB.ebook },
       { name: 'dsa', url: '/dsa', resources: DB.dsa },
-      { name: 'project ideas', url: '/project-ideas', resources: DB.project }
+      { name: 'project ideas', url: '/project-ideas', resources: DB.project },
     ],
   },
   {
@@ -304,8 +305,7 @@ export const sidebarData: ISidebar[] = [
     subcategory:[
       {name:'DSA Articles',url:'/dsa-articles',resources:DB.dsaArticles},
       {name:'DSA Tutorials',url:'/dsa-tutorials',resources:DB.dsaTutorials},
-      {name:'DSA Courses',url:'/dsa-courses',resources:DB.dsaCourses},
-      
+      {name:'DSA Courses',url:'/dsa-courses',resources:DB.dsaCourses},   
     ],
   },
   {
@@ -338,7 +338,11 @@ export const sidebarData: ISidebar[] = [
         url: '/portfolio-building',
         resources: DB.portfolioBuilding,
       },
-      { name: 'Career Guidance', url: '/career-guidance', resources: DB.careerGuidance },
+      {
+        name: 'Career Guidance',
+        url: '/career-guidance',
+        resources: DB.careerGuidance,
+      },
       {
         name: 'Certifications',
         url: '/certifications',
@@ -361,6 +365,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'events', url: '/events', resources: DB.events },
       { name: 'Github', url: '/github', resources: DB.github },
+      { name: 'Git', url: '/git', resources: DB.git },
       { name: 'Dev Tools', url: '/devtools', resources: DB.devtools },
       { name: 'Podcasts', url: '/podcasts', resources: DB.podcasts },
       {
@@ -372,7 +377,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Roadmaps', url: '/roadmaps', resources: DB.roadmaps },
       { name: 'Domains', url: '/domains', resources: DB.domains },
     ],
-  }
+  },
 ]
 
 export const subCategories = sidebarData.flatMap(({ category, subcategory }) =>

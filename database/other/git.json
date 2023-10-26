@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Learn Git Branching",
+    "description": "This website gives you an interactive tool to learn about the git commands.",
+    "url": "https://learngitbranching.js.org/",
+    "category": "other",
+    "subcategory": "git"
+  },
+  {
+    "name": "Git Book",
+    "description": "This is one of the great books to learn Git. It contains tutorials, code examples, and collaboration tips.",
+    "url": "https://git-scm.com/book/en/v2",
+    "category": "other",
+    "subcategory": "git"
+  },
+  {
+    "name": "Version Control with Git",
+    "description": "It is a free course provided by Udacity, which covers the essentials of using Git.",
+    "url": "https://www.udacity.com/course/version-control-with-git--ud123",
+    "category": "other",
+    "subcategory": "git"
+  }
+]
