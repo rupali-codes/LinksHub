@@ -19,7 +19,7 @@ const categoryDescriptions: CategoryDescriptions = {
   illustrations:
     'Illustrations are visual representations of text, concepts, or ideas. They can be used to convey complex information in a simple and easy-to-understand way.',
   images:
-    'Images are visual representations of objects or concepts. They can be used to convey information in a simple and easy-to-understand way.',
+    'Images are the visual representations of objects or concepts. They can be used to convey information in a simple and easy-to-understand way.',
   onlineCodeEditors:
     'Online code editors are web-based tools that allow you to write and test code in your browser. They are useful for quickly testing out code snippets or for working on small projects.',
   react:
@@ -190,9 +190,11 @@ const categoryDescriptions: CategoryDescriptions = {
   'technical writing tools':
     'This list provides the tools to suit your tech writing needs.',
    
-  //DSA
-  'DSA articles':'This section provides various important articles related to DSA problem solving skills, how to tackle them, how to think about it and many more.'
-
+  //data-structures
+  'dsa articles':
+  'This section provides various important articles related to DSA problem solving skills, how to tackle them, how to think about it and many more.',
+  'dsa courses' :
+   'This section provides various online courses that can help you start with the fundamentals of data structures and algorithms and also ace your coding interviews.' 
 }
 
 export default categoryDescriptions
