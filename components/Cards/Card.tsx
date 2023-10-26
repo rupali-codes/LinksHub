@@ -9,6 +9,10 @@ import { collection, addDoc, doc,updateDoc } from 'firebase/firestore'
 import {db} from '../../firebase/Firebase'
 import Image from 'next/image'
 import { Timestamp } from 'firebase/firestore'
+import { collection, addDoc, doc,updateDoc } from 'firebase/firestore'
+import {db} from '../../firebase/Firebase'
+import Image from 'next/image'
+import { Timestamp } from 'firebase/firestore'
 
 interface CardProps {
   data: IData,
