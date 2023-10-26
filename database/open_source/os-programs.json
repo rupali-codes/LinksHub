@@ -33,5 +33,12 @@
       "url": "https://events.linuxfoundation.org/about/calendar/",
       "category": "open-source",
       "subcategory": "os-programs"
+    },
+    {
+      "name": "MLH Fellowship",
+      "description": "The MLH Fellowship is a 12-week internship for aspiring software engineers to contribute to the type of Open Source projects that every company depends on.",
+      "url": "https://fellowship.mlh.io/programs/open-source",
+      "category": "open-source",
+      "subcategory": "os-programs"
     }
   ]
