@@ -79,7 +79,7 @@
   },
   {
     "name": "FontSpace",
-    "description": "FontSpace is a font directory with more than 100,000+ freely available fonts. It takes a visual approach to displaying fonts.",
+    "description": "FontSpace is a font directory with more than 100,000+ freely available fonts. It takes a visual approach for displaying fonts.",
     "url": "https://www.fontspace.com/",
     "category": "frontend",
     "subcategory": "fonts"
