@@ -79,7 +79,7 @@ const categoryDescriptions: CategoryDescriptions = {
   ruby: 'Ruby is a high-level, interpreted programming language that was developed in the mid-1990s by Yukihiro Matsumoto in Japan. Ruby is widely used for developing web applications, mobile applications, and desktop applications.',
   typescript:
     ' TypeScript is a statically typed language that supports object-oriented and functional programming styles, used for developing web applications, mobile applications, and desktop applications.',
-  solidity:
+solidity:
   'Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.',
 
   // Open-source
@@ -174,7 +174,7 @@ const categoryDescriptions: CategoryDescriptions = {
   devtools:
     'This list of Development tools will help you boost your programming speed and modify your projects to the next level.',
   github: 'Well, Github does not need description, devs know well!',
-  git: 'Your friendly neighborhood version control system to track the development activities.',
+git: 'Your friendly neighborhood version control system to track the development activities.',
   'other resources':
     'Some extra resources to help you in your coding projects.',
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
@@ -197,7 +197,9 @@ const categoryDescriptions: CategoryDescriptions = {
   'dsa-articles':
   'This section provides various important articles related to DSA problem solving skills, how to tackle them, how to think about it and many more.',
   'dsa-courses' :
-   'This section provides various online courses that can help you start with the fundamentals of data structures and algorithms and also ace your coding interviews.' 
-}
+   'This section provides various online courses that can help you start with the fundamentals of data structures and algorithms and also ace your coding interviews.' ,
+  'dsa-tutorials':
+  'This section provides you with YouTube tutorials that help you grasp concepts better by hands-on experience and learn better, practically!'
+  }
 
 export default categoryDescriptions
