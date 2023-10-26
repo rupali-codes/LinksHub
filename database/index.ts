@@ -115,6 +115,6 @@ export { default as portfolioBuilding } from './placement_prep/portfolio-buildin
 export { default as careerGuidance } from './placement_prep/career-guidance.json'
 export { default as certifications } from './placement_prep/certifications.json'
 //DSA
-export {default as dsaArticles} from './data_structures/dsa-articles.json'
-export {default as dsaTutorials} from './data_structures/dsa-tutorials.json'
-export {default as dsaCourses} from './data_structures/dsa-courses.json'
+export { default as dsaArticles } from './data_structures/dsa-articles.json'
+export { default as dsaTutorials } from './data_structures/dsa-tutorials.json'
+export { default as dsaCourses } from './data_structures/dsa-courses.json'
