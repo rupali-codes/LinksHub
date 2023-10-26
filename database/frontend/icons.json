@@ -243,5 +243,12 @@
     "url": "https://react-icons.github.io/react-icons/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Iconsax",
+    "description": "ICONSAX for React and React Native.",
+    "url": "https://iconsax-react.pages.dev/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
