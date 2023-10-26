@@ -9,7 +9,7 @@ const categoryDescriptions: CategoryDescriptions = {
   animations:
     'Animation is the state of being full of life and energy, like a room full of excited kids at a birthday party. It is a method of photographing successive drawings, models, or even puppets, to create an illusion of movement in a sequence.',
   colors:
-    'Colors means those aspects of the appearance of objects and light sources that may be described in terms of hue, lightness, and saturation',
+    'Colors mean the aspects of the appearance of objects and light sources that may be described in terms of hue, lightness, and saturation',
   'design inspiration':
     'The right kind of inspiration will always help you come up with creative and unique ideas for your projects but sometimes you need some help getting inspired. Luckily, there are a TON of great resources for design inspiration.',
   fonts:
@@ -110,23 +110,23 @@ solidity:
     'Microservices are a software development technique—a variant of the service-oriented architecture (SOA) architectural style that structures an application as a collection of loosely coupled services.',
 
   // AI
-  'data-science':
+  'data science':
     'Data science is an interdisciplinary field that involves the use of statistical, mathematical, and computational methods to extract insights and knowledge from data. Data science is widely used for machine learning, data analysis, and data visualization.',
-  'deep-learning':
+  'deep learning':
     'Deep learning is a subfield of machine learning that involves the use of neural networks to learn from data. Deep learning is widely used for image recognition, natural language processing, and speech recognition. ',
   'machine-learning':
     'Machine learning is a subfield of artificial intelligence that uses statistical, mathematical, and computational methods to learn from data. Machine learning is widely used for data analysis, data visualization, and predictive modeling.',
-  'natural-language-processing':
+  'natural language processing':
     'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
 
   // cyber-security
-  'offensive-security':
+  'offensive security':
     'Offensive security is the proactive approach to securing networks and systems from attacks by actively seeking out vulnerabilities and weaknesses. ',
-  'defensive-security':
+  'defensive security':
     'Defensive security is a proactive approach that focuses on prevention, detection, and response to attacks from the perspective of defending the organization.',
-  'malware-analysis':
+  'malware analysis':
     'Malware analysis is the study of the unique features, objectives, sources, and potential effects of harmful software and code, such as spyware, viruses, malvertising, and ransomware.',
-  'web-security':
+  'web security':
     'Web application penetration testing is the practice of simulating attacks on a system in an attempt to gain access to sensitive data, with the purpose of determining whether a system is secure.',
 
   //resources
@@ -190,7 +190,7 @@ git: 'Your friendly neighborhood version control system to track the development
    certifications : 'Curated list of globally recognized tech certifications, including requirements, benefits, and preparation strategies, emphasizing industry recognition and validity.',
   
   //technical-writing
-  'technical-writing-tools':
+  'technical writing tools':
     'This list provides the tools to suit your tech writing needs.',
    
   //data-structures
