@@ -311,7 +311,7 @@ export const sidebarData: ISidebar[] = [
       {
         name:'DSA Courses',url:'/dsa-courses',resources: DB.dsaCourses,
       },
-    ]
+    ],
   },
   {
     category: 'competitive-programming',
