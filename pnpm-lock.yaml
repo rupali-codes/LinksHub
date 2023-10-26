@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@types/firebase':
+    specifier: ^3.2.1
+    version: 3.2.1
   '@types/node':
     specifier: 18.15.11
     version: 18.15.11
@@ -828,6 +831,16 @@ packages:
     resolution: {integrity: sha512-sJ902EfIzn1Fa+qYmjdQqh8tPsoxyBz+8yBKC2HKUxyezKJFwPGOn7pv4WY6QuQW//ySQi5lJjA/ZT9sNWWNTg==}
     dependencies:
       tslib: 2.5.0
+    dev: false
+
+  /@types/firebase@3.2.1:
+    resolution: {integrity: sha512-G8XgHMu2jHlElfc2xVNaYP50F0qrqeTCjgeG1v5b4SRwWG4XKC4fCuEdVZuZaMRmVygcnbRZBAo9O7RsDvmkGQ==}
+    deprecated: This is a stub types definition for Firebase API (https://www.firebase.com/docs/javascript/firebase). Firebase API provides its own type definitions, so you don't need @types/firebase installed!
+    dependencies:
+      firebase: 10.5.0
+    transitivePeerDependencies:
+      - '@react-native-async-storage/async-storage'
+      - encoding
     dev: false
 
   /@types/json-schema@7.0.11:
