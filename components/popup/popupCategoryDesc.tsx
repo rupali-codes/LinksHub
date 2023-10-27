@@ -47,7 +47,7 @@ const PopupDesc: React.FC<{
               <p className="">{description}</p>
             </div>
           ) : (
-            <div className="w-full flex flex-col gap-2 items-center justify-center items-center min-h-[100px]">
+            <div className="w-full flex flex-col gap-2 items-center justify-center min-h-[100px]">
               <p className='text-2xl'>Oops!</p>
               <h2 className="text-xl text-center">
                 No description was provided for{' '}
