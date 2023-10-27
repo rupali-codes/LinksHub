@@ -9,6 +9,7 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'frontend',
     subcategory: [
+      { name: 'react js', url: '/react-js', resources: DB.reactjs },
       { name: 'next js', url: '/next-js', resources: DB.next },
       { name: 'three js', url: '/three-js', resources: DB.three },
       { name: 'images', url: '/images', resources: DB.images },
