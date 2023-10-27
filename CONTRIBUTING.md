@@ -280,7 +280,7 @@ git commit -m "feat(auth): Implement user signup process (#789)"
 2. Each pull request should contain a single logical change or related set of changes that make sense to submit together. If a pull request becomes too large or contains too many unrelated changes, it becomes too difficult to review. In such cases, the reviewer has the right to close your pull request and ask that you submit a separate pull request for each logical set of changes that belong together.
 
 3. Link the issue you have resolved in the Pull Request Template (e.g. Closes/Fixes #99).
-4. Use our [Commit messages Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md#commits-message-guidelines) for your changes.
+4. Use our [Commit messages Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md#commits-message-guidelines-) for your changes.
 5. Do not re-open a pull request that a reviewer has closed.
    - Make sure to tick the "Allow edits from maintainers" box. This allows us to directly make minor edits / refactors and saves a lot of time.
      > **Note**
