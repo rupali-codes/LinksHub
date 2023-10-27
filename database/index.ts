@@ -83,6 +83,7 @@ export { default as ebook } from './resources/e-book.json'
 export { default as project } from './resources/project-ideas.json'
 export { default as dsa } from './resources/dsa.json'
 export { default as events } from './other/events.json'
+export { default as selfpacedcourses } from './resources/self-paced-courses.json'
 // youtube
 export { default as android } from './youtube/android.json'
 export { default as css } from './youtube/css.json'
