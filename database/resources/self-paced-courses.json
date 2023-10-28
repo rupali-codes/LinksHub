@@ -1,21 +1,21 @@
 [
   {
     "name": "FreeCodeCamp",
-    "description": "We can learn various self paced beginner friendly courses in their own website code editor.",
+    "description": "Learn how to code and in various self paced beginner friendly courses on Codecademy. You can also put your skills into practice with their own website code editor.",
     "url": "https://www.freecodecamp.org/learn",
     "category": "resources",
     "subcategory": "self-paced-courses"
   },
   {
     "name": "Exercism",
-    "description": "This website provides 67 programming languages support to develop fluency in their very own way.",
+    "description": "This website provides 67 programming languages to help aspiring developers to develop fluency in their own way.",
     "url": "https://exercism.org/tracks",
     "category": "resources",
     "subcategory": "self-paced-courses"
   },
   {
     "name": "CodeCademy",
-    "description": "Learning and mastery the both languages and various tracks that available on this website.",
+    "description": "Learning and master both languages in various tracks on this website.",
     "url": "https://www.codecademy.com/catalog",
     "category": "resources",
     "subcategory": "self-paced-courses"
