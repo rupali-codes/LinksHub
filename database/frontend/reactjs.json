@@ -1,7 +1,7 @@
 [
   {
     "name": "ReactJS",
-    "description": "React.js, a widely popular JavaScript library, empowers developers to build dynamic user interfaces with ease. It simplifies the creation of interactive web applications by providing a declarative and component-based approach, making it a go-to choice for developers looking to craft modern and efficient front-end experiences.",
+    "description": "React.js, a widely popular JavaScript library, empowers developers to build dynamic user interfaces with ease. It simplifies the creation of interactive web applications by providing a declarative and component-based approach, making it a go-to choice for developers looking to craft modern and efficient frontend experiences.",
     "url": "https://react-tutorial.app/",
     "category": "frontend",
     "subcategory": "react-js"
