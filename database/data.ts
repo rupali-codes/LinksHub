@@ -301,18 +301,11 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'data-structures',
-    subcategory: [
-      {
-        name: 'DSA Articles',
-        url: '/dsa-articles',
-        resources: DB.dsaArticles,
-      },
-      {
-        name: 'DSA Tutorials',
-        url: '/dsa-tutorials',
-        resources: DB.dsaTutorials,
-      },
+    category:'data-structures',
+    subcategory:[
+      {name:'DSA Articles',url:'/dsa-articles',resources:DB.dsaArticles},
+      {name:'DSA Tutorials',url:'/dsa-tutorials',resources:DB.dsaTutorials},
+      {name:'DSA Courses',url:'/dsa-courses',resources:DB.dsaCourses},   
     ],
   },
   {

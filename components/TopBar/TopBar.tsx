@@ -91,7 +91,7 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
                   paddingTop: '2px',
                   paddingBottom: '2px',
                 }}
-              />
+              />              
               <PopupDesc
                 currentCategory={currentCategory}
                 onClose={removeCurrentCard}

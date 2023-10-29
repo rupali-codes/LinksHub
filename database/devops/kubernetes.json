@@ -5,5 +5,12 @@
         "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
         "category": "devops",
         "subcategory": "kubernetes"
-    }
+    },
+{
+        "name": "Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours].",
+        "description": "This is a comprehensive Kubernetes tutorial for beginners.",
+        "url": "https://youtu.be/X48VuDVv0do?si=dKDO8pGI9Wge3lN9",
+        "category": "devops",
+        "subcategory": "kubernetes"
+      }
 ]
