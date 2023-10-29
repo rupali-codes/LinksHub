@@ -9,7 +9,7 @@ const categoryDescriptions: CategoryDescriptions = {
   animations:
     'Animation is the state of being full of life and energy, like a room full of excited kids at a birthday party. It is a method of photographing successive drawings, models, or even puppets, to create an illusion of movement in a sequence.',
   colors:
-    'Colors mean the aspect of the appearance of objects and light sources that may be described in terms of hue, lightness, and saturation',
+    'Colors mean the aspects of the appearance of objects and light sources that may be described in terms of hue, lightness, and saturation',
   'design inspiration':
     'The right kind of inspiration will always help you come up with creative and unique ideas for your projects but sometimes you need some help getting inspired. Luckily, there are a TON of great resources for design inspiration.',
   fonts:
@@ -19,7 +19,7 @@ const categoryDescriptions: CategoryDescriptions = {
   illustrations:
     'Illustrations are visual representations of text, concepts, or ideas. They can be used to convey complex information in a simple and easy-to-understand way.',
   images:
-    'Images are visual representations of objects or concepts. They can be used to convey information in a simple and easy-to-understand way.',
+    'Images are the visual representations of objects or concepts. They can be used to convey information in a simple and easy-to-understand way.',
   onlineCodeEditors:
     'Online code editors are web-based tools that allow you to write and test code in your browser. They are useful for quickly testing out code snippets or for working on small projects.',
   react:
@@ -79,7 +79,7 @@ const categoryDescriptions: CategoryDescriptions = {
   ruby: 'Ruby is a high-level, interpreted programming language that was developed in the mid-1990s by Yukihiro Matsumoto in Japan. Ruby is widely used for developing web applications, mobile applications, and desktop applications.',
   typescript:
     ' TypeScript is a statically typed language that supports object-oriented and functional programming styles, used for developing web applications, mobile applications, and desktop applications.',
-  solidity:
+solidity:
   'Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.',
 
   // Open-source
@@ -174,7 +174,7 @@ const categoryDescriptions: CategoryDescriptions = {
   devtools:
     'This list of Development tools will help you boost your programming speed and modify your projects to the next level.',
   github: 'Well, Github does not need description, devs know well!',
-  git: 'Your friendly neighborhood version control system to track the development activities.',
+git: 'Your friendly neighborhood version control system to track the development activities.',
   'other resources':
     'Some extra resources to help you in your coding projects.',
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
@@ -193,9 +193,14 @@ const categoryDescriptions: CategoryDescriptions = {
   'technical writing tools':
     'This list provides the tools to suit your tech writing needs.',
    
-  //DSA
-  'DSA articles':'This section provides various important articles related to DSA problem solving skills, how to tackle them, how to think about it and many more.'
-
+  //data-structures
+  'dsa articles':
+  'This section provides various important articles related to DSA problem solving skills, how to tackle them, how to think about it and many more.',
+  'dsa courses' :
+   'This section provides various online courses that can help you start with the fundamentals of data structures and algorithms and also ace your coding interviews.' ,
+  'dsa tutorials':
+  'This section provides you with YouTube tutorials that help you grasp concepts better by hands-on experience and learn better, practically!'
+  
 }
 
 export default categoryDescriptions
