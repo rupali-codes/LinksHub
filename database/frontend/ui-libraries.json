@@ -26,5 +26,13 @@
         "description": "NextUI is a UI library for React that combines the power of TailwindCSS with React Aria to provide a complete components (logic and styles) for building accessible and customizable user interfaces. Since NextUI uses TailwindCSS as its style engine, you can use all TailwindCSS classes within your NextUI components, ensuring optimal compiled CSS size.",
         "category": "frontend",
         "subcategory": "ui-libraries"
+    },
+    {
+        "name": "Material Tailwind",
+        "url": "https://material-tailwind.com/",
+        "description": "Material Tailwind is a design system and framework that fuses the principles of Google's Material Design with the utility-first approach of Tailwind CSS. It provides a comprehensive set of components and styles for developing modern, Material Design-inspired user interfaces. With Material Tailwind, you can create web applications that follow Material Design guidelines while harnessing the flexibility and utility classes of Tailwind CSS to optimize your CSS output size.",
+        "category": "frontend",
+        "subcategory": "ui-frameworks"
     }
+    
 ]
