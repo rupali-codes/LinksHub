@@ -96,5 +96,26 @@
     "url": "https://neon.tech/",
     "category": "backend",
     "subcategory": "database"
+  },
+  {
+    "name": "PouchDB",
+    "description": "PouchDB is an open-source JavaScript database built for creating offline-first web and mobile applications. It enables applications to work both online and offline while seamlessly syncing data.",
+    "url": "https://pouchdb.com/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
+    "name": "RethinkDB",
+    "description": "RethinkDB is an open-source, distributed NoSQL database designed for real-time web applications. It offers real-time data updates and dynamic querying capabilities.",
+    "url": "https://rethinkdb.com/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
+    "name": "Yugabyte DB",
+    "description": "YugabyteDB is the 100% open source cloud native database for mission critical applications. YugabyteDB runs in any public or hybrid cloud.",
+    "url": "https://www.yugabyte.com/",
+    "category": "backend",
+    "subcategory": "database"
   }
 ]

@@ -19,5 +19,12 @@
         "description": "Ant Design is a comprehensive design system and React component library that offers a wide range of polished and customizable UI components for building modern web and mobile applications. It's widely used for its aesthetic appeal, robust feature set, and support for internationalization.",
         "category": "frontend",
         "subcategory": "ui-libraries"
+    },
+    {
+        "name": "NextUI",
+        "url": "https://nextui.org/",
+        "description": "NextUI is a UI library for React that combines the power of TailwindCSS with React Aria to provide a complete components (logic and styles) for building accessible and customizable user interfaces. Since NextUI uses TailwindCSS as its style engine, you can use all TailwindCSS classes within your NextUI components, ensuring optimal compiled CSS size.",
+        "category": "frontend",
+        "subcategory": "ui-libraries"
     }
 ]
