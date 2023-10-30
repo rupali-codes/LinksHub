@@ -8,7 +8,7 @@
   },
   {
     "name": "Fonts Quirrel",
-    "description": "Fonts Quirrel is platform to get free commercial fonts for your project. It's another huge library for fonts ",
+    "description": "Fonts Quirrel is platform to get free commercial fonts for your project. It's another huge library for fonts.",
     "url": "https://fontsquirrel.com/",
     "category": "frontend",
     "subcategory": "fonts"
@@ -76,5 +76,13 @@
     "url": "https://www.fontmirror.com/",
     "category": "frontend",
     "subcategory": "fonts"
+  },
+  {
+    "name": "FontSpace",
+    "description": "FontSpace is a font directory with more than 100,000+ freely available fonts. It takes a visual approach for displaying fonts.",
+    "url": "https://www.fontspace.com/",
+    "category": "frontend",
+    "subcategory": "fonts"
   }
+
 ]

@@ -33,5 +33,12 @@
         "url": "https://aws.amazon.com/ses/",
         "category": "backend",
         "subcategory": "email-providers"  
+    },
+    {
+        "name": "Novu",
+        "description": "Novu is an open-source notification infrastructure that allows developers to send notifications to their users through multiple channels, including email.",
+        "url": "https://novu.co/",
+        "category": "backend",
+        "subcategory": "email-providers"
     }
 ]

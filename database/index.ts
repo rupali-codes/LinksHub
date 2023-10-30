@@ -74,7 +74,7 @@ export { default as openSourceArticles } from './open_source/articles.json'
 export { default as openSourcePrograms } from './open_source/os-programs.json'
 export { default as openSourceProjects } from './open_source/projects.json'
 export { default as openSourceTools } from './open_source/tools.json'
-export { default as openSourceTutorials } from './open_source/os-tutorials.json'
+export { default as openSourceTutorials } from './open_source/tutorials.json'
 // resources
 export { default as blogs } from './resources/blogs.json'
 export { default as officialdocs } from './resources/official-docs.json'
@@ -119,8 +119,11 @@ export { default as certifications } from './placement_prep/certifications.json'
 //DSA
 export { default as dsaArticles } from './data_structures/dsa-articles.json'
 export { default as dsaTutorials } from './data_structures/dsa-tutorials.json'
+export { default as dsaCourses } from './data_structures/dsa-courses.json'
 // Block Chain
 export {default as smartContracts} from './BlockChain/smart-contracts.json'
 export {default as truffle} from './BlockChain/truffle.json'
 export {default as hardhat} from './BlockChain/hardhat.json'
 export {default as ethers} from './BlockChain/ethers.json'
+
+

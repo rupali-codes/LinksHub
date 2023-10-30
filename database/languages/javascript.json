@@ -83,5 +83,13 @@
     "category": "languages",
     "subcategory": "javascript",
     "language": "hindi"
+  },
+  {
+    "name": "JavaScript Tutorials for Beginners in Hindi",
+    "description": "This Javascript tutorial in Hindi by Code With Harry is designed for beginners with an aim to take JavaScript/ES6 and its concepts to an advanced level.",
+    "url": "https://youtube.com/playlist?list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR&si=3AIK7JXdN_PGw9dV",
+    "category": "languages",
+    "subcategory": "javascript",
+    "language": "hindi"
   }
 ]
