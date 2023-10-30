@@ -26,5 +26,12 @@
         "description": "NextUI is a UI library for React that combines the power of TailwindCSS with React Aria to provide a complete components (logic and styles) for building accessible and customizable user interfaces. Since NextUI uses TailwindCSS as its style engine, you can use all TailwindCSS classes within your NextUI components, ensuring optimal compiled CSS size.",
         "category": "frontend",
         "subcategory": "ui-libraries"
+    },
+    {
+        "name": "FlowbiteReact",
+        "url": "https://www.flowbite-react.com/",
+        "description": "Flowbite React is an open-source UI component library built on top of Tailwind CSS with React components and based on the Flowbite Design System.",
+        "category": "frontend",
+        "subcategory": "ui-libraries"
     }
 ]
