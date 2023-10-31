@@ -13,5 +13,13 @@
         "category": "cloud-computing",
         "subcategory": "aws",
         "language": "hindi"
+    },
+    {
+        "name": "AWS Complete Tutorial 2023",
+        "description": " Learn Amazon Web Services from Scratch.",
+        "url": "https://www.youtube.com/watch?v=B8i49C8fC3E",
+        "category": "cloud-computing",
+        "subcategory": "aws",
+        "language": "English"
     }
 ]
