@@ -42,6 +42,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'UI libraries are collections of reusable components that can be used to build user interfaces. They are often used in conjunction with frameworks like React or Vue.js to create web applications.',
 
   //backend
+  api: 'Interfaces that allow different software applications to communicate and share data with one another.',
   architecture:
     'Architecture is the art and technique of designing and building structures. It is both the process and the product of sketching, conceiving, planning, designing.',
   authentication:
@@ -50,6 +51,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Caching is the process of storing frequently accessed data in a cache so that it can be quickly retrieved when needed. Caching can improve the performance of applications by reducing the amount of time it takes to retrieve data from a database or other data source.',
   database:
     'A database is an organized collection of data that can be easily accessed, managed, and updated. Databases are used to store and manage data for various applications such as websites, mobile apps, and enterprise systems.',
+  'email providers':
+    'Platforms facilitating the exchange of electronic messages, allowing users to send, receive, and manage their emails efficiently.',
   security:
     'Security is the practice of protecting systems, networks, and data from unauthorized access, use, disclosure, disruption, modification, or destruction.',
   'system design':
@@ -79,20 +82,18 @@ const categoryDescriptions: CategoryDescriptions = {
   ruby: 'Ruby is a high-level, interpreted programming language that was developed in the mid-1990s by Yukihiro Matsumoto in Japan. Ruby is widely used for developing web applications, mobile applications, and desktop applications.',
   typescript:
     ' TypeScript is a statically typed language that supports object-oriented and functional programming styles, used for developing web applications, mobile applications, and desktop applications.',
-solidity:
-  'Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.',
+  solidity:
+    'Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.',
 
   // Open-source
   articles:
     'There are many open source blogging platforms available for developers. Some of the most popular ones include WordPress, Joomla, and Drupal1. Other open source blogging platforms include Ghost, Serendipity, SilverStripe, and Jekyll',
-  'os programs':
-    'Anyone can attend Open Source events and programs; whether in-person or virtually. There are a wide variety of events and programs available to participate in, and learn more about Open Source.',
   projects:
     'Anyone can contribute to the projects are called OpenSource Projects. There are many open source projects available for developers. Some of the most popular ones include Linux, Git, and Apache1. Other open source projects include Kubernetes, TensorFlow, and React Native',
   tools:
     'There are various open source tools available for developers. Some of the most popular ones include Hadoop, VLC Media Player, and GIMP1. Other open source tools include TensorFlow, Eclipse Che, and OpenShift Do.',
-  'os tutorials':
-    'OS tutorials helps you to learn-by-watching. It contains the list most helping tutorials on open-source.',
+  tutorials:
+    'Tutorials helps you to learn-by-watching. It contains the list most helping tutorials on open-source.',
 
   //devops
   cicd: 'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
@@ -110,6 +111,8 @@ solidity:
     'Microservices are a software development technique—a variant of the service-oriented architecture (SOA) architectural style that structures an application as a collection of loosely coupled services.',
 
   // AI
+  'artificial intelligence':
+    'AI, or Artificial Intelligence, refers to the simulation of human intelligence in machines, enabling them to perform tasks that typically require human intelligence, such as learning, reasoning, problem-solving, and understanding natural language.',
   'data science':
     'Data science is an interdisciplinary field that involves the use of statistical, mathematical, and computational methods to extract insights and knowledge from data. Data science is widely used for machine learning, data analysis, and data visualization.',
   'deep learning':
@@ -132,12 +135,11 @@ solidity:
   //resources
   blogs:
     'The term “blog” is short for “weblog.” Blogs are usually maintained by an individual with regular entries of commentary, descriptions of events, or other material such as graphics or video.',
-  ebook:
+  'e book':
     'An ebook (short for electronic book) is a book publication made available in digital form, consisting of text, images, or both readable on the flat-panel display of computers or other electronic devices.',
   hosting:
     'Web hosting is an online service that makes the content of your website accessible on the internet. When you purchase a hosting plan, you are renting space on a physical server to store all the files and data.',
-  dsa:
-    'Data Structures and Algorithms play an important role in tech placements. So here is a list of important and great dsa resources',
+  dsa: 'Data Structures and Algorithms play an important role in tech placements. So here is a list of important and great dsa resources',
   officialdocs:
     'Official docs is short for official documentation. Official documentation is an important resource for users of software products and services as it provides a comprehensive guide to using the software.',
   'project ideas':
@@ -174,33 +176,38 @@ solidity:
   devtools:
     'This list of Development tools will help you boost your programming speed and modify your projects to the next level.',
   github: 'Well, Github does not need description, devs know well!',
-git: 'Your friendly neighborhood version control system to track the development activities.',
+  git: 'Your friendly neighborhood version control system to track the development activities.',
   'other resources':
     'Some extra resources to help you in your coding projects.',
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
   contributors:
     'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
-  
+
   // Placement-Prep
-  'interview preparation' : 'Diverse resources for developers to enhance interview skills, including articles, videos, and mock interview platforms.',
-  'job portals' : 'Explore top job portals, their features, and expert tips for efficient job searching and connecting with employers.',
-  'resume building' : 'Providing resources to help developers create compelling resumes that showcase their skills and experience.',
-  'portfolio building' : 'Offer templates and examples to assist developers in building impressive portfolios that highlight their work and accomplishments.',
-  'career guidance' : 'Explore resources, articles, and guidance for career planning, goal setting, and professional growth in the tech industry.',
-   certifications : 'Curated list of globally recognized tech certifications, including requirements, benefits, and preparation strategies, emphasizing industry recognition and validity.',
-  
+  'interview preparation':
+    'Diverse resources for developers to enhance interview skills, including articles, videos, and mock interview platforms.',
+  'job portals':
+    'Explore top job portals, their features, and expert tips for efficient job searching and connecting with employers.',
+  'resume building':
+    'Providing resources to help developers create compelling resumes that showcase their skills and experience.',
+  'portfolio building':
+    'Offer templates and examples to assist developers in building impressive portfolios that highlight their work and accomplishments.',
+  'career guidance':
+    'Explore resources, articles, and guidance for career planning, goal setting, and professional growth in the tech industry.',
+  certifications:
+    'Curated list of globally recognized tech certifications, including requirements, benefits, and preparation strategies, emphasizing industry recognition and validity.',
+
   //technical-writing
   'technical writing tools':
     'This list provides the tools to suit your tech writing needs.',
-   
+
   //data-structures
   'dsa articles':
-  'This section provides various important articles related to DSA problem solving skills, how to tackle them, how to think about it and many more.',
-  'dsa courses' :
-   'This section provides various online courses that can help you start with the fundamentals of data structures and algorithms and also ace your coding interviews.' ,
+    'This section provides various important articles related to DSA problem solving skills, how to tackle them, how to think about it and many more.',
+  'dsa courses':
+    'This section provides various online courses that can help you start with the fundamentals of data structures and algorithms and also ace your coding interviews.',
   'dsa tutorials':
-  'This section provides you with YouTube tutorials that help you grasp concepts better by hands-on experience and learn better, practically!'
-  
+    'This section provides you with YouTube tutorials that help you grasp concepts better by hands-on experience and learn better, practically!',
 }
 
 export default categoryDescriptions
