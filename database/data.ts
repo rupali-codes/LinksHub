@@ -251,7 +251,7 @@ export const sidebarData: ISidebar[] = [
         resources: DB.officialdocs,
       },
       { name: 'hosting', url: '/hosting', resources: DB.hosting },
-      { name: 'e book', url: '/e-book', resources: DB.ebook },
+      { name: 'e-book', url: '/e-book', resources: DB.ebook },
       { name: 'dsa', url: '/dsa', resources: DB.dsa },
       { name: 'project ideas', url: '/project-ideas', resources: DB.project },
       {
