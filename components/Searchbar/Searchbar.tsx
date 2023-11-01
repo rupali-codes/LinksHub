@@ -101,7 +101,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
             type="text"
             id="simple-search"
             name="simple-search"
-            className="block p-2.5 w-full bg-transparent text-sm text-dark dark:text-text-primary border border-dashed border-gray-text focus:border-theme-secondary dark:focus:border-theme-primary dark:focus:ring-theme-primary focus:ring-theme-secondary dark:placeholder-gray-text outline-none transition-all ease-in-out duration-300 rounded-lg capitalize"
+            className="block p-2.5 w-full bg-transparent text-sm text-dark dark:text-text-primary border border-dashed border-gray-text focus:border-theme-secondary dark:focus:border-theme-primary dark:focus:ring-theme-primary focus:ring-theme-secondary dark:placeholder-gray-text outline-none transition-all ease-in-out duration-300 rounded-lg "
             placeholder="Quick search..."
             value={searchQuery}
             onChange={handleSearchChange}
@@ -133,7 +133,6 @@ const getFilteredSuggestions = (query: string) => {
   if (normalisedQuery.length === 0) {
     return []
   }
-
   const suggestions = searchOptions.filter((option) =>
     option.name.toLowerCase().includes(normalisedQuery)
   )
