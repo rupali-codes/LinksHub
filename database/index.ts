@@ -49,6 +49,7 @@ export { default as java } from './languages/java.json'
 export { default as cpp } from './languages/cpp.json'
 export { default as dart } from './languages/dart.json'
 export { default as solidity } from './languages/solidity.json'
+export { default as swift } from './languages/swift.json'
 //internet of things
 export { default as coursera } from './internet_of_things/coursera.json'
 export { default as raspberrypi } from './internet_of_things/raspberrypi.json'
