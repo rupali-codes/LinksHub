@@ -109,6 +109,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Rust', url: '/rust', resources: DB.Rust },
       { name: 'Dart', url: '/dart', resources: DB.dart },
       { name: 'Solidity', url: '/solidity', resources: DB.solidity },
+      { name: 'Swift', url: '/swift', resources: DB.swift },
     ],
   },
   {

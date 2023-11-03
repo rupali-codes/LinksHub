@@ -84,6 +84,8 @@ const categoryDescriptions: CategoryDescriptions = {
     ' TypeScript is a statically typed language that supports object-oriented and functional programming styles, used for developing web applications, mobile applications, and desktop applications.',
   solidity:
     'Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.',
+  swift:
+    'Swift is a powerful and intuitive programming language developed by Apple. It is used to create apps for iOS, macOS, watchOS, and so on. Swift code is concise yet expressive (easier to understand and write).',
 
   // Open-source
   articles:
