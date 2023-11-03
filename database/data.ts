@@ -14,6 +14,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'images', url: '/images', resources: DB.images },
       { name: 'fonts', url: '/fonts', resources: DB.fonts },
       { name: 'colors', url: '/colors', resources: DB.colors },
+      { name: 'react', url: '/react', resources: DB.react },
       {
         name: 'illustrations',
         url: '/illustrations',

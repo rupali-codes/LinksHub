@@ -30,6 +30,3 @@ body:
 
         - label: 'I am willing to work on this issue (optional)'
           required: false
-
-        - label: 'I am participating in Hacktoberfest 2023'
-          required: false

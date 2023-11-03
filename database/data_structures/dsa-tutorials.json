@@ -121,9 +121,7 @@
   },
   {
     "name": "CODING NINJAS",
-  
     "description": "This channel provides a DSA course about Python from beginner to advanced.",
-
     "url": "https://youtube.com/playlist?list=PLrk5tgtnMN6TYBW0-U4YhIRyYEVpqVEnJ",
     "category": "data-structures",
     "subcategory": "dsa-tutorials",
@@ -141,6 +139,14 @@
     "name":"Code step by step",
     "description": "A comprehensive playlist in Hindi that teaches developers data structures in Javascript from scratch.",
     "url": "https://www.youtube.com/watch?v=wZHtZ_VJGKI&list=PL8p2I9GklV47TMMnPzqnkCtSOS3ebr4O7&ab_channel=CodeStepByStep",
+    "category":"youtube",
+    "subcategory":"data-structures",
+    "language":"hindi"
+  },
+  {
+    "name":"DataFlair",
+    "description": "A comprehensive playlist in Hindi that teaches developers data structures and algorithms using C from scratch.",
+    "url": "https://youtube.com/playlist?list=PLf0LpPWikpPfA_vez2NndnYuQy6WkpTzc&si=K2-zGZeRd34fVzwT",
     "category":"youtube",
     "subcategory":"data-structures",
     "language":"hindi"
