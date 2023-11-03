@@ -102,7 +102,7 @@ export const Card: FC<CardProps> = ({ data }) => {
             <Share url={`${url}?ref=LinksHub`} title={name} />
           </div>
         </header>
-        <div className="h-[7rem]" onClick={handleClick}>
+        <div className="h-[7rem]">
           <div
             ref={descriptionRef}
             className="h-24 w-full overflow-hidden font-sans text-ellipsis line-clamp-4"
@@ -115,7 +115,10 @@ export const Card: FC<CardProps> = ({ data }) => {
             </p>
           )}
         </div>
-        {/* <button onClick={handleClick}><Image src="/upvote.png" alt="img" width={50} height={50} /></button> */}
+        <div className='flex'>
+          <p className='text-3xl'>{likeCount}</p>
+          <button onClick={handleClick}><Image src="/upvote.png" alt="img" width={50} height={50} /></button>
+        </div>
         <footer className="card-actions justify-end">
           <a
             onClick={(e) => e.stopPropagation()}
