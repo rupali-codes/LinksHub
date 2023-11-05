@@ -5,7 +5,8 @@ import type { GetStaticProps } from 'next'
 import { useTheme } from 'next-themes'
 import { maintainersData } from '../data/maintainersData'
 import { useState } from 'react'
-import { FaGithub, FaTwitter } from 'react-icons/fa'
+import { FaArrowRight, FaGithub, FaTrophy, FaTwitter } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
 
 interface Contributor {
   id: number
@@ -14,6 +15,44 @@ interface Contributor {
   login: string
   contributions: number
 }
+
+const dummyContributors: Contributor[] = [
+  {
+    id: 1,
+    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
+    name: 'John Doe',
+    login: 'johndoe',
+    contributions: 15,
+  },
+  {
+    id: 2,
+    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
+    name: 'Jane Smith',
+    login: 'janesmith',
+    contributions: 10,
+  },
+  {
+    id: 3,
+    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
+    name: 'Bob Johnson',
+    login: 'bobjohnson',
+    contributions: 5,
+  },
+  {
+    id: 4,
+    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
+    name: 'Bob Johnson',
+    login: 'bobjohnson',
+    contributions: 5,
+  },
+  {
+    id: 5,
+    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
+    name: 'Bob Johnson',
+    login: 'bobjohnson',
+    contributions: 5,
+  },
+]
 
 export const getStaticProps: GetStaticProps<{
   contributors: Contributor[]
@@ -89,16 +128,16 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   } `
 
   return (
-    <div>
+    <div className="mx-4">
       <div>
-        <h2>Our Team</h2>
-        <h4>
-          Meet Our Team: Passionate About Open Source and Making LinksHub an
+        <h2 className="text-2xl text-white tracking-wide pb-2">Our Team</h2>
+        <h4 className="text-[#A6ABBF]">
+          Meet Our Team, Passionate About Open Source and Making LinksHub an
           Open Source Success Story
         </h4>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
-        {sortedContributors.map((contributor) => (
+        {dummyContributors.map((contributor) => (
           <div
             key={contributor.id}
             className="bg-gray-100 rounded-3xl p-4 border border-dashed border-violet-500 dark:border-[#BDBDBD40] shadow-lg dark:bg-[#293242] dark:text-gray-300 dark:shadow-sm flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer m-1"
@@ -110,7 +149,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                   alt={contributor.login}
                   width={110}
                   height={110}
-                  className=" rounded-full mb-4 border-2 border-violet-500 dark:border-violet-400 transition-transform duration-300 hover:scale-105 hover:border-dotted m-2"
+                  className="rounded-full mb-4 border-2 border-violet-500 dark:border-violet-400 transition-transform duration-300 hover:scale-105 hover:border-dotted m-2"
                 />
               </div>
               <div className="text-center">
@@ -120,34 +159,37 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                 <div className="text-gray-400 mb-2 pb-4">Web Developer</div>
               </div>
             </div>
-            <div className="flex justify-evenly mt-auto">
-              <div className="flex flex-col">
+            <div className="flex justify-evenly mt-auto items-center">
+              <div>
                 <Link
                   href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
                   aria-label={`Commit History of ${contributor.login} in LinksHub`}
+                  className="flex flex-col items-center justify-center"
                 >
-                  <div>{contributor.contributions}</div>
+                  <div className="pb-1">{contributor.contributions}</div>
                   Contributions
                 </Link>
               </div>
-              <div className="flex flex-col">
+              <div>
                 <Link
                   href={`https://github.com/${contributor.login}`}
                   aria-label={`GitHub Profile of ${contributor.login}`}
+                  className="flex flex-col items-center justify-center"
                 >
-                  <div>
-                    <FaGithub />{' '}
+                  <div className="pb-1">
+                    <FaGithub className="text-xl" />{' '}
                   </div>
                   GitHub
                 </Link>
               </div>
-              <div className="flex flex-col">
+              <div>
                 <Link
                   href={`https://github.com/${contributor.login}`}
                   aria-label={`GitHub Profile of ${contributor.login}`}
+                  className="flex flex-col items-center justify-center"
                 >
-                  <div>
-                    <FaTwitter />{' '}
+                  <div className="pb-1">
+                    <FaXTwitter className="text-xl" />{' '}
                   </div>
                   Twitter
                 </Link>
@@ -155,6 +197,37 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
             </div>
           </div>
         ))}
+      </div>
+      <div className="dark:bg-[#293242] flex justify-between rounded-xl py-6 px-4 my-10">
+        <div className="flex space-x-4">
+          <div className="pl-2 pr-3">
+            <FaTrophy className="text-2xl text-[#FBD449]" />{' '}
+          </div>
+          <div className="flex flex-col">
+            <div className="text-white text-lg pb-1">
+              Join our awesome team!
+            </div>
+            <div>
+              Be a contributor and improve LinksHub and help fellow developers.
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#714EFF] rounded-2xl px-6 text-white mr-2">
+          <Link href={''} aria-label="">
+            <div className="flex items-center justify-center py-4 text-md">
+              Join us now
+              <span className="pl-2 text-sm">
+                {' '}
+                <FaArrowRight />
+              </span>
+            </div>
+          </Link>
+        </div>
+      </div>
+      <div className="flex justify-center items-center mb-8">
+        <button className="dark:bg-[#293242] w-36 py-4 px-6 rounded-xl text-center cursor-pointer">
+          See More
+        </button>
       </div>
     </div>
   )
