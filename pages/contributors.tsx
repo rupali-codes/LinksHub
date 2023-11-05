@@ -5,6 +5,7 @@ import type { GetStaticProps } from 'next'
 import { useTheme } from 'next-themes'
 import { maintainersData } from '../data/maintainersData'
 import { useState } from 'react'
+import { FaGithub, FaTwitter } from 'react-icons/fa'
 
 interface Contributor {
   id: number
@@ -63,7 +64,6 @@ export const getStaticProps: GetStaticProps<{
 const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   contributors,
 }) => {
-  const [hoveredContributor, setHoveredContributor] = useState<string>('')
   const { resolvedTheme } = useTheme()
   const filteredContributors = contributors.filter(
     (contributor) => contributor.contributions >= 1
@@ -90,63 +90,68 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
 
   return (
     <div>
+      <div>
+        <h2>Our Team</h2>
+        <h4>
+          Meet Our Team: Passionate About Open Source and Making LinksHub an
+          Open Source Success Story
+        </h4>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
         {sortedContributors.map((contributor) => (
           <div
             key={contributor.id}
-            className="bg-gray-100 rounded-3xl py-5 px-2 border border-dashed border-violet-500 dark:border-violet-400 shadow-lg dark:bg-gray-900 dark:text-gray-300 dark:shadow-sm flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer m-1"
+            className="bg-gray-100 rounded-3xl p-4 border border-dashed border-violet-500 dark:border-[#BDBDBD40] shadow-lg dark:bg-[#293242] dark:text-gray-300 dark:shadow-sm flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer m-1"
           >
-            <div className="flex justify-center image-wrapper">
-              <Image
-                src={contributor.avatar_url}
-                alt={contributor.login}
-                width={110}
-                height={110}
-                className=" rounded-full mb-4 border-2 border-violet-500 dark:border-violet-400 transition-transform duration-300 hover:scale-105 hover:border-dotted m-2"
-              />
-              <span
-                className={imageInfo}
-                onMouseEnter={() => setHoveredContributor(contributor.login)}
-                onMouseLeave={() => setHoveredContributor('')}
-              >
-                {maintainersData.some(
-                  (data) => data.login === contributor.login
-                ) ? (
-                  hoveredContributor === contributor.login ? (
-                    <span>Maintainer</span>
-                  ) : (
-                    <span>M</span>
-                  )
-                ) : hoveredContributor === contributor.login ? (
-                  <span>Contributor</span>
-                ) : (
-                  <span>C</span>
-                )}
-              </span>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl text-violet-600 dark:text-violet-400 m-2">
-                {contributor.name}
+            <div className="dark:bg-[#9F87FF1A] rounded-xl">
+              <div className="flex justify-center image-wrapper pt-4">
+                <Image
+                  src={contributor.avatar_url}
+                  alt={contributor.login}
+                  width={110}
+                  height={110}
+                  className=" rounded-full mb-4 border-2 border-violet-500 dark:border-violet-400 transition-transform duration-300 hover:scale-105 hover:border-dotted m-2"
+                />
               </div>
-              <div className="text-gray-400 mb-2 pb-4 pt-1 m-2">
-                {contributor.contributions} Contributions
+              <div className="text-center">
+                <div className="text-2xl text-violet-600 dark:text-violet-400 mt-2 mb-1">
+                  {contributor.name}
+                </div>
+                <div className="text-gray-400 mb-2 pb-4">Web Developer</div>
               </div>
             </div>
             <div className="flex justify-evenly mt-auto">
-              <Link
-                href={`https://github.com/${contributor.login}`}
-                {...linkProps}
-                aria-label={`GitHub Profile of ${contributor.login}`}
-              >
-                GitHub
-              </Link>
-              <Link
-                href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
-                {...linkProps}
-                aria-label={`Commit History of ${contributor.login} in LinksHub`}
-              >
-                Contributions
-              </Link>
+              <div className="flex flex-col">
+                <Link
+                  href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
+                  aria-label={`Commit History of ${contributor.login} in LinksHub`}
+                >
+                  <div>{contributor.contributions}</div>
+                  Contributions
+                </Link>
+              </div>
+              <div className="flex flex-col">
+                <Link
+                  href={`https://github.com/${contributor.login}`}
+                  aria-label={`GitHub Profile of ${contributor.login}`}
+                >
+                  <div>
+                    <FaGithub />{' '}
+                  </div>
+                  GitHub
+                </Link>
+              </div>
+              <div className="flex flex-col">
+                <Link
+                  href={`https://github.com/${contributor.login}`}
+                  aria-label={`GitHub Profile of ${contributor.login}`}
+                >
+                  <div>
+                    <FaTwitter />{' '}
+                  </div>
+                  Twitter
+                </Link>
+              </div>
             </div>
           </div>
         ))}
