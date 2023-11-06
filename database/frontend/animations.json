@@ -112,6 +112,13 @@
     "subcategory": "animations"
   },
   {
+    "name":"Easings",
+    "description":"This site consists of Easing Functions with detailed implementation which are useful for web animation enthusiasts",
+    "url":"https://easings.net/",
+    "category":"frontend",
+    "subcategory":"animations"
+  },
+  {
     "name": "Animate.css",
     "description": "A library that provides a wide range of cross-browser CSS animations that you can easily add to your website.",
     "url": "https://animate.style/",
