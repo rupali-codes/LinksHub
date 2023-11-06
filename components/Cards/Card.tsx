@@ -1,3 +1,4 @@
+import {NextApiRequest,NextApiResponse} from 'next'
 import { FC, useState, useRef, useEffect } from 'react'
 import {BsYoutube , BsPen} from 'react-icons/bs'
 import {AiOutlineRead} from 'react-icons/ai'
@@ -5,7 +6,7 @@ import{MdArticle} from 'react-icons/md'
 import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 import Share from 'components/Share/Share'
 import type { IData } from 'types'
-import { collection, addDoc, doc,updateDoc } from 'firebase/firestore'
+import { collection, addDoc, doc,updateDoc,where,query,getDocs, setDoc,getDoc } from 'firebase/firestore'
 import {db} from '../../firebase/Firebase'
 import Image from 'next/image'
 import { Timestamp } from 'firebase/firestore'
@@ -20,17 +21,15 @@ export const Card: FC<CardProps> = ({ data }) => {
   const [isOverflow, setIsOverflow] = useState(false)
   const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/
   const dbInstance = collection(db,'resources')
-  const [category, setCategory] = useState("")
   const [subCategory,setSubCategory] = useState("")
-  const [likeCount,setLikeCount] = useState(0)
-  const [tempLikeCount, setTempLikeCount]:any = useState([]);
+  let [upvoteCount,setUpvoteCount] = useState(0)
   const timestamp = Timestamp.fromDate(new Date())
   const date = timestamp.toDate()
   const user = {
     name: 'Vidip',
     uid: 1234
   }
-  
+  const [category,setCategory] = useState("")
   const save = ()=>{
     const newItem = {
       name: name,
@@ -39,7 +38,7 @@ export const Card: FC<CardProps> = ({ data }) => {
       category: category, 
       subCategory: subCategory,
       upvotedBy: user,
-      upvotes: likeCount,
+      upvotes: upvoteCount,
       created: date,
     }
 
@@ -51,31 +50,49 @@ export const Card: FC<CardProps> = ({ data }) => {
     })
   }
 
-  const likeHandler = async () => {
-    if (likeCount !== undefined) {
-      const idx = tempLikeCount.indexOf(user?.uid);
-      if (idx !== -1) {
-        tempLikeCount.splice(idx, 1);
-        setLikeCount((currLikeNo) => currLikeNo - 1);
-      } else {
-        tempLikeCount.push(user?.uid);
-        setLikeCount((currLikeNo) => currLikeNo + 1);
+  console.log(db);
+  const addUserToAssetBookmark = async()=>{
+    try{
+      const subcollectionRef = collection(db,'resources');
+      const assetQuery = query(subcollectionRef,where('name','==',data.name))
+      const assetQuerySnapshot = await getDocs(assetQuery);
+    
+      assetQuerySnapshot.forEach((doc)=>{
+        console.log(doc.id + "refers to "+ doc.data().name)
+      })
+      console.log(name);
+      if(assetQuerySnapshot.empty)
+      {
+        console.log('Asset not found');
       }
-      const data = {
-        likeCount: tempLikeCount,
-      };
-      try {
-        const docRef = doc(db, 'resources', 'yourDocumentID'); 
-        await updateDoc(docRef, data);
-        console.log('Update successful');
-      } catch (error) {
-        console.error('Update error:', error);
+      const assetDocSnapshot = assetQuerySnapshot.docs[0];
+      const assetDocRef = doc(db, 'resources', name)
+      await setDoc(assetDocRef,{
+        ...assetDocSnapshot.data(),  //keeps existing data
+        upvotes: {
+          ...assetDocSnapshot.data().upvotes,
+          [user.uid]: true
+        }
+      })
+
+      const updatedAssetDoc = await getDoc(assetDocRef)
+      if(!updatedAssetDoc.exists())
+      {
+        console.log('Asset document not found')
       }
+
+      const upvotes = updatedAssetDoc.data()?.upvotes || {}
+      upvoteCount = Object.keys(upvotes).length
+      setUpvoteCount(upvoteCount)
+      console.log(upvoteCount)
     }
-  };
-  
+    catch(error){
+      console.error('Error adding user to asset upvotes:', error)
+    }
+  }
+
   const handleClick = async()=>{
-    await Promise.all([save(),likeHandler()]);
+    await Promise.all([save(),addUserToAssetBookmark()]);
   }
 
   useEffect(() => {
@@ -116,7 +133,7 @@ export const Card: FC<CardProps> = ({ data }) => {
           )}
         </div>
         <div className='flex'>
-          <p className='text-3xl'>{likeCount}</p>
+          <p className='text-3xl'>{upvoteCount}</p>
           <button onClick={handleClick}><Image src="/upvote.png" alt="img" width={50} height={50} /></button>
         </div>
         <footer className="card-actions justify-end">
