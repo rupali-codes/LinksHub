@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Applied Natural Language Processing",
+        "description": "This course teaches  the basics of text processing including basic pre-processing, spelling correction, language modeling, Part-of-Speech tagging, Constituency and Dependency Parsing, Lexical Semantics, distributional Semantics and topic models.",
+        "url": "https://archive.nptel.ac.in/courses/106/106/106106211/",
+        "category": "ai",
+        "subcategory": "natural-language-processing"
+    },
+    {
+        "name": "Datacamp Tutorials",
+        "description": "Provides NLP tutorials for Machine Learning Beginners",
+        "url": "https://www.datacamp.com/blog/what-is-natural-language-processing",
+        "category": "ai",
+        "subcategory": "natural-language-processing"
+      },
+      {
+        "name": "fast.ai NLP course",
+        "description": " Fast.ai's Code-First Introduction to Natural Language Processing for Beginners.",
+        "url": "https://www.fast.ai/posts/2019-07-08-fastai-nlp.html",
+        "category": "ai",
+        "subcategory": "natural-language-processing"
+      },
+      {
+        "name": "freeCodeCamp",
+        "description": "This is Freecodecamp's Natural Language Processing with spaCy & Python for beginners",
+        "url": "https://youtu.be/dIUTsFT2MeQ",
+        "category": "ai",
+        "subcategory": "natural-language-processing"
+      },
+      {
+        "name": "Intellipat",
+        "description": "Top 30 NLP Interview Questions and Answers",
+        "url": "https://youtu.be/C_R9CBda7vY",
+        "category": "ai",
+        "subcategory": "natural-language-processing"
+      }
+]

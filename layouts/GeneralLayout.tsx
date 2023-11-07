@@ -28,11 +28,12 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
           <Aside />
         </nav>
         <main
+        data-custom='restrict-click-outside'
           className={clsx(
-            'h-full px-4 lg:ml-[290px] lg:w-[calc(100%-290px)]',
+            'flex flex-col justify-between min-h-full px-4 pb-2 lg:ml-[290px] lg:w-[calc(100%-290px)]',
 
             pathname != '/' &&
-              'lg:border-t lg:border-t-theme-primary lg:dark:border-t-theme-secondary transition-color ease-in-out duration-200'
+              ' transition-color ease-in-out duration-200'
           )}
           id="main"
         >

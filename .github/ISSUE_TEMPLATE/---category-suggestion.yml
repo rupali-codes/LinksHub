@@ -44,8 +44,6 @@ body:
           required: true
         - label: 'I am willing to work on this issue (optional)'
           required: false
-        - label: 'I am participating in Hacktoberfest 2023'
-          required: false
   - type: markdown
     attributes:
       value: 'Thank you for taking the time to suggest a new request! Your input is greatly appreciated.'

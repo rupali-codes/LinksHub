@@ -63,9 +63,58 @@
     "subcategory": "database"
   },
   {
+    "name": "Apache Cassandra",
+    "description": "Apache Cassandra is a free and open-source, distributed, wide column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.",
+    "url": "https://cassandra.apache.org/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
     "name": "GraphQL",
     "description": "GraphQL provides a comprehensive description of the data in your API, which gives clients the power to ask for exactly what they need and nothing more and make it easier to evolve APIs over time. It also enables powerful developer tools.",
     "url": "https://graphql.org/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
+    "name": "MariaDB",
+    "description": "MariaDB is a community-developed, commercially supported fork of the MySQL relational database management system, intended to remain free and open-source software under the GNU General Public License.",
+    "url": "https://mariadb.org/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
+    "name": "PlanetScale",
+    "description": "PlanetScale is a MySQL-compatible server less database that brings you scale, performance, and reliability — without sacrificing developer experience. With PlanetScale, you get the power of horizontal sharding, non-blocking schema changes, and many more powerful database features without the pain of implementing them.",
+    "url": "https://planetscale.com/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
+    "name": "Neon DB",
+    "description": "Neon is Serverless Postgres built for the cloud. It separates compute and storage to offer modern developer features such as autoscaling, branching, bottomless storage, and more.",
+    "url": "https://neon.tech/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
+    "name": "PouchDB",
+    "description": "PouchDB is an open-source JavaScript database built for creating offline-first web and mobile applications. It enables applications to work both online and offline while seamlessly syncing data.",
+    "url": "https://pouchdb.com/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
+    "name": "RethinkDB",
+    "description": "RethinkDB is an open-source, distributed NoSQL database designed for real-time web applications. It offers real-time data updates and dynamic querying capabilities.",
+    "url": "https://rethinkdb.com/",
+    "category": "backend",
+    "subcategory": "database"
+  },
+  {
+    "name": "Yugabyte DB",
+    "description": "YugabyteDB is the 100% open source cloud native database for mission critical applications. YugabyteDB runs in any public or hybrid cloud.",
+    "url": "https://www.yugabyte.com/",
     "category": "backend",
     "subcategory": "database"
   }

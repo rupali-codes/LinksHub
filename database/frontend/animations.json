@@ -112,6 +112,13 @@
     "subcategory": "animations"
   },
   {
+    "name":"Easings",
+    "description":"This site consists of Easing Functions with detailed implementation which are useful for web animation enthusiasts",
+    "url":"https://easings.net/",
+    "category":"frontend",
+    "subcategory":"animations"
+  },
+  {
     "name": "Animate.css",
     "description": "A library that provides a wide range of cross-browser CSS animations that you can easily add to your website.",
     "url": "https://animate.style/",
@@ -129,6 +136,13 @@
     "name": "React Spring",
     "description": "React Spring is a library for building interactive, data-driven, and animated UI components. It can animate HTML, SVG, Native Elements, Three.js, and more.",
     "url": "https://www.react-spring.dev/",
+    "category": "frontend",
+    "subcategory": "animations"
+  },
+  {
+    "name": "GSAP",
+    "description": "GSAP is a robust industry standard JavaScript animation library from GreenSock that lets you craft high-performance animations that works in every major browser. Animate CSS, SVG, canvas, React, Vue, WebGL, colors, strings, motion paths, generic objects...anything JavaScript can touch!",
+    "url": "https://gsap.com/",
     "category": "frontend",
     "subcategory": "animations"
   }

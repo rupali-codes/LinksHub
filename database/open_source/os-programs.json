@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Google Summer of Code GSoC",
+      "description": "Google Summer of Code is a global, online mentoring program focused on introducing new contributors to open source software development.",
+      "url": "https://summerofcode.withgoogle.com/",
+      "category": "open-source",
+      "subcategory": "os-programs"
+    },
+    {
+      "name": "Open Source Initiative",
+      "description": "The Open Source Initiative is a foundation of the modern software ecosystem. We build a world where the freedoms and opportunities of Open Source software can be enjoyed by all.",
+      "url": "https://opensource.org/events/",
+      "category": "open-source",
+      "subcategory": "os-programs"
+    },
+    {
+      "name": "Free Software Foundation",
+      "description": "The Free Software Foundation (FSF) is a nonprofit with a worldwide mission to promote computer user freedom.",
+      "url": "https://www.fsf.org/events/aggregator/",
+      "category": "opensource",
+      "subcategory": "os-programs"
+    },
+    {
+      "name": "OWASP",
+      "description": "To be the global open community that powers secure software through education, tools, and collaboration.",
+      "url": "https://owasp.org/events/",
+      "category": "open-source",
+      "subcategory": "os-programs"
+    },
+     {
+      "name": "HackSquad",
+      "description": "HackSquad allows contributors to contribute code as a squad instead of a single contributor. Engage with the community in a friendly competition over the month of October",
+      "url": "https://www.hacksquad.dev/",
+      "category": "open-source",
+      "subcategory": "os-programs"
+    },
+    {
+      "name": "The Linux Foundation",
+      "description": "Empowering generations of open source innovators. Unlocking the value of shared technology Innovation, comes from everywhere.",
+      "url": "https://events.linuxfoundation.org/about/calendar/",
+      "category": "open-source",
+      "subcategory": "os-programs"
+    },
+    {
+      "name": "MLH Fellowship",
+      "description": "The MLH Fellowship is a 12-week internship for aspiring software engineers to contribute to Open Source projects that companies depend on.",
+      "url": "https://fellowship.mlh.io/programs/open-source",
+      "category": "open-source",
+      "subcategory": "os-programs"
+    }
+ ]
+

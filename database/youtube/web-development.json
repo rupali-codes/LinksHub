@@ -32,6 +32,14 @@
     "language": "english"
   },
   {
+    "name": "CodeWithHarry",
+    "description": "This course will teach you everything you need to know about web development using Flask. It will lead you through each and every concept of Flask and will give you a good initial start.",
+    "url": "https://www.codewithharry.com/videos/web-dev-using-flask-and-python-1/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "hindi"
+  },
+  {
     "name": "Programming with Mosh",
     "description": "It's another great channel for starting your web development journey.",
     "url": "https://www.youtube.com/@programmingwithmosh",
@@ -331,6 +339,38 @@
     "name": "Joseph Smith",
     "description": "Learn programming and building with languages like HTML,CSS ,PHP, and much more.",
     "url": "https://www.youtube.com/c/TheHelpingDevelop/",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "ByteGrad",
+    "description": "ByteGrad is an underrated Youtube channel which explains really complex development concepts in an easy and simple way.",
+    "url": "https://www.youtube.com/@ByteGrad",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "developedbyed",
+    "description": "This channel has a wide variety of educational videos on technologies like HTML,vanilla CSS,Javascript,Tailwind CSS,and React",
+    "url": "https://www.youtube.com/playlist?list=PLDyQo7g0_nsUjf046cCHKJ16U1SoXrElZ",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "english"
+  },
+  {
+    "name": "Chai aur Code",
+    "description": "An underrated channel with awesome content in React and JavaScript",
+    "url": "https://www.youtube.com/@chaiaurcode",
+    "category": "youtube",
+    "subcategory": "web-development",
+    "language": "hindi"
+  },
+  {
+    "name": "Hitesh Choudhary",
+    "description": "It is an underrated channel for Web Development, Android development, DevOps, and more",
+    "url": "https://www.youtube.com/@HiteshChoudharydotcom",
     "category": "youtube",
     "subcategory": "web-development",
     "language": "english"

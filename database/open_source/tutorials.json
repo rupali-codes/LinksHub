@@ -1,0 +1,24 @@
+[
+  {
+    "name": "How I choose Maintainers",
+    "description": "Even though the focus is on a specific project, this video provides great advice on how to maintain someone else's open source project.",
+    "url": "https://youtu.be/WPaN9vIyqt4",
+    "category": "open-source",
+    "subcategory": "tutorials"
+  },
+  {
+    "name": "Open Source BootCamp in Hindi",
+    "description": "This is the in-depth course for Open Source in the Hindi language, which covers topics required to understand the process involved in Open Source Contribution.",
+    "url": "https://www.youtube.com/playlist?list=PLinedj3B30sAT6CotNj0iffhRV89SkNK9",
+    "category": "open-source",
+    "subcategory": "os-tutorials",
+    "language": "Hindi"
+  },
+  {
+    "name": "Complete Guide to Open Source - How to Contribute",
+    "description": "Learn why and how to contribute to open source software. You will learn about how to find projects to contribute to, how to make issues and PRs, how to make money from open source, and more.",
+    "url": "https://youtu.be/yzeVMecydCE?si=LaiHo7-CWhxPbwjD",
+    "category": "open-source",
+    "subcategory": "os-tutorials"
+  }
+]

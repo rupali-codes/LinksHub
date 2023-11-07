@@ -49,6 +49,9 @@ export type Category =
   | 'devops'
   | 'competitive-programming'
   | 'technical-writing'
+  | 'Placement-Prep'
+  | 'data-structures'
+  | 'BlockChain'
 
 export type SubCategories = {
   name: string

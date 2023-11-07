@@ -49,7 +49,6 @@ export const Searchbar: React.FC<SearchbarProps> = ({
   }
 
   const handleSuggestionClick = (searchQuery: SubCategories) => {
-    console.log(searchQuery)
     dispatchSearch({ type: 'suggestion_click', searchQuery: searchQuery.name })
     const { category } = sidebarData.find((item) =>
       item.subcategory.some((subCat) => subCat.name === searchQuery.name)
@@ -74,6 +73,10 @@ export const Searchbar: React.FC<SearchbarProps> = ({
 
   useEffect(() => {
     const handleClickOutsideDropdown = (e: MouseEvent) => {
+
+      if(e.target && (e.target as HTMLElement).closest("[data-custom='restrict-click-outside']") !== null){
+        return
+      }
       if ((formRef.current as HTMLFormElement).contains(e.target as Node))
         return
       dispatchSearch({ type: 'close_suggestions' })
@@ -87,7 +90,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
   }, [dispatchSearch])
 
   return (
-    <form noValidate ref={formRef} onSubmit={handleSubmit} role="search">
+    <form data-custom='restrict-click-outside' noValidate ref={formRef} onSubmit={handleSubmit} role="search">
       <div className="relative">
         <div className="flex items-center">
           <label htmlFor="simple-search" className="sr-only">
@@ -98,7 +101,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
             type="text"
             id="simple-search"
             name="simple-search"
-            className="block p-2.5 w-full bg-transparent text-sm text-dark dark:text-text-primary border border-dashed border-gray-text focus:border-theme-secondary dark:focus:border-theme-primary dark:focus:ring-theme-primary focus:ring-theme-secondary dark:placeholder-gray-text outline-none transition-all ease-in-out duration-300 rounded-lg capitalize"
+            className="block p-2.5 w-full bg-transparent text-sm text-dark dark:text-text-primary border border-dashed border-gray-text focus:border-theme-secondary dark:focus:border-theme-primary dark:focus:ring-theme-primary focus:ring-theme-secondary dark:placeholder-gray-text outline-none transition-all ease-in-out duration-300 rounded-lg "
             placeholder="Quick search..."
             value={searchQuery}
             onChange={handleSearchChange}
@@ -130,7 +133,6 @@ const getFilteredSuggestions = (query: string) => {
   if (normalisedQuery.length === 0) {
     return []
   }
-
   const suggestions = searchOptions.filter((option) =>
     option.name.toLowerCase().includes(normalisedQuery)
   )

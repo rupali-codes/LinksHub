@@ -1,0 +1,23 @@
+[
+  {
+    "name": "is-a.dev | Free sub-domains for developers",
+    "description": "is-a.dev is a service that allows developers to get a sweet-looking .is-a.dev subdomain for their personal websites.",
+    "url": "https://www.is-a.dev",
+    "category": "other",
+    "subcategory": "domains"
+  },
+  {
+    "name": "JS.ORG",
+    "description": "Are you a JavaScript developer looking for free domain name? Check out JS.ORG",
+    "url": "https://js.org",
+    "category": "other",
+    "subcategory": "domains"
+  },
+  {
+    "name": "GitHub Student Developer Pack",
+    "description": "GitHub provides free domains to students for a year. The students can use these domains to showcase their work",
+    "url": "https://education.github.com/pack",
+    "category": "other",
+    "subcategory": "domains"
+  }
+]

@@ -1,3 +1,5 @@
+import { useRouter } from "next/router"
+
 export interface SearchbarState {
   searchQuery: string
   categoryQuery: string
@@ -57,6 +59,8 @@ export const searchbarReducer: (
     case 'close_suggestions': {
       return {
         ...state,
+        searchQuery : "",
+        categoryQuery : "",
         showSuggestions: false,
       }
     }

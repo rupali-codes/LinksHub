@@ -118,7 +118,7 @@ Follow these steps to setup LinksHub on your local machine
 
   > For example, create a folder named `Resources`
 
-- If you want to add a new subcategory, add it in [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) under the correct category, and provide the appropriate `URL`. You can refer to the examples in the file.
+- If you want to add a new `subcategory`, add it in [data.ts](https://github.com/rupali-codes/LinksHub/blob/main/database/data.ts) under the correct category, and provide the appropriate `URL`. You can refer to the examples in the file.
 
 - Make sure to export the newly created JSON file in the index file.
 
@@ -129,10 +129,6 @@ Follow these steps to setup LinksHub on your local machine
     - If you are adding a category, include the name of the category used in `database/data.ts` in the `Category` type.
 
       > For example, if you are adding a category called `open source`, add it to the `export type` statement in the appropriate style.
-
-    - If you are adding a subcategory, include the name of the JSON file used for the subcategory in the `SubCategory` type.
-
-      > For example, if you are adding a subcategory using the file `online-code-editors.json`, add `online-code-editors` to the `export type` statement in the appropriate style.
 
   - If you are adding a subcategory, go to `components/TopBar/CategoryDescriptions.ts` and add the subcategory name used when exporting the name in `database/index.ts`, along with a concise description in the correct format.
 
@@ -208,6 +204,7 @@ When adding _YouTube_ channel links, please specify _the language_ of the channe
     fonts: 'New Description here',
     -
     -
+  }
   ```
 
 ---
@@ -251,12 +248,12 @@ We follow a standardized commit message format using Commitlint to ensure consis
 #### ✔️ Examples of Valid Commit Messages
 
 - `feat: Add user authentication feature`
-- `fix(auth): Resolve login page redirect issue
-- `docs: Update installation instructions
-- `style: Format code according to project guidelines
+- `fix(auth): Resolve login page redirect issue`
+- `docs: Update installation instructions`
+- `style: Format code according to project guidelines`
 - `refactor(navbar): Improve responsiveness`
 - `test: Add unit tests for API endpoints`
-- `chore: Update dependencies to latest versions
+- `chore: Update dependencies to latest versions`
 - `fix: Handle edge case in data processing (#456)`
 
 #### ❌ Examples of Invalid Commit Messages
@@ -283,7 +280,7 @@ git commit -m "feat(auth): Implement user signup process (#789)"
 2. Each pull request should contain a single logical change or related set of changes that make sense to submit together. If a pull request becomes too large or contains too many unrelated changes, it becomes too difficult to review. In such cases, the reviewer has the right to close your pull request and ask that you submit a separate pull request for each logical set of changes that belong together.
 
 3. Link the issue you have resolved in the Pull Request Template (e.g. Closes/Fixes #99).
-4. Use our [Commit messages Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md#commits-message-guidelines) for your changes.
+4. Use our [Commit messages Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md#commits-message-guidelines-) for your changes.
 5. Do not re-open a pull request that a reviewer has closed.
    - Make sure to tick the "Allow edits from maintainers" box. This allows us to directly make minor edits / refactors and saves a lot of time.
      > **Note**

@@ -1,0 +1,16 @@
+[
+    {
+      "name": "DSA Cheatsheet",
+      "description": "A quick ready DSA cheatsheet",
+      "url": "https://cheatography.com/burcuco/cheat-sheets/data-structures-and-algorithms/",
+      "category": "resources",
+      "subcategory": "dsa"
+    },
+    {
+      "name": "Strivers 79 Last Moment DSA Sheet",
+      "description": "The Striver’s 79 Sheet contains very handily crafted and picked top coding interview questions from different topics of Data Structures & Algorithms.",
+      "url": "https://takeuforward.org/interview-sheets/strivers-79-last-moment-dsa-sheet-ace-interviews/",
+      "category": "resources",
+      "subcategory": "dsa"
+    }
+]

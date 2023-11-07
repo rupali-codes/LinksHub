@@ -194,5 +194,19 @@
     "url": "https://picular.co/",
     "category": "frontend",
     "subcategory": "colors"
+  },
+  {
+    "name": "Realtime Colors",
+    "description": " RealtimeColors is a web-based tool that allows you to visualize and test color palettes for your websites and applications. It also provides a variety of features, such as live previews, color contrast checking, and code export.",
+    "url": "https://www.realtimecolors.com/",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
+    "name": "UIColors",
+    "description": "UIColors is a interactive Tailwind CSS color palette UI with real examples. Create your own palette or edit anything from the library. It also allows you to import the palette directly to Figma file and more.",
+    "url": "https://uicolors.app/",
+    "category": "frontend",
+    "subcategory": "colors"
   }
 ]

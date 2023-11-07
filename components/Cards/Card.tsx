@@ -1,5 +1,7 @@
 import { FC, useState, useRef, useEffect } from 'react'
-import { BsBoxArrowUpRight } from 'react-icons/bs'
+import {BsYoutube , BsPen} from 'react-icons/bs'
+import {AiOutlineRead} from 'react-icons/ai'
+import{MdArticle} from 'react-icons/md'
 import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 import Share from 'components/Share/Share'
 import type { IData } from 'types'
@@ -9,9 +11,10 @@ interface CardProps {
 }
 
 export const Card: FC<CardProps> = ({ data }) => {
-  const { name, description, url } = data
+  const { name, description, url,subcategory } = data
   const descriptionRef = useRef<HTMLParagraphElement>(null)
   const [isOverflow, setIsOverflow] = useState(false)
+  const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/
 
   useEffect(() => {
     if (descriptionRef.current) {
@@ -61,7 +64,7 @@ export const Card: FC<CardProps> = ({ data }) => {
             }
           >
             Visit site
-            <BsBoxArrowUpRight />
+            {youtubeRegex.test(url) ? <BsYoutube size="1.3em"/> : subcategory==='e-book'?<AiOutlineRead size="1.3em"/>:subcategory==='technical-writing-tools'?<BsPen size="1.2em"/>:<MdArticle size="1.3em"/>}
           </a>
         </footer>
       </div>
