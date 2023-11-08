@@ -51,54 +51,56 @@ export const Card: FC<CardProps> = ({ data }) => {
   }
 
   console.log(db);
-  const addUserToAssetBookmark = async()=>{
-    try{
-      const subcollectionRef = collection(db,'resources');
-      const assetQuery = query(subcollectionRef,where('name','==',data.name))
+  const addUserToAssetBookmark = async () => {
+    try {
+      const subcollectionRef = collection(db, 'resources');
+      const assetQuery = query(subcollectionRef, where('name', '==', data.name));
       const assetQuerySnapshot = await getDocs(assetQuery);
-    
-      assetQuerySnapshot.forEach((doc)=>{
-        console.log(doc.id + "refers to "+ doc.data().name)
-      })
-      console.log(name);
-      if(assetQuerySnapshot.empty)
-      {
+  
+      assetQuerySnapshot.forEach((doc) => {
+        console.log(doc.id + " refers to " + doc.data().name);
+      });
+  
+      if (assetQuerySnapshot.empty) {
         console.log('Asset not found');
         return;
       }
+  
       const assetDocSnapshot = assetQuerySnapshot.docs[0];
-      const assetDocRef = doc(db, 'resources', name)
-      const Upvotes = assetDocSnapshot.data().upvotes;
-      if(Upvotes[user.uid])
-      {
-        delete Upvotes[user.uid]
+      const assetDocRef = doc(db, 'resources', name);
+      const assetData = assetDocSnapshot.data();
+  
+      const upvotes = assetData.upvotes || {};
+      const userUid = user.uid;
+  
+      if (upvotes[userUid]) {
+        // User has already upvoted, so remove their upvote
+        delete upvotes[userUid];
+      } else {
+        // User has not upvoted, so add their upvote
+        upvotes[userUid] = true;
       }
-      else
-      {
-        await setDoc(assetDocRef,{
-          ...assetDocSnapshot.data(),  //keeps existing data
-          upvotes: {
-            ...assetDocSnapshot.data().upvotes,
-            [user.uid]: true
-          }
-        }) 
+  
+      await setDoc(assetDocRef, {
+        ...assetData, // Keep existing data
+        upvotes: upvotes,
+      });
+  
+      const updatedAssetDoc = await getDoc(assetDocRef);
+      if (!updatedAssetDoc.exists()) {
+        console.log('Asset document not found');
+        return;
       }
-         
-      const updatedAssetDoc = await getDoc(assetDocRef)
-      if(!updatedAssetDoc.exists())
-      {
-        console.log('Asset document not found')
-      }
-      const upvotes = updatedAssetDoc.data()?.upvotes || {}
-      let uc = Object.keys(upvotes).length
-      setUpvoteCount(uc)
-      console.log(uc)
+  
+      const updatedUpvotes = updatedAssetDoc.data().upvotes || {};
+      const upvoteCount = Object.keys(updatedUpvotes).length;
+      setUpvoteCount(upvoteCount);
+      console.log(upvoteCount);
+    } catch (error) {
+      console.error('Error adding user to asset upvotes:', error);
     }
-    catch(error){
-      console.error('Error adding user to asset upvotes:', error)
-    }
-  }
-
+  };
+  
   const toggleUpvote = () => {
     setIsUpvoted(p => !p);
   };
@@ -107,7 +109,9 @@ export const Card: FC<CardProps> = ({ data }) => {
     e.stopPropagation();
     e.preventDefault();
     toggleUpvote();
-    await Promise.all([save(),addUserToAssetBookmark()]);
+    addUserToAssetBookmark();
+    save();
+    // await Promise.all([save(),addUserToAssetBookmark()]);
   }
   
   function Img({ url, toggleUpvote }:any) {
