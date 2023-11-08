@@ -1,5 +1,4 @@
-import {NextApiRequest,NextApiResponse} from 'next'
-import { FC, useState, useRef, useEffect } from 'react'
+import React, { FC, useState, useRef, useEffect, use } from 'react'
 import {BsYoutube , BsPen} from 'react-icons/bs'
 import {AiOutlineRead} from 'react-icons/ai'
 import{MdArticle} from 'react-icons/md'
@@ -23,6 +22,7 @@ export const Card: FC<CardProps> = ({ data }) => {
   const dbInstance = collection(db,'resources')
   const [subCategory,setSubCategory] = useState("")
   let [upvoteCount,setUpvoteCount] = useState(0)
+  let [isUpvoted,setIsUpvoted] = useState(false);
   const timestamp = Timestamp.fromDate(new Date())
   const date = timestamp.toDate()
   const user = {
@@ -64,35 +64,56 @@ export const Card: FC<CardProps> = ({ data }) => {
       if(assetQuerySnapshot.empty)
       {
         console.log('Asset not found');
+        return;
       }
       const assetDocSnapshot = assetQuerySnapshot.docs[0];
       const assetDocRef = doc(db, 'resources', name)
-      await setDoc(assetDocRef,{
-        ...assetDocSnapshot.data(),  //keeps existing data
-        upvotes: {
-          ...assetDocSnapshot.data().upvotes,
-          [user.uid]: true
-        }
-      })
-
+      const Upvotes = assetDocSnapshot.data().upvotes;
+      if(Upvotes[user.uid])
+      {
+        delete Upvotes[user.uid]
+      }
+      else
+      {
+        await setDoc(assetDocRef,{
+          ...assetDocSnapshot.data(),  //keeps existing data
+          upvotes: {
+            ...assetDocSnapshot.data().upvotes,
+            [user.uid]: true
+          }
+        }) 
+      }
+         
       const updatedAssetDoc = await getDoc(assetDocRef)
       if(!updatedAssetDoc.exists())
       {
         console.log('Asset document not found')
       }
-
       const upvotes = updatedAssetDoc.data()?.upvotes || {}
-      upvoteCount = Object.keys(upvotes).length
-      setUpvoteCount(upvoteCount)
-      console.log(upvoteCount)
+      let uc = Object.keys(upvotes).length
+      setUpvoteCount(uc)
+      console.log(uc)
     }
     catch(error){
       console.error('Error adding user to asset upvotes:', error)
     }
   }
 
-  const handleClick = async()=>{
+  const toggleUpvote = () => {
+    setIsUpvoted(p => !p);
+  };
+
+  const handleClick = async(e: React.MouseEvent<HTMLButtonElement >)=>{
+    e.stopPropagation();
+    e.preventDefault();
+    toggleUpvote();
     await Promise.all([save(),addUserToAssetBookmark()]);
+  }
+  
+  function Img({ url, toggleUpvote }:any) {
+    return (
+      <img src={`${url}`} alt={'altimage'} width={40} height={40} />
+    );
   }
 
   useEffect(() => {
@@ -103,7 +124,6 @@ export const Card: FC<CardProps> = ({ data }) => {
       )
     }
   }, [])
-
   return (
     <article className="z-10 h-full w-full rounded-3xl border border-dashed border-theme-secondary dark:border-theme-primary bg-[rgba(255,255,255,0.3)] shadow-md dark:bg-dark dark:text-text-primary dark:shadow-sm">
       <div className="card-body">
@@ -134,7 +154,7 @@ export const Card: FC<CardProps> = ({ data }) => {
         </div>
         <div className='flex'>
           <p className='text-3xl'>{upvoteCount}</p>
-          <button onClick={handleClick}><Image src="/upvote.png" alt="img" width={50} height={50} /></button>
+          <button onClick={handleClick}><Img url={isUpvoted ? '/upvoteFilled.png' : '/upvote.png'} toggleUpvote={toggleUpvote}/></button>
         </div>
         <footer className="card-actions justify-end">
           <a
