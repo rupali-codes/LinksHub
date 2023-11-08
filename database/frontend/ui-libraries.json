@@ -33,6 +33,13 @@
         "description": "Material Tailwind is a design system and framework that fuses the principles of Google's Material Design with the utility-first approach of Tailwind CSS. It provides a comprehensive set of components and styles for developing modern, Material Design-inspired user interfaces. With Material Tailwind, you can create web applications that follow Material Design guidelines while harnessing the flexibility and utility classes of Tailwind CSS to optimize your CSS output size.",
         "category": "frontend",
         "subcategory": "ui-frameworks"
+    },
+    {
+        "name": "FlowbiteReact",
+        "url": "https://www.flowbite-react.com/",
+        "description": "Flowbite React is an open-source UI component library built on top of Tailwind CSS with React components and based on the Flowbite Design System.",
+        "category": "frontend",
+        "subcategory": "ui-libraries"
     }
     
 ]
