@@ -9,7 +9,6 @@ import { SocialMediaIconsList } from 'components/SocialMedia/SocialMediaIconsLis
 
 export const Header: FC = () => {
   const { toggleNav } = useContext(GlobalContext)
-
   return (
     <header className="fixed top-0 left-0 z-30 row-start-1 row-end-2 flex h-[76px] w-screen items-center justify-between bg-light-primary dark:bg-dark border-b border-b-light-primary dark:border-b-dark-primary">
       <div className="bg-light-primary h-full w-fit flex-none px-6 py-4 dark:bg-dark lg:w-[290px]">

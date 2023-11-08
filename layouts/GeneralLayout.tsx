@@ -4,7 +4,6 @@ import { SideNavbar } from 'components/SideNavbar/SideNavbar'
 import { Header } from 'components/Header/Header'
 import { Aside } from 'components/Aside/Aside'
 import { SkipLink } from 'components/SkipLink/SkipLink'
-
 import { useContext } from 'react'
 import { IContext } from 'types'
 import { GlobalContext } from 'context/GlobalContext'
