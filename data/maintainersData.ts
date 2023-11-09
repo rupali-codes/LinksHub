@@ -8,75 +8,124 @@ export const maintainersData = [
 interface MaintainersDataInterface {
   name: string
   avatarUrl: string
+  login: string
   designation: string
   role: string
   themeColor: string
   txtTheme: string
-  firstItem: string
+  firstLink: string
   firstTxt: string
-  secondItem: string
+  secondLink: string
   secondTxt: string
-  thirdItem: string
+  thirdLink: string
   thirdTxt: string
 }
 
-const Maintainers: MaintainersDataInterface[] = [
+export const Maintainers: MaintainersDataInterface[] = [
   {
     name: 'Rupali Haldiya',
     avatarUrl: 'https://avatars.githubusercontent.com/u/78981177?v=4',
+    login: 'rupali-codes',
     designation: 'FullStack Developer',
     role: 'Founder',
     themeColor: '#EF60861A',
     txtTheme: '#EF6086',
-    firstItem: 'https://github.com/sponsors/rupali-codes',
+    firstLink: 'https://github.com/sponsors/rupali-codes',
     firstTxt: 'Sponsor',
-    secondItem: 'https://github.com/rupali-codes',
+    secondLink: 'https://github.com/rupali-codes',
     secondTxt: 'GitHub',
-    thirdItem: 'https://twitter.com/rupali_codes',
+    thirdLink: 'https://twitter.com/rupali_codes',
     thirdTxt: 'Twitter',
   },
   {
     name: 'Christine Belzie',
     avatarUrl: 'https://avatars.githubusercontent.com/u/105683440?v=4',
+    login: 'CBID2',
     designation: 'Technical Writer',
     role: 'Maintainer',
     themeColor: '#FFF',
     txtTheme: '#FFF',
-    firstItem: 'https://github.com/sponsors/CBID2',
+    firstLink: 'https://github.com/sponsors/CBID2',
     firstTxt: 'Sponsor',
-    secondItem: 'https://www.linkedin.com/in/christinebelzie',
+    secondLink: 'https://www.linkedin.com/in/christinebelzie',
     secondTxt: 'LinkedIn',
-    thirdItem: 'https://twitter.com/CodesChrissy',
+    thirdLink: 'https://twitter.com/CodesChrissy',
     thirdTxt: 'Twitter',
   },
   {
     name: 'Anmol Baranwal',
-    avatarUrl: 'https://avatars.githubusercontent.com/u/78981177?v=4',
+    avatarUrl: 'https://avatars.githubusercontent.com/u/74038190?v=4',
+    login: 'Anmol-Baranwal',
     designation: 'Software Developer',
     role: 'Maintainer',
     themeColor: '#FFF',
     txtTheme: '#FFF',
-    firstItem: 'https://www.linkedin.com/in/Anmol-Baranwal/',
+    firstLink: 'https://www.linkedin.com/in/Anmol-Baranwal',
     firstTxt: 'LinkedIn',
-    secondItem: 'https://github.com/Anmol-Baranwal',
+    secondLink: 'https://github.com/Anmol-Baranwal',
     secondTxt: 'GitHub',
-    thirdItem: 'https://twitter.com/Anmol_Codes',
+    thirdLink: 'https://twitter.com/Anmol_Codes',
     thirdTxt: 'Twitter',
   },
   {
     name: 'Aftab Rehan',
     avatarUrl: 'https://avatars.githubusercontent.com/u/93012310?v=4',
+    login: 'aftabrehan',
     designation: 'UI/UX Designer',
     role: 'Designer',
     themeColor: '#9655A033',
     txtTheme: '#E88DF6',
-    firstItem: 'https://linkedin.com/in/aftabrehan',
+    firstLink: 'https://linkedin.com/in/aftabrehan',
     firstTxt: 'LinkedIn',
-    secondItem: 'https://github.com/aftabrehan',
+    secondLink: 'https://github.com/aftabrehan',
     secondTxt: 'GitHub',
-    thirdItem: 'https://twitter.com/aftabrehan_',
+    thirdLink: 'https://twitter.com/aftabrehan_',
     thirdTxt: 'Twitter',
   },
 ]
 
-export default Maintainers
+export interface Contributor {
+  id: number
+  avatar_url: string
+  name: string
+  login: string
+  contributions: number
+}
+
+export const dummyContributors: Contributor[] = [
+  {
+    id: 1,
+    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
+    name: 'John Doe',
+    login: 'johndoe',
+    contributions: 15,
+  },
+  {
+    id: 2,
+    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
+    name: 'Jane Smith',
+    login: 'janesmith',
+    contributions: 10,
+  },
+  {
+    id: 3,
+    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
+    name: 'Bob Johnson',
+    login: 'bobjohnson',
+    contributions: 5,
+  },
+  {
+    id: 4,
+    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
+    name: 'Bob Johnson',
+    login: 'bobjohnson',
+    contributions: 5,
+  },
+  {
+    id: 5,
+    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
+    name: 'Bob Johnson',
+    login: 'bobjohnson',
+    contributions: 5,
+  },
+]

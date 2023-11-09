@@ -3,56 +3,23 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { GetStaticProps } from 'next'
 import { useTheme } from 'next-themes'
-import { maintainersData } from '../data/maintainersData'
+import {
+  maintainersData,
+  Maintainers,
+  dummyContributors,
+  Contributor,
+} from '../data/maintainersData'
 import { useState } from 'react'
-import { FaArrowRight, FaGithub, FaTrophy, FaTwitter } from 'react-icons/fa'
+import {
+  FaArrowRight,
+  FaGithub,
+  FaHeart,
+  FaLinkedin,
+  FaTrophy,
+  FaTwitter,
+} from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
-
-interface Contributor {
-  id: number
-  avatar_url: string
-  name: string
-  login: string
-  contributions: number
-}
-
-const dummyContributors: Contributor[] = [
-  {
-    id: 1,
-    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
-    name: 'John Doe',
-    login: 'johndoe',
-    contributions: 15,
-  },
-  {
-    id: 2,
-    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
-    name: 'Jane Smith',
-    login: 'janesmith',
-    contributions: 10,
-  },
-  {
-    id: 3,
-    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
-    name: 'Bob Johnson',
-    login: 'bobjohnson',
-    contributions: 5,
-  },
-  {
-    id: 4,
-    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
-    name: 'Bob Johnson',
-    login: 'bobjohnson',
-    contributions: 5,
-  },
-  {
-    id: 5,
-    avatar_url: 'https://avatars.githubusercontent.com/u/74038190?v=4',
-    name: 'Bob Johnson',
-    login: 'bobjohnson',
-    contributions: 5,
-  },
-]
+import React from 'react'
 
 export const getStaticProps: GetStaticProps<{
   contributors: Contributor[]
@@ -103,7 +70,7 @@ export const getStaticProps: GetStaticProps<{
 const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   contributors,
 }) => {
-  const { resolvedTheme } = useTheme()
+  // const { resolvedTheme } = useTheme()
   const filteredContributors = contributors.filter(
     (contributor) => contributor.contributions >= 1
   )
@@ -112,20 +79,31 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
     (a, b) => b.contributions - a.contributions
   )
 
-  const buttonStyles =
-    'bg-violet-600 hover:bg-transparent text-white px-4 py-2 md:px-3 text-sm tracking-[.6px] rounded-md border border-dashed border-transparent duration-100 hover:border-violet-400 hover:text-violet-500 dark:hover:text-violet-400'
+  // const buttonStyles =
+  //   'bg-violet-600 hover:bg-transparent text-white px-4 py-2 md:px-3 text-sm tracking-[.6px] rounded-md border border-dashed border-transparent duration-100 hover:border-violet-400 hover:text-violet-500 dark:hover:text-violet-400'
 
-  const linkProps = {
-    target: '_blank',
-    rel: 'noopener noreferrer',
-    className: buttonStyles,
+  // const linkProps = {
+  //   target: '_blank',
+  //   rel: 'noopener noreferrer',
+  //   className: buttonStyles,
+  // }
+
+  // const isDarkMode = resolvedTheme === 'dark'
+
+  const iconsComponents: { [key: string]: JSX.Element } = {
+    GitHub: <FaGithub />,
+    Twitter: <FaXTwitter />,
+    Sponsor: <FaHeart />,
+    LinkedIn: <FaLinkedin />,
   }
 
-  const isDarkMode = resolvedTheme === 'dark'
+  const maintainersLogins = maintainersData.map(
+    (maintainer) => maintainer.login
+  )
 
-  const imageInfo = `image-effect w-9 h-9 rounded-full bg-gray-100 border text-lg text-gray-900 pl-[9px] pt-1 ${
-    isDarkMode ? '' : 'border-dashed border-violet-400'
-  } `
+  const contributorsWithoutMaintainers = sortedContributors.filter(
+    (contributor) => !maintainersLogins.includes(contributor.login)
+  )
 
   return (
     <div className="mx-4">
@@ -135,6 +113,75 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
           Meet Our Team, Passionate About Open Source and Making LinksHub an
           Open Source Success Story
         </h4>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
+        {Maintainers.map((maintainer, id) => (
+          <div
+            key={id}
+            className="bg-gray-100 rounded-3xl p-4 border border-dashed border-violet-500 dark:border-[#BDBDBD40] shadow-lg dark:bg-[#293242] dark:text-gray-300 dark:shadow-sm flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer m-1"
+          >
+            <div className="dark:bg-[#9F87FF1A] rounded-xl">
+              <div className="flex justify-center image-wrapper pt-4">
+                <Image
+                  src={maintainer.avatarUrl}
+                  alt={`image of ${maintainer.name}`}
+                  width={110}
+                  height={110}
+                  className="rounded-full mb-4 border-2 border-violet-500 dark:border-violet-400 transition-transform duration-300 hover:scale-105 hover:border-dotted m-2"
+                />
+                <div className="bg-[#9F87FF] text-[#624db6] text-xs tracking-wide py-1 px-2 rounded-full absolute top-2 right-2">
+                  {maintainer.role}
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl text-violet-600 dark:text-violet-400 mt-2 mb-1">
+                  {maintainer.name}
+                </div>
+                <div className="text-gray-400 mb-2 pb-4">
+                  {maintainer.designation}
+                </div>
+              </div>
+            </div>
+            <div className="flex justify-between mx-4 items-center mt-4">
+              <div className="hover:bg-violet-600 py-1 px-4 rounded-md transition-all duration-300 ease-in-out">
+                <Link
+                  href={`${maintainer.firstLink}`}
+                  aria-label={`url of ${maintainer.firstLink}`}
+                  className="flex flex-col items-center justify-center"
+                >
+                  <div className="pb-1 text-2xl">
+                    {iconsComponents[maintainer.firstTxt]}
+                  </div>
+                  <span className="text-sm">{maintainer.firstTxt}</span>
+                </Link>
+              </div>
+              <div className="mt-1 hover:bg-violet-600 py-1 px-4 rounded-md transition-all duration-300 ease-in-out text-sm">
+                <Link
+                  href={`${maintainer.secondLink}`}
+                  aria-label={`url of ${maintainer.secondLink}`}
+                  className="flex flex-col items-center justify-center"
+                >
+                  <div className="pb-2 text-2xl">
+                    {iconsComponents[maintainer.secondTxt]}
+                  </div>
+                  {maintainer.secondTxt}
+                </Link>
+              </div>
+              <div className="mt-1 hover:bg-violet-600 py-1 px-4 rounded-md transition-all duration-300 ease-in-out text-sm">
+                <Link
+                  href={`${maintainer.thirdLink}`}
+                  aria-label={`url of ${maintainer.thirdLink}`}
+                  className="flex flex-col items-center justify-center"
+                >
+                  <div className="pb-2 text-2xl">
+                    {iconsComponents[maintainer.thirdTxt]}
+                  </div>
+                  {maintainer.thirdTxt}
+                </Link>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
         {dummyContributors.map((contributor) => (
@@ -151,6 +198,9 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                   height={110}
                   className="rounded-full mb-4 border-2 border-violet-500 dark:border-violet-400 transition-transform duration-300 hover:scale-105 hover:border-dotted m-2"
                 />
+                <div className="bg-[#9F87FF] text-[#624db6] text-xs tracking-wide py-1 px-2 rounded-full absolute top-2 right-2">
+                  Developer
+                </div>
               </div>
               <div className="text-center">
                 <div className="text-2xl text-violet-600 dark:text-violet-400 mt-2 mb-1">
@@ -159,37 +209,40 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                 <div className="text-gray-400 mb-2 pb-4">Web Developer</div>
               </div>
             </div>
-            <div className="flex justify-evenly mt-auto items-center">
-              <div>
+            <div className="flex justify-between mx-4 items-center mt-4">
+              <div className="hover:bg-violet-600 py-1 px-4 rounded-md transition-all duration-300 ease-in-out">
                 <Link
                   href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
                   aria-label={`Commit History of ${contributor.login} in LinksHub`}
                   className="flex flex-col items-center justify-center"
                 >
-                  <div className="pb-1">{contributor.contributions}</div>
-                  Contributions
+                  <div className="pb-1 text-2xl">
+                    {contributor.contributions}
+                  </div>
+                  <span className="text-sm">Contributions</span>
                 </Link>
               </div>
-              <div>
+              <div className="mt-1 hover:bg-violet-600 py-1 px-4 rounded-md transition-all duration-300 ease-in-out text-sm">
                 <Link
                   href={`https://github.com/${contributor.login}`}
                   aria-label={`GitHub Profile of ${contributor.login}`}
                   className="flex flex-col items-center justify-center"
                 >
-                  <div className="pb-1">
-                    <FaGithub className="text-xl" />{' '}
+                  <div className="pb-2">
+                    <FaGithub className="text-2xl" />{' '}
                   </div>
                   GitHub
                 </Link>
               </div>
-              <div>
+              <div className="mt-1 hover:bg-violet-600 py-1 px-4 rounded-md transition-all duration-300 ease-in-out text-sm">
                 <Link
                   href={`https://github.com/${contributor.login}`}
                   aria-label={`GitHub Profile of ${contributor.login}`}
                   className="flex flex-col items-center justify-center"
                 >
-                  <div className="pb-1">
-                    <FaXTwitter className="text-xl" />{' '}
+                  <div className="pb-2">
+                    {/* <div className="bg-black rounded-full p-2"> */}
+                    <FaXTwitter className="text-2xl" /> {/* </div> */}
                   </div>
                   Twitter
                 </Link>
