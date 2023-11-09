@@ -10,13 +10,14 @@ interface MaintainersDataInterface {
   avatarUrl: string
   designation: string
   role: string
-  linkedin?: string
-  github?: string
-  twitter?: string
-  sponsor?: string
-  website?: string
   themeColor: string
   txtTheme: string
+  firstItem: string
+  firstTxt: string
+  secondItem: string
+  secondTxt: string
+  thirdItem: string
+  thirdTxt: string
 }
 
 const Maintainers: MaintainersDataInterface[] = [
@@ -27,9 +28,12 @@ const Maintainers: MaintainersDataInterface[] = [
     role: 'Founder',
     themeColor: '#EF60861A',
     txtTheme: '#EF6086',
-    sponsor: 'https://github.com/sponsors/rupali-codes',
-    github: 'https://github.com/rupali-codes',
-    twitter: 'https://twitter.com/rupali_codes',
+    firstItem: 'https://github.com/sponsors/rupali-codes',
+    firstTxt: 'Sponsor',
+    secondItem: 'https://github.com/rupali-codes',
+    secondTxt: 'GitHub',
+    thirdItem: 'https://twitter.com/rupali_codes',
+    thirdTxt: 'Twitter',
   },
   {
     name: 'Christine Belzie',
@@ -38,9 +42,12 @@ const Maintainers: MaintainersDataInterface[] = [
     role: 'Maintainer',
     themeColor: '#FFF',
     txtTheme: '#FFF',
-    linkedin: 'https://www.linkedin.com/in/christinebelzie',
-    sponsor: 'https://github.com/sponsors/CBID2',
-    twitter: 'https://twitter.com/CodesChrissy',
+    firstItem: 'https://github.com/sponsors/CBID2',
+    firstTxt: 'Sponsor',
+    secondItem: 'https://www.linkedin.com/in/christinebelzie',
+    secondTxt: 'LinkedIn',
+    thirdItem: 'https://twitter.com/CodesChrissy',
+    thirdTxt: 'Twitter',
   },
   {
     name: 'Anmol Baranwal',
@@ -49,9 +56,12 @@ const Maintainers: MaintainersDataInterface[] = [
     role: 'Maintainer',
     themeColor: '#FFF',
     txtTheme: '#FFF',
-    linkedin: 'https://www.linkedin.com/in/Anmol-Baranwal/',
-    github: 'https://github.com/Anmol-Baranwal',
-    twitter: 'https://twitter.com/Anmol_Codes',
+    firstItem: 'https://www.linkedin.com/in/Anmol-Baranwal/',
+    firstTxt: 'LinkedIn',
+    secondItem: 'https://github.com/Anmol-Baranwal',
+    secondTxt: 'GitHub',
+    thirdItem: 'https://twitter.com/Anmol_Codes',
+    thirdTxt: 'Twitter',
   },
   {
     name: 'Aftab Rehan',
@@ -60,9 +70,12 @@ const Maintainers: MaintainersDataInterface[] = [
     role: 'Designer',
     themeColor: '#9655A033',
     txtTheme: '#E88DF6',
-    linkedin: 'https://linkedin.com/in/aftabrehan',
-    github: 'https://github.com/aftabrehan',
-    twitter: 'https://twitter.com/aftabrehan_',
+    firstItem: 'https://linkedin.com/in/aftabrehan',
+    firstTxt: 'LinkedIn',
+    secondItem: 'https://github.com/aftabrehan',
+    secondTxt: 'GitHub',
+    thirdItem: 'https://twitter.com/aftabrehan_',
+    thirdTxt: 'Twitter',
   },
 ]
 
