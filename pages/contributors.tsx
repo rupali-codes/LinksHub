@@ -112,14 +112,15 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
           Open Source Success Story
         </h4>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
+      <div className="contributors-our-team grid gap-5 mt-8">
         {Maintainers.map((maintainer, id) => (
           <div
             key={id}
+            style={{ backgroundColor: 'transparent' }}
             className="bg-gray-100 rounded-3xl p-4 border border-dashed border-violet-500 dark:border-[#BDBDBD40] shadow-lg dark:bg-[#293242] dark:text-gray-300 dark:shadow-sm flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer m-1"
           >
             <div
-              className={`rounded-xl dark:bg-[${maintainer.themeColor}] dark:bg-[#3D3749]`}
+              className={`rounded-xl bg-${maintainer.roleBg} dark:bg-${maintainer.themeColor}`}
             >
               <div className="flex justify-center image-wrapper pt-4">
                 <Image
@@ -127,16 +128,16 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                   alt={`image of ${maintainer.name}`}
                   width={110}
                   height={110}
-                  className="rounded-full mb-4 border-2 border-violet-500 dark:border-violet-400 transition-transform duration-300 hover:scale-105 hover:border-dotted m-2"
+                  className={`rounded-full mb-4 border-2 border-[${maintainer.txtTheme}] dark:border-[${maintainer.txtTheme}] transition-transform duration-300 hover:scale-105 hover:border-dotted m-2`}
                 />
                 <div
-                  className={`bg-text-[${maintainer.roleBg}] text-[${maintainer.txtTheme}] text-xs tracking-wide py-1 px-2 rounded-full absolute top-2 right-2`}
+                  className={`bg-[${maintainer.roleBg}] text-[${maintainer.txtTheme}] text-xs tracking-wide py-1 px-2 rounded-full absolute top-2 right-2`}
                 >
                   {maintainer.role}
                 </div>
               </div>
               <div className="text-center">
-                <div className="text-2xl text-violet-600 dark:text-gray-300 mt-2 mb-1">
+                <div className="text-2xl text-gray-800 dark:text-gray-300 mt-2 mb-1">
                   {maintainer.name}
                 </div>
                 <div className="text-gray-400 mb-2 pb-4">
@@ -145,65 +146,41 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
               </div>
             </div>
             <div className="flex justify-between mx-4 items-center mt-4">
-              <div
-                className={`hover:bg-[${maintainer.roleBg}] py-1 px-4 rounded-md transition-all duration-300 ease-in-out`}
-              >
-                <Link
-                  href={`${maintainer.firstLink}`}
-                  aria-label={`url of ${maintainer.firstLink}`}
-                  className="flex flex-col items-center justify-center"
-                  {...linkProps}
+              {[
+                {
+                  link: maintainer.firstLink,
+                  icon: maintainer.firstTxt,
+                  text: maintainer.firstTxt,
+                },
+                {
+                  link: maintainer.secondLink,
+                  icon: maintainer.secondTxt,
+                  text: maintainer.secondTxt,
+                },
+                {
+                  link: maintainer.thirdLink,
+                  icon: maintainer.thirdTxt,
+                  text: maintainer.thirdTxt,
+                },
+              ].map((linkData, index) => (
+                <div
+                  key={index}
+                  className={`hover:bg-[${maintainer.themeColor}] hover:text-[${maintainer.txtTheme}] py-1 px-4 rounded-md transition-all duration-300 ease-in-out`}
                 >
-                  <div
-                    className={`pb-1 text-2xl hover:text-[${maintainer.txtTheme}]`}
+                  <Link
+                    href={linkData.link}
+                    aria-label={`url of ${linkData.link}`}
+                    className="flex flex-col items-center justify-center"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    {iconsComponents[maintainer.firstTxt]}
-                  </div>
-                  <span
-                    className={`text-sm hover:text-[${maintainer.txtTheme}]`}
-                  >
-                    {maintainer.firstTxt}
-                  </span>
-                </Link>
-              </div>
-              <div
-                className={`mt-1 hover:bg-[${maintainer.themeColor}] py-1 px-4 rounded-md transition-all duration-300 ease-in-out text-sm`}
-              >
-                <Link
-                  href={`${maintainer.secondLink}`}
-                  aria-label={`url of ${maintainer.secondLink}`}
-                  className="flex flex-col items-center justify-center"
-                  {...linkProps}
-                >
-                  <div
-                    className={`pb-2 text-2xl hover:text-[${maintainer.txtTheme}]`}
-                  >
-                    {iconsComponents[maintainer.secondTxt]}
-                  </div>
-                  <span className={`hover:text-[${maintainer.txtTheme}]`}>
-                    {maintainer.secondTxt}
-                  </span>
-                </Link>
-              </div>
-              <div
-                className={`mt-1 hover:bg-[${maintainer.themeColor}] py-1 px-4 rounded-md transition-all duration-300 ease-in-out text-sm`}
-              >
-                <Link
-                  href={`${maintainer.thirdLink}`}
-                  aria-label={`url of ${maintainer.thirdLink}`}
-                  className="flex flex-col items-center justify-center"
-                  {...linkProps}
-                >
-                  <div
-                    className={`pb-2 text-2xl hover:text-[${maintainer.txtTheme}]`}
-                  >
-                    {iconsComponents[maintainer.thirdTxt]}
-                  </div>
-                  <span className={`hover:text-[${maintainer.txtTheme}]`}>
-                    {maintainer.thirdTxt}
-                  </span>
-                </Link>
-              </div>
+                    <div className="pb-1 text-2xl">
+                      {iconsComponents[linkData.icon]}
+                    </div>
+                    <span className={`text-sm`}>{linkData.text}</span>
+                  </Link>
+                </div>
+              ))}
             </div>
           </div>
         ))}
