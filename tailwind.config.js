@@ -8,15 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'theme-primary': '#a78bfa', 
+        primary: '#714EFF',
+        'theme-primary': '#a78bfa',
         'theme-secondary': '#8b5cf6',
         'light-primary': '#f5f3ff',
-        'dark': '#0f172a',  
-        'dark-primary': '#101623', 
+        dark: '#0f172a',
+        'dark-primary': '#101623',
         'gray-text': '#9ca3af',
         'text-primary': '#d1d5db',
         'text-secondary': '#4b5563',
-
       },
       screens: {
         xs: '200px',
@@ -76,6 +76,10 @@ module.exports = {
         'slide-out': 'slide-out 0.3s ease-out forwards',
         'scale-appearance': 'scale-appearance 0.3s ease-in forwards',
         'scale-hide': 'scale-hide 0.3s ease-out forwards',
+      },
+      boxShadow: {
+        header: '0px 4px 16px 0px rgba(225, 218, 244, 0.25)',
+        sidebar: '4px 0px 16px 0px rgba(225, 218, 244, 0.25)',
       },
     },
   },
