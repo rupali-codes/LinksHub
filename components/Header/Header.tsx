@@ -10,7 +10,7 @@ import DiscordIcon from 'assets/icons/svg/discord.svg'
 import GithubIcon from 'assets/icons/svg/github.svg'
 import LinkedinIcon from 'assets/icons/svg/linkedin.svg'
 import XIcon from 'assets/icons/svg/x.svg'
-import Hearticon from 'assets/icons/svg/heart.svg'
+import HeartIcon from 'assets/icons/svg/heart.svg'
 
 export const Header: FC = () => {
   const iconClass =
@@ -76,7 +76,7 @@ export const Header: FC = () => {
 
         <Button
           label="Sponsor"
-          icon={<Hearticon />}
+          icon={<HeartIcon />}
           variant="pale"
           link="https://github.com/sponsors/rupali-codes"
           className="hidden sm:flex"
