@@ -202,21 +202,32 @@ pre {
     animation-iteration-count: 1 !important;
     animation: none !important;
 
-      /* Disables background-attachment: fixed, which prevents elements with fixed backgrounds from remaining in place while scrolling.
+    /* Disables background-attachment: fixed, which prevents elements with fixed backgrounds from remaining in place while scrolling.
        This reduces the perception of motion when scrolling.
       */
     background-attachment: initial !important;
-    
-      /* Reverts scroll-behavior to its default value 'auto', which prevents smooth scrolling behavior.
+
+    /* Reverts scroll-behavior to its default value 'auto', which prevents smooth scrolling behavior.
          Smooth scrolling may cause discomfort to motion-sensitive users.
       */
     scroll-behavior: auto !important;
-    
-      /* Sets transition duration and delay to 0 seconds, effectively disabling all transitions.
+
+    /* Sets transition duration and delay to 0 seconds, effectively disabling all transitions.
          This prevents any element from animating when its properties change.
       */
     transition-duration: 0s !important;
     transition-delay: 0s !important;
     transition: none !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .contributors-our-team {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .contributors-our-team {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

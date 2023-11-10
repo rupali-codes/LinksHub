@@ -104,7 +104,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   return (
     <div className="mx-4">
       <div>
-        <h2 className="text-2xl text-violet-600 dark:text-white tracking-wide pb-2">
+        <h2 className="text-2xl text-violet-600 dark:text-white tracking-wide pb-2 mt-14 lg:mt-2">
           Our Team
         </h2>
         <h4 className="text-[#A6ABBF]">
@@ -208,7 +208,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
+      <div className="contributors-our-team grid gap-4 mt-8">
         {dummyContributors.map((contributor) => (
           <div
             key={contributor.id}
@@ -279,7 +279,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
           </div>
         ))}
       </div>
-      <div className="bg-[#293242] flex justify-between rounded-xl py-6 px-4 my-10">
+      <div className="bg-[#293242] flex justify-between flex-col md:flex-row rounded-xl py-6 px-4 my-10">
         <div className="flex space-x-4">
           <div className="pl-2 pr-3">
             <FaTrophy className="text-2xl text-[#FBD449]" />{' '}
@@ -288,12 +288,12 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
             <div className="text-white text-lg pb-1">
               Join our awesome team!
             </div>
-            <div className="text-gray-400">
+            <div className="text-gray-400 pr-2 md:pr-4">
               Be a contributor and improve LinksHub and help fellow developers.
             </div>
           </div>
         </div>
-        <div className="bg-[#714EFF] rounded-2xl px-6 text-white mr-2">
+        <div className="bg-[#714EFF] rounded-2xl h-14 w-40 px-6 text-white mr-2 whitespace-nowrap mt-6 ml-[56px] md:mt-0 md:ml-0">
           <Link href={''} aria-label="" {...linkProps}>
             <div className="flex items-center justify-center py-4 text-md">
               Join us now
