@@ -19,6 +19,7 @@ import {
 } from 'react-icons/fa'
 import { FaStaylinked, FaXTwitter } from 'react-icons/fa6'
 import React from 'react'
+import clsx from 'clsx'
 
 export const getStaticProps: GetStaticProps<{
   contributors: Contributor[]
@@ -69,7 +70,6 @@ export const getStaticProps: GetStaticProps<{
 const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   contributors,
 }) => {
-  // const { resolvedTheme } = useTheme()
   const filteredContributors = contributors.filter(
     (contributor) => contributor.contributions >= 1
   )
@@ -83,6 +83,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
     rel: 'noopener noreferrer',
   }
 
+  // const { resolvedTheme } = useTheme()
   // const isDarkMode = resolvedTheme === 'dark'
 
   const iconsComponents: { [key: string]: JSX.Element } = {
@@ -101,6 +102,58 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
     (contributor) => !maintainersLogins.includes(contributor.login)
   )
 
+  const getDarkBgColor = (id: number, check?: string) => {
+    if (id === 0) {
+      if (check === 'bg') {
+        return 'bg-[#FFD36226] dark:bg-[#3D3749]' // themecolor
+      } else if (check === 'text') {
+        return 'text-[#EF6086]'
+      } else if (check === 'role') {
+        return 'bg-[#EF608633]'
+      } else if (check === 'hover') {
+        return 'dark:hover:bg-[#EF608633] hover:text-[#EF6086]' // roleBg
+      } else if (check === 'border') {
+        return 'dark:border-[#EF608633] border-[#EF6086]' // dark:roleBg, txtTheme
+      }
+    } else if (id === 1) {
+      if (check === 'bg') {
+        return 'bg-[#e0e0e0] dark:bg-[#e0e0e0]' // themecolor
+      } else if (check === 'text') {
+        return 'text-[#101623]'
+      } else if (check === 'role') {
+        return 'bg-[#d5d5d5]'
+      } else if (check === 'hover') {
+        return 'dark:hover:bg-[#e0e0e0] hover:text-[#101623]' // roleBg
+      } else if (check === 'border') {
+        return 'dark:border-[#101623] border-[#101623]' // dark:roleBg, txtTheme
+      }
+    } else if (id === 2) {
+      if (check === 'bg') {
+        return 'bg-[#101623] dark:bg-[#101623]' // themecolor
+      } else if (check === 'text') {
+        return 'text-[#101623]'
+      } else if (check === 'role') {
+        return 'bg-[#d5d5d5]'
+      } else if (check === 'hover') {
+        return 'dark:hover:bg-[#e0e0e0] hover:text-[#101623]' // roleBg
+      } else if (check === 'border') {
+        return 'dark:border-[#101623] border-[#101623]' // dark:roleBg, txtTheme
+      }
+    } else {
+      if (check === 'bg') {
+        return 'bg-[#9655A033] dark:bg-[#9655A033]' // themecolor
+      } else if (check === 'text') {
+        return 'text-[#E88DF6]'
+      } else if (check === 'role') {
+        return 'bg-[#9655A080]'
+      } else if (check === 'hover') {
+        return 'dark:hover:bg-[#a0a0a0] hover:text-[#E88DF6]' // roleBg
+      } else if (check === 'border') {
+        return 'dark:border-[#9655A080] border-[#E88DF6]' // dark:roleBg, txtTheme
+      }
+    }
+  }
+
   return (
     <div className="mx-4">
       <div>
@@ -116,11 +169,11 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
         {Maintainers.map((maintainer, id) => (
           <div
             key={id}
-            style={{ backgroundColor: 'transparent' }}
             className="bg-gray-100 rounded-3xl p-4 border border-dashed border-violet-500 dark:border-[#BDBDBD40] shadow-lg dark:bg-[#293242] dark:text-gray-300 dark:shadow-sm flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer m-1"
           >
             <div
-              className={`rounded-xl bg-${maintainer.roleBg} dark:bg-${maintainer.themeColor}`}
+              className={`rounded-xl
+                ${getDarkBgColor(id, 'bg')}`}
             >
               <div className="flex justify-center image-wrapper pt-4">
                 <Image
@@ -128,10 +181,16 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                   alt={`image of ${maintainer.name}`}
                   width={110}
                   height={110}
-                  className={`rounded-full mb-4 border-2 border-[${maintainer.txtTheme}] dark:border-[${maintainer.txtTheme}] transition-transform duration-300 hover:scale-105 hover:border-dotted m-2`}
+                  className={`rounded-full mb-4 border-2 ${getDarkBgColor(
+                    id,
+                    'border'
+                  )} transition-transform duration-300 hover:scale-105 hover:border-dotted m-2`}
                 />
                 <div
-                  className={`bg-[${maintainer.roleBg}] text-[${maintainer.txtTheme}] text-xs tracking-wide py-1 px-2 rounded-full absolute top-2 right-2`}
+                  className={`${getDarkBgColor(id, 'role')} ${getDarkBgColor(
+                    id,
+                    'text'
+                  )} text-xs tracking-wide py-1 px-2 rounded-full absolute top-2 right-2`}
                 >
                   {maintainer.role}
                 </div>
@@ -165,7 +224,10 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
               ].map((linkData, index) => (
                 <div
                   key={index}
-                  className={`hover:bg-[${maintainer.themeColor}] hover:text-[${maintainer.txtTheme}] py-1 px-4 rounded-md transition-all duration-300 ease-in-out`}
+                  className={`${getDarkBgColor(
+                    id,
+                    'hover'
+                  )} py-1 px-4 rounded-md transition-all duration-300 ease-in-out`}
                 >
                   <Link
                     href={linkData.link}
