@@ -1,7 +1,9 @@
-import { FC } from 'react'
+import { useRef, FC } from 'react'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 import Button from 'components/Button'
+import { Searchbar } from 'components/Searchbar/Searchbar'
 
 import QuestionMarkIcon from 'assets/icons/svg/question-mark.svg'
 import HomeInActiveIcon from 'assets/icons/svg/nav/home-inactive.svg'
@@ -10,10 +12,14 @@ import SaveInActiveIcon from 'assets/icons/svg/nav/save-inactive.svg'
 import SaveActiveIcon from 'assets/icons/svg/nav/save-active.svg'
 import TeamInActiveIcon from 'assets/icons/svg/nav/team-inactive.svg'
 import TeamActiveIcon from 'assets/icons/svg/nav/team-active.svg'
-import Link from 'next/link'
+
+import { useSearchReducer } from 'hooks/useSearchReducer'
 
 const Sidebar: FC = () => {
   const router = useRouter()
+  const inputRef: React.RefObject<HTMLInputElement> = useRef(null)
+
+  const [searchState, dispatchSearch] = useSearchReducer()
 
   const inActiveIconCls = 'stroke-gray-400'
   const activeIconCls = 'fill-primary dark:fill-white'
@@ -68,7 +74,12 @@ const Sidebar: FC = () => {
   return (
     <div className="fixed bottom-0 left-0 z-30 w-[306px] h-[calc(100vh-78px)] flex flex-col items-start justify-between px-6 py-7 gap-10 bg-white dark:bg-slate-800 shadow-sidebar dark:shadow-none">
       <div className="w-full h-[212px] flex flex-col gap-6">
-        <div className="searchbar h-[48px] border border-red-500"></div>
+        <Searchbar
+          inputRef={inputRef}
+          {...searchState}
+          dispatchSearch={dispatchSearch}
+        />
+
         <nav className="w-full flex h-[140px]">
           <ul className="w-full flex flex-col gap-1">{renderLinks()}</ul>
         </nav>
