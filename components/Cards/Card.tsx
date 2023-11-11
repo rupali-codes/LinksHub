@@ -1,13 +1,12 @@
-import React, { FC, useState, useRef, useEffect, use } from 'react'
+import React, { FC, useState, useRef, useEffect } from 'react'
 import {BsYoutube , BsPen} from 'react-icons/bs'
 import {AiOutlineRead} from 'react-icons/ai'
 import{MdArticle} from 'react-icons/md'
 import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 import Share from 'components/Share/Share'
 import type { IData } from 'types'
-import { collection, addDoc, doc,updateDoc,where,query,getDocs, setDoc,getDoc } from 'firebase/firestore'
+import { collection, doc,where,query,getDocs, setDoc,getDoc, updateDoc } from 'firebase/firestore'
 import {db} from '../../firebase/Firebase'
-import Image from 'next/image'
 import { Timestamp } from 'firebase/firestore'
 
 interface CardProps {
@@ -19,8 +18,8 @@ export const Card: FC<CardProps> = ({ data }) => {
   const descriptionRef = useRef<HTMLParagraphElement>(null)
   const [isOverflow, setIsOverflow] = useState(false)
   const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/
-  const dbInstance = collection(db,'resources')
-  const [subCategory,setSubCategory] = useState("")
+  const id = data.url.replace(/[^\w\s]/gi, '');
+  
   let [upvoteCount,setUpvoteCount] = useState(0)
   let [isUpvoted,setIsUpvoted] = useState(false);
   const timestamp = Timestamp.fromDate(new Date())
@@ -29,46 +28,36 @@ export const Card: FC<CardProps> = ({ data }) => {
     name: 'Vidip',
     uid: 1234
   }
-  const [category,setCategory] = useState("")
-  const save = ()=>{
-    const newItem = {
+  const docRef = doc(db, 'resources', id)
+  const save = async()=>{
+    await setDoc(docRef, { 
       name: name,
       description: description,
       url: url,
-      category: category, 
-      subCategory: subCategory,
       upvotedBy: user,
       upvotes: upvoteCount,
       created: date,
-    }
-
-    addDoc(dbInstance,newItem).then((doc)=>{
-      console.log('Item added with ID',doc.id);
-    })
-    .catch((e)=>{
-      console.log(e);
-    })
+    }, 
+      { merge: true }
+    )
   }
 
-  console.log(db);
+  
   const addUserToAssetBookmark = async () => {
     try {
-      const subcollectionRef = collection(db, 'resources');
-      const assetQuery = query(subcollectionRef, where('name', '==', data.name));
-      const assetQuerySnapshot = await getDocs(assetQuery);
-  
-      assetQuerySnapshot.forEach((doc) => {
-        console.log(doc.id + " refers to " + doc.data().name);
-      });
-  
+      const subcollectionRef = collection(db, 'resources')
+      const assetQuery = query(subcollectionRef, where('name', '==', data.name))
+      const assetQuerySnapshot = await getDocs(assetQuery)
+      
       if (assetQuerySnapshot.empty) {
         console.log('Asset not found');
         return;
       }
   
       const assetDocSnapshot = assetQuerySnapshot.docs[0];
-      const assetDocRef = doc(db, 'resources', name);
+      const assetDocRef = doc(db, 'resources', data.name);
       const assetData = assetDocSnapshot.data();
+      // console.log(assetData)
   
       const upvotes = assetData.upvotes || {};
       const userUid = user.uid;
@@ -80,18 +69,16 @@ export const Card: FC<CardProps> = ({ data }) => {
         // User has not upvoted, so add their upvote
         upvotes[userUid] = true;
       }
-  
       await setDoc(assetDocRef, {
         ...assetData, // Keep existing data
         upvotes: upvotes,
       });
-  
+      
       const updatedAssetDoc = await getDoc(assetDocRef);
       if (!updatedAssetDoc.exists()) {
         console.log('Asset document not found');
         return;
       }
-  
       const updatedUpvotes = updatedAssetDoc.data().upvotes || {};
       const upvoteCount = Object.keys(updatedUpvotes).length;
       setUpvoteCount(upvoteCount);
@@ -109,9 +96,8 @@ export const Card: FC<CardProps> = ({ data }) => {
     e.stopPropagation();
     e.preventDefault();
     toggleUpvote();
-    addUserToAssetBookmark();
     save();
-    // await Promise.all([save(),addUserToAssetBookmark()]);
+    await addUserToAssetBookmark();
   }
   
   function Img({ url, toggleUpvote }:any) {
