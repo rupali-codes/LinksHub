@@ -1,9 +1,11 @@
-import { useRef, FC } from 'react'
+import { memo, useRef, FC } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-import Button from 'components/Button'
 import { Searchbar } from 'components/Searchbar/Searchbar'
+import Button from 'components/Button'
+import { SideNavbarCategoryList } from 'components/SideNavbar/SideNavbarCategoryList'
+const MemoizedSideNavbarCategoryList = memo(SideNavbarCategoryList)
 
 import QuestionMarkIcon from 'assets/icons/svg/question-mark.svg'
 import HomeInActiveIcon from 'assets/icons/svg/nav/home-inactive.svg'
@@ -14,10 +16,12 @@ import TeamInActiveIcon from 'assets/icons/svg/nav/team-inactive.svg'
 import TeamActiveIcon from 'assets/icons/svg/nav/team-active.svg'
 
 import { useSearchReducer } from 'hooks/useSearchReducer'
+import useSearchShortcut from 'hooks/useSearchShortcut'
 
 const Sidebar: FC = () => {
-  const router = useRouter()
   const inputRef: React.RefObject<HTMLInputElement> = useRef(null)
+  useSearchShortcut({ inputRef })
+  const router = useRouter()
 
   const [searchState, dispatchSearch] = useSearchReducer()
 
@@ -72,7 +76,7 @@ const Sidebar: FC = () => {
     })
 
   return (
-    <div className="fixed bottom-0 left-0 z-30 w-[306px] h-[calc(100vh-78px)] flex flex-col items-start justify-between px-6 py-7 gap-10 bg-white dark:bg-slate-800 shadow-sidebar dark:shadow-none">
+    <div className="fixed bottom-0 left-0 z-30 w-[306px] h-[calc(100vh-78px)] hidden sm:flex flex-col items-start justify-between px-6 py-7 gap-10 bg-white dark:bg-slate-800 shadow-sidebar dark:shadow-none">
       <div className="w-full h-[212px] flex flex-col gap-6">
         <Searchbar
           inputRef={inputRef}
@@ -84,18 +88,21 @@ const Sidebar: FC = () => {
           <ul className="w-full flex flex-col gap-1">{renderLinks()}</ul>
         </nav>
       </div>
-      <div className="w-full h-full border border-red-500"></div>
-      <div className="">
-        <Button
-          label="Report a bug"
-          icon={
-            <QuestionMarkIcon className="fill-gray-400 group-hover:fill-red-500 transition-colors" />
-          }
-          variant="text"
-          link="https://github.com/rupali-codes/LinksHub/issues/new/choose"
-          className="group hover:text-red-500 dark:hover:text-red-500"
-        />
+
+      <div className="w-full max-h-[calc(100vh-484px)] flex flex-col items-between gap-5">
+        <h4 className="text-gray-400 text-base font-semibold">RESOURCES</h4>
+        <MemoizedSideNavbarCategoryList query={searchState.categoryQuery} />
       </div>
+
+      <Button
+        label="Report a bug"
+        icon={
+          <QuestionMarkIcon className="fill-gray-400 group-hover:fill-red-500 transition-colors" />
+        }
+        variant="text"
+        link="https://github.com/rupali-codes/LinksHub/issues/new/choose"
+        className="group hover:text-red-500 dark:hover:text-red-500"
+      />
     </div>
   )
 }
