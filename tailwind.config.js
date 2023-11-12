@@ -82,6 +82,8 @@ module.exports = {
         sidebar: '4px 0px 16px 0px rgba(225, 218, 244, 0.25)',
         'input-hover': '0px 0px 0px 1.6px rgba(113, 78, 255, 0.10)',
         'input-focus': '0px 0px 0px 1.6px #714EFF',
+        'input-hover-dark': '0px 0px 0px 1.6px rgba(255, 255, 255, 0.20)',
+        'input-focus-dark': '0px 0px 0px 1.6px rgba(238, 243, 251, 0.75)',
       },
     },
   },

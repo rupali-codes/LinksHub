@@ -116,7 +116,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
             type="text"
             id="simple-search"
             name="simple-search"
-            className="peer h-12 w-full flex items-center justify-start pl-[46px] pr-4 py-3 bg-slate-100 bg-opacity-50 rounded-[10px] outline-none hover:shadow-input-hover focus:shadow-input-focus"
+            className="peer h-12 w-full flex items-center justify-start pl-[46px] pr-4 py-3 bg-slate-100 bg-opacity-50 dark:bg-zinc-400 dark:bg-opacity-20 rounded-[10px] outline-none hover:shadow-input-hover focus:shadow-input-focus dark:hover:shadow-input-hover-dark dark:focus:shadow-input-focus-dark"
             placeholder="Quick search..."
             value={searchQuery}
             onChange={handleSearchChange}
@@ -124,7 +124,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
             required
           />
 
-          <SearchIcon className="absolute top-[14px] left-4 fill-gray-400 peer-focus:fill-primary" />
+          <SearchIcon className="absolute top-[14px] left-4 fill-gray-400 peer-focus:fill-primary dark:peer-focus:fill-slate-100" />
 
           <ShortcutKey />
         </div>
