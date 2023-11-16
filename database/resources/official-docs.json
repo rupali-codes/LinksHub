@@ -28,6 +28,13 @@
     "subcategory": "officialdocs"
   },
   {
+    "name": "Go programming language",
+    "description": "This page gives an overview of the Go documentation and related resources.",
+    "url": "https://go.dev/doc/",
+    "category": "resources",
+    "subcategory": "officialdocs"
+  },
+  {
     "name": "Next.js",
     "description": "This documentation is a comprehensive resource for building fast, scalable, and production-ready web apps using Next.js.",
     "url": "https://nextjs.org/",
