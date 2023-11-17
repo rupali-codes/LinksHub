@@ -8,20 +8,27 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'theme-primary': '#a78bfa', 
-        'theme-secondary': '#8b5cf6',
+        'theme-primary': '#BDBDBD',
+        'theme-secondary': '#714EFF',
+        'theme-tertiary': '#1f2736',
+        'theme-quaternary': '#293242',
+        'theme-quinary': '#BCCBE1',
         'light-primary': '#f5f3ff',
-        'dark': '#0f172a',  
-        'dark-primary': '#101623', 
+        dark: '#0f172a',
+        'dark-primary': '#161e2c',
         'gray-text': '#9ca3af',
-        'text-primary': '#d1d5db',
+        'text-primary': '#EDEDED',
         'text-secondary': '#4b5563',
-
+        'text-tertiary': '#B9C0DA',
+        'text-quaternary': '#EDEDED',
+        'text-quinary': '#A6ABBF',
       },
       screens: {
         xs: '200px',
         folding: '320px',
       },
+      display: ['group-hover'],
+
       keyframes: {
         'button-press': {
           '0%, 100%': {
@@ -76,6 +83,12 @@ module.exports = {
         'slide-out': 'slide-out 0.3s ease-out forwards',
         'scale-appearance': 'scale-appearance 0.3s ease-in forwards',
         'scale-hide': 'scale-hide 0.3s ease-out forwards',
+      },
+      opacity: {
+        8: '0.08',
+      },
+      width: {
+        1038: '1038px',
       },
     },
   },

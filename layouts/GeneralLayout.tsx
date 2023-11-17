@@ -20,7 +20,7 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
       <Header />
       <SideNavbar />
       <div
-        className={`row-start-2 row-end-3 min-h-[100vh-72px] w-full bg-gray-100 dark:bg-[#101623] ${
+        className={`row-start-2 row-end-3 min-h-[100vh-72px] w-full bg-gray-100 dark:bg-dark-primary ${
           sidebar ? 'max-[1024px]:overflow-hidden' : ''
         }`}
       >
@@ -28,12 +28,11 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
           <Aside />
         </nav>
         <main
-        data-custom='restrict-click-outside'
+          data-custom="restrict-click-outside"
           className={clsx(
             'flex flex-col justify-between min-h-full px-4 pb-2 lg:ml-[290px] lg:w-[calc(100%-290px)]',
 
-            pathname != '/' &&
-              ' transition-color ease-in-out duration-200'
+            pathname != '/' && ' transition-color ease-in-out duration-200'
           )}
           id="main"
         >
