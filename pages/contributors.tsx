@@ -19,7 +19,6 @@ import {
 } from 'react-icons/fa'
 import { FaStaylinked, FaXTwitter } from 'react-icons/fa6'
 import React from 'react'
-import clsx from 'clsx'
 
 export const getStaticProps: GetStaticProps<{
   contributors: Contributor[]
@@ -165,84 +164,86 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
           Open Source Success Story
         </h4>
       </div>
-      <div className="contributors-our-team grid gap-5 mt-8">
+      <div className="maintainers-our-team grid sm:grid-cols-1  xl:grid-cols-2 gap-5 mt-8">
         {Maintainers.map((maintainer, id) => (
           <div
             key={id}
             className="bg-gray-100 rounded-3xl p-4 border border-dashed border-violet-500 dark:border-[#BDBDBD40] shadow-lg dark:bg-[#293242] dark:text-gray-300 dark:shadow-sm flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer m-1"
           >
-            <div
-              className={`rounded-xl
+            <div className="flex flex-col md:flex-row md:items-center">
+              <div
+                className={`rounded-xl flex-grow
                 ${getDarkBgColor(id, 'bg')}`}
-            >
-              <div className="flex justify-center image-wrapper pt-4">
-                <Image
-                  src={maintainer.avatarUrl}
-                  alt={`image of ${maintainer.name}`}
-                  width={110}
-                  height={110}
-                  className={`rounded-full mb-4 border-2 ${getDarkBgColor(
-                    id,
-                    'border'
-                  )} transition-transform duration-300 hover:scale-105 hover:border-dotted m-2`}
-                />
-                <div
-                  className={`${getDarkBgColor(id, 'role')} ${getDarkBgColor(
-                    id,
-                    'text'
-                  )} text-xs tracking-wide py-1 px-2 rounded-full absolute top-2 right-2`}
-                >
-                  {maintainer.role}
-                </div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl text-gray-800 dark:text-gray-300 mt-2 mb-1">
-                  {maintainer.name}
-                </div>
-                <div className="text-gray-400 mb-2 pb-4">
-                  {maintainer.designation}
-                </div>
-              </div>
-            </div>
-            <div className="flex justify-between mx-4 items-center mt-4">
-              {[
-                {
-                  link: maintainer.firstLink,
-                  icon: maintainer.firstTxt,
-                  text: maintainer.firstTxt,
-                },
-                {
-                  link: maintainer.secondLink,
-                  icon: maintainer.secondTxt,
-                  text: maintainer.secondTxt,
-                },
-                {
-                  link: maintainer.thirdLink,
-                  icon: maintainer.thirdTxt,
-                  text: maintainer.thirdTxt,
-                },
-              ].map((linkData, index) => (
-                <div
-                  key={index}
-                  className={`${getDarkBgColor(
-                    id,
-                    'hover'
-                  )} py-1 px-4 rounded-md transition-all duration-300 ease-in-out`}
-                >
-                  <Link
-                    href={linkData.link}
-                    aria-label={`url of ${linkData.link}`}
-                    className="flex flex-col items-center justify-center"
-                    target="_blank"
-                    rel="noopener noreferrer"
+              >
+                <div className="flex justify-center image-wrapper pt-4">
+                  <Image
+                    src={maintainer.avatarUrl}
+                    alt={`image of ${maintainer.name}`}
+                    width={110}
+                    height={110}
+                    className={`rounded-full mb-4 border-2 ${getDarkBgColor(
+                      id,
+                      'border'
+                    )} transition-transform duration-300 hover:scale-105 hover:border-dotted m-2`}
+                  />
+                  <div
+                    className={`${getDarkBgColor(id, 'role')} ${getDarkBgColor(
+                      id,
+                      'text'
+                    )} text-xs tracking-wide py-1 px-2 rounded-full absolute top-2 right-2`}
                   >
-                    <div className="pb-1 text-2xl">
-                      {iconsComponents[linkData.icon]}
-                    </div>
-                    <span className={`text-sm`}>{linkData.text}</span>
-                  </Link>
+                    {maintainer.role}
+                  </div>
                 </div>
-              ))}
+                <div className="text-center">
+                  <div className="text-2xl text-gray-800 dark:text-gray-300 mt-2 mb-1">
+                    {maintainer.name}
+                  </div>
+                  <div className="text-gray-400 mb-2 pb-4">
+                    {maintainer.designation}
+                  </div>
+                </div>
+              </div>
+              <div className="flex md:flex-col justify-between sm:mx-16 md:mx-1 md:space-y-5 items-center mt-5 md:mt-0">
+                {[
+                  {
+                    link: maintainer.firstLink,
+                    icon: maintainer.firstTxt,
+                    text: maintainer.firstTxt,
+                  },
+                  {
+                    link: maintainer.secondLink,
+                    icon: maintainer.secondTxt,
+                    text: maintainer.secondTxt,
+                  },
+                  {
+                    link: maintainer.thirdLink,
+                    icon: maintainer.thirdTxt,
+                    text: maintainer.thirdTxt,
+                  },
+                ].map((linkData, index) => (
+                  <div
+                    key={index}
+                    className={`${getDarkBgColor(
+                      id,
+                      'hover'
+                    )} py-1 px-4 rounded-md transition-all duration-300 ease-in-out`}
+                  >
+                    <Link
+                      href={linkData.link}
+                      aria-label={`url of ${linkData.link}`}
+                      className="flex flex-col items-center justify-center"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div className="pb-1 text-2xl">
+                        {iconsComponents[linkData.icon]}
+                      </div>
+                      <span className={`text-sm`}>{linkData.text}</span>
+                    </Link>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         ))}
