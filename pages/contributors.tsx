@@ -249,7 +249,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
         ))}
       </div>
       <div className="contributors-our-team grid gap-4 mt-8">
-        {dummyContributors.map((contributor) => (
+        {contributorsWithoutMaintainers.map((contributor) => (
           <div
             key={contributor.id}
             className="bg-gray-100 rounded-3xl p-4 border border-dashed border-violet-500 dark:border-[#BDBDBD40] shadow-lg dark:bg-[#293242] dark:text-gray-300 dark:shadow-sm flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer m-1"
@@ -274,8 +274,8 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                 <div className="text-gray-400 mb-2 pb-4">Web Developer</div>
               </div>
             </div>
-            <div className="flex justify-between mx-4 items-center mt-4">
-              <div className="hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 rounded-md transition-all duration-300 ease-in-out">
+            <div className="flex justify-between mx-6 items-center mt-4">
+              <div className="hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 ml-0 rounded-md transition-all duration-300 ease-in-out">
                 <Link
                   href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
                   aria-label={`Commit History of ${contributor.login} in LinksHub`}
@@ -288,7 +288,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                   <span className="text-sm">Contributions</span>
                 </Link>
               </div>
-              <div className="mt-1 hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 rounded-md transition-all duration-300 ease-in-out text-sm">
+              <div className="mt-1 hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 mx-2 rounded-md transition-all duration-300 ease-in-out text-sm">
                 <Link
                   href={`https://github.com/${contributor.login}`}
                   aria-label={`GitHub Profile of ${contributor.login}`}
@@ -301,20 +301,22 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                   GitHub
                 </Link>
               </div>
-              <div className="mt-1 hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 rounded-md transition-all duration-300 ease-in-out text-sm">
-                <Link
-                  href={`https://github.com/${contributor.login}`}
-                  aria-label={`GitHub Profile of ${contributor.login}`}
-                  className="flex flex-col items-center justify-center"
-                  {...linkProps}
-                >
-                  <div className="pb-2">
-                    {/* <div className="bg-black rounded-full p-2"> */}
-                    <FaXTwitter className="text-2xl" /> {/* </div> */}
-                  </div>
-                  Twitter
-                </Link>
-              </div>
+              {contributor.twitter_username && (
+                <div className="mt-1 hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 mr-2 rounded-md transition-all duration-300 ease-in-out text-sm">
+                  <Link
+                    href={`https://twitter.com/${contributor.twitter_username}`}
+                    aria-label={`Twitter Profile of ${contributor.twitter_username}`}
+                    className="flex flex-col items-center justify-center"
+                    {...linkProps}
+                  >
+                    <div className="pb-2">
+                      {/* <div className="bg-black rounded-full p-2"> */}
+                      <FaXTwitter className="text-2xl" /> {/* </div> */}
+                    </div>
+                    Twitter
+                  </Link>
+                </div>
+              )}
             </div>
           </div>
         ))}

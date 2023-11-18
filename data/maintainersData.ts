@@ -90,6 +90,7 @@ export const Maintainers: MaintainersDataInterface[] = [
 ]
 
 export interface Contributor {
+  twitter_username?: string
   id: number
   avatar_url: string
   name: string
