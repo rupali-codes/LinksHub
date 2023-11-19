@@ -19,6 +19,12 @@
     "url": "https://stackoverflow.blog/podcast/",
     "category": "other",
     "subcategory": "podcasts"
+  },
+  {
+    "name": "Overpowered",
+    "description": "In Overpowered, the hosts Varun Mayya & Tanmay Bhat talk about everything that you can imagine about AI, helping you get insights into how this piece of tech can be integrated in various domains.",
+    "url": "https://www.youtube.com/@AI.Overpowered",
+    "category": "other",
+    "subcategory": "podcasts"
   }
-  
 ]

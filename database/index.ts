@@ -49,6 +49,7 @@ export { default as java } from './languages/java.json'
 export { default as cpp } from './languages/cpp.json'
 export { default as dart } from './languages/dart.json'
 export { default as solidity } from './languages/solidity.json'
+export { default as swift } from './languages/swift.json'
 //internet of things
 export { default as coursera } from './internet_of_things/coursera.json'
 export { default as raspberrypi } from './internet_of_things/raspberrypi.json'
@@ -120,5 +121,10 @@ export { default as certifications } from './placement_prep/certifications.json'
 export { default as dsaArticles } from './data_structures/dsa-articles.json'
 export { default as dsaTutorials } from './data_structures/dsa-tutorials.json'
 export { default as dsaCourses } from './data_structures/dsa-courses.json'
+// Block Chain
+export {default as smartContracts} from './BlockChain/smart-contracts.json'
+export {default as truffle} from './BlockChain/truffle.json'
+export {default as hardhat} from './BlockChain/hardhat.json'
+export {default as ethers} from './BlockChain/ethers.json'
 
 
