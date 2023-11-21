@@ -44,12 +44,12 @@ export function ThemeToggler() {
         {resolvedTheme === 'dark' ? (
           <SunIcon
             data-custom="restrict-click-outside"
-            className="fill-zinc-600 group-hover:fill-gray-700 dark:fill-zinc-400 dark:group-hover:fill-slate-300"
+            className="fill-zinc-600 group-hover:fill-primary dark:fill-zinc-400 dark:group-hover:fill-slate-300"
           />
         ) : (
           <MoonIcon
             data-custom="restrict-click-outside"
-            className="fill-zinc-600 group-hover:fill-gray-700 dark:fill-zinc-400 dark:group-hover:fill-slate-300"
+            className="fill-zinc-600 group-hover:fill-primary dark:fill-zinc-400 dark:group-hover:fill-slate-300"
           />
         )}
       </button>

@@ -14,7 +14,7 @@ import HeartIcon from 'assets/icons/svg/heart.svg'
 
 export const Header: FC = () => {
   const iconClass =
-    'fill-zinc-600 group-hover:fill-gray-700 dark:fill-zinc-400 dark:group-hover:fill-slate-300'
+    'fill-zinc-600 group-hover:fill-primary dark:fill-zinc-400 dark:group-hover:fill-slate-300'
   const socialIcons = [
     {
       icon: <XIcon className={iconClass} />,
