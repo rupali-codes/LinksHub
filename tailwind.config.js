@@ -21,6 +21,7 @@ module.exports = {
       screens: {
         xs: '200px',
         folding: '320px',
+        tall: { raw: '(min-height: 800px)' },
       },
       keyframes: {
         'button-press': {

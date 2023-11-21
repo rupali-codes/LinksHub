@@ -76,20 +76,22 @@ const Sidebar: FC = () => {
     })
 
   return (
-    <div className="fixed bottom-0 left-0 z-30 w-[306px] h-[calc(100vh-78px)] hidden sm:flex flex-col items-start justify-between px-6 py-7 gap-10 bg-white dark:bg-slate-800 shadow-sidebar dark:shadow-none">
-      <div className="w-full h-[212px] flex flex-col gap-6">
+    <div className="fixed bottom-0 left-0 z-30 w-[306px] h-[calc(100vh-78px)] hidden sm:flex flex-col items-start justify-between px-6 py-4 tall:py-7 gap-4 tall:gap-10 bg-white dark:bg-slate-800 shadow-sidebar dark:shadow-none">
+      <div className="w-full flex flex-col gap-4 tall:gap-6">
         <Searchbar
           inputRef={inputRef}
           {...searchState}
           dispatchSearch={dispatchSearch}
         />
 
-        <nav className="w-full flex h-[140px]">
-          <ul className="w-full flex flex-col gap-1">{renderLinks()}</ul>
+        <nav className="w-full flex">
+          <ul className="w-full flex flex-col gap-0.5 tall:gap-1">
+            {renderLinks()}
+          </ul>
         </nav>
       </div>
 
-      <div className="w-full max-h-[calc(100vh-484px)] flex flex-col items-between gap-5">
+      <div className="w-full max-h-[calc(100vh-342px)] tall:max-h-[calc(100vh-484px)] flex flex-col items-between gap-2 tall:gap-5">
         <h4 className="text-gray-400 text-base font-semibold">RESOURCES</h4>
         <MemoizedSideNavbarCategoryList query={searchState.categoryQuery} />
       </div>
@@ -101,7 +103,7 @@ const Sidebar: FC = () => {
         }
         variant="text"
         link="https://github.com/rupali-codes/LinksHub/issues/new/choose"
-        className="group hover:text-red-500 dark:hover:text-red-500"
+        className="group hover:text-red-500 dark:hover:text-red-500 hidden tall:flex"
       />
     </div>
   )
