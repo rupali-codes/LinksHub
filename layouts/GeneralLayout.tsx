@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react'
 import { Footer } from 'components/Footer/Footer'
 import { SideNavbar } from 'components/SideNavbar/SideNavbar'
 import { Header } from 'components/Header/Header'
-import { Aside } from 'components/Aside/Aside'
+import Sidebar from 'components/Sidebar'
 import { SkipLink } from 'components/SkipLink/SkipLink'
 
 import { useContext } from 'react'
@@ -25,15 +25,14 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
         }`}
       >
         <nav>
-          <Aside />
+          <Sidebar />
         </nav>
         <main
-        data-custom='restrict-click-outside'
+          data-custom="restrict-click-outside"
           className={clsx(
             'flex flex-col justify-between min-h-full px-4 pb-2 lg:ml-[290px] lg:w-[calc(100%-290px)]',
 
-            pathname != '/' &&
-              ' transition-color ease-in-out duration-200'
+            pathname != '/' && ' transition-color ease-in-out duration-200'
           )}
           id="main"
         >

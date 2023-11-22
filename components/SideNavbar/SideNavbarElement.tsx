@@ -25,13 +25,13 @@ export const SideNavbarElement: FC<{
       }}
       className={`${
         router.asPath === path
-          ? 'border-l-4 border-theme-primary text-theme-secondary dark:text-theme-primary '
-          : 'text-text-secondary dark:text-gray-text'
+          ? 'border-l-4 border-theme-primary text-theme-secondary dark:text-theme-primary'
+          : 'text-gray-400'
       } collapse w-full text-start pl-3 hover:text-theme-secondary dark:hover:text-violet-300 
       focus-visible:outline-none focus-visible:ring focus-visible:ring-theme-primary focus-visible:rounded-lg`}
     >
       <div
-        className="ml-2 text-lg py-2 capitalize transition-all duration-300 hover:pl-2 dark:border-theme-secondary"
+        className="ml-2 py-2 text-base font-medium capitalize transition-all duration-300 hover:pl-2 dark:border-theme-secondary"
         onClick={closeNav}
       >
         {name}
