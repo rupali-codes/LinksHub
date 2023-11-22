@@ -102,7 +102,6 @@ const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
         className=" relative min-h-[calc(100%-68px)]  w-full pt-[85px] pb-4 md:min-h-[calc(100%-76px)] md:px-10 md:pt-10"
       >
         {content}
-        {/* <div className=" min-w-full bg-white" /> */}
         <Pagination
           toporbottom={toporbottom}
           totalPages={totalPages}
