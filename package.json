@@ -24,6 +24,8 @@
     "eslint-config-next": "13.4.3",
     "eslint-config-prettier": "^8.8.0",
     "firebase": "^10.5.0",
+    "firebase-admin": "^11.11.0",
+    "firebase-tools": "^12.9.1",
     "git": "^0.1.5",
     "next": "13.4.3",
     "next-themes": "^0.2.1",
