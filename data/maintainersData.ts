@@ -11,9 +11,6 @@ export interface MaintainersDataInterface {
   login: string
   designation: string
   role: string
-  themeColor: string
-  roleBg: string
-  txtTheme: string
   firstLink: string
   firstTxt: string
   secondLink: string
@@ -29,9 +26,6 @@ export const Maintainers: MaintainersDataInterface[] = [
     login: 'rupali-codes',
     designation: 'FullStack Developer',
     role: 'Founder',
-    themeColor: '#3D3749',
-    roleBg: '#EF608633',
-    txtTheme: '#EF6086',
     firstLink: 'https://github.com/sponsors/rupali-codes',
     firstTxt: 'Sponsor',
     secondLink: 'https://github.com/rupali-codes',
@@ -45,9 +39,6 @@ export const Maintainers: MaintainersDataInterface[] = [
     login: 'Anmol-Baranwal',
     designation: 'Software Developer',
     role: 'Maintainer',
-    themeColor: '#FFD3621A',
-    roleBg: '#FFD36226',
-    txtTheme: '#FFE5A3',
     firstLink: 'https://www.linkedin.com/in/Anmol-Baranwal',
     firstTxt: 'LinkedIn',
     secondLink: 'https://github.com/Anmol-Baranwal',
@@ -61,9 +52,6 @@ export const Maintainers: MaintainersDataInterface[] = [
     login: 'CBID2',
     designation: 'Technical Writer',
     role: 'Maintainer',
-    themeColor: '#FFD3621A',
-    roleBg: '#FFD36226',
-    txtTheme: '#FFE5A3',
     firstLink: 'https://github.com/sponsors/CBID2',
     firstTxt: 'Sponsor',
     secondLink: 'https://www.linkedin.com/in/christinebelzie',
@@ -77,9 +65,6 @@ export const Maintainers: MaintainersDataInterface[] = [
     login: 'aftabrehan',
     designation: 'UI/UX Designer',
     role: 'Designer',
-    themeColor: '#9655A033',
-    roleBg: '#9655A080',
-    txtTheme: '#E88DF6',
     firstLink: 'https://aftabrehan.com',
     firstTxt: 'Website',
     secondLink: 'https://github.com/aftabrehan',

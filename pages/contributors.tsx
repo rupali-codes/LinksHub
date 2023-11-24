@@ -5,7 +5,6 @@ import type { GetStaticProps } from 'next'
 import {
   maintainersData,
   Maintainers,
-  dummyContributors,
   Contributor,
 } from '../data/maintainersData'
 import {
@@ -113,27 +112,27 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
       }
     } else if (id === 1) {
       if (check === 'bg') {
-        return 'bg-[#e0e0e0] dark:bg-[#e0e0e0]'
+        return 'bg-[#565990] bg-opacity-10 dark:bg-[#565990] dark:bg-opacity-30' // 565990
       } else if (check === 'text') {
-        return 'text-[#101623]'
+        return 'text-[#565990] dark:text-[#1b1d49]'
       } else if (check === 'role') {
-        return 'bg-[#d5d5d5]'
+        return 'bg-[#565990] bg-opacity-10 dark:bg-[#8b8fca] dark:bg-opacity-90 border dark:border-none border-[#8b8fca] border-opacity-50'
       } else if (check === 'hover') {
-        return 'dark:hover:bg-[#e0e0e0] hover:text-[#101623]'
+        return 'hover:bg-[#565990] hover:bg-opacity-5 dark:hover:bg-[#565990] dark:hover:bg-opacity-20 hover:text-[#3f426d] dark:hover:text-[#8b8fca]'
       } else if (check === 'border') {
-        return 'dark:border-[#101623] border-[#101623]'
+        return 'dark:border-[#565990] dark:border-opacity-20 border-opacity-50 border-[#565990]'
       }
     } else if (id === 2) {
       if (check === 'bg') {
-        return 'bg-[#101623] dark:bg-[#101623]'
+        return 'bg-[#20BA88] bg-opacity-5 dark:bg-[#20BA88] dark:bg-opacity-10'
       } else if (check === 'text') {
-        return 'text-[#101623]'
+        return 'text-[#20BA88] dark:text-[#101623]'
       } else if (check === 'role') {
-        return 'bg-[#d5d5d5]'
+        return 'bg-[#20BA88] bg-opacity-10 dark:bg-[#20BA88] dark:bg-opacity-90 border dark:border-none border-[#20BA88] border-opacity-50'
       } else if (check === 'hover') {
-        return 'dark:hover:bg-[#e0e0e0] hover:text-[#101623]'
+        return 'hover:bg-[#20BA88] hover:bg-opacity-5 dark:hover:bg-[#20BA88] dark:hover:bg-opacity-20 hover:text-[#20BA88]'
       } else if (check === 'border') {
-        return 'dark:border-[#101623] border-[#101623]'
+        return 'dark:border-[#20BA88] dark:border-opacity-20 border-opacity-50 border-[#20BA88]'
       }
     } else {
       if (check === 'bg') {
@@ -334,8 +333,12 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
             </div>
           </div>
         </div>
-        <div className="bg-[#714EFF] rounded-2xl h-14 w-40 px-6 text-white mr-2 whitespace-nowrap mt-6 ml-[56px] md:mt-0 md:ml-0">
-          <Link href={''} aria-label="" {...linkProps}>
+        <div className="bg-[#714EFF] hover:bg-[#7560ca] rounded-2xl h-14 w-40 px-6 text-white mr-2 whitespace-nowrap mt-6 ml-[56px] md:mt-0 md:ml-0 duration-300 transition-all">
+          <Link
+            href={'https://github.com/rupali-codes/LinksHub'}
+            aria-label="GitHub Link to LinksHub"
+            {...linkProps}
+          >
             <div className="flex items-center justify-center py-4 text-md">
               Join us now
               <span className="pl-2 text-sm">
