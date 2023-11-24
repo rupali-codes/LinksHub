@@ -6,6 +6,7 @@ import {
   maintainersData,
   Maintainers,
   Contributor,
+  MaintainersDataInterface,
 } from '../data/maintainersData'
 import {
   FaArrowRight,
@@ -97,56 +98,76 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
     (contributor) => !maintainersLogins.includes(contributor.login)
   )
 
-  const getDarkBgColor = (id: number, check?: string) => {
-    if (id === 0) {
-      if (check === 'bg') {
-        return 'bg-[#EF6086] bg-opacity-5 dark:bg-opacity-10 dark:bg-[#EF6086]'
-      } else if (check === 'text') {
-        return 'text-[#EF6086]'
-      } else if (check === 'role') {
-        return 'bg-[#EF60861A] bg-opacity-10 dark:bg-[#EF6086] dark:bg-opacity-20 border dark:border-none border-[#EF6086] border-opacity-50'
-      } else if (check === 'hover') {
-        return 'hover:bg-[#EF6086] hover:bg-opacity-5 dark:hover:bg-[#EF6086] dark:hover:bg-opacity-20 hover:text-[#EF6086]'
-      } else if (check === 'border') {
-        return 'dark:border-[#EF6086] dark:border-opacity-20 border-[#EF6086]'
-      }
-    } else if (id === 1) {
-      if (check === 'bg') {
-        return 'bg-[#565990] bg-opacity-10 dark:bg-[#565990] dark:bg-opacity-30' // 565990
-      } else if (check === 'text') {
-        return 'text-[#565990] dark:text-[#1b1d49]'
-      } else if (check === 'role') {
-        return 'bg-[#565990] bg-opacity-10 dark:bg-[#8b8fca] dark:bg-opacity-90 border dark:border-none border-[#8b8fca] border-opacity-50'
-      } else if (check === 'hover') {
-        return 'hover:bg-[#565990] hover:bg-opacity-5 dark:hover:bg-[#565990] dark:hover:bg-opacity-20 hover:text-[#3f426d] dark:hover:text-[#8b8fca]'
-      } else if (check === 'border') {
-        return 'dark:border-[#565990] dark:border-opacity-20 border-opacity-50 border-[#565990]'
-      }
-    } else if (id === 2) {
-      if (check === 'bg') {
-        return 'bg-[#20BA88] bg-opacity-5 dark:bg-[#20BA88] dark:bg-opacity-10'
-      } else if (check === 'text') {
-        return 'text-[#20BA88] dark:text-[#101623]'
-      } else if (check === 'role') {
-        return 'bg-[#20BA88] bg-opacity-10 dark:bg-[#20BA88] dark:bg-opacity-90 border dark:border-none border-[#20BA88] border-opacity-50'
-      } else if (check === 'hover') {
-        return 'hover:bg-[#20BA88] hover:bg-opacity-5 dark:hover:bg-[#20BA88] dark:hover:bg-opacity-20 hover:text-[#20BA88]'
-      } else if (check === 'border') {
-        return 'dark:border-[#20BA88] dark:border-opacity-20 border-opacity-50 border-[#20BA88]'
-      }
-    } else {
-      if (check === 'bg') {
-        return 'bg-[#9655A0] bg-opacity-5 dark:bg-opacity-10 dark:bg-[#9655A0]'
-      } else if (check === 'text') {
-        return 'text-[#E672F9]'
-      } else if (check === 'role') {
-        return 'bg-[#9655A0] bg-opacity-10 dark:bg-[#9655A0] dark:bg-opacity-50 border dark:border-none border-[#9655A0] border-opacity-50'
-      } else if (check === 'hover') {
-        return 'hover:bg-[#9655A0] hover:bg-opacity-5 dark:hover:bg-[#9655A0] dark:hover:bg-opacity-20 hover:text-[#E672F9]'
-      } else if (check === 'border') {
-        return 'dark:border-[#9655A0] dark:border-opacity-20 border-[#9655A0]'
-      }
+  const generateLinksData = (maintainer: MaintainersDataInterface) => [
+    {
+      link: maintainer.firstLink,
+      icon: maintainer.firstTxt,
+      text: maintainer.firstTxt,
+    },
+    {
+      link: maintainer.secondLink,
+      icon: maintainer.secondTxt,
+      text: maintainer.secondTxt,
+    },
+    {
+      link: maintainer.thirdLink,
+      icon: maintainer.thirdTxt,
+      text: maintainer.thirdTxt,
+    },
+  ]
+
+  interface ColorStyles {
+    [key: number]: {
+      bg: string
+      text: string
+      role: string
+      hover: string
+      border: string
     }
+  }
+
+  const getDarkBgColor = (
+    id: number,
+    check: 'bg' | 'text' | 'role' | 'hover' | 'border'
+  ): string => {
+    const themeColor: ColorStyles = {
+      0: {
+        bg: 'bg-[#EF6086] bg-opacity-5 dark:bg-opacity-10 dark:bg-[#EF6086]',
+        text: 'text-[#EF6086]',
+        role: 'bg-[#EF60861A] bg-opacity-10 dark:bg-[#EF6086] dark:bg-opacity-20 border dark:border-none border-[#EF6086] border-opacity-50',
+        hover:
+          'hover:bg-[#EF6086] hover:bg-opacity-5 dark:hover:bg-[#EF6086] dark:hover:bg-opacity-20 hover:text-[#EF6086]',
+        border: 'dark:border-[#EF6086] dark:border-opacity-20 border-[#EF6086]',
+      },
+      1: {
+        bg: 'bg-[#565990] bg-opacity-10 dark:bg-[#565990] dark:bg-opacity-30',
+        text: 'text-[#565990] dark:text-[#1b1d49]',
+        role: 'bg-[#565990] bg-opacity-10 dark:bg-[#8b8fca] dark:bg-opacity-90 border dark:border-none border-[#8b8fca] border-opacity-50',
+        hover:
+          'hover:bg-[#565990] hover:bg-opacity-5 dark:hover:bg-[#565990] dark:hover:bg-opacity-20 hover:text-[#3f426d] dark:hover:text-[#8b8fca]',
+        border:
+          'dark:border-[#565990] dark:border-opacity-20 border-opacity-50 border-[#565990]',
+      },
+      2: {
+        bg: 'bg-[#20BA88] bg-opacity-5 dark:bg-[#20BA88] dark:bg-opacity-10',
+        text: 'text-[#20BA88] dark:text-[#101623]',
+        role: 'bg-[#20BA88] bg-opacity-10 dark:bg-[#20BA88] dark:bg-opacity-90 border dark:border-none border-[#20BA88] border-opacity-50',
+        hover:
+          'hover:bg-[#20BA88] hover:bg-opacity-5 dark:hover:bg-[#20BA88] dark:hover:bg-opacity-20 hover:text-[#20BA88]',
+        border:
+          'dark:border-[#20BA88] dark:border-opacity-20 border-opacity-50 border-[#20BA88]',
+      },
+      3: {
+        bg: 'bg-[#9655A0] bg-opacity-5 dark:bg-opacity-10 dark:bg-[#9655A0]',
+        text: 'text-[#E672F9]',
+        role: 'bg-[#9655A0] bg-opacity-10 dark:bg-[#9655A0] dark:bg-opacity-50 border dark:border-none border-[#9655A0] border-opacity-50',
+        hover:
+          'hover:bg-[#9655A0] hover:bg-opacity-5 dark:hover:bg-[#9655A0] dark:hover:bg-opacity-20 hover:text-[#E672F9]',
+        border: 'dark:border-[#9655A0] dark:border-opacity-20 border-[#9655A0]',
+      },
+    }
+
+    return themeColor[id][check]
   }
 
   return (
@@ -201,25 +222,9 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                 </div>
               </div>
               <div className="flex md:flex-col justify-between sm:mx-16 md:mx-1 md:space-y-5 items-center mt-5 md:mt-0">
-                {[
-                  {
-                    link: maintainer.firstLink,
-                    icon: maintainer.firstTxt,
-                    text: maintainer.firstTxt,
-                  },
-                  {
-                    link: maintainer.secondLink,
-                    icon: maintainer.secondTxt,
-                    text: maintainer.secondTxt,
-                  },
-                  {
-                    link: maintainer.thirdLink,
-                    icon: maintainer.thirdTxt,
-                    text: maintainer.thirdTxt,
-                  },
-                ].map((linkData, index) => (
+                {generateLinksData(maintainer).map((linkData, idx) => (
                   <div
-                    key={index}
+                    key={idx}
                     className={`${getDarkBgColor(
                       id,
                       'hover'
@@ -308,8 +313,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                       {...linkProps}
                     >
                       <div className="pb-2">
-                        {/* <div className="bg-black rounded-full p-2"> */}
-                        <FaXTwitter className="text-2xl" /> {/* </div> */}
+                        <FaXTwitter className="text-2xl" />
                       </div>
                       Twitter
                     </Link>
