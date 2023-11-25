@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react'
 import { Footer } from 'components/Footer/Footer'
 import { SideNavbar } from 'components/SideNavbar/SideNavbar'
 import { Header } from 'components/Header/Header'
-import { Aside } from 'components/Aside/Aside'
+import Sidebar from 'components/Sidebar'
 import { SkipLink } from 'components/SkipLink/SkipLink'
 
 import { useContext } from 'react'
@@ -20,12 +20,12 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
       <Header />
       <SideNavbar />
       <div
-        className={`row-start-2 row-end-3 min-h-[100vh-72px] w-full bg-gray-100 dark:bg-dark-primary ${
+        className={`row-start-2 row-end-3 min-h-[100vh-72px] w-full bg-gray-100 dark:bg-[#101623] ${
           sidebar ? 'max-[1024px]:overflow-hidden' : ''
         }`}
       >
         <nav>
-          <Aside />
+          <Sidebar />
         </nav>
         <main
           data-custom="restrict-click-outside"

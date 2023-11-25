@@ -1,9 +1,7 @@
 import { useRouter } from 'next/router'
-import Logo from 'components/logo/logo'
 import { sidebarData } from 'database/data'
 import { SubCategories } from 'types'
 import Link from 'next/link'
-import { MdOutlineAdd } from 'react-icons/md'
 import AddIcon from 'assets/icons/AddIcon'
 import ArrowIcon from 'assets/icons/ArrowIcon'
 import BreadCrumbs from 'components/Breadcrumps'
@@ -28,17 +26,19 @@ const CategoryPage = () => {
               />
               <div className="flex my-auto gap-x-3">
                 <MessageIcon />
-                <div className="text-md text-text-quinary">Give a feedback</div>
+                <div className="text-md text-text-quinary hidden md:block">
+                  Give a feedback
+                </div>
               </div>
             </div>
-            <div className="flex w-1038 justify-center">
-              <div className="flex flex-wrap gap-x-9 gap-y-5 mt-8 mb-28 flex-start items-start">
+            <div className="flex max-w-1038 justify-center">
+              <div className="flex flex-wrap gap-x-9 gap-y-5 mt-6 mb-28 flex-start items-start">
                 {subcategories.map((subcat, i) => (
                   <Link
                     key={i}
                     href={`/${category}${subcat.url}`}
                     aria-label={`Explore ${subcat.name}`}
-                    className={`flex border dark:border-theme-primary dark:border-opacity-8 rounded-xl bg-theme-tertiary  hover:bg-theme-quaternary hover:bg-opacity-25	 px-3 py-1 dark:hover:border-opacity-25 hover:text-dark-primary shadow-lg lg:max-w-xs max-md:max-w-xs px-4 py-4 group`}
+                    className={`group flex border dark:border-theme-primary dark:border-opacity-8 rounded-xl bg-theme-tertiary  hover:bg-theme-quaternary hover:bg-opacity-25	 px-3 py-1 dark:hover:border-opacity-25 hover:text-dark-primary shadow-lg lg:max-w-xs max-md:max-w-xs px-4 py-4 group`}
                   >
                     <div>
                       <div
@@ -54,7 +54,7 @@ const CategoryPage = () => {
                       </div>
                     </div>
 
-                    <ArrowIcon className="w-8 dark:text-text-primary hidden group-hover:block" />
+                    <ArrowIcon className="group" />
                   </Link>
                 ))}
                 <Link

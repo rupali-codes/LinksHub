@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 /* Font family */
-/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300;400;500;600;700;800;900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300;400;500;600;700;800;900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap');
+
 /* Making default font family */
 body {
   font-family: 'Urbanist', sans-serif;
@@ -223,4 +223,33 @@ pre {
     transition-delay: 0s !important;
     transition: none !important;
   }
+}
+
+.purpleScrollbar {
+  scrollbar-color: #714eff transparent;
+}
+
+.purpleScrollbar::-webkit-scrollbar {
+  width: 6px;
+  background-color: white;
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+  transition: box-shadow 0.2s;
+}
+
+.purpleScrollbar::-webkit-scrollbar-thumb {
+  width: 6px;
+  background-color: #714eff;
+  border-radius: 12px;
+  transform: scale(1);
+  transition: all 0.2s;
+}
+
+.purpleScrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #714effcc;
+  transform: scale(1.01);
+}
+
+.purpleScrollbar::-webkit-scrollbar-thumb:active {
+  background-color: #714eff;
 }

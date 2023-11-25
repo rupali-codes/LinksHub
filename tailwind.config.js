@@ -90,8 +90,18 @@ module.exports = {
       width: {
         1038: '1038px',
       },
+      maxWidth: {
+        1038: '1038px',
+      },
+      fontSize: {
+        '1.5xl': '22px',
+      },
     },
   },
   plugins: [require('daisyui')],
   darkMode: ['class', '[data-theme="dark"]'],
+  variants: {
+    opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+  },
 }
