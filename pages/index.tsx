@@ -4,11 +4,10 @@ import Logo from 'components/logo/logo'
 import TypewriterComponent from 'typewriter-effect'
 import { sidebarData } from '../database/data'
 import Link from 'next/link'
+import SignInWithGithub from '../app/SignInWithGithub/SignInWithGithub'
 
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
-
-
   //storing sub categories names for using in typewriter effect
   const subCategoriesNames: string[] = []
   sidebarData.forEach((c) => {
@@ -22,6 +21,7 @@ export default function Home() {
       subCategoriesUrl.push(c.category+a.url)
     })
   })
+
   useEffect(() => {
     const typewriterInterval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % subCategoriesNames.length);
@@ -89,7 +89,6 @@ export default function Home() {
           property="discord:invite"
           content="https://discord.com/invite/NvK67YnJX5"
         />
-
         <link rel="icon" href="/icon.png" className="rounded-full" />
       </Head>
       <section data-custom='restrict-click-outside' className="flex min-h-[calc(100vh-165px)] flex-col">
@@ -107,6 +106,7 @@ export default function Home() {
               and other tools that can be used to build and deploy applications
               and websites.
             </p>
+            <SignInWithGithub/>
             <br />
             <p className="text-md">Navigate through menu for</p>
             <Link href={subCategoriesUrl[currentIndex]}>

@@ -6,7 +6,7 @@ import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 import Share from 'components/Share/Share'
 import type { IData } from 'types'
 import { collection, doc,where,query,getDocs, setDoc,getDoc, updateDoc } from 'firebase/firestore'
-import {db} from '../../firebase/Firebase'
+import {db} from '../../lib/firebase-config'
 import { Timestamp } from 'firebase/firestore'
 
 interface CardProps {

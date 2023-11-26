@@ -1,0 +1,94 @@
+"use client"
+import { signInWithPopup,GithubAuthProvider,signOut } from 'firebase/auth'
+import React, { useEffect, useState } from 'react'
+import {auth,provider} from '../../lib/firebase-config'
+import { useRouter } from 'next/router'
+import Image from 'next/image'
+
+const SignInWithGithub=()=>{
+    const router = useRouter();
+    const [imageURL, setImageURL] = useState<string | null>(null);
+    const [authenticated,setAuthenticated] = useState(false);
+    const signIn = async () => {
+        try {
+            const result = await signInWithPopup(auth, provider);
+            const credential = GithubAuthProvider.credentialFromResult(result);
+            console.log("Credential",credential);
+            console.log("Result: ",result);
+            const token: any = result.user.accessToken;
+            const username:any = result.user.displayName;
+            localStorage.setItem('accessToken', token);
+            const currDate = new Date().getTime;
+            document.cookie = `accessToken=${token};path=/; expires=${currDate}`;
+            const imgURL:any = result.user.photoURL;
+            localStorage.setItem('imageURL',imgURL);
+            setImageURL(imgURL);
+            setAuthenticated(true);
+            console.log("Image URL:", imgURL);
+            alert(`${username} signed in`);
+            fetch('/api/auth',{
+              method: 'POST',
+              headers: {
+                Authorization: `Bearer ${await token}`
+              }
+            }).then((response)=>{
+              if(response.status===200)
+              {
+                router.push('/');
+                console.log("User successfully signed in!");
+              }
+            })
+        } 
+        catch (error) {
+            console.error('Error signing in:', error);
+        }
+    }
+
+    const handleSignOut=async()=>{
+        try {
+            const response = await signOut(auth);
+            console.log("user logged out",response)
+            document.cookie =  "accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            console.log(document.cookie);
+            localStorage.removeItem('accessToken');
+            localStorage.removeItem('imageURL');
+            setAuthenticated(false);
+            setImageURL(null);
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
+    useEffect(()=>{
+        const storedToken = localStorage.getItem('accessToken');
+        const storedImageURL = localStorage.getItem('imageURL');
+        if (storedToken && storedImageURL) {
+            setImageURL(storedImageURL);
+            setAuthenticated(true);
+          }
+    },[])
+
+    return (
+        <>
+        <div>
+        {authenticated && (
+        <div>
+          {imageURL && <Image height={100} width={100} className='rounded-lg' src={imageURL} alt='User Profile' />}
+        </div>
+      )}
+        </div>
+        {authenticated ? (
+        <button style={{ background: '#4d0080', padding: 10 }} onClick={handleSignOut}>
+          Sign Out
+        </button>
+        ) : (
+        <button style={{ background: '#4d0080', padding: 10 }} onClick={signIn}>
+          Sign In With Github
+        </button>
+        )}
+        </>
+    )
+
+}
+
+export default SignInWithGithub;
