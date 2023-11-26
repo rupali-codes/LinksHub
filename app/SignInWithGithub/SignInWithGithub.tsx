@@ -78,11 +78,11 @@ const SignInWithGithub=()=>{
       )}
         </div>
         {authenticated ? (
-        <button style={{ background: '#4d0080', padding: 10 }} onClick={handleSignOut}>
+        <button style={{ background: '#4d0080',color:'white', padding: 10 }} onClick={handleSignOut}>
           Sign Out
         </button>
         ) : (
-        <button style={{ background: '#4d0080', padding: 10 }} onClick={signIn}>
+        <button style={{ background: '#4d0080',color:'white', padding: 10 }} onClick={signIn}>
           Sign In With Github
         </button>
         )}
