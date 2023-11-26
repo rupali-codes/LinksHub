@@ -103,5 +103,12 @@
     "url": "https://www.interviewbit.com/blog/cyber-security-projects/",
     "category": "resources",
     "subcategory": "project-ideas"
+  },
+  {
+    "name": "Web Dev Projects",
+    "description": "These projects will help you learn the skills to become a full-stack developer. You can even reference them in your resume. ",
+    "url": "https://www.mygreatlearning.com/blog/web-development-project-ideas/",
+    "category": "resources",
+    "subcategory": "project-ideas"
   }
 ]

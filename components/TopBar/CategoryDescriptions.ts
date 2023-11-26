@@ -211,12 +211,15 @@ const categoryDescriptions: CategoryDescriptions = {
   'dsa tutorials':
     'This section provides you with YouTube tutorials that help you grasp concepts better by hands-on experience and learn better, practically!',
 
-   //BlockChain
-  smartcontracts : 'Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They run on a blockchain network, which is a decentralized and distributed ledger technology. Smart contracts automatically execute and enforce the terms of a contract when predefined conditions are met',
-  truffle : 'Truffle is a popular development framework for Ethereum blockchain. It provides a development environment, testing framework, and asset pipeline for building decentralized applications (DApps) on the Ethereum platform.',
-  hardhat : 'Hardhat is another popular development framework for Ethereum smart contracts and decentralized applications (DApps). It provides a wide range of features and tools for Ethereum developers, making the development and testing of smart contracts easier and more efficient.',  
-  ethers  : '"Ethers" generally refers to both the native cryptocurrency of the Ethereum network and a popular JavaScript library used for interacting with the Ethereum blockchain.'
-
+  //BlockChain
+  smartcontracts:
+    'Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They run on a blockchain network, which is a decentralized and distributed ledger technology. Smart contracts automatically execute and enforce the terms of a contract when predefined conditions are met',
+  truffle:
+    'Truffle is a popular development framework for Ethereum blockchain. It provides a development environment, testing framework, and asset pipeline for building decentralized applications (DApps) on the Ethereum platform.',
+  hardhat:
+    'Hardhat is another popular development framework for Ethereum smart contracts and decentralized applications (DApps). It provides a wide range of features and tools for Ethereum developers, making the development and testing of smart contracts easier and more efficient.',
+  ethers:
+    '"Ethers" generally refers to both the native cryptocurrency of the Ethereum network and a popular JavaScript library used for interacting with the Ethereum blockchain.',
 }
 
 export default categoryDescriptions

@@ -32,14 +32,6 @@
     "language": "english"
   },
   {
-    "name": "CodeWithHarry",
-    "description": "This course will teach you everything you need to know about web development using Flask. It will lead you through each and every concept of Flask and will give you a good initial start.",
-    "url": "https://www.codewithharry.com/videos/web-dev-using-flask-and-python-1/",
-    "category": "youtube",
-    "subcategory": "web-development",
-    "language": "hindi"
-  },
-  {
     "name": "Programming with Mosh",
     "description": "It's another great channel for starting your web development journey.",
     "url": "https://www.youtube.com/@programmingwithmosh",
