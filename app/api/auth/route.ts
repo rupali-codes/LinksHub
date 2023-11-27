@@ -50,7 +50,7 @@ export async function GET(request: NextRequest)
 }
 
 export async function DELETE(request: NextRequest, response: NextResponse) {
-  const session = request.cookies.get("Session");
+  const session = request.cookies.get("accessToken");
 
   if (!session) {
     return NextResponse.json({ isLogged: false }, { status: 401 });
@@ -58,10 +58,10 @@ export async function DELETE(request: NextRequest, response: NextResponse) {
 
   try {
     // Delete the 'session' cookie in the response
-    response.cookies.set('Session', '', {
+    response.cookies.set('accessToken', '', {
       httpOnly: true,
-      maxAge: 0,
-      secure: true,  // Include this if your site is served over HTTPS
+      maxAge: -1,
+      secure: true,  
     });
 
     return NextResponse.json({}, { status: 200 });

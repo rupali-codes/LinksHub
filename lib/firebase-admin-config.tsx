@@ -1,12 +1,9 @@
 import admin from "firebase-admin"
 import { initializeApp,cert,getApps } from "firebase-admin/app"
-import {getAuth} from "firebase-admin/auth"
-import serviceAccountJson from '../service-account.json'
-
-const serviceAccount = serviceAccountJson as admin.ServiceAccount 
+import {firebaseConfig} from "../service-account.ts";
 
 const firebaseAdminConfig = {
-    credential: cert(serviceAccount)
+    credential: cert(firebaseConfig as admin.ServiceAccount)
 }
 
 export function customInitApp() {
