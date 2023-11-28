@@ -16,7 +16,7 @@ const BreadCrumbs: React.FC<ComponentProps> = ({ sections }) => {
           <HomeIcon className="m-auto" />
           <div>Home</div>
         </Link>
-        <div className="text-2xl mx-2.5 font-semibold varela">/</div>
+        <div className="text-2xl mx-2.5 font-semibold">/</div>
         {sections.map((section, i: number) => (
           <Link
             key={i}
