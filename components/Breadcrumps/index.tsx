@@ -1,4 +1,4 @@
-import HomeIcon from 'assets/icons/HomeIcon'
+import HomeIcon from 'assets/icons/svg/HomeIcon.svg'
 import Link from 'next/link'
 import { IoChevronBack } from 'react-icons/io5'
 
@@ -13,7 +13,7 @@ const BreadCrumbs: React.FC<ComponentProps> = ({ sections }) => {
           href={`/`}
           className="flex gap-x-2 bg-theme-quinary bg-opacity-20 text-text-quaternary text-lg py-0.5 px-2.5 rounded-lg cursor-pointer"
         >
-          <HomeIcon />
+          <HomeIcon className="m-auto" />
           <div>Home</div>
         </Link>
         <div className="text-2xl mx-2.5 font-semibold varela">/</div>

@@ -2,10 +2,10 @@ import { useRouter } from 'next/router'
 import { sidebarData } from 'database/data'
 import { SubCategories } from 'types'
 import Link from 'next/link'
-import AddIcon from 'assets/icons/AddIcon'
-import ArrowIcon from 'assets/icons/ArrowIcon'
+import AddIcon from 'assets/icons/svg/AddIcon.svg'
+import ArrowIcon from 'assets/icons/svg/ArrowIcon.svg'
 import BreadCrumbs from 'components/Breadcrumps'
-import MessageIcon from 'assets/icons/MessageIcon'
+import MessageIcon from 'assets/icons/svg/MessageIcon.svg'
 
 const CategoryPage = () => {
   const router = useRouter()
@@ -25,7 +25,7 @@ const CategoryPage = () => {
                 sections={[{ name: category, url: `/${category}` }]}
               />
               <div className="flex my-auto gap-x-3">
-                <MessageIcon />
+                <MessageIcon className="m-auto" />
                 <div className="text-md text-text-quinary hidden md:block">
                   Give a feedback
                 </div>
@@ -49,7 +49,7 @@ const CategoryPage = () => {
                       </div>
                     </div>
 
-                    <ArrowIcon className="group" />
+                    <ArrowIcon className="opacity-0 group-hover:opacity-100 duration-300 w-8" />
                   </Link>
                 ))}
                 <Link
