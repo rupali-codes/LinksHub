@@ -6,6 +6,8 @@ import AddIcon from 'assets/icons/svg/AddIcon.svg'
 import ArrowIcon from 'assets/icons/svg/ArrowIcon.svg'
 import BreadCrumbs from 'components/Breadcrumps'
 import MessageIcon from 'assets/icons/svg/MessageIcon.svg'
+import QuestionMarkIcon from 'assets/icons/svg/question-mark.svg'
+import Button from 'components/Button'
 
 const CategoryPage = () => {
   const router = useRouter()
@@ -17,19 +19,24 @@ const CategoryPage = () => {
 
   return (
     <section className="flex min-h-[calc(100vh-165px)] flex-col">
-      <div className="sm:ml-4 2xl:m-auto items-start gap-2">
+      <div className="sm:ml-4 2xl:mx-auto items-start gap-2">
         {subcategories?.length ? (
           <>
             <div className="flex mt-8 justify-between">
               <BreadCrumbs
                 sections={[{ name: category, url: `/${category}` }]}
               />
-              <div className="flex my-auto gap-x-3">
+
+              <a
+                className="flex my-auto gap-x-3"
+                href="https://github.com/rupali-codes/LinksHub/issues/new/choose"
+                target="_blank"
+              >
                 <MessageIcon className="m-auto" />
-                <div className="text-md text-text-quinary hidden md:block">
+                <span className="text-md text-text-quinary hidden md:block">
                   Give a feedback
-                </div>
-              </div>
+                </span>
+              </a>
             </div>
             <div className="flex max-w-1038 justify-center">
               <div className="flex flex-wrap gap-x-9 gap-y-5 mt-6 mb-28 flex-start items-start">
@@ -41,7 +48,7 @@ const CategoryPage = () => {
                     className="group flex border dark:border-theme-primary dark:border-opacity-8 rounded-xl bg-theme-tertiary  hover:bg-theme-quaternary hover:bg-opacity-25	px-3 py-1 dark:hover:border-opacity-25 hover:text-dark-primary shadow-lg max-md:max-w-[320px] px-4 py-4 group max-w-[320px]"
                   >
                     <div>
-                      <div className="dark:text-text-primary text-lg capitalize font-semibold">
+                      <div className="dark:text-text-primary text-lg capitalize font-medium">
                         {subcat.name}
                       </div>
                       <div className="dark:text-text-tertiary text-md font-medium w-10/12 h-12 overflow-y-hidden">

@@ -8,7 +8,7 @@ interface ComponentProps {
 const BreadCrumbs: React.FC<ComponentProps> = ({ sections }) => {
   return (
     <>
-      <div className="hidden sm:flex">
+      <div className="hidden sm:flex py-3">
         <Link
           href={`/`}
           className="flex gap-x-2 bg-theme-quinary bg-opacity-20 text-text-quaternary text-lg py-0.5 px-2.5 rounded-lg cursor-pointer"
