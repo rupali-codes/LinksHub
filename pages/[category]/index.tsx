@@ -17,7 +17,7 @@ const CategoryPage = () => {
 
   return (
     <section className="flex min-h-[calc(100vh-165px)] flex-col">
-      <div className="m-auto items-start gap-2">
+      <div className="sm:ml-4 2xl:m-auto items-start gap-2">
         {subcategories?.length ? (
           <>
             <div className="flex mt-8 justify-between">
@@ -38,7 +38,7 @@ const CategoryPage = () => {
                     key={i}
                     href={`/${category}${subcat.url}`}
                     aria-label={`Explore ${subcat.name}`}
-                    className="group flex border dark:border-theme-primary dark:border-opacity-8 rounded-xl bg-theme-tertiary  hover:bg-theme-quaternary hover:bg-opacity-25	px-3 py-1 dark:hover:border-opacity-25 hover:text-dark-primary shadow-lg lg:max-w-xs max-md:max-w-xs px-4 py-4 group"
+                    className="group flex border dark:border-theme-primary dark:border-opacity-8 rounded-xl bg-theme-tertiary  hover:bg-theme-quaternary hover:bg-opacity-25	px-3 py-1 dark:hover:border-opacity-25 hover:text-dark-primary shadow-lg max-md:max-w-[320px] px-4 py-4 group max-w-[320px]"
                   >
                     <div>
                       <div className="dark:text-text-primary text-lg capitalize font-semibold">
