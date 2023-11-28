@@ -11,17 +11,17 @@ const BreadCrumbs: React.FC<ComponentProps> = ({ sections }) => {
       <div className="hidden md:flex">
         <Link
           href={`/`}
-          className="flex gap-x-2 bg-theme-quinary bg-opacity-20 text-text-quaternary text-lg py-0.5 px-2.5 rounded-lg cursor-pointer	"
+          className="flex gap-x-2 bg-theme-quinary bg-opacity-20 text-text-quaternary text-lg py-0.5 px-2.5 rounded-lg cursor-pointer"
         >
           <HomeIcon />
           <div>Home</div>
         </Link>
-        <div className="text-2xl	mx-2.5 font-semibold varela">/</div>
+        <div className="text-2xl mx-2.5 font-semibold varela">/</div>
         {sections.map((section, i: number) => (
           <Link
             key={i}
             href={section.url}
-            className="flex gap-x-2 bg-theme-quinary bg-opacity-20 text-text-quaternary text-lg py-0.5 px-2.5 rounded-lg capitalize cursor-pointer	"
+            className="flex gap-x-2 bg-theme-quinary bg-opacity-20 text-text-quaternary text-lg py-0.5 px-2.5 rounded-lg capitalize cursor-pointer"
           >
             {section.name}
           </Link>
@@ -30,13 +30,11 @@ const BreadCrumbs: React.FC<ComponentProps> = ({ sections }) => {
       <div className="flex sm:hidden">
         <Link
           href={`/`}
-          className="flex gap-x-2 text-text-quaternary text-lg py-0.5 rounded-lg cursor-pointer	my-auto capitalize"
+          className="flex gap-x-2 text-text-quaternary text-lg py-0.5 rounded-lg cursor-pointer my-auto capitalize"
         >
           <IoChevronBack className="text-text-quinary" />
         </Link>
-        <div
-          className={`dark:text-text-primary text-1.5xl capitalize font-medium	mx-2.5 my-auto`}
-        >
+        <div className="dark:text-text-primary text-1.5xl capitalize font-medium mx-2.5 my-auto">
           {sections[0].name}
         </div>
       </div>
