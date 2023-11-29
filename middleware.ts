@@ -28,13 +28,6 @@ export async function middleware(request: NextRequest){
     return response; 
 }
 
-// const protectedRoutes = ["frontend", "backend", "languages", "ai", "internet-of-things","cyber-security","cloud-computing","open-source","resources","youtube","other","devops","competitive-programming","technical-writing","Placement-Prep","data-structures","BlockChain"];
-// const len = protectedRoutes.length;
-
-// export const config: { [key: string]: string[] } = {};
-// for (let i = 0; i < len; i++) {
-//     config[`route${i}`] = [`/${protectedRoutes[i]}/:path*`];
-// }
 export const config = {
     matcher: ["/frontend/:path*", "/backend/:path*", "/languages/:path*", "/ai/:path*", "/internet-of-things/:path*", "/cyber-security/:path*", "/cloud-computing/:path*", "/open-source/:path*", "/resources/:path*", "/youtube/:path*", "/other/:path*", "/devops/:path*", "/competitive-programming/:path*", "/technical-writing/:path*", "/technical-writing/:path*", "/Placement-Prep/:path*", "/data-structures/:path*", "/BlockChain/:path*"]
 }

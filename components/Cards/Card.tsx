@@ -6,8 +6,10 @@ import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 import Share from 'components/Share/Share'
 import type { IData } from 'types'
 import { collection, doc,where,query,getDocs, setDoc,getDoc, updateDoc } from 'firebase/firestore'
-import {db} from '../../lib/firebase-config'
+import { onAuthStateChanged } from 'firebase/auth'
+import {db,auth} from '../../lib/firebase-config'
 import { Timestamp } from 'firebase/firestore'
+import Image from 'next/image'
 
 interface CardProps {
   data: IData,
@@ -20,21 +22,30 @@ export const Card: FC<CardProps> = ({ data }) => {
   const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/
   const id = data.url.replace(/[^\w\s]/gi, '');
   
-  let [upvoteCount,setUpvoteCount] = useState(0)
-  let [isUpvoted,setIsUpvoted] = useState(false);
+  const [upvoteCount,setUpvoteCount] = useState(0)
+  const [isUpvoted,setIsUpvoted] = useState(false);
   const timestamp = Timestamp.fromDate(new Date())
   const date = timestamp.toDate()
-  const user = {
-    name: 'Vidip',
-    uid: 1234
-  }
+  const [user,setUser] = useState<string | null>(null);
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        setUser(user.displayName);
+      } else {
+        setUser(null);
+      }
+      console.log('Authentication state changed:', user);
+    });
+  
+    return () => unsubscribe();
+  }, []);
   const docRef = doc(db, 'resources', id)
   const save = async()=>{
     await setDoc(docRef, { 
       name: name,
       description: description,
       url: url,
-      upvotedBy: user,
+      upvotedBy: [user],
       upvotes: upvoteCount,
       created: date,
     }, 
@@ -57,10 +68,9 @@ export const Card: FC<CardProps> = ({ data }) => {
       const assetDocSnapshot = assetQuerySnapshot.docs[0];
       const assetDocRef = doc(db, 'resources', data.name);
       const assetData = assetDocSnapshot.data();
-      // console.log(assetData)
-  
       const upvotes = assetData.upvotes || {};
-      const userUid = user.uid;
+      const userUid = auth.currentUser? auth.currentUser.uid : null;
+      console.log("User ID: ",userUid)
   
       if (upvotes[userUid]) {
         // User has already upvoted, so remove their upvote
@@ -73,6 +83,8 @@ export const Card: FC<CardProps> = ({ data }) => {
         ...assetData, // Keep existing data
         upvotes: upvotes,
       });
+
+      await getDoc(assetDocRef);
       
       const updatedAssetDoc = await getDoc(assetDocRef);
       if (!updatedAssetDoc.exists()) {
@@ -93,6 +105,12 @@ export const Card: FC<CardProps> = ({ data }) => {
   };
 
   const handleClick = async(e: React.MouseEvent<HTMLButtonElement >)=>{
+    const currentUser = auth.currentUser;
+    if (!currentUser) {
+      console.log('User is not authenticated');
+      alert('User is not authenticated')
+      return;
+    }
     e.stopPropagation();
     e.preventDefault();
     toggleUpvote();
@@ -100,9 +118,9 @@ export const Card: FC<CardProps> = ({ data }) => {
     await addUserToAssetBookmark();
   }
   
-  function Img({ url, toggleUpvote }:any) {
+  function Img({ url }:any) {
     return (
-      <img src={`${url}`} alt={'altimage'} width={40} height={40} />
+      <Image src={`${url}`} alt={'altimage'} width={40} height={40} />
     );
   }
 

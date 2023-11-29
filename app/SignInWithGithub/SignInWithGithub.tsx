@@ -45,18 +45,20 @@ const SignInWithGithub=()=>{
     }
 
     const handleSignOut=async()=>{
-        try {
-            const response = await signOut(auth);
-            console.log("user logged out",response)
-            document.cookie =  "accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-            console.log(document.cookie);
-            localStorage.removeItem('accessToken');
-            localStorage.removeItem('imageURL');
-            setAuthenticated(false);
-            setImageURL(null);
-        } catch (error) {
+      try {
+        await signOut(auth);
+        router.push("/");
+        console.log("Signed out successfully");  
+        const currDate = new Date().getTime;      
+        document.cookie =  `accessToken=; expires=${currDate}; path=/;`;
+        console.log(document.cookie);
+        localStorage.removeItem('accessToken');
+        localStorage.removeItem('imageURL');
+        setAuthenticated(false);
+        setImageURL(null);
+      } catch (error) {
             console.log(error);
-        }
+      }
     }
 
     useEffect(()=>{

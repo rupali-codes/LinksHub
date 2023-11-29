@@ -1,5 +1,5 @@
 import { auth } from "firebase-admin";
-import { cookies,headers } from "next/headers"
+import { cookies } from "next/headers"
 import { NextRequest,NextResponse } from "next/server";
 import { customInitApp } from "lib/firebase-admin-config";
 
@@ -57,12 +57,10 @@ export async function DELETE(request: NextRequest, response: NextResponse) {
   }
 
   try {
-    // Delete the 'session' cookie in the response
     response.cookies.set('accessToken', '', {
       httpOnly: true,
-      maxAge: -1,
-      secure: true,  
-    });
+      maxAge: 0, 
+    })
 
     return NextResponse.json({}, { status: 200 });
   } catch (error) {
