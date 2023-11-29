@@ -5,12 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@types/node':
-    specifier: 18.15.11
-    version: 18.15.11
-  '@types/react':
-    specifier: 18.0.31
-    version: 18.0.31
   '@types/react-dom':
     specifier: 18.0.11
     version: 18.0.11
@@ -83,9 +77,6 @@ dependencies:
   react-transition-state:
     specifier: ^2.1.0
     version: 2.1.0(react-dom@18.2.0)(react@18.2.0)
-  typescript:
-    specifier: 5.0.3
-    version: 5.0.3
   typewriter-effect:
     specifier: ^2.21.0
     version: 2.21.0(react-dom@18.2.0)(react@18.2.0)
@@ -94,6 +85,12 @@ dependencies:
     version: 9.0.0
 
 devDependencies:
+  '@types/node':
+    specifier: 18.15.11
+    version: 18.15.11
+  '@types/react':
+    specifier: 18.0.31
+    version: 18.0.31
   '@types/uuid':
     specifier: ^9.0.1
     version: 9.0.1
@@ -112,6 +109,9 @@ devDependencies:
   tailwindcss:
     specifier: ^3.3.1
     version: 3.3.1(postcss@8.4.21)
+  typescript:
+    specifier: 5.0.3
+    version: 5.0.3
 
 packages:
 
@@ -1260,11 +1260,9 @@ packages:
 
   /@types/node@18.15.11:
     resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
-    dev: false
 
   /@types/prop-types@15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
-    dev: false
 
   /@types/qs@6.9.10:
     resolution: {integrity: sha512-3Gnx08Ns1sEoCrWssEgTSJs/rsT2vhGP+Ja9cnnk9k4ALxinORlQneLXFeFKOTJMOeZUFD1s7w+w2AphTpvzZw==}
@@ -1286,7 +1284,6 @@ packages:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
       csstype: 3.1.1
-    dev: false
 
   /@types/rimraf@3.0.2:
     resolution: {integrity: sha512-F3OznnSLAUxFrCEu/L5PY8+ny8DtcFRjx7fZZ9bycvXRi3KPTRS9HOitGZwvPg0juRhXFWIeKX58cnX5YqLohQ==}
@@ -1298,7 +1295,6 @@ packages:
 
   /@types/scheduler@0.16.3:
     resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}
-    dev: false
 
   /@types/semver@7.3.13:
     resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}
@@ -2417,7 +2413,6 @@ packages:
 
   /csstype@3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
-    dev: false
 
   /csv-parse@5.5.2:
     resolution: {integrity: sha512-YRVtvdtUNXZCMyK5zd5Wty1W6dNTpGKdqQd4EQ8tl/c6KW1aMBB1Kg1ppky5FONKmEqGJ/8WjLlTNLPne4ioVA==}
