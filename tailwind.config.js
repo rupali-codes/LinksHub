@@ -22,6 +22,11 @@ module.exports = {
         'text-tertiary': '#B9C0DA',
         'text-quaternary': '#EDEDED',
         'text-quinary': '#A6ABBF',
+        'theme-primary-light': '#f4f7fe',
+        'theme-secondary-light': '#BCCBE1',
+        'theme-tertiary-light': '#E1DAF4',
+        'text-primary-light': '#3F3D56',
+        'text-secondary-light': '#DAE0F4',
       },
       screens: {
         xs: '200px',
@@ -95,6 +100,9 @@ module.exports = {
       },
       fontSize: {
         '1.5xl': '22px',
+      },
+      boxShadow: {
+        custom: '0px 0px 12px 0px #E1DAF440',
       },
     },
   },
