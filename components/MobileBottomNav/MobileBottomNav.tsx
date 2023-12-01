@@ -41,7 +41,7 @@ const MobileBottomNav: FC = () => {
       inActiveIcon: <SearchInAciveIcon className={inActiveIconCls} />,
       activeIcon: <SearchAciveIcon className={activeIconCls} />,
       label: 'Search',
-      onclick: toggleSearch,
+      onClick: toggleSearch,
     },
     {
       inActiveIcon: <TeamInActiveIcon className={inActiveIconCls} />,
@@ -52,7 +52,7 @@ const MobileBottomNav: FC = () => {
   ]
 
   const renderLinks = () =>
-    navLinks.map(({ inActiveIcon, activeIcon, label, href, onclick }, i) => {
+    navLinks.map(({ inActiveIcon, activeIcon, label, href, onClick }, i) => {
       const checkRoute = (val: string) => router.asPath.startsWith(val)
 
       const isHomeActive = !checkRoute('/saved') && !checkRoute('/contributors')
@@ -65,8 +65,8 @@ const MobileBottomNav: FC = () => {
 
       return (
         <li key={i} className="list-none">
-          {onclick ? (
-            <button onClick={onclick} className={commonCls}>
+          {onClick ? (
+            <button onClick={onClick} className={commonCls}>
               <span className="flex items-center justify-center">
                 {inActiveIcon}
               </span>
