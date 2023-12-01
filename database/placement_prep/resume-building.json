@@ -33,5 +33,12 @@
     "url": "https://resume.com/",
     "category": "placement-prep",
     "subcategory": "resume-building"
+  },
+  {
+    "name": "Overleaf",
+    "description": "This website offers over 50 unique CV or resume templates. Simply pick the one that suits your preferences, and effortlessly create a distinguished resume tailored to your needs.",
+    "url": "https://www.overleaf.com/latex/templates/tagged/cv",
+    "category": "placement-prep",
+    "subcategory": "resume-building"
   }
 ]
