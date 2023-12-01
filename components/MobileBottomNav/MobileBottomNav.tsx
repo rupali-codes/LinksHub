@@ -1,8 +1,7 @@
-import React, { FC, useEffect, useState } from 'react'
+import React, { FC } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-import QuestionMarkIcon from 'assets/icons/svg/question-mark.svg'
 import HomeInActiveIcon from 'assets/icons/svg/nav/home-inactive.svg'
 import HomeActiveIcon from 'assets/icons/svg/nav/home-active.svg'
 import SaveInActiveIcon from 'assets/icons/svg/nav/save-inactive.svg'
@@ -59,7 +58,7 @@ const MobileBottomNav: FC = () => {
       const isUrlMatched = href && checkRoute(href)
       const isActive = label === 'Home' ? isHomeActive : isUrlMatched
 
-      let commonCls = `w-full flex items-center flex-col px-4 p-3 gap-2 font-medium  rounded-xl hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 ${
+      const commonCls = `w-full flex items-center flex-col px-4 p-3 gap-2 font-medium  rounded-xl hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 ${
         isActive ? 'text-primary dark:text-white' : 'text-gray-400'
       }`
 
