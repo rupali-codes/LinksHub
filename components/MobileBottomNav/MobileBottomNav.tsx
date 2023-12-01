@@ -18,6 +18,11 @@ const MobileBottomNav: FC = () => {
   const inActiveIconCls = 'stroke-gray-400'
   const activeIconCls = 'fill-primary dark:fill-white'
 
+  const toggleSearch = () => {
+    // write the code here
+    console.log('hello')
+  }
+
   const navLinks = [
     {
       inActiveIcon: <HomeInActiveIcon className={inActiveIconCls} />,
@@ -36,6 +41,7 @@ const MobileBottomNav: FC = () => {
       inActiveIcon: <SearchInAciveIcon className={inActiveIconCls} />,
       activeIcon: <SearchAciveIcon className={activeIconCls} />,
       label: 'Search',
+      onclick: toggleSearch,
     },
     {
       inActiveIcon: <TeamInActiveIcon className={inActiveIconCls} />,
@@ -46,38 +52,33 @@ const MobileBottomNav: FC = () => {
   ]
 
   const renderLinks = () =>
-    navLinks.map(({ inActiveIcon, activeIcon, label, href }, i) => {
+    navLinks.map(({ inActiveIcon, activeIcon, label, href, onclick }, i) => {
       const checkRoute = (val: string) => router.asPath.startsWith(val)
 
       const isHomeActive = !checkRoute('/saved') && !checkRoute('/contributors')
       const isUrlMatched = href && checkRoute(href)
       const isActive = label === 'Home' ? isHomeActive : isUrlMatched
 
+      let commonCls = `w-full flex items-center flex-col px-4 p-3 gap-2 font-medium  rounded-xl hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 ${
+        isActive ? 'text-primary dark:text-white' : 'text-gray-400'
+      }`
+
       return (
         <li key={i} className="list-none">
-          {href ? (
-            <Link
-              href={href}
-              className={`w-full flex flex-col px-4 p-3 gap-2 font-medium  rounded-xl hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 ${
-                isActive ? 'text-primary dark:text-white' : 'text-gray-400'
-              }`}
-            >
+          {onclick ? (
+            <button onClick={onclick} className={commonCls}>
+              <span className="flex items-center justify-center">
+                {inActiveIcon}
+              </span>
+              <span className="text-xs">{label}</span>
+            </button>
+          ) : (
+            <Link href={href} className={commonCls}>
               <span className="flex items-center justify-center">
                 {isActive ? activeIcon : inActiveIcon}
               </span>
               <span className="text-xs">{label}</span>
             </Link>
-          ) : (
-            <div
-              className={`w-full flex flex-col px-4 p-3 gap-2 font-medium rounded-xl hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 ${
-                isActive ? 'text-primary dark:text-white' : 'text-gray-400'
-              }`}
-            >
-              <span className="flex items-center justify-center">
-                {inActiveIcon}
-              </span>
-              <span className="text-xs">{label}</span>
-            </div>
           )}
         </li>
       )
