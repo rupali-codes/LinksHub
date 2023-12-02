@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react'
 import {auth,provider} from '../../lib/firebase-config'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
+import { toast,ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 const SignInWithGithub=()=>{
     const router = useRouter();
@@ -25,7 +27,6 @@ const SignInWithGithub=()=>{
             setImageURL(imgURL);
             setAuthenticated(true);
             console.log("Image URL:", imgURL);
-            alert(`${username} signed in`);
             fetch('/api/auth',{
               method: 'POST',
               headers: {
@@ -36,6 +37,7 @@ const SignInWithGithub=()=>{
               {
                 router.push('/');
                 console.log("User successfully signed in!");
+                toast.success(`${username} is authenticated successfully`);
               }
             })
         } 
@@ -48,7 +50,8 @@ const SignInWithGithub=()=>{
       try {
         await signOut(auth);
         router.push("/");
-        console.log("Signed out successfully");  
+        console.log("Signed out successfully"); 
+        toast.success("You are successfully logged out!!"); 
         const currDate = new Date().getTime;      
         document.cookie =  `accessToken=; expires=${currDate}; path=/;`;
         console.log(document.cookie);
@@ -69,7 +72,6 @@ const SignInWithGithub=()=>{
             setAuthenticated(true);
           }
     },[])
-
     return (
         <>
         <div>
@@ -78,6 +80,7 @@ const SignInWithGithub=()=>{
           {imageURL && <Image height={100} width={100} className='rounded-lg' src={imageURL} alt='User Profile' />}
         </div>
       )}
+        <ToastContainer />
         </div>
         {authenticated ? (
         <button style={{ background: '#4d0080',color:'white', padding: 10 }} onClick={handleSignOut}>

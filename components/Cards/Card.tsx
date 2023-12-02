@@ -10,6 +10,8 @@ import { onAuthStateChanged } from 'firebase/auth'
 import {db,auth} from '../../lib/firebase-config'
 import { Timestamp } from 'firebase/firestore'
 import Image from 'next/image'
+import { toast,ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 interface CardProps {
   data: IData,
@@ -108,8 +110,11 @@ export const Card: FC<CardProps> = ({ data }) => {
     const currentUser = auth.currentUser;
     if (!currentUser) {
       console.log('User is not authenticated');
-      alert('User is not authenticated')
-      return;
+      toast.error('Please Sign In to upvote!!');
+      setTimeout(()=>{
+        window.location.href = '/';
+      },1000)
+      !toggleUpvote();
     }
     e.stopPropagation();
     e.preventDefault();
@@ -134,6 +139,7 @@ export const Card: FC<CardProps> = ({ data }) => {
   }, [])
   return (
     <article className="z-10 h-full w-full rounded-3xl border border-dashed border-theme-secondary dark:border-theme-primary bg-[rgba(255,255,255,0.3)] shadow-md dark:bg-dark dark:text-text-primary dark:shadow-sm">
+      <ToastContainer/>
       <div className="card-body">
         <header className="flex justify-between items-center gap-2">
           <h2
