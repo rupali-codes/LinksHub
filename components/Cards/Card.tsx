@@ -113,6 +113,9 @@ export const Card: FC<CardProps> = ({ data }) => {
       console.log('User is not authenticated');
       toast.error('Please Sign In to upvote!!');
       setErrorToastShown(true);
+      setTimeout(()=>{
+        window.location.href = '/';
+      },2000)
       toggleUpvote();
     }
     e.stopPropagation();
