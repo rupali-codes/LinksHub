@@ -105,16 +105,15 @@ export const Card: FC<CardProps> = ({ data }) => {
   const toggleUpvote = () => {
     setIsUpvoted(p => !p);
   };
-
+  const [errorToastShown, setErrorToastShown] = useState(false);
   const handleClick = async(e: React.MouseEvent<HTMLButtonElement >)=>{
+    
     const currentUser = auth.currentUser;
-    if (!currentUser) {
+    if (!currentUser && !errorToastShown) {
       console.log('User is not authenticated');
       toast.error('Please Sign In to upvote!!');
-      setTimeout(()=>{
-        window.location.href = '/';
-      },1000)
-      !toggleUpvote();
+      setErrorToastShown(true);
+      toggleUpvote();
     }
     e.stopPropagation();
     e.preventDefault();
