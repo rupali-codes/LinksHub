@@ -32,7 +32,8 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
           className={clsx(
             'flex flex-col justify-between min-h-full px-4 pb-2 sm:ml-[290px] lg:w-[calc(100%-290px)]',
 
-            pathname != '/' && ' transition-color ease-in-out duration-200'
+            pathname != '/' && ' transition-color ease-in-out duration-200',
+            'bg-theme-primary-light dark:bg-inherit'
           )}
           id="main"
         >

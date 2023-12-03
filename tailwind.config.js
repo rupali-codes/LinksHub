@@ -102,7 +102,7 @@ module.exports = {
         '1.5xl': '22px',
       },
       boxShadow: {
-        custom: '0px 0px 12px 0px #E1DAF440',
+        tile: '0px 0px 12px 0px #E1DAF440',
       },
     },
   },

@@ -16,9 +16,8 @@ const CategoryPage = () => {
   const subcategories: SubCategories[] = category
     ? sidebarData.filter((c) => c.category == category)[0]['subcategory']
     : []
-
   return (
-    <section className="flex min-h-[calc(100vh-165px)] flex-col bg-theme-primary-light dark:bg-inherit">
+    <section className="flex min-h-[calc(100vh-165px)] flex-col">
       <div className="sm:ml-4 2xl:mx-auto items-start gap-2">
         {subcategories?.length ? (
           <>
@@ -45,7 +44,7 @@ const CategoryPage = () => {
                     key={i}
                     href={`/${category}${subcat.url}`}
                     aria-label={`Explore ${subcat.name}`}
-                    className="group flex dark:border dark:border-theme-primary dark:border-opacity-8 rounded-xl dark:bg-theme-tertiary bg-white dark:bg-opacity-25 dark:hover:bg-theme-quaternary dark:hover:bg-opacity-25	px-3 py-1 dark:hover:border-opacity-25 hover:text-dark-primary dark:shadow-lg shadow-custom max-md:max-w-[320px] px-4 py-4 group max-w-[320px]"
+                    className="group flex dark:border dark:border-theme-primary dark:border-opacity-8 rounded-xl dark:bg-theme-tertiary bg-white dark:bg-opacity-25 dark:hover:bg-theme-quaternary dark:hover:bg-opacity-25	px-3 py-1 dark:hover:border-opacity-25 hover:text-dark-primary dark:shadow-lg shadow-tile md:max-w-[320px] px-4 py-4 group max-w-none w-full"
                   >
                     <div>
                       <div className="dark:text-text-primary text-text-primary-light text-lg capitalize font-medium">
