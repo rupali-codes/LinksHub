@@ -10,7 +10,7 @@ import { onAuthStateChanged } from 'firebase/auth'
 import {db,auth} from '../../lib/firebase-config'
 import { Timestamp } from 'firebase/firestore'
 import Image from 'next/image'
-import { toast,ToastContainer } from 'react-toastify'
+import { toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
 interface CardProps {
@@ -141,7 +141,6 @@ export const Card: FC<CardProps> = ({ data }) => {
   }, [])
   return (
     <article className="z-10 h-full w-full rounded-3xl border border-dashed border-theme-secondary dark:border-theme-primary bg-[rgba(255,255,255,0.3)] shadow-md dark:bg-dark dark:text-text-primary dark:shadow-sm">
-      <ToastContainer/>
       <div className="card-body">
         <header className="flex justify-between items-center gap-2">
           <h2
