@@ -303,11 +303,15 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category:'data-structures',
-    subcategory:[
-      {name:'DSA Articles',url:'/dsa-articles',resources:DB.dsaArticles},
-      {name:'DSA Tutorials',url:'/dsa-tutorials',resources:DB.dsaTutorials},
-      {name:'DSA Courses',url:'/dsa-courses',resources:DB.dsaCourses},   
+    category: 'data-structures',
+    subcategory: [
+      { name: 'DSA Articles', url: '/dsa-articles', resources: DB.dsaArticles },
+      {
+        name: 'DSA Tutorials',
+        url: '/dsa-tutorials',
+        resources: DB.dsaTutorials,
+      },
+      { name: 'DSA Courses', url: '/dsa-courses', resources: DB.dsaCourses },
     ],
   },
   {
@@ -403,6 +407,11 @@ export const sidebarData: ISidebar[] = [
       { name: 'Communities', url: '/communities', resources: DB.communities },
       { name: 'Roadmaps', url: '/roadmaps', resources: DB.roadmaps },
       { name: 'Domains', url: '/domains', resources: DB.domains },
+      {
+        name: 'Text Formatting',
+        url: '/text-formatting',
+        resources: DB.textFormatting,
+      },
     ],
   },
 ]

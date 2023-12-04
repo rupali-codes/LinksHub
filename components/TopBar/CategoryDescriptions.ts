@@ -184,6 +184,7 @@ const categoryDescriptions: CategoryDescriptions = {
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
   contributors:
     'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
+  textFormatting: 'Your ultimate solution for all your text formatting needs!',
 
   // Placement-Prep
   'interview preparation':
