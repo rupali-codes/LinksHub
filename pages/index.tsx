@@ -98,7 +98,7 @@ export default function Home() {
             <Logo />
             <span>👾</span>
           </div>
-          <div className="flex flex-col mt-6 justify-center items-start w-96 max-md:w-64">
+          <div className="flex flex-col mt-6 justify-center items-start max-w-sm">
             <p className="text-md">
               {' '}
               LinksHub aims to provide developers with access to a wide range of

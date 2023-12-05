@@ -10,6 +10,7 @@ import { IContext } from 'types'
 import { GlobalContext } from 'context/GlobalContext'
 import clsx from 'clsx'
 import { usePathname } from 'next/navigation'
+import MobileBottomNav from 'components/MobileBottomNav/MobileBottomNav'
 
 const GeneralLayout = ({ children }: { children: ReactNode }) => {
   const { sidebar } = useContext<IContext>(GlobalContext)
@@ -20,7 +21,7 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
       <Header />
       <SideNavbar />
       <div
-        className={`row-start-2 row-end-3 min-h-[100vh-72px] w-full bg-gray-100 dark:bg-[#101623] ${
+        className={`row-start-2 row-end-3 overflow-y-scroll h-[calc(100vh-156px)] sm:h-[calc(100vh-72px)] w-full bg-gray-100 dark:bg-[#101623] ${
           sidebar ? 'max-[1024px]:overflow-hidden' : ''
         }`}
       >
@@ -38,6 +39,7 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
         >
           {children}
           <Footer />
+          <MobileBottomNav />
         </main>
       </div>
     </>
