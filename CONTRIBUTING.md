@@ -143,7 +143,8 @@ Follow these steps to setup LinksHub on your local machine
    `description of subcategory`,
    ```
 
-  **Note:** It's essential to add a description when submitting a pull request to add a subcategory to merge it in the codebase.
+> [!NOTE]  
+> It's essential to add a description when submitting a pull request to add a subcategory to merge it in the codebase.
 
 ---
 
