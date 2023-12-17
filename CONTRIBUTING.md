@@ -135,7 +135,15 @@ Follow these steps to setup LinksHub on your local machine
     > For example, if you export the subcategory name as `onlineCodeEditors` in `database/index.ts`, add the same name to `CategoryDescriptions.ts` using the following style:
     > `subcategory name:` `description of this subcategory`
 
-  - You can check out similar examples [here](components/TopBar/CategoryDescriptions.ts). It's essential to add a description when submitting a pull request to add a subcategory; to merge it in the codebase.
+  - Here's how it looks altogether:
+
+  ```ts
+  //category
+   subcategory name: 
+   `description of subcategory`,
+   ```
+
+  **Note:** It's essential to add a description when submitting a pull request to add a subcategory to merge it in the codebase.
 
 ---
 
