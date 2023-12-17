@@ -2,12 +2,12 @@
 
 Thank you for taking the time to contribute to our project. Please take a moment to read the following guidelines before contributing:
 
-> ⚠️IMPORTANT **Note**
+> **⚠️IMPORTANT**
 >
 > **Pull Requests _having no issue associated_ with them _will not be accepted_. Firstly get an issue assigned, whether it's already opened or raised by you, and then create a Pull Request.**
-> 
+>
 > **An automated process has been implemented to ensure the timely management of Pull Requests (PRs) on this platform.**
-> 
+>
 > **PRs that have been open for a duration exceeding 45 days will be automatically closed, so please plan accordingly.**
 
 ## Prerequisites ⚠️
