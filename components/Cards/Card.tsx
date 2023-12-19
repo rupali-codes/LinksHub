@@ -127,7 +127,7 @@ export const Card: FC<CardProps> = ({ data }) => {
     save();
     await addUserToAssetBookmark();
   }
-  
+  /* eslint-disable  @typescript-eslint/no-explicit-any */
   function Img({ url }:any) {
     return (
       <Image src={`${url}`} alt={'altimage'} width={40} height={40} />

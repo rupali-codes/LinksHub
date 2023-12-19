@@ -36,7 +36,7 @@ const Search = () => {
     } else {
       setResults(0)
     }
-  }, [data])
+  }, [data, setResults])
 
   return (
     <>

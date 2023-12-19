@@ -28,7 +28,7 @@ export default function Home() {
     }, 4000); // Adjust the interval as needed
 
     return () => clearInterval(typewriterInterval);
-  }, []);
+  }, [subCategoriesNames.length]);
   return (
     <>
       <Head>

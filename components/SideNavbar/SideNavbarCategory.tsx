@@ -4,7 +4,6 @@ import { SideNavbarElement } from './SideNavbarElement'
 import type { ISidebar } from '../../types'
 import Link from 'next/link'
 import useOnClickOutside from 'hooks/useOnClickOutside'
-import { useSearchReducer } from 'hooks/useSearchReducer'
 import { useRouter } from 'next/router'
 
 export const SideNavbarCategory: FC<{
