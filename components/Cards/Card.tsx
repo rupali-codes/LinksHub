@@ -74,12 +74,15 @@ export const Card: FC<CardProps> = ({ data }) => {
       const userUid = auth.currentUser? auth.currentUser.uid : null;
       console.log("User ID: ",userUid)
   
-      if (upvotes[userUid]) {
+      if (userUid && upvotes[userUid]) {
         // User has already upvoted, so remove their upvote
         delete upvotes[userUid];
       } else {
         // User has not upvoted, so add their upvote
-        upvotes[userUid] = true;
+        if(userUid)
+        {
+          upvotes[userUid] = true;
+        }
       }
       await setDoc(assetDocRef, {
         ...assetData, // Keep existing data
