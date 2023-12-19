@@ -1,5 +1,4 @@
 import { useRouter } from 'next/router'
-import Logo from 'components/logo/logo'
 import { sidebarData } from 'database/data'
 import { SubCategories } from 'types'
 import Link from 'next/link'

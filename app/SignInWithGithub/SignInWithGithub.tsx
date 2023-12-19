@@ -17,20 +17,21 @@ const SignInWithGithub=()=>{
             const credential = GithubAuthProvider.credentialFromResult(result);
             console.log("Credential",credential);
             console.log("Result: ",result);
-            const token: any = result.user.accessToken;
-            const username:any = result.user.displayName;
+            const token: string = await result.user.getIdToken();
+            const username = result.user.displayName;
             localStorage.setItem('accessToken', token);
             const currDate = new Date().getTime;
             document.cookie = `accessToken=${token};path=/; expires=${currDate}`;
-            const imgURL:any = result.user.photoURL;
-            localStorage.setItem('imageURL',imgURL);
+            const imgURL = result.user.photoURL;
+            localStorage.setItem('imageURL',imgURL as string);
             setImageURL(imgURL);
             setAuthenticated(true);
             console.log("Image URL:", imgURL);
+            console.log("JWT Token: ",token)
             fetch('/api/auth',{
               method: 'POST',
               headers: {
-                Authorization: `Bearer ${await token}`
+                Authorization: `Bearer ${token}`
               }
             }).then((response)=>{
               if(response.status===200)
@@ -52,7 +53,7 @@ const SignInWithGithub=()=>{
         router.push("/");
         console.log("Signed out successfully"); 
         toast.success("You are successfully logged out!!"); 
-        const currDate = new Date().getTime;      
+        const currDate = new Date().getTime;    
         document.cookie =  `accessToken=; expires=${currDate}; path=/;`;
         console.log(document.cookie);
         localStorage.removeItem('accessToken');

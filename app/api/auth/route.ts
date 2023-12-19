@@ -5,7 +5,7 @@ import { customInitApp } from "lib/firebase-admin-config";
 
 customInitApp();
 
-export async function POST(request: NextRequest, response: NextResponse){
+export async function POST(request: NextRequest){
   const authorization = request.headers.get("Authorization");
   console.log("Headers authorization: ",authorization);
   if(authorization && authorization.startsWith('Bearer '))
@@ -34,7 +34,7 @@ export async function POST(request: NextRequest, response: NextResponse){
   return NextResponse.json({}, { status: 200 });
 }
 
-export async function GET(request: NextRequest)
+export async function GET()
 {
   const session = cookies().get("accessToken")?.value || "";
   if(!session)
