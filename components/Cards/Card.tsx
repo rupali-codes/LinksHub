@@ -5,9 +5,10 @@ import{MdArticle} from 'react-icons/md'
 import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 import Share from 'components/Share/Share'
 import type { IData } from 'types'
-import { collection, doc,where,query,getDocs, setDoc,getDoc, updateDoc } from 'firebase/firestore'
+import { collection, doc,where,query,getDocs, setDoc,getDoc } from 'firebase/firestore'
 import {db} from '../../firebase/Firebase'
 import { Timestamp } from 'firebase/firestore'
+import Image from 'next/image'
 
 interface CardProps {
   data: IData,
@@ -20,8 +21,8 @@ export const Card: FC<CardProps> = ({ data }) => {
   const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/
   const id = data.url.replace(/[^\w\s]/gi, '');
   
-  let [upvoteCount,setUpvoteCount] = useState(0)
-  let [isUpvoted,setIsUpvoted] = useState(false);
+  const [upvoteCount,setUpvoteCount] = useState(0)
+  const [isUpvoted,setIsUpvoted] = useState(false);
   const timestamp = Timestamp.fromDate(new Date())
   const date = timestamp.toDate()
   const user = {
@@ -100,9 +101,16 @@ export const Card: FC<CardProps> = ({ data }) => {
     await addUserToAssetBookmark();
   }
   
-  function Img({ url, toggleUpvote }:any) {
+  // function Img({ url }:{url: string}) {
+  //   return (
+  //     <Image src={`${url}`} alt={'altimage'} width={40} height={40} />
+  //   );
+  // }
+  
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const Img = ({ url }:any)=> {
     return (
-      <img src={`${url}`} alt={'altimage'} width={40} height={40} />
+      <Image src={`${url}`} alt={'altimage'} width={40} height={40} />
     );
   }
 
