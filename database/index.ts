@@ -34,6 +34,7 @@ export { default as docker } from './devops/docker.json'
 export { default as jenkins } from './devops/jenkins.json'
 export { default as kubernetes } from './devops/kubernetes.json'
 export { default as microservices } from './devops/microservices.json'
+export { default as iac } from './devops/iac.json'
 
 // languages
 export { default as javascript } from './languages/javascript.json'
@@ -105,6 +106,7 @@ export { default as otherResources } from './other/other-resources.json'
 export { default as communities } from './other/communities.json'
 export { default as roadmaps } from './other/roadmaps.json'
 export { default as domains } from './other/domains.json'
+export { default as textFormatting } from './other/text-formatting.json'
 // competitive programming
 export { default as cpPlatforms } from './competitive_programming/cp-platforms.json'
 export { default as cpTutorials } from './competitive_programming/cp-tutorials.json'
@@ -122,9 +124,7 @@ export { default as dsaArticles } from './data_structures/dsa-articles.json'
 export { default as dsaTutorials } from './data_structures/dsa-tutorials.json'
 export { default as dsaCourses } from './data_structures/dsa-courses.json'
 // Block Chain
-export {default as smartContracts} from './BlockChain/smart-contracts.json'
-export {default as truffle} from './BlockChain/truffle.json'
-export {default as hardhat} from './BlockChain/hardhat.json'
-export {default as ethers} from './BlockChain/ethers.json'
-
-
+export { default as smartContracts } from './BlockChain/smart-contracts.json'
+export { default as truffle } from './BlockChain/truffle.json'
+export { default as hardhat } from './BlockChain/hardhat.json'
+export { default as ethers } from './BlockChain/ethers.json'

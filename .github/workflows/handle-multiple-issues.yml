@@ -1,0 +1,22 @@
+# docs: https://github.com/Anmol-Baranwal/handle-multiple-issues
+
+name: Handle Multiple Issues
+
+on:
+  issues:
+    types:
+      - reopened
+      - opened
+jobs:
+  handle-multiple-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Handle Multiple Issues
+        uses: Anmol-Baranwal/handle-multiple-issues@v1
+        with:
+          label: 'multiple issues'
+          issueNumber: true
+          comment: |
+            is already opened by you
+            As per contributing guidelines, you can only work on 1 issue at a time.
+          ignoreCollaborators: true
