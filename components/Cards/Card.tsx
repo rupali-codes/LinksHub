@@ -33,11 +33,6 @@ export const Card: FC<CardProps> = ({ data }) => {
   const save = async()=>{
     await setDoc(docRef, { 
       name: name,
-      description: description,
-      url: url,
-      upvotedBy: user,
-      upvotes: upvoteCount,
-      created: date,
     }, 
       { merge: true }
     )
@@ -49,7 +44,8 @@ export const Card: FC<CardProps> = ({ data }) => {
       const subcollectionRef = collection(db, 'resources')
       const assetQuery = query(subcollectionRef, where('name', '==', data.name))
       const assetQuerySnapshot = await getDocs(assetQuery)
-      
+      console.log("Asset Query: ",assetQuery);
+      console.log("Asset Query Snapshot: ",assetQuerySnapshot);
       if (assetQuerySnapshot.empty) {
         console.log('Asset not found');
         return;
@@ -58,7 +54,7 @@ export const Card: FC<CardProps> = ({ data }) => {
       const assetDocSnapshot = assetQuerySnapshot.docs[0];
       const assetDocRef = doc(db, 'resources', data.name);
       const assetData = assetDocSnapshot.data();
-      // console.log(assetData)
+      console.log("Asset Data: ",assetData);
   
       const upvotes = assetData.upvotes || {};
       const userUid = user.uid;
@@ -71,7 +67,11 @@ export const Card: FC<CardProps> = ({ data }) => {
         upvotes[userUid] = true;
       }
       await setDoc(assetDocRef, {
-        ...assetData, // Keep existing data
+        name: name,
+        description: description,
+        url: url,
+        upvotedBy: user,
+        created: date, // Keep existing data
         upvotes: upvotes,
       });
       
@@ -88,7 +88,7 @@ export const Card: FC<CardProps> = ({ data }) => {
       console.error('Error adding user to asset upvotes:', error);
     }
   };
-  
+ 
   const toggleUpvote = () => {
     setIsUpvoted(p => !p);
   };
@@ -100,13 +100,6 @@ export const Card: FC<CardProps> = ({ data }) => {
     save();
     await addUserToAssetBookmark();
   }
-  
-  // function Img({ url }:{url: string}) {
-  //   return (
-  //     <Image src={`${url}`} alt={'altimage'} width={40} height={40} />
-  //   );
-  // }
-  
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Img = ({ url }:any)=> {
     return (
