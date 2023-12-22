@@ -45,15 +45,10 @@ export default function Pagination({
                 )
           }
         >
-          <div className={
-            toporbottom == true
-              ? clsx(
-                "flex items-center px-6 py-1 gap-4"
-                )
-              : clsx(
-                "flex items-center gap-2"
-                )
-          }>
+          <div className={clsx(
+            'flex items-center',
+            toporbottom == true ? 'px-6 py-1 gap-4' : 'gap-2'
+           )}>
             <button
               className={clsx(
                 'flex items-center justify-center text-[#8b5cf6]',
