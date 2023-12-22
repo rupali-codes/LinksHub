@@ -54,7 +54,6 @@ export const Card: FC<CardProps> = ({ data }) => {
       { merge: true }
     )
   }
-
   
   const addUserToAssetBookmark = async () => {
     try {
