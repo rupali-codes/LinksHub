@@ -64,7 +64,7 @@ export const Maintainers: MaintainersDataInterface[] = [
     avatarUrl: 'https://avatars.githubusercontent.com/u/93012310?v=4',
     login: 'aftabrehan',
     designation: 'UI/UX Designer',
-    role: 'Designer',
+    role: 'Maintainer',
     firstLink: 'https://aftabrehan.com',
     firstTxt: 'Website',
     secondLink: 'https://github.com/aftabrehan',

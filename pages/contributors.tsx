@@ -140,11 +140,11 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
         border: 'dark:border-[#EF6086] dark:border-opacity-20 border-[#EF6086]',
       },
       1: {
-        bg: 'bg-[#565990] bg-opacity-10 dark:bg-[#565990] dark:bg-opacity-30',
+        bg: 'bg-[#8184aa] bg-opacity-10 dark:bg-[#565990] dark:bg-opacity-30',
         text: 'text-[#565990] dark:text-[#1b1d49]',
         role: 'bg-[#565990] bg-opacity-10 dark:bg-[#8b8fca] dark:bg-opacity-90 border dark:border-none border-[#8b8fca] border-opacity-50',
         hover:
-          'hover:bg-[#565990] hover:bg-opacity-5 dark:hover:bg-[#565990] dark:hover:bg-opacity-20 hover:text-[#3f426d] dark:hover:text-[#8b8fca]',
+          'hover:bg-[#565990] hover:bg-opacity-5 dark:hover:bg-[#565990] dark:hover:bg-opacity-20 hover:text-[#292d64] dark:hover:text-[#fff]',
         border:
           'dark:border-[#565990] dark:border-opacity-20 border-opacity-50 border-[#565990]',
       },
