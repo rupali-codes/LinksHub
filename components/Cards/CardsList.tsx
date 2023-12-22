@@ -3,6 +3,7 @@ import { BackToTopButton } from '../BackToTop/BackToTopButton'
 import { PopupInfo } from 'components/popup/popupInfo'
 import CardsListItem from './CardsListItem'
 import type { IData } from 'types'
+import { ToastContainer } from 'react-toastify'
 
 const CardsList: FC<{ cards: IData[] }> = ({ cards }) => {
   const [currentCard, setCurrentCard] = useState<IData | null>(null)
@@ -29,6 +30,7 @@ const CardsList: FC<{ cards: IData[] }> = ({ cards }) => {
         ))}
       </ul>
       <BackToTopButton />
+      <ToastContainer/>
       <PopupInfo currentCard={currentCard} onClose={removeCurrentCard} />
     </>
   )

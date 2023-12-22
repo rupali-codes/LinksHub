@@ -1,13 +1,20 @@
-import { FC, useState, useRef, useEffect } from 'react'
+import React, { FC, useState, useRef, useEffect } from 'react'
 import {BsYoutube , BsPen} from 'react-icons/bs'
 import {AiOutlineRead} from 'react-icons/ai'
 import{MdArticle} from 'react-icons/md'
 import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 import Share from 'components/Share/Share'
 import type { IData } from 'types'
+import { collection, doc,where,query,getDocs, setDoc,getDoc } from 'firebase/firestore'
+import { onAuthStateChanged } from 'firebase/auth'
+import {db,auth} from '../../lib/firebase-config'
+import { Timestamp } from 'firebase/firestore'
+import Image from 'next/image'
+import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 interface CardProps {
-  data: IData
+  data: IData,
 }
 
 export const Card: FC<CardProps> = ({ data }) => {
@@ -15,6 +22,114 @@ export const Card: FC<CardProps> = ({ data }) => {
   const descriptionRef = useRef<HTMLParagraphElement>(null)
   const [isOverflow, setIsOverflow] = useState(false)
   const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/
+  const id = data.url.replace(/[^\w\s]/gi, '');
+  
+  const [upvoteCount,setUpvoteCount] = useState(0)
+  const [isUpvoted,setIsUpvoted] = useState(false);
+  const timestamp = Timestamp.fromDate(new Date())
+  const date = timestamp.toDate()
+  const [user,setUser] = useState<string | null>(null);
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        setUser(user.displayName);
+      } else {
+        setUser(null);
+      }
+      console.log('Authentication state changed:', user);
+    });
+  
+    return () => unsubscribe();
+  }, []);
+  const docRef = doc(db, 'resources', id)
+  const save = async()=>{
+    await setDoc(docRef, { 
+      name: name,
+      description: description,
+      url: url,
+      upvotedBy: [user],
+      upvotes: upvoteCount,
+      created: date,
+    }, 
+      { merge: true }
+    )
+  }
+  
+  const addUserToAssetBookmark = async () => {
+    try {
+      const subcollectionRef = collection(db, 'resources')
+      const assetQuery = query(subcollectionRef, where('name', '==', data.name))
+      const assetQuerySnapshot = await getDocs(assetQuery)
+      
+      if (assetQuerySnapshot.empty) {
+        console.log('Asset not found');
+        return;
+      }
+  
+      const assetDocSnapshot = assetQuerySnapshot.docs[0];
+      const assetDocRef = doc(db, 'resources', data.name);
+      const assetData = assetDocSnapshot.data();
+      const upvotes = assetData.upvotes || {};
+      const userUid = auth.currentUser? auth.currentUser.uid : null;
+  
+      if (userUid && upvotes[userUid]) {
+        // User has already upvoted, so remove their upvote
+        delete upvotes[userUid];
+      } else {
+        // User has not upvoted, so add their upvote
+        if(userUid)
+        {
+          upvotes[userUid] = true;
+        }
+      }
+      await setDoc(assetDocRef, {
+        ...assetData, // Keep existing data
+        upvotes: upvotes,
+      });
+
+      await getDoc(assetDocRef);
+      
+      const updatedAssetDoc = await getDoc(assetDocRef);
+      if (!updatedAssetDoc.exists()) {
+        console.log('Asset document not found');
+        return;
+      }
+      const updatedUpvotes = updatedAssetDoc.data().upvotes || {};
+      const upvoteCount = Object.keys(updatedUpvotes).length;
+      setUpvoteCount(upvoteCount);
+    } catch (error) {
+      console.error('Error adding user to asset upvotes:', error);
+    }
+  };
+  
+  const toggleUpvote = () => {
+    setIsUpvoted(p => !p);
+  };
+  const [errorToastShown, setErrorToastShown] = useState(false);
+  const handleClick = async(e: React.MouseEvent<HTMLButtonElement >)=>{
+    
+    const currentUser = auth.currentUser;
+    if (!currentUser && !errorToastShown) {
+      console.log('User is not authenticated');
+      toast.error('Please Sign In to upvote!!');
+      setErrorToastShown(true);
+      setTimeout(()=>{
+        window.location.href = '/';
+      },2000)
+      toggleUpvote();
+    }
+    e.stopPropagation();
+    e.preventDefault();
+    toggleUpvote();
+    save();
+    await addUserToAssetBookmark();
+  }
+  /* eslint-disable  @typescript-eslint/no-explicit-any */
+  function Img({ url }:any) {
+    return (
+      <Image src={`${url}`} alt={'altimage'} width={40} height={40} />
+    );
+  }
 
   useEffect(() => {
     if (descriptionRef.current) {
@@ -24,7 +139,6 @@ export const Card: FC<CardProps> = ({ data }) => {
       )
     }
   }, [])
-
   return (
     <article className="z-10 h-full w-full rounded-3xl border border-dashed border-theme-secondary dark:border-theme-primary bg-[rgba(255,255,255,0.3)] shadow-md dark:bg-dark dark:text-text-primary dark:shadow-sm">
       <div className="card-body">
@@ -52,6 +166,10 @@ export const Card: FC<CardProps> = ({ data }) => {
               Read More
             </p>
           )}
+        </div>
+        <div className='flex'>
+          <p className='text-3xl'>{upvoteCount}</p>
+          <button onClick={handleClick}><Img url={isUpvoted ? '/upvoteFilled.png' : '/upvote.png'} toggleUpvote={toggleUpvote}/></button>
         </div>
         <footer className="card-actions justify-end">
           <a
