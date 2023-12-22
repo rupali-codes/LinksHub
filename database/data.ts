@@ -109,6 +109,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Rust', url: '/rust', resources: DB.Rust },
       { name: 'Dart', url: '/dart', resources: DB.dart },
       { name: 'Solidity', url: '/solidity', resources: DB.solidity },
+      { name: 'Swift', url: '/swift', resources: DB.swift },
     ],
   },
   {
@@ -358,6 +359,31 @@ export const sidebarData: ISidebar[] = [
         name: 'Technical Writing Tools',
         url: '/technical-writing-tools',
         resources: DB.technicalWritingTools,
+      },
+    ],
+  },
+  {
+    category: 'BlockChain',
+    subcategory: [
+      {
+        name: 'Smart Contracts',
+        url: '/smartcontracts',
+        resources: DB.smartContracts,
+      },
+      {
+        name: 'Truffle',
+        url: '/truffle',
+        resources: DB.truffle,
+      },
+      {
+        name: 'Hardhat',
+        url: '/hardhat',
+        resources: DB.hardhat,
+      },
+      {
+        name: 'Ethers',
+        url: '/ethers',
+        resources: DB.ethers,
       },
     ],
   },
