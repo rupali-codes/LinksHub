@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ResumeBuild",
+    "description": "This site helps you build cover letters to land a job",
+    "url": "https://resumebuild.com/cover-letter-builder/",
+    "category": "placement-prep",
+    "subcategory": "cover-letters"
+  },
+  {
+    "name": "Resume Lab",
+    "description": "This site helps you to make professional cover letters",
+    "url": "https://resumelab.com/cover-letter-builder",
+    "category": "placement-prep",
+    "subcategory": "cover-letters"
+  },
+  {
+    "name": "Cover Letter Now",
+    "description": "This site helps you make customizebale cover letter for professional use",
+    "url": "https://www.cover-letter-now.com/",
+    "category": "placement-prep",
+    "subcategory": "cover-letters"
+  },
+  {
+    "name": "JobScan",
+    "description": "JobScan gives you the tips for making impactful cover letters",
+    "url": "https://resumebuild.com/cover-letter-builder/",
+    "category": "placement-prep",
+    "subcategory": "cover-letters"
+  }
+]

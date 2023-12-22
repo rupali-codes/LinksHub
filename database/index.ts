@@ -117,7 +117,7 @@ export { default as interviewPreparation } from './placement_prep/interview-prep
 export { default as jobPortals } from './placement_prep/job-portals.json'
 export { default as resumeBuilding } from './placement_prep/resume-building.json'
 export { default as portfolioBuilding } from './placement_prep/portfolio-building.json'
-export { default as careerGuidance } from './placement_prep/career-guidance.json'
+export { default as coverLetters } from './placement_prep/cover-letters.json'
 export { default as certifications } from './placement_prep/certifications.json'
 //DSA
 export { default as dsaArticles } from './data_structures/dsa-articles.json'
