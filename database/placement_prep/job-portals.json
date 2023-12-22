@@ -19,5 +19,12 @@
     "url": "https://in.indeed.com/",
     "category": "placement-prep",
     "subcategory": "job-portals"
+  },
+  {
+    "name": "read.cv",
+    "description": "It's a plaform that helps you get the job of your need",
+    "url": "https://read.cv/open-roles",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
   }
 ]
