@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { FaArrowRight } from "react-icons/fa";
 import Link from 'next/link';
 
-const SavedResources = () => {
+const Saved = () => {
   return (
     <>
       <div>
@@ -19,4 +19,4 @@ const SavedResources = () => {
   )
 }
 
-export default SavedResources
+export default Saved
