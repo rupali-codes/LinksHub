@@ -26,8 +26,7 @@ const SignInWithGithub=()=>{
             localStorage.setItem('imageURL',imgURL as string);
             setImageURL(imgURL);
             setAuthenticated(true);
-            console.log("Image URL:", imgURL);
-            console.log("JWT Token: ",token)
+
             fetch('/api/auth',{
               method: 'POST',
               headers: {
@@ -37,7 +36,6 @@ const SignInWithGithub=()=>{
               if(response.status===200)
               {
                 router.push('/');
-                console.log("User successfully signed in!");
                 toast.success(`${username} is authenticated successfully`);
               }
             })
@@ -51,7 +49,6 @@ const SignInWithGithub=()=>{
       try {
         await signOut(auth);
         router.push("/");
-        console.log("Signed out successfully"); 
         toast.success("You are successfully logged out!!"); 
         const currDate = new Date().getTime;    
         document.cookie =  `accessToken=; expires=${currDate}; path=/;`;

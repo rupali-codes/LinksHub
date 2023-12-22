@@ -7,20 +7,18 @@ customInitApp();
 
 export async function POST(request: NextRequest){
   const authorization = request.headers.get("Authorization");
-  console.log("Headers authorization: ",authorization);
   if(authorization && authorization.startsWith('Bearer '))
   {
     const idToken = authorization.split("Bearer ")[1];
-    console.log("ID Token: ",idToken);
+
     const decodedToken = await auth().verifyIdToken(idToken);
-    console.log("Decoded token: ",decodedToken);
     if(decodedToken)
     {
       const expiresIn = 60 * 60 * 24 * 5 * 1000;
       const sessionCookie = await auth().createSessionCookie(idToken,{
         expiresIn
       });
-      console.log("Session Cookie: ",sessionCookie);
+  
       const options = {
         name: "Session",
         value: sessionCookie,

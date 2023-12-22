@@ -71,7 +71,6 @@ export const Card: FC<CardProps> = ({ data }) => {
       const assetData = assetDocSnapshot.data();
       const upvotes = assetData.upvotes || {};
       const userUid = auth.currentUser? auth.currentUser.uid : null;
-      console.log("User ID: ",userUid)
   
       if (userUid && upvotes[userUid]) {
         // User has already upvoted, so remove their upvote
@@ -98,7 +97,6 @@ export const Card: FC<CardProps> = ({ data }) => {
       const updatedUpvotes = updatedAssetDoc.data().upvotes || {};
       const upvoteCount = Object.keys(updatedUpvotes).length;
       setUpvoteCount(upvoteCount);
-      console.log(upvoteCount);
     } catch (error) {
       console.error('Error adding user to asset upvotes:', error);
     }
