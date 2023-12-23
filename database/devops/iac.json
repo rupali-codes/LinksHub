@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Terraform Documentation",
+    "description": "Terraform is an infrastructure as code tool that lets you build, change, and version infrastructure safely and efficiently. The official Terraform documentation serves as a comprehensive resource for users, offering detailed information, guidance, and best practices for effectively using Terraform.",
+    "url": "https://developer.hashicorp.com/terraform/docs",
+    "category": "devops",
+    "subcategory": "iac"
+  },
+  {
+    "name": "Terraform Tutorial",
+    "description": "This is a comprehensive Terraform tutorial for beginners.",
+    "url": "https://www.youtube.com/watch?v=vwn77cUarTs&list=PL8HowI-L-3_9bkocmR3JahQ4Y-Pbqs2Nt&index=1",
+    "category": "devops",
+    "subcategory": "iac"
+  }
+]

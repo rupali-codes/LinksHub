@@ -40,6 +40,26 @@
         "description": "Flowbite React is an open-source UI component library built on top of Tailwind CSS with React components and based on the Flowbite Design System.",
         "category": "frontend",
         "subcategory": "ui-libraries"
+    },
+    {
+        "name": "React Bootstrap",
+        "url": "https://react-bootstrap.github.io/",
+        "description": "React Bootstrap is a popular open-source UI library for React that provides a set of pre-designed and customizable components for building responsive web applications. It's known for its seamless integration with React and extensive theming capabilities.",
+        "category": "frontend",
+        "subcategory": "ui-libraries"
+    },
+    {
+        "name": "Semantic UI",
+        "url": "https://semantic-ui.com/",
+        "description": "Semantic UI is a popular open-source UI component library that provides a set of pre-designed and customizable components for building responsive web applications. It's known for its ease of use and extensive theming capabilities.",
+        "category": "frontend",
+        "subcategory": "ui-libraries"
+    },
+    {
+        "name": "Seamless UI",
+        "url": "https://seamlessui.vercel.app/",
+        "description": "The next gen UI made with simple HTML and Tailwind CSS. It's compatible with simple HTML, CSS static website or a React, Vue, Angular or Next.js Complex app. Zero JS and no plugins installed.",
+        "category": "frontend",
+        "subcategory": "ui-libraries"
     }
-    
 ]

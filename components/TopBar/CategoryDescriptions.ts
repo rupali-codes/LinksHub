@@ -111,6 +111,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.',
   microservices:
     'Microservices are a software development technique—a variant of the service-oriented architecture (SOA) architectural style that structures an application as a collection of loosely coupled services.',
+  IaC: 'Infrastructure as Code (IaC) is the managing and provisioning of infrastructure through code instead of through manual processes.',
 
   // AI
   'artificial intelligence':
@@ -184,6 +185,7 @@ const categoryDescriptions: CategoryDescriptions = {
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
   contributors:
     'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
+  textFormatting: 'Your ultimate solution for all your text formatting needs!',
 
   // Placement-Prep
   'interview preparation':
@@ -211,12 +213,15 @@ const categoryDescriptions: CategoryDescriptions = {
   'dsa tutorials':
     'This section provides you with YouTube tutorials that help you grasp concepts better by hands-on experience and learn better, practically!',
 
-   //BlockChain
-  smartcontracts : 'Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They run on a blockchain network, which is a decentralized and distributed ledger technology. Smart contracts automatically execute and enforce the terms of a contract when predefined conditions are met',
-  truffle : 'Truffle is a popular development framework for Ethereum blockchain. It provides a development environment, testing framework, and asset pipeline for building decentralized applications (DApps) on the Ethereum platform.',
-  hardhat : 'Hardhat is another popular development framework for Ethereum smart contracts and decentralized applications (DApps). It provides a wide range of features and tools for Ethereum developers, making the development and testing of smart contracts easier and more efficient.',  
-  ethers  : '"Ethers" generally refers to both the native cryptocurrency of the Ethereum network and a popular JavaScript library used for interacting with the Ethereum blockchain.'
-
+  //BlockChain
+  smartcontracts:
+    'Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They run on a blockchain network, which is a decentralized and distributed ledger technology. Smart contracts automatically execute and enforce the terms of a contract when predefined conditions are met',
+  truffle:
+    'Truffle is a popular development framework for Ethereum blockchain. It provides a development environment, testing framework, and asset pipeline for building decentralized applications (DApps) on the Ethereum platform.',
+  hardhat:
+    'Hardhat is another popular development framework for Ethereum smart contracts and decentralized applications (DApps). It provides a wide range of features and tools for Ethereum developers, making the development and testing of smart contracts easier and more efficient.',
+  ethers:
+    '"Ethers" generally refers to both the native cryptocurrency of the Ethereum network and a popular JavaScript library used for interacting with the Ethereum blockchain.',
 }
 
 export default categoryDescriptions
