@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 /* Font family */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap');
 
 /* Making default font family */
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Urbanist', sans-serif;
 }
 
 #__next {
@@ -202,21 +202,50 @@ pre {
     animation-iteration-count: 1 !important;
     animation: none !important;
 
-      /* Disables background-attachment: fixed, which prevents elements with fixed backgrounds from remaining in place while scrolling.
+    /* Disables background-attachment: fixed, which prevents elements with fixed backgrounds from remaining in place while scrolling.
        This reduces the perception of motion when scrolling.
       */
     background-attachment: initial !important;
-    
-      /* Reverts scroll-behavior to its default value 'auto', which prevents smooth scrolling behavior.
+
+    /* Reverts scroll-behavior to its default value 'auto', which prevents smooth scrolling behavior.
          Smooth scrolling may cause discomfort to motion-sensitive users.
       */
     scroll-behavior: auto !important;
-    
-      /* Sets transition duration and delay to 0 seconds, effectively disabling all transitions.
+
+    /* Sets transition duration and delay to 0 seconds, effectively disabling all transitions.
          This prevents any element from animating when its properties change.
       */
     transition-duration: 0s !important;
     transition-delay: 0s !important;
     transition: none !important;
   }
+}
+
+.purpleScrollbar {
+  scrollbar-color: #714eff transparent;
+}
+
+.purpleScrollbar::-webkit-scrollbar {
+  width: 6px;
+  background-color: white;
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+  transition: box-shadow 0.2s;
+}
+
+.purpleScrollbar::-webkit-scrollbar-thumb {
+  width: 6px;
+  background-color: #714eff;
+  border-radius: 12px;
+  transform: scale(1);
+  transition: all 0.2s;
+}
+
+.purpleScrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #714effcc;
+  transform: scale(1.01);
+}
+
+.purpleScrollbar::-webkit-scrollbar-thumb:active {
+  background-color: #714eff;
 }
