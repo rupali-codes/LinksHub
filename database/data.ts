@@ -350,9 +350,9 @@ export const sidebarData: ISidebar[] = [
         resources: DB.portfolioBuilding,
       },
       {
-        name: 'Career Guidance',
-        url: '/career-guidance',
-        resources: DB.careerGuidance,
+        name: 'Cover Letters',
+        url: '/cover-letters',
+        resources: DB.coverLetters,
       },
       {
         name: 'Certifications',

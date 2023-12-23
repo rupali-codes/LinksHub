@@ -26,5 +26,26 @@
     "url": "https://read.cv/open-roles",
     "category": "placement-prep",
     "subcategory": "job-portals"
+  }, 
+  {
+    "name": "Glassdoor",
+    "description": "Glassdoor is platform for job search. It provides you a couple of ways to get the search done",
+    "url": "https://www.glassdoor.co.in/index.htm",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
+  }, 
+  {
+    "name": "Dice",
+    "description": "Dice is the leading career destination for tech experts at every stage of their careers.",
+    "url": "https://www.dice.com/",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
+  }, 
+  {
+    "name": "Monstor",
+    "description": "This site lets you explore among the millions of jobs in different companies.",
+    "url": "https://monster.com",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
   }
 ]
