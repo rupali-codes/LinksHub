@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "name": "Git Essential Training",
+    "description": "Learn how to use Git, the popular open-source version control software, to manage the source code for almost any project by exploring the fundamental concepts behind version control systems and the Git architecture.",
+    "url": "https://www.linkedin.com/learning/git-essential-training-the-basics",
+    "category": "placement-prep",
+    "subcategory": "certifications"
+  },{
+    "name": "Udemy",
+    "description": "Udemy is an e-learning platform hosting a vast array of courses taught by professionals worldwide. It caters to diverse interests, offering skill development in various subjects, accessible to learners globally.",
+    "url": "https://www.udemy.com/",
+    "category": "placement-prep",
+    "subcategory": "certifications"
+  },{
+    "name": "Sololearn",
+    "description": "SoloLearn is a mobile and web-based platform providing free coding education in various programming languages. It offers interactive lessons, quizzes, and a supportive community, empowering learners worldwide to acquire coding skills at their own pace.",
+    "url": "https://www.sololearn.com/en/",
+    "category": "placement-prep",
+    "subcategory": "certifications"
+  },{
+    "name": "FreeCodeCamp",
+    "description": "freeCodeCamp is a nonprofit online learning platform offering free coding tutorials and certifications in web development, covering HTML, CSS, JavaScript, and more. It emphasizes hands-on projects and collaborates with nonprofits, aiding learners in practical skill-building.",
+    "url": "https://freecodecamp.com/",
+    "category": "placement-prep",
+    "subcategory": "certifications"
+  },{
+    "name": "LinkedIn Learning",
+    "description": "LinkedIn Learning offers a wide range of courses covering various fields such as business, technology, creative skills, data science, software development, design, marketing, leadership, project management, photography, and more. These courses cater to different skill levels, from beginner to advanced, and are taught by industry experts.",
+    "url": "https://www.linkedin.com/learning/",
+    "category": "placement-prep",
+    "subcategory": "certifications"
+  },{
+    "name": "Scaler",
+    "description": "Scaler is an online tech education platform that focuses on training aspiring software engineers in computer science fundamentals, data structures, algorithms, and advanced topics through a structured curriculum. They aim to prepare individuals for tech industry roles through mentorship, projects, and career guidance.",
+    "url": "https://www.scaler.com/",
+    "category": "placement-prep",
+    "subcategory": "certifications"
+  },{
+    "name": "Simplilearn",
+    "description": "Simplilearn is an online learning platform offering a wide range of courses in various fields such as digital marketing, cybersecurity, data science, project management, and more. It provides certification training with a focus on industry-relevant skills and flexible learning formats.",
+    "url": "https://www.simplilearn.com/",
+    "category": "placement-prep",
+    "subcategory": "certifications"
+  }
+]
