@@ -363,31 +363,6 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'BlockChain',
-    subcategory: [
-      {
-        name: 'Smart Contracts',
-        url: '/smartcontracts',
-        resources: DB.smartContracts,
-      },
-      {
-        name: 'Truffle',
-        url: '/truffle',
-        resources: DB.truffle,
-      },
-      {
-        name: 'Hardhat',
-        url: '/hardhat',
-        resources: DB.hardhat,
-      },
-      {
-        name: 'Ethers',
-        url: '/ethers',
-        resources: DB.ethers,
-      },
-    ],
-  },
-  {
     category: 'other',
     subcategory: [
       { name: 'events', url: '/events', resources: DB.events },
