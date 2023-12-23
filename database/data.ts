@@ -168,11 +168,6 @@ export const sidebarData: ISidebar[] = [
         url: '/microservices',
         resources: DB.microservices,
       },
-      {
-        name: 'IaC',
-        url: '/iac',
-        resources: DB.iac,
-      },
     ],
   },
   {
