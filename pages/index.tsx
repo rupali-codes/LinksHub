@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react'
+import React, { useState } from 'react'
 import Head from 'next/head'
 import Logo from 'components/logo/logo'
 import { RxCaretDown, RxCaretRight } from 'react-icons/rx'
@@ -9,13 +9,12 @@ import {
   FaXTwitter,
   FaArrowRightLong,
 } from 'react-icons/fa6'
+import StarIcon from '../assets/icons/StarIcon'
+import HeartIcon from '../assets/icons/HeartIcon'
 import Link from 'next/link'
-import { GlobalContext } from 'context/GlobalContext'
 import { sidebarData } from '../database/data.ts'
 
 export default function Home() {
-  const { toggleNav } = useContext(GlobalContext)
-
   const [welcome, setWelcome] = useState(true)
   const [community, setCommunity] = useState(true)
   const [resources, setResources] = useState(true)
@@ -93,7 +92,11 @@ export default function Home() {
 
         <link rel="icon" href="/icon.png" className="rounded-full" />
       </Head>
-      <section>
+      <section
+        data-custom="restrict-click-outside"
+        className="flex max-h-[calc(100vh-165px)] flex-col m-3 p-5 overflow-y-scroll"
+      >
+        <section>
           <div
             className={
               'flex items-center justify-between transition-all duration-700 ease-in cursor-pointer'
@@ -108,7 +111,7 @@ export default function Home() {
               <span>
                 Welcome aboard, we&apos;re excited to have you at LinksHub!
               </span>
-              <div className={'h-52 rounded-lg bg-dark-primary my-2'}>
+              <div className={'h-52 rounded-lg bg-dark my-2'}>
                 <div className={'h-full flex items-center justify-around'}>
                   <div className={'w-6/12'}>
                     <Logo />
@@ -166,9 +169,7 @@ export default function Home() {
                 {/* Twitter */}
                 <Link
                   href={'https://twitter.com/linkshubdotdev'}
-                  className={
-                    'border-solid border-2 border-slate-800 bg-dark-primary w-4/12 hover:bg-slate-800 rounded-md p-6'
-                  }
+                  className={'bg-dark w-4/12 hover:bg-slate-800 rounded-md p-6'}
                 >
                   <div className={'flex items-center text-white gap-2 mb-3'}>
                     <FaXTwitter size={30} />
@@ -181,7 +182,7 @@ export default function Home() {
                 <Link
                   href={'https://discord.com/invite/NvK67YnJX5'}
                   className={
-                    'border-solid border-2 border-slate-800 bg-dark-primary w-4/12  hover:bg-slate-800 rounded-md p-6'
+                    'bg-dark w-4/12  hover:bg-slate-800 rounded-md p-6'
                   }
                 >
                   <div className={'flex items-center text-white gap-2 mb-3'}>
@@ -198,7 +199,7 @@ export default function Home() {
                 <Link
                   href={'https://github.com/rupali-codes/LinksHub'}
                   className={
-                    'border-solid border-2 border-slate-800 bg-dark-primary w-4/12  hover:bg-slate-800 rounded-md p-6'
+                    'bg-dark w-4/12  hover:bg-slate-800 rounded-md p-6'
                   }
                 >
                   <div className={'flex items-center text-white gap-2 mb-3'}>
@@ -239,7 +240,7 @@ export default function Home() {
                   <Link
                     key={i}
                     href={`/${el.category}`}
-                    className="w-[calc(33.33%-1rem)] border-solid border-2 border-slate-800 bg-dark-primary hover:bg-slate-800 flex items-center rounded-lg justify-between p-4 relative overflow-hidden group"
+                    className="w-[calc(33.33%-1rem)] border-solid border border-slate-800 bg-dark hover:bg-slate-800 flex items-center rounded-lg justify-between p-4 relative overflow-hidden group"
                   >
                     <li>
                       {el.category.toUpperCase()}
@@ -251,28 +252,24 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div
-            className={
-              'bg-dark-primary flex items-center justify-center gap-2 w-full h-40 rounded-md'
-            }
-          >
-            <span>
-              {/* Icon */}
-            </span>
-            <div>
-              <h1 className={'font-semibold'}>
-                More awesome resources are coming soon!
-              </h1>
-              <h3 className={'w-96'}>
-                No extensive research is required to discover valuable
-                resources. We've been diligently curating a wealth of materials
-                to make your journey smoother. Show us some love and support our
-                efforts in simplifying your path to success.
-              </h3>
+          <div className="bg-dark rounded-lg shadow-md flex items-center justify-between">
+            <div className="flex items-center p-4">
+              <StarIcon className="text-yellow-400" />
+              <div className="text-lg w-10/12 font-medium m-2">
+                <h1 className="inline">
+                  More awesome resources are coming soon!
+                </h1>
+                <p className="text-gray-500">
+                  No extensive research is required to discover valuable
+                  resources. We've been diligently curating a wealth of
+                  materials to make your journey smoother. Show us some love and
+                  support our efforts in simplifying your path to success.
+                </p>
+              </div>
             </div>
-            <div>
-              <button className={"bg-dark rounded-md p-2"}>Sponsor</button>
-            </div>
+            <button className="flex items-center justify-center m-3 bg-dark-primary text-white font-bold py-3 px-4">
+              <HeartIcon className="w-6 h-6 mr-2" /> Sponsor
+            </button>
           </div>
         </section>
       </section>
