@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react'
+import React, { useState } from 'react'
 import Head from 'next/head'
 import Logo from 'components/logo/logo'
 import { RxCaretDown, RxCaretRight } from 'react-icons/rx'
@@ -10,11 +10,9 @@ import {
   FaArrowRightLong,
 } from 'react-icons/fa6'
 import Link from 'next/link'
-import { GlobalContext } from 'context/GlobalContext'
 import { sidebarData } from '../database/data.ts'
 
 export default function Home() {
-  const { toggleNav } = useContext(GlobalContext)
 
   const [welcome, setWelcome] = useState(true)
   const [community, setCommunity] = useState(true)
