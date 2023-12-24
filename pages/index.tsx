@@ -1,34 +1,35 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState, useContext } from 'react'
 import Head from 'next/head'
 import Logo from 'components/logo/logo'
-import TypewriterComponent from 'typewriter-effect'
-import { sidebarData } from '../database/data'
+import { RxCaretDown, RxCaretRight } from 'react-icons/rx'
+import { IoMdGitBranch, IoIosStar } from 'react-icons/io'
+import {
+  FaDiscord,
+  FaGithub,
+  FaXTwitter,
+  FaArrowRightLong,
+} from 'react-icons/fa6'
 import Link from 'next/link'
+import { GlobalContext } from 'context/GlobalContext'
+import { sidebarData } from '../database/data.ts'
 
 export default function Home() {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const { toggleNav } = useContext(GlobalContext)
 
+  const [welcome, setWelcome] = useState(true)
+  const [community, setCommunity] = useState(true)
+  const [resources, setResources] = useState(true)
 
-  //storing sub categories names for using in typewriter effect
-  const subCategoriesNames: string[] = []
-  sidebarData.forEach((c) => {
-    c.subcategory.forEach((a) => {
-      subCategoriesNames.push(a.name.toUpperCase())
-    })
-  })
-  const subCategoriesUrl: string[] = []
-  sidebarData.forEach((c) => {
-    c.subcategory.forEach((a) => {
-      subCategoriesUrl.push(c.category+a.url)
-    })
-  })
-  useEffect(() => {
-    const typewriterInterval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % subCategoriesNames.length);
-    }, 4000); // Adjust the interval as needed
+  const handleWelcome = () => {
+    setWelcome((prev) => !prev)
+  }
+  const handleCommunity = () => {
+    setCommunity((prev) => !prev)
+  }
+  const handleResources = () => {
+    setResources((prev) => !prev)
+  }
 
-    return () => clearInterval(typewriterInterval);
-  }, []);
   return (
     <>
       <Head>
@@ -92,36 +93,193 @@ export default function Home() {
 
         <link rel="icon" href="/icon.png" className="rounded-full" />
       </Head>
-      <section data-custom='restrict-click-outside' className="flex min-h-[calc(100vh-165px)] flex-col">
-        <div className=" m-auto flex flex-col  items-start gap-2">
-          <div className="m-auto md:text-7xl text-5xl gap-2 flex items-center justify-center">
-            <Logo />
-            <span>👾</span>
+      <section
+        data-custom="restrict-click-outside"
+        className="flex max-h-[calc(100vh-165px)] flex-col m-3 p-5 overflow-y-scroll"
+      >
+        <section>
+          <div
+            className={
+              'flex items-center justify-between transition-all duration-700 ease-in cursor-pointer'
+            }
+            onClick={handleWelcome}
+          >
+            <div className={'text-2xl text-white'}>Welcome!</div>
+            {welcome ? <RxCaretDown size={50} /> : <RxCaretRight size={50} />}
           </div>
-          <div className="flex flex-col mt-6 justify-center items-start w-96 max-md:w-64">
-            <p className="text-md">
-              {' '}
-              LinksHub aims to provide developers with access to a wide range of
-              free resources and tools that they can use in their work. These
-              resources include links to free software, libraries, frameworks,
-              and other tools that can be used to build and deploy applications
-              and websites.
-            </p>
-            <br />
-            <p className="text-md">Navigate through menu for</p>
-            <Link href={subCategoriesUrl[currentIndex]}>
-            <TypewriterComponent
-              options={{
-                strings: subCategoriesNames[currentIndex],
-                wrapperClassName:
-                  'text-md text-violet-600 dark:text-violet-400',
-                cursorClassName: 'text-md text-violet-600 dark:text-violet-400',
-                autoStart: true,
-              }}
-            />
-            </Link>
+          {welcome && (
+            <>
+              <span>
+                Welcome aboard, we&apos;re excited to have you at LinksHub!
+              </span>
+              <div className={'h-52 rounded-lg bg-dark-primary my-2'}>
+                <div className={'h-full flex items-center justify-around'}>
+                  <div className={'w-6/12'}>
+                    <Logo />
+                    <p className={'my-2'}>
+                      LinksHub aims to provide developers with access to a wide
+                      range of free resources and tools that they can use in
+                      their work. These resources include links to free
+                      software, libraries, frameworks, and other tools that can
+                      be used to build and deploy applications and websites.
+                    </p>
+                  </div>
+                  <div className={'flex items-center justify-center gap-10'}>
+                    <div className="bg-[#575448] text-white rounded-lg w-[160px] text-3xl p-4">
+                      <IoIosStar className="bg-[#FBD449] rounded-full text-black text-3xl p-1" />
+                      <div className="text-3xl my-1">
+                        336<span className="text-lg m-1">stars</span>
+                      </div>
+                      <Link href={''}>
+                        <button className="text-base p-2 w-32 bg-[#FBD449] text-black rounded-lg text-center">
+                          Give a star
+                        </button>
+                      </Link>
+                    </div>
+                    <div className="bg-[#403B56] text-white rounded-lg w-[160px] text-3xl p-4">
+                      <IoMdGitBranch className="bg-[#714EFF] rounded-full text-white text-3xl p-1" />
+                      <div className="text-3xl my-1">
+                        447<span className="text-lg m-1">forks</span>
+                      </div>
+                      <Link href={''}>
+                        <button className="text-base w-32 bg-[#714EFF] text-white rounded-lg p-2 text-center">
+                          Contribute now
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
+        </section>
+        <section>
+          <div
+            className={
+              'flex items-center justify-between transition-all duration-700 ease-in cursor-pointer'
+            }
+            onClick={handleCommunity}
+          >
+            <div className={'text-2xl text-white'}>Community</div>
+            {community ? <RxCaretDown size={50} /> : <RxCaretRight size={50} />}
           </div>
-        </div>
+          {community && (
+            <div className={`transition-all duration-700 ease-in`}>
+              Get involved in our community. Everyone is welcome!
+              <div className={'flex items-center justify-center gap-20 my-2'}>
+                {/* Twitter */}
+                <Link
+                  href={'https://twitter.com/linkshubdotdev'}
+                  className={
+                    'border-solid border-2 border-slate-800 bg-dark-primary w-4/12 hover:bg-slate-800 rounded-md p-6'
+                  }
+                >
+                  <div className={'flex items-center text-white gap-2 mb-3'}>
+                    <FaXTwitter size={30} />
+                    Twitter
+                  </div>
+                  <h3>For announcements, tips, and general information.</h3>
+                </Link>
+
+                {/* Discord */}
+                <Link
+                  href={'https://discord.com/invite/NvK67YnJX5'}
+                  className={
+                    'border-solid border-2 border-slate-800 bg-dark-primary w-4/12  hover:bg-slate-800 rounded-md p-6'
+                  }
+                >
+                  <div className={'flex items-center text-white gap-2 mb-3'}>
+                    <FaDiscord size={30} />
+                    Discord
+                  </div>
+                  <h3>
+                    To get involved in the community, ask questions, and share
+                    tips.
+                  </h3>
+                </Link>
+
+                {/* Github */}
+                <Link
+                  href={'https://github.com/rupali-codes/LinksHub'}
+                  className={
+                    'border-solid border-2 border-slate-800 bg-dark-primary w-4/12  hover:bg-slate-800 rounded-md p-6'
+                  }
+                >
+                  <div className={'flex items-center text-white gap-2 mb-3'}>
+                    <FaGithub size={30} />
+                    Github
+                  </div>
+                  <h3>
+                    To report bugs, request features, and contribute to the
+                    project.
+                  </h3>
+                </Link>
+              </div>
+            </div>
+          )}
+        </section>
+        <section>
+          <div className={'flex items-center justify-between'}>
+            <div className={'text-2xl text-white'}>Resources</div>
+            <div
+              className={'transition-all duration-700 ease-in'}
+              onClick={handleResources}
+            >
+              {resources ? (
+                <RxCaretDown size={50} />
+              ) : (
+                <RxCaretRight size={50} />
+              )}
+            </div>
+          </div>
+          <div className={`items-center transition-all duration-700 ease-in`}>
+            <span>
+              We&apos;ve curated a wealth of resources just for you. Go ahead
+              and explore at your own pace.
+            </span>
+            <ul className="flex flex-wrap my-6 gap-5">
+              {resources &&
+                sidebarData.map((el, i) => (
+                  <Link
+                    key={i}
+                    href={`/${el.category}`}
+                    className="w-[calc(33.33%-1rem)] border-solid border-2 border-slate-800 bg-dark-primary hover:bg-slate-800 flex items-center rounded-lg justify-between p-4 relative overflow-hidden group"
+                  >
+                    <li>
+                      {el.category.toUpperCase()}
+                      <FaArrowRightLong className="hidden absolute right-3 top-1/2 transform -translate-y-1/2 transition-opacity duration-300 ease-in-out group-hover:block" />
+                    </li>
+                  </Link>
+                ))}
+            </ul>
+          </div>
+        </section>
+        <section>
+          <div
+            className={
+              'bg-dark-primary flex items-center justify-center gap-2 w-full h-40 rounded-md'
+            }
+          >
+            <span>
+              {/* Icon */}
+            </span>
+            <div>
+              <h1 className={'font-semibold'}>
+                More awesome resources are coming soon!
+              </h1>
+              <h3 className={'w-96'}>
+                No extensive research is required to discover valuable
+                resources. We've been diligently curating a wealth of materials
+                to make your journey smoother. Show us some love and support our
+                efforts in simplifying your path to success.
+              </h3>
+            </div>
+              {/* Sponsor */}
+            <div>
+              <button className={"bg-dark rounded-md p-2"}>Sponsor</button>
+            </div>
+          </div>
+        </section>
       </section>
     </>
   )
