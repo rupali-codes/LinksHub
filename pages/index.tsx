@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import Head from 'next/head'
 import Logo from 'components/logo/logo'
 import { RxCaretDown, RxCaretRight } from 'react-icons/rx'
@@ -10,9 +10,11 @@ import {
   FaArrowRightLong,
 } from 'react-icons/fa6'
 import Link from 'next/link'
+import { GlobalContext } from 'context/GlobalContext'
 import { sidebarData } from '../database/data.ts'
 
 export default function Home() {
+  const { toggleNav } = useContext(GlobalContext)
 
   const [welcome, setWelcome] = useState(true)
   const [community, setCommunity] = useState(true)
@@ -91,11 +93,7 @@ export default function Home() {
 
         <link rel="icon" href="/icon.png" className="rounded-full" />
       </Head>
-      <section
-        data-custom="restrict-click-outside"
-        className="flex max-h-[calc(100vh-165px)] flex-col m-3 p-5 overflow-y-scroll"
-      >
-        <section>
+      <section>
           <div
             className={
               'flex items-center justify-between transition-all duration-700 ease-in cursor-pointer'
@@ -272,7 +270,6 @@ export default function Home() {
                 efforts in simplifying your path to success.
               </h3>
             </div>
-              {/* Sponsor */}
             <div>
               <button className={"bg-dark rounded-md p-2"}>Sponsor</button>
             </div>
