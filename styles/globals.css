@@ -236,6 +236,7 @@ pre {
   .maintainers-our-team {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
+}
 
 .purpleScrollbar {
   scrollbar-color: #714eff transparent;
