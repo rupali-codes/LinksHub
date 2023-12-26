@@ -12,7 +12,7 @@ import {
 import StarIcon from '../assets/icons/StarIcon'
 import HeartIcon from '../assets/icons/HeartIcon'
 import Link from 'next/link'
-import { sidebarData } from '../database/data.ts'
+import { sidebarData } from '../database/data'
 
 export default function Home() {
   const [welcome, setWelcome] = useState(true)
@@ -254,21 +254,28 @@ export default function Home() {
         <section>
           <div className="bg-dark rounded-lg shadow-md flex items-center justify-between">
             <div className="flex items-center p-4">
-              <StarIcon className="text-yellow-400" />
+              <div className={'text-yellow-400'}>
+                <StarIcon />
+              </div>
               <div className="text-lg w-10/12 font-medium m-2">
                 <h1 className="inline">
                   More awesome resources are coming soon!
                 </h1>
                 <p className="text-gray-500">
                   No extensive research is required to discover valuable
-                  resources. We've been diligently curating a wealth of
+                  resources. We&apos;ve been diligently curating a wealth of
                   materials to make your journey smoother. Show us some love and
                   support our efforts in simplifying your path to success.
                 </p>
               </div>
             </div>
-            <button className="flex items-center justify-center m-3 bg-dark-primary text-white font-bold py-3 px-4">
-              <HeartIcon className="w-6 h-6 mr-2" /> Sponsor
+            <button
+              className={'w-10 h-10 gap-2 flex items-center justify-center'}
+            >
+              <div className="w-6 h-6">
+                <HeartIcon />
+              </div>
+              <span>Sponsor</span>
             </button>
           </div>
         </section>
