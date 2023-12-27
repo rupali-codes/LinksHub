@@ -4,10 +4,10 @@ import { useEffect, memo, useMemo } from 'react'
 
 import CardsList from 'components/Cards/CardsList'
 import { TopBar } from 'components/TopBar/TopBar'
-import ComingSoon from 'components/NewIssue/NewIssue'
 import { useResults } from 'hooks/ResultsContext'
 
 import { database } from 'database/data'
+import NotFound from 'components/NotFound/NotFound'
 
 const MemoizedCardsList = memo(CardsList)
 
@@ -98,7 +98,7 @@ const Search = () => {
         {filteredCardsList.length > 0 ? (
           <MemoizedCardsList cards={filteredCardsList} />
         ) : (
-          <ComingSoon />
+          <NotFound />
         )}
       </div>
     </>
