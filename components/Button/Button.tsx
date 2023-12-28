@@ -1,6 +1,6 @@
 import { FC, ReactNode } from 'react'
 import Link from 'next/link'
-import clsx from 'clsx'
+import { cn } from 'lib/utils'
 
 interface Props {
   label: string
@@ -26,7 +26,7 @@ const Button: FC<Props> = ({
     text: 'text-slate-400 dark:text-gray-400 !gap-4',
   }[variant]
 
-  const cls = clsx(
+  const cls = cn(
     'flex justify-center items-center px-4 py-3 gap-1.5 rounded-lg transition-colors',
     styles,
     className

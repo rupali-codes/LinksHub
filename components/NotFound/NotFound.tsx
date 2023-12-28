@@ -19,7 +19,7 @@ const NotFound: FC = () => {
             label='Join Discord'
             icon={<IoIosArrowRoundForward size={24} />}
             variant='primary'
-            className='p-0 flex-row-reverse text-[16px]'
+            className='flex-row-reverse text-[16px] py-2'
             link='https://discord.com/invite/NvK67YnJX5'
           />
       </div>
