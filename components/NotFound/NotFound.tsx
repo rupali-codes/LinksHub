@@ -5,7 +5,7 @@ import Search from "assets/icons/svg/search-icon.svg"
 
 const NotFound: FC = () => {
   return (
-    <div className="pt-6 md:p-0 text-xl w-fit m-auto h-[calc(100vh-450px)] md:h-[calc(100vh-270px)]">
+    <div className="pt-6 md:p-0 text-xl w-full my-auto h-[calc(100vh-450px)] md:h-[calc(100vh-270px)]">
       <h1 className='text-[32px] font-[600] dark:bg-text-light-silver mb-[8px]'>Resources</h1>
       <span className='text-[16px] md:text-[18px]'>We&apos;ve curated a wealth of resources just for you. Go ahead and explore at your own pace.</span>
 
@@ -17,9 +17,9 @@ const NotFound: FC = () => {
         </span>
           <Button
             label='Join Discord'
-            icon={<IoIosArrowRoundForward />}
+            icon={<IoIosArrowRoundForward size={24} />}
             variant='primary'
-            className='flex-row-reverse text-[16px]'
+            className='p-0 flex-row-reverse text-[16px]'
             link='https://discord.com/invite/NvK67YnJX5'
           />
       </div>
