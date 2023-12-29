@@ -26,7 +26,7 @@ const ShortcutKey: FC = () => {
   return (
     <span
       className={clsx(
-        'absolute top-[11px] right-4 flex items-center justifiy-center px-2.5 py-[3px] gap-2.5 bg-white dark:bg-gray-800 rounded-md border border-zinc-400 border-opacity-40 text-zinc-400 dark:text-neutral-200 text-sm font-medium peer-focus:hidden select-none',
+        'absolute top-[11px] right-4 hidden sm:flex items-center justifiy-center px-2.5 py-[3px] gap-2.5 bg-white dark:bg-gray-800 rounded-md border border-zinc-400 border-opacity-40 text-zinc-400 dark:text-neutral-200 text-sm font-medium peer-focus:hidden select-none',
         isMac ? 'tracking-[2.80px]' : 'text-[12px]'
       )}
     >
