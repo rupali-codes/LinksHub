@@ -110,5 +110,13 @@
     "category": "youtube",
     "subcategory": "web3-metaverse",
     "language": "english"
+  },
+  {
+    "name": "web3Mantra",
+    "description": "This channel has 114 educational videos on technologies like Web3, Blockchain, Solidity, Hardhat etc",
+    "url": "https://youtube.com/@web3mantra",
+    "category": "youtube",
+    "subcategory": "web3-metaverse",
+    "language": "english"
   }
 ]

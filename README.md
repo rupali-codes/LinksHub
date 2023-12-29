@@ -112,9 +112,10 @@ Need help while contributing? Tag any of the maintainers when creating the issue
 
 <table>
 <tr>
-<td align="center" width="200"><pre><a href="https://github.com/rupali-codes"><img src="https://avatars.githubusercontent.com/u/78981177?v=4" width="200" alt="GitHub Profile of Anmol Baranwal" /><br><sub>Rupali Haldiya</sub></a><br>@rupali-codes</pre></td>
-<td align="center" width="200"><pre><a href="https://github.com/CBID2"><img src="https://avatars.githubusercontent.com/u/105683440?v=4" width="200" alt="GitHub Profile of Anmol Baranwal" /><br><sub>Christine Belzie</sub></a><br>@CBID2</pre></td>
-<td align="center" width="200"><pre><a href="https://github.com/Anmol-Baranwal"><img src="https://avatars.githubusercontent.com/u/74038190?v=4" width="200" alt="GitHub Profile of Anmol Baranwal" /><br><sub>Anmol Baranwal</sub></a><br>@Anmol-Baranwal</pre></td>
+<td align="center" width="200"><pre><a href="https://github.com/rupali-codes"><img src="https://avatars.githubusercontent.com/u/78981177?v=4" width="200" alt="GitHub Profile picture of Rupali Haldiya" /><br><sub>Rupali Haldiya</sub></a><br>@rupali-codes</pre></td>
+<td align="center" width="200"><pre><a href="https://github.com/CBID2"><img src="https://avatars.githubusercontent.com/u/105683440?v=4" width="200" alt="GitHub Profile picture of Christine Belzie" /><br><sub>Christine Belzie</sub></a><br>@CBID2</pre></td>
+<td align="center" width="200"><pre><a href="https://github.com/Anmol-Baranwal"><img src="https://avatars.githubusercontent.com/u/74038190?v=4" width="200" alt="GitHub Profile picture of Anmol Baranwal" /><br><sub>Anmol Baranwal</sub></a><br>@Anmol-Baranwal</pre></td>
+<td align="center" width="200"><pre><a href="https://github.com/aftabrehan"><img src="https://avatars.githubusercontent.com/u/93012310?v=4" width="200" alt="GitHub Profile Picture of Aftab Rehan"/><br><sub>Aftab Rehan</sub></a><br>@aftabrehan</pre></td>
 
 </tr>
 </table>

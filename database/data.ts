@@ -14,6 +14,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'images', url: '/images', resources: DB.images },
       { name: 'fonts', url: '/fonts', resources: DB.fonts },
       { name: 'colors', url: '/colors', resources: DB.colors },
+      { name: 'react', url: '/react', resources: DB.react },
       {
         name: 'illustrations',
         url: '/illustrations',
@@ -108,6 +109,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Rust', url: '/rust', resources: DB.Rust },
       { name: 'Dart', url: '/dart', resources: DB.dart },
       { name: 'Solidity', url: '/solidity', resources: DB.solidity },
+      { name: 'Swift', url: '/swift', resources: DB.swift },
     ],
   },
   {
@@ -135,7 +137,7 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'Tutorials',
-        url: '/os-tutorials',
+        url: '/tutorials',
         resources: DB.openSourceTutorials,
       },
     ],
@@ -165,6 +167,11 @@ export const sidebarData: ISidebar[] = [
         name: 'microservices',
         url: '/microservices',
         resources: DB.microservices,
+      },
+      {
+        name: 'IaC',
+        url: '/iac',
+        resources: DB.iac,
       },
     ],
   },
@@ -303,16 +310,13 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'data-structures',
     subcategory: [
-      {
-        name: 'DSA Articles',
-        url: '/dsa-articles',
-        resources: DB.dsaArticles,
-      },
+      { name: 'DSA Articles', url: '/dsa-articles', resources: DB.dsaArticles },
       {
         name: 'DSA Tutorials',
         url: '/dsa-tutorials',
         resources: DB.dsaTutorials,
       },
+      { name: 'DSA Courses', url: '/dsa-courses', resources: DB.dsaCourses },
     ],
   },
   {
@@ -346,9 +350,9 @@ export const sidebarData: ISidebar[] = [
         resources: DB.portfolioBuilding,
       },
       {
-        name: 'Career Guidance',
-        url: '/career-guidance',
-        resources: DB.careerGuidance,
+        name: 'Cover Letters',
+        url: '/cover-letters',
+        resources: DB.coverLetters,
       },
       {
         name: 'Certifications',
@@ -368,6 +372,31 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'BlockChain',
+    subcategory: [
+      {
+        name: 'Smart Contracts',
+        url: '/smartcontracts',
+        resources: DB.smartContracts,
+      },
+      {
+        name: 'Truffle',
+        url: '/truffle',
+        resources: DB.truffle,
+      },
+      {
+        name: 'Hardhat',
+        url: '/hardhat',
+        resources: DB.hardhat,
+      },
+      {
+        name: 'Ethers',
+        url: '/ethers',
+        resources: DB.ethers,
+      },
+    ],
+  },
+  {
     category: 'other',
     subcategory: [
       { name: 'events', url: '/events', resources: DB.events },
@@ -383,6 +412,11 @@ export const sidebarData: ISidebar[] = [
       { name: 'Communities', url: '/communities', resources: DB.communities },
       { name: 'Roadmaps', url: '/roadmaps', resources: DB.roadmaps },
       { name: 'Domains', url: '/domains', resources: DB.domains },
+      {
+        name: 'Text Formatting',
+        url: '/text-formatting',
+        resources: DB.textFormatting,
+      },
     ],
   },
 ]

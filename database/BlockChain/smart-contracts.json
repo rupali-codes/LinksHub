@@ -1,0 +1,9 @@
+[
+    {
+    "name": "Solidity Documentation",
+    "description": " Solidity is the programming language used for developing smart contracts on the Ethereum platform. The Solidity documentation provides comprehensive guidance on writing secure and efficient smart contracts.",
+    "url": "https://docs.soliditylang.org/en/v0.8.21/",
+    "category": "BlockChain",
+    "subcategory": "smartcontracts"
+  }
+]

@@ -2,12 +2,12 @@
 
 Thank you for taking the time to contribute to our project. Please take a moment to read the following guidelines before contributing:
 
-> ⚠️IMPORTANT **Note**
+> **⚠️IMPORTANT**
 >
 > **Pull Requests _having no issue associated_ with them _will not be accepted_. Firstly get an issue assigned, whether it's already opened or raised by you, and then create a Pull Request.**
-> 
+>
 > **An automated process has been implemented to ensure the timely management of Pull Requests (PRs) on this platform.**
-> 
+>
 > **PRs that have been open for a duration exceeding 45 days will be automatically closed, so please plan accordingly.**
 
 ## Prerequisites ⚠️
@@ -135,7 +135,16 @@ Follow these steps to setup LinksHub on your local machine
     > For example, if you export the subcategory name as `onlineCodeEditors` in `database/index.ts`, add the same name to `CategoryDescriptions.ts` using the following style:
     > `subcategory name:` `description of this subcategory`
 
-  - You can check out similar examples [here](components/TopBar/CategoryDescriptions.ts). It's essential to add a description when submitting a pull request to add a subcategory; to merge it in the codebase.
+  - Here's how it looks altogether:
+
+  ```ts
+  //category
+   subcategory name: 
+   `description of subcategory`,
+   ```
+
+> [!NOTE]  
+> It's essential to add a description when submitting a pull request to add a subcategory to merge it in the codebase.
 
 ---
 
@@ -248,12 +257,12 @@ We follow a standardized commit message format using Commitlint to ensure consis
 #### ✔️ Examples of Valid Commit Messages
 
 - `feat: Add user authentication feature`
-- `fix(auth): Resolve login page redirect issue
-- `docs: Update installation instructions
-- `style: Format code according to project guidelines
+- `fix(auth): Resolve login page redirect issue`
+- `docs: Update installation instructions`
+- `style: Format code according to project guidelines`
 - `refactor(navbar): Improve responsiveness`
 - `test: Add unit tests for API endpoints`
-- `chore: Update dependencies to latest versions
+- `chore: Update dependencies to latest versions`
 - `fix: Handle edge case in data processing (#456)`
 
 #### ❌ Examples of Invalid Commit Messages
@@ -280,7 +289,7 @@ git commit -m "feat(auth): Implement user signup process (#789)"
 2. Each pull request should contain a single logical change or related set of changes that make sense to submit together. If a pull request becomes too large or contains too many unrelated changes, it becomes too difficult to review. In such cases, the reviewer has the right to close your pull request and ask that you submit a separate pull request for each logical set of changes that belong together.
 
 3. Link the issue you have resolved in the Pull Request Template (e.g. Closes/Fixes #99).
-4. Use our [Commit messages Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md#commits-message-guidelines) for your changes.
+4. Use our [Commit messages Guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md#commits-message-guidelines-) for your changes.
 5. Do not re-open a pull request that a reviewer has closed.
    - Make sure to tick the "Allow edits from maintainers" box. This allows us to directly make minor edits / refactors and saves a lot of time.
      > **Note**

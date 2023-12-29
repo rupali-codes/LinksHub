@@ -1,0 +1,45 @@
+[
+
+    {
+        "name": "Coursera",
+        "description": "Princeton University : Algorithms, Part I (Level : Intermediate)\n(Price : Free)",
+        "url": "https://www.coursera.org/learn/algorithms-part1?irclickid=R3ExqL3kfxyPUlu2taT6i1SeUkFTIbR3fwlM2Q0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3294490&utm_content=b2c",
+        "category": "data-structures",
+        "subcategory": "dsa-courses"
+    },
+    {
+        "name": "Coursera",
+        "description": "Data Science Foundations: Data Structures and Algorithms Specialization : By Sriram Sankaranarayanan - Top instructor at Coursera (Duration: 12 weeks)\n(Level: Intermediate *includes prerequisites\n(Price: Financial Aid available)",
+        "url": "https://www.coursera.org/specializations/boulder-data-structures-algorithms",
+        "category": "data-structures",
+        "subcategory": "dsa-courses"
+    },
+    {
+        "name": "Udemy",
+        "description": "Data Structure - Part I : Design, Implementation and Analysis of basic data structures using Java language (Level: Beginner)\n(Price: Free)\n",
+        "url": "https://www.udemy.com/course/data-structures-part-1-lognacademy/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-NGH_Nm7INaGTQkF2wiRvPw&utm_medium=udemyads&utm_source=aff-campaign",
+        "category": "data-structures",
+        "subcategory": "dsa-courses"
+    },
+    {
+        "name": "Udemy",
+        "description": "Introduction to Algorithms and Data structures in C++\n(Level:Beginner to Intermediate)\n(Price: Free)",
+        "url": "https://www.udemy.com/course/introduction-to-algorithms-and-data-structures-in-c/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-K_N7qnzYT67YYTr7r0rPJg&utm_medium=udemyads&utm_source=aff-campaign",
+        "category": "data-structures",
+        "subcategory": "dsa-courses"
+    },
+    {
+        "name": "University of Michigan",
+        "description": "Python Data Structures\n Rated 4.5 \n(Duration: 7 weeks)\n(Level: Introductory)\n(Price: Financial Aid available)\n(Certificate: Available)",
+        "url": "https://online.umich.edu/courses/python-data-structures/",
+        "category": "data-structures",
+        "subcategory": "dsa-courses"
+    },
+    {
+        "name": "Harvard : CS50's Introduction to Computer Science",
+        "description": "Harvard University CS50's Introduction to Computer Science by David J. Malan (Duration: 12 weeks)\n(Level: Introductory)\n(Price: Financial Aid available)\n(Certificate: Available)",
+        "url": "https://pll.harvard.edu/course/cs50-introduction-computer-science",
+        "category": "data-structures",
+        "subcategory": "dsa-courses"
+    }
+  ]

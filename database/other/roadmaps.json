@@ -12,5 +12,26 @@
     "url": "https://www.guvi.in/blog/dsa-roadmap-beginners-should-know/",
     "category": "other",
     "subcategory": "roadmaps"
-  }
+  },
+  {
+    "name": "Blockchain Roadmap",
+    "description": "This roadmap is open-sourced and contains a comprehensive roadmap on how to proceed in the field of Blockchain.",
+    "url": "https://roadmap.sh/blockchain",
+    "category": "other",
+    "subcategory": "roadmaps"
+  },
+  {
+    "name": "Python Roadmap",
+    "description": "In this Python Roadmap for beginners, we will see what a Python Beginner should learn and how many days he should learn.",
+    "url": "https://copyassignment.com/complete-python-roadmap-for-beginners-in-2024/",
+    "category": "other",
+    "subcategory": "roadmaps"
+  },
+  {
+    "name": "DSA 90 days roadmap - takeUForward",
+    "description": "This article is aimed at helping entry-level software engineering jobs aspirants at top tech product-based companies and startups.",
+    "url": "https://takeuforward.org/interviews/most-trusted-90-days-roadmap-to-placement-guaranteed/",
+    "category": "other",
+    "subcategory": "roadmaps"
+}
 ]

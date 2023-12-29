@@ -187,7 +187,7 @@
     "url": "https://patternizer.com/",
     "category": "frontend",
     "subcategory": "UI Generators"
-  }, 
+  },
   {
     "name": "Chakra UI",
     "description": "Chakra UI is a simple, modular, and accessible component library that gives you the building blocks you need to build your React applications.",
@@ -197,8 +197,15 @@
   },
   {
     "name": "CSS Portal",
-    "description":"A platform where you can generate 3D UI components based on CSS.",
-    "url" : "https://www.cssportal.com/css-3d-transform-generator/",
+    "description": "A platform where you can generate 3D UI components based on CSS.",
+    "url": "https://www.cssportal.com/css-3d-transform-generator/",
+    "category": "frontend",
+    "subcategory": "UI Generators"
+  },
+  {
+    "name": "Shadcn UI",
+    "description": "It provides you beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source. Built using Radix UI and Tailwind CSS.",
+    "url": "https://ui.shadcn.com/",
     "category": "frontend",
     "subcategory": "UI Generators"
   }

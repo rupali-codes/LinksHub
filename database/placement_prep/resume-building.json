@@ -33,5 +33,19 @@
     "url": "https://resume.com/",
     "category": "placement-prep",
     "subcategory": "resume-building"
+  },
+  {
+    "name": "Overleaf",
+    "description": "This website offers over 50 unique CV or resume templates. Simply pick the one that suits your preferences, and effortlessly create a distinguished resume tailored to your needs.",
+    "url": "https://www.overleaf.com/latex/templates/tagged/cv",
+    "category": "placement-prep",
+    "subcategory": "resume-building"
+  },
+  {
+    "name": "Cultivated Culture",
+    "description": "This website tells about the score of your resume and gives you profession tips on how you can improve it further.",
+    "url": "https://cultivatedculture.com/resume-scanner/",
+    "category": "placement-prep",
+    "subcategory": "resume-building"
   }
 ]

@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Swift Official Documentation",
+        "description": "The official documentation of Swift. It provides comprehensive information, guides, and resources for developers using Swift for iOS, macOS, watchOS, and tvOS application development. It also covers the language syntax, standard library, and various features of Swift.",
+        "url": "https://www.swift.org/documentation/",
+        "category": "languages",
+        "subcategory": "swift"
+    }
+]
