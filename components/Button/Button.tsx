@@ -20,7 +20,7 @@ const Button: FC<Props> = ({
   className,
 }) => {
   const styles = {
-    primary: 'bg-primary-purple hover:bg-primary-purple/80 text-white rounded-[10px] duration-500', // @todo: add styles when using these button types in ResourcesCards
+    primary: 'bg-primary hover:bg-primary/80 text-white rounded-[10px] duration-500', // @todo: add styles when using these button types in ResourcesCards
     secondary: '',
     pale: 'bg-slate-100 hover:bg-violet-50 dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-20 text-slate-500 dark:text-violet-50',
     text: 'text-slate-400 dark:text-gray-400 !gap-4',

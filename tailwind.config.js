@@ -20,9 +20,6 @@ module.exports = {
           primary: '#f5f3ff',
           silver: '#EDEDED',
         },
-        primary: {
-          purple: '#714EFF',
-        },
       },
       screens: {
         xs: '200px',
