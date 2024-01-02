@@ -52,6 +52,7 @@ export const sidebarData: ISidebar[] = [
         url: '/ui-libraries',
         resources: DB.uilibraries,
       },
+      { name: 'angular', url: '/angular', resources: DB.angular },
     ],
   },
   {

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Angular Official",
+    "description": "Angular latest official documentation, tutorials, and playgrounds",
+    "url": "https://angular.dev",
+    "category": "frontend",
+    "subcategory": "angular",
+    "language": "english"
+  },
+  {
+    "name": "NgRx",
+    "description": "Reactive State Management for Angular",
+    "url": "https://ngrx.io/guide/store",
+    "category": "frontend",
+    "subcategory": "angular",
+    "language": "english"
+  },
+  {
+    "name": "Angular Material",
+    "description": "Material Design components for Angular",
+    "url": "https://material.angular.io/",
+    "category": "frontend",
+    "subcategory": "angular",
+    "language": "english"
+  },
+  {
+    "name": "Angular Challenges",
+    "description": "Practice Angular by completing challenges",
+    "url": "https://angular-challenges.vercel.app/guides/getting-started/",
+    "category": "frontend",
+    "subcategory": "angular",
+    "language": "english"
+  }
+]
