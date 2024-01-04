@@ -265,12 +265,5 @@ pre {
 /* Handle */
 
 .scrollColorDarkMobile::-webkit-scrollbar-thumb {
-  background: #fff;
-  border-radius: 20px;
-}
-
-/* Handle on hover */
-
-.scrollColorDarkMobile::-webkit-scrollbar-thumb:hover {
-  background: #304269;
+  @apply bg-[#304269] dark:bg-white
 }
