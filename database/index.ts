@@ -1,5 +1,6 @@
 // frontend
 export { default as accessibility } from './frontend/accessibility.json'
+export { default as angular } from './frontend/angular.json'
 export { default as animations } from './frontend/animations.json'
 export { default as colors } from './frontend/colors.json'
 export { default as designInspirations } from './frontend/design-inspirations.json'
