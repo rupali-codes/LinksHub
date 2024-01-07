@@ -1,42 +1,39 @@
-import React, { useEffect } from 'react';
-import { useTheme } from 'next-themes';
-import clsx from 'clsx';
+import React, { useEffect } from 'react'
+import { useTheme } from 'next-themes'
+import clsx from 'clsx'
 
 type PaginationProps = {
-  totalPages: number[] | null;
-  currentPage: number;
-  handlePageChange: (page: number) => void;
-};
+  totalPages: number[] | null
+  currentPage: number
+  handlePageChange: (page: number) => void
+  styles?: string
+}
 
 export default function Pagination({
   totalPages,
   currentPage,
   handlePageChange,
+  styles,
 }: PaginationProps) {
-  const { resolvedTheme } = useTheme();
-  const isDarkMode = resolvedTheme === 'dark';
+  const { resolvedTheme } = useTheme()
+  const isDarkMode = resolvedTheme === 'dark'
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   const changePage = (page: number) => {
-    handlePageChange(page);
-  };
+    handlePageChange(page)
+  }
 
   useEffect(() => {
-    scrollToTop();
-  }, [currentPage]);
+    scrollToTop()
+  }, [currentPage])
 
   return (
     <>
       {totalPages && totalPages.length > 1 && (
-        <div
-          className={clsx(
-            'w-full z-20 flex lg:w-full items-center justify-center ',
-            'absolute bottom-2 right-0'
-          )}
-        >
+        <div className={styles}>
           <div className="flex items-center px-6 py-1 gap-4">
             <button
               className={clsx(
@@ -57,7 +54,9 @@ export default function Pagination({
                     'flex items-center justify-center rounded-md hover:bg-[#8b5cf6] hover:text-white px-2',
                     currentPage === page
                       ? 'bg-[#8b5cf6] text-white'
-                      : isDarkMode ? 'text-light' : 'text-theme-secondary'
+                      : isDarkMode
+                      ? 'text-light'
+                      : 'text-theme-secondary'
                   )}
                   onClick={() => changePage(page)}
                 >
@@ -79,5 +78,5 @@ export default function Pagination({
         </div>
       )}
     </>
-  );
+  )
 }

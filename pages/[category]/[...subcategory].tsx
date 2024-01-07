@@ -9,6 +9,7 @@ import { GetStaticProps, NextPage } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 import { usePagination } from 'hooks/usePagination'
 import Pagination from 'components/Pagination/Pagination'
+import clsx from 'clsx'
 
 interface PageProps {
   category: string
@@ -101,11 +102,24 @@ const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
         className="relative min-h-[calc(100%-68px)] w-full pt-[85px] pb-4 md:min-h-[calc(100%-76px)] md:px-10 md:pt-10"
       >
         {content}
-        <div className="min-w-full h-10 py-5"/>
+        <div className="min-w-full h-10 py-5" />
         <Pagination
           totalPages={totalPages}
           currentPage={currentPage}
           handlePageChange={handlePageChange}
+          styles={`${clsx(
+            'hidden md:flex w-full z-20 items-center justify-end',
+            'absolute top-0 right-0'
+          )}`}
+        />
+        <Pagination
+          totalPages={totalPages}
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+          styles={`${clsx(
+            'w-full z-20 flex lg:w-full items-center justify-center',
+            'absolute bottom-2 right-0'
+          )}`}
         />
       </div>
     </>
