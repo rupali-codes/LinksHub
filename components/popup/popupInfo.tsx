@@ -5,9 +5,9 @@ import { Backdrop } from 'components/Backdrop/Backdrop'
 import { createPortal } from 'react-dom'
 import useDelayUnmount from 'hooks/useDelayUnmount'
 import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
-import {BsYoutube,BsPen } from 'react-icons/bs'
-import{MdArticle} from 'react-icons/md'
-import {AiOutlineRead} from 'react-icons/ai'
+import { BsYoutube, BsPen } from 'react-icons/bs'
+import { MdArticle } from 'react-icons/md'
+import { AiOutlineRead } from 'react-icons/ai'
 
 export const PopupInfo: React.FC<{
   currentCard: IData | null
@@ -46,7 +46,7 @@ export const PopupInfo: React.FC<{
                   {currentCard?.name}
                 </h2>
               </div>
-              <div className="max-w-[25]%] text-xsm text-theme-secondary capitalize flex items-center gap-2">
+              <div className="max-w-[25]%] mx-3 text-xsm text-theme-secondary capitalize flex items-center gap-2">
                 <CopyToClipboard url={currentCard?.url ?? ''} />
                 {currentCard?.language ? (
                   <>
@@ -68,8 +68,16 @@ export const PopupInfo: React.FC<{
               rel="noreferrer"
               className="mt-2 px-6 py-2 text-white text-center bg-theme-secondary rounded-2xl w-full hover:bg-transparent hover:text-theme-secondary border border-dashed border-transparent duration-100 hover:border-theme-primary flex items-center justify-center bottom-0 relative gap-2"
             >
-              Visit Site 
-              {youtubeRegex.test(currentCard?.url||'') ? <BsYoutube size="1.3em"/> : currentCard?.subcategory==='e-book'?<AiOutlineRead size="1.3em"/>:currentCard?.subcategory==='technical-writing-tools'?<BsPen size="1.2em"/>:<MdArticle size="1.3em"/>}
+              Visit Site
+              {youtubeRegex.test(currentCard?.url || '') ? (
+                <BsYoutube size="1.3em" />
+              ) : currentCard?.subcategory === 'e-book' ? (
+                <AiOutlineRead size="1.3em" />
+              ) : currentCard?.subcategory === 'technical-writing-tools' ? (
+                <BsPen size="1.2em" />
+              ) : (
+                <MdArticle size="1.3em" />
+              )}
             </a>
           </div>
 
