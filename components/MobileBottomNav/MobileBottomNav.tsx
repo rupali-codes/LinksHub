@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React, { FC, useContext } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
@@ -10,16 +10,17 @@ import TeamInActiveIcon from 'assets/icons/svg/nav/team-inactive.svg'
 import TeamActiveIcon from 'assets/icons/svg/nav/team-active.svg'
 import SearchAciveIcon from 'assets/icons/svg/nav/search-active.svg'
 import SearchInAciveIcon from 'assets/icons/svg/nav/search-inactive.svg'
+import { GlobalContext } from 'context/GlobalContext'
 
 const MobileBottomNav: FC = () => {
   const router = useRouter()
+  const { toggleNav } = useContext(GlobalContext)
 
   const inActiveIconCls = 'stroke-gray-400'
   const activeIconCls = 'fill-primary dark:fill-white'
 
   const toggleSearch = () => {
-    // write the code here
-    console.log('hello')
+    toggleNav?.()
   }
 
   const navLinks = [
@@ -58,9 +59,8 @@ const MobileBottomNav: FC = () => {
       const isUrlMatched = href && checkRoute(href)
       const isActive = label === 'Home' ? isHomeActive : isUrlMatched
 
-      const commonCls = `w-full flex items-center flex-col px-4 p-3 gap-2 font-medium  rounded-xl hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 ${
-        isActive ? 'text-primary dark:text-white' : 'text-gray-400'
-      }`
+      const commonCls = `w-full flex items-center flex-col px-4 p-3 gap-2 font-medium  rounded-xl hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 ${isActive ? 'text-primary dark:text-white' : 'text-gray-400'
+        }`
 
       return (
         <li key={i} className="list-none">
