@@ -12,7 +12,6 @@ const Bookmark: React.FC<BookmarkProps> = ({
 
   const handleBookmark = (e: MouseEvent<HTMLButtonElement>) => {
     e.stopPropagation()
-    console.log('Bookmark clicked')
     setIsBookmarked((prev) => !prev)
   }
 
