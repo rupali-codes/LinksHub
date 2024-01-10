@@ -267,6 +267,40 @@ pre {
   background-color: #714eff;
 }
 
+/* Default styles for screen sizes larger than 768px */
+.cardTooltip {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  font-size: 13px !important;
+  margin-top: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: calc(100vw - 2rem);
+  max-width: 400px;
+  backdrop-filter: blur(8px);
+  z-index: 50;
+  position: absolute;
+  top: 50%;
+}
+
+/* Media query for screen sizes up to 768px */
+@media (max-width: 768px) {
+  .cardTooltip {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+}
+
+/* Media query for screen sizes larger than 768px */
+@media (min-width: 769px) {
+  .cardTooltip {
+    position: fixed;
+  }
+} 
+
 /* width */
 
 .scrollColorDarkMobile::-webkit-scrollbar {

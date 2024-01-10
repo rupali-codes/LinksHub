@@ -1,16 +1,20 @@
 import { FC } from 'react'
 import { useRouter } from 'next/router'
 import { useTheme } from 'next-themes'
-import { FaSlackHash, FaInfoCircle } from 'react-icons/fa'
+import { RxSlash } from 'react-icons/rx'
+import { TiHomeOutline } from 'react-icons/ti'
+import { FaInfoCircle } from 'react-icons/fa'
+import { IoIosArrowBack } from 'react-icons/io'
 import categoryDescriptions from './CategoryDescriptions'
 import { Tooltip } from 'react-tooltip'
 import { isValidResource, regEx } from './utils'
-
+import Link from 'next/link'
+import CardTooltip from 'components/CardTooltip/CardTooltip'
 interface TopBarProps {
   className?: string
 }
 
-export const TopBar: FC<TopBarProps> = ({ className }) => {
+export const TopBar: FC<TopBarProps> = ({}) => {
   const router = useRouter()
   const { theme } = useTheme()
 
@@ -24,44 +28,54 @@ export const TopBar: FC<TopBarProps> = ({ className }) => {
     .replaceAll(regEx, ' ')
     .replaceAll('search query ', '')
 
+  // Helper function to capitalize the first letter of each word
+  const capitalizeEachWord = (str: string) => {
+    return str
+      .toLowerCase()
+      .split(' ')
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ')
+  }
+
   const description = categoryDescriptions[searchQuery || subcategoryName] || ''
   const isResourceSelected = isValidResource(searchQuery || subcategoryName)
 
   if (router.pathname.length === 1) return null
   return isResourceSelected ? (
     <div
-      className={`flex items-center text-xl dark:text-gray-300 ${className}`}
+      className={`flex items-center justify-between md:justify-start text-md dark:text-gray-300 gap-x-2 md:px-10 py-8`}
     >
-      <FaSlackHash className="mr-2 text-gray-600 dark:text-gray-300" />
-      <span className="flex uppercase text-gray-900 dark:text-gray-100">
-        {cleanedCategory}
-      </span>
+      <Link
+        href={'/'}
+        className="gap-x-2 items-center bg-[#EDEDED] bg-opacity-20 px-[10px] py-[6px] rounded-md cursor-pointer hidden md:flex"
+      >
+        <TiHomeOutline />
+        <h3>Home</h3>
+      </Link>
+      <RxSlash className="hidden md:inline-block" />
+      <Link
+        href={'/' + categoryName}
+        className="bg-[#EDEDED] bg-opacity-20 px-[10px] py-[6px] rounded-md cursor-pointer hidden md:inline-block"
+      >
+        <h3>{capitalizeEachWord(categoryName)}</h3>
+      </Link>
+      <RxSlash className="hidden md:inline-block" />
+      <Link href={'/' + categoryName} className="flex gap-x-2 items-center">
+        <IoIosArrowBack className="md:hidden" />
+        <div className="md:bg-[#EDEDED] md:bg-opacity-20 px-[10px] py-[6px] rounded-md ">
+          <h3>{capitalizeEachWord(cleanedCategory)}</h3>
+        </div>
+      </Link>
       <button>
         <FaInfoCircle
           data-tooltip-id="info-tooltip"
           data-tooltip-place="bottom"
           data-tooltip-content={description}
-          className="ml-4 mt-2 text-sm cursor-pointer hover:text-theme-primary"
+          size={30}
+          className=" ml-2 text-sm cursor-pointer bg-[#EDEDED] bg-opacity-20 p-2 rounded-md "
         />
       </button>
-      <Tooltip
-        id="info-tooltip"
-        opacity="1"
-        style={{
-          backgroundColor: '#8b5cf6',
-          fontSize: '13px',
-          paddingLeft: '6px',
-          paddingRight: '6px',
-          paddingTop: '2px',
-          paddingBottom: '2px',
-          width: 'calc(100vw - 2rem)',
-          maxWidth: '400px',
-          boxShadow:
-            theme === 'light'
-              ? '0 0 8px #bdbdbd'
-              : '0 0 0 2px rgba(189, 189, 189, 0.25)',
-        }}
-      />
+      <CardTooltip theme={theme} />
     </div>
   ) : null
 }
