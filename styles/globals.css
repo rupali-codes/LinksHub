@@ -221,6 +221,23 @@ pre {
   }
 }
 
+@media (min-width: 1400px) {
+  .contributors-our-team {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .contributors-our-team {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1260px) {
+  .maintainers-our-team {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
 .purpleScrollbar {
   scrollbar-color: #714eff transparent;
 }
@@ -248,4 +265,22 @@ pre {
 
 .purpleScrollbar::-webkit-scrollbar-thumb:active {
   background-color: #714eff;
+}
+
+/* width */
+
+.scrollColorDarkMobile::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+
+.scrollColorDarkMobile::-webkit-scrollbar-track {
+  background: #BDBDBD33;
+}
+
+/* Handle */
+
+.scrollColorDarkMobile::-webkit-scrollbar-thumb {
+  @apply bg-[#304269] dark:bg-white
 }

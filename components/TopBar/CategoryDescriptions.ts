@@ -212,7 +212,6 @@ const categoryDescriptions: CategoryDescriptions = {
     'This section provides various online courses that can help you start with the fundamentals of data structures and algorithms and also ace your coding interviews.',
   'dsa tutorials':
     'This section provides you with YouTube tutorials that help you grasp concepts better by hands-on experience and learn better, practically!',
-
   //BlockChain
   smartcontracts:
     'Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They run on a blockchain network, which is a decentralized and distributed ledger technology. Smart contracts automatically execute and enforce the terms of a contract when predefined conditions are met',
