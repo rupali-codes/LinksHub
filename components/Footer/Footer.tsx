@@ -9,7 +9,7 @@ export const Footer: FC = () => {
   return (
     <footer className="z-10 flex w-full items-baseline justify-center rounded-lg text-center px-2">
       <div className="text-sm leading-7 md:tracking-wide text-center text-black dark:text-theme-primary ">
-        <div>&copy; {new Date().getFullYear()} LinksHub | MIT License </div>
+      <div>&copy; {new Date().getFullYear()} LinksHub | MIT License </div>
         <div className="lg:flex">
           <div className="mr-1 md:-mt-2 lg:mt-0"> Developed by </div>
           <div className="md:-mt-2 lg:mt-0"></div>
