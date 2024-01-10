@@ -43,7 +43,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
   if (router.pathname.length === 1) return null
   return isResourceSelected ? (
     <div
-      className={`flex items-center justify-between md:justify-start text-xl dark:text-gray-300 gap-x-2 md:px-10 py-8`}
+      className={`flex items-center justify-between md:justify-start text-md dark:text-gray-300 gap-x-2 md:px-10 py-8`}
     >
       <Link
         href={'/'}
