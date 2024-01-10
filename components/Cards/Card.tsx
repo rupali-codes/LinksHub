@@ -59,7 +59,7 @@ export const Card: FC<CardProps> = ({ data }) => {
             target="_blank"
             rel="noopener noreferrer"
             className={
-              'mt-2 flex w-full items-center justify-center gap-2 rounded-lg  bg-theme-secondary px-6 py-2 text-center text-light-primary duration-100 '
+              'mt-2 flex w-full items-center justify-center gap-2 rounded-lg  bg-theme-secondary px-3 py-2 text-center text-light-primary duration-100 '
             }
           >
             Visit site
