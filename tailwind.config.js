@@ -11,12 +11,15 @@ module.exports = {
         primary: '#714EFF',
         'theme-primary': '#a78bfa',
         'theme-secondary': '#8b5cf6',
-        'light-primary': '#f5f3ff',
         dark: '#0f172a',
         'dark-primary': '#101623',
         'gray-text': '#9ca3af',
         'text-primary': '#d1d5db',
         'text-secondary': '#4b5563',
+        light: {
+          primary: '#f5f3ff',
+          silver: '#EDEDED',
+        },
       },
       screens: {
         xs: '200px',
