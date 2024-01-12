@@ -243,5 +243,12 @@
     "url": "https://react-icons.github.io/react-icons/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Iconsax",
+    "description": "ICONSAX provides a set of icons to use in React & React Native projects.",
+    "url": "https://iconsax-react.pages.dev/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]

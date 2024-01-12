@@ -8,12 +8,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'theme-primary': '#BDBDBD',
-        'theme-secondary': '#714EFF',
+        'theme-primary': '#a78bfa',
+        'theme-secondary': '#8b5cf6',
         'theme-tertiary': '#1f2736',
         'theme-quaternary': '#293242',
         'theme-quinary': '#BCCBE1',
         'light-primary': '#f5f3ff',
+        primary: '#714EFF',
         dark: '#0f172a',
         'dark-primary': '#161e2c',
         'gray-text': '#9ca3af',
@@ -27,6 +28,10 @@ module.exports = {
         'theme-tertiary-light': '#E1DAF4',
         'text-primary-light': '#3F3D56',
         'text-secondary-light': '#DAE0F4',
+        light: {
+          primary: '#f5f3ff',
+          silver: '#EDEDED',
+        },
       },
       screens: {
         xs: '200px',
