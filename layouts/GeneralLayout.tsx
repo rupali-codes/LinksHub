@@ -21,7 +21,7 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
       <Header />
       <SideNavbar />
       <div
-        className={`row-start-2 row-end-3 overflow-y-scroll h-[calc(100vh-156px)] sm:h-[calc(100vh-72px)] w-full bg-gray-100 dark:bg-[#101623] ${
+        className={`row-start-2 row-end-3 overflow-y-scroll h-full w-full bg-gray-100 dark:bg-[#101623] ${
           sidebar ? 'max-[1024px]:overflow-hidden' : ''
         }`}
       >
