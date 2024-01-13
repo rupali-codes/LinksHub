@@ -6,8 +6,7 @@ import AddIcon from 'assets/icons/svg/AddIcon.svg'
 import ArrowIcon from 'assets/icons/svg/ArrowIcon.svg'
 import BreadCrumbs from 'components/Breadcrumps'
 import MessageIcon from 'assets/icons/svg/MessageIcon.svg'
-import QuestionMarkIcon from 'assets/icons/svg/question-mark.svg'
-import Button from 'components/Button'
+import categoryDescriptions from 'components/TopBar/CategoryDescriptions'
 
 const CategoryPage = () => {
   const router = useRouter()
@@ -16,6 +15,16 @@ const CategoryPage = () => {
   const subcategories: SubCategories[] = category
     ? sidebarData.filter((c) => c.category == category)[0]['subcategory']
     : []
+
+  const getDesc = (subcatName: String) => {
+    for (const desc in categoryDescriptions) {
+      if (desc == subcatName) {
+        return categoryDescriptions[desc]
+      }
+    }
+
+    return 'No descrition'
+  }
   return (
     <section className="flex min-h-[calc(100vh-165px)] flex-col">
       <div className="sm:ml-4 2xl:mx-auto items-start gap-2">
@@ -38,39 +47,39 @@ const CategoryPage = () => {
               </a>
             </div>
             <div className="flex max-w-1038 justify-center">
-              <div className="flex flex-wrap gap-x-9 gap-y-5 mt-6 mb-28 flex-start items-start">
+              <div className="flex flex-wrap gap-x-5 gap-y-5 mt-6 mb-28 flex-start items-start">
                 {subcategories.map((subcat, i) => (
                   <Link
                     key={i}
                     href={`/${category}${subcat.url}`}
                     aria-label={`Explore ${subcat.name}`}
-                    className="group flex dark:border dark:border-theme-primary dark:border-opacity-8 rounded-xl dark:bg-theme-tertiary bg-white dark:bg-opacity-25 dark:hover:bg-theme-quaternary dark:hover:bg-opacity-25	px-3 py-1 dark:hover:border-opacity-25 hover:text-dark-primary dark:shadow-lg shadow-tile md:max-w-[320px] px-4 py-4 group max-w-none w-full"
+                    className="group flex flex-col dark:border dark:border-theme-primary dark:border-opacity-8 rounded-xl dark:bg-theme-tertiary bg-white dark:bg-opacity-25 dark:hover:bg-theme-quaternary dark:hover:bg-opacity-25	px-3 py-1 dark:hover:border-opacity-25 hover:text-dark-primary dark:shadow-lg shadow-tile md:max-w-[320px] px-4 py-4 group max-w-none w-full"
                   >
-                    <div>
+                    <div className="flex justify-between">
                       <div className="dark:text-text-primary text-text-primary-light text-lg capitalize font-medium">
                         {subcat.name}
                       </div>
-                      <div className="dark:text-text-tertiary text-text-quinary text-md font-medium w-10/12 h-12 overflow-y-hidden">
-                        Explore {subcat.name} resources for learning and growth.
-                      </div>
+                      <ArrowIcon className="opacity-0 group-hover:opacity-100 duration-300 w-8 stroke-theme-secondary dark:stroke-white" />
                     </div>
-
-                    <ArrowIcon className="opacity-0 group-hover:opacity-100 duration-300 w-8 stroke-theme-secondary dark:stroke-white" />
+                    <div className="dark:text-text-tertiary text-text-quinary text-md font-medium h-12 pb-4">
+                      <div className='text-ellipsis ... line-clamp-2 w-full'>{getDesc(subcat.name)}</div>
+                    </div>
                   </Link>
                 ))}
                 <Link
-                  href={`/`}
+                  href={`https://github.com/rupali-codes/LinksHub/issues/new/choose`}
                   aria-label={`Add`}
-                  className="flex gap-x-2 border dark:border-theme-primary dark:border-opacity-8 rounded-xl bg-theme-secondary px-3 py-1 hover:border-dashed hover:text-dark-primary shadow-lg lg:max-w-xs max-md:max-w-xs px-4 py-4"
+                  target='_blank'
+                  className="flex gap-x-2 border dark:border-theme-primary dark:border-opacity-8 rounded-xl bg-theme-secondary px-3 py-1 hover:border-dashed hover:text-dark-primary shadow-lg lg:max-w-xs px-4 py-4"
                 >
                   <AddIcon className="w-8 dark:text-text-primary" />
 
                   <div>
-                    <div className="text-xl font-medium dark:text-text-primary text-white">
+                    <div className="text-lg font-medium dark:text-text-primary text-white">
                       Wanna add something?
                     </div>
                     <div
-                      className={`dark:text-text-primary text-white text-md font-medium w-10/12 opacity-75`}
+                      className={`dark:text-text-primary text-white text-md font-medium opacity-75`}
                     >
                       Share resources, and help other fellows in the journey.{' '}
                     </div>
