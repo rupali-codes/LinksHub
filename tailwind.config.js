@@ -8,21 +8,37 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#714EFF',
         'theme-primary': '#a78bfa',
         'theme-secondary': '#8b5cf6',
+        'theme-tertiary': '#1f2736',
+        'theme-quaternary': '#293242',
+        'theme-quinary': '#BCCBE1',
         'light-primary': '#f5f3ff',
+        primary: '#714EFF',
         dark: '#0f172a',
-        'dark-primary': '#101623',
+        'dark-primary': '#161e2c',
         'gray-text': '#9ca3af',
-        'text-primary': '#d1d5db',
+        'text-primary': '#EDEDED',
         'text-secondary': '#4b5563',
+        'text-tertiary': '#B9C0DA',
+        'text-quaternary': '#EDEDED',
+        'text-quinary': '#A6ABBF',
+        'theme-primary-light': '#f4f7fe',
+        'theme-secondary-light': '#BCCBE1',
+        'theme-tertiary-light': '#E1DAF4',
+        'text-primary-light': '#3F3D56',
+        'text-secondary-light': '#DAE0F4',
+        light: {
+          primary: '#f5f3ff',
+          silver: '#EDEDED',
+        },
       },
       screens: {
         xs: '200px',
         folding: '320px',
-        tall: { raw: '(min-height: 800px)' },
       },
+      display: ['group-hover'],
+
       keyframes: {
         'button-press': {
           '0%, 100%': {
@@ -78,16 +94,27 @@ module.exports = {
         'scale-appearance': 'scale-appearance 0.3s ease-in forwards',
         'scale-hide': 'scale-hide 0.3s ease-out forwards',
       },
+      opacity: {
+        8: '0.08',
+      },
+      width: {
+        1038: '1038px',
+      },
+      maxWidth: {
+        1038: '1038px',
+      },
+      fontSize: {
+        '1.5xl': '22px',
+      },
       boxShadow: {
-        header: '0px 4px 16px 0px rgba(225, 218, 244, 0.25)',
-        sidebar: '4px 0px 16px 0px rgba(225, 218, 244, 0.25)',
-        'input-hover': '0px 0px 0px 1.6px rgba(113, 78, 255, 0.10)',
-        'input-focus': '0px 0px 0px 1.6px #714EFF',
-        'input-hover-dark': '0px 0px 0px 1.6px rgba(255, 255, 255, 0.20)',
-        'input-focus-dark': '0px 0px 0px 1.6px rgba(238, 243, 251, 0.75)',
+        tile: '0px 0px 12px 0px #E1DAF440',
       },
     },
   },
   plugins: [require('daisyui')],
   darkMode: ['class', '[data-theme="dark"]'],
+  variants: {
+    opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+  },
 }

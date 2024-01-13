@@ -1,6 +1,6 @@
 import { FC, ReactNode } from 'react'
 import Link from 'next/link'
-import clsx from 'clsx'
+import { cn } from 'lib/utils'
 
 interface Props {
   label: string
@@ -20,13 +20,13 @@ const Button: FC<Props> = ({
   className,
 }) => {
   const styles = {
-    primary: '', // @todo: add styles when using these button types in ResourcesCards
+    primary: 'bg-primary hover:bg-primary/80 text-white rounded-[10px] duration-500',
     secondary: '',
     pale: 'bg-slate-100 hover:bg-violet-50 dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-20 text-slate-500 dark:text-violet-50',
     text: 'text-slate-400 dark:text-gray-400 !gap-4',
   }[variant]
 
-  const cls = clsx(
+  const cls = cn(
     'flex justify-center items-center px-4 py-3 gap-1.5 rounded-lg transition-colors',
     styles,
     className

@@ -19,7 +19,7 @@ const CardsList: FC<{ cards: IData[] }> = ({ cards }) => {
 
   return (
     <>
-      <ul className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-stretch">
+      <ul className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-stretch ">
         {cards.map((data: IData) => (
           <CardsListItem
             key={data.id}
