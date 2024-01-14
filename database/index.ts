@@ -1,5 +1,6 @@
 // frontend
 export { default as accessibility } from './frontend/accessibility.json'
+export { default as angular } from './frontend/angular.json'
 export { default as animations } from './frontend/animations.json'
 export { default as colors } from './frontend/colors.json'
 export { default as designInspirations } from './frontend/design-inspirations.json'
@@ -34,6 +35,7 @@ export { default as docker } from './devops/docker.json'
 export { default as jenkins } from './devops/jenkins.json'
 export { default as kubernetes } from './devops/kubernetes.json'
 export { default as microservices } from './devops/microservices.json'
+export { default as iac } from './devops/iac.json'
 
 // languages
 export { default as javascript } from './languages/javascript.json'
@@ -116,7 +118,7 @@ export { default as interviewPreparation } from './placement_prep/interview-prep
 export { default as jobPortals } from './placement_prep/job-portals.json'
 export { default as resumeBuilding } from './placement_prep/resume-building.json'
 export { default as portfolioBuilding } from './placement_prep/portfolio-building.json'
-export { default as careerGuidance } from './placement_prep/career-guidance.json'
+export { default as coverLetters } from './placement_prep/cover-letters.json'
 export { default as certifications } from './placement_prep/certifications.json'
 //DSA
 export { default as dsaArticles } from './data_structures/dsa-articles.json'

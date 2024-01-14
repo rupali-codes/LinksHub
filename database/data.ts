@@ -52,6 +52,7 @@ export const sidebarData: ISidebar[] = [
         url: '/ui-libraries',
         resources: DB.uilibraries,
       },
+      { name: 'angular', url: '/angular', resources: DB.angular },
     ],
   },
   {
@@ -167,6 +168,11 @@ export const sidebarData: ISidebar[] = [
         name: 'microservices',
         url: '/microservices',
         resources: DB.microservices,
+      },
+      {
+        name: 'IaC',
+        url: '/iac',
+        resources: DB.iac,
       },
     ],
   },
@@ -345,9 +351,9 @@ export const sidebarData: ISidebar[] = [
         resources: DB.portfolioBuilding,
       },
       {
-        name: 'Career Guidance',
-        url: '/career-guidance',
-        resources: DB.careerGuidance,
+        name: 'Cover Letters',
+        url: '/cover-letters',
+        resources: DB.coverLetters,
       },
       {
         name: 'Certifications',

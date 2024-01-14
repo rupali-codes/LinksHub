@@ -26,5 +26,12 @@
     "url": "https://hemingwayapp.com/",
     "category": "technical-writing",
     "subcategory": "technical-writing-tools"
+  },
+  {
+    "name": "Docusaurus",
+    "description": "If you need a static generator to help you build your product’s documentation site, Docusaurus is your tool! :) Not only does it provide you with fast-side client navigation that takes interactivity to new heights, but also out-of-the-box documentation features that can help make your site stand out from the others.",
+    "url": "https://docusaurus.io/",
+    "category": "technical-writing",
+    "subcategory": "technical-writing-tools"
   }
 ]

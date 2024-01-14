@@ -14,7 +14,7 @@ export const Footer: FC = () => {
           <div className="mr-1 md:-mt-2 lg:mt-0"> Developed by </div>
           <div className="md:-mt-2 lg:mt-0"></div>
           <Link
-            href="https://rupali-codes.vercel.app/"
+            href="https://rupalihaldiya.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub Profile of Rupali Haldiya"
