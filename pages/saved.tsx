@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Saved = () => {
   return (
     <>
-      <div className="p-8">
+      <div className="p-2 sm:p-8">
         <h1 className='text-2xl font-medium'>Saved</h1>
         <p className='text-[#A6ABBF]'>Your saved resources, ready when you are.</p>
       </div>
