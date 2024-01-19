@@ -102,27 +102,28 @@ module.exports = {
         'input-focus': '0px 0px 0px 1.6px #714EFF',
         'input-hover-dark': '0px 0px 0px 1.6px rgba(255, 255, 255, 0.20)',
         'input-focus-dark': '0px 0px 0px 1.6px rgba(238, 243, 251, 0.75)',
-      opacity: {
-        8: '0.08',
-      },
-      width: {
-        1038: '1038px',
-      },
-      maxWidth: {
-        1038: '1038px',
-      },
-      fontSize: {
-        '1.5xl': '22px',
-      },
-      boxShadow: {
-        tile: '0px 0px 12px 0px #E1DAF440',
+        opacity: {
+          8: '0.08',
+        },
+        width: {
+          1038: '1038px',
+        },
+        maxWidth: {
+          1038: '1038px',
+        },
+        fontSize: {
+          '1.5xl': '22px',
+        },
+        boxShadow: {
+          tile: '0px 0px 12px 0px #E1DAF440',
+        },
       },
     },
-  },
-  plugins: [require('daisyui')],
-  darkMode: ['class', '[data-theme="dark"]'],
-  variants: {
-    opacity: ['responsive', 'hover', 'focus', 'group-hover'],
-    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+    plugins: [require('daisyui')],
+    darkMode: ['class', '[data-theme="dark"]'],
+    variants: {
+      opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+      textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+    },
   },
 }
