@@ -1,7 +1,5 @@
 import { memo, useRef, FC } from 'react'
 import { useRouter } from 'next/router'
-import Link from 'next/link'
-
 import { Searchbar } from 'components/Searchbar/Searchbar'
 import Button from 'components/Button'
 import { SideNavbarCategoryList } from 'components/SideNavbar/SideNavbarCategoryList'
@@ -60,7 +58,7 @@ const Sidebar: FC = () => {
 
       return (
         <li key={i}>
-          <Link
+          <a
             href={href}
             className={`w-full flex items-center justify-start px-4 p-3 gap-4 text-lg font-medium leading-5 rounded-xl hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 ${
               isActive ? 'text-primary dark:text-white' : 'text-gray-400'
@@ -70,7 +68,7 @@ const Sidebar: FC = () => {
               {isActive ? activeIcon : inActiveIcon}
             </span>
             <span>{label}</span>
-          </Link>
+          </a>
         </li>
       )
     })
