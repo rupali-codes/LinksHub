@@ -1,43 +1,50 @@
-import React, { useEffect } from 'react';
-import { useTheme } from 'next-themes';
-import clsx from 'clsx';
+import React, { useEffect } from 'react'
+import { useTheme } from 'next-themes'
+import clsx from 'clsx'
 
 type PaginationProps = {
-  totalPages: number[] | null;
-  currentPage: number;
-  handlePageChange: (page: number) => void;
-};
+  toporbottom: boolean
+  totalPages: number[] | null
+  currentPage: number
+  handlePageChange: (page: number) => void
+}
 
 export default function Pagination({
+  toporbottom,
   totalPages,
   currentPage,
   handlePageChange,
 }: PaginationProps) {
-  const { resolvedTheme } = useTheme();
-  const isDarkMode = resolvedTheme === 'dark';
-
+  const { resolvedTheme } = useTheme()
+  const isDarkMode = resolvedTheme === 'dark'
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   const changePage = (page: number) => {
-    handlePageChange(page);
-  };
+    handlePageChange(page)
+  }
 
   useEffect(() => {
-    scrollToTop();
-  }, [currentPage]);
+    scrollToTop()
+  }, [currentPage])
 
   return (
     <>
       {totalPages && totalPages.length > 1 && (
         <div
           className={clsx(
-            'w-full z-20 flex lg:w-full items-center justify-center ',
-            'absolute bottom-2 right-0'
+            toporbottom == true
+              ? 'w-full z-20 flex lg:w-full items-center justify-center absolute bottom-2 right-0'
+              : 'z-20 flex w-full lg:w-full items-center justify-end absolute top-0 right-0'
           )}
         >
-          <div className="flex items-center px-6 py-1 gap-4">
+          <div
+            className={clsx(
+              'flex items-center',
+              toporbottom == true ? 'px-6 py-1 gap-4' : 'gap-2'
+            )}
+          >
             <button
               className={clsx(
                 'flex items-center justify-center text-[#8b5cf6]',
@@ -57,7 +64,9 @@ export default function Pagination({
                     'flex items-center justify-center rounded-md hover:bg-[#8b5cf6] hover:text-white px-2',
                     currentPage === page
                       ? 'bg-[#8b5cf6] text-white'
-                      : isDarkMode ? 'text-light' : 'text-theme-secondary'
+                      : isDarkMode
+                      ? 'text-light'
+                      : 'text-theme-secondary'
                   )}
                   onClick={() => changePage(page)}
                 >
@@ -79,5 +88,5 @@ export default function Pagination({
         </div>
       )}
     </>
-  );
+  )
 }
