@@ -31,7 +31,7 @@ export const SideNavbarElement: FC<{
       focus-visible:outline-none focus-visible:ring focus-visible:ring-theme-primary focus-visible:rounded-lg`}
     >
       <div
-        className="ml-2 py-2 text-base font-medium capitalize transition-all duration-300 hover:pl-2 dark:border-theme-secondary"
+        className="ml-2 py-2 text-base font-medium font-sans capitalize transition-all duration-300 hover:pl-2 dark:border-theme-secondary"
         onClick={closeNav}
       >
         {name}
