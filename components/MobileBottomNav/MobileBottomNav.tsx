@@ -59,8 +59,9 @@ const MobileBottomNav: FC = () => {
       const isUrlMatched = href && checkRoute(href)
       const isActive = label === 'Home' ? isHomeActive : isUrlMatched
 
-      const commonCls = `w-full flex items-center flex-col px-4 p-3 gap-2 font-medium  rounded-xl hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 ${isActive ? 'text-primary dark:text-white' : 'text-gray-400'
-        }`
+      const commonCls = `w-full flex items-center flex-col px-4 p-3 gap-2 font-medium  rounded-xl hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 ${
+        isActive ? 'text-primary dark:text-white' : 'text-gray-400'
+      }`
 
       return (
         <li key={i} className="list-none">
@@ -84,7 +85,7 @@ const MobileBottomNav: FC = () => {
     })
 
   return (
-    <div className="sm:hidden -ml-4 fixed z-30 bottom-0 py-2 w-full flex gap-4 justify-evenly bg-white dark:bg-slate-800">
+    <div className="md:hidden -ml-4 fixed z-30 bottom-0 py-2 w-full flex gap-4 justify-evenly bg-white dark:bg-slate-800">
       {renderLinks()}
     </div>
   )
