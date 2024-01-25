@@ -52,7 +52,8 @@ export const Card: FC<CardProps> = ({ data }) => {
             </p>
           )}
         </div>
-        <footer className="grid grid-cols-2 gap-x-4">
+        <footer className="grid grid-cols-2 gap-x-4 md:grid-cols-1 lg:grid-cols-2">
+        <CopyToClipboard url={url} />
           <a
             onClick={(e) => e.stopPropagation()}
             href={url}
@@ -73,7 +74,6 @@ export const Card: FC<CardProps> = ({ data }) => {
               <HiOutlineExternalLink size="1.3em" />
             )}
           </a>
-          <CopyToClipboard url={url} />
         </footer>
       </div>
     </article>
