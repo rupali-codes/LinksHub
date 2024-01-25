@@ -6,7 +6,6 @@ import { TiHomeOutline } from 'react-icons/ti'
 import { FaInfoCircle } from 'react-icons/fa'
 import { IoIosArrowBack } from 'react-icons/io'
 import categoryDescriptions from './CategoryDescriptions'
-import { Tooltip } from 'react-tooltip'
 import { isValidResource, regEx } from './utils'
 import Link from 'next/link'
 import CardTooltip from 'components/CardTooltip/CardTooltip'
@@ -62,7 +61,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
       <RxSlash className="hidden md:inline-block" />
       <Link href={'/' + categoryName} className="flex gap-x-2 items-center">
         <IoIosArrowBack className="md:hidden" />
-        <div className="md:bg-[#EDEDED] md:bg-opacity-20 px-[10px] py-[6px] rounded-md ">
+        <div className="md:bg-[#EDEDED] md:bg-opacity-20 px-[10px] py-[6px] rounded-md truncate ...">
           <h3>{capitalizeEachWord(cleanedCategory)}</h3>
         </div>
       </Link>

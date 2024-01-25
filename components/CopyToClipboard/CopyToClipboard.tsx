@@ -16,10 +16,10 @@ export const CopyToClipboard = ({ url }: CopyToClipboardProps): JSX.Element => {
   }
   return (
     <div
-      className="flex items-center justify-center text-center text-theme-secondary dark:text-white gap-x-2 bg-[#EBE5FF] dark:bg-light-primary dark:bg-opacity-10 dark:hover:bg-opacity-20 rounded-lg mt-2 cursor-pointer relative"
+      className="flex items-center justify-center text-center text-theme-secondary dark:text-white gap-x-2 bg-[#EBE5FF] dark:bg-light-primary dark:bg-opacity-10 dark:hover:bg-opacity-20 rounded-lg mt-2 cursor-pointer relative py-2 truncate ..."
       onClick={(e) => handleCopy(e)}
     >
-      Copy Link{' '}
+       <span className='truncate ...'>Copy Link</span>
       {success ? ( // Render the FaCheckSquare icon if success is true
         <FaCheckSquare
           size={'1.3rem'}
