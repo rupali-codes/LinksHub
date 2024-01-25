@@ -61,10 +61,10 @@ export const TopBar: FC<TopBarProps> = ({}) => {
       <RxSlash className="hidden md:inline-block" />
       <Link href={'/' + categoryName} className="flex gap-x-2 items-center">
         <IoIosArrowBack className="md:hidden" />
-        <div className="md:bg-[#EDEDED] md:bg-opacity-20 px-[10px] py-[6px] rounded-md truncate ...">
-          <h3>{capitalizeEachWord(cleanedCategory)}</h3>
-        </div>
       </Link>
+      <div className="md:bg-[#EDEDED] md:bg-opacity-20 px-[10px] py-[6px] rounded-md truncate ...">
+        <h3>{capitalizeEachWord(cleanedCategory)}</h3>
+      </div>
       <button>
         <FaInfoCircle
           data-tooltip-id="info-tooltip"
