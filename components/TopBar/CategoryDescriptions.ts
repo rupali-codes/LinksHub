@@ -24,25 +24,24 @@ const categoryDescriptions: CategoryDescriptions = {
     'Online code editors are web-based tools that allow you to write and test code in your browser. They are useful for quickly testing out code snippets or for working on small projects.',
   react:
     'React is a JavaScript library for building user interfaces. It was developed by Facebook and is used by many popular websites such as Netflix, Airbnb, and Instagram. React allows developers to create reusable UI components and makes it easy to manage the state of an application.',
-  'themes templates':
+  'themes & templates':
     'Theme templates are pre-designed website themes that can be customized to fit your needs. They are useful for quickly setting up a website without having to design everything from scratch.',
-  'ui generator':
-    'A UI generator is a tool that allows you to create user interfaces without having to write code. Some popular UI generators include Webflow, Figma, and Sketch. ',
   videos:
     'Videos are visual representations of moving images and sound. They can be used to convey information in a simple and easy-to-understand way.',
   'three js':
     'Three.js is a cross-browser JavaScript library and application programming interface (API) used to create and display animated 3D computer graphics in a web browser using WebGL.',
   'next js':
     'Next.js is a flexible React framework that gives you building blocks to create fast web applications.',
-  'ui generators':
+  'UI Generators':
     'The UI Generator, or User Interface Generator, is an Eclipse tool that takes a user model and generates a role-based user interface for a J2EE Web application.',
   'online code editors':
     "Online code editors, also called cloud-based code editors, are convenient because they usually require no setup. Plus, it's way easier to collaborate with someone over the cloud.",
-  'ui libraries':
+  'ui Libraries':
     'UI libraries are collections of reusable components that can be used to build user interfaces. They are often used in conjunction with frameworks like React or Vue.js to create web applications.',
-
+  angular:
+    'Angular is a popular open-source web application framework similar to react developed and maintained by Google. ',
   //backend
-  api: 'Interfaces that allow different software applications to communicate and share data with one another.',
+  APIs: 'Interfaces that allow different software applications to communicate and share data with one another.',
   architecture:
     'Architecture is the art and technique of designing and building structures. It is both the process and the product of sketching, conceiving, planning, designing.',
   authentication:
@@ -65,22 +64,22 @@ const categoryDescriptions: CategoryDescriptions = {
   //languages
   'c programming':
     'C is a general-purpose programming language that was developed in the early 1970s by Dennis Ritchie at Bell Labs. C is widely used for developing system software, embedded systems, and application software.',
-  cpp: "C++ is a versatile and powerful programming language that builds upon the features of C, offering object-oriented programming capabilities and support for low-level memory manipulation. It's widely used for developing system software, games, high-performance applications, and more.",
+  'C++ Programming':
+    "C++ is a versatile and powerful programming language that builds upon the features of C, offering object-oriented programming capabilities and support for low-level memory manipulation. It's widely used for developing system software, games, high-performance applications, and more.",
   dart: "Dart is a programming language primarily used for building web and mobile applications with a focus on client-side development. It's the language behind the Flutter framework, allowing developers to create cross-platform apps with a single codebase. Dart offers features like a Just-In-Time (JIT) compiler for development speed and an Ahead-Of-Time (AOT) compiler for production performance optimization.",
   kotlin:
     'Kotlin is a modern, statically-typed programming language that seamlessly interoperates with Java, making it a popular choice for Android app development. Known for its concise syntax and enhanced safety features, Kotlin offers nullable types and expressive constructs to streamline development processes.',
   java: 'Java is a widely-used, object-oriented programming language known for its "write once, run anywhere" philosophy, enabling developers to create platform-independent applications. It provides a robust standard library, automatic memory management through garbage collection, and a strong emphasis on safety and portability in various domains, from web development to enterprise applications.',
   rust: 'Rust is a systems programming language designed for safety and performance, featuring a strong focus on memory safety without sacrificing low-level control. Its ownership and borrowing system ensures prevention of common programming errors like null pointer dereferences, making it suitable for tasks ranging from system-level programming to building web services.',
-  csharp:
+  'Csharp (C#)':
     'C# is a modern, object-oriented programming language that was developed by Microsoft in the early 2000s. C# is widely used for developing Windows desktop applications, web applications, and games.',
-  golang:
-    'Go is a modern, open-source programming language that Google developed in the early 2000s. Go is widely used for developing networking, web, and cloud applications.',
-  javascript:
+  Go: 'Go is a modern, open-source programming language that Google developed in the early 2000s. Go is widely used for developing networking, web, and cloud applications.',
+  JavaScript:
     'JavaScript is widely used for developing web applications, mobile applications, and desktop applications. JavaScript is a dynamically typed language that supports functional and object-oriented programming styles.',
-  python:
+  Python:
     'Python is a high-level, interpreted programming language that was developed in the late 1980s by Guido van Rossum at the National Research Institute for Mathematics and Computer Science in the Netherlands. Python is widely used for developing web applications, machine learning, and data analysis.',
-  ruby: 'Ruby is a high-level, interpreted programming language that was developed in the mid-1990s by Yukihiro Matsumoto in Japan. Ruby is widely used for developing web applications, mobile applications, and desktop applications.',
-  typescript:
+  Ruby: 'Ruby is a high-level, interpreted programming language that was developed in the mid-1990s by Yukihiro Matsumoto in Japan. Ruby is widely used for developing web applications, mobile applications, and desktop applications.',
+  TypeScript:
     ' TypeScript is a statically typed language that supports object-oriented and functional programming styles, used for developing web applications, mobile applications, and desktop applications.',
   solidity:
     'Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.',
@@ -96,9 +95,11 @@ const categoryDescriptions: CategoryDescriptions = {
     'There are various open source tools available for developers. Some of the most popular ones include Hadoop, VLC Media Player, and GIMP1. Other open source tools include TensorFlow, Eclipse Che, and OpenShift Do.',
   tutorials:
     'Tutorials helps you to learn-by-watching. It contains the list most helping tutorials on open-source.',
-
+  programs:
+    'Open source programs where contributors contribute in projects under the guidance of mentors.',
   //devops
-  cicd: 'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
+  'CI/CD':
+    'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
   'devops life cycle':
     'DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
   'devops methodologies':
@@ -122,8 +123,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'Deep learning is a subfield of machine learning that involves the use of neural networks to learn from data. Deep learning is widely used for image recognition, natural language processing, and speech recognition. ',
   'machine-learning':
     'Machine learning is a subfield of artificial intelligence that uses statistical, mathematical, and computational methods to learn from data. Machine learning is widely used for data analysis, data visualization, and predictive modeling.',
-  'natural language processing':
-    'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
+  NLP: 'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
 
   // cyber-security
   'offensive security':
@@ -138,12 +138,12 @@ const categoryDescriptions: CategoryDescriptions = {
   //resources
   blogs:
     'The term “blog” is short for “weblog.” Blogs are usually maintained by an individual with regular entries of commentary, descriptions of events, or other material such as graphics or video.',
-  'e book':
+  'e-book':
     'An ebook (short for electronic book) is a book publication made available in digital form, consisting of text, images, or both readable on the flat-panel display of computers or other electronic devices.',
   hosting:
     'Web hosting is an online service that makes the content of your website accessible on the internet. When you purchase a hosting plan, you are renting space on a physical server to store all the files and data.',
   dsa: 'Data Structures and Algorithms play an important role in tech placements. So here is a list of important and great dsa resources',
-  officialdocs:
+  'Official Docs':
     'Official docs is short for official documentation. Official documentation is an important resource for users of software products and services as it provides a comprehensive guide to using the software.',
   'project ideas':
     'Projects play an important role in your resume. So here is a list of some great projects and their repositories.',
@@ -170,13 +170,13 @@ const categoryDescriptions: CategoryDescriptions = {
     'Testing is executing a system in order to identify any gaps, errors, or missing requirements.For example, YouTube also uses A/ B testing to test different versions of their website to see which version performs better.',
   'web development':
     'Web development is the process of building, programming, and maintaining websites and web applications. It involves various disciplines such as web design, coding, programming, database management, and web server administration.',
-  'web3 metaverse':
+  'Web3 & Metaverse':
     'Web3 is the next generation of the internet. It is a decentralized network that allows users to interact with each other without the need for intermediaries. ',
 
   //other
   communities:
     'Communities are groups of like-minded people who work on projects and help their peers to grow  and improve their skills.',
-  devtools:
+  'Dev Tools':
     'This list of Development tools will help you boost your programming speed and modify your projects to the next level.',
   github: 'Well, Github does not need description, devs know well!',
   git: 'Your friendly neighborhood version control system to track the development activities.',
@@ -185,7 +185,8 @@ const categoryDescriptions: CategoryDescriptions = {
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
   contributors:
     'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
-  textFormatting: 'Your ultimate solution for all your text formatting needs!',
+  'Text Formatting':
+    'Your ultimate solution for all your text formatting needs!',
 
   // Placement-Prep
   'interview preparation':
@@ -213,7 +214,7 @@ const categoryDescriptions: CategoryDescriptions = {
   'dsa tutorials':
     'This section provides you with YouTube tutorials that help you grasp concepts better by hands-on experience and learn better, practically!',
   //BlockChain
-  smartcontracts:
+  'Smart Contracts':
     'Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They run on a blockchain network, which is a decentralized and distributed ledger technology. Smart contracts automatically execute and enforce the terms of a contract when predefined conditions are met',
   truffle:
     'Truffle is a popular development framework for Ethereum blockchain. It provides a development environment, testing framework, and asset pipeline for building decentralized applications (DApps) on the Ethereum platform.',

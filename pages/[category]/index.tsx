@@ -16,9 +16,9 @@ const CategoryPage = () => {
     ? sidebarData.filter((c) => c.category == category)[0]['subcategory']
     : []
 
-  const getDesc = (subcatName: String) => {
+  const getDesc = (subcatName: string) => {
     for (const desc in categoryDescriptions) {
-      if (desc == subcatName) {
+      if (desc.toLocaleLowerCase() == subcatName.toLocaleLowerCase()) {
         return categoryDescriptions[desc]
       }
     }
