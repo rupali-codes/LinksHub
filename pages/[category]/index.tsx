@@ -37,7 +37,7 @@ const CategoryPage = () => {
 
               <a
                 className="flex my-auto gap-x-3"
-                href="https://github.com/rupali-codes/LinksHub/issues/new/choose"
+                href="https://github.com/rupali-codes/LinksHub/issues/new?assignees=&labels=status%3A+awaiting+triage&projects=&template=other.yml&title=%5BOTHER%5D"
                 target="_blank"
               >
                 <MessageIcon className="m-auto" />
@@ -62,14 +62,16 @@ const CategoryPage = () => {
                       <ArrowIcon className="opacity-0 group-hover:opacity-100 duration-300 w-8 stroke-theme-secondary dark:stroke-white" />
                     </div>
                     <div className="dark:text-text-tertiary text-text-quinary text-md font-medium h-12 pb-4">
-                      <div className='text-ellipsis ... line-clamp-2 w-full'>{getDesc(subcat.name)}</div>
+                      <div className="text-ellipsis ... line-clamp-2 w-full">
+                        {getDesc(subcat.name)}
+                      </div>
                     </div>
                   </Link>
                 ))}
                 <Link
-                  href={`https://github.com/rupali-codes/LinksHub/issues/new/choose`}
-                  aria-label={`Add`}
-                  target='_blank'
+                  href={`https://github.com/rupali-codes/LinksHub/issues/new?assignees=&labels=chore%2Cgoal%3A+new-category%2Cpriority%3A+low&projects=&template=---category-suggestion.yml&title=%5BADD%5D+%3Cwrite+the+name+of+category%2Fsubcategory%3E`}
+                  aria-label={`Add new subcategory issue template link`}
+                  target="_blank"
                   className="flex gap-x-2 border dark:border-theme-primary dark:border-opacity-8 rounded-xl bg-theme-secondary px-3 py-1 hover:border-dashed hover:text-dark-primary shadow-lg lg:max-w-xs px-4 py-4"
                 >
                   <AddIcon className="w-8 dark:text-text-primary" />
