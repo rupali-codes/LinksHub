@@ -15,11 +15,10 @@ const CardTooltip: React.FC<CardTooltipProps> = ({ theme }) => {
       className="cardTooltip"
       style={
         theme == 'dark'
-          ? { color: '#fff' }
+          ? { color: '#fff', backgroundColor: '#293242' }
           : {
               color: '#A1A1A9',
-              boxShadow: '0 0 8px #bdbdbd',
-              backgroundColor: '#fff',
+              backgroundColor: '#f5f3ff',
               backdropFilter: 'blur(100px)',
             }
       }

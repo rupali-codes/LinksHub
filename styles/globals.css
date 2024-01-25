@@ -273,7 +273,6 @@ pre {
 
 /* Default styles for screen sizes larger than 768px */
 .cardTooltip {
-  background-color: rgba(255, 255, 255, 0.2) !important;
   font-size: 13px !important;
   margin-top: 10px;
   padding-left: 6px;
@@ -282,19 +281,32 @@ pre {
   padding-bottom: 2px;
   width: calc(100vw - 2rem);
   max-width: 400px;
-  backdrop-filter: blur(8px);
   z-index: 50;
   position: absolute;
   top: 50%;
+  line-height: 20px;
 }
 
 /* Media query for screen sizes up to 768px */
-@media (max-width: 768px) {
+@media (max-width: 470px) {
   .cardTooltip {
-    position: absolute !important;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
+    position: absolute;
+    top: 27% !important;
+    left: 55% !important;
+    width: 80% !important;
+    max-width: 400px;
+    transform: translate(-50%, -50%) ;
+  }
+}
+/* Media query for screen sizes up to 471px */
+@media (max-width: 471px) {
+  .cardTooltip {
+    position: absolute;
+    top: 27% !important;
+    left: 55% !important;
+    width: 80% !important;
+    max-width: 400px;
+    transform: translate(-50%, -50%) ;
   }
 }
 
