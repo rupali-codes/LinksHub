@@ -48,7 +48,7 @@ export const SideNavbarCategory: FC<{
         href={`/${category}`}
       >
         <h1
-          className={`text-slate-500 dark:text-slate-300 text-lg font-medium w-4/5 truncate ${
+          className={`text-slate-500 dark:text-slate-300 text-lg font-sans font-medium w-4/5 truncate ${
             category.length < 4 ? 'uppercase' : 'capitalize'
           }`}
         >
