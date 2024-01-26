@@ -185,11 +185,7 @@ export default function Home() {
               Welcome!
             </div>
             <div className="hidden sm:flex" onClick={handleWelcome}>
-              {community ? (
-                <RxCaretDown size={50} />
-              ) : (
-                <RxCaretRight size={50} />
-              )}
+              {welcome ? <RxCaretDown size={50} /> : <RxCaretRight size={50} />}
             </div>
           </div>
           {welcome && (
