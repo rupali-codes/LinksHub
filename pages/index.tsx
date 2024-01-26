@@ -9,7 +9,7 @@ import {
   FaXTwitter,
   FaArrowRightLong,
 } from 'react-icons/fa6'
-import StarIcon from '../assets/icons/svg/heart.svg'
+import StarIcon from '../assets/icons/svg/starIcon.svg'
 import HeartIcon from '../assets/icons/svg/heart.svg'
 import Link from 'next/link'
 import Button from 'components/Button'
@@ -39,13 +39,13 @@ const SocialLink: React.FC<SocialLinkProps> = ({
   title,
   description,
 }) => (
-  <div className="w-full bg-slate-800 hover:bg-slate-700 rounded-md p-6 mb-4">
+  <div className="w-full bg-slate-800 hover:bg-slate-700 hover:border border-[#BDBDBD14] p-6 mb-4 rounded-lg">
     <Link href={href}>
       <div className="flex items-center text-white gap-2 mb-3">
         <div>{icon}</div>
         <span className="sm:inline">{title}</span>
       </div>
-      <h3 className="text-sm sm:text-base">{description}</h3>
+      <h3 className="text-sm sm:text-base text-text-quinary">{description}</h3>
     </Link>
   </div>
 )
@@ -181,7 +181,9 @@ export default function Home() {
       >
         <div>
           <div className="flex items-center justify-between">
-            <div className="text-2xl text-white mb-2">Welcome!</div>
+            <div className="text-2xl text-white mb-0 mt-6 md:mt-0">
+              Welcome!
+            </div>
             <div className="hidden sm:flex" onClick={handleWelcome}>
               {community ? (
                 <RxCaretDown size={50} />
@@ -192,14 +194,24 @@ export default function Home() {
           </div>
           {welcome && (
             <>
-              <span>
+              <span className="text-md text-text-quinary">
                 Welcome aboard, we&apos;re excited to have you at LinksHub!
               </span>
-              <div className={'h-52 rounded-lg dark:bg-slate-800 my-2'}>
-                <div className={'h-full flex items-center justify-around'}>
-                  <div className={'w-6/12'}>
-                    <Logo />
-                    <p className={'my-2'}>
+              <div
+                className={
+                  'min-h-52 p-8 rounded-3xl dark:bg-slate-800 mt-4 mb-6 border border-[#BDBDBD14]'
+                }
+              >
+                <div
+                  className={
+                    'h-full flex flex-col lg:flex-row items-center justify-around'
+                  }
+                >
+                  <div className={'mr-0 lg:mr-8'}>
+                    <div className="flex justify-center lg:justify-start">
+                      <Logo />
+                    </div>
+                    <p className={'my-2 text-sm text-text-quinary pt-3'}>
                       LinksHub aims to provide developers with access to a wide
                       range of free resources and tools that they can use in
                       their work. These resources include links to free
@@ -207,7 +219,11 @@ export default function Home() {
                       be used to build and deploy applications and websites.
                     </p>
                   </div>
-                  <div className={'flex items-center justify-center gap-10'}>
+                  <div
+                    className={
+                      'flex items-center justify-center gap-10 mt-4 lg:mt-0'
+                    }
+                  >
                     <RatingForkComponent
                       type="star"
                       count={336}
@@ -236,7 +252,7 @@ export default function Home() {
           )}
         </div>
         <div>
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between mt-4">
             <div className="text-2xl text-white mb-2">Community</div>
             <div className="hidden sm:flex" onClick={handleCommunity}>
               {community ? (
@@ -248,7 +264,9 @@ export default function Home() {
           </div>
           {community && (
             <>
-              <div>Get involved in our community. Everyone is welcome!</div>
+              <div className="text-text-quinary">
+                Get involved in our community. Everyone is welcome!
+              </div>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-2">
                 <SocialLink
                   href="https://twitter.com/linkshubdotdev"
@@ -273,7 +291,7 @@ export default function Home() {
           )}
         </div>
         <div>
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between mt-4">
             <div className="text-2xl text-white mb-3">Resources</div>
             <div className="hidden sm:flex" onClick={handleResources}>
               {resources ? (
@@ -286,7 +304,7 @@ export default function Home() {
           <div>
             {resources && (
               <>
-                <span>
+                <span className="text-text-quinary">
                   We&apos;ve curated a wealth of resources just for you. Go
                   ahead and explore at your own pace.
                 </span>
@@ -311,29 +329,29 @@ export default function Home() {
             )}
           </div>
         </div>
-        <div className="mt-5">
-          <div className="bg-slate-800 rounded-lg shadow-md sm:flex-row items-center justify-between p-7">
+        <div className="mt-10 mb-6 md:mb-0">
+          <div className="bg-slate-800 rounded-lg border border-[#BDBDBD14] shadow-md sm:flex-row items-center justify-between p-7 pr-12">
             <div className="flex items-center gap-4">
-              <div className="text-yellow-400">
+              <div className="text-yellow-400 ml-4 lg:ml-0">
                 <StarIcon />
               </div>
               <h1 className="text-xl font-semibold text-white">
                 More awesome resources are coming soon!
               </h1>
             </div>
-            <div className="lg:w-full sm:w-9/12 flex flex-col sm:flex-row items-center justify-between mt-6 sm:mt-0">
-              <p className="text-gray-500 lg:mx-8 text-lg">
+            <div className="lg:w-full flex flex-col lg:flex-row items-center justify-between mt-6 sm:mt-0">
+              <div className="text-gray-500 pt-1 pl-4 lg:mx-8 text-lg">
                 Discover valuable resources without extensive research. We have
                 diligently curated a wealth of materials to make your journey
                 smoother. Show us some love and support our efforts in
                 simplifying your path to success.
-              </p>
+              </div>
               <Button
                 label="Sponsor"
                 icon={<HeartIcon />}
                 variant="pale"
                 link="https://github.com/sponsors/rupali-codes"
-                className="w-full sm:w-auto mt-4 sm:mt-0"
+                className="w-full sm:w-auto mt-4 mt-4 lg:mt-0 ml-4 mr-auto"
               />
             </div>
           </div>
