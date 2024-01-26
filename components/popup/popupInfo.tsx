@@ -8,6 +8,7 @@ import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 import { BsYoutube, BsPen } from 'react-icons/bs'
 import { MdArticle } from 'react-icons/md'
 import { AiOutlineRead } from 'react-icons/ai'
+import { IoClose } from 'react-icons/io5'
 
 export const PopupInfo: React.FC<{
   currentCard: IData | null
@@ -35,18 +36,27 @@ export const PopupInfo: React.FC<{
           onClick={(e) => e.stopPropagation()}
           className={`fixed left-1/2 top-1/2 z-[150] max-w-[500px] -translate-x-1/2 -translate-y-1/2 transition-all ${
             currentCard ? 'animate-scale-appearance' : 'animate-scale-hide'
-          } flex h-fit w-[90%] flex-col justify-between gap-5 overflow-hidden rounded-2xl border border-dashed border-theme-secondary dark:border-theme-primary bg-light-primary px-5 py-10 dark:bg-dark`}
+          } flex h-fit w-[90%] flex-col justify-between gap-5 overflow-hidden rounded-2xl bg-light-primary px-5 py-10 dark:bg-slate-800`}
           role="dialog"
           title={`${currentCard?.name ?? 'Card'} Popup`}
         >
           <div className="flex flex-col gap-5">
             <div className="flex justify-between items-center">
-              <div className="w-full flex justify-between items-center">
-                <h2 className="text-2xl text-theme-primary capitalize">
+              <div className="w-4/5 flex justify-between items-center">
+                <h2 className="text-2xl dark:text-light-primary capitalize truncate ...">
                   {currentCard?.name}
                 </h2>
               </div>
-              <div className="max-w-[25]%] mx-3 text-xsm text-theme-secondary capitalize flex items-center gap-2">
+              {/* Close Text */}
+              <div className="flex justify-center items-center">
+                <p
+                  onClick={onClose}
+                  className="cursor-pointer text-2xl text-theme-quinary -mt-3 hover:text-theme-primary hover:underline"
+                >
+                  <IoClose />
+                </p>
+              </div>
+              {/* <div className="max-w-[25]%] mx-3 text-xsm text-theme-secondary capitalize flex items-center gap-2">
                 <CopyToClipboard url={currentCard?.url ?? ''} />
                 {currentCard?.language ? (
                   <>
@@ -56,11 +66,11 @@ export const PopupInfo: React.FC<{
                 ) : (
                   ''
                 )}
-              </div>
+              </div> */}
             </div>
             <p className="">{currentCard?.description}</p>
           </div>
-          <div className="card-actions justify-end mt-auto">
+          {/* <div className="card-actions justify-end mt-auto">
             <a
               onClick={(e) => e.stopPropagation()}
               href={currentCard?.url}
@@ -79,17 +89,7 @@ export const PopupInfo: React.FC<{
                 <MdArticle size="1.3em" />
               )}
             </a>
-          </div>
-
-          {/* Close Text */}
-          <div className="flex justify-center items-center">
-            <p
-              onClick={onClose}
-              className="cursor-pointer text-sm text-text-primary -mt-3 hover:text-theme-primary hover:underline"
-            >
-              Close
-            </p>
-          </div>
+          </div> */}
         </div>,
         overlayRoot
       )}

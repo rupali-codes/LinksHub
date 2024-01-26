@@ -98,7 +98,7 @@ const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
       <TopBar />
       <div
         data-custom="restrict-click-outside"
-        className="relative min-h-[calc(100%-68px)] w-full  pb-4 md:min-h-[calc(100%-76px)] md:px-10 md:pt-2"
+        className="relative min-h-[calc(100%-68px)] w-full  pb-4 md:min-h-[calc(100%-76px)] md:pl-5 lg:px-10 md:pt-2"
       >
         {content}
         <div className="min-w-full h-10 py-5" />

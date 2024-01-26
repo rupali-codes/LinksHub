@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import clsx from 'clsx';
+import { MdArrowForwardIos  } from "react-icons/md";
+import { MdArrowBackIos  } from "react-icons/md";
 
 type PaginationProps = {
   totalPages: number[] | null;
@@ -37,27 +39,28 @@ export default function Pagination({
             'absolute bottom-2 right-0'
           )}
         >
-          <div className="flex items-center px-6 py-1 gap-4">
+          <div className="flex items-center px-6 py-1 gap-2">
             <button
               className={clsx(
-                'flex items-center justify-center text-[#8b5cf6]',
+                'flex items-center justify-center text-primary-light',
                 isDarkMode ? 'hover:text-white' : 'hover:text-black',
                 'disabled:text-gray-400'
               )}
+              title='Previous Page'
               onClick={() => changePage(currentPage - 1)}
               disabled={currentPage === 1}
             >
-              Prev
+              <MdArrowBackIos  />
             </button>
             {totalPages &&
               totalPages.map((page, index) => (
                 <button
                   key={index}
                   className={clsx(
-                    'flex items-center justify-center rounded-md hover:bg-[#8b5cf6] hover:text-white px-2',
+                    'flex items-center justify-center rounded-md px-2',
                     currentPage === page
-                      ? 'bg-[#8b5cf6] text-white'
-                      : isDarkMode ? 'text-light' : 'text-theme-secondary'
+                      ? 'dark:text-white light:border bg-[rgba(0,0,0,0.1)] dark:bg-slate-800'
+                      : isDarkMode ? 'text-light hover:bg-slate-800 hover:text-white' : ''
                   )}
                   onClick={() => changePage(page)}
                 >
@@ -66,14 +69,15 @@ export default function Pagination({
               ))}
             <button
               className={clsx(
-                'flex items-center justify-center text-[#8b5cf6]',
+                'flex items-center justify-center text-primary-light',
                 isDarkMode ? 'hover:text-white' : 'hover:text-black',
                 'disabled:text-gray-400'
               )}
+              title='Next Page'
               onClick={() => changePage(currentPage + 1)}
               disabled={currentPage === totalPages.length}
             >
-              Next
+              <MdArrowForwardIos  />
             </button>
           </div>
         </div>
