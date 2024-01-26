@@ -7,10 +7,11 @@ import type { IData } from 'types'
 import Bookmark from 'components/Bookmark/Bookmark'
 
 interface CardProps {
-  data: IData
+  data: IData,
+  onClick: () => void
 }
 
-export const Card: FC<CardProps> = ({ data }) => {
+export const Card: FC<CardProps> = ({ data, onClick }) => {
   const { name, description, url, subcategory } = data
   const descriptionRef = useRef<HTMLParagraphElement>(null)
   const [isOverflow, setIsOverflow] = useState(false)
@@ -30,7 +31,7 @@ export const Card: FC<CardProps> = ({ data }) => {
       <div className="card-body">
         <header className="flex justify-between items-center gap-2">
           <h2
-            className="cursor-default md:truncate ... text-xl text-theme-secondary dark:text-light-primary"
+            className="cursor-default md:truncate ... text-xl dark:text-light-primary"
             title={name}
           >
             {name}
@@ -47,9 +48,9 @@ export const Card: FC<CardProps> = ({ data }) => {
             {description}
           </div>
           {isOverflow && (
-            <p className="text-sm underline text-theme-secondary dark:text-theme-primary text-right hover:text-theme-primary dark:hover:text-text-primary">
-              Read More
-            </p>
+            <span onClick={onClick} className="text-sm float-right hover:underline text-theme-secondary dark:hover:text-theme-primary text-right hover:text-theme-primary dark:text-text-primary">
+              ...Read More
+            </span>
           )}
         </div>
         <footer className="grid grid-cols-2 gap-x-4 md:grid-cols-1 lg:grid-cols-2">
