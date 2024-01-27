@@ -18,13 +18,14 @@ const CategoryPage = () => {
 
   const getDesc = (subcatName: string) => {
     for (const desc in categoryDescriptions) {
-      if (desc.toLocaleLowerCase() == subcatName.toLocaleLowerCase()) {
+      if (desc == subcatName) {
         return categoryDescriptions[desc]
       }
     }
 
     return 'No descrition'
   }
+  
   return (
     <section className="flex min-h-[calc(100vh-165px)] flex-col">
       <div className="sm:ml-4 2xl:mx-auto items-start gap-2">
@@ -63,7 +64,7 @@ const CategoryPage = () => {
                     </div>
                     <div className="dark:text-text-tertiary text-text-quinary text-md font-medium h-12 pb-4">
                       <div className="text-ellipsis ... line-clamp-2 w-full">
-                        {getDesc(subcat.name)}
+                        {getDesc(subcat.url.slice(1))}
                       </div>
                     </div>
                   </Link>

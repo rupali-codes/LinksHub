@@ -19,7 +19,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
 
   const category = router.asPath
   const categoryName = category.split('/')[1].split('-').join(' ')
-  const subcategoryName = category?.split('/')[2]?.split('-').join(' ')
+  const subcategoryName = category?.split('/')[2]
   const searchQuery = router.query.query?.toString() || ''
 
   let cleanedCategory = ''
