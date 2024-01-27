@@ -31,6 +31,7 @@ module.exports = {
         light: {
           primary: '#f5f3ff',
           silver: '#EDEDED',
+          white: '#fff'
         },
       },
       screens: {

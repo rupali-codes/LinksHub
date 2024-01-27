@@ -39,9 +39,9 @@ const SocialLink: React.FC<SocialLinkProps> = ({
   title,
   description,
 }) => (
-  <div className="md:w-1/3 w-full bg-slate-800 hover:bg-slate-700 hover:border border-[#BDBDBD14] p-6 mb-4 rounded-lg">
+  <div className="md:w-1/3 w-full dark:bg-slate-800 bg-light-white hover:bg-light-silver dark:hover:bg-slate-700 hover:border border-[#BDBDBD14] p-6 mb-4 rounded-lg">
     <Link href={href}>
-      <div className="flex items-center text-white gap-2 mb-3">
+      <div className="flex items-center dark:text-white gap-2 mb-3">
         <div>{icon}</div>
         <span className="sm:inline">{title}</span>
       </div>
@@ -75,7 +75,7 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
         />
       ) : (
         <IoMdGitBranch
-          className={`rounded-full text-white text-3xl p-1`}
+          className={`rounded-full dark:text-quinary text-3xl p-1`}
           style={iconStyle} // Add style={iconStyle}
         />
       )}
@@ -181,7 +181,7 @@ export default function Home() {
       >
         <div>
           <div className="flex items-center justify-between">
-            <div className="text-2xl text-white mb-0 mt-6 md:mt-0">
+            <div className="text-2xl dark:text-text-tertiary mb-0 mt-6 md:mt-0">
               Welcome!
             </div>
             <div className="hidden sm:flex" onClick={handleWelcome}>
@@ -195,7 +195,7 @@ export default function Home() {
               </span>
               <div
                 className={
-                  'min-h-52 p-8 rounded-3xl dark:bg-slate-800 mt-4 mb-6 border border-[#BDBDBD14]'
+                  'min-h-52 p-8 rounded-3xl dark:bg-slate-800 bg-light-white mt-4 mb-6 border border-[#BDBDBD14]'
                 }
               >
                 <div
@@ -207,7 +207,7 @@ export default function Home() {
                     <div className="flex justify-center lg:justify-start">
                       <Logo />
                     </div>
-                    <p className={'my-2 text-sm text-text-quinary pt-3'}>
+                    <p className={'my-2 text-base text-text-quinary pt-3'}>
                       LinksHub aims to provide developers with access to a wide
                       range of free resources and tools that they can use in
                       their work. These resources include links to free
@@ -249,7 +249,7 @@ export default function Home() {
         </div>
         <div>
           <div className="flex items-center justify-between mt-4">
-            <div className="text-2xl text-white mb-2">Community</div>
+            <div className="text-2xl dark:text-text-tertiary">Community</div>
             <div className="hidden sm:flex" onClick={handleCommunity}>
               {community ? (
                 <RxCaretDown size={50} />
@@ -263,7 +263,7 @@ export default function Home() {
               <div className="text-text-quinary">
                 Get involved in our community. Everyone is welcome!
               </div>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-2">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-4">
                 <SocialLink
                   href="https://twitter.com/linkshubdotdev"
                   icon={<FaXTwitter size={30} />}
@@ -288,7 +288,7 @@ export default function Home() {
         </div>
         <div>
           <div className="flex items-center justify-between mt-4">
-            <div className="text-2xl text-white mb-3">Resources</div>
+            <div className="text-2xl dark:text-text-tertiary">Resources</div>
             <div className="hidden sm:flex" onClick={handleResources}>
               {resources ? (
                 <RxCaretDown size={50} />
@@ -312,8 +312,8 @@ export default function Home() {
                         href={`/${el.category}`}
                         className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(33.33%-1rem)] group"
                       >
-                        <div className="border-solid border-slate-800 bg-slate-800 hover:bg-slate-700 flex items-center justify-between rounded-xl">
-                          <div className="p-5">{el.category.toUpperCase()}</div>
+                        <div className="border-solid border-slate-800 dark:bg-slate-800 dark:hover:bg-slate-700 bg-light-white hover:bg-light-silver flex items-center justify-between rounded-xl sm:h-16 h-fit">
+                          <div className="p-5 truncate ...">{el.category.toUpperCase()}</div>
                           <div>
                             <FaArrowRightLong className="m-4 hidden group-hover:block" />
                           </div>
@@ -326,17 +326,17 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-10 mb-6 md:mb-0">
-          <div className="bg-slate-800 rounded-lg border border-[#BDBDBD14] shadow-md sm:flex-row items-center justify-between p-7 pr-12">
+          <div className="dark:bg-slate-800 bg-light-white rounded-lg border border-[#BDBDBD14] sm:flex-row items-center justify-between p-7 pr-12">
             <div className="flex items-center gap-4">
               <div className="text-yellow-400 ml-4 lg:ml-0">
                 <StarIcon />
               </div>
-              <h1 className="text-xl font-semibold text-white">
+              <h1 className="text-xl dark:text-text-tertiary">
                 More awesome resources are coming soon!
               </h1>
             </div>
             <div className="lg:w-full flex flex-col lg:flex-row items-center justify-between mt-6 sm:mt-0">
-              <div className="text-gray-500 pt-1 pl-4 lg:mx-8 text-lg">
+              <div className="text-gray-500 pt-1 pl-4 lg:mx-8 text-md">
                 Discover valuable resources without extensive research. We have
                 diligently curated a wealth of materials to make your journey
                 smoother. Show us some love and support our efforts in
