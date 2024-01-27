@@ -36,7 +36,6 @@ module.exports = {
       screens: {
         xs: '200px',
         folding: '320px',
-        tall: { raw: '(min-height: 800px)' },
       },
       display: ['group-hover'],
 
@@ -95,35 +94,27 @@ module.exports = {
         'scale-appearance': 'scale-appearance 0.3s ease-in forwards',
         'scale-hide': 'scale-hide 0.3s ease-out forwards',
       },
+      opacity: {
+        8: '0.08',
+      },
+      width: {
+        1038: '1038px',
+      },
+      maxWidth: {
+        1038: '1038px',
+      },
+      fontSize: {
+        '1.5xl': '22px',
+      },
       boxShadow: {
-        header: '0px 4px 16px 0px rgba(225, 218, 244, 0.25)',
-        sidebar: '4px 0px 16px 0px rgba(225, 218, 244, 0.25)',
-        'input-hover': '0px 0px 0px 1.6px rgba(113, 78, 255, 0.10)',
-        'input-focus': '0px 0px 0px 1.6px #714EFF',
-        'input-hover-dark': '0px 0px 0px 1.6px rgba(255, 255, 255, 0.20)',
-        'input-focus-dark': '0px 0px 0px 1.6px rgba(238, 243, 251, 0.75)',
-        opacity: {
-          8: '0.08',
-        },
-        width: {
-          1038: '1038px',
-        },
-        maxWidth: {
-          1038: '1038px',
-        },
-        fontSize: {
-          '1.5xl': '22px',
-        },
-        boxShadow: {
-          tile: '0px 0px 12px 0px #E1DAF440',
-        },
+        tile: '0px 0px 12px 0px #E1DAF440',
       },
     },
-    plugins: [require('daisyui')],
-    darkMode: ['class', '[data-theme="dark"]'],
-    variants: {
-      opacity: ['responsive', 'hover', 'focus', 'group-hover'],
-      textColor: ['responsive', 'hover', 'focus', 'group-hover'],
-    },
+  },
+  plugins: [require('daisyui')],
+  darkMode: ['class', '[data-theme="dark"]'],
+  variants: {
+    opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
 }
