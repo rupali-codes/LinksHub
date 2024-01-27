@@ -27,7 +27,7 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
   }, [])
 
   return (
-    <article className="z-10 h-full w-full rounded-3xl  shadow-lg dark:bg-slate-800 dark:text-text-primary dark:shadow-sm">
+    <article className="z-10 h-full w-full rounded-3xl dark:bg-slate-800 dark:text-text-primary dark:shadow-sm bg-light-white">
       <div className="card-body">
         <header className="flex justify-between items-center gap-2">
           <h2
@@ -48,7 +48,7 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
             {description}
           </div>
           {isOverflow && (
-            <span onClick={onClick} className="text-sm float-right hover:underline text-theme-secondary dark:hover:text-theme-primary text-right hover:text-theme-primary dark:text-text-primary">
+            <span onClick={onClick} className="text-sm float-right hover:underline dark:hover:text-theme-primary text-right hover:text-theme-primary dark:text-text-primary">
               ...Read More
             </span>
           )}

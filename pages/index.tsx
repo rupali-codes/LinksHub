@@ -65,8 +65,8 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
 
   return (
     <div
-      className={`text-white rounded-lg w-[160px] text-3xl p-4`}
-      style={containerStyle}
+      className={`dark:text-white rounded-lg w-[160px] text-3xl p-4 dark:bg-[${type == 'star' ? '#575448' : '#403B56'}]`}
+      
     >
       {type === 'star' ? (
         <IoIosStar
@@ -75,7 +75,7 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
         />
       ) : (
         <IoMdGitBranch
-          className={`rounded-full dark:text-quinary text-3xl p-1`}
+          className={`rounded-full text-white text-3xl p-1`}
           style={iconStyle} // Add style={iconStyle}
         />
       )}
