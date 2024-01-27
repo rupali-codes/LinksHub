@@ -39,13 +39,13 @@ const SocialLink: React.FC<SocialLinkProps> = ({
   title,
   description,
 }) => (
-  <div className="w-full bg-slate-800 hover:bg-slate-700 hover:border border-[#BDBDBD14] p-6 mb-4 rounded-lg">
+  <div className="md:w-1/3 w-full bg-slate-800 hover:bg-slate-700 hover:border border-[#BDBDBD14] p-6 mb-4 rounded-lg">
     <Link href={href}>
       <div className="flex items-center text-white gap-2 mb-3">
         <div>{icon}</div>
         <span className="sm:inline">{title}</span>
       </div>
-      <h3 className="text-sm sm:text-base text-text-quinary">{description}</h3>
+      <p className="text-sm sm:text-base text-text-quinary sm:h-24 h-fit lg:h-fit overflow-hidden font-sans text-ellipsis line-clamp-4">{description}</p>
     </Link>
   </div>
 )
@@ -268,19 +268,19 @@ export default function Home() {
                   href="https://twitter.com/linkshubdotdev"
                   icon={<FaXTwitter size={30} />}
                   title="Twitter"
-                  description="For announcements, tips, and general information."
+                  description="Follow us on X (twitter) to get updates, announcemnets and general information."
                 />
                 <SocialLink
                   href="https://discord.com/invite/NvK67YnJX5"
                   icon={<FaDiscord size={30} />}
                   title="Discord"
-                  description="To get involved in the community, ask questions, and share tips."
+                  description="Get involved in our community for updates, ask questions, and share tips."
                 />
                 <SocialLink
                   href="https://github.com/rupali-codes/LinksHub"
                   icon={<FaGithub size={30} />}
                   title="Github"
-                  description="To report bugs, request features, and contribute to the project."
+                  description="To report bugs & issues, suggest features, and contribute to the project."
                 />
               </div>
             </>

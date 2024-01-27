@@ -93,9 +93,7 @@ h6,
 hr,
 figure,
 p,
-pre {
-  text-align: justify !important;
-}
+
 /* setting root value for main scrollbar */
 :root {
   --scroll-thumb: #bbb;
