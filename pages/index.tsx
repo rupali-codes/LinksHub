@@ -226,9 +226,9 @@ export default function Home() {
                       <Logo />
                     </div>
                     <p className={'my-2 text-base text-text-quinary pt-3'}>
-                      LinksHub aims to provide developers with access to a wide
-                      range of free resources and tools that they can use in
-                      their work. These resources include links to free
+                      LinksHub aims to provide people access to a wide
+                      range of free resources and tools that they can use to learn and develop their tech skills.
+       These resources include links to free
                       software, libraries, frameworks, and other tools that can
                       be used to build and deploy applications and websites.
                     </p>
