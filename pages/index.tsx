@@ -279,26 +279,26 @@ export default function Home() {
           {community && (
             <>
               <div className="text-text-quinary">
-                Get involved in our community. Everyone is welcome!
+                Get involved!  Everyone is welcome!
               </div>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-4">
                 <SocialLink
                   href="https://twitter.com/linkshubdotdev"
                   icon={<FaXTwitter size={30} />}
                   title="Twitter"
-                  description="Follow us on X (twitter) to get updates, announcemnets and general information."
+                  description="Follow us on X (twitter) to get updates, announcements, and general information."
                 />
                 <SocialLink
                   href="https://discord.com/invite/NvK67YnJX5"
                   icon={<FaDiscord size={30} />}
                   title="Discord"
-                  description="Get involved in our community for updates, ask questions, and share tips."
+                  description="Join our community for updates, ask questions, and share tips."
                 />
                 <SocialLink
                   href="https://github.com/rupali-codes/LinksHub"
                   icon={<FaGithub size={30} />}
                   title="Github"
-                  description="To report bugs & issues, suggest features, and contribute to the project."
+                  description="Join us here to report bugs & issues, and suggest features."
                 />
               </div>
             </>
