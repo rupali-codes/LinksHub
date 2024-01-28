@@ -65,7 +65,7 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
 
   return (
     <div
-      className={`dark:text-white rounded-lg w-[160px] text-3xl p-4 dark:bg-[${type == 'star' ? '#575448' : '#403B56'}]`}
+      className={`dark:text-white rounded-lg md:w-[160px] text-3xl p-4 bg-[rgba(255,255,255,0.1)] w-full`}
       
     >
       {type === 'star' ? (
@@ -87,7 +87,7 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
       </div>
       <Link href={link}>
         <button
-          className={`text-base p-2 w-32 rounded-lg text-center`}
+          className={`text-base p-2 w-32 rounded-lg text-center w-full md:w-fit`}
           style={{ backgroundColor: btnBgColor, color: btnTextColor }}
         >
           {btnText}
@@ -181,18 +181,18 @@ export default function Home() {
       >
         <div>
           <div className="flex items-center justify-between">
-            <div className="text-2xl dark:text-text-tertiary mb-0 mt-6 md:mt-0">
+            <h2 className="md:text-left text-2xl dark:text-text-tertiary mb-0 mt-6 md:mt-0">
               Welcome!
-            </div>
+            </h2>
             <div className="hidden sm:flex" onClick={handleWelcome}>
               {welcome ? <RxCaretDown size={50} /> : <RxCaretRight size={50} />}
             </div>
           </div>
           {welcome && (
             <>
-              <span className="text-md text-text-quinary">
+              <p className="text-md text-text-quinary">
                 Welcome aboard, we&apos;re excited to have you at LinksHub!
-              </span>
+              </p>
               <div
                 className={
                   'min-h-52 p-8 rounded-3xl dark:bg-slate-800 bg-light-white mt-4 mb-6 border border-[#BDBDBD14]'
@@ -217,7 +217,7 @@ export default function Home() {
                   </div>
                   <div
                     className={
-                      'flex items-center justify-center gap-10 mt-4 lg:mt-0'
+                      'flex sm:flex-row flex-col items-center justify-center gap-10 mt-4 lg:mt-0 w-full '
                     }
                   >
                     <RatingForkComponent
@@ -326,8 +326,8 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-10 mb-6 md:mb-0">
-          <div className="dark:bg-slate-800 bg-light-white rounded-lg border border-[#BDBDBD14] sm:flex-row items-center justify-between p-7 pr-12">
-            <div className="flex items-center gap-4">
+          <div className="dark:bg-slate-800 bg-light-white rounded-lg border border-[#BDBDBD14] sm:flex-row items-center justify-between md:p-7 md:pr-12 p-5">
+            <div className="md:flex items-center gap-4">
               <div className="text-yellow-400 ml-4 lg:ml-0">
                 <StarIcon />
               </div>
@@ -336,7 +336,7 @@ export default function Home() {
               </h1>
             </div>
             <div className="lg:w-full flex flex-col lg:flex-row items-center justify-between mt-6 sm:mt-0">
-              <div className="text-gray-500 pt-1 pl-4 lg:mx-8 text-md">
+              <div className="text-gray-500 pt-1 md:pl-4 lg:mx-8 text-md">
                 Discover valuable resources without extensive research. We have
                 diligently curated a wealth of materials to make your journey
                 smoother. Show us some love and support our efforts in
@@ -347,7 +347,7 @@ export default function Home() {
                 icon={<HeartIcon />}
                 variant="pale"
                 link="https://github.com/sponsors/rupali-codes"
-                className="w-full sm:w-auto mt-4 mt-4 lg:mt-0 ml-4 mr-auto"
+                className="w-full sm:w-auto mt-4 mt-4 lg:mt-0 md:ml-4 md:mr-auto"
               />
             </div>
           </div>
