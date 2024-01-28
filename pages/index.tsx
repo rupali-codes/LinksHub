@@ -191,7 +191,7 @@ export default function Home() {
           content="https://discord.com/invite/NvK67YnJX5"
         />
 
-        <link rel="icon" href="/icon.png" className="rounded-full" />
+        <link rel="icon" href="/new-icon.png" className="rounded-full" />
       </Head>
       <section
         data-custom="restrict-click-outside"
