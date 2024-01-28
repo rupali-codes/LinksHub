@@ -137,7 +137,7 @@ export default function Home() {
         <meta name="title" content="LinksHub" />
         <meta
           name="description"
-          content="LinksHub is the ultimate hub of ready-to-use tech resources. Discover free tools and libraries to streamline your development process and build better projects."
+          content="LinksHub is the ultimate hub of ready-to-use tech resources made for and by the community. Whether you are professional or enthusiast, we have what you need to help you grow."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
