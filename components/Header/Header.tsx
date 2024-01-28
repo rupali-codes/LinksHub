@@ -50,7 +50,6 @@ export const Header: FC = () => {
     },
   ]
 
-  
   const inActiveIconCls = 'stroke-gray-400'
   const activeIconCls = 'fill-primary dark:fill-white'
 
@@ -83,7 +82,11 @@ export const Header: FC = () => {
         <li key={i}>
           <a
             href={href}
-            className={`${isDisabled ? 'cursor-not-allowed' : 'hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10'} flex items-center justify-start p-2 gap-2 text-base font-medium leading-5 rounded-xl ${
+            className={`${
+              isDisabled
+                ? 'cursor-not-allowed'
+                : 'hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10'
+            } flex items-center justify-start p-2 gap-2 text-base font-medium leading-5 rounded-xl ${
               isActive ? 'text-primary dark:text-white' : 'text-gray-text'
             }`}
           >
@@ -104,11 +107,9 @@ export const Header: FC = () => {
         </Link>
       </div>
 
-      <div className="hidden md:flex items-center justify-center gap-6">
-      <nav className="w-full flex sm:block hidden">
-          <ul className="w-full flex gap-0.5 tall:gap-1">
-            {renderLinks()}
-          </ul>
+      <div className="flex items-center justify-center gap-6">
+        <nav className="w-full flex md:block hidden">
+          <ul className="w-full flex gap-0.5 tall:gap-1">{renderLinks()}</ul>
         </nav>
         <div className="flex items-center justify-center gap-[14px]">
           {socialIcons.map(
