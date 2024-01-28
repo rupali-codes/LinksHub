@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
-import Logo from 'components/logo/logo'
+import Logo from 'assets/icons/svg/logo.svg'
 import { RxCaretDown, RxCaretRight } from 'react-icons/rx'
 import { IoMdGitBranch, IoIosStar } from 'react-icons/io'
 import {
@@ -41,7 +41,7 @@ const SocialLink: React.FC<SocialLinkProps> = ({
 }) => (
   <div className="md:w-1/3 w-full dark:bg-slate-800 bg-light-white hover:bg-light-silver dark:hover:bg-slate-700 hover:border border-[#BDBDBD14] p-6 mb-4 rounded-lg">
     <Link href={href}>
-      <div className="flex items-center dark:text-white gap-2 mb-3">
+      <div className="flex items-center dark:text-text-quinary gap-2 mb-3">
         <div>{icon}</div>
         <span className="sm:inline">{title}</span>
       </div>
@@ -65,7 +65,7 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
 
   return (
     <div
-      className={`dark:text-white rounded-lg md:w-[160px] text-3xl p-4 bg-[rgba(255,255,255,0.1)] w-full`}
+      className={`dark:text-white rounded-lg md:w-[160px] text-3xl p-4 dark:bg-[rgba(255,255,255,0.1)] bg-[rgba(0,0,0,0.05)] w-full`}
       
     >
       {type === 'star' ? (
@@ -82,7 +82,7 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
       <div className="text-3xl my-1">
         {count}
         <span className="text-lg m-1">
-          {type === 'star' ? 'stars' : 'forks'}
+          {type === 'star' ? 'Stars' : 'Fhorks'}
         </span>
       </div>
       <Link href={link}>
@@ -181,7 +181,7 @@ export default function Home() {
       >
         <div>
           <div className="flex items-center justify-between">
-            <h2 className="md:text-left text-2xl dark:text-text-tertiary mb-0 mt-6 md:mt-0">
+            <h2 className="text-2xl dark:text-text-tertiary mb-0 mt-6 md:mt-0">
               Welcome!
             </h2>
             <div className="hidden sm:flex" onClick={handleWelcome}>
@@ -336,7 +336,7 @@ export default function Home() {
               </h1>
             </div>
             <div className="lg:w-full flex flex-col lg:flex-row items-center justify-between mt-6 sm:mt-0">
-              <div className="text-gray-500 pt-1 md:pl-4 lg:mx-8 text-md">
+              <div className="text-text-quinary pt-1 md:pl-4 lg:mx-8 text-md">
                 Discover valuable resources without extensive research. We have
                 diligently curated a wealth of materials to make your journey
                 smoother. Show us some love and support our efforts in

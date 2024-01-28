@@ -62,7 +62,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
       <Link href={'/' + categoryName} className="flex gap-x-2 items-center">
         <IoIosArrowBack className="md:hidden" />
       </Link>
-      <div className="md:bg-[#EDEDED] md:bg-opacity-20 px-[10px] py-[6px] rounded-md truncate ...">
+      <div className="md:bg-[#EDEDED] md:bg-opacity-20 px-[10px] py-[6px] text-xl md:text-base rounded-md truncate ...">
         <h3>{capitalizeEachWord(cleanedCategory)}</h3>
       </div>
       <button>

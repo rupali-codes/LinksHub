@@ -57,12 +57,12 @@ const CategoryPage = () => {
                     className="group flex flex-col dark:border dark:border-theme-primary dark:border-opacity-8 rounded-xl dark:bg-theme-tertiary bg-white dark:bg-opacity-25 dark:hover:bg-theme-quaternary dark:hover:bg-opacity-25	px-3 py-1 dark:hover:border-opacity-25 hover:text-dark-primary dark:shadow-lg shadow-tile md:max-w-[320px] px-4 py-4 group max-w-none w-full"
                   >
                     <div className="flex justify-between">
-                      <div className="dark:text-text-primary text-text-primary-light text-lg capitalize font-medium">
+                      <div className="dark:text-gray-300 text-text-primary-light text-lg capitalize font-medium">
                         {subcat.name}
                       </div>
                       <ArrowIcon className="opacity-0 group-hover:opacity-100 duration-300 w-8 stroke-theme-secondary dark:stroke-white" />
                     </div>
-                    <div className="dark:text-text-tertiary text-text-quinary text-md font-medium h-12 pb-4">
+                    <div className="dark:text-text-tertiary text-text-quinary text-md h-12 pb-4">
                       <div className="text-ellipsis ... line-clamp-2 w-full">
                         {getDesc(subcat.url.slice(1))}
                       </div>

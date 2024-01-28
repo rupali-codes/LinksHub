@@ -1,13 +1,8 @@
 import React from 'react'
 import { IData } from 'types'
-import { BsGlobe } from 'react-icons/bs'
 import { Backdrop } from 'components/Backdrop/Backdrop'
 import { createPortal } from 'react-dom'
 import useDelayUnmount from 'hooks/useDelayUnmount'
-import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
-import { BsYoutube, BsPen } from 'react-icons/bs'
-import { MdArticle } from 'react-icons/md'
-import { AiOutlineRead } from 'react-icons/ai'
 import { IoClose } from 'react-icons/io5'
 
 export const PopupInfo: React.FC<{
@@ -29,7 +24,7 @@ export const PopupInfo: React.FC<{
   const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/
 
   return (
-    <>
+    <div className='fixed inset-0 z-50 h-full w-full cursor-pointer bg-black/80'>
       <Backdrop onClick={onClose} />
       {createPortal(
         <div
@@ -93,6 +88,6 @@ export const PopupInfo: React.FC<{
         </div>,
         overlayRoot
       )}
-    </>
+    </div>
   )
 }

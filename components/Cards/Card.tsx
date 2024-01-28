@@ -31,7 +31,7 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
       <div className="card-body">
         <header className="flex justify-between items-center gap-2">
           <h2
-            className="cursor-default md:truncate ... text-xl dark:text-light-primary"
+            className="cursor-default md:truncate ... text-lg md:text-xl dark:text-light-primary"
             title={name}
           >
             {name}
