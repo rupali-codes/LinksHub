@@ -249,80 +249,86 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
           </div>
         ))}
       </div>
-      <div className="contributors-our-team grid gap-4 mt-8">
-        {contributorsWithoutMaintainers
-          .slice(0, displayedContributors)
-          .map((contributor) => (
-            <div
-              key={contributor.id}
-              className="bg-gray-100 rounded-3xl p-4 border border-dashed border-violet-500 dark:border-[#BDBDBD40] shadow-lg dark:bg-[#293242] dark:text-gray-300 dark:shadow-sm flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer m-1"
-            >
-              <div className="bg-[#714EFF] bg-opacity-5 dark:bg-[#9F87FF] dark:bg-opacity-10 rounded-xl">
-                <div className="flex justify-center image-wrapper pt-4">
-                  <Image
-                    src={contributor.avatar_url}
-                    alt={contributor.login}
-                    width={110}
-                    height={110}
-                    className="rounded-full mb-4 border-2 border-violet-500 dark:border-violet-400 dark:border-opacity-50 transition-transform duration-300 hover:scale-105 hover:border-dotted m-2"
-                  />
-                  <div className="bg-[#714EFF] bg-opacity-10 text-[#714EFF] dark:text-[#9F87FF] dark:bg-[#9F87FF] dark:bg-opacity-20 text-xs tracking-wide py-1 px-2 rounded-full absolute top-2 right-2 border border-[#714EFF] border-opacity-20 dark:border-none">
-                    Developer
+      {contributorsWithoutMaintainers.length === 0 ? (
+        <div className="flex justify-center items-center text-xl font-bol my-12 text-gray-600 dark:text-violet-300">
+          The GitHub API Limit is reached. Please try again later!
+        </div>
+      ) : (
+        <div className="contributors-our-team grid gap-4 mt-8">
+          {contributorsWithoutMaintainers
+            .slice(0, displayedContributors)
+            .map((contributor) => (
+              <div
+                key={contributor.id}
+                className="bg-gray-100 rounded-3xl p-4 border border-dashed border-violet-500 dark:border-[#BDBDBD40] shadow-lg dark:bg-[#293242] dark:text-gray-300 dark:shadow-sm flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer m-1"
+              >
+                <div className="bg-[#714EFF] bg-opacity-5 dark:bg-[#9F87FF] dark:bg-opacity-10 rounded-xl">
+                  <div className="flex justify-center image-wrapper pt-4">
+                    <Image
+                      src={contributor.avatar_url}
+                      alt={contributor.login}
+                      width={110}
+                      height={110}
+                      className="rounded-full mb-4 border-2 border-violet-500 dark:border-violet-400 dark:border-opacity-50 transition-transform duration-300 hover:scale-105 hover:border-dotted m-2"
+                    />
+                    <div className="bg-[#714EFF] bg-opacity-10 text-[#714EFF] dark:text-[#9F87FF] dark:bg-[#9F87FF] dark:bg-opacity-20 text-xs tracking-wide py-1 px-2 rounded-full absolute top-2 right-2 border border-[#714EFF] border-opacity-20 dark:border-none">
+                      Developer
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl text-gray-800 dark:text-violet-400 mt-2 mb-1">
+                      {contributor.name}
+                    </div>
+                    <div className="text-gray-400 mb-2 pb-4">Web Developer</div>
                   </div>
                 </div>
-                <div className="text-center">
-                  <div className="text-2xl text-gray-800 dark:text-violet-400 mt-2 mb-1">
-                    {contributor.name}
-                  </div>
-                  <div className="text-gray-400 mb-2 pb-4">Web Developer</div>
-                </div>
-              </div>
-              <div className="flex justify-between mx-6 items-center mt-4">
-                <div className="hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 ml-0 rounded-md transition-all duration-300 ease-in-out">
-                  <Link
-                    href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
-                    aria-label={`Commit History of ${contributor.login} in LinksHub`}
-                    className="flex flex-col items-center justify-center"
-                    {...linkProps}
-                  >
-                    <div className="pb-1 text-2xl">
-                      {contributor.contributions}
-                    </div>
-                    <span className="text-sm">Contributions</span>
-                  </Link>
-                </div>
-                <div className="mt-1 hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 mx-2 rounded-md transition-all duration-300 ease-in-out text-sm">
-                  <Link
-                    href={`https://github.com/${contributor.login}`}
-                    aria-label={`GitHub Profile of ${contributor.login}`}
-                    className="flex flex-col items-center justify-center"
-                    {...linkProps}
-                  >
-                    <div className="pb-2">
-                      <FaGithub className="text-2xl" />{' '}
-                    </div>
-                    GitHub
-                  </Link>
-                </div>
-                {contributor.twitter_username && (
-                  <div className="mt-1 hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 mr-2 rounded-md transition-all duration-300 ease-in-out text-sm">
+                <div className="flex justify-between mx-6 items-center mt-4">
+                  <div className="hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 ml-0 rounded-md transition-all duration-300 ease-in-out">
                     <Link
-                      href={`https://twitter.com/${contributor.twitter_username}`}
-                      aria-label={`Twitter Profile of ${contributor.twitter_username}`}
+                      href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
+                      aria-label={`Commit History of ${contributor.login} in LinksHub`}
+                      className="flex flex-col items-center justify-center"
+                      {...linkProps}
+                    >
+                      <div className="pb-1 text-2xl">
+                        {contributor.contributions}
+                      </div>
+                      <span className="text-sm">Contributions</span>
+                    </Link>
+                  </div>
+                  <div className="mt-1 hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 mx-2 rounded-md transition-all duration-300 ease-in-out text-sm">
+                    <Link
+                      href={`https://github.com/${contributor.login}`}
+                      aria-label={`GitHub Profile of ${contributor.login}`}
                       className="flex flex-col items-center justify-center"
                       {...linkProps}
                     >
                       <div className="pb-2">
-                        <FaXTwitter className="text-2xl" />
+                        <FaGithub className="text-2xl" />{' '}
                       </div>
-                      Twitter
+                      GitHub
                     </Link>
                   </div>
-                )}
+                  {contributor.twitter_username && (
+                    <div className="mt-1 hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 mr-2 rounded-md transition-all duration-300 ease-in-out text-sm">
+                      <Link
+                        href={`https://twitter.com/${contributor.twitter_username}`}
+                        aria-label={`Twitter Profile of ${contributor.twitter_username}`}
+                        className="flex flex-col items-center justify-center"
+                        {...linkProps}
+                      >
+                        <div className="pb-2">
+                          <FaXTwitter className="text-2xl" />
+                        </div>
+                        Twitter
+                      </Link>
+                    </div>
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
-      </div>
+            ))}
+        </div>
+      )}
       <div className="bg-white dark:bg-[#293242] flex justify-between flex-col md:flex-row rounded-xl py-6 px-4 my-10">
         <div className="flex space-x-4">
           <div className="pl-2 pr-3">
@@ -353,14 +359,16 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
           </Link>
         </div>
       </div>
-      <div className="flex justify-center items-center mb-8">
-        <button
-          className="bg-[#EBE5FF] dark:bg-[#293242] hover:bg-[#d0c8eb] dark:hover:bg-[#384355] text-[#714EFF] dark:text-gray-300 w-36 py-4 px-6 rounded-xl text-center cursor-pointer duration-300 transition-all"
-          onClick={() => setDisplayedContributors(displayedContributors + 9)}
-        >
-          See More
-        </button>
-      </div>
+      {contributorsWithoutMaintainers.length !== 0 ? (
+        <div className="flex justify-center items-center mb-8">
+          <button
+            className="bg-[#EBE5FF] dark:bg-[#293242] hover:bg-[#d0c8eb] dark:hover:bg-[#384355] text-[#714EFF] dark:text-gray-300 w-36 py-4 px-6 rounded-xl text-center cursor-pointer duration-300 transition-all"
+            onClick={() => setDisplayedContributors(displayedContributors + 9)}
+          >
+            See More
+          </button>
+        </div>
+      ) : null}
     </div>
   )
 }
