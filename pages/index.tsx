@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
 import Logo from 'assets/icons/svg/logo.svg'
 import { RxCaretDown, RxCaretRight } from 'react-icons/rx'
@@ -87,7 +87,7 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
       </div>
       <Link href={link}>
         <button
-          className={`text-base p-2 w-32 rounded-lg text-center w-full md:w-fit`}
+          className={`text-base p-2 w-32 rounded-lg text-center w-full`}
           style={{ backgroundColor: btnBgColor, color: btnTextColor }}
         >
           {btnText}
@@ -101,6 +101,24 @@ export default function Home() {
   const [welcome, setWelcome] = useState(true)
   const [community, setCommunity] = useState(true)
   const [resources, setResources] = useState(true)
+
+  const [starCount, setStarCount] = useState(0)
+  const [forkCount, setForkCount] = useState(0)
+
+  useEffect(() => {
+    const getStarForkCount = async () => {
+      try {
+        const response = await fetch(`https://api.github.com/repos/rupali-codes/LinksHub`)
+        const data = await response.json()
+        setStarCount(data.stargazers_count)
+        setForkCount(data.forks)
+      } catch (error) {
+        console.error('Error fetching fork count:', error)
+      }
+    }
+
+    getStarForkCount()
+  }, [starCount, forkCount])
 
   const handleWelcome = () => {
     setWelcome((prev) => !prev)
@@ -222,7 +240,7 @@ export default function Home() {
                   >
                     <RatingForkComponent
                       type="star"
-                      count={336}
+                      count={starCount}
                       link="https://github.com/rupali-codes/LinksHub"
                       bgColor="#575448"
                       iconBgColor="#FBD449"
@@ -233,7 +251,7 @@ export default function Home() {
 
                     <RatingForkComponent
                       type="fork"
-                      count={447}
+                      count={forkCount}
                       link="https://github.com/rupali-codes/LinksHub"
                       bgColor="#403B56"
                       iconBgColor="#714EFF"
