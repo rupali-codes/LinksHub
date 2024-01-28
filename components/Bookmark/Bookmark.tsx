@@ -20,8 +20,9 @@ const Bookmark: React.FC<BookmarkProps> = ({
 
   return (
     <button
-      className={`${containerStyles} ${iconStyles}`}
+      className={`${containerStyles} cursor-not-allowed`}
       onClick={handleBookmark}
+      disabled
     >
       {isBookmarked ? (
         <BsBookmarkFill color="#714EFF" size="1.2rem" />
