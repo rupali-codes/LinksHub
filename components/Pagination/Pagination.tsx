@@ -5,38 +5,40 @@ import { MdArrowForwardIos  } from "react-icons/md";
 import { MdArrowBackIos  } from "react-icons/md";
 
 type PaginationProps = {
-  totalPages: number[] | null;
-  currentPage: number;
-  handlePageChange: (page: number) => void;
-};
+  toporbottom: boolean
+  totalPages: number[] | null
+  currentPage: number
+  handlePageChange: (page: number) => void
+}
 
 export default function Pagination({
+  toporbottom,
   totalPages,
   currentPage,
   handlePageChange,
 }: PaginationProps) {
-  const { resolvedTheme } = useTheme();
-  const isDarkMode = resolvedTheme === 'dark';
-
+  const { resolvedTheme } = useTheme()
+  const isDarkMode = resolvedTheme === 'dark'
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   const changePage = (page: number) => {
-    handlePageChange(page);
-  };
+    handlePageChange(page)
+  }
 
   useEffect(() => {
-    scrollToTop();
-  }, [currentPage]);
+    scrollToTop()
+  }, [currentPage])
 
   return (
     <>
       {totalPages && totalPages.length > 1 && (
         <div
           className={clsx(
-            'w-full z-20 flex lg:w-full items-center justify-center ',
-            'absolute bottom-2 right-0'
+            toporbottom == true
+              ? 'w-full z-20 flex lg:w-full items-center justify-center absolute bottom-2 right-0'
+              : 'z-20 flex w-full lg:w-full items-center justify-end absolute top-0 right-0'
           )}
         >
           <div className="flex items-center px-6 py-1 gap-2">
@@ -83,5 +85,5 @@ export default function Pagination({
         </div>
       )}
     </>
-  );
+  )
 }
