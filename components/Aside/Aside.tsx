@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { SideNavbarBody } from 'components/SideNavbar/SideNavbarBody'
+import  SideNavbarBody  from 'components/SideNavbar/SideNavbarBody'
 
 export const Aside: FC = () => {
   return (

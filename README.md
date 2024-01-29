@@ -7,9 +7,9 @@
 
 # Welcome to LinksHub 👋
 
-LinksHub is a Hub of Links `For Developers By Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
+LinksHub is a hub of links made for and by the community. Whether you're a new developer, a seasoned technical writer, or a customer service representative looking to learn how to code, we got the resources you need to aid you in your learning journey.
 
-We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to the right developers.
+We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to you.
 <a name="Outreach"></a>
 
 ## Outreach

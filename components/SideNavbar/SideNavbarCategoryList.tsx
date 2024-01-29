@@ -10,7 +10,7 @@ export const SideNavbarCategoryList: FC<{
   const categoriesList = getFilteredCategoryList(query)
   const router = useRouter()
   const [category, setCategory] = useState<string | undefined>('')
-  const listRef = useRef<HTMLUListElement | null>(null);
+  const listRef = useRef<HTMLUListElement | null>(null)
 
   useEffect(() => {
     const cat: string | undefined = router.query.category as string | undefined
@@ -20,7 +20,7 @@ export const SideNavbarCategoryList: FC<{
     }
   }, [router.pathname, router.query])
 
-  if (categoriesList.length === 0) {
+  if (categoriesList.length == 0) {
     return (
       <div className="dark:text-gray-200 text-gray-500 text-lg text-center py-2">
         No Links Found
@@ -29,17 +29,19 @@ export const SideNavbarCategoryList: FC<{
   }
 
   return (
-    <ul data-custom='restrict-click-outside' ref={listRef}  className="mt-2 flex flex-col justify-center px-4 pb-24">
-      <React.Fragment key={query}>
-        {categoriesList.map((categoryData) => (
-          <SideNavbarCategory
-            listRef = {listRef}
-            key={categoryData.category}
-            categoryData={categoryData}
-            expand={query.length > 0 || category === categoryData.category}
-          />
-        ))}
-      </React.Fragment>
+    <ul
+      data-custom="restrict-click-outside"
+      ref={listRef}
+      className="relative w-full max-h-full flex flex-col sc overflow-y-scroll scrollColorDarkMobile pr-4"
+    >
+      {categoriesList.map((categoryData) => (
+        <SideNavbarCategory
+          listRef={listRef}
+          key={categoryData.category}
+          categoryData={categoryData}
+          expand={query.length > 0 || category === categoryData.category}
+        />
+      ))}
     </ul>
   )
 }
