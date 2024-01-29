@@ -22,6 +22,7 @@ const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
   const title = `LinksHub - ${
     pageCategory[0].toUpperCase() + pageCategory.slice(1)
   }`
+  const numberOfCards = filterDB[0].length
   const { totalPages, currentPage, startIndex, endIndex, handlePageChange } =
     usePagination(filterDB.length ? filterDB[0].length : 0)
   let content: JSX.Element[] | JSX.Element
@@ -108,6 +109,7 @@ const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
           totalPages={totalPages}
           currentPage={currentPage}
           handlePageChange={handlePageChange}
+          numberOfCards={numberOfCards}
         />
       </div>
     </>

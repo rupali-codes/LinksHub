@@ -9,6 +9,7 @@ type PaginationProps = {
   totalPages: number[] | null
   currentPage: number
   handlePageChange: (page: number) => void
+  numberOfCards: number
 }
 
 export default function Pagination({
@@ -16,6 +17,7 @@ export default function Pagination({
   totalPages,
   currentPage,
   handlePageChange,
+  numberOfCards,
 }: PaginationProps) {
   const { resolvedTheme } = useTheme()
   const isDarkMode = resolvedTheme === 'dark'
@@ -31,14 +33,17 @@ export default function Pagination({
     scrollToTop()
   }, [currentPage])
 
+  const remainderOfCards = numberOfCards % 9
+  
   return (
     <>
       {totalPages && totalPages.length > 1 && (
-        <div
-          className={clsx(
-            toporbottom == true
-              ? 'w-full z-20 flex lg:w-full items-center justify-center absolute bottom-2 right-0'
-              : 'z-20 flex w-full lg:w-full items-center justify-end absolute top-0 right-0'
+        <div>
+          <div
+          className={(            
+            currentPage == totalPages.length && remainderOfCards <= 3
+              ? 'p-20'
+              : 'w-full z-20 flex lg:w-full items-center justify-center absolute bottom-2 right-0'
           )}
         >
           <div className="flex items-center px-6 py-1 gap-2">
