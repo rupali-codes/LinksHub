@@ -39,7 +39,7 @@ const SocialLink: React.FC<SocialLinkProps> = ({
   title,
   description,
 }) => (
-  <div className="md:w-1/3 w-full dark:bg-slate-800 bg-light-white hover:bg-light-silver dark:hover:bg-slate-700 hover:border border-[#BDBDBD14] p-6 mb-4 rounded-lg">
+  <div className="md:w-1/3 w-full dark:bg-slate-800 bg-light-white hover:bg-light-silver dark:hover:bg-slate-700 hover:border border-[#BDBDBD14] p-6 mb-4 rounded-lg lg:h-44">
     <Link href={href}>
       <div className="flex items-center dark:text-text-quinary gap-2 mb-3">
         <div>{icon}</div>
