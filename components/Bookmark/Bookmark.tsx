@@ -1,6 +1,5 @@
 import React, { useState, MouseEvent } from 'react'
 import { BsBookmark, BsBookmarkFill } from 'react-icons/bs'
-import { Tooltip } from 'react-tooltip'
 import { SaveBtnTooltip } from 'components/Tooltip/SaveBtnTooltip'
 
 interface BookmarkProps {

@@ -21,7 +21,7 @@ export const PopupInfo: React.FC<{
     return null
   }
 
-  const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/
+  // const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/
 
   return (
     <div className='fixed inset-0 z-50 h-full w-full cursor-pointer bg-black/80'>

@@ -54,13 +54,11 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
   type,
   count,
   link,
-  bgColor,
   iconBgColor,
   btnBgColor,
   btnTextColor,
   btnText,
 }) => {
-  const containerStyle = { backgroundColor: bgColor }
   const iconStyle = { backgroundColor: iconBgColor }
 
   return (
