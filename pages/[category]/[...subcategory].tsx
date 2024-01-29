@@ -109,13 +109,6 @@ const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
           currentPage={currentPage}
           handlePageChange={handlePageChange}
         />
-        <div className=" min-w-full h-10 py-5" />
-        <Pagination
-          toporbottom={!toporbottom}
-          totalPages={totalPages}
-          currentPage={currentPage}
-          handlePageChange={handlePageChange}
-        />
       </div>
     </>
   )

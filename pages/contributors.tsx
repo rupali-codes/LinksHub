@@ -171,7 +171,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   }
 
   return (
-    <div className="mx-4">
+    <div className="md:mx-4">
       <div>
         <h2 className="text-2xl text-gray-600 dark:text-white tracking-wide pb-2 mt-14 lg:mt-2">
           Our Team

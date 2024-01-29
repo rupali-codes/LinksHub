@@ -58,7 +58,7 @@ export const Header: FC = () => {
       inActiveIcon: <SaveInActiveIcon className={inActiveIconCls} />,
       activeIcon: <SaveActiveIcon className={activeIconCls} />,
       label: 'Saved',
-      href: '#',
+      href: '/saved',
       isDisabled: true,
     },
     {
@@ -79,14 +79,11 @@ export const Header: FC = () => {
       const isActive = label === 'Home' ? isHomeActive : isUrlMatched
 
       return (
-        <li key={i}>
+        <>
+          <li key={i}>
           <a
             href={href}
-            className={`${
-              isDisabled
-                ? 'cursor-not-allowed'
-                : 'hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10'
-            } flex items-center justify-start p-2 gap-2 text-base font-medium leading-5 rounded-xl ${
+            className={`hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 flex items-center justify-start p-2 gap-2 text-base font-medium leading-5 rounded-xl ${
               isActive ? 'text-primary dark:text-white' : 'text-gray-text'
             }`}
           >
@@ -96,6 +93,7 @@ export const Header: FC = () => {
             <span>{label}</span>
           </a>
         </li>
+        </>
       )
     })
 

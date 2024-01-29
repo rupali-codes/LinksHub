@@ -18,7 +18,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
   const { theme } = useTheme()
 
   const category = router.asPath
-  const categoryName = category.split('/')[1].split('-').join(' ')
+  const categoryName = category.split('/')[1]
   const subcategoryName = category?.split('/')[2]
   const searchQuery = router.query.query?.toString() || ''
 
@@ -63,7 +63,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
         <IoIosArrowBack className="md:hidden" />
       </Link>
       <div className="md:bg-[#EDEDED] md:bg-opacity-20 px-[10px] py-[6px] text-xl md:text-base rounded-md truncate ...">
-        <h3>{capitalizeEachWord(cleanedCategory)}</h3>
+        <h3>{capitalizeEachWord(cleanedCategory.split('-').join(' '))}</h3>
       </div>
       <button>
         <FaInfoCircle

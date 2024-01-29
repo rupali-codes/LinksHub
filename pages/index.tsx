@@ -24,7 +24,7 @@ interface SocialLinkProps {
 
 interface RatingForkProps {
   type: 'star' | 'fork'
-  count: number
+  count: string | number
   link: string
   bgColor: string
   iconBgColor: string
@@ -82,7 +82,7 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
       <div className="text-3xl my-1">
         {count}
         <span className="text-lg m-1">
-          {type === 'star' ? 'Stars' : 'Fhorks'}
+          {type === 'star' ? 'Stars' : 'Forks'}
         </span>
       </div>
       <Link href={link}>
@@ -240,7 +240,7 @@ export default function Home() {
                   >
                     <RatingForkComponent
                       type="star"
-                      count={starCount}
+                      count={starCount ? starCount : '570+'}
                       link="https://github.com/rupali-codes/LinksHub"
                       bgColor="#575448"
                       iconBgColor="#FBD449"
@@ -251,7 +251,7 @@ export default function Home() {
 
                     <RatingForkComponent
                       type="fork"
-                      count={forkCount}
+                      count={forkCount ? forkCount : '480+'}
                       link="https://github.com/rupali-codes/LinksHub"
                       bgColor="#403B56"
                       iconBgColor="#714EFF"

@@ -46,7 +46,7 @@ const MobileBottomNav: FC = () => {
     {
       inActiveIcon: <TeamInActiveIcon className={inActiveIconCls} />,
       activeIcon: <TeamActiveIcon className={activeIconCls} />,
-      label: 'Our Team',
+      label: 'Team',
       href: '/contributors',
     },
   ]
