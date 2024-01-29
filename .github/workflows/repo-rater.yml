@@ -1,0 +1,22 @@
+name: Repo Rater Action
+run-name: repo-rater (#${{ github.event.issue.number || github.event.pull_request.number }})
+
+permissions:
+  issues: write
+  pull-requests: write
+
+on:
+  issues:
+    types: [closed]
+  pull_request:
+    types: [closed]
+
+jobs:
+  repo-rater:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: xkrishguptaa/action-repo-rater@v1.0.6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          message: "Thank you all for contributing to RepoRater! Please take a moment to rate this repo\\'s DX on [EddieHub\\'s RepoRater](https://repo-rater.eddiehub.io/rate?owner=${{ github.repository_owner }}&name=${{ github.event.repository.name }}) and give the repo a star ⭐"
