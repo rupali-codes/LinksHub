@@ -13,7 +13,6 @@ type PaginationProps = {
 }
 
 export default function Pagination({
-  toporbottom,
   totalPages,
   currentPage,
   handlePageChange,
@@ -34,7 +33,7 @@ export default function Pagination({
   }, [currentPage])
 
   const remainderOfCards = numberOfCards % 9
-  
+
   return (
     <>
       {totalPages && totalPages.length > 1 && (
@@ -42,7 +41,7 @@ export default function Pagination({
           <div
             className={
               currentPage == totalPages.length && remainderOfCards <= 3
-                ? 'p-20'
+                ? 'flex justify-center'
                 : 'w-full z-20 flex lg:w-full items-center justify-center absolute bottom-2 right-0'
             }
           >
