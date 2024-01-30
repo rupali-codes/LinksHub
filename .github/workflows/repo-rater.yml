@@ -19,4 +19,4 @@ jobs:
       - uses: xkrishguptaa/action-repo-rater@v1.0.6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          message: "Thank you all for contributing to RepoRater! Please take a moment to rate this repo\\'s DX on [EddieHub\\'s RepoRater](https://repo-rater.eddiehub.io/rate?owner=${{ github.repository_owner }}&name=${{ github.event.repository.name }}) and give the repo a star ⭐"
+          message: "Thank you all for contributing to RepoRater! Please take a moment to rate this repo\\'s DX on [EddieHub\\'s RepoRater](https://repo-rater.eddiehub.io/rate?owner=${{ github.repository_owner }}&name=${{ github.event.repository.name }}) and give it a star ⭐"
