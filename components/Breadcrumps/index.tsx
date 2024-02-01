@@ -25,7 +25,7 @@ const BreadCrumbs: React.FC<ComponentProps> = ({ sections }) => {
             href={section.url}
             className="flex gap-x-2 bg-theme-quinary bg-opacity-20 text-text-primary-light dark:text-text-quaternary text-lg py-0.5 px-2.5 rounded-lg capitalize cursor-pointer"
           >
-            {section.name.split('-').join(' ')}
+            {section.name?.split('-').join(' ')}
           </Link>
         ))}
       </div>
