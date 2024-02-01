@@ -18,15 +18,15 @@ export const TopBar: FC<TopBarProps> = ({}) => {
   const { theme } = useTheme()
 
   const category = router.asPath
-  const categoryName = category?.split('/')[1]?.split('-').join(' ')
-  const subcategoryName = category?.split('/')[2]?.split('-').join(' ')
-
   const searchQuery = router.query.query?.toString() || ''
+  const subcategoryName = category?.split('/')[2]?.split('-').join(' ')
+  let categoryName = category?.split('/')[1]?.split('-').join(' ')
 
   let cleanedCategory = ''
   cleanedCategory = (subcategoryName || categoryName)
     .replaceAll(regEx, ' ')
     .replaceAll('search query ', '')
+  categoryName = searchQuery.length > 0 ? cleanedCategory : categoryName
 
   // Helper function to capitalize the first letter of each word
   const capitalizeEachWord = (str: string) => {
