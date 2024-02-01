@@ -18,7 +18,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
   const { theme } = useTheme()
 
   const category = router.asPath
-  const categoryName = category.split('/')[1]?.split('-').join(' ')
+  const categoryName = category?.split('/')[1]?.split('-').join(' ')
   const subcategoryName = category?.split('/')[2]?.split('-').join(' ')
 
   const searchQuery = router.query.query?.toString() || ''
