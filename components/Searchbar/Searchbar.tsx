@@ -63,15 +63,23 @@ export const Searchbar: React.FC<SearchbarProps> = ({
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-
     dispatchSearch({ type: 'submit' })
-    if (searchQuery.trim() !== '') {
-      router.push({
-        pathname: '/search',
-        query: {
-          query: searchQuery,
-        },
-      })
+    const cleanedSearchQuery = searchQuery.toLocaleLowerCase().trim()
+    if (cleanedSearchQuery !== '') {
+      const { category } = sidebarData.find((item) =>
+        item.subcategory.find((subCat) => subCat.name === cleanedSearchQuery)
+      ) || { category: '' }
+
+      if (category != '') {
+        router.push(`/${category}/${cleanedSearchQuery}`)
+      } else {
+        router.push({
+          pathname: '/search',
+          query: {
+            query: searchQuery,
+          },
+        })
+      }
     }
   }
 
