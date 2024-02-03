@@ -164,4 +164,7 @@ LinksHub is licensed under the terms of the MIT License. check out <a href="./LI
 
 ## Support ⭐
 
-_We would be thrilled to have you contribute to LinksHub! Your support, whether through opening issues, submitting pull requests, or even just leaving a star, means a lot to us. Together, we can continue to improve and expand this resource hub for developers worldwide._
+- 💰 Become our [Sponsor](https://github.com/sponsors/rupali-codes)!
+- ⭐ Star our Repo 
+- 🥇  Rate us on [Repo Rater](https://repo-rater.eddiehub.io/)
+Together, we can continue to improve and expand this resource hub for people worldwide! 💪
