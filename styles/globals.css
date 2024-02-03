@@ -3,11 +3,15 @@
 @tailwind utilities;
 
 /* Font family */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap');
 
 /* Making default font family */
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.varela {
+  font-family: 'Varela Round', sans-serif;
 }
 
 #__next {
@@ -89,9 +93,7 @@ h6,
 hr,
 figure,
 p,
-pre {
-  text-align: justify !important;
-}
+
 /* setting root value for main scrollbar */
 :root {
   --scroll-thumb: #bbb;
@@ -202,21 +204,131 @@ pre {
     animation-iteration-count: 1 !important;
     animation: none !important;
 
-      /* Disables background-attachment: fixed, which prevents elements with fixed backgrounds from remaining in place while scrolling.
+    /* Disables background-attachment: fixed, which prevents elements with fixed backgrounds from remaining in place while scrolling.
        This reduces the perception of motion when scrolling.
       */
     background-attachment: initial !important;
-    
-      /* Reverts scroll-behavior to its default value 'auto', which prevents smooth scrolling behavior.
+
+    /* Reverts scroll-behavior to its default value 'auto', which prevents smooth scrolling behavior.
          Smooth scrolling may cause discomfort to motion-sensitive users.
       */
     scroll-behavior: auto !important;
-    
-      /* Sets transition duration and delay to 0 seconds, effectively disabling all transitions.
+
+    /* Sets transition duration and delay to 0 seconds, effectively disabling all transitions.
          This prevents any element from animating when its properties change.
       */
     transition-duration: 0s !important;
     transition-delay: 0s !important;
     transition: none !important;
   }
+}
+
+@media (min-width: 1400px) {
+  .contributors-our-team {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .contributors-our-team {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1260px) {
+  .maintainers-our-team {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.purpleScrollbar {
+  scrollbar-color: #714eff transparent;
+}
+
+.purpleScrollbar::-webkit-scrollbar {
+  width: 6px;
+  background-color: white;
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.11);
+  border-radius: 12px;
+  transition: box-shadow 0.2s;
+}
+
+.purpleScrollbar::-webkit-scrollbar-thumb {
+  width: 6px;
+  background-color: #714eff;
+  border-radius: 12px;
+  transform: scale(1);
+  transition: all 0.2s;
+}
+
+.purpleScrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #714effcc;
+  transform: scale(1.01);
+}
+
+.purpleScrollbar::-webkit-scrollbar-thumb:active {
+  background-color: #714eff;
+}
+
+/* Default styles for screen sizes larger than 768px */
+.cardTooltip {
+  font-size: 13px !important;
+  margin-top: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: calc(100vw - 2rem);
+  max-width: 400px;
+  z-index: 50;
+  position: absolute;
+  top: 50%;
+  line-height: 20px;
+}
+
+/* Media query for screen sizes up to 768px */
+@media (max-width: 470px) {
+  .cardTooltip {
+    position: absolute;
+    top: 27% !important;
+    left: 55% !important;
+    width: 80% !important;
+    max-width: 400px;
+    transform: translate(-50%, -50%) ;
+  }
+}
+/* Media query for screen sizes up to 471px */
+@media (max-width: 471px) {
+  .cardTooltip {
+    position: absolute;
+    top: 27% !important;
+    left: 55% !important;
+    width: 80% !important;
+    max-width: 400px;
+    transform: translate(-50%, -50%) ;
+  }
+}
+
+/* Media query for screen sizes larger than 768px */
+@media (min-width: 769px) {
+  .cardTooltip {
+    position: fixed;
+  }
+} 
+
+/* width */
+
+.scrollColorDarkMobile::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+
+.scrollColorDarkMobile::-webkit-scrollbar-track {
+  background: #BDBDBD33;
+}
+
+/* Handle */
+
+.scrollColorDarkMobile::-webkit-scrollbar-thumb {
+  @apply bg-[#304269] dark:bg-white
 }

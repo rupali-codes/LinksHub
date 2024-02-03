@@ -40,5 +40,12 @@
     "url": "https://www.overleaf.com/latex/templates/tagged/cv",
     "category": "placement-prep",
     "subcategory": "resume-building"
+  },
+  {
+    "name": "Cultivated Culture",
+    "description": "This website tells about the score of your resume and gives you profession tips on how you can improve it further.",
+    "url": "https://cultivatedculture.com/resume-scanner/",
+    "category": "placement-prep",
+    "subcategory": "resume-building"
   }
 ]

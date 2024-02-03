@@ -128,5 +128,13 @@
     "url": "https://www.coursera.org/learn/introduction-to-front-end-development/",
     "category": "frontend",
     "subcategory": "react"
+  },
+  {
+    "name": "Mantine",
+    "description": "Mantine is a React components library focused on providing great user and developer experience.",
+
+    "url": "https://mantine.dev/",
+    "category": "frontend",
+    "subcategory": "react"
   }
 ]

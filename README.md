@@ -1,15 +1,16 @@
 <article align="center">
 
-![LinksHub-Banner](https://github.com/rupali-codes/LinksHub/assets/78981177/72b6554b-0186-437e-a5af-be03f6dceda4)
+![LinksHub-Banner](https://github.com/rupali-codes/LinksHub/assets/78981177/71b82c9a-9343-4854-b5cd-946193295759)
+
 </article><hr>
 
 <a name="welcome-to-linkshub"></a>
 
 # Welcome to LinksHub 👋
 
-LinksHub is a Hub of Links `For Developers By Developers`. Here, we've gathered a collection of all the best and most useful resources, both free and paid, to aid in the development journey.
+LinksHub is a hub of links made for and by the community. Whether you're a new developer, a seasoned technical writer, or a customer service representative looking to learn how to code, we got the resources you need to aid you in your learning journey.
 
-We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to the right developers.
+We recognize that there's a wealth of information available, but often, it's a matter of knowing where to find it. That's why we've made it our mission to bring the right resources to you.
 <a name="Outreach"></a>
 
 ## Outreach
@@ -20,6 +21,11 @@ We are passionate about helping people from all backgrounds start their open sou
     <th>Name</th>
     <th>Logo</th>
     <th>Purpose</th>
+  </tr>
+  <tr>
+    <td>Product Hunt</td>
+    <td><a href="https://www.producthunt.com/posts/linkshub?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-linkshub" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=437087&theme=light" alt="LinksHub - A&#0032;hub&#0032;of&#0032;ready&#0045;to&#0045;use&#0032;tech&#0032;resources | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a></td>
+    <td> A platform where people launch different kind of products/projects and share them with the community </td>
   </tr>
   <tr>
     <td>GirlScript Summer of Code 2023 </td>

@@ -1,12 +1,16 @@
 import { useRef, useEffect, Ref } from 'react'
+import { useRouter } from 'next/router'
+import dynamic from 'next/dynamic'
 
-import SearchIcon from 'assets/icons/SearchIcon'
+const ShortcutKey = dynamic(() => import('./ShortcutKey'), { ssr: false })
+
 import { SearchbarSuggestions } from './SearchbarSuggestions'
 import { ErrorMessage } from 'components/ErrorMessage'
 
+import SearchIcon from 'assets/icons/svg/search.svg'
+
 import { SubCategories, subcategoryArray } from '../../types'
 import { SearchbarAction } from './SearchbarReducer'
-import { useRouter } from 'next/router'
 import { sidebarData } from 'database/data'
 
 interface SearchbarProps {
@@ -73,8 +77,12 @@ export const Searchbar: React.FC<SearchbarProps> = ({
 
   useEffect(() => {
     const handleClickOutsideDropdown = (e: MouseEvent) => {
-
-      if(e.target && (e.target as HTMLElement).closest("[data-custom='restrict-click-outside']") !== null){
+      if (
+        e.target &&
+        (e.target as HTMLElement).closest(
+          "[data-custom='restrict-click-outside']"
+        ) !== null
+      ) {
         return
       }
       if ((formRef.current as HTMLFormElement).contains(e.target as Node))
@@ -90,32 +98,37 @@ export const Searchbar: React.FC<SearchbarProps> = ({
   }, [dispatchSearch])
 
   return (
-    <form data-custom='restrict-click-outside' noValidate ref={formRef} onSubmit={handleSubmit} role="search">
+    <form
+      data-custom="restrict-click-outside"
+      noValidate
+      ref={formRef}
+      onSubmit={handleSubmit}
+      role="search"
+    >
       <div className="relative">
-        <div className="flex items-center">
+        <div className="relative w-full h-12 flex items-center justify-between">
           <label htmlFor="simple-search" className="sr-only">
             Quick search
           </label>
+
           <input
             ref={inputRef}
             type="text"
             id="simple-search"
             name="simple-search"
-            className="block p-2.5 w-full bg-transparent text-sm text-dark dark:text-text-primary border border-dashed border-gray-text focus:border-theme-secondary dark:focus:border-theme-primary dark:focus:ring-theme-primary focus:ring-theme-secondary dark:placeholder-gray-text outline-none transition-all ease-in-out duration-300 rounded-lg "
+            className="peer h-12 w-full flex items-center justify-start pl-[46px] pr-4 py-3 bg-slate-100 bg-opacity-50 dark:bg-zinc-400 dark:bg-opacity-20 rounded-[10px] outline-none hover:shadow-input-hover focus:shadow-input-focus dark:hover:shadow-input-hover-dark dark:focus:shadow-input-focus-dark"
             placeholder="Quick search..."
             value={searchQuery}
             onChange={handleSearchChange}
             autoComplete="off"
             required
           />
-          <button
-            type="submit"
-            className="ml-2 px-4 py-2.5 bg-theme-secondary text-light-primary rounded-md border border-dashed border-transparent hover:border-theme-primary hover:bg-transparent hover:text-theme-primary dark:hover:text-theme-primary transition-colors duration-300 ease-in-out"
-            aria-label="submit query button"
-          >
-            <SearchIcon className="w-5 h-5" aria-hidden="true" />
-          </button>
+
+          <SearchIcon className="absolute top-[14px] left-4 fill-gray-400 peer-focus:fill-primary dark:peer-focus:fill-slate-100" />
+
+          <ShortcutKey />
         </div>
+
         {suggestions.length > 0 && showSuggestions && (
           <SearchbarSuggestions
             suggestions={suggestions}
