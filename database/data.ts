@@ -231,15 +231,15 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'cloud-computing',
     subcategory: [
-      { name: 'google cloud', url: '/gcp', resources: DB.gcp },
+      { name: 'google cloud', url: '/google-cloud', resources: DB.gcp },
       {
         name: 'AWS cloud',
-        url: '/aws',
+        url: '/aws-cloud',
         resources: DB.aws,
       },
-      { name: 'Microsoft cloud', url: '/azure', resources: DB.azure },
-      { name: 'Oracle cloud', url: '/oracle', resources: DB.oracle },
-      { name: 'IBM cloud', url: '/ibm', resources: DB.ibm },
+      { name: 'Microsoft cloud', url: '/microsoft-cloud', resources: DB.azure },
+      { name: 'Oracle cloud', url: '/oracle-cloud', resources: DB.oracle },
+      { name: 'IBM cloud', url: '/ibm-cloud', resources: DB.ibm },
     ],
   },
   {
