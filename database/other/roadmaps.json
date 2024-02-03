@@ -1,5 +1,12 @@
 [
   {
+    "name": "Developer Roadmaps",
+    "description": "It's a platform offering curated learning paths and career roadmaps for various tech roles like web development, data science, product management, and more. It guides individuals through step-by-step resources to navigate their career aspirations.",
+    "url": "https://roadmap.sh",
+    "category": "other",
+    "subcategory": "roadmaps"
+  },
+  {
     "name": "Fronted Roadmap",
     "description": "In this blog post, you'll learn all the tips and tricks to get started in frontend development",
     "url": "https://surajk00.hashnode.dev/web-development-guide-for-an-absolute-beginner-2023?source=more_articles_bottom_blogs",

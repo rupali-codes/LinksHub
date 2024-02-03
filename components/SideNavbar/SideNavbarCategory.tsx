@@ -1,16 +1,18 @@
 import { FC, useState, useEffect, MutableRefObject } from 'react'
-import { FaAngleDown } from 'react-icons/fa'
-import { SideNavbarElement } from './SideNavbarElement'
-import type { ISidebar } from '../../types'
-import Link from 'next/link'
-import useOnClickOutside from 'hooks/useOnClickOutside'
-import { useSearchReducer } from 'hooks/useSearchReducer'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
+
+import { SideNavbarElement } from './SideNavbarElement'
+
+import useOnClickOutside from 'hooks/useOnClickOutside'
+import type { ISidebar } from '../../types'
+
+import AngleIcon from 'assets/icons/svg/angle-down.svg'
 
 export const SideNavbarCategory: FC<{
   categoryData: ISidebar
   expand: boolean
-  listRef : MutableRefObject<HTMLUListElement | null>
+  listRef: MutableRefObject<HTMLUListElement | null>
 }> = ({ categoryData, expand, listRef }) => {
   const [isOpen, setIsOpen] = useState(expand)
   const router = useRouter()
@@ -29,30 +31,33 @@ export const SideNavbarCategory: FC<{
 
   const handleToggle = () => {
     setIsOpen(!isOpen)
-
   }
 
-  const handleClickOutside = async() => {
-    setIsOpen(false);
+  const handleClickOutside = async () => {
+    setIsOpen(false)
     router.replace('/')
   }
-  useOnClickOutside(listRef , handleClickOutside )
+  useOnClickOutside(listRef, handleClickOutside)
 
   return (
-    <li className="relative w-full transition-all ease-in-out text-theme-secondary dark:text-theme-primary dark:bg-opacity-5 hover:text-theme-secondary dark:hover:text-theme-primary rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-theme-primary">
+    <li className="w-full transition-all ease-in-out text-primary dark:text-theme-primary dark:bg-opacity-5 hover:text-theme-secondary dark:hover:text-theme-primary rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-theme-primary">
       <Link
         className="flex w-full cursor-pointer justify-between py-2"
         onClick={handleToggle}
         aria-label={`toggle ${category.toLowerCase()} category`}
         href={`/${category}`}
       >
-        <h1 className="font-bold uppercase w-4/5 truncate">
+        <h1
+          className={`text-slate-500 dark:text-slate-300 text-lg font-sans font-medium w-4/5 truncate ${
+            category.length < 4 ? 'uppercase' : 'capitalize'
+          }`}
+        >
           {category.split('-').join(' ')}
         </h1>
-        <FaAngleDown
+        <AngleIcon
           className={`${
             isOpen && 'rotate-180'
-          } self-center transition duration-300 ease-in-out`}
+          } stroke-slate-500 dark:stroke-slate-300 self-center transition duration-300 ease-in-out`}
         />
       </Link>
       <div
@@ -60,9 +65,7 @@ export const SideNavbarCategory: FC<{
           isOpen ? 'max-h-screen' : ''
         }`}
       >
-        <ul className="relative ml-1 border-l-2 dark:border-zinc-500 border-zinc-300 -pl-0.5">
-          {sortedSubcategoryList}
-        </ul>
+        <ul className="">{sortedSubcategoryList}</ul>
       </div>
     </li>
   )
