@@ -19,7 +19,8 @@ export const TopBar: FC<TopBarProps> = ({}) => {
 
   const category = router.asPath
   const categoryName = category?.split('/')[1]?.split('-').join(' ')
-  const subcategoryName = category?.split('/')[2]?.split('-').join(' ')
+  const subCategoryKeyName = category?.split('/')[2]
+  const subcategoryName = subCategoryKeyName?.split('-').join(' ')
 
   const searchQuery = router.query.query?.toString() || ''
 
@@ -36,10 +37,9 @@ export const TopBar: FC<TopBarProps> = ({}) => {
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(' ')
   }
-
-  const description = categoryDescriptions[searchQuery || subcategoryName] || ''
+  const description =
+    categoryDescriptions[searchQuery || subCategoryKeyName] || ''
   const isResourceSelected = isValidResource(searchQuery || subcategoryName)
-
   if (router.pathname.length === 1) return null
   return isResourceSelected ? (
     <div

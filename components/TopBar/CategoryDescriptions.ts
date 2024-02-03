@@ -228,11 +228,11 @@ const categoryDescriptions: CategoryDescriptions = {
     '"Ethers" generally refers to both the native cryptocurrency of the Ethereum network and a popular JavaScript library used for interacting with the Ethereum blockchain.',
 
   //cloud computing
-  aws: 'AWS, Amazon\'s cloud computing platform, provides scalable and reliable services, including computing power, storage, and machine learning. Trusted by millions, AWS enables businesses to innovate and transform digitally with efficiency.',
-  gcp: 'Google Cloud is a prominent cloud computing platform offering a range of services, from computing and storage to advanced AI solutions. Trusted by businesses, it facilitates innovation and scalability.',
-  azure: 'Microsoft Cloud, known as Azure, is a comprehensive cloud computing platform. With diverse services, including computing, storage, and AI, Azure empowers businesses to thrive in the digital landscape.',
-  oracle: 'Oracle Cloud is a leading cloud computing platform providing a robust suite of services. From databases to advanced solutions, Oracle Cloud supports businesses in achieving scalability, security, and innovation.',
-  ibm: 'IBM Cloud stands as a formidable cloud computing platform, offering a wide array of services. From computing power to advanced technologies, IBM Cloud supports businesses in their digital transformation journey.',
+  'aws-cloud': 'AWS, Amazon\'s cloud computing platform, provides scalable and reliable services, including computing power, storage, and machine learning. Trusted by millions, AWS enables businesses to innovate and transform digitally with efficiency.',
+  'google-cloud': 'Google Cloud is a prominent cloud computing platform offering a range of services, from computing and storage to advanced AI solutions. Trusted by businesses, it facilitates innovation and scalability.',
+  'microsoft-cloud': 'Microsoft Cloud, known as Azure, is a comprehensive cloud computing platform. With diverse services, including computing, storage, and AI, Azure empowers businesses to thrive in the digital landscape.',
+  'oracle-cloud': 'Oracle Cloud is a leading cloud computing platform providing a robust suite of services. From databases to advanced solutions, Oracle Cloud supports businesses in achieving scalability, security, and innovation.',
+  'ibm-cloud': 'IBM Cloud stands as a formidable cloud computing platform, offering a wide array of services. From computing power to advanced technologies, IBM Cloud supports businesses in their digital transformation journey.',
 
   //internet of things
   coursera: 'Coursera is an online learning platform that offers a wide range of courses, specializations, and degrees from top universities and organizations globally. It provides accessible and flexible education to individuals seeking to enhance their skills and knowledge.',
