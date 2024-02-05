@@ -198,7 +198,7 @@ export const sidebarData: ISidebar[] = [
       {
         name: 'NLP',
         url: '/natural-language-processing',
-        resources: DB.nlp,
+        resources: DB.naturalLanguageProcessing,
       },
     ],
   },
@@ -208,22 +208,22 @@ export const sidebarData: ISidebar[] = [
       {
         name: 'Offensive security',
         url: '/offensive-security',
-        resources: DB.offensive_security,
+        resources: DB.offensiveSecurity,
       },
       {
         name: 'Defensive Security',
         url: '/defensive-security',
-        resources: DB.defensive_security,
+        resources: DB.defensiveSecurity,
       },
       {
         name: 'Malware Analysis',
         url: '/malware-analysis',
-        resources: DB.malware_analysis,
+        resources: DB.malwareAnalysis,
       },
       {
         name: 'Web Security',
         url: '/web-security',
-        resources: DB.web_security,
+        resources: DB.webSecurity,
       },
     ],
   },
@@ -231,15 +231,15 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'cloud-computing',
     subcategory: [
-      { name: 'google cloud', url: '/google-cloud', resources: DB.gcp },
+      { name: 'google cloud', url: '/google-cloud', resources: DB.googleCloud },
       {
         name: 'AWS cloud',
         url: '/aws-cloud',
-        resources: DB.aws,
+        resources: DB.awsCloud,
       },
-      { name: 'Microsoft cloud', url: '/microsoft-cloud', resources: DB.azure },
-      { name: 'Oracle cloud', url: '/oracle-cloud', resources: DB.oracle },
-      { name: 'IBM cloud', url: '/ibm-cloud', resources: DB.ibm },
+      { name: 'Microsoft cloud', url: '/microsoft-cloud', resources: DB.microsoftCloud },
+      { name: 'Oracle cloud', url: '/oracle-cloud', resources: DB.oracleCloud },
+      { name: 'IBM cloud', url: '/ibm-cloud', resources: DB.ibmCloud },
     ],
   },
   {
@@ -305,6 +305,11 @@ export const sidebarData: ISidebar[] = [
         name: 'Game Development',
         url: '/game-development',
         resources: DB.gameDevelopment,
+      },
+      {
+        name: 'UI/UX Designing',
+        url: '/ui-ux',
+        resources: DB.uiUx,
       },
     ],
   },
@@ -377,7 +382,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       {
         name: 'Smart Contracts',
-        url: '/smartcontracts',
+        url: '/smart-contracts',
         resources: DB.smartContracts,
       },
       {

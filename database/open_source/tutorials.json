@@ -11,7 +11,7 @@
     "description": "This is the in-depth course for Open Source in the Hindi language, which covers topics required to understand the process involved in Open Source Contribution.",
     "url": "https://www.youtube.com/playlist?list=PLinedj3B30sAT6CotNj0iffhRV89SkNK9",
     "category": "open-source",
-    "subcategory": "os-tutorials",
+    "subcategory": "tutorials",
     "language": "Hindi"
   },
   {
@@ -19,6 +19,6 @@
     "description": "Learn why and how to contribute to open source software. You will learn about how to find projects to contribute to, how to make issues and PRs, how to make money from open source, and more.",
     "url": "https://youtu.be/yzeVMecydCE?si=LaiHo7-CWhxPbwjD",
     "category": "open-source",
-    "subcategory": "os-tutorials"
+    "subcategory": "tutorials"
   }
 ]
