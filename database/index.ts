@@ -98,7 +98,7 @@ export { default as softwareTesting } from './youtube/software-testing.json'
 export { default as computerScience } from './youtube/computer-science.json'
 export { default as fintech } from './youtube/fintech.json'
 export { default as gameDevelopment } from './youtube/game-development.json'
-export { default as uiUx } from './youtube/ui-ux.json'
+export { default as uiUxDesigning } from './youtube/ui-ux-designing.json'
 
 // other
 export { default as github } from './other/github.json'

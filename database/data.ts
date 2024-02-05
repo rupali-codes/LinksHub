@@ -308,8 +308,8 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'UI/UX Designing',
-        url: '/ui-ux',
-        resources: DB.uiUx,
+        url: '/ui-ux-designing',
+        resources: DB.uiUxDesigning,
       },
     ],
   },
