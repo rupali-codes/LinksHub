@@ -64,16 +64,16 @@ const categoryDescriptions: CategoryDescriptions = {
   //languages
   'c-programming':
     'C is a general-purpose programming language that was developed in the early 1970s by Dennis Ritchie at Bell Labs. C is widely used for developing system software, embedded systems, and application software.',
-  'cpp':
-    "C++ is a versatile and powerful programming language that builds upon the features of C, offering object-oriented programming capabilities and support for low-level memory manipulation. It's widely used for developing system software, games, high-performance applications, and more.",
+  cpp: "C++ is a versatile and powerful programming language that builds upon the features of C, offering object-oriented programming capabilities and support for low-level memory manipulation. It's widely used for developing system software, games, high-performance applications, and more.",
   dart: "Dart is a programming language primarily used for building web and mobile applications with a focus on client-side development. It's the language behind the Flutter framework, allowing developers to create cross-platform apps with a single codebase. Dart offers features like a Just-In-Time (JIT) compiler for development speed and an Ahead-Of-Time (AOT) compiler for production performance optimization.",
   kotlin:
     'Kotlin is a modern, statically-typed programming language that seamlessly interoperates with Java, making it a popular choice for Android app development. Known for its concise syntax and enhanced safety features, Kotlin offers nullable types and expressive constructs to streamline development processes.',
   java: 'Java is a widely-used, object-oriented programming language known for its "write once, run anywhere" philosophy, enabling developers to create platform-independent applications. It provides a robust standard library, automatic memory management through garbage collection, and a strong emphasis on safety and portability in various domains, from web development to enterprise applications.',
   rust: 'Rust is a systems programming language designed for safety and performance, featuring a strong focus on memory safety without sacrificing low-level control. Its ownership and borrowing system ensures prevention of common programming errors like null pointer dereferences, making it suitable for tasks ranging from system-level programming to building web services.',
-  'csharp':
+  csharp:
     'C# is a modern, object-oriented programming language that was developed by Microsoft in the early 2000s. C# is widely used for developing Windows desktop applications, web applications, and games.',
-  golang: 'Go is a modern, open-source programming language that Google developed in the early 2000s. Go is widely used for developing networking, web, and cloud applications.',
+  golang:
+    'Go is a modern, open-source programming language that Google developed in the early 2000s. Go is widely used for developing networking, web, and cloud applications.',
   javascript:
     'JavaScript is widely used for developing web applications, mobile applications, and desktop applications. JavaScript is a dynamically typed language that supports functional and object-oriented programming styles.',
   python:
@@ -98,8 +98,7 @@ const categoryDescriptions: CategoryDescriptions = {
   'os-programs':
     'Open source programs where contributors contribute in projects under the guidance of mentors.',
   //devops
-  'cicd':
-    'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
+  cicd: 'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
   'devops-life-cycle':
     'DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
   'devops-methodologies':
@@ -123,7 +122,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Deep learning is a subfield of machine learning that involves the use of neural networks to learn from data. Deep learning is widely used for image recognition, natural language processing, and speech recognition. ',
   'machine-learning':
     'Machine learning is a subfield of artificial intelligence that uses statistical, mathematical, and computational methods to learn from data. Machine learning is widely used for data analysis, data visualization, and predictive modeling.',
-  'natural-language-processing': 'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
+  'natural-language-processing':
+    'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
 
   // cyber-security
   'offensive-security':
@@ -143,7 +143,7 @@ const categoryDescriptions: CategoryDescriptions = {
   hosting:
     'Web hosting is an online service that makes the content of your website accessible on the internet. When you purchase a hosting plan, you are renting space on a physical server to store all the files and data.',
   dsa: 'Data Structures and Algorithms play an important role in tech placements. So here is a list of important and great dsa resources',
-  'officialdocs':
+  officialdocs:
     'Official docs is short for official documentation. Official documentation is an important resource for users of software products and services as it provides a comprehensive guide to using the software.',
   'project-ideas':
     'Projects play an important role in your resume. So here is a list of some great projects and their repositories.',
@@ -173,11 +173,20 @@ const categoryDescriptions: CategoryDescriptions = {
   'web3-metaverse':
     'Web3 is the next generation of the internet. It is a decentralized network that allows users to interact with each other without the need for intermediaries. ',
 
+  //competitive programming
+  platforms:
+    'Online platforms such as Codeforces, HackerRank, and LeetCode provide a virtual arena for programmers to engage in competitive programming challenges, honing their problem-solving skills.',
+  tutorial:
+    'Various online resources offer tutorials on algorithms, data structures, and problem-solving techniques, assisting aspiring competitive programmers in enhancing their coding proficiency and strategic thinking.',
+  helpers:
+    'Coding libraries, templates, and community forums serve as valuable aids for competitive programmers, offering pre-written code snippets, discussions, and collaborative support to optimize problem-solving efficiency.',
+
   //other
-  events: 'An event is a gathering where professionals and enthusiasts explore, discuss, and showcase advancements in technology. It fosters learning, networking, and collaboration among individuals passionate about various technical fields.',
+  events:
+    'An event is a gathering where professionals and enthusiasts explore, discuss, and showcase advancements in technology. It fosters learning, networking, and collaboration among individuals passionate about various technical fields.',
   communities:
     'Communities are groups of like-minded people who work on projects and help their peers to grow  and improve their skills.',
-  'devtools':
+  devtools:
     'This list of Development tools will help you boost your programming speed and modify your projects to the next level.',
   github: 'Well, Github does not need description, devs know well!',
   git: 'Your friendly neighborhood version control system to track the development activities.',
@@ -188,8 +197,10 @@ const categoryDescriptions: CategoryDescriptions = {
     'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
   'text-formatting':
     'Your ultimate solution for all your text formatting needs!',
-    roadmaps: 'Roadmaps are strategic plans that outline key milestones, goals, and timelines. They serve as guides for project development, ensuring a systematic and organized approach to achieving objectives.',
-    domains: 'DNS is a crucial component of the internet infrastructure. It translates human-readable domain names into IP addresses, facilitating seamless communication between devices on the internet.',
+  roadmaps:
+    'Roadmaps are strategic plans that outline key milestones, goals, and timelines. They serve as guides for project development, ensuring a systematic and organized approach to achieving objectives.',
+  domains:
+    'DNS is a crucial component of the internet infrastructure. It translates human-readable domain names into IP addresses, facilitating seamless communication between devices on the internet.',
 
   // Placement-Prep
   'interview-preparation':
@@ -204,7 +215,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Explore resources, articles, and guidance for career planning, goal setting, and professional growth in the tech industry.',
   certifications:
     'Curated list of globally recognized tech certifications, including requirements, benefits, and preparation strategies, emphasizing industry recognition and validity.',
-  'cover-letters': 'A cover letter is a formal document accompanying a resume, providing a personalized introduction to a potential employer. It highlights the applicant\'s qualifications, skills, and interest in the specific position.',
+  'cover-letters':
+    "A cover letter is a formal document accompanying a resume, providing a personalized introduction to a potential employer. It highlights the applicant's qualifications, skills, and interest in the specific position.",
 
   //technical-writing
   'technical-writing-tools':
@@ -218,7 +230,7 @@ const categoryDescriptions: CategoryDescriptions = {
   'dsa-tutorials':
     'This section provides you with YouTube tutorials that help you grasp concepts better by hands-on experience and learn better, practically!',
   //BlockChain
-  'smartcontracts':
+  smartcontracts:
     'Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They run on a blockchain network, which is a decentralized and distributed ledger technology. Smart contracts automatically execute and enforce the terms of a contract when predefined conditions are met',
   truffle:
     'Truffle is a popular development framework for Ethereum blockchain. It provides a development environment, testing framework, and asset pipeline for building decentralized applications (DApps) on the Ethereum platform.',
@@ -228,15 +240,19 @@ const categoryDescriptions: CategoryDescriptions = {
     '"Ethers" generally refers to both the native cryptocurrency of the Ethereum network and a popular JavaScript library used for interacting with the Ethereum blockchain.',
 
   //cloud computing
-  aws: 'AWS, Amazon\'s cloud computing platform, provides scalable and reliable services, including computing power, storage, and machine learning. Trusted by millions, AWS enables businesses to innovate and transform digitally with efficiency.',
+  aws: "AWS, Amazon's cloud computing platform, provides scalable and reliable services, including computing power, storage, and machine learning. Trusted by millions, AWS enables businesses to innovate and transform digitally with efficiency.",
   gcp: 'Google Cloud is a prominent cloud computing platform offering a range of services, from computing and storage to advanced AI solutions. Trusted by businesses, it facilitates innovation and scalability.',
-  azure: 'Microsoft Cloud, known as Azure, is a comprehensive cloud computing platform. With diverse services, including computing, storage, and AI, Azure empowers businesses to thrive in the digital landscape.',
-  oracle: 'Oracle Cloud is a leading cloud computing platform providing a robust suite of services. From databases to advanced solutions, Oracle Cloud supports businesses in achieving scalability, security, and innovation.',
+  azure:
+    'Microsoft Cloud, known as Azure, is a comprehensive cloud computing platform. With diverse services, including computing, storage, and AI, Azure empowers businesses to thrive in the digital landscape.',
+  oracle:
+    'Oracle Cloud is a leading cloud computing platform providing a robust suite of services. From databases to advanced solutions, Oracle Cloud supports businesses in achieving scalability, security, and innovation.',
   ibm: 'IBM Cloud stands as a formidable cloud computing platform, offering a wide array of services. From computing power to advanced technologies, IBM Cloud supports businesses in their digital transformation journey.',
 
   //internet of things
-  coursera: 'Coursera is an online learning platform that offers a wide range of courses, specializations, and degrees from top universities and organizations globally. It provides accessible and flexible education to individuals seeking to enhance their skills and knowledge.',
-  'raspberrypi': 'Raspberry Pi is a series of low-cost, credit card-sized single-board computers developed to promote computer science education and DIY projects. With a vibrant community, Raspberry Pi empowers enthusiasts and learners to explore programming, electronics, and creative computing.' 
+  coursera:
+    'Coursera is an online learning platform that offers a wide range of courses, specializations, and degrees from top universities and organizations globally. It provides accessible and flexible education to individuals seeking to enhance their skills and knowledge.',
+  raspberrypi:
+    'Raspberry Pi is a series of low-cost, credit card-sized single-board computers developed to promote computer science education and DIY projects. With a vibrant community, Raspberry Pi empowers enthusiasts and learners to explore programming, electronics, and creative computing.',
 }
 
 export default categoryDescriptions
