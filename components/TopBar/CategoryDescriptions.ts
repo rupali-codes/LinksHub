@@ -174,12 +174,12 @@ const categoryDescriptions: CategoryDescriptions = {
     'Web3 is the next generation of the internet. It is a decentralized network that allows users to interact with each other without the need for intermediaries. ',
 
   //competitive programming
-  platforms:
-    'Online platforms such as Codeforces, HackerRank, and LeetCode provide a virtual arena for programmers to engage in competitive programming challenges, honing their problem-solving skills.',
-  tutorial:
-    'Various online resources offer tutorials on algorithms, data structures, and problem-solving techniques, assisting aspiring competitive programmers in enhancing their coding proficiency and strategic thinking.',
-  helpers:
+  'cp-helpers':
     'Coding libraries, templates, and community forums serve as valuable aids for competitive programmers, offering pre-written code snippets, discussions, and collaborative support to optimize problem-solving efficiency.',
+  'cp-platforms':
+    'Online platforms such as Codeforces, HackerRank, and LeetCode provide a virtual arena for programmers to engage in competitive programming challenges, honing their problem-solving skills.',
+  'cp-tutorials':
+    'Various online resources offer tutorials on algorithms, data structures, and problem-solving techniques, assisting aspiring competitive programmers in enhancing their coding proficiency and strategic thinking.',
 
   //other
   events:
