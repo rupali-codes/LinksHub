@@ -111,6 +111,7 @@ export { default as textFormatting } from './other/text-formatting.json'
 // competitive programming
 export { default as cpPlatforms } from './competitive_programming/cp-platforms.json'
 export { default as cpTutorials } from './competitive_programming/cp-tutorials.json'
+export { default as cpHelpers } from './competitive_programming/cp-helpers.json'
 // technical-writing
 export { default as technicalWritingTools } from './technical-writing/tools.json'
 // Placement-Preparation
