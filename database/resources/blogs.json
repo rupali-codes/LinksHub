@@ -159,5 +159,33 @@
     "url": "https://www.geeksforgeeks.org/machine-learning-projects/",
     "category": "resources",
     "subcategory": "blogs"
+  },
+  {
+    "name": "SitePoint",
+    "description": "SitePoint is a platform that provides a wide range of articles, tutorials, and courses on web development and design.",
+    "url": "https://www.sitepoint.com/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "Chat.Zulip",
+    "description": "Zulip combines the immediacy of real-time chat with an email threading model. With Zulip, you can catch up on important conversations while ignoring irrelevant ones.",
+    "url": "https://chat.zulip.org/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "A List Apart",
+    "description": "A List Apart is a website that publishes articles on web design, web development, and web content.",
+    "url": "https://alistapart.com/",
+    "category": "resources",
+    "subcategory": "blogs"
+  },
+  {
+    "name": "SpeckyBoy",
+    "description": "SpeckyBoy is an online magazine for web designers and developers, with a focus on useful resources, tutorials, and tips.",
+    "url": "https://speckyboy.com/",
+    "category": "resources",
+    "subcategory": "blogs"
   }
 ]

@@ -208,5 +208,40 @@
     "url": "https://ui.shadcn.com/",
     "category": "frontend",
     "subcategory": "UI Generators"
+  },
+  {
+    "name": "Tailwind Components",
+    "description": "Tailwind Components is an open-source Tailwind UI components and templates to bootstrap your new apps, projects or landing sites!",
+    "url": "https://tailwindcomponents.com/",
+    "category": "frontend",
+    "subcategory": "UI Generators"
+  },
+  {
+    "name": "Meraki UI",
+    "description": "Meraki UI is a collection of beautiful, responsive, and customizable components for React, Angular, and Vue. It's also a free and open-source library.",
+    "url": "https://merakiui.com/",
+    "category": "frontend",
+    "subcategory": "UI Generators"
+  },
+  {
+    "name": "Tuk",
+    "description": "Tuk.dev is a website that offers a large collection of components and templates for Tailwind CSS",
+    "url": "https://tuk.dev/",
+    "category": "frontend",
+    "subcategory": "UI Generators"
+  },
+  {
+    "name": "Tailwind Toolbox",
+    "description": "Tailwind Toolbox is a site that offers free starter templates, components, and other resources for Tailwind CSS",
+    "url": "https://tailwindtoolbox.com/",
+    "category": "frontend",
+    "subcategory": "UI Generators"
+  },
+  {
+    "name": "Tailwind UI",
+    "description": "Tailwind UI is a collection of beautiful and expertly crafted components and templates, built by the makers of Tailwind CSS.",
+    "url": "https://tailwindui.com/",
+    "category": "frontend",
+    "subcategory": "UI Generators"
   }
 ]
