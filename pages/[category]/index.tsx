@@ -4,7 +4,7 @@ import { SubCategories } from 'types'
 import Link from 'next/link'
 import AddIcon from 'assets/icons/svg/AddIcon.svg'
 import ArrowIcon from 'assets/icons/svg/ArrowIcon.svg'
-import BreadCrumbs from 'components/Breadcrumps'
+import BreadCrumbs from 'components/Breadcrumbs'
 import MessageIcon from 'assets/icons/svg/MessageIcon.svg'
 import categoryDescriptions from 'components/TopBar/CategoryDescriptions'
 
