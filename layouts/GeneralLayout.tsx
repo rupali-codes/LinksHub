@@ -31,14 +31,14 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
         <main
           data-custom="restrict-click-outside"
           className={clsx(
-            'flex flex-col justify-between min-h-full px-4 pb-2 md:ml-[290px] lg:w-[calc(100%-290px)]',
+            'flex flex-col min-h-full px-4 pb-2 md:ml-[290px] lg:w-[calc(100%-290px)]',
 
             pathname != '/' && ' transition-color ease-in-out duration-200',
             'bg-theme-primary-light dark:bg-inherit'
           )}
           id="main"
         >
-          {children}
+          <div className="flex-grow">{children}</div>
           <Footer />
           <MobileBottomNav />
         </main>
