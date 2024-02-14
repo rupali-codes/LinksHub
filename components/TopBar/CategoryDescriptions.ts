@@ -30,8 +30,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Theme templates are pre-designed website themes that can be customized to fit your needs. They are useful for quickly setting up a website without having to design everything from scratch.',
   videos:
     'Videos are visual representations of moving images and sound. They can be used to convey information in a simple and easy-to-understand way.',
-  'three-js':
-    'Three.js is a cross-browser JavaScript library and application programming interface (API) used to create and display animated 3D computer graphics in a web browser using WebGL.',
+  '3D-libraries':
+    '3D libraries are collections of reusable components that can be used to create 3D graphics and animations. They are often used in conjunction with frameworks like Three.js to create web applications.',
   'next-js':
     'Next.js is a flexible React framework that gives you building blocks to create fast web applications.',
   'ui-generators':
