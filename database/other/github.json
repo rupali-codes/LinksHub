@@ -54,5 +54,19 @@
     "url": "https://maintainers.github.com/auth/signin",
     "category": "other",
     "subcategory": "github"
+  },
+  {
+    "name": "GitHub Profile Badges",
+    "description": "A collection of badges for your GitHub profile. You can use these badges to display your skills, the tools you use, or the languages you are familiar with.",
+    "url": "https://home.aveek.io/GitHub-Profile-Badges/",
+    "category": "other",
+    "subcategory": "github"
+  },
+  {
+    "name": "Shields",
+    "description": "Shields.io is a service that allows you to create and display badges for your projects. Badges are small images that show information such as the status, version, license, or popularity of your project. You can use Shields.io to generate badges from various sources, such as GitHub.",
+    "url": "https://shields.io/",
+    "category": "other",
+    "subcategory": "github"
   }
 ]
