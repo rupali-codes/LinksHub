@@ -2,7 +2,7 @@ import { FC } from 'react'
 import { useRouter } from 'next/router'
 import { useTheme } from 'next-themes'
 import { RxSlash } from 'react-icons/rx'
-import { TiHomeOutline } from 'react-icons/ti'
+import HomeIcon from 'assets/icons/svg/HomeIcon.svg'
 import { FaInfoCircle } from 'react-icons/fa'
 import { IoIosArrowBack } from 'react-icons/io'
 import categoryDescriptions from './CategoryDescriptions'
@@ -49,7 +49,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
         href={'/'}
         className="gap-x-2 items-center bg-[#EDEDED] bg-opacity-20 px-[10px] py-[6px] rounded-md cursor-pointer hidden md:flex"
       >
-        <TiHomeOutline />
+        <HomeIcon className="m-auto fill-text-primary-light dark:fill-text-quaternary" />
         <h3>Home</h3>
       </Link>
       <RxSlash className="hidden md:inline-block" />
