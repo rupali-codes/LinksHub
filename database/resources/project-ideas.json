@@ -1,5 +1,12 @@
 [
   {
+    "name": "Build Your Own X",
+    "description": "Master programming by recreating your favorite technologies from scratch",
+    "url": "https://build-your-own-x.vercel.app/#how-to-contribute",
+    "category": "resources",
+    "subcategory": "project-ideas"
+  },
+  {
     "name": "Flutter Projects",
     "description": "This website provides free fifteen flutter-based projects with source code.",
     "url": "https://www.interviewbit.com/blog/flutter-projects/",
