@@ -18,6 +18,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
   const { theme } = useTheme()
 
   const category = router.asPath
+  const categoryKeyName = category?.split('/')[1];
   const categoryName = category?.split('/')[1]?.split('-').join(' ')
   const subCategoryKeyName = category?.split('/')[2]
   const subcategoryName = subCategoryKeyName?.split('-').join(' ')
@@ -54,7 +55,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
       </Link>
       <RxSlash className="hidden md:inline-block" />
       <Link
-        href={'/' + categoryName}
+        href={'/' + categoryKeyName}
         className="bg-[#EDEDED] bg-opacity-20 px-[10px] py-[6px] rounded-md cursor-pointer hidden md:inline-block"
       >
         <h3>{capitalizeEachWord(categoryName)}</h3>
@@ -63,6 +64,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
       <Link href={'/' + categoryName} className="flex gap-x-2 items-center">
         <IoIosArrowBack className="md:hidden" />
       </Link>
+    
       <div className="md:bg-[#EDEDED] md:bg-opacity-20 px-[10px] py-[6px] text-xl md:text-base rounded-md truncate ...">
         <h3>{capitalizeEachWord(cleanedCategory)}</h3>
       </div>

@@ -64,7 +64,7 @@ const getFilteredCategoryList = (query: string) => {
 
 const matchSearch = (item: SubCategories, query: string) => {
   const itemName = item.name.toLowerCase()
-  const matchingResources = item.resources.filter(
+  const matchingResources = item.resources?.filter(
     (resource: { name: string }) =>
       resource.name.toLowerCase().includes(query.toLowerCase())
   )
