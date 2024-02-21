@@ -11,9 +11,9 @@ const BreadCrumbs: React.FC<ComponentProps> = ({ sections }) => {
       <div className="hidden sm:flex py-3">
         <Link
           href={`/`}
-          className="flex gap-x-2 bg-theme-quinary bg-opacity-20 text-text-primary-light dark:text-text-quaternary text-lg py-0.5 px-2.5 rounded-lg cursor-pointer"
-        >
-          <HomeIcon className="m-auto fill-text-primary-light dark:fill-text-quaternary" />
+          className="flex gap-x-2 bg-theme-quinary bg-opacity-20 text-text-primary-light dark:text-text-quaternary text-lg py-0.5 px-2.5 rounded-lg cursor-pointer
+        border-light-silver border-2 border-opacity-75">
+          <HomeIcon className="m-auto fill-text-primary-light dark:fill-text-quaternary"/>
           <div>Home</div>
         </Link>
         <div className="text-2xl mx-2.5 font-semibold text-text-secondary-light">
@@ -23,20 +23,20 @@ const BreadCrumbs: React.FC<ComponentProps> = ({ sections }) => {
           <Link
             key={i}
             href={section.url}
-            className="flex gap-x-2 bg-theme-quinary bg-opacity-20 text-text-primary-light dark:text-text-quaternary text-lg py-0.5 px-2.5 rounded-lg capitalize cursor-pointer"
-          >
+            className="flex gap-x-2 bg-theme-quinary bg-opacity-20 text-text-primary-light dark:text-text-quaternary text-lg py-0.5 px-2.5 rounded-lg capitalize cursor-pointer
+            border-dark-silver border-2 border-opacity-75">
             {section.name?.split('-').join(' ')}
           </Link>
         ))}
       </div>
-      <div className="flex sm:hidden">
+      <div className="flex sm:hidden border-light-silver border-2 border-opacity-75">
         <Link
           href={`/`}
           className="flex gap-x-2 text-text-quaternary text-lg py-0.5 rounded-lg cursor-pointer my-auto capitalize"
         >
           <IoChevronBack className="text-text-quinary" />
         </Link>
-        <div className="dark:text-text-primary text-1.5xl capitalize font-medium mx-2.5 my-auto">
+        <div className="dark:text-text-primary text-1.5xl capitalize font-medium mx-2.5 my-auto border-light-silver border-2 border-opacity-75">
           {sections[0].name}
         </div>
       </div>
