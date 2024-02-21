@@ -89,5 +89,33 @@
     "url": "https://killercoda.com/",
     "category": "other",
     "subcategory": "devtools"
-  } 
+  },
+  {
+    "name": "Compress jpeg",
+    "description": "This website will help you to compress your jpeg images.",
+    "url": "https://compressjpeg.com/",
+    "category": "other",
+    "subcategory": "devtools"
+  },
+  {
+    "name": "Picresize",
+    "description": "This website will help you to resize your images.",
+    "url": "https://picresize.com/",
+    "category": "other",
+    "subcategory": "devtools"
+  },
+  {
+    "name": "Tinypng",
+    "description": "This website will help you to compress your png images.",
+    "url": "https://tinypng.com/",
+    "category": "other",
+    "subcategory": "devtools"
+  },
+  {
+    "name": "Image Compressor",
+    "description": "This website will help you to compress your images.",
+    "url": "https://imagecompressor.com/",
+    "category": "other",
+    "subcategory": "devtools"
+  }
 ]

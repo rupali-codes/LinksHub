@@ -1,5 +1,3 @@
-import { useRouter } from "next/router"
-
 export interface SearchbarState {
   searchQuery: string
   categoryQuery: string

@@ -13,6 +13,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.31",
     "@types/react-dom": "18.0.11",
@@ -36,6 +37,7 @@
     "react-spinners": "^0.13.8",
     "react-tooltip": "^5.20.0",
     "react-transition-state": "^2.1.0",
+    "tailwind-merge": "^2.2.0",
     "typescript": "5.0.3",
     "typewriter-effect": "^2.21.0",
     "uuid": "9.0.0"

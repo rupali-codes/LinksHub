@@ -47,5 +47,26 @@
     "url": "https://remoteintech.company",
     "category": "other",
     "subcategory": "other-resources"
+  },
+  {
+    "name": "Figma",
+    "description": "Figma is a cloud-based design tool that is similar to Sketch in functionality and features, but with big differences that make Figma better for team collaboration.",
+    "url": "https://www.figma.com/",
+    "category": "other",
+    "subcategory": "other-resources"
+  },
+  {
+    "name": "Free Convert",
+    "description": "FreeConvert is an online file converter. So it works on Windows, Mac, Linux, or any mobile device. All major browsers are supported. Simply upload a file and select a target format.",
+    "url": "https://www.freeconvert.com/",
+    "category": "other",
+    "subcategory": "other-resources"
+  },
+  {
+    "name": "Sketch",
+    "description": "Sketch is a design toolkit built to help you create your best work — from your earliest ideas, through to final artwork.",
+    "url": "https://www.Sketch.com/",
+    "category": "other",
+    "subcategory": "other-resources"
   }
 ]

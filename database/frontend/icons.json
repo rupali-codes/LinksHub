@@ -7,6 +7,13 @@
     "subcategory": "icons"
   },
   {
+    "name": "Real Favicon Generator",
+    "description": "Platform where you can generate favicons for all platforms: iOS, Android, PC/Mac, and more.",
+    "url": "https://realfavicongenerator.net/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
     "name": "Font Awesome",
     "description": "A highly popular icon font, consisting of 1000+ icons spread across countless categories.",
     "url": "https://fontawesome.com/",
@@ -248,6 +255,34 @@
     "name": "Iconsax",
     "description": "ICONSAX provides a set of icons to use in React & React Native projects.",
     "url": "https://iconsax-react.pages.dev/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Twemoji",
+    "description": "Twitter's open-source emoji has a simple, consistent, and free icon set.",
+    "url": "https://twemoji.twitter.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Zondicons",
+    "description": "A set of free premium SVG icons for you to use on your digital products.",
+    "url": "https://www.zondicons.com/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Octicons",
+    "description": "A set of SVG icons handcrafted by GitHub for GitHub. They are designed to be scalable, consistent, and easy to use in various platforms and languages.",
+    "url": "https://primer.style/octicons/",
+    "category": "frontend",
+    "subcategory": "icons"
+  },
+  {
+    "name": "Radix",
+    "description": "A crisp set of 15 x 15 icons designed by the WorkOS team. They are designed to be simple, consistent, easy to use and fully customizable SVG icons.",
+    "url": "https://www.radix-ui.com/icons",
     "category": "frontend",
     "subcategory": "icons"
   }
