@@ -14,6 +14,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'images', url: '/images', resources: DB.images },
       { name: 'fonts', url: '/fonts', resources: DB.fonts },
       { name: 'colors', url: '/colors', resources: DB.colors },
+      { name: 'css games', url: '/css-games', resources: DB.cssGames },
       { name: 'react', url: '/react', resources: DB.react },
       {
         name: 'illustrations',
@@ -325,7 +326,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       { name: 'Platforms', url: '/cp-platforms', resources: DB.cpPlatforms },
       { name: 'Tutorials', url: '/cp-tutorials', resources: DB.cpTutorials },
-      { name: 'Helpers', url: '/cp-helpers', resources: DB.cpHelpers }
+      { name: 'Helpers', url: '/cp-helpers', resources: DB.cpHelpers },
     ],
   },
   {

@@ -12,6 +12,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Colors mean the aspects of the appearance of objects and light sources that may be described in terms of hue, lightness, and saturation',
   'design-inspiration':
     'The right kind of inspiration will always help you come up with creative and unique ideas for your projects but sometimes you need some help getting inspired. Luckily, there are a TON of great resources for design inspiration.',
+  'css-games':
+    'CSS games are a fun way to learn and practice CSS. They are a great way to learn new CSS properties and techniques, and they can help you improve your skills in a fun and interactive way.',
   fonts:
     'A font is a graphical representation of text that may include a different typeface, point size, weight, color, or design. Fonts are text characters of different types and sizes. They help designers convey interface content intuitively and guide web or mobile app users to interact with the interface smoothly. The term “font” actually refers to a set of graphics that correspond to some or all of the Unicode glyphs',
   icons:
