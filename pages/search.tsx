@@ -94,7 +94,7 @@ const Search = () => {
         />
       </Head>
       <TopBar className="shadow-black-500/50 fixed top-[76px] z-30 flex w-full -translate-x-4 items-center bg-gray-100 px-4 pt-6 pb-4 shadow-xl dark:bg-gray-900 md:hidden" />
-      <div className="min-h-[calc(100%-68px)] w-full pt-[85px] pb-4 md:min-h-[calc(100%-76px)] md:px-10 md:pt-10 h-[calc(100vh-150px)]">
+      <div className="min-h-[calc(100%-68px)] w-full pt-[85px] pb-4 md:px-10 md:pt-10 ">
         {filteredCardsList.length > 0 ? (
           <MemoizedCardsList cards={filteredCardsList} />
         ) : (
