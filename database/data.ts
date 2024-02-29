@@ -139,7 +139,7 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'Tutorials',
-        url: '/tutorials',
+        url: '/os-tutorials',
         resources: DB.openSourceTutorials,
       },
     ],
