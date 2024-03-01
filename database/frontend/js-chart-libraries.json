@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Chart.js",
+        "description": "Chart.js is a simple yet flexible JavaScript charting library that allows you to create interactive and responsive charts for your web applications.",
+        "url": "https://www.chartjs.org/",
+        "category": "frontend",
+        "subcategory": "js-chart-libraries"
+    },
+    {
+        "name": "Highcharts",
+        "description": "Highcharts is a powerful JavaScript charting library that provides a wide range of customizable and interactive charts for visualizing data in your web applications.",
+        "url": "https://www.highcharts.com/",
+        "category": "frontend",
+        "subcategory": "js-chart-libraries"
+    },
+    {
+        "name": "D3.js",
+        "description": "D3.js is a popular JavaScript library for manipulating documents based on data. It provides powerful tools for creating dynamic and interactive data visualizations on the web.",
+        "url": "https://d3js.org/",
+        "category": "frontend",
+        "subcategory": "js-chart-libraries"
+    },
+    {
+        "name": "Plotly.js",
+        "description": "Plotly.js is an open-source JavaScript graphing library that allows you to create interactive, publication-quality graphs and charts in your web applications.",
+        "url": "https://plotly.com/javascript/",
+        "category": "frontend",
+        "subcategory": "js-chart-libraries"
+    },
+    {
+        "name": "FusionCharts",
+        "description": "FusionCharts is a comprehensive JavaScript charting library that offers a wide range of charts, gauges, and maps for visualizing data in your web applications.",
+        "url": "https://www.fusioncharts.com/",
+        "category": "frontend",
+        "subcategory": "js-chart-libraries"
+    },
+    {
+        "name": "Google Charts",
+        "description": "Google Charts is a powerful JavaScript charting library that provides a variety of charts and visualization options for displaying data in your web applications.",
+        "url": "https://developers.google.com/chart/",
+        "category": "frontend",
+        "subcategory": "js-chart-libraries"
+    },
+    {
+        "name": "ApexCharts",
+        "description": "ApexCharts is a modern JavaScript charting library that offers a wide range of beautiful and interactive charts for visualizing data in your web applications.",
+        "url": "https://apexcharts.com/",
+        "category": "frontend",
+        "subcategory": "js-chart-libraries"
+    }
+]

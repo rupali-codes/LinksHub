@@ -54,6 +54,11 @@ export const sidebarData: ISidebar[] = [
         resources: DB.uilibraries,
       },
       { name: 'angular', url: '/angular', resources: DB.angular },
+      {
+        name: 'js-Chart Libraries',
+        url: '/js-chart-libraries',
+        resources: DB.jsChartLibraries,
+      }
     ],
   },
   {

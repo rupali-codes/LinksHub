@@ -40,6 +40,8 @@ const categoryDescriptions: CategoryDescriptions = {
     "Online code editors, also called cloud-based code editors, are convenient because they usually require no setup. Plus, it's way easier to collaborate with someone over the cloud.",
   'ui-libraries':
     'UI libraries are collections of reusable components that can be used to build user interfaces. They are often used in conjunction with frameworks like React or Vue.js to create web applications.',
+  'js-chart-libraries':
+    'JavaScript chart libraries are used to create interactive and visually appealing charts and graphs for web applications. They are often used in data visualization and reporting applications.',
   angular:
     'Angular is a popular open-source web application framework similar to react developed and maintained by Google. ',
   //backend
