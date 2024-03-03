@@ -114,7 +114,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
       role="search"
     >
       <div className="relative">
-        <div className="relative w-full h-12 flex items-center justify-between border-light-silver border-2 border-opacity-75">
+        <div className="relative w-full h-12 flex items-center justify-between">
           <label htmlFor="simple-search" className="sr-only">
             Quick search
           </label>
@@ -124,7 +124,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
             type="text"
             id="simple-search"
             name="simple-search"
-            className="peer h-12 w-full flex items-center justify-start pl-[46px] pr-4 py-3 bg-slate-100 bg-opacity-50 dark:bg-zinc-400 dark:bg-opacity-20 rounded-[10px] outline-none hover:shadow-input-hover focus:shadow-input-focus dark:hover:shadow-input-hover-dark dark:focus:shadow-input-focus-dark"
+            className="peer h-12 w-full flex items-center justify-start pl-[46px] pr-4 py-3 bg-slate-100 bg-opacity-50 dark:bg-zinc-400 dark:bg-opacity-20 rounded-[10px] outline-none hover:shadow-input-hover focus:shadow-input-focus dark:hover:shadow-input-hover-dark dark:focus:shadow-input-focus-dark border-light-silver border-2 border-opacity-75"
             placeholder="Quick search..."
             value={searchQuery}
             onChange={handleSearchChange}
