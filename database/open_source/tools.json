@@ -35,10 +35,17 @@
     "subcategory": "tools"
   },
   {
-    "name":"Good First Issues",
-    "description":"Looking for good first issues based on your tech stack? This website will help you find them.",
-    "url":"https://goodfirstissues.com/",
-    "category":"open source",
-    "subcategory":"tools"
+    "name": "Good First Issues",
+    "description": "Looking for good first issues based on your tech stack? This website will help you find them.",
+    "url": "https://goodfirstissues.com/",
+    "category": "open source",
+    "subcategory": "tools"
+  },
+  {
+    "name": "Material Design",
+    "description": "Material Design is an open-source design system by Google. It provides guidelines and resources for designing digital experiences.",
+    "url": "https://m3.material.io",
+    "category": "open source",
+    "subcategory": "tools"
   }
 ]
