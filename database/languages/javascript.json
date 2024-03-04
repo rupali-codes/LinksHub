@@ -14,6 +14,13 @@
     "subcategory": "javascript"
   },
   {
+    "name": "You Don't Know JS Yet",
+    "description": "This is a series of books diving deep into the core mechanisms of the JavaScript language",
+    "url": "https://github.com/getify/You-Dont-Know-JS",
+    "category": "languages",
+    "subcategory": "javascript"
+  },
+  {
     "name": "Eloquent Javascript",
     "description": "This  book explains the concepts of JavaScript with real-life examples",
     "url": "https://eloquentjavascript.net/",

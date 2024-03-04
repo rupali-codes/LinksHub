@@ -1,10 +1,10 @@
-[  
- { 
-     "name": "huetiful-js", 
-     "description": "This is a JavaScript library for simple color manipulations based on the Culori API. With over 50 utilities, Huetiful allows you to filter and sort color collections and query different properties of color as well as generate different palettes.", 
-     "url": "https://github.com/prjctimg/huetiful", 
-     "category": "frontend", 
-     "subcategory": "colors" 
+[
+  {
+    "name": "huetiful-js",
+    "description": "This is a JavaScript library for simple color manipulations based on the Culori API. With over 50 utilities, Huetiful allows you to filter and sort color collections and query different properties of color as well as generate different palettes.",
+    "url": "https://github.com/prjctimg/huetiful",
+    "category": "frontend",
+    "subcategory": "colors"
   },
   {
     "name": "Color Hunt",
@@ -206,6 +206,13 @@
     "name": "UIColors",
     "description": "UIColors is a interactive Tailwind CSS color palette UI with real examples. Create your own palette or edit anything from the library. It also allows you to import the palette directly to Figma file and more.",
     "url": "https://uicolors.app/",
+    "category": "frontend",
+    "subcategory": "colors"
+  },
+  {
+    "name": "ColorWave AI",
+    "description": "ColorWave AI is a color palette generator that uses AI to create beautiful color palettes.",
+    "url": "https://www.colorwave.dev/",
     "category": "frontend",
     "subcategory": "colors"
   }
