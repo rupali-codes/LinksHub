@@ -5,9 +5,10 @@ import { HiOutlineExternalLink } from 'react-icons/hi'
 import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 import type { IData } from 'types'
 import { collection, doc,where,query,getDocs, setDoc,getDoc } from 'firebase/firestore'
-import {db} from '../../firebase/Firebase'
+import {db} from '../../lib/firebase-config'
 import { Timestamp } from 'firebase/firestore'
 import Image from 'next/image'
+
 import Bookmark from 'components/Bookmark/Bookmark'
 
 interface CardProps {
@@ -142,6 +143,10 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
               ...Read More
             </span>
           )}
+        </div>
+        <div className='flex'>
+          <p className='text-3xl'>{upvoteCount}</p>
+          <button onClick={handleClick}><Img url={isUpvoted ? '/upvoteFilled.png' : '/upvote.png'} toggleUpvote={toggleUpvote}/></button>
         </div>
         <footer className="grid grid-cols-2 gap-x-4 md:grid-cols-1 lg:grid-cols-2">
         <CopyToClipboard url={url} />
