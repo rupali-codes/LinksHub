@@ -148,8 +148,8 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
           <p className='text-3xl'>{upvoteCount}</p>
           <button onClick={handleClick}><Img url={isUpvoted ? '/upvoteFilled.png' : '/upvote.png'} toggleUpvote={toggleUpvote}/></button>
         </div>
+        <footer className="card-actions justify-end">
         <footer className="grid grid-cols-2 gap-x-4 md:grid-cols-1 lg:grid-cols-2">
-        <CopyToClipboard url={url} />
           <a
             onClick={(e) => e.stopPropagation()}
             href={url}
