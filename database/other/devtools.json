@@ -117,5 +117,12 @@
     "url": "https://imagecompressor.com/",
     "category": "other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "Dr Link Check",
+    "description": "Dr. Link Check is a valuable tool that helps website owners identify and address broken links on their websites. Broken links can negatively impact user experience, search engine rankings, and overall site credibility.    ",
+    "url": "https://www.drlinkcheck.com/",
+    "category": "other",
+    "subcategory": "devtools"
   }
 ]

@@ -10,7 +10,11 @@ export const sidebarData: ISidebar[] = [
     category: 'frontend',
     subcategory: [
       { name: 'next js', url: '/next-js', resources: DB.next },
-      { name: 'three js', url: '/three-js', resources: DB.three },
+      {
+        name: '3D libraries',
+        url: '/3d-libraries',
+        resources: DB._3dLibraries,
+      },
       { name: 'images', url: '/images', resources: DB.images },
       { name: 'fonts', url: '/fonts', resources: DB.fonts },
       { name: 'colors', url: '/colors', resources: DB.colors },
@@ -54,6 +58,11 @@ export const sidebarData: ISidebar[] = [
         resources: DB.uilibraries,
       },
       { name: 'angular', url: '/angular', resources: DB.angular },
+      {
+        name: 'js-Chart Libraries',
+        url: '/js-chart-libraries',
+        resources: DB.jsChartLibraries,
+      }
     ],
   },
   {

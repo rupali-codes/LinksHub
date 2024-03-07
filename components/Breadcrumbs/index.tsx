@@ -38,6 +38,8 @@ const BreadCrumbs: React.FC<ComponentProps> = ({ sections }) => {
         </Link>
         <div className="dark:text-text-primary text-1.5xl capitalize font-medium mx-2.5 my-auto border-light-silver border-2 border-opacity-75">
           {sections[0].name}
+        <div className="dark:text-text-primary text-1.5xl capitalize font-medium mx-2.5 my-auto">
+          {sections[0].name?.split('-').join(' ')}
         </div>
       </div>
     </>
