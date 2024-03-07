@@ -30,14 +30,14 @@
   {
     "name": "Uiverse.io",
     "description": "It provides tons of cool UI elements made with HTML & CSS.",
-    "url": "https://uiverse.io/all",
+    "url": "https://uiverse.io/",
     "category": "frontend",
     "subcategory": "ui-generators"
   },
   {
     "name": "CSS Portal",
     "description": "A bundle of amazing UI CSS elements for you to use in your project.",
-    "url": "https://www.cssportal.com/ui-generators.php",
+    "url": "https://www.cssportal.com/",
     "category": "frontend",
     "subcategory": "ui-generators"
   },
