@@ -7,7 +7,7 @@ export const Footer: FC = () => {
   const isDarkMode = resolvedTheme === 'dark'
 
   return (
-    <footer className="z-10 flex w-full items-baseline justify-center rounded-lg text-center px-2 border-dark-silver border-2 border-opacity-75 shadow-lg shadow-silver">
+    <footer className="z-10 flex w-full items-baseline justify-center rounded-lg text-center px-2 border-gray-700 border-2 border-opacity-75 shadow-lg shadow-gray-700">
       <div className="text-sm leading-7 md:tracking-wide text-center text-black dark:text-theme-secondary-light">
         <div>&copy; {new Date().getFullYear()} LinksHub | MIT License </div>
         <div className="lg:flex">

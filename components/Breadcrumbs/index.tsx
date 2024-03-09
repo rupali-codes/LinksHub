@@ -29,7 +29,7 @@ const BreadCrumbs: React.FC<ComponentProps> = ({ sections }) => {
           </Link>
         ))}
       </div>
-      <div className="flex sm:hidden border-light-silver border-2 border-opacity-75">
+      <div className="flex sm:hidden border-gray-300 border-2 border-opacity-75">
         <Link
           href={`/`}
           className="flex gap-x-2 text-text-quaternary text-lg py-0.5 rounded-lg cursor-pointer my-auto capitalize"
