@@ -1,0 +1,23 @@
+[
+  {
+    "name": "VisuaAlgo",
+    "description": "This website helps Software engineers learn data structures and algorithms through animations",
+    "url": "https://visualgo.net/en",
+    "category": "data-structures",
+    "subcategory": "dsa-resources"
+  },
+  {
+    "name": "Visualizing Algorithms",
+    "description": "Learning DSA might be challenging, but this website comprise of interactive animations for a variety of data structures and algorithms",
+    "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html",
+    "category": "data-structures",
+    "subcategory": "dsa-resources"
+  },
+  {
+    "name": "Sorting Algorithms Animations",
+    "description": "Pratice sorting algorithms with animations, this resource explains how sorting algorithms works for diffent data structures",
+    "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html",
+    "category": "data-structures",
+    "subcategory": "dsa-resources"
+  }
+]
