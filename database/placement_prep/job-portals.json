@@ -54,5 +54,12 @@
     "url": "https://www.naukri.com/",
     "category": "placement-prep",
     "subcategory": "job-portals"
+  },
+  {
+    "name": "Himalays",
+    "description": "Himayalas is platform made for specifically to find Remote (work from home) jobs at too remote companies",
+    "url": "https://himalayas.app/",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
   }
 ]
