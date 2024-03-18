@@ -8,13 +8,12 @@ import { SkipLink } from 'components/SkipLink/SkipLink'
 import { useContext } from 'react'
 import { IContext } from 'types'
 import { GlobalContext } from 'context/GlobalContext'
-import clsx from 'clsx'
-import { usePathname } from 'next/navigation'
+
 import MobileBottomNav from 'components/MobileBottomNav/MobileBottomNav'
 
 const GeneralLayout = ({ children }: { children: ReactNode }) => {
   const { sidebar } = useContext<IContext>(GlobalContext)
-  const pathname = usePathname()
+  
   return (
     <>
       <SkipLink />
