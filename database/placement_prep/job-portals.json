@@ -1,18 +1,25 @@
 [
   {
+    "name": "Remotely",
+    "description": "Remotely is platform that helps you find full-time and part-time remote jobs. They have tech and as well as non-tech jobs.",
+    "url": "https://www.remotely.jobs/",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
+  },
+  {
     "name": "Wellfound",
     "description": "Wellfound is a platform for startup founders to hire potential talents and for potential talents to find their ideal startup.",
     "url": "https://wellfound.com",
     "category": "placement-prep",
     "subcategory": "job-portals"
-  }, 
+  },
   {
     "name": "LinkdedIn",
     "description": "LinkedIn is one of the most popular platforms for job haunting. It can provide you all kinds of Tech-Jobs with ease.",
     "url": "https://www.linkedin.com/",
     "category": "placement-prep",
     "subcategory": "job-portals"
-  }, 
+  },
   {
     "name": "Indeed",
     "description": "Indeed is another popular platform for job search. It provides you a couple of different options to land your dream job.",
@@ -26,21 +33,21 @@
     "url": "https://read.cv/open-roles",
     "category": "placement-prep",
     "subcategory": "job-portals"
-  }, 
+  },
   {
     "name": "Glassdoor",
     "description": "Glassdoor is platform for job search. It provides you a couple of ways to get the search done",
     "url": "https://www.glassdoor.co.in/index.htm",
     "category": "placement-prep",
     "subcategory": "job-portals"
-  }, 
+  },
   {
     "name": "Dice",
     "description": "Dice is the leading career destination for tech experts at every stage of their careers.",
     "url": "https://www.dice.com/",
     "category": "placement-prep",
     "subcategory": "job-portals"
-  }, 
+  },
   {
     "name": "Monstor",
     "description": "This site lets you explore among the millions of jobs in different companies.",
