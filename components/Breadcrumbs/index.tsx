@@ -37,7 +37,7 @@ const BreadCrumbs: React.FC<ComponentProps> = ({ sections }) => {
           <IoChevronBack className="text-text-quinary" />
         </Link>
         <div className="dark:text-text-primary text-1.5xl capitalize font-medium mx-2.5 my-auto">
-          {sections[0].name}
+          {sections[0].name?.split('-').join(' ')}
         </div>
       </div>
     </>

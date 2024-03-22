@@ -9,7 +9,7 @@
     {
       "name": "Certified Web Application Penetration Tester (CWAPT) Certification",
       "description": "Information on the CWAPT certification, a specialized certification for professionals focusing on web application penetration testing.",
-      "url": "https://www.mile2.com/web-application-penetration-tester-cwapt.html",
+      "url": "https://mile2.com/web-application-penetration-tester-cwapt.html",
       "category": "cyber-security",
       "subcategory": "web-security"
     },
@@ -23,7 +23,7 @@
     {
       "name": "OWASP AppSec Conferences",
       "description": "Information about the OWASP AppSec conferences, which focus on web application security, including penetration testing techniques.",
-      "url": "https://owasp.org/www-project-appsec/",
+      "url": "https://owasp.org/",
       "category": "cyber-security",
       "subcategory": "web-security"
     },
