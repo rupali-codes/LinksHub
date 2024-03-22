@@ -1,13 +1,13 @@
 [
   {
-    "name": "Developer Roadmaps",
-    "description": "It's a platform offering curated learning paths and career roadmaps for various tech roles like web development, data science, product management, and more. It guides individuals through step-by-step resources to navigate their career aspirations.",
+    "name": "Developer Roadmap",
+    "description": "It's a platform offering curated learning paths and career roadmap for various tech roles like web development, data science, product management, and more. It guides individuals through step-by-step resources to navigate their career aspirations.",
     "url": "https://roadmap.sh",
     "category": "other",
     "subcategory": "roadmaps"
   },
   {
-    "name": "Fronted Roadmap",
+    "name": "Frontend Roadmap",
     "description": "In this blog post, you'll learn all the tips and tricks to get started in frontend development",
     "url": "https://surajk00.hashnode.dev/web-development-guide-for-an-absolute-beginner-2023?source=more_articles_bottom_blogs",
     "category": "other",
@@ -35,7 +35,7 @@
     "subcategory": "roadmaps"
   },
   {
-    "name": "DSA 90 days roadmap - takeUForward",
+    "name": "DSA 90 days Roadmap - takeUForward",
     "description": "This article is aimed at helping entry-level software engineering jobs aspirants at top tech product-based companies and startups.",
     "url": "https://takeuforward.org/interviews/most-trusted-90-days-roadmap-to-placement-guaranteed/",
     "category": "other",
