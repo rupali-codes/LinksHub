@@ -36,7 +36,7 @@ const Sidebar: FC = () => {
         }
         variant="text"
         link="https://github.com/rupali-codes/LinksHub/issues/new/choose"
-        className="group hover:text-red-500 dark:hover:text-red-500 mt-[-40px] bg-white dark:bg-slate-800 z-10"
+        className="group hover:text-red-500 dark:hover:text-red-500 mt-[-20px] bg-white dark:bg-slate-800 z-10"
       />
     </div>
   )
