@@ -1,7 +1,7 @@
-name: New Link 🔗
-description: Use this to add new link into the Hub
+name: New Link(s) 🔗
+description: Use this to add new link(s) into the Hub
 title: '[Add] <write what you want to add>'
-labels: ['chore', 'goal: new-link', 'priority: low']
+labels: ['chore', 'goal: new-link', 'priority: low', 'good first issue']
 body:
   - type: input
     attributes:
@@ -26,12 +26,15 @@ body:
         - Cloud Computing
         - DevOps
         - Competitive Programming
+        - Data Structures
         - Youtube
         - Resources
         - Languages
         - Open Source
         - Technical Writing 
         - Cyber Security
+        - Blockchain
+        - Placement Prep.
         - Other
     validations:
       required: true
