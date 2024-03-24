@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import { useTheme } from 'next-themes'
 import clsx from 'clsx'
 import { MdArrowForwardIos } from 'react-icons/md'
@@ -20,13 +20,30 @@ export default function Pagination({
 }: PaginationProps) {
   const { resolvedTheme } = useTheme()
   const isDarkMode = resolvedTheme === 'dark'
+  const [scrollingElement, setScrollingElement] = useState<HTMLElement | Window | undefined>()
+  const paginationRef = useRef<HTMLDivElement>(null);
+
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    if (scrollingElement) scrollingElement.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   const changePage = (page: number) => {
     handlePageChange(page)
   }
+
+  useEffect(() => {
+    if (paginationRef.current) {
+      const findClosestScrollElement = (element: HTMLElement | null): HTMLElement | Window => {
+        if (!element) return window
+        const { overflowY } = getComputedStyle(element)
+        const scrollableVariants = ['auto', 'scroll']
+        return scrollableVariants.some(v => overflowY === v)
+            ? element
+            : findClosestScrollElement(element.parentElement)
+      }
+      setScrollingElement(findClosestScrollElement(paginationRef.current))
+    }
+  }, [])
 
   useEffect(() => {
     scrollToTop()
@@ -37,7 +54,7 @@ export default function Pagination({
   return (
     <>
       {totalPages && totalPages.length > 1 && (
-        <div>
+        <div ref={paginationRef}>
           <div
             className={
               currentPage == totalPages.length && remainderOfCards <= 3
