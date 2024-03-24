@@ -24,10 +24,7 @@ const Sidebar: FC = () => {
         />
       </div>
 
-      <div className="w-full max-h-[85%] 2xl:max-h-full flex flex-col items-between gap-2 pt-2 tall:gap-5">
-        {/* <h4 className="text-gray-400 text-base font-semibold text-xl">RESOURCES</h4> */}
-        <MemoizedSideNavbarCategoryList query={searchState.categoryQuery} />
-      </div>
+      <MemoizedSideNavbarCategoryList query={searchState.categoryQuery} />
 
       <Button
         label="Report a bug"
