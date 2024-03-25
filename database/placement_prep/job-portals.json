@@ -1,5 +1,12 @@
 [
   {
+    "name": "WorkAtAStartup",
+    "description": "Work-At-Startup is a job portal to find Remote, On-site and Full-time remote jobs",
+    "url": "https://www.workatastartup.com/",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
+  },
+  {
     "name": "Wellfound",
     "description": "Wellfound is a platform for startup founders to hire potential talents and for potential talents to find their ideal startup.",
     "url": "https://wellfound.com",
@@ -7,7 +14,7 @@
     "subcategory": "job-portals"
   },
   {
-    "name": "LinkdedIn",
+    "name": "LinkedIn",
     "description": "LinkedIn is one of the most popular platforms for job haunting. It can provide you all kinds of Tech-Jobs with ease.",
     "url": "https://www.linkedin.com/",
     "category": "placement-prep",
@@ -22,7 +29,7 @@
   },
   {
     "name": "read.cv",
-    "description": "It's a plaform that helps you get the job of your need",
+    "description": "It's a platform that helps you get the job of your need",
     "url": "https://read.cv/open-roles",
     "category": "placement-prep",
     "subcategory": "job-portals"
@@ -52,6 +59,13 @@
     "name": "Naukri",
     "description": "It's a platform that helps you find and get the job.",
     "url": "https://www.naukri.com/",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
+  },
+  {
+    "name": "Himalays",
+    "description": "Himayalas is platform made for specifically to find Remote (work from home) jobs at too remote companies",
+    "url": "https://himalayas.app/",
     "category": "placement-prep",
     "subcategory": "job-portals"
   },
