@@ -341,13 +341,13 @@ export default function Home() {
             )}
           </div>
         </div>
-        <div className="mt-10 mb-6 md:mb-0">
+        <div className="mt-10 mb-6 md:mb-0 border-dark-silver border-2 border-opacity-75 shadow-lg shadow-silver">
           <div className="dark:bg-slate-800 bg-light-white rounded-lg border border-[#BDBDBD14] sm:flex-row items-center justify-between md:p-7 md:pr-12 p-5">
             <div className="md:flex items-center gap-4">
               <div className="text-yellow-400 ml-4 lg:ml-0">
                 <StarIcon />
               </div>
-              <h1 className="text-xl dark:text-text-tertiary">
+              <h1 className="text-xl dark:text-text-tertiary ">
                 More awesome resources are coming soon!
               </h1>
             </div>
