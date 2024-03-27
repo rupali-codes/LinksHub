@@ -4,28 +4,28 @@
     "description": "DevDocs combines multiple API documentations in a fast, organized, and searchable interface. Here you can find documentation for many popular programming languages and frameworks.",
     "url": "https://devdocs.io/",
     "category": "resources",
-    "subcategory": "docs"
+    "subcategory": "docsgenerator"
   },
   {
     "name": "Docsify",
     "description": "If you're looking for a static generator that makes it easier for you to create docs, you'll love Docsify. Unlike GitBook, it does not generate static HTML files. Instead, it loads and parses your Markdown files and displays them as a website.",
     "url": "https://docsify.js.org/#/",
     "category": "resources",
-    "subcategory": "docs"
+    "subcategory": "docsgenerator"
   },
   {
     "name": "Docusaurus",
     "description": "If you need a static generator to help you build your product’s documentation site, Docusaurus is your tool! :) Not only does it provide you with fast-side client navigation that takes interactivity to new heights, but also out-of-the-box documentation features that can help make your site stand out from the others.",
     "url": "https://docusaurus.io/",
     "category": "resources",
-    "subcategory": "docs"
+    "subcategory": "docsgenerator"
   },
   {
     "name": "GitBook",
     "description": "GitBook is a modern documentation platform where teams can document everything from products to internal knowledge-bases and APIs. It is a tool for teams and individuals to write and host beautiful documentation.",
     "url": "https://www.gitbook.com/",
     "category": "resources",
-    "subcategory": "docs"
+    "subcategory": "docsgenerator"
   },
 
   {
@@ -33,34 +33,34 @@
     "description": "JSDoc is a markup language used to annotate JavaScript source code files. Using comments containing JSDoc, programmers can add documentation describing the application programming interface of the code they're creating.",
     "url": "https://jsdoc.app/",
     "category": "resources",
-    "subcategory": "docs"
+    "subcategory": "docsgenerator"
   },
   {
     "name": "MkDocs",
     "description": "MkDocs is a fast, simple, and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.",
     "url": "https://www.mkdocs.org/",
     "category": "resources",
-    "subcategory": "docs"
+    "subcategory": "docsgenerator"
   },
   {
     "name": "Sphinx",
     "description": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license. It was originally created for the Python documentation, and it has excellent facilities for the documentation of software projects in a range of languages.",
     "url": "http://www.sphinx-doc.org/en/master/",
     "category": "resources",
-    "subcategory": "docs"
+    "subcategory": "docsgenerator"
   },
   {
     "name": "Typedoc",
     "description": "TypeDoc is a documentation generator for TypeScript projects. It generates API documentation in HTML format from comments in your source code.",
     "url": "https://typedoc.org/",
     "category": "resources",
-    "subcategory": "docs"
+    "subcategory": "docsgenerator"
   },
   {
     "name": "VuePress",
     "description": "VuePress is a minimalistic static site generator with a Vue-powered theming system, and a default theme optimized for writing technical documentation. It was created to support the documentation needs of Vue's own sub-projects.",
     "url": "https://vuepress.vuejs.org/",
     "category": "resources",
-    "subcategory": "docs"
+    "subcategory": "docsgenerator"
   }
 ]

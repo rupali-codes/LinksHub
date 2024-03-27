@@ -263,7 +263,11 @@ export const sidebarData: ISidebar[] = [
     category: 'resources',
     subcategory: [
       { name: 'blogs', url: '/blogs', resources: DB.blogs },
-      { name: 'docs', url: '/docs', resources: DB.docs },
+      {
+        name: 'Docs Generator',
+        url: '/docsgenerator',
+        resources: DB.docsgenerator,
+      },
       {
         name: 'Official Docs',
         url: '/officialdocs',

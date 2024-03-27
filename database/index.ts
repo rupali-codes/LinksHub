@@ -82,7 +82,7 @@ export { default as openSourceTools } from './open_source/tools.json'
 export { default as openSourceTutorials } from './open_source/tutorials.json'
 // resources
 export { default as blogs } from './resources/blogs.json'
-export { default as docs } from './resources/docs.json'
+export { default as docsgenerator } from './resources/docs-generator.json'
 export { default as officialdocs } from './resources/official-docs.json'
 export { default as hosting } from './resources/hosting.json'
 export { default as ebook } from './resources/e-book.json'
