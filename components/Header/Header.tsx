@@ -6,43 +6,35 @@ import { useRouter } from 'next/router'
 import { ThemeToggler } from 'components/ThemeToggler/themeToggler'
 import Button from 'components/Button'
 
-import Logo from 'assets/icons/svg/logo.svg'
-import DiscordIcon from 'assets/icons/svg/discord.svg'
-import GithubIcon from 'assets/icons/svg/github.svg'
-import LinkedinIcon from 'assets/icons/svg/linkedin.svg'
-import XIcon from 'assets/icons/svg/x.svg'
-import HeartIcon from 'assets/icons/svg/heart.svg'
-import SaveInActiveIcon from 'assets/icons/svg/nav/save-inactive.svg'
-import SaveActiveIcon from 'assets/icons/svg/nav/save-active.svg'
-import TeamInActiveIcon from 'assets/icons/svg/nav/team-inactive.svg'
-import TeamActiveIcon from 'assets/icons/svg/nav/team-active.svg'
+import Logo from 'assets/logo.svg'
+import { Icons } from 'components/icons'
 
 export const Header: FC = () => {
   const router = useRouter()
 
   const iconClass =
-    'fill-zinc-600 group-hover:fill-primary dark:fill-zinc-400 dark:group-hover:fill-slate-300'
+    'text-zinc-600 group-hover:text-primary dark:text-zinc-400 dark:group-hover:text-slate-300 h-6 w-6'
   const socialIcons = [
     {
-      icon: <XIcon className={iconClass} />,
+      icon: <Icons.X className={iconClass} />,
       title: 'X (Twitter)',
       href: 'https://twitter.com/linkshubdotdev',
       ariaLabel: 'Follow us on X(Twitter)',
     },
     {
-      icon: <LinkedinIcon className={iconClass} />,
+      icon: <Icons.Linkedin className={iconClass} />,
       title: 'Linkedin',
       href: 'https://www.linkedin.com/company/linkshub-dev',
       ariaLabel: 'Follow us on Linkedin',
     },
     {
-      icon: <DiscordIcon className={iconClass} />,
+      icon: <Icons.Discord className={iconClass} />,
       title: 'Discord',
       href: 'https://discord.com/invite/NvK67YnJX5',
       ariaLabel: 'Join the Community',
     },
     {
-      icon: <GithubIcon className={iconClass} />,
+      icon: <Icons.GitHub className={iconClass} />,
       title: 'Github',
       href: 'https://github.com/rupali-codes/LinksHub',
       ariaLabel: 'Explore on GitHub',
@@ -51,19 +43,19 @@ export const Header: FC = () => {
   ]
 
   const inActiveIconCls = 'stroke-gray-400'
-  const activeIconCls = 'fill-primary dark:fill-white'
+  const activeIconCls = 'text-primary dark:text-white'
 
   const navLinks = [
     {
-      inActiveIcon: <SaveInActiveIcon className={inActiveIconCls} />,
-      activeIcon: <SaveActiveIcon className={activeIconCls} />,
+      inActiveIcon: <Icons.saveInactive className={inActiveIconCls} />,
+      activeIcon: <Icons.saveActive className={activeIconCls} />,
       label: 'Saved',
       href: '/saved',
       isDisabled: true,
     },
     {
-      inActiveIcon: <TeamInActiveIcon className={inActiveIconCls} />,
-      activeIcon: <TeamActiveIcon className={activeIconCls} />,
+      inActiveIcon: <Icons.teamInactive className={inActiveIconCls} />,
+      activeIcon: <Icons.teamActive className={activeIconCls} />,
       label: 'Our Team',
       href: '/contributors',
       isDisabled: false,
@@ -81,18 +73,18 @@ export const Header: FC = () => {
       return (
         <>
           <li key={i}>
-          <a
-            href={href}
-            className={`hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 flex items-center justify-start p-2 gap-2 text-base font-medium leading-5 rounded-xl ${
-              isActive ? 'text-primary dark:text-white' : 'text-gray-text'
-            }`}
-          >
-            <span className="flex items-center justify-center" title={label}>
-              {isActive ? activeIcon : inActiveIcon}
-            </span>
-            <span>{label}</span>
-          </a>
-        </li>
+            <a
+              href={href}
+              className={`hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 flex items-center justify-start p-2 gap-2 text-base font-medium leading-5 rounded-xl ${
+                isActive ? 'text-primary dark:text-white' : 'text-gray-text'
+              }`}
+            >
+              <span className="flex items-center justify-center" title={label}>
+                {isActive ? activeIcon : inActiveIcon}
+              </span>
+              <span>{label}</span>
+            </a>
+          </li>
         </>
       )
     })
@@ -133,7 +125,7 @@ export const Header: FC = () => {
 
         <Button
           label="Sponsor"
-          icon={<HeartIcon />}
+          icon={<Icons.heart className="h-5 w-5" />}
           variant="pale"
           link="https://github.com/sponsors/rupali-codes"
           className="hidden sm:flex"

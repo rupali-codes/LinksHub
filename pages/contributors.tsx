@@ -8,15 +8,8 @@ import {
   Contributor,
   MaintainersDataInterface,
 } from '../data/maintainersData'
-import {
-  FaArrowRight,
-  FaGithub,
-  FaHeart,
-  FaLinkedin,
-  FaTrophy,
-} from 'react-icons/fa'
-import { FaStaylinked, FaXTwitter } from 'react-icons/fa6'
 import React from 'react'
+import { Icons } from 'components/icons'
 
 export const getStaticProps: GetStaticProps<{
   contributors: Contributor[]
@@ -83,11 +76,11 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   }
 
   const iconsComponents: { [key: string]: JSX.Element } = {
-    GitHub: <FaGithub />,
-    Twitter: <FaXTwitter />,
-    Sponsor: <FaHeart />,
-    LinkedIn: <FaLinkedin />,
-    Website: <FaStaylinked />,
+    GitHub: <Icons.faGithub />,
+    Twitter: <Icons.faX />,
+    Sponsor: <Icons.faHeart />,
+    LinkedIn: <Icons.faLinkedin />,
+    Website: <Icons.faStayLinked />,
   }
 
   const maintainersLogins = maintainersData.map(
@@ -198,6 +191,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                     alt={`image of ${maintainer.name}`}
                     width={110}
                     height={110}
+                    priority={true}
                     className={`rounded-full mb-4 border-2 ${getDarkBgColor(
                       id,
                       'border'
@@ -269,6 +263,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                       alt={contributor.login}
                       width={110}
                       height={110}
+                      priority={true}
                       className="rounded-full mb-4 border-2 border-violet-500 dark:border-violet-400 dark:border-opacity-50 transition-transform duration-300 hover:scale-105 hover:border-dotted m-2"
                     />
                     <div className="bg-[#714EFF] bg-opacity-10 text-[#714EFF] dark:text-[#9F87FF] dark:bg-[#9F87FF] dark:bg-opacity-20 text-xs tracking-wide py-1 px-2 rounded-full absolute top-2 right-2 border border-[#714EFF] border-opacity-20 dark:border-none">
@@ -304,7 +299,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                       {...linkProps}
                     >
                       <div className="pb-2">
-                        <FaGithub className="text-2xl" />{' '}
+                        <Icons.faGithub className="text-2xl" />{' '}
                       </div>
                       GitHub
                     </Link>
@@ -318,7 +313,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                         {...linkProps}
                       >
                         <div className="pb-2">
-                          <FaXTwitter className="text-2xl" />
+                          <Icons.faX className="text-2xl" />
                         </div>
                         Twitter
                       </Link>
@@ -332,7 +327,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
       <div className="bg-white dark:bg-[#293242] flex justify-between flex-col md:flex-row rounded-xl py-6 px-4 my-10">
         <div className="flex space-x-4">
           <div className="pl-2 pr-3">
-            <FaTrophy className="text-2xl text-[#FBD449]" />{' '}
+            <Icons.faTrophy className="text-2xl text-[#FBD449]" />{' '}
           </div>
           <div className="flex flex-col">
             <div className="text-[#293242] dark:text-white text-lg pb-1">
@@ -353,7 +348,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
               Join us now
               <span className="pl-2 text-sm">
                 {' '}
-                <FaArrowRight />
+                <Icons.faArrowRight />
               </span>
             </div>
           </Link>

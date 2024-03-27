@@ -1,10 +1,8 @@
 import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 
-import SunIcon from 'assets/icons/svg/sun.svg'
-import MoonIcon from 'assets/icons/svg/moon.svg'
-
 import { Helmet, HelmetProvider } from 'react-helmet-async'
+import { Icons } from 'components/icons'
 
 export function ThemeToggler() {
   const { resolvedTheme, setTheme } = useTheme()
@@ -42,14 +40,14 @@ export function ThemeToggler() {
         className="group w-[32px] h-[32px] flex items-center justify-center rounded-md hover:bg-slate-100 dark:hover:bg-white dark:hover:bg-opacity-20 transition-colors"
       >
         {resolvedTheme === 'dark' ? (
-          <SunIcon
+          <Icons.sun
             data-custom="restrict-click-outside"
-            className="fill-zinc-600 group-hover:fill-primary dark:fill-zinc-400 dark:group-hover:fill-slate-300"
+            className="h-6 w-6 text-zinc-600 group-hover:text-primary dark:text-zinc-400 dark:group-hover:text-slate-300"
           />
         ) : (
-          <MoonIcon
+          <Icons.moon
             data-custom="restrict-click-outside"
-            className="fill-zinc-600 group-hover:fill-primary dark:fill-zinc-400 dark:group-hover:fill-slate-300"
+            className="h-6 w-6 text-zinc-600 group-hover:text-primary dark:text-zinc-400 dark:group-hover:text-slate-300"
           />
         )}
       </button>

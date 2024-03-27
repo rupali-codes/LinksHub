@@ -2,11 +2,11 @@ import { memo, useRef, FC } from 'react'
 import { Searchbar } from 'components/Searchbar/Searchbar'
 import Button from 'components/Button'
 import { SideNavbarCategoryList } from 'components/SideNavbar/SideNavbarCategoryList'
-const MemoizedSideNavbarCategoryList = memo(SideNavbarCategoryList)
-
-import QuestionMarkIcon from 'assets/icons/svg/question-mark.svg'
+import { Icons } from 'components/icons'
 import { useSearchReducer } from 'hooks/useSearchReducer'
 import useSearchShortcut from 'hooks/useSearchShortcut'
+
+const MemoizedSideNavbarCategoryList = memo(SideNavbarCategoryList)
 
 const Sidebar: FC = () => {
   const inputRef: React.RefObject<HTMLInputElement> = useRef(null)
@@ -24,19 +24,16 @@ const Sidebar: FC = () => {
         />
       </div>
 
-      <div className="w-full max-h-[85%] 2xl:max-h-full flex flex-col items-between gap-2 pt-2 tall:gap-5">
-        {/* <h4 className="text-gray-400 text-base font-semibold text-xl">RESOURCES</h4> */}
-        <MemoizedSideNavbarCategoryList query={searchState.categoryQuery} />
-      </div>
+      <MemoizedSideNavbarCategoryList query={searchState.categoryQuery} />
 
       <Button
         label="Report a bug"
         icon={
-          <QuestionMarkIcon className="fill-gray-400 group-hover:fill-red-500 transition-colors" />
+          <Icons.questionMark className="h-5 w-5 text-gray-400 group-hover:text-red-500 transition-colors" />
         }
         variant="text"
         link="https://github.com/rupali-codes/LinksHub/issues/new/choose"
-        className="group hover:text-red-500 dark:hover:text-red-500 hidden tall:flex"
+        className="group hover:text-red-500 dark:hover:text-red-500 mt-[-20px] bg-white dark:bg-slate-800 z-10"
       />
     </div>
   )

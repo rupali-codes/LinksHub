@@ -1,19 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
-import Logo from 'assets/icons/svg/logo.svg'
-import { RxCaretDown, RxCaretRight } from 'react-icons/rx'
-import { IoMdGitBranch, IoIosStar } from 'react-icons/io'
-import {
-  FaDiscord,
-  FaGithub,
-  FaXTwitter,
-  FaArrowRightLong,
-} from 'react-icons/fa6'
-import StarIcon from '../assets/icons/svg/starIcon.svg'
-import HeartIcon from '../assets/icons/svg/heart.svg'
+import Logo from 'assets/logo.svg'
 import Link from 'next/link'
 import Button from 'components/Button'
 import { sidebarData } from '../database/data'
+import { Icons } from 'components/icons'
 
 interface SocialLinkProps {
   href: string
@@ -45,7 +36,9 @@ const SocialLink: React.FC<SocialLinkProps> = ({
         <div>{icon}</div>
         <span className="sm:inline">{title}</span>
       </div>
-      <p className="text-sm sm:text-base text-text-quinary sm:h-24 h-fit lg:h-fit overflow-hidden font-sans text-ellipsis line-clamp-4">{description}</p>
+      <p className="text-sm sm:text-base text-text-quinary sm:h-24 h-fit lg:h-fit overflow-hidden font-sans text-ellipsis line-clamp-4">
+        {description}
+      </p>
     </Link>
   </div>
 )
@@ -64,15 +57,14 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
   return (
     <div
       className={`dark:text-white rounded-lg md:w-[160px] text-3xl p-4 dark:bg-[rgba(255,255,255,0.1)] bg-[rgba(0,0,0,0.05)] w-full`}
-      
     >
       {type === 'star' ? (
-        <IoIosStar
+        <Icons.ioStar
           className={`rounded-full text-black text-3xl p-1`}
           style={iconStyle} // Add style={iconStyle}
         />
       ) : (
-        <IoMdGitBranch
+        <Icons.gitBranch
           className={`rounded-full text-white text-3xl p-1`}
           style={iconStyle} // Add style={iconStyle}
         />
@@ -106,7 +98,9 @@ export default function Home() {
   useEffect(() => {
     const getStarForkCount = async () => {
       try {
-        const response = await fetch(`https://api.github.com/repos/rupali-codes/LinksHub`)
+        const response = await fetch(
+          `https://api.github.com/repos/rupali-codes/LinksHub`
+        )
         const data = await response.json()
         setStarCount(data.stargazers_count)
         setForkCount(data.forks)
@@ -201,7 +195,11 @@ export default function Home() {
               Welcome!
             </h2>
             <div className="hidden sm:flex" onClick={handleWelcome}>
-              {welcome ? <RxCaretDown size={50} /> : <RxCaretRight size={50} />}
+              {welcome ? (
+                <Icons.rxCaretDown size={50} className="cursor-pointer" />
+              ) : (
+                <Icons.rxCaretRight size={50} className="cursor-pointer" />
+              )}
             </div>
           </div>
           {welcome && (
@@ -224,11 +222,12 @@ export default function Home() {
                       <Logo />
                     </div>
                     <p className={'my-2 text-base text-text-quinary pt-3'}>
-                      LinksHub aims to provide people access to a wide
-                      range of free resources and tools that they can use to learn and develop their tech skills.
-       These resources include links to free
-                      software, libraries, frameworks, and other tools that can
-                      be used to build and deploy applications, website, and other projects.
+                      LinksHub aims to provide people access to a wide range of
+                      free resources and tools that they can use to learn and
+                      develop their tech skills. These resources include links
+                      to free software, libraries, frameworks, and other tools
+                      that can be used to build and deploy applications,
+                      website, and other projects.
                     </p>
                   </div>
                   <div
@@ -268,33 +267,33 @@ export default function Home() {
             <div className="text-2xl dark:text-text-tertiary">Community</div>
             <div className="hidden sm:flex" onClick={handleCommunity}>
               {community ? (
-                <RxCaretDown size={50} />
+                <Icons.rxCaretDown size={50} className="cursor-pointer" />
               ) : (
-                <RxCaretRight size={50} />
+                <Icons.rxCaretRight size={50} className="cursor-pointer" />
               )}
             </div>
           </div>
           {community && (
             <>
               <div className="text-text-quinary">
-                Get involved!  Everyone is welcome!
+                Get involved! Everyone is welcome!
               </div>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-4">
                 <SocialLink
                   href="https://twitter.com/linkshubdotdev"
-                  icon={<FaXTwitter size={30} />}
+                  icon={<Icons.faX size={30} />}
                   title="Twitter"
                   description="Follow us on X (twitter) to get updates, announcements, and general information."
                 />
                 <SocialLink
                   href="https://discord.com/invite/NvK67YnJX5"
-                  icon={<FaDiscord size={30} />}
+                  icon={<Icons.faDiscord size={30} />}
                   title="Discord"
                   description="Join our community for updates, ask questions, and share tips."
                 />
                 <SocialLink
                   href="https://github.com/rupali-codes/LinksHub"
-                  icon={<FaGithub size={30} />}
+                  icon={<Icons.faGithub size={30} />}
                   title="Github"
                   description="Join us here to report bugs & issues, and suggest features."
                 />
@@ -307,9 +306,9 @@ export default function Home() {
             <div className="text-2xl dark:text-text-tertiary">Resources</div>
             <div className="hidden sm:flex" onClick={handleResources}>
               {resources ? (
-                <RxCaretDown size={50} />
+                <Icons.rxCaretDown size={50} className="cursor-pointer" />
               ) : (
-                <RxCaretRight size={50} />
+                <Icons.rxCaretRight size={50} className="cursor-pointer" />
               )}
             </div>
           </div>
@@ -329,9 +328,11 @@ export default function Home() {
                         className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(33.33%-1rem)] group"
                       >
                         <div className="border-solid border-slate-800 dark:bg-slate-800 dark:hover:bg-slate-700 bg-light-white hover:bg-light-silver flex items-center justify-between rounded-xl sm:h-16 h-fit">
-                          <div className="p-5 truncate ...">{el.category.toUpperCase()}</div>
+                          <div className="p-5 truncate ...">
+                            {el.category.toUpperCase()}
+                          </div>
                           <div>
-                            <FaArrowRightLong className="m-4 hidden group-hover:block" />
+                            <Icons.arrowRightLong className="m-4 hidden group-hover:block" />
                           </div>
                         </div>
                       </Link>
@@ -345,7 +346,7 @@ export default function Home() {
           <div className="dark:bg-slate-800 bg-light-white rounded-lg border border-[#BDBDBD14] sm:flex-row items-center justify-between md:p-7 md:pr-12 p-5">
             <div className="md:flex items-center gap-4">
               <div className="text-yellow-400 ml-4 lg:ml-0">
-                <StarIcon />
+                <Icons.star className="h-8 w-8" />
               </div>
               <h1 className="text-xl dark:text-text-tertiary">
                 More awesome resources are coming soon!
@@ -360,7 +361,7 @@ export default function Home() {
               </div>
               <Button
                 label="Sponsor"
-                icon={<HeartIcon />}
+                icon={<Icons.heart className="h-4 w-4" />}
                 variant="pale"
                 link="https://github.com/sponsors/rupali-codes"
                 className="w-full sm:w-auto mt-4 mt-4 lg:mt-0 md:ml-4 md:mr-auto"

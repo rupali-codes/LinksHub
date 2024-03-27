@@ -1,14 +1,12 @@
 import { FC } from 'react'
 import { useRouter } from 'next/router'
 import { useTheme } from 'next-themes'
-import { RxSlash } from 'react-icons/rx'
-import HomeIcon from 'assets/icons/svg/HomeIcon.svg'
-import { FaInfoCircle } from 'react-icons/fa'
-import { IoIosArrowBack } from 'react-icons/io'
 import categoryDescriptions from './CategoryDescriptions'
 import { isValidResource, regEx } from './utils'
 import Link from 'next/link'
 import CardTooltip from 'components/CardTooltip/CardTooltip'
+import { Icons } from 'components/icons'
+
 interface TopBarProps {
   className?: string
 }
@@ -50,25 +48,25 @@ export const TopBar: FC<TopBarProps> = ({}) => {
         href={'/'}
         className="gap-x-2 items-center bg-[#EDEDED] bg-opacity-20 px-[10px] py-[6px] rounded-md cursor-pointer hidden md:flex"
       >
-        <HomeIcon className="m-auto fill-text-primary-light dark:fill-text-quaternary" />
+        <Icons.Home className="h-4 w-4 m-auto text-text-primary-light dark:text-text-quaternary" />
         <h3>Home</h3>
       </Link>
-      <RxSlash className="hidden md:inline-block" />
+      <Icons.rxSlash className="hidden md:inline-block" />
       <Link
         href={'/' + categoryNameLink}
         className="bg-[#EDEDED] bg-opacity-20 px-[10px] py-[6px] rounded-md cursor-pointer hidden md:inline-block"
       >
         <h3>{capitalizeEachWord(categoryName)}</h3>
       </Link>
-      <RxSlash className="hidden md:inline-block" />
+      <Icons.rxSlash className="hidden md:inline-block" />
       <Link href={'/' + categoryNameLink} className="flex gap-x-2 items-center">
-        <IoIosArrowBack className="md:hidden" />
+        <Icons.arrowBack className="md:hidden" />
       </Link>
       <div className="md:bg-[#EDEDED] md:bg-opacity-20 px-[10px] py-[6px] text-xl md:text-base rounded-md truncate ...">
         <h3>{capitalizeEachWord(cleanedCategory)}</h3>
       </div>
       <button>
-        <FaInfoCircle
+        <Icons.infoCircle
           data-tooltip-id="info-tooltip"
           data-tooltip-place="bottom"
           data-tooltip-content={description}

@@ -7,7 +7,7 @@ const ShortcutKey = dynamic(() => import('./ShortcutKey'), { ssr: false })
 import { SearchbarSuggestions } from './SearchbarSuggestions'
 import { ErrorMessage } from 'components/ErrorMessage'
 
-import SearchIcon from 'assets/icons/svg/search.svg'
+import { Icons } from 'components/icons'
 
 import { SubCategories, subcategoryArray } from '../../types'
 import { SearchbarAction } from './SearchbarReducer'
@@ -132,7 +132,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
             required
           />
 
-          <SearchIcon className="absolute top-[14px] left-4 fill-gray-400 peer-focus:fill-primary dark:peer-focus:fill-slate-100" />
+          <Icons.search className="h-5 w-5 absolute top-[14px] left-4 text-gray-400 peer-focus:text-primary dark:peer-focus:text-slate-100" />
 
           <ShortcutKey />
         </div>
