@@ -59,7 +59,8 @@ const getFilteredCategoryList = (query: string) => {
     ),
   }))
 
-  return mappedResults
+  const sortedResults = mappedResults.sort((a, b) => a.category.localeCompare(b.category));
+  return sortedResults;
 }
 
 const matchSearch = (item: SubCategories, query: string) => {
