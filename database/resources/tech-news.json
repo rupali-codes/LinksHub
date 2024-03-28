@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Hacker Tab",
+    "description": "Hacker Tab is a handy extension designed to help developers stay up-to-date with the latest tech happenings. Whether you’re a frontend wizard, a backend sorcerer, a full-stack magician, a mobile app conjurer, or a data scientist spellcaster, Hackertab has got you covered! ",
+    "url": "https://hackertab.dev/",
+    "category": "resources",
+    "subcategory": "technews"
+  },
+  {
+    "name": "Reddit Programming",
+    "description": "Using the popular website reddit, you can subscribe to the programming subreddit to get the latest news and updates on programming.",
+    "url": "https://www.reddit.com/r/programming/",
+    "category": "resources",
+    "subcategory": "technews"
+  },
+  {
+    "name": "TLDR Newsletter",
+    "description": "TLDR tech is a daily newsletter that summarizes the top tech news in a concise and digestible format. It covers a wide range of topics, including software, hardware, AI, cybersecurity, and more. The newsletter is perfect for busy professionals who want to stay informed without spending hours reading lengthy articles.",
+    "url": "https://tldr.tech/",
+    "category": "resources",
+    "subcategory": "technews"
+  },
+  {
+    "name": "GitHub Trending",
+    "description": "GitHub Trending is a great way to stay up-to-date with the latest trends in the tech industry. It shows you the most popular repositories on GitHub, as well as the top developers and programming languages. You can filter the results by programming language, date, and more to find the most relevant projects for you.",
+    "url": "https://github.com/trending",
+    "category": "resources",
+    "subcategory": "technews"
+  }
+]
