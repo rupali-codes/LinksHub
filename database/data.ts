@@ -62,7 +62,7 @@ export const sidebarData: ISidebar[] = [
         name: 'js-Chart Libraries',
         url: '/js-chart-libraries',
         resources: DB.jsChartLibraries,
-      }
+      },
     ],
   },
   {
@@ -263,6 +263,11 @@ export const sidebarData: ISidebar[] = [
     category: 'resources',
     subcategory: [
       { name: 'blogs', url: '/blogs', resources: DB.blogs },
+      {
+        name: 'Docs Generator',
+        url: '/docsgenerator',
+        resources: DB.docsgenerator,
+      },
       {
         name: 'Official Docs',
         url: '/officialdocs',
