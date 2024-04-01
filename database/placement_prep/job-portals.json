@@ -1,5 +1,12 @@
 [
   {
+    "name": "Remotely",
+    "description": "Remotely is platform that helps you find full-time and part-time remote jobs. They have tech and as well as non-tech jobs.",
+    "url": "https://www.remotely.jobs/",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
+  },
+  {
     "name": "WorkAtAStartup",
     "description": "Work-At-Startup is a job portal to find Remote, On-site and Full-time remote jobs",
     "url": "https://www.workatastartup.com/",
@@ -59,6 +66,13 @@
     "name": "Naukri",
     "description": "It's a platform that helps you find and get the job.",
     "url": "https://www.naukri.com/",
+    "category": "placement-prep",
+    "subcategory": "job-portals"
+  },
+  {
+    "name": "Himalays",
+    "description": "Himayalas is platform made for specifically to find Remote (work from home) jobs at too remote companies",
+    "url": "https://himalayas.app/",
     "category": "placement-prep",
     "subcategory": "job-portals"
   },
