@@ -173,6 +173,12 @@
     "url": "https://github.com/EbookFoundation/free-programming-books",
     "category": "open-source",
     "subcategory": "projects"
+  },
+  {
+    "name": "Free For Geeks",
+    "description": "Free For Geeks is your curated toolbox for building better software. Free resources for all your dev needs.",
+    "url": "https://freeforgeeks.com/",
+    "category": "open-source",
+    "subcategory": "projects"
   }
 ]
-
