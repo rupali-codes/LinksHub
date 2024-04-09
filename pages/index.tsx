@@ -189,6 +189,17 @@ export default function Home() {
         data-custom="restrict-click-outside"
         className="flex flex-col max-h-[calc(100vh - 165px)] max-w-[calc(100% - 165px)] flex-col sm:m-3 lg:m-8"
       >
+        <div className="hidden md:block absolute right-6 bottom-4 lg:bottom-6 z-20">
+          <Button
+            label="Report a bug"
+            icon={
+              <Icons.questionMark className="w-4 h-4 lg:h-5 lg:w-5 text-gray-400 group-hover:text-white transition-colors" />
+            }
+            variant="text"
+            link="https://github.com/rupali-codes/LinksHub/issues/new/choose"
+            className="text-sm lg:text-lg group hover:text-red-500 border-2 border-dark dark:hover:text-white transition-all duration-300 bg-white dark:bg-slate-800"
+          />
+        </div>
         <div>
           <div className="flex items-center justify-between">
             <h2 className="text-2xl dark:text-text-tertiary mb-0 mt-6 md:mt-0">

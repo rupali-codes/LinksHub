@@ -25,16 +25,6 @@ const Sidebar: FC = () => {
       </div>
 
       <MemoizedSideNavbarCategoryList query={searchState.categoryQuery} />
-
-      <Button
-        label="Report a bug"
-        icon={
-          <Icons.questionMark className="h-5 w-5 text-gray-400 group-hover:text-red-500 transition-colors" />
-        }
-        variant="text"
-        link="https://github.com/rupali-codes/LinksHub/issues/new/choose"
-        className="group hover:text-red-500 dark:hover:text-red-500 mt-[-20px] bg-white dark:bg-slate-800 z-10"
-      />
     </div>
   )
 }
