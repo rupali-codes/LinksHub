@@ -1,8 +1,6 @@
 import { memo, useRef, FC } from 'react'
 import { Searchbar } from 'components/Searchbar/Searchbar'
-import Button from 'components/Button'
 import { SideNavbarCategoryList } from 'components/SideNavbar/SideNavbarCategoryList'
-import { Icons } from 'components/icons'
 import { useSearchReducer } from 'hooks/useSearchReducer'
 import useSearchShortcut from 'hooks/useSearchShortcut'
 
