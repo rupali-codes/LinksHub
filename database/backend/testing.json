@@ -41,12 +41,18 @@
     "category": "backend",
     "subcategory": "testing"
   },
-   {
+  {
     "name": "Hoppscotch",
     "description": "Hoppscotch is a lightweight, web-based API development suite. It was built from the ground up with ease of use and accessibility in mind providing all the functionality needed for API developers with minimalist, unobtrusive UI.",
     "url": "https://docs.hoppscotch.io/",
     "category": "backend",
     "subcategory": "testing"
+  },
+  {
+    "name": "Playwright",
+    "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+    "url": "https://playwright.dev/",
+    "category": "backend",
+    "subcategory": "testing"
   }
-
 ]
