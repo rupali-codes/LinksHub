@@ -7,11 +7,11 @@ export const ReportBug = () => {
       <Button
         label="Report a bug"
         icon={
-          <Icons.questionMark className="w-3 h-3 lg:h-4 lg:w-4 text-gray-400 group-hover:text-black dark:group-hover:text-white transition-colors transition-all duration-300" />
+          <Icons.questionMark className="w-3 h-3 lg:h-4 lg:w-4 text-gray-200 group-hover:text-white" />
         }
         variant="text"
         link="https://github.com/rupali-codes/LinksHub/issues/new/choose"
-        className="text-xs lg:text-sm group hover:text-black border-2 border-gray-400 hover:border-black hover:border-black dark:border-dark dark:hover:text-white transition-all duration-300 bg-white dark:bg-slate-800"
+        className="text-xs lg:text-sm group text-gray-200 hover:text-white border-2 border-primary hover:border-primary dark:text-gray-200 dark:hover:text-white bg-primary"
       />
     </div>
   )
