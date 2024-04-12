@@ -9,6 +9,7 @@ import { GetStaticProps, NextPage } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 import { usePagination } from 'hooks/usePagination'
 import Pagination from 'components/Pagination/Pagination'
+import { ReportBug } from 'components/ReportBug/Reportbug'
 
 interface PageProps {
   category: string
@@ -98,6 +99,7 @@ const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
         />
       </Head>
       <TopBar />
+      <ReportBug />
       <div
         data-custom="restrict-click-outside"
         className="relative min-h-[calc(100%-68px)] w-full  pb-4 md:min-h-[calc(100%-76px)] md:pl-5 lg:px-10 md:pt-2"

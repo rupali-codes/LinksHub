@@ -5,6 +5,7 @@ import Link from 'next/link'
 import BreadCrumbs from 'components/Breadcrumbs'
 import categoryDescriptions from 'components/TopBar/CategoryDescriptions'
 import { Icons } from 'components/icons'
+import { ReportBug } from 'components/ReportBug/Reportbug'
 
 const CategoryPage = () => {
   const router = useRouter()
@@ -26,6 +27,7 @@ const CategoryPage = () => {
 
   return (
     <section className="flex min-h-[calc(100vh-165px)] flex-col">
+      <ReportBug />
       <div className="sm:ml-4 2xl:mx-auto items-start gap-2">
         {subcategories?.length ? (
           <>
