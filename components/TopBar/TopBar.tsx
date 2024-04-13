@@ -48,7 +48,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
     >
       <Link
         href={'/'}
-        className="gap-x-2 items-center bg-[#EDEDED] bg-opacity-20 px-[10px] py-[6px] rounded-md cursor-pointer hidden md:flex"
+        className="gap-x-2 items-center border border-theme-secondary/25 bg-theme-primary-light/20 bg-opacity-20 dark:bg-theme-tertiary/50 dark:border dark:border-theme-primary/8 px-[10px] py-[6px] rounded-md cursor-pointer hidden md:flex"
       >
         <HomeIcon className="m-auto fill-text-primary-light dark:fill-text-quaternary" />
         <h3>Home</h3>
@@ -56,7 +56,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
       <RxSlash className="hidden md:inline-block" />
       <Link
         href={'/' + categoryNameLink}
-        className="bg-[#EDEDED] bg-opacity-20 px-[10px] py-[6px] rounded-md cursor-pointer hidden md:inline-block"
+        className="bg-theme-primary-light/20 border border-theme-secondary/25 dark:bg-theme-tertiary/50 dark:border dark:border-theme-primary/8 px-[10px] py-[6px] rounded-md cursor-pointer hidden md:inline-block"
       >
         <h3>{capitalizeEachWord(categoryName)}</h3>
       </Link>
@@ -64,7 +64,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
       <Link href={'/' + categoryNameLink} className="flex gap-x-2 items-center">
         <IoIosArrowBack className="md:hidden" />
       </Link>
-      <div className="md:bg-[#EDEDED] md:bg-opacity-20 px-[10px] py-[6px] text-xl md:text-base rounded-md truncate ...">
+      <div className="md:bg-theme-primary-light/20 border border-theme-secondary/25 dark:bg-theme-tertiary/50 dark:border dark:border-theme-primary/8 px-[10px] py-[6px] text-xl md:text-base rounded-md truncate ...">
         <h3>{capitalizeEachWord(cleanedCategory)}</h3>
       </div>
       <button>
@@ -73,7 +73,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
           data-tooltip-place="bottom"
           data-tooltip-content={description}
           size={30}
-          className=" ml-2 text-sm cursor-pointer bg-[#EDEDED] bg-opacity-20 p-2 rounded-md "
+          className=" ml-2 border border-theme-secondary/25 text-sm cursor-pointer bg-[#EDEDED] bg-opacity-20 dark:bg-theme-tertiary/75 dark:border dark:border-theme-primary/8 p-2 rounded-md "
         />
       </button>
       <CardTooltip theme={theme} />

@@ -16,7 +16,7 @@ export const CopyToClipboard = ({ url }: CopyToClipboardProps): JSX.Element => {
   }
   return (
     <div
-      className="flex items-center justify-center text-center text-theme-secondary dark:text-white gap-x-2 bg-light-primary dark:bg-light-primary dark:bg-opacity-10 dark:hover:bg-opacity-20 rounded-lg mt-2 cursor-pointer relative py-2 px-2 truncate ..."
+      className="flex items-center justify-center text-center dark:border-none border border-theme-secondary/25 text-theme-secondary dark:text-white gap-x-2 bg-light-primary dark:bg-light-primary dark:bg-opacity-10 dark:hover:bg-opacity-20 rounded-lg mt-2 cursor-pointer relative py-2 px-2 truncate ..."
       onClick={(e) => handleCopy(e)}
     >
       <span className="truncate ...">Copy Link</span>
