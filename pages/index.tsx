@@ -31,7 +31,7 @@ const SocialLink: React.FC<SocialLinkProps> = ({
   title,
   description,
 }) => (
-  <div className="md:w-1/3 w-full dark:bg-slate-800 bg-light-white hover:bg-light-silver dark:hover:bg-slate-700 hover:border border-[#BDBDBD14] p-6 mb-4 rounded-lg lg:h-44">
+  <div className="md:w-1/3 w-full dark:bg-slate-800 bg-theme-primary-light hover:bg-theme-primary-light/8 dark:hover:bg-slate-700 border border-theme-secondary/25 shadow-md p-6 mb-4 rounded-lg lg:h-44">
     <Link href={href}>
       <div className="flex items-center dark:text-text-quinary gap-2 mb-3">
         <div>{icon}</div>
@@ -211,7 +211,7 @@ export default function Home() {
               </p>
               <div
                 className={
-                  'min-h-52 p-8 rounded-3xl dark:bg-slate-800 bg-light-white mt-4 mb-6 border border-[#BDBDBD14]'
+                  'min-h-52 p-8 rounded-3xl dark:bg-slate-800 bg-theme-primary-light mt-4 mb-6 border border-theme-secondary/25 shadow-md'
                 }
               >
                 <div
@@ -329,7 +329,7 @@ export default function Home() {
                         href={`/${el.category}`}
                         className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(33.33%-1rem)] group"
                       >
-                        <div className="border-solid border-slate-800 dark:bg-slate-800 dark:hover:bg-slate-700 bg-light-white hover:bg-light-silver flex items-center justify-between rounded-xl sm:h-16 h-fit">
+                        <div className="border border-theme-secondary border-opacity-25 shadow-sm dark:border dark:border-theme-primary dark:border-opacity-20 duration-300 transition-all dark:bg-slate-800 dark:hover:bg-slate-700 bg-theme-primary-light hover:bg-theme-primary-light/8 flex items-center justify-between rounded-xl sm:h-16 h-fit">
                           <div className="p-5 truncate ...">
                             {el.category.toUpperCase()}
                           </div>
@@ -345,7 +345,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-10 mb-6 md:mb-0">
-          <div className="dark:bg-slate-800 bg-light-white rounded-lg border border-[#BDBDBD14] sm:flex-row items-center justify-between md:p-7 md:pr-12 p-5">
+          <div className="dark:bg-slate-800 bg-theme-primary-light rounded-lg border border border-theme-secondary/25 sm:flex-row items-center justify-between md:p-7 md:pr-12 p-5">
             <div className="md:flex items-center gap-4">
               <div className="text-yellow-400 ml-4 lg:ml-0">
                 <Icons.star className="h-8 w-8" />
@@ -366,7 +366,7 @@ export default function Home() {
                 icon={<Icons.heart className="h-4 w-4" />}
                 variant="pale"
                 link="https://github.com/sponsors/rupali-codes"
-                className="w-full sm:w-auto mt-4 mt-4 lg:mt-0 md:ml-4 md:mr-auto"
+                className="w-full sm:w-auto border border-theme-secondary/25 bg-primary/8 mt-4 mt-4 lg:mt-0 md:ml-4 md:mr-auto"
               />
             </div>
           </div>

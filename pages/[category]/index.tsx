@@ -54,7 +54,7 @@ const CategoryPage = () => {
                     key={i}
                     href={`/${category}${subcat.url}`}
                     aria-label={`Explore ${subcat.name}`}
-                    className="group flex flex-col dark:border dark:border-theme-primary dark:border-opacity-8 rounded-xl dark:bg-theme-tertiary bg-white dark:bg-opacity-25 dark:hover:bg-theme-quaternary dark:hover:bg-opacity-25	px-3 py-1 dark:hover:border-opacity-25 hover:text-dark-primary dark:shadow-lg shadow-tile md:max-w-[320px] px-4 py-4 group max-w-none w-full"
+                    className="group flex flex-col dark:border dark:border-theme-primary dark:border-opacity-8 rounded-xl dark:bg-theme-tertiary bg-theme-primary-light border border border-theme-secondary/25 dark:bg-opacity-25 dark:hover:bg-theme-quaternary dark:hover:bg-opacity-25	px-3 py-1 dark:hover:border-opacity-25 hover:text-dark-primary dark:shadow-lg shadow-tile md:max-w-[320px] px-4 py-4 group max-w-none w-full"
                   >
                     <div className="flex justify-between">
                       <div className="dark:text-gray-300 text-text-primary-light text-lg capitalize font-medium">
