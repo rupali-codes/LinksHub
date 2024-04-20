@@ -7,7 +7,7 @@ import type { IData } from 'types'
 import Bookmark from 'components/Bookmark/Bookmark'
 
 interface CardProps {
-  data: IData,
+  data: IData
   onClick: () => void
 }
 
@@ -27,7 +27,7 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
   }, [])
 
   return (
-    <article className="z-10 h-full w-full rounded-3xl dark:bg-slate-800 dark:text-text-primary dark:shadow-sm bg-light-white">
+    <article className="z-10 h-full w-full rounded-3xl dark:bg-slate-800 dark:border dark:border-theme-primary/8 dark:text-text-primary dark:shadow-sm bg-theme-primary-light border border border-theme-secondary/25">
       <div className="card-body">
         <header className="flex justify-between items-center gap-2">
           <h2
@@ -48,23 +48,26 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
             {description}
           </div>
           {isOverflow && (
-            <span onClick={onClick} className="text-sm float-right hover:underline dark:hover:text-theme-primary text-right hover:text-theme-primary dark:text-text-primary">
+            <span
+              onClick={onClick}
+              className="text-sm float-right hover:underline dark:hover:text-theme-primary text-right hover:text-theme-primary dark:text-text-primary"
+            >
               ...Read More
             </span>
           )}
         </div>
         <footer className="grid grid-cols-2 gap-x-4 md:grid-cols-1 lg:grid-cols-2">
-        <CopyToClipboard url={url} />
+          <CopyToClipboard url={url} />
           <a
             onClick={(e) => e.stopPropagation()}
             href={url}
             target="_blank"
             rel="noopener noreferrer"
             className={
-              'mt-2 flex w-full items-center justify-center gap-2 rounded-lg  bg-theme-secondary px-3 py-2 text-center text-light-primary duration-100'
+              'mt-2 flex w-full items-center justify-center gap-2 rounded-lg bg-theme-secondary px-3 py-2 text-center text-light-primary duration-100'
             }
           >
-            <span className='truncate ...'>Visit site</span>
+            <span className="truncate ...">Visit site</span>
             {youtubeRegex.test(url) ? (
               <BsYoutube size="1.3em" />
             ) : subcategory === 'e-book' ? (

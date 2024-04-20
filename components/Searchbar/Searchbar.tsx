@@ -114,7 +114,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
       role="search"
     >
       <div className="relative">
-        <div className="relative w-full h-12 flex items-center justify-between">
+        <div className="relative w-full h-12 flex items-center justify-between border border border-theme-secondary/25 dark:border-none rounded-lg">
           <label htmlFor="simple-search" className="sr-only">
             Quick search
           </label>
