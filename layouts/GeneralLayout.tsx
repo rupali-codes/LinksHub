@@ -13,7 +13,7 @@ import MobileBottomNav from 'components/MobileBottomNav/MobileBottomNav'
 
 const GeneralLayout = ({ children }: { children: ReactNode }) => {
   const { sidebar } = useContext<IContext>(GlobalContext)
-  
+
   return (
     <>
       <SkipLink />
@@ -29,7 +29,7 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
         </nav>
         <main
           data-custom="restrict-click-outside"
-          className="flex flex-col min-h-full px-4 pb-2 md:ml-[290px] lg:w-[calc(100%-290px)] bg-theme-primary-light dark:bg-inherit"
+          className="flex flex-col min-h-full px-4 pb-2 md:ml-[290px] lg:w-[calc(100%-290px)] bg-white dark:bg-inherit"
           id="main"
         >
           <div className="flex-grow">{children}</div>

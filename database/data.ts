@@ -213,6 +213,21 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'ai-tools',
+    subcategory: [
+      {
+        name: 'design',
+        url: '/design',
+        resources: DB.design
+      },
+      {
+        name: 'blog writing',
+        url: '/blog-writing',
+        resources: DB.blog_writing
+      },
+    ]
+  },
+  {
     category: 'cyber-security',
     subcategory: [
       {
