@@ -39,6 +39,7 @@ export type Category =
   | 'backend'
   | 'languages'
   | 'ai'
+  | 'ai-tools'
   | 'internet-of-things'
   | 'cyber-security'
   | 'cloud-computing'

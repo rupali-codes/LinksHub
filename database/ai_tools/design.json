@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Adobe Firefly",
+    "description": "Robust AI features and integration with design editors like Illustrator and Photoshop. Standout features include Generative Fill, AI tools for text designs, and AI text-to-image functionality using natural language prompts.",
+    "url": "https://www.adobe.com/in/products/firefly.html",
+    "category": "ai-tools",
+    "subcategory": "design"
+  },
+  {
+    "name": "Designs.ai",
+    "description": "Offers tools for creating logos, videos, banners, and voiceovers using AI. It's free to start.",
+    "url": "https://designs.ai/",
+    "category": "ai-tools",
+    "subcategory": "design"
+  },
+  {
+    "name": "Flair.ai",
+    "description": "AI-powered design tool that helps generate digital photoshoots. Define attributes like product, placement, and surrounding to generate a photoshoot.",
+    "url": "https://flair.ai/",
+    "category": "ai-tools",
+    "subcategory": "design"
+  },
+  {
+    "name": "Uizard.ai",
+    "description": "Generates editable mockups from screenshots of websites or applications. It’s suitable for both personal and professional use.",
+    "url": "https://designs.io/",
+    "category": "ai-tools",
+    "subcategory": "design"
+  }
+]
