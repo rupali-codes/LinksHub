@@ -32,7 +32,7 @@ export const SideNavbarCategoryList: FC<{
     <ul
       data-custom="restrict-click-outside"
       ref={listRef}
-      className="relative w-full max-h-full flex flex-col sc overflow-y-scroll scrollColorDarkMobile pr-4"
+      className="relative w-full flex flex-grow flex-col sc overflow-y-scroll scrollColorDarkMobile pr-4"
     >
       {categoriesList.map((categoryData) => (
         <SideNavbarCategory

@@ -2,22 +2,15 @@ import React, { FC, useContext } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-import HomeInActiveIcon from 'assets/icons/svg/nav/home-inactive.svg'
-import HomeActiveIcon from 'assets/icons/svg/nav/home-active.svg'
-import SaveInActiveIcon from 'assets/icons/svg/nav/save-inactive.svg'
-import SaveActiveIcon from 'assets/icons/svg/nav/save-active.svg'
-import TeamInActiveIcon from 'assets/icons/svg/nav/team-inactive.svg'
-import TeamActiveIcon from 'assets/icons/svg/nav/team-active.svg'
-import SearchAciveIcon from 'assets/icons/svg/nav/search-active.svg'
-import SearchInAciveIcon from 'assets/icons/svg/nav/search-inactive.svg'
 import { GlobalContext } from 'context/GlobalContext'
+import { Icons } from 'components/icons'
 
 const MobileBottomNav: FC = () => {
   const router = useRouter()
   const { toggleNav } = useContext(GlobalContext)
 
   const inActiveIconCls = 'stroke-gray-400'
-  const activeIconCls = 'fill-primary dark:fill-white'
+  const activeIconCls = 'text-primary dark:text-white'
 
   const toggleSearch = () => {
     toggleNav?.()
@@ -25,27 +18,27 @@ const MobileBottomNav: FC = () => {
 
   const navLinks = [
     {
-      inActiveIcon: <HomeInActiveIcon className={inActiveIconCls} />,
-      activeIcon: <HomeActiveIcon className={activeIconCls} />,
+      inActiveIcon: <Icons.homeInactive className={inActiveIconCls} />,
+      activeIcon: <Icons.homeActive className={activeIconCls} />,
       label: 'Home',
       href: '/',
       spaceActive: true,
     },
     {
-      inActiveIcon: <SaveInActiveIcon className={inActiveIconCls} />,
-      activeIcon: <SaveActiveIcon className={activeIconCls} />,
+      inActiveIcon: <Icons.saveInactive className={inActiveIconCls} />,
+      activeIcon: <Icons.saveActive className={activeIconCls} />,
       label: 'Saved',
       href: '/saved',
     },
     {
-      inActiveIcon: <SearchInAciveIcon className={inActiveIconCls} />,
-      activeIcon: <SearchAciveIcon className={activeIconCls} />,
+      inActiveIcon: <Icons.searchInactive className={inActiveIconCls} />,
+      activeIcon: <Icons.searchActive className={activeIconCls} />,
       label: 'Search',
       onClick: toggleSearch,
     },
     {
-      inActiveIcon: <TeamInActiveIcon className={inActiveIconCls} />,
-      activeIcon: <TeamActiveIcon className={activeIconCls} />,
+      inActiveIcon: <Icons.teamInactive className={inActiveIconCls} />,
+      activeIcon: <Icons.teamActive className={activeIconCls} />,
       label: 'Team',
       href: '/contributors',
     },

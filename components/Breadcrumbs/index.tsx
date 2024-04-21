@@ -1,6 +1,5 @@
-import HomeIcon from 'assets/icons/svg/HomeIcon.svg'
 import Link from 'next/link'
-import { IoChevronBack } from 'react-icons/io5'
+import { Icons } from 'components/icons'
 
 interface ComponentProps {
   sections: { name: string; url: string }[]
@@ -13,7 +12,7 @@ const BreadCrumbs: React.FC<ComponentProps> = ({ sections }) => {
           href={`/`}
           className="flex gap-x-2 dark:bg-theme-tertiary/50 border border-theme-secondary/25 bg-theme-primary-light/20 dark:border dark:border-theme-primary/8 text-text-primary-light dark:text-text-quaternary text-lg py-0.5 px-2.5 rounded-lg cursor-pointer"
         >
-          <HomeIcon className="m-auto fill-text-primary-light dark:fill-text-quaternary" />
+          <Icons.Home className="h-4 w-4 m-auto text-text-primary-light dark:text-text-quaternary" />
           <div>Home</div>
         </Link>
         <div className="text-2xl mx-2.5 font-semibold text-text-secondary-light">
@@ -34,7 +33,7 @@ const BreadCrumbs: React.FC<ComponentProps> = ({ sections }) => {
           href={`/`}
           className="flex gap-x-2 text-text-quaternary text-lg py-0.5 rounded-lg cursor-pointer my-auto capitalize"
         >
-          <IoChevronBack className="text-text-quinary" />
+          <Icons.ioChevronBack className="text-text-quinary" />
         </Link>
         <div className="dark:text-text-primary text-1.5xl capitalize font-medium mx-2.5 my-auto">
           {sections[0].name?.split('-').join(' ')}

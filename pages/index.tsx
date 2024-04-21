@@ -1,19 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
-import Logo from 'assets/icons/svg/logo.svg'
-import { RxCaretDown, RxCaretRight } from 'react-icons/rx'
-import { IoMdGitBranch, IoIosStar } from 'react-icons/io'
-import {
-  FaDiscord,
-  FaGithub,
-  FaXTwitter,
-  FaArrowRightLong,
-} from 'react-icons/fa6'
-import StarIcon from '../assets/icons/svg/starIcon.svg'
-import HeartIcon from '../assets/icons/svg/heart.svg'
+import Logo from 'assets/logo.svg'
 import Link from 'next/link'
 import Button from 'components/Button'
 import { sidebarData } from '../database/data'
+import { Icons } from 'components/icons'
+import { ReportBug } from 'components/ReportBug/Reportbug'
 
 interface SocialLinkProps {
   href: string
@@ -68,12 +60,12 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
       className={`dark:text-white rounded-lg md:w-[160px] text-3xl p-4 dark:bg-[rgba(255,255,255,0.1)] bg-[rgba(0,0,0,0.05)] w-full`}
     >
       {type === 'star' ? (
-        <IoIosStar
+        <Icons.ioStar
           className={`rounded-full text-black text-3xl p-1`}
           style={iconStyle} // Add style={iconStyle}
         />
       ) : (
-        <IoMdGitBranch
+        <Icons.gitBranch
           className={`rounded-full text-white text-3xl p-1`}
           style={iconStyle} // Add style={iconStyle}
         />
@@ -198,13 +190,18 @@ export default function Home() {
         data-custom="restrict-click-outside"
         className="flex flex-col max-h-[calc(100vh - 165px)] max-w-[calc(100% - 165px)] flex-col sm:m-3 lg:m-8"
       >
+        <ReportBug />
         <div>
           <div className="flex items-center justify-between">
             <h2 className="text-2xl dark:text-text-tertiary mb-0 mt-6 md:mt-0">
               Welcome!
             </h2>
             <div className="hidden sm:flex" onClick={handleWelcome}>
-              {welcome ? <RxCaretDown size={50} /> : <RxCaretRight size={50} />}
+              {welcome ? (
+                <Icons.rxCaretDown size={50} className="cursor-pointer" />
+              ) : (
+                <Icons.rxCaretRight size={50} className="cursor-pointer" />
+              )}
             </div>
           </div>
           {welcome && (
@@ -272,9 +269,9 @@ export default function Home() {
             <div className="text-2xl dark:text-text-tertiary">Community</div>
             <div className="hidden sm:flex" onClick={handleCommunity}>
               {community ? (
-                <RxCaretDown size={50} />
+                <Icons.rxCaretDown size={50} className="cursor-pointer" />
               ) : (
-                <RxCaretRight size={50} />
+                <Icons.rxCaretRight size={50} className="cursor-pointer" />
               )}
             </div>
           </div>
@@ -286,19 +283,19 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-4">
                 <SocialLink
                   href="https://twitter.com/linkshubdotdev"
-                  icon={<FaXTwitter size={30} />}
+                  icon={<Icons.faX size={30} />}
                   title="Twitter"
                   description="Follow us on X (twitter) to get updates, announcements, and general information."
                 />
                 <SocialLink
                   href="https://discord.com/invite/NvK67YnJX5"
-                  icon={<FaDiscord size={30} />}
+                  icon={<Icons.faDiscord size={30} />}
                   title="Discord"
                   description="Join our community for updates, ask questions, and share tips."
                 />
                 <SocialLink
                   href="https://github.com/rupali-codes/LinksHub"
-                  icon={<FaGithub size={30} />}
+                  icon={<Icons.faGithub size={30} />}
                   title="Github"
                   description="Join us here to report bugs & issues, and suggest features."
                 />
@@ -311,9 +308,9 @@ export default function Home() {
             <div className="text-2xl dark:text-text-tertiary">Resources</div>
             <div className="hidden sm:flex" onClick={handleResources}>
               {resources ? (
-                <RxCaretDown size={50} />
+                <Icons.rxCaretDown size={50} className="cursor-pointer" />
               ) : (
-                <RxCaretRight size={50} />
+                <Icons.rxCaretRight size={50} className="cursor-pointer" />
               )}
             </div>
           </div>
@@ -337,7 +334,7 @@ export default function Home() {
                             {el.category.toUpperCase()}
                           </div>
                           <div>
-                            <FaArrowRightLong className="m-4 hidden group-hover:block" />
+                            <Icons.arrowRightLong className="m-4 hidden group-hover:block" />
                           </div>
                         </div>
                       </Link>
@@ -351,7 +348,7 @@ export default function Home() {
           <div className="dark:bg-slate-800 bg-theme-primary-light rounded-lg border border border-theme-secondary/25 sm:flex-row items-center justify-between md:p-7 md:pr-12 p-5">
             <div className="md:flex items-center gap-4">
               <div className="text-yellow-400 ml-4 lg:ml-0">
-                <StarIcon />
+                <Icons.star className="h-8 w-8" />
               </div>
               <h1 className="text-xl dark:text-text-tertiary">
                 More awesome resources are coming soon!
@@ -366,7 +363,7 @@ export default function Home() {
               </div>
               <Button
                 label="Sponsor"
-                icon={<HeartIcon />}
+                icon={<Icons.heart className="h-4 w-4" />}
                 variant="pale"
                 link="https://github.com/sponsors/rupali-codes"
                 className="w-full sm:w-auto border border-theme-secondary/25 bg-primary/8 mt-4 mt-4 lg:mt-0 md:ml-4 md:mr-auto"

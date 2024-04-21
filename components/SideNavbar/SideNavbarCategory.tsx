@@ -7,7 +7,7 @@ import { SideNavbarElement } from './SideNavbarElement'
 import useOnClickOutside from 'hooks/useOnClickOutside'
 import type { ISidebar } from '../../types'
 
-import AngleIcon from 'assets/icons/svg/angle-down.svg'
+import { Icons } from 'components/icons'
 
 export const SideNavbarCategory: FC<{
   categoryData: ISidebar
@@ -54,10 +54,10 @@ export const SideNavbarCategory: FC<{
         >
           {category.split('-').join(' ')}
         </h1>
-        <AngleIcon
+        <Icons.angleDown
           className={`${
             isOpen && 'rotate-180'
-          } stroke-slate-500 dark:stroke-slate-300 self-center transition duration-300 ease-in-out`}
+          } h-5 w-5 text-slate-500 dark:text-slate-300 self-center transition duration-300 ease-in-out`}
         />
       </Link>
       <div
