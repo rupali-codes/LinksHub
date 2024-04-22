@@ -156,7 +156,16 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'devops',
     subcategory: [
-      { name: 'CI/CD', url: '/cicd', resources: DB.cicd },
+      {
+        name: 'Automation Tools', 
+        url: '/automation-tools', 
+        resources: DB.automationTools, 
+      },
+      {
+         name: 'CI/CD', 
+         url: '/cicd', 
+         resources: DB.cicd 
+      },
       {
         name: 'DevOps Life Cycle',
         url: '/devops-life-cycle',

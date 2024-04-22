@@ -30,6 +30,7 @@ export { default as api } from './backend/api.json'
 export { default as emailProviders } from './backend/email-providers.json'
 
 //devops
+export { default as automationTools } from './devops/automation-tools.json'
 export { default as cicd } from './devops/cicd.json'
 export { default as devopsLifecycle } from './devops/devops-life-cycle.json'
 export { default as devopsMethodologies } from './devops/devops-methodologies.json'
