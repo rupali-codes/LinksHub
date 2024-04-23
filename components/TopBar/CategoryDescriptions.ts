@@ -130,12 +130,12 @@ const categoryDescriptions: CategoryDescriptions = {
     'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
 
   // AI Tools
-  editors: 
-  'Harness the power of AI-driven editing tools to refine your writing effortlessly. From grammar and style suggestions to readability enhancements, these editors ensure your content shines with clarity and precision',
+  editors:
+    'Harness the power of AI-driven editing tools to refine your writing effortlessly. From grammar and style suggestions to readability enhancements, these editors ensure your content shines with clarity and precision',
   chatbots:
-  'Experience seamless interactions and instant assistance with AI chatbots. Whether it\'s answering queries, providing support, or automating tasks, these intelligent bots deliver personalized responses to enhance user experiences.',
+    "Experience seamless interactions and instant assistance with AI chatbots. Whether it's answering queries, providing support, or automating tasks, these intelligent bots deliver personalized responses to enhance user experiences.",
   'blog-writing':
-  'Unlock your creativity and streamline your blog writing process with AI-powered tools. From generating ideas to optimizing SEO, these tools empower you to craft engaging content that captivates your audience.',
+    'Unlock your creativity and streamline your blog writing process with AI-powered tools. From generating ideas to optimizing SEO, these tools empower you to craft engaging content that captivates your audience.',
 
   // cyber-security
   'offensive-security':
@@ -161,6 +161,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'Official docs is short for official documentation. Official documentation is an important resource for users of software products and services as it provides a comprehensive guide to using the software.',
   'project-ideas':
     'Projects play an important role in your resume. So here is a list of some great projects and their repositories.',
+  ssg: 'Static Site Generators are tools that generate HTML files from templates and content files. They are popular among developers for creating fast, secure, and easy-to-maintain websites.',
 
   //youtube
   android:

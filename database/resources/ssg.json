@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Astro",
+    "description": "Astro is a new kind of static site builder that delivers lightning-fast performance with a modern developer experience.",
+    "url": "https://astro.build/",
+    "category": "resources",
+    "subcategory": "ssg"
+  },
+  {
+    "name": "Eleventy",
+    "description": "Eleventy is a simpler static site generator. An alternative to Jekyll. Written in JavaScript. Transforms a directory of templates (of varying types) into HTML.",
+    "url": "https://www.11ty.dev/",
+    "category": "resources",
+    "subcategory": "ssg"
+  },
+  {
+    "name": "Gatsby",
+    "description": "Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.",
+    "url": "https://www.gatsbyjs.org/",
+    "category": "resources",
+    "subcategory": "ssg"
+  },
+  {
+    "name": "Gridsome",
+    "description": "Gridsome is a Vue.js-powered static site generator for building CDN-ready websites for any headless CMS, local files or APIs.",
+    "url": "https://gridsome.org/",
+    "category": "resources",
+    "subcategory": "ssg"
+  },
+  {
+    "name": "Hexo",
+    "description": "Hexo is a fast, simple & powerful blog framework powered by Node.js.",
+    "url": "https://hexo.io/",
+    "category": "resources",
+    "subcategory": "ssg"
+  },
+  {
+    "name": "Hugo",
+    "description": "Hugo is a popular open-source static site generator known for its speed and flexibility. It streamlines website creation by offering multi-format output (JSON, AMP) and Markdown shortcuts.",
+    "url": "https://gohugo.io/",
+    "category": "resources",
+    "subcategory": "ssg"
+  },
+  {
+    "name": "Jekyll",
+    "description": "Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites.",
+    "url": "https://jekyllrb.com/",
+    "category": "resources",
+    "subcategory": "ssg"
+  },
+  {
+    "name": "Nuxt.js",
+    "description": "Nuxt.js is a progressive framework based on Vue.js that simplifies the development of server-side rendered (SSR) and static generated (SSG) Vue.js applications.",
+    "url": "https://nuxtjs.org/",
+    "category": "resources",
+    "subcategory": "ssg"
+  },
+  {
+    "name": "SvelteKit",
+    "description": "SvelteKit is a framework for building extremely high-performance web applications. It's a flexible, batteries-included way of building web applications.",
+    "url": "https://kit.svelte.dev/",
+    "category": "resources",
+    "subcategory": "ssg"
+  },
+  {
+    "name": "Sapper",
+    "description": "Sapper is a framework for building high-performance web apps with Svelte — the next big thing in front-end development.",
+    "url": "https://sapper.svelte.dev/",
+    "category": "resources",
+    "subcategory": "ssg"
+  },
+  {
+    "name": "Scully",
+    "description": "Scully is a static site generator for Angular projects that pre-renders your application and boosts its performance.",
+    "url": "https://scully.io/",
+    "category": "resources",
+    "subcategory": "ssg"
+  },
+  {
+    "name": "Pelican",
+    "description": "Pelican is a static site generator that requires no database or server-side logic. It's easy to install and use, and it's perfect for personal blogs, project sites, or simple organization pages.",
+    "url": "https://blog.getpelican.com/",
+    "category": "resources",
+    "subcategory": "ssg"
+  },
+  {
+    "name": "VuePress",
+    "description": "VuePress is a minimalistic static site generator with a Vue-powered theming system, and a default theme optimized for writing technical documentation. It was created to support the documentation needs of Vue's own sub-projects.",
+    "url": "https://vuepress.vuejs.org/",
+    "category": "resources",
+    "subcategory": "ssg"
+  },
+  {
+    "name": "Zola",
+    "description": "Zola is a fast static site generator built in Rust. It's simple to use, blazingly fast, and supports a wide range of features.",
+    "url": "https://www.getzola.org/",
+    "category": "resources",
+    "subcategory": "ssg"
+  }
+]
