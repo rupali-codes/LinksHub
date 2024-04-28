@@ -4,15 +4,23 @@ import { AiOutlineRead } from 'react-icons/ai'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 import type { IData } from 'types'
-import { collection, doc,where,query,getDocs, setDoc,getDoc } from 'firebase/firestore'
-import {db} from '../../lib/firebase-config'
+import {
+  collection,
+  doc,
+  where,
+  query,
+  getDocs,
+  setDoc,
+  getDoc,
+} from 'firebase/firestore'
+import { db } from '../../lib/firebase-config'
 import { Timestamp } from 'firebase/firestore'
 import Image from 'next/image'
 
 import Bookmark from 'components/Bookmark/Bookmark'
 
 interface CardProps {
-  data: IData,
+  data: IData
   onClick: () => void
 }
 
@@ -21,52 +29,53 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
   const descriptionRef = useRef<HTMLParagraphElement>(null)
   const [isOverflow, setIsOverflow] = useState(false)
   const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/
-  const id = data.url.replace(/[^\w\s]/gi, '');
-  
-  const [upvoteCount,setUpvoteCount] = useState(0)
-  const [isUpvoted,setIsUpvoted] = useState(false);
+  const id = data.url.replace(/[^\w\s]/gi, '')
+
+  const [upvoteCount, setUpvoteCount] = useState(0)
+  const [isUpvoted, setIsUpvoted] = useState(false)
   const timestamp = Timestamp.fromDate(new Date())
   const date = timestamp.toDate()
   const user = {
     name: 'Vidip',
-    uid: 1234
+    uid: 1234,
   }
   const docRef = doc(db, 'resources', id)
-  const save = async()=>{
-    await setDoc(docRef, { 
-      name: name,
-    }, 
+  const save = async () => {
+    await setDoc(
+      docRef,
+      {
+        name: name,
+      },
       { merge: true }
     )
   }
 
-  
   const addUserToAssetBookmark = async () => {
     try {
       const subcollectionRef = collection(db, 'resources')
       const assetQuery = query(subcollectionRef, where('name', '==', data.name))
       const assetQuerySnapshot = await getDocs(assetQuery)
-      console.log("Asset Query: ",assetQuery);
-      console.log("Asset Query Snapshot: ",assetQuerySnapshot);
+      console.log('Asset Query: ', assetQuery)
+      console.log('Asset Query Snapshot: ', assetQuerySnapshot)
       if (assetQuerySnapshot.empty) {
-        console.log('Asset not found');
-        return;
+        console.log('Asset not found')
+        return
       }
-  
-      const assetDocSnapshot = assetQuerySnapshot.docs[0];
-      const assetDocRef = doc(db, 'resources', data.name);
-      const assetData = assetDocSnapshot.data();
-      console.log("Asset Data: ",assetData);
-  
-      const upvotes = assetData.upvotes || {};
-      const userUid = user.uid;
-  
+
+      const assetDocSnapshot = assetQuerySnapshot.docs[0]
+      const assetDocRef = doc(db, 'resources', data.name)
+      const assetData = assetDocSnapshot.data()
+      console.log('Asset Data: ', assetData)
+
+      const upvotes = assetData.upvotes || {}
+      const userUid = user.uid
+
       if (upvotes[userUid]) {
         // User has already upvoted, so remove their upvote
-        delete upvotes[userUid];
+        delete upvotes[userUid]
       } else {
         // User has not upvoted, so add their upvote
-        upvotes[userUid] = true;
+        upvotes[userUid] = true
       }
       await setDoc(assetDocRef, {
         name: name,
@@ -75,38 +84,36 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
         upvotedBy: user,
         created: date, // Keep existing data
         upvotes: upvotes,
-      });
-      
-      const updatedAssetDoc = await getDoc(assetDocRef);
-      if (!updatedAssetDoc.exists()) {
-        console.log('Asset document not found');
-        return;
-      }
-      const updatedUpvotes = updatedAssetDoc.data().upvotes || {};
-      const upvoteCount = Object.keys(updatedUpvotes).length;
-      setUpvoteCount(upvoteCount);
-      console.log(upvoteCount);
-    } catch (error) {
-      console.error('Error adding user to asset upvotes:', error);
-    }
-  };
- 
-  const toggleUpvote = () => {
-    setIsUpvoted(p => !p);
-  };
+      })
 
-  const handleClick = async(e: React.MouseEvent<HTMLButtonElement >)=>{
-    e.stopPropagation();
-    e.preventDefault();
-    toggleUpvote();
-    save();
-    await addUserToAssetBookmark();
+      const updatedAssetDoc = await getDoc(assetDocRef)
+      if (!updatedAssetDoc.exists()) {
+        console.log('Asset document not found')
+        return
+      }
+      const updatedUpvotes = updatedAssetDoc.data().upvotes || {}
+      const upvoteCount = Object.keys(updatedUpvotes).length
+      setUpvoteCount(upvoteCount)
+      console.log(upvoteCount)
+    } catch (error) {
+      console.error('Error adding user to asset upvotes:', error)
+    }
+  }
+
+  const toggleUpvote = () => {
+    setIsUpvoted((p) => !p)
+  }
+
+  const handleClick = async (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.stopPropagation()
+    e.preventDefault()
+    toggleUpvote()
+    save()
+    await addUserToAssetBookmark()
   }
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const Img = ({ url }:any)=> {
-    return (
-      <Image src={`${url}`} alt={'altimage'} width={40} height={40} />
-    );
+  const Img = ({ url }: any) => {
+    return <Image src={`${url}`} alt={'altimage'} width={40} height={40} />
   }
 
   useEffect(() => {
@@ -139,16 +146,23 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
             {description}
           </div>
           {isOverflow && (
-            <span onClick={onClick} className="text-sm float-right hover:underline dark:hover:text-theme-primary text-right hover:text-theme-primary dark:text-text-primary">
+            <span
+              onClick={onClick}
+              className="text-sm float-right hover:underline dark:hover:text-theme-primary text-right hover:text-theme-primary dark:text-text-primary"
+            >
               ...Read More
             </span>
           )}
         </div>
-        <div className='flex'>
-          <p className='text-3xl'>{upvoteCount}</p>
-          <button onClick={handleClick}><Img url={isUpvoted ? '/upvoteFilled.png' : '/upvote.png'} toggleUpvote={toggleUpvote}/></button>
+        <div className="flex">
+          <p className="text-3xl">{upvoteCount}</p>
+          <button onClick={handleClick}>
+            <Img
+              url={isUpvoted ? '/upvoteFilled.png' : '/upvote.png'}
+              toggleUpvote={toggleUpvote}
+            />
+          </button>
         </div>
-        <footer className="card-actions justify-end">
         <footer className="grid grid-cols-2 gap-x-4 md:grid-cols-1 lg:grid-cols-2">
           <a
             onClick={(e) => e.stopPropagation()}
@@ -159,7 +173,7 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
               'mt-2 flex w-full items-center justify-center gap-2 rounded-lg  bg-theme-secondary px-3 py-2 text-center text-light-primary duration-100'
             }
           >
-            <span className='truncate ...'>Visit site</span>
+            <span className="truncate ...">Visit site</span>
             {youtubeRegex.test(url) ? (
               <BsYoutube size="1.3em" />
             ) : subcategory === 'e-book' ? (
