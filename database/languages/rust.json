@@ -26,5 +26,19 @@
       "url": "https://rustlings.cool",
       "category": "languages",
       "subcategory": "rust"
+    },
+    {
+        "name": "Rust Bevy - Game Engine",
+        "description": "Master Rust game development with Bevy's high-performance, ergonomic framework. Learn from setup to advanced techniques for creating immersive gaming experiences.",
+        "url": "https://bevyengine.org/learn/quick-start/getting-started/",
+        "category": "languages",
+        "subcategory": "rust"
+    },
+    {
+        "name": "Rust actix - Web Framework",
+        "description": "Unlock the power of Rust web development with Actix Web's high-performance, asynchronous framework. From setup to advanced techniques, create robust and scalable web applications with ease.",
+        "url": "https://actix.rs",
+        "category": "languages",
+        "subcategory": "rust"
     }
 ]

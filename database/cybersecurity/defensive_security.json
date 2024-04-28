@@ -16,14 +16,14 @@
     {
       "name": "Security Information and Event Management (SIEM) Solutions",
       "description": "Explore SIEM solutions, which are essential for monitoring and responding to security incidents in real time.",
-      "url": "https://www.gartner.com/reviews/market/security-information-and-event-management-siem",
+      "url": "https://www.gartner.com/reviews/market/security-information-event-management",
       "category": "cyber-security",
       "subcategory": "defensive-security"
     },
     {
       "name": "Incident Response and Threat Hunting",
       "description": "Learn about incident response and threat hunting techniques, crucial for identifying and mitigating security incidents.",
-      "url": "https://www.sans.org/course/incident-response-and-threat-hunting",
+      "url": "https://www.sans.org/cyber-security-courses/advanced-incident-response-threat-hunting-training/",
       "category": "cyber-security",
       "subcategory": "defensive-security"
     }

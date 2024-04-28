@@ -125,7 +125,7 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
     }
   }, [])
   return (
-    <article className="z-10 h-full w-full rounded-3xl dark:bg-slate-800 dark:text-text-primary dark:shadow-sm bg-light-white">
+    <article className="z-10 h-full w-full rounded-3xl dark:bg-slate-800 dark:border dark:border-theme-primary/8 dark:text-text-primary dark:shadow-sm bg-theme-primary-light border border border-theme-secondary/25">
       <div className="card-body">
         <header className="flex justify-between items-center gap-2">
           <h2
@@ -170,7 +170,7 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
             target="_blank"
             rel="noopener noreferrer"
             className={
-              'mt-2 flex w-full items-center justify-center gap-2 rounded-lg  bg-theme-secondary px-3 py-2 text-center text-light-primary duration-100'
+              'mt-2 flex w-full items-center justify-center gap-2 rounded-lg bg-theme-secondary px-3 py-2 text-center text-light-primary duration-100'
             }
           >
             <span className="truncate ...">Visit site</span>
