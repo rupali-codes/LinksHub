@@ -62,5 +62,12 @@
     "url": "https://auth0.com/",
     "category": "backend",
     "subcategory": "authentication"
+  },
+  {
+    "name": "Corbado",
+    "description": "Corbado offers passkey-first passwordless authentication for developers. Available for all major languages & frameworks, the UI components handle everything and let you implement passkeys with a few lines of code - all in a free community plan.",
+    "url": "https://corbado.com/",
+    "category": "backend",
+    "subcategory": "authentication"
   }
 ]
