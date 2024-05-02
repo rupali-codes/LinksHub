@@ -43,7 +43,8 @@ export async function GET() {
                 const fileContent = await fs.readFile(filePath, 'utf-8');
                 const jsonData = JSON.parse(fileContent);
                 console.log(jsonData);
-                firestore.collection('resources').doc(folder).set({ resources: jsonData });
+                // Use .set() with { merge: true } to avoid overwriting the entire document
+                firestore.collection('resources').doc(folder).set({ resources: jsonData }, { merge: true });
             }
         }
         return NextResponse.json({ message: 'Imported to Firestore' });
@@ -52,3 +53,4 @@ export async function GET() {
         return NextResponse.json({ message: 'Error occurred' });
     }
 }
+
