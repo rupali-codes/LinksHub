@@ -62,5 +62,12 @@
     "url": "https://auth0.com/",
     "category": "backend",
     "subcategory": "authentication"
+  },
+  {
+    "name": "Corbado",
+    "description": "Corbado helps you go passwordless by adding passkeys to your website or app in a few lines of code. Built for React, Next.js, Flutter and the modern stack - all with a free community plan.",
+    "url": "https://corbado.com/",
+    "category": "backend",
+    "subcategory": "authentication"
   }
 ]
