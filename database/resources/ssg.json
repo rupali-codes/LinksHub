@@ -35,26 +35,13 @@
     "subcategory": "ssg"
   },
   {
-    "name": "Hugo",
-    "description": "Hugo is a popular open-source static site generator known for its speed and flexibility. It streamlines website creation by offering multi-format output (JSON, AMP) and Markdown shortcuts.",
-    "url": "https://gohugo.io/",
-    "category": "resources",
-    "subcategory": "ssg"
-  },
-  {
     "name": "Jekyll",
     "description": "Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites.",
     "url": "https://jekyllrb.com/",
     "category": "resources",
     "subcategory": "ssg"
   },
-  {
-    "name": "Nuxt.js",
-    "description": "Nuxt.js is a progressive framework based on Vue.js that simplifies the development of server-side rendered (SSR) and static generated (SSG) Vue.js applications.",
-    "url": "https://nuxtjs.org/",
-    "category": "resources",
-    "subcategory": "ssg"
-  },
+
   {
     "name": "SvelteKit",
     "description": "SvelteKit is a framework for building extremely high-performance web applications. It's a flexible, batteries-included way of building web applications.",
@@ -83,13 +70,7 @@
     "category": "resources",
     "subcategory": "ssg"
   },
-  {
-    "name": "VuePress",
-    "description": "VuePress is a minimalistic static site generator with a Vue-powered theming system, and a default theme optimized for writing technical documentation. It was created to support the documentation needs of Vue's own sub-projects.",
-    "url": "https://vuepress.vuejs.org/",
-    "category": "resources",
-    "subcategory": "ssg"
-  },
+
   {
     "name": "Zola",
     "description": "Zola is a fast static site generator built in Rust. It's simple to use, blazingly fast, and supports a wide range of features.",
