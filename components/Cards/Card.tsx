@@ -4,6 +4,19 @@ import { AiOutlineRead } from 'react-icons/ai'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import { CopyToClipboard } from 'components/CopyToClipboard/CopyToClipboard'
 import type { IData } from 'types'
+import {
+  collection,
+  doc,
+  where,
+  query,
+  getDocs,
+  setDoc,
+  getDoc,
+} from 'firebase/firestore'
+import { db } from '../../lib/firebase-config'
+import { Timestamp } from 'firebase/firestore'
+import Image from 'next/image'
+
 import Bookmark from 'components/Bookmark/Bookmark'
 
 interface CardProps {
@@ -16,6 +29,92 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
   const descriptionRef = useRef<HTMLParagraphElement>(null)
   const [isOverflow, setIsOverflow] = useState(false)
   const youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/
+  const id = data.url.replace(/[^\w\s]/gi, '')
+
+  const [upvoteCount, setUpvoteCount] = useState(0)
+  const [isUpvoted, setIsUpvoted] = useState(false)
+  const timestamp = Timestamp.fromDate(new Date())
+  const date = timestamp.toDate()
+  const user = {
+    name: 'Vidip',
+    uid: 1234,
+  }
+  const docRef = doc(db, 'resources', id)
+  const save = async () => {
+    await setDoc(
+      docRef,
+      {
+        name: name,
+      },
+      { merge: true }
+    )
+  }
+
+  const addUserToAssetBookmark = async () => {
+    try {
+      const subcollectionRef = collection(db, 'resources')
+      const assetQuery = query(subcollectionRef, where('name', '==', data.name))
+      const assetQuerySnapshot = await getDocs(assetQuery)
+      console.log('Asset Query: ', assetQuery)
+      console.log('Asset Query Snapshot: ', assetQuerySnapshot)
+      if (assetQuerySnapshot.empty) {
+        console.log('Asset not found')
+        return
+      }
+
+      const assetDocSnapshot = assetQuerySnapshot.docs[0]
+      const assetDocRef = doc(db, 'resources', data.name)
+      const assetData = assetDocSnapshot.data()
+      console.log('Asset Data: ', assetData)
+
+      const upvotes = assetData.upvotes || {}
+      const userUid = user.uid
+
+      if (upvotes[userUid]) {
+        // User has already upvoted, so remove their upvote
+        delete upvotes[userUid]
+      } else {
+        // User has not upvoted, so add their upvote
+        upvotes[userUid] = true
+      }
+      await setDoc(assetDocRef, {
+        name: name,
+        description: description,
+        url: url,
+        upvotedBy: user,
+        created: date, // Keep existing data
+        upvotes: upvotes,
+      })
+
+      const updatedAssetDoc = await getDoc(assetDocRef)
+      if (!updatedAssetDoc.exists()) {
+        console.log('Asset document not found')
+        return
+      }
+      const updatedUpvotes = updatedAssetDoc.data().upvotes || {}
+      const upvoteCount = Object.keys(updatedUpvotes).length
+      setUpvoteCount(upvoteCount)
+      console.log(upvoteCount)
+    } catch (error) {
+      console.error('Error adding user to asset upvotes:', error)
+    }
+  }
+
+  const toggleUpvote = () => {
+    setIsUpvoted((p) => !p)
+  }
+
+  const handleClick = async (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.stopPropagation()
+    e.preventDefault()
+    toggleUpvote()
+    save()
+    await addUserToAssetBookmark()
+  }
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const Img = ({ url }: any) => {
+    return <Image src={`${url}`} alt={'altimage'} width={40} height={40} />
+  }
 
   useEffect(() => {
     if (descriptionRef.current) {
@@ -25,7 +124,6 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
       )
     }
   }, [])
-
   return (
     <article className="z-10 h-full w-full rounded-3xl dark:bg-slate-800 dark:border dark:border-theme-primary/8 dark:text-text-primary dark:shadow-sm bg-theme-primary-light border border border-theme-secondary/25">
       <div className="card-body">
@@ -56,8 +154,16 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
             </span>
           )}
         </div>
+        <div className="flex">
+          <p className="text-3xl">{upvoteCount}</p>
+          <button onClick={handleClick}>
+            <Img
+              url={isUpvoted ? '/upvoteFilled.png' : '/upvote.png'}
+              toggleUpvote={toggleUpvote}
+            />
+          </button>
+        </div>
         <footer className="grid grid-cols-2 gap-x-4 md:grid-cols-1 lg:grid-cols-2">
-          <CopyToClipboard url={url} />
           <a
             onClick={(e) => e.stopPropagation()}
             href={url}
