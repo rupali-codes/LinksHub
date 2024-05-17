@@ -29,7 +29,7 @@ const GeneralLayout = ({ children }: { children: ReactNode }) => {
         </nav>
         <main
           data-custom="restrict-click-outside"
-          className="flex flex-col min-h-full px-4 pb-2 md:ml-[290px] lg:w-[calc(100%-290px)] bg-white dark:bg-inherit"
+          className="flex flex-col min-h-full px-4 pb-2 overflow-y-scroll mb-20 md:ml-[290px] lg:w-[calc(100%-290px)] bg-white dark:bg-inherit "
           id="main"
         >
           <div className="flex-grow">{children}</div>
