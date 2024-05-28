@@ -68,5 +68,12 @@
     "url": "https://www.brimble.io/",
     "category": "resources",
     "subcategory": "hosting"
+  },
+  {
+    "name": "Surge",
+    "description": "Surge is a streamlined platform for frontend developers to effortlessly deploy and host web projects. It offers a simple, command-line interface for fast, reliable publishing, enabling developers to focus on building rather than managing infrastructure.",
+    "url": "https://surge.sh/",
+    "category": "resources",
+    "subcategory": "hosting"
   }
 ]
