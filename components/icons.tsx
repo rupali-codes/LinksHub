@@ -1,4 +1,4 @@
-import { IconBaseProps } from 'react-icons'
+import { IconBaseProps } from 'react-icons/lib'
 import {
   IoIosArrowRoundForward,
   IoIosArrowBack,
@@ -111,8 +111,8 @@ export const Icons = {
   search: (props: IconBaseProps) => (
     <svg viewBox="0 0 20 20" fill="none" {...props}>
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M14.7159 13.463L17.7372 16.4753C17.9054 16.6422 18 16.8693 18 17.1062C18 17.3432 17.9054 17.5703 17.7372 17.7372C17.5703 17.9054 17.3432 18 17.1062 18C16.8693 18 16.6422 17.9054 16.4753 17.7372L13.463 14.7159C12.2211 15.6907 10.6876 16.2196 9.10882 16.2176C5.18273 16.2176 2 13.0349 2 9.10882C2 5.18273 5.18273 2 9.10882 2C13.0349 2 16.2176 5.18273 16.2176 9.10882C16.2196 10.6876 15.6907 12.2211 14.7159 13.463ZM9.10878 3.77729C6.16421 3.77729 3.77716 6.16434 3.77716 9.10891C3.77716 12.0535 6.16421 14.4405 9.10878 14.4405C12.0533 14.4405 14.4404 12.0535 14.4404 9.10891C14.4404 6.16434 12.0533 3.77729 9.10878 3.77729Z"
         fill="currentColor"
       />

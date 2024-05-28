@@ -104,7 +104,7 @@ Follow these steps to setup LinksHub on your local machine
 
 ### Appending new Categories 🔗
 
-> ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) for inserting your categories and someone else will take care of them.
+ You can suggest new categories by going to of the current categories on [our website and click on the "Wanna Share Something?" button](https://github.com/rupali-codes/LinksHub/issues/new?assignees=&labels=chore%2Cgoal%3A+new-category%2Cpriority%3A+low&projects=&template=---category-suggestion.yml&title=%5BADD%5D+%3Cwrite+the+name+of+category%2Fsubcategory%3E).
 
 #### 🌟Follow these steps to add your Category/Subcategory to the Hub
 
