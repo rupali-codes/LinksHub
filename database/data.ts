@@ -157,14 +157,14 @@ export const sidebarData: ISidebar[] = [
     category: 'devops',
     subcategory: [
       {
-        name: 'Automation Tools', 
-        url: '/automation-tools', 
-        resources: DB.automationTools, 
+        name: 'Automation Tools',
+        url: '/automation-tools',
+        resources: DB.automationTools,
       },
       {
-         name: 'CI/CD', 
-         url: '/cicd', 
-         resources: DB.cicd 
+        name: 'CI/CD',
+        url: '/cicd',
+        resources: DB.cicd,
       },
       {
         name: 'DevOps Life Cycle',
@@ -227,14 +227,14 @@ export const sidebarData: ISidebar[] = [
       {
         name: 'design',
         url: '/design',
-        resources: DB.design
+        resources: DB.design,
       },
       {
         name: 'blog writing',
         url: '/blog-writing',
-        resources: DB.blog_writing
+        resources: DB.blog_writing,
       },
-    ]
+    ],
   },
   {
     category: 'cyber-security',
@@ -301,6 +301,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'e-book', url: '/e-book', resources: DB.ebook },
       { name: 'dsa', url: '/dsa', resources: DB.dsa },
       { name: 'project ideas', url: '/project-ideas', resources: DB.project },
+      { name: 'Static Site Generators', url: '/ssg', resources: DB.ssg },
     ],
   },
   {
