@@ -1,0 +1,19 @@
+name: Broken Link Checker
+on:
+  repository_dispatch:
+    types: [test]
+  workflow_dispatch:
+  schedule:
+    - cron: '00 18 * * *'
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Check Links
+        uses: lycheeverse/lychee-action@v1.10.0
+        with:
+          args: --verbose --no-progress './**/*.md' './**/*.html' './**/*.rst' --exclude-mail --exclude 'http://localhost:*/*'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
