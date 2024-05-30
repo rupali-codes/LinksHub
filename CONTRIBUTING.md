@@ -26,6 +26,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 To get started, look at the existing [**Issues**](https://github.com/rupali-codes/LinksHub/issues) or [**create a new issue**](https://github.com/rupali-codes/LinksHub/issues/new/choose)!
 
 ### Setup guidelines 🪜
+
 Follow these steps to setup LinksHub on your local machine
 
 1. [Fork](https://github.com/rupali-codes/LinksHub/fork) the project
@@ -74,7 +75,7 @@ Follow these steps to setup LinksHub on your local machine
 > ```
 >
 > 3. Now start adding your changes.
-> **Note:** You don't need to restart the container again and again after starting it once, because the changes you make will reflect in the container instantly.
+>    **Note:** You don't need to restart the container again and again after starting it once, because the changes you make will reflect in the container instantly.
 
 7. Make your changes before staging them.
 
@@ -104,7 +105,7 @@ Follow these steps to setup LinksHub on your local machine
 
 ### Appending new Categories 🔗
 
- You can suggest new categories by going to of the current categories on [our website and click on the "Wanna Share Something?" button](https://github.com/rupali-codes/LinksHub/issues/new?assignees=&labels=chore%2Cgoal%3A+new-category%2Cpriority%3A+low&projects=&template=---category-suggestion.yml&title=%5BADD%5D+%3Cwrite+the+name+of+category%2Fsubcategory%3E).
+You can suggest new categories by going to of the current categories on [our website and click on the "Wanna Share Something?" button](https://github.com/rupali-codes/LinksHub/issues/new?assignees=&labels=chore%2Cgoal%3A+new-category%2Cpriority%3A+low&projects=&template=---category-suggestion.yml&title=%5BADD%5D+%3Cwrite+the+name+of+category%2Fsubcategory%3E).
 
 #### 🌟Follow these steps to add your Category/Subcategory to the Hub
 
@@ -139,11 +140,11 @@ Follow these steps to setup LinksHub on your local machine
 
   ```ts
   //category
-   subcategory name: 
+   subcategory name:
    `description of subcategory`,
-   ```
+  ```
 
-> [!NOTE]  
+> [!NOTE]
 > It's essential to add a description when submitting a pull request to add a subcategory to merge it in the codebase.
 
 ---
@@ -194,7 +195,7 @@ When adding _YouTube_ channel links, please specify _the language_ of the channe
 ---
 
 ### Adding and Updating Category Description 📝
->
+
 > ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) to suggest new descriptions. The maintainers will review them and then assign them.
 
 #### 🌟Follow these steps to add your links to the Hub
@@ -299,15 +300,15 @@ git commit -m "feat(auth): Implement user signup process (#789)"
 
 ## Remarks ✅
 
-- If something is missing here, or you feel something is not well described, either create a PR, [raise an issue](https://github.com/rupali-codes/LinksHub/issues), or [do a code review of the person’s PR](https://www.freecodecamp.org/news/code-review-tips/) (ensure that your review conforms to the [Code of Conduct](https://github.com/CBID2/LinksHub-my-version-/blob/main/CODE_OF_CONDUCT.md))
+- If something is missing here, or you feel something is not well described, either create a PR, [raise an issue](https://github.com/rupali-codes/LinksHub/issues), or [do a code review of the person’s PR](https://www.freecodecamp.org/news/code-review-tips/) (ensure that your review conforms to the [Code of Conduct](https://github.com/rupali-codes/LinksHub/blob/main/CODE_OF_CONDUCT.md))
 
-- You can tag maintainers for any kind of difficulty using `@username`. You can find the list of maintainer usernames [here](https://github.com/rupali-codes/LinksHub/blob/maintainers_info/README.md#maintainers-).
+- You can tag maintainers for any kind of difficulty using `@username`. You can find the list of maintainer usernames [here](https://github.com/rupali-codes/LinksHub#maintainers-).
 
 ### Levels
 
 We came up with this chart so you can gauge the issue's difficulty and pick ones that fit within your skillset:
-| Points              | Contribution                                                                |
+| Points | Contribution |
 |---------------------|-----------------------------------------------------------------------------|
-| `priority: low`:    | Addition of new links/categories or doing any small task (e.g fixing typos) |
-| `priority: medium`: | Modifying an existing feature                                               |
-| `priority: high`:   | Making completely new feature                                               |
+| `priority: low`: | Addition of new links/categories or doing any small task (e.g fixing typos) |
+| `priority: medium`: | Modifying an existing feature |
+| `priority: high`: | Making completely new feature |
