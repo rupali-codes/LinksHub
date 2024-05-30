@@ -14,6 +14,6 @@ jobs:
       - name: Check Links
         uses: lycheeverse/lychee-action@v1.10.0
         with:
-          args: --verbose --no-progress './**/*.md' './**/*.html' './**/*.rst' --exclude-mail --exclude 'http://localhost:*/*'
+          args: --verbose --no-progress './**/*.md' './**/*.html' './**/*.json' --exclude-mail --exclude 'http://localhost:*/*'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
