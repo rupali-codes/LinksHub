@@ -3,6 +3,7 @@ export const maintainersData = [
   { login: 'CBID2', name: 'Christine Belzie' },
   { login: 'Anmol-Baranwal', name: 'Anmol Baranwal' },
   { login: 'aftabrehan', name: 'Aftab Rehan' },
+  { login: 'rajneesh-18', name: 'Rajneesh Maurya' },
 ]
 
 export interface MaintainersDataInterface {
@@ -70,6 +71,19 @@ export const Maintainers: MaintainersDataInterface[] = [
     secondLink: 'https://github.com/aftabrehan',
     secondTxt: 'GitHub',
     thirdLink: 'https://twitter.com/aftabrehan_',
+    thirdTxt: 'Twitter',
+  },
+  {
+    name: 'Rajneesh Maurya',
+    avatarUrl: 'https://avatars.githubusercontent.com/u/112794051?v=4',
+    login: 'rajneesh-18',
+    designation: 'DevRel',
+    role: 'DevRel',
+    firstLink: 'https://rajneeshmaurya.bio.link/',
+    firstTxt: 'Website',
+    secondLink: 'https://github.com/rajneesh-18',
+    secondTxt: 'GitHub',
+    thirdLink: 'https://twitter.com/rajneeshstwt',
     thirdTxt: 'Twitter',
   },
 ]
