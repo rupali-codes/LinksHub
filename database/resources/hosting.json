@@ -71,7 +71,7 @@
   },
   {
     "name": "Surge",
-    "description": "Surge is a streamlined platform for frontend developers to effortlessly deploy and host web projects. It offers a simple, command-line interface for fast, reliable publishing, enabling developers to focus on building rather than managing infrastructure.",
+    "description": "Surge is a static web publishing tool that allows you to deploy static websites to a CDN with a single command. It is simple to use and offers free hosting with custom domains.",
     "url": "https://surge.sh/",
     "category": "resources",
     "subcategory": "hosting"
