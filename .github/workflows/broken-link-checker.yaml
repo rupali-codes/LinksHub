@@ -13,24 +13,30 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check Links
+        id: lychee
         uses: lycheeverse/lychee-action@v1.10.0
         with:
           args: --verbose --no-progress './**/*.md' './**/*.html' './**/*.json' --exclude-mail --exclude 'http://localhost:*/*'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
+      - name: Create markdown file
+        run: |
+          echo "${{ steps.lychee.outputs.report }}" > broken_links_report.md
+
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Fix broken links" -a || echo "No changes to commit"
+          git add broken_links_report.md
+          git commit -m "Add broken links report" || echo "No changes to commit"
         shell: bash
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'Fix broken links'
-          title: 'Fix broken links'
-          body: 'This PR fixes broken links found by the link checker.'
-          branch: 'fix/broken-links'
+          commit-message: 'Add broken links report'
+          title: 'Broken links report'
+          body: 'This PR adds a broken links report. See `broken_links_report.md` for details.'
+          branch: 'broken-links-report'
