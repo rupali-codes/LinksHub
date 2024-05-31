@@ -19,6 +19,11 @@ jobs:
           args: --verbose --no-progress './**/*.md' './**/*.html' './**/*.json' --exclude-mail --exclude 'http://localhost:*/*' --exclude 'https://*.canva.com/*'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        continue-on-error: true
+
+      - name: Set lychee_exit_code
+        id: lychee_exit_code
+        run: echo "::set-output name=lychee_exit_code::$?"
 
       - name: Commit changes
         run: |
@@ -35,3 +40,11 @@ jobs:
           title: 'Fix broken links'
           body: 'This PR fixes broken links found by the link checker.'
           branch: 'fix/broken-links'
+
+      - name: Create Issue From File
+        if: steps.lychee_exit_code.outputs.lychee_exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5.0.0
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: Broken Link
