@@ -16,7 +16,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v1.10.0
         with:
-          args: --verbose --no-progress './**/*.md' './**/*.html' './**/*.json' --exclude-mail --exclude 'http://localhost:*/*' --exclude 'https://*.canva.com/*'
+          args: --verbose --no-progress './**/*.md' './**/*.html' './**/*.json' --exclude-mail --exclude 'http://localhost:*/*' --exclude 'https://*.canva.com/*' --exclude 'https://*.udemy.com/*' --exclude 'https://*.leetcode.com/*' --exclude 'https://*.codeforces.com/*' --exclude 'https://*.pexels.com/*' --exclude 'https://*.pixabay.com/*'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         continue-on-error: true
