@@ -131,5 +131,12 @@
         "url": "https://api.nasa.gov",
         "category": "backend",
         "subcategory": "api"
+    },
+    {
+        "name": "Free APIs",
+        "description": "It's a collection of free APIs. Curated Playground for the Best Public Web APIs!",
+        "url": "https://apislist.com/",
+        "category": "backend",
+        "subcategory": "api"
     }
 ]
