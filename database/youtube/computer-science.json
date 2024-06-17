@@ -38,5 +38,13 @@
     "category": "youtube",
     "subcategory": "computer-science",
     "language": "hindi"
+  },
+  {
+    "name":"Arpit Bhayani",
+    "description":"Arpit Bhayani's YouTube channel explores diverse computer science topics including databases, system design, architecture, and algorithms.",
+    "url":"https://www.youtube.com/@AsliEngineering",
+    "category":"youtube",
+    "subcategory":"computer-science",
+    "language":"english"
   }
 ]
