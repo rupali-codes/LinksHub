@@ -30,5 +30,21 @@
     "category": "frontend",
     "subcategory": "angular",
     "language": "english"
+  },
+  {
+    "name": "Angular 12 in Hindi Tutorial",
+    "description": "Learn Angular in Hindi with step-by-step guide and build amazing projects.",
+    "url": "https://www.youtube.com/watch?v=PSRhmtiRNm4&list=PL8p2I9GklV45--5t7_N4lveUI6Y31vQ6C",
+    "category": "frontend",
+    "subcategory": "angular",
+    "language": "english"
+  },
+  {
+    "name": "Angular 17",
+    "description": "Get started with Angular 17, and make amazing projects",
+    "url": "https://v17.angular.io/start",
+    "category": "frontend",
+    "subcategory": "angular",
+    "language": "english"
   }
 ]
