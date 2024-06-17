@@ -14,6 +14,48 @@
         "subcategory": "c-programming"
     },
     {
+        "name": "GFG C Tutorial",
+        "description": "Start your coding adventure with our free C Tutorial. A perfect C programming tutorial for beginners and advanced coders alike, this tutorial is your key to unlocking the magic of C programming. With clear explanations and fun examples.",
+        "url": "https://www.geeksforgeeks.org/c-programming-language/",
+        "category": "languages",
+        "subcategory": "c-programming"
+    },
+    {
+        "name": "Javatpoint C Tutorial",
+        "description": "C language Tutorial with programming approach for beginners and professionals, helps you to understand the C language tutorial easily. Our C tutorial explains each topic with programs..",
+        "url": "https://www.javatpoint.com/c-programming-language-tutorial",
+        "category": "languages",
+        "subcategory": "c-programming"
+    },
+    {
+        "name": "W3Schools C Tutorial",
+        "description": "This tutorial will teach you the basics of C. When you are finished with this tutorial, you will be able to write C programs and create real-life examples. It is not necessary to have any prior programming experience.",
+        "url": "https://www.w3schools.com/c/c_intro.php",
+        "category": "languages",
+        "subcategory": "c-programming"
+    },
+    {
+        "name": "CodeWithHarry Learn C Programming",
+        "description": "Step-by-step guide to learn C language from basic to advance level with ease.",
+        "url": "https://www.youtube.com/watch?v=7Dh73z3icd8&list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR",
+        "category": "languages",
+        "subcategory": "c-programming"
+    },
+    {
+        "name": "Jenny's Lecture C Programming Tutorial",
+        "description": "Learn C programming language from basic to advance level step-by-step.",
+        "url": "https://www.youtube.com/watch?v=EjavYOFoJJ0&list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S",
+        "category": "languages",
+        "subcategory": "c-programming"
+    },
+    {
+        "name": "Neso Academy C Programming Tutorial",
+        "description": "Learn C programming language from basic to advance level step-by-step.",
+        "url": "https://www.youtube.com/watch?v=rLf3jnHxSmU&list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR",
+        "category": "languages",
+        "subcategory": "c-programming"
+    },
+    {
         "name": "C Programming One Shot",
         "description": "This is a one-shot C programming video (10+ hours) by Apna College, providing a comprehensive C language tutorial for beginners, complete with notes and practice questions.",
         "url": "https://www.youtube.com/watch?v=irqbmMNs2Bo&list=PLfqMhTWNBTe25HU2y-3Kx6MBsasawd61U",
