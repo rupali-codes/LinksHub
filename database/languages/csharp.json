@@ -14,6 +14,27 @@
     "subcategory": "csharp"
   },
   {
+    "name": "C# One-shot",
+    "description": "Learn C# basics in 1 hour! ⚡ This beginner-friendly tutorial gets you coding fast. No experience needed.",
+    "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY&t=98s",
+    "category": "languages",
+    "subcategory": "csharp"
+  },
+  {
+    "name": "C# Full Course",
+    "description": "This complete C# tutorial for beginners will take you from the basics of C# programming to advanced concepts.",
+    "url": "https://www.youtube.com/watch?v=YrtFtdTTfv0",
+    "category": "languages",
+    "subcategory": "csharp"
+  },
+  {
+    "name": "C# Full Course in Hindi",
+    "description": "This C# tutorial for beginners in Hindi will teach you everything you need to know about C sharp. C# in one video in Hindi has been designed so that you can easily learn all the basic concepts of C# at a single place with proper code examples.",
+    "url": "https://www.youtube.com/watch?v=SuLiu5AK9Ps&t=321s",
+    "category": "languages",
+    "subcategory": "csharp"
+  },
+  {
     "name": "Programiz",
     "description": "A nice and beginner friendly tutorial for C#.",
     "url": "https://www.programiz.com/csharp-programming",
