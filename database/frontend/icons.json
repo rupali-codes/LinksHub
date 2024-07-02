@@ -285,5 +285,12 @@
     "url": "https://www.radix-ui.com/icons",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Iconse",
+    "description": "Iconse.js is an icon Explorer with Instant searching, powered by Iconify",
+    "url": "http://icones.js.org/",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
