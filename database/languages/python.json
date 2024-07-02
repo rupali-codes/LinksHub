@@ -40,5 +40,12 @@
         "url": "https://www.w3schools.com/python/",
         "category": "languages",
         "subcategory": "python"
+    },
+    {
+        "name": "Chai Aur Code",
+        "description": "Complete series on Python with amazing explanation from Big Picture to fundamentals.",
+        "url": "https://www.youtube.com/watch?v=v9bOWjwdTlg",
+        "category": "languages",
+        "subcategory": "python"
     }
 ]
