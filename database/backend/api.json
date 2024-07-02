@@ -4,14 +4,14 @@
         "description": "Google Maps Platform offers a free $200 monthly credit for Maps, Routes, and Places.",
         "url": "https://developers.google.com/maps",
         "category": "backend",
-        "subcategory": "api"  
+        "subcategory": "api"
     },
     {
         "name": "Stripe",
         "description": "Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes.",
         "url": "https://stripe.com",
         "category": "backend",
-        "subcategory": "api"       
+        "subcategory": "api"
     },
     {
         "name": "Youtube API",
@@ -136,6 +136,13 @@
         "name": "Free APIs",
         "description": "It's a collection of free APIs. Curated Playground for the Best Public Web APIs!",
         "url": "https://apislist.com/",
+        "category": "backend",
+        "subcategory": "api"
+    },
+    {
+        "name": "News API",
+        "description": "News API is a simple, easy-to-use REST API that returns JSON search results for current and historic news articles published by over 150,000 worldwide sources.",
+        "url": "https://newsapi.org/",
         "category": "backend",
         "subcategory": "api"
     }
