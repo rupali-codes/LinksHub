@@ -54,5 +54,12 @@
     "url": "https://playwright.dev/",
     "category": "backend",
     "subcategory": "testing"
+  },
+  {
+    "name": "Yaak",
+    "description": "Yaak is a cross-platform desktop app for interacting with REST, GraphQL, and gRPC an open-source Postman alternative.",
+    "url": "https://yaak.app/",
+    "category": "backend",
+    "subcategory": "testing"
   }
 ]

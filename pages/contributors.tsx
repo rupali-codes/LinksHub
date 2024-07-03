@@ -158,6 +158,14 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
           'hover:bg-[#9655A0] hover:bg-opacity-5 dark:hover:bg-[#9655A0] dark:hover:bg-opacity-20 hover:text-[#E672F9]',
         border: 'dark:border-[#9655A0] dark:border-opacity-20 border-[#9655A0]',
       },
+      4: {
+        bg: 'bg-[#ff9933] bg-opacity-5 dark:bg-opacity-10 dark:bg-[#ff9933]',
+        text: 'text-[#ff9933]',
+        role: 'bg-[#ff9933] bg-opacity-10 dark:bg-[#ff9933] dark:bg-opacity-50 border dark:border-none border-[#ff9933] border-opacity-50',
+        hover:
+          'hover:bg-[#ff9933] hover:bg-opacity-5 dark:hover:bg-[#ff9933] dark:hover:bg-opacity-20 hover:text-[#E672F9]',
+        border: 'dark:border-[#ff9933] dark:border-opacity-20 border-[#ff9933]',
+      },
     }
 
     return themeColor[id][check]

@@ -7,6 +7,13 @@
     "subcategory": "validation"
   },
   {
+    "name": "Validator.ts",
+    "description": "validators.ts is a TypeScript library for runtime data validation and type checking. It offers a concise API to define, validate, and sanitize various data structures, ensuring type safety and reliability in TypeScript applications.",
+    "url": "https://feathersjs.com/api/schema/validators.html",
+    "category": "backend",
+    "subcategory": "validation"
+  },
+  {
     "name": "Python Validators",
     "description": "Python Validators is a simple validation library where validating a simple value does not require defining a form or a schema.",
     "url": "https://pypi.org/project/validators/",

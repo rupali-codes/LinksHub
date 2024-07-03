@@ -40,5 +40,12 @@
         "url": "https://actix.rs",
         "category": "languages",
         "subcategory": "rust"
+    },
+    {
+        "name": "Rust Infinity",
+        "description": "Your journey to becoming a Rust developer starts here. Learn Rust with interactive problems, integrated compiler, and a supportive community.",
+        "url": "https://www.rustfinity.com",
+        "category": "languages",
+        "subcategory": "rust"
     }
 ]
