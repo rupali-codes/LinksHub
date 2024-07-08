@@ -78,6 +78,8 @@ export { default as nlp } from './artificial_intelligence/NLP.json'
 //ai tools
 export { default as design } from './ai_tools/design.json'
 export { default as blog_writing } from './ai_tools/blog-writing.json'
+export { default as chat_bot } from './ai_tools/chat-bot.json'
+
 // Open-source
 export { default as openSourceArticles } from './open_source/articles.json'
 export { default as openSourcePrograms } from './open_source/os-programs.json'

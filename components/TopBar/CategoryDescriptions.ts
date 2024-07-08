@@ -130,12 +130,12 @@ const categoryDescriptions: CategoryDescriptions = {
     'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
 
   // AI Tools
-  design:
+  'design':
     'Harness the power of AI-driven editing tools to refine your writing effortlessly. From grammar and style suggestions to readability enhancements, these editors ensure your content shines with clarity and precision',
-  chatbots:
-    "Experience seamless interactions and instant assistance with AI chatbots. Whether it's answering queries, providing support, or automating tasks, these intelligent bots deliver personalized responses to enhance user experiences.",
   'blog-writing':
     'Unlock your creativity and streamline your blog writing process with AI-powered tools. From generating ideas to optimizing SEO, these tools empower you to craft engaging content that captivates your audience.',
+  'chat-bot':
+    "Experience seamless interactions and instant assistance with AI chatbots. Whether it's answering queries, providing support, or automating tasks, these intelligent bots deliver personalized responses to enhance user experiences.",
 
   // cyber-security
   'offensive-security':
