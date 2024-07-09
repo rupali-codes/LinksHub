@@ -13,6 +13,8 @@ const MemoizedCardsList = memo(CardsList)
 
 const Search = () => {
   const { setResults } = useResults()
+  console.log(setResults);
+  
 
   const router = useRouter()
   const title = `LinksHub - ${router.asPath
