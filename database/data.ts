@@ -12,13 +12,13 @@ export const sidebarData: ISidebar[] = [
       { name: 'next js', url: '/next-js', resources: DB.next },
       {
         name: '3D libraries',
-        url: '/3d-libraries',
+        url: '/three_d_libraries',
         resources: DB._3dLibraries,
       },
       { name: 'images', url: '/images', resources: DB.images },
       { name: 'fonts', url: '/fonts', resources: DB.fonts },
       { name: 'colors', url: '/colors', resources: DB.colors },
-      { name: 'css games', url: '/css-games', resources: DB.cssGames },
+      { name: 'css games', url: '/css_games', resources: DB.cssGames },
       { name: 'react', url: '/react', resources: DB.react },
       {
         name: 'illustrations',
@@ -29,7 +29,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'icons', url: '/icons', resources: DB.icons },
       {
         name: 'design inspiration',
-        url: '/design-inspiration',
+        url: '/design_inspiration',
         resources: DB.designInspirations,
       },
       {
