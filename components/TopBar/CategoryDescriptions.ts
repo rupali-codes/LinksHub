@@ -52,11 +52,11 @@ const categoryDescriptions: CategoryDescriptions = {
     'Caching is the process of storing frequently accessed data in a cache so that it can be quickly retrieved when needed. Caching can improve the performance of applications by reducing the amount of time it takes to retrieve data from a database or other data source.',
   database:
     'A database is an organized collection of data that can be easily accessed, managed, and updated. Databases are used to store and manage data for various applications such as websites, mobile apps, and enterprise systems.',
-  'email-providers':
+  email_providers:
     'Platforms facilitating the exchange of electronic messages, allowing users to send, receive, and manage their emails efficiently.',
   security:
     'Security is the practice of protecting systems, networks, and data from unauthorized access, use, disclosure, disruption, modification, or destruction.',
-  'system-design':
+  system_design:
     'System design is the process of defining the architecture, components, modules, interfaces, and data for a system to satisfy specified requirements.',
   testing:
     'Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not.',
@@ -64,7 +64,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'Validation is the process of checking whether a system or its component(s) satisfies the specified requirements or not and checks the data is correct or not.',
 
   //languages
-  'c-programming':
+  c_programming:
     'C is a general-purpose programming language that was developed in the early 1970s by Dennis Ritchie at Bell Labs. C is widely used for developing system software, embedded systems, and application software.',
   cpp: "C++ is a versatile and powerful programming language that builds upon the features of C, offering object-oriented programming capabilities and support for low-level memory manipulation. It's widely used for developing system software, games, high-performance applications, and more.",
   dart: "Dart is a programming language primarily used for building web and mobile applications with a focus on client-side development. It's the language behind the Flutter framework, allowing developers to create cross-platform apps with a single codebase. Dart offers features like a Just-In-Time (JIT) compiler for development speed and an Ahead-Of-Time (AOT) compiler for production performance optimization.",
@@ -97,13 +97,15 @@ const categoryDescriptions: CategoryDescriptions = {
     'There are various open source tools available for developers. Some of the most popular ones include Hadoop, VLC Media Player, and GIMP1. Other open source tools include TensorFlow, Eclipse Che, and OpenShift Do.',
   tutorials:
     'Tutorials helps you to learn-by-watching. It contains the list most helping tutorials on open-source.',
-  'os-programs':
+  os_programs:
     'Open source programs where contributors contribute in projects under the guidance of mentors.',
   //devops
+  automation_tools:
+    'Automation tools in DevOps are software solutions tha streamline and automate repetitive tasks, processes and workflows, improving efficiency, consistency and speed in software development and deployment',
   cicd: 'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
-  'devops-life-cycle':
+  devops_life_cycle:
     'DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
-  'devops-methodologies':
+  devops_methodologies:
     'DevOps methodologies are a set of practices that combine software development and information technology operations to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
   docker:
     'Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers. These are isolated from one another and bundle their own software, libraries, and configuration files; they can also communicate with each other through well-defined channels.',
@@ -116,15 +118,15 @@ const categoryDescriptions: CategoryDescriptions = {
   iac: 'Infrastructure as Code (IaC) is the managing and provisioning of infrastructure through code instead of through manual processes.',
 
   // AI
-  'artificial-intelligence':
+  artificial_intelligence:
     'AI, or Artificial Intelligence, refers to the simulation of human intelligence in machines, enabling them to perform tasks that typically require human intelligence, such as learning, reasoning, problem-solving, and understanding natural language.',
-  'data-science':
+  data_science:
     'Data science is an interdisciplinary field that involves the use of statistical, mathematical, and computational methods to extract insights and knowledge from data. Data science is widely used for machine learning, data analysis, and data visualization.',
-  'deep-learning':
+  deep_learning:
     'Deep learning is a subfield of machine learning that involves the use of neural networks to learn from data. Deep learning is widely used for image recognition, natural language processing, and speech recognition. ',
-  'machine-learning':
+  machine_learning:
     'Machine learning is a subfield of artificial intelligence that uses statistical, mathematical, and computational methods to learn from data. Machine learning is widely used for data analysis, data visualization, and predictive modeling.',
-  'natural-language-processing':
+  natural_language_processing:
     'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
 
   // AI Tools
@@ -132,23 +134,23 @@ const categoryDescriptions: CategoryDescriptions = {
     'Harness the power of AI-driven editing tools to refine your writing effortlessly. From grammar and style suggestions to readability enhancements, these editors ensure your content shines with clarity and precision',
   chatbots:
     "Experience seamless interactions and instant assistance with AI chatbots. Whether it's answering queries, providing support, or automating tasks, these intelligent bots deliver personalized responses to enhance user experiences.",
-  'blog-writing':
+  blog_writing:
     'Unlock your creativity and streamline your blog writing process with AI-powered tools. From generating ideas to optimizing SEO, these tools empower you to craft engaging content that captivates your audience.',
 
   // cyber-security
-  'offensive-security':
+  offensive_security:
     'Offensive security is the proactive approach to securing networks and systems from attacks by actively seeking out vulnerabilities and weaknesses. ',
-  'defensive-security':
+  defensive_security:
     'Defensive security is a proactive approach that focuses on prevention, detection, and response to attacks from the perspective of defending the organization.',
-  'malware-analysis':
+  malware_analysis:
     'Malware analysis is the study of the unique features, objectives, sources, and potential effects of harmful software and code, such as spyware, viruses, malvertising, and ransomware.',
-  'web-security':
+  web_security:
     'Web application penetration testing is the practice of simulating attacks on a system in an attempt to gain access to sensitive data, with the purpose of determining whether a system is secure.',
 
   //resources
   blogs:
     'The term “blog” is short for “weblog.” Blogs are usually maintained by an individual with regular entries of commentary, descriptions of events, or other material such as graphics or video.',
-  'e-book':
+  e_book:
     'An ebook (short for electronic book) is a book publication made available in digital form, consisting of text, images, or both readable on the flat-panel display of computers or other electronic devices.',
   hosting:
     'Web hosting is an online service that makes the content of your website accessible on the internet. When you purchase a hosting plan, you are renting space on a physical server to store all the files and data.',
@@ -157,41 +159,41 @@ const categoryDescriptions: CategoryDescriptions = {
   dsa: 'Data Structures and Algorithms play an important role in tech placements. So here is a list of important and great dsa resources',
   officialdocs:
     'Official docs is short for official documentation. Official documentation is an important resource for users of software products and services as it provides a comprehensive guide to using the software.',
-  'project-ideas':
+  project_ideas:
     'Projects play an important role in your resume. So here is a list of some great projects and their repositories.',
   ssg: 'Static Site Generators are tools that generate HTML files from templates and content files. They are popular among developers for creating fast, secure, and easy-to-maintain websites.',
 
   //youtube
   android:
     'Android programming is the process of creating applications that run on the Android operating system. Android applications are written in Java or Kotlin programming languages .',
-  'competitive-programming':
+  competitive_programming:
     'Competitive programming is a mental sport that involves writing source code of computer programs that are able to solve given problems.',
-  'computer-science':
+  computer_science:
     'Computer science programming is the process of creating computer software using programming languages. Computer science programming is a subset of computer science that focuses on the development of software .',
   css: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts ',
   'data structures':
     'Data structures are a way of organizing and storing data in a computer so that it can be accessed and used efficiently .',
   fintech:
     'It is a catch-all term for technology used to augment, streamline, digitize or disrupt traditional financial services. Fintech refers to software, algorithms, and applications for both desktop and mobile.',
-  'game-development':
+  game_development:
     'Game development is the process of creating games for various platforms. It involves different stages and aspects, such as design, development, release, storyboarding, writing, audio, art, coding, music, animation, modelling, testing and marketing. ',
-  'machine-learning-yt':
+  machine_learning_yt:
     'Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. ',
   tensorflow:
     'TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.',
-  'software-testing':
+  software_testing:
     'Testing is executing a system in order to identify any gaps, errors, or missing requirements.For example, YouTube also uses A/ B testing to test different versions of their website to see which version performs better.',
-  'web-development':
+  web_development:
     'Web development is the process of building, programming, and maintaining websites and web applications. It involves various disciplines such as web design, coding, programming, database management, and web server administration.',
-  'web3-metaverse':
+  web3_metaverse:
     'Web3 is the next generation of the internet. It is a decentralized network that allows users to interact with each other without the need for intermediaries. ',
 
   //competitive programming
-  'cp-helpers':
+  cp_helpers:
     'Coding libraries, templates, and community forums serve as valuable aids for competitive programmers, offering pre-written code snippets, discussions, and collaborative support to optimize problem-solving efficiency.',
-  'cp-platforms':
+  cp_platforms:
     'Online platforms such as Codeforces, HackerRank, and LeetCode provide a virtual arena for programmers to engage in competitive programming challenges, honing their problem-solving skills.',
-  'cp-tutorials':
+  cp_tutorials:
     'Various online resources offer tutorials on algorithms, data structures, and problem-solving techniques, assisting aspiring competitive programmers in enhancing their coding proficiency and strategic thinking.',
 
   //other
@@ -203,12 +205,12 @@ const categoryDescriptions: CategoryDescriptions = {
     'This list of Development tools will help you boost your programming speed and modify your projects to the next level.',
   github: 'Well, Github does not need description, devs know well!',
   git: 'Your friendly neighborhood version control system to track the development activities.',
-  'other-resources':
+  other_resources:
     'Some extra resources to help you in your coding projects.',
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
   contributors:
     'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
-  'text-formatting':
+  text_formatting:
     'Your ultimate solution for all your text formatting needs!',
   roadmaps:
     'Roadmaps are strategic plans that outline key milestones, goals, and timelines. They serve as guides for project development, ensuring a systematic and organized approach to achieving objectives.',
@@ -216,31 +218,29 @@ const categoryDescriptions: CategoryDescriptions = {
     'DNS is a crucial component of the internet infrastructure. It translates human-readable domain names into IP addresses, facilitating seamless communication between devices on the internet.',
 
   // Placement-Prep
-  'interview-preparation':
+  interview_preparation:
     'Diverse resources for developers to enhance interview skills, including articles, videos, and mock interview platforms.',
-  'job-portals':
+  job_portals:
     'Explore top job portals, their features, and expert tips for efficient job searching and connecting with employers.',
-  'resume-building':
+  resume_building:
     'Providing resources to help developers create compelling resumes that showcase their skills and experience.',
-  'portfolio-building':
+  portfolio_building:
     'Offer templates and examples to assist developers in building impressive portfolios that highlight their work and accomplishments.',
-  'career-guidance':
-    'Explore resources, articles, and guidance for career planning, goal setting, and professional growth in the tech industry.',
   certifications:
     'Curated list of globally recognized tech certifications, including requirements, benefits, and preparation strategies, emphasizing industry recognition and validity.',
-  'cover-letters':
+  cover_letters:
     "A cover letter is a formal document accompanying a resume, providing a personalized introduction to a potential employer. It highlights the applicant's qualifications, skills, and interest in the specific position.",
 
   //technical-writing
-  'technical-writing-tools':
+  technical_writing_tools:
     'This list provides the tools to suit your tech writing needs.',
 
   //data-structures
-  'dsa-articles':
+  dsa_articles:
     'This section provides various important articles related to DSA problem solving skills, how to tackle them, how to think about it and many more.',
-  'dsa-courses':
+  dsa_courses:
     'This section provides various online courses that can help you start with the fundamentals of data structures and algorithms and also ace your coding interviews.',
-  'dsa-tutorials':
+  dsa_tutorials:
     'This section provides you with YouTube tutorials that help you grasp concepts better by hands-on experience and learn better, practically!',
   //BlockChain
   smartcontracts:

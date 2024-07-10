@@ -1,0 +1,30 @@
+[
+  {
+    "name": "InterviewBit",
+    "description": "InterviewBit provides a structured curriculum with coding challenges, mock interviews, and practice problems to help individuals prepare for technical interviews in software engineering and data science roles",
+    "url": "https://www.interviewbit.com/",
+    "category": "placement-prep",
+    "subcategory": "interview_preparation"
+  },
+  {
+    "name": "Pramp",
+    "description": "Pramp is a platform that enables users to practice technical interviews through peer-to-peer mock interviews. It offers a collaborative environment to enhance problem-solving skills and prepare for real interviews.",
+    "url": "https://www.pramp.com/",
+    "category": "placement-prep",
+    "subcategory": "interview_preparation"
+  },
+  {
+    "name": "GeeksforGeeks",
+    "description": "GeeksforGeeks offers a wide range of articles, tutorials, and practice problems covering computer science topics, algorithms, data structures, and interview-specific preparation materials for technical roles.",
+    "url": "https://www.geeksforgeeks.org/",
+    "category": "placement-prep",
+    "subcategory": "interview_preparation"
+  },
+  {
+    "name": "Interview Cake",
+    "description": "Interview Cake offers a structured curriculum with coding challenges and in-depth explanations. It focuses on teaching strategies for solving coding problems commonly asked in technical interviews.",
+    "url": "https://www.interviewcake.com/",
+    "category": "placement-prep",
+    "subcategory": "interview_preparation"
+  }
+]
