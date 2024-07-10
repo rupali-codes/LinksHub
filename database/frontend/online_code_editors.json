@@ -4,168 +4,168 @@
     "description": "Gitpod is a cloud-based IDE that integrates with GitHub, allowing developers to create, edit, and test their code in a pre-configured workspace. ",
     "url": "https://gitpod.io",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "Codepen",
     "description": "An amazing online community for testing and showcasing HTML, CSS, and JavaScript code snippets.",
     "url": "https://codepen.io",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "Tryit",
     "description": "Another online platform for testing codes written in HTML, CSS and JavaScript.",
     "url": "https://w3schools.com/html/tryit.asp?filename=tryhtml_basic",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "OnlineGDB",
     "description": "OnlineGDB is an online integrated development environment (IDE) that provides a convenient platform for coding and testing HTML, CSS, and JavaScript.",
     "url": "https://www.onlinegdb.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "StackEdit",
     "description": "StackEdit is a user-friendly online Markdown editor with real-time collaboration and cloud storage integration, making writing and editing documents effortless and accessible from anywhere.",
     "url": "https://stackedit.io/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "Sololearn",
     "description": "It's a multi-language online code editor where you can test and share your code snippets.",
     "url": "https://sololearn.com/compiler-playground/cVRUy2BwauK8",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "CodeChef",
     "description": "An online IDE to practice your competitive programming skills. It allows you to code in multiple languages.",
     "url": "https://www.codechef.com/ide",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "Visual Studio Code for the Web",
     "description": "An online code editor built with Visual Studio Code",
     "url": "https://vscode.dev/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "Replit",
     "description": "An online IDE with inbuilt collaborative, hosting  and AI features.",
     "url": "https://replit.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "Codesandbox",
     "description": "A cloud development platform that empowers anyone to code, collaborate, and ship projects of any size from any device in record time.",
     "url": "https://codesandbox.io/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "OneCompiler",
     "description": "Got a new feature for your web app? Implement it with OneCompiler on mobile and anywhere. It supports over 60+ programming languages and frontend frameworks.",
     "url": "https://onecompiler.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "StackBlitz",
     "description": "StackBlitz is an online code editor powered by WebContainers that allows users to create, collaborate, and deploy web applications.",
     "url": "https://stackblitz.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "Programiz",
     "description": "Learn to program with our beginner-friendly tutorials and examples. Read tutorials, try examples, write code, and learn to program.",
     "url": "https://www.programiz.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "codewars",
     "description": "Codewars is an online platform that offers coding challenges suitable for individuals with diverse programming proficiency levels.",
     "url": "https://www.codewars.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "Interviewbit",
     "description": "Everything you need to crack your next tech interview is provided on this website",
     "url": "https://www.interviewbit.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "Sublime Text",
     "description": "Sublime Text is a shareware text and source code editor available for Windows, macOS, and Linux. It supports many programming and markup languages.",
     "url": "https://www.sublimetext.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "GeeksforGeeks",
     "description": " It is a free online compiler and debugger where programmers and developers can compile and run their code.",
     "url": "https://ide.geeksforgeeks.org/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "Coding Blocks",
     "description": "In addition to the IDE with code completion, you can also create an account to save your code on the server and share it with others.",
     "url": "https://ide.codingblocks.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "Rextester IDE",
     "description": "With Rextester, you can create a execution command for the program along with code compilation.",
     "url": "https://rextester.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "CS Academy",
     "description": "In addition to code compilation and execution, this source consists of workspaces",
     "url": "https://csacademy.com/workspace/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
    {
     "name": "Ideone",
     "description": " Ideone is an online compiler and debugging tool that allows developers to compile source code and execute it online in more than 60 programming languages.",
     "url": "https://ideone.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "Jdoodle",
     "description": " It is a free online compiler and code editor to save, run and share code anytime",
     "url": "https://www.jdoodle.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "CodinGame",
     "description": "This is a great website to learn and practice your coding skills. It provides interactive challenges in different programming languages ",
     "url": "https://www.codingame.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   },
   {
     "name": "JSitor",
     "description": "An advanced editor to write, test, and share JavaScript, CSS, and HTML snippets. Supports TypeScript and libraries too.",
     "url": "https://jsitor.com/",
     "category": "frontend",
-    "subcategory": "online-code-editors"
+    "subcategory": "online_code_editors"
   }
   
 ]

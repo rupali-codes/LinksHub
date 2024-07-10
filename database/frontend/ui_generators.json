@@ -4,182 +4,182 @@
     "description": "Mamba UI is a free, open-source collection of UI components and templates based on Tailwind CSS. They have some of the popular components to help you get started.",
     "url": "https://www.mambaui.com/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Fffuel.co",
     "description": "Fffuel is a collection of color tools and free SVG generators for gradients, patterns, textures, shapes & backgrounds.",
     "url": "https://fffuel.co/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Neumorphism.io",
     "description": "It's a platform where you can generate Soft-UI CSS elements for your website or app.",
     "url": "https://neumorphism.io/#e0e0e0",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Hype4 Academy",
     "description": "Another cool and excellent site to generate Glassmorphism CSS for your project.",
     "url": "https://hype4.academy/tools/glassmorphism-generator",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Uiverse.io",
     "description": "It provides tons of cool UI elements made with HTML & CSS.",
     "url": "https://uiverse.io/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "CSS Portal",
     "description": "A bundle of amazing UI CSS elements for you to use in your project.",
     "url": "https://www.cssportal.com/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "EnjoyCSS",
     "description": "A platform to implement amazing CSS elements of your choice for your project.",
     "url": "https://enjoycss.com/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "CSS Generator",
     "description": "A CSS generator that helps you demonstrate and quickly generate CSS declarations for your website.",
     "url": "https://cssgenerator.org/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Code Magic",
     "description": "An amazing open-source platform for generating ready-to-use CSS elements for your project. ",
     "url": "https://code-magic.vercel.app/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "daisyUI",
     "description": "A platform where you can generate UI components based on TailwindCSS. ",
     "url": "https://daisyui.com/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "TailBlocks",
     "description": "Another great platform where you can generate UI components based on TailwindCSS. ",
     "url": "https://tailblocks.cc/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "CSS Diner",
     "description": "It's a fun game to learn and practice CSS selectors.",
     "url": "https://flukeout.github.io/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Shadow Generator",
     "description": "An amazing site that helps you to create smooth shadows",
     "url": "https://shadows.brumm.af/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Flowbite",
     "description": "An open-source library of over 600+ UI components, sections, and pages built with the utility classes from Tailwind CSS.",
     "url": "https://flowbite.com/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "NextUI",
     "description": "NextUI allows you to make beautiful, modern, and fast websites/applications regardless of your design experience, created with React.js and Stitches, based on React Aria and inspired by Vuesax.",
     "url": "https://nextui.org/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Emotion",
     "description": "Emotion is a library designed for writing CSS styles with JavaScript. It provides powerful and predictable style composition.",
     "url": "https://emotion.sh/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Styled Components",
     "description": "Visual primitives for the component age. Type checking & No class policy means dynamic class declaration on run-time",
     "url": "https://styled-components.com/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Frontend Mentor",
     "description": "This site solves real-world HTML, CSS, and JavaScript challenges while working to professional designs.",
     "url": "https://www.frontendmentor.io/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "CSS Grid Generator",
     "description": "This website facilitates efficient utilization of CSS Grid functionalities, enabling users to swiftly generate dynamic layouts.",
     "url": "https://css-grid-generator.netlify.app/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "SuperDesigner.Co",
     "description": "Generate stunning design elements effortlessly with this free website that offers a diverse range of generators, including SVG backgrounds, 3D shapes, patterns, blobs, and gradients.",
     "url": "https://superdesigner.co/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Keyframes.app",
     "description": "This site contains browser-based, mobile-friendly, and private tools that make CSS a little less bad.",
     "url": "https://keyframes.app/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Animated Backgrounds",
     "description": "This site offers a wide range of styles and colors. You'll find the perfect background to match your brand and message.",
     "url": "https://animatedbackgrounds.me/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Charts.css",
     "description": "This is a modern CSS framework. It uses CSS utility classes to style HTML elements as charts.",
     "url": "https://chartscss.org/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Glassmorphism CSS Generator",
     "description": "Glassmorphism is a new design technique which is primarily based on the blurry effect of an element and a background.",
     "url": "https://ui.glass/generator/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Tailwind Awesome",
     "description": "Tailwind Awesome is a curated list of the best Tailwind templates & UI kits on the internet.",
     "url": "https://www.tailwindawesome.com/?technology=3",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "CSS Filters",
     "description": "This is a visual playground for generating CSS for custom and Instagram-like photo filters. Experiment with your own uploaded photo or select one from the Unsplash collection.",
     "url": "https://www.cssfilters.co/",
     "category": "frontend",
-    "subcategory": "ui-generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Patternizer",

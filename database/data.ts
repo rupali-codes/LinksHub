@@ -9,7 +9,7 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'frontend',
     subcategory: [
-      { name: 'next js', url: '/next-js', resources: DB.next },
+      { name: 'next js', url: '/next_js', resources: DB.next },
       {
         name: '3D libraries',
         url: '/three_d_libraries',
@@ -34,17 +34,17 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'themes & templates',
-        url: '/themes-templates',
+        url: '/themes_and_templates',
         resources: DB.themesTemplates,
       },
       {
         name: 'UI Generators',
-        url: '/ui-generators',
+        url: '/ui_generators',
         resources: DB.uiGenerators,
       },
       {
         name: 'online code editors',
-        url: '/online-code-editors',
+        url: '/online_code_editors',
         resources: DB.onlineCodeEditors,
       },
       {
@@ -54,13 +54,13 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'ui Libraries',
-        url: '/ui-libraries',
+        url: '/ui_libraries',
         resources: DB.uilibraries,
       },
       { name: 'angular', url: '/angular', resources: DB.angular },
       {
         name: 'js-Chart Libraries',
-        url: '/js-chart-libraries',
+        url: '/js_chart_libraries',
         resources: DB.jsChartLibraries,
       },
     ],

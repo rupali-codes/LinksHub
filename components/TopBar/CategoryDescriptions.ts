@@ -22,25 +22,23 @@ const categoryDescriptions: CategoryDescriptions = {
     'Illustrations are visual representations of text, concepts, or ideas. They can be used to convey complex information in a simple and easy-to-understand way.',
   images:
     'Images are the visual representations of objects or concepts. They can be used to convey information in a simple and easy-to-understand way.',
-  'online-code-editor':
-    'Online code editors are web-based tools that allow you to write and test code in your browser. They are useful for quickly testing out code snippets or for working on small projects.',
   react:
     'React is a JavaScript library for building user interfaces. It was developed by Facebook and is used by many popular websites such as Netflix, Airbnb, and Instagram. React allows developers to create reusable UI components and makes it easy to manage the state of an application.',
-  'themes-templates':
+  themes_and_templates:
     'Theme templates are pre-designed website themes that can be customized to fit your needs. They are useful for quickly setting up a website without having to design everything from scratch.',
   videos:
     'Videos are visual representations of moving images and sound. They can be used to convey information in a simple and easy-to-understand way.',
   three_d_libraries:
     '3D Libraries are collections of reusable components that can be used to create 3D graphics and animations. They are often used in conjunction with frameworks like Three.js to create web applications.',
-  'next-js':
+  next_js:
     'Next.js is a flexible React framework that gives you building blocks to create fast web applications.',
-  'ui-generators':
+  ui_generators:
     'The UI Generator, or User Interface Generator, is an Eclipse tool that takes a user model and generates a role-based user interface for a J2EE Web application.',
-  'online-code-editors':
+  online_code_editors:
     "Online code editors, also called cloud-based code editors, are convenient because they usually require no setup. Plus, it's way easier to collaborate with someone over the cloud.",
-  'ui-libraries':
+  ui_libraries:
     'UI libraries are collections of reusable components that can be used to build user interfaces. They are often used in conjunction with frameworks like React or Vue.js to create web applications.',
-  'js-chart-libraries':
+  js_chart_libraries:
     'JavaScript chart libraries are used to create interactive and visually appealing charts and graphs for web applications. They are often used in data visualization and reporting applications.',
   angular:
     'Angular is a popular open-source web application framework similar to react developed and maintained by Google. ',

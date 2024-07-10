@@ -4,69 +4,69 @@
     "url": "https://material-ui.com/",
     "description": "Material-UI is a popular open-source React component library that implements Google's Material Design principles, offering a vast collection of pre-designed and customizable UI components for creating visually appealing and responsive web applications. It's known for its seamless integration with React and extensive theming capabilities.",
     "category": "frontend",
-    "subcategory": "ui-libraries"
+    "subcategory": "ui_libraries"
   },
   {
     "name": "ChakraUI",
     "url": "https://chakra-ui.com/",
     "description": "Chakra UI is a popular open-source React component library that simplifies building accessible and customizable user interfaces by providing a set of well-designed, composable UI components with a focus on flexibility and theming. It's known for its ease of use and integration with modern web development workflows.",
     "category": "frontend",
-    "subcategory": "ui-libraries"
+    "subcategory": "ui_libraries"
   },
   {
     "name": "AntDesign",
     "url": "https://ant.design/",
     "description": "Ant Design is a comprehensive design system and React component library that offers a wide range of polished and customizable UI components for building modern web and mobile applications. It's widely used for its aesthetic appeal, robust feature set, and support for internationalization.",
     "category": "frontend",
-    "subcategory": "ui-libraries"
+    "subcategory": "ui_libraries"
   },
   {
     "name": "NextUI",
     "url": "https://nextui.org/",
     "description": "NextUI is a UI library for React that combines the power of TailwindCSS with React Aria to provide a complete components (logic and styles) for building accessible and customizable user interfaces. Since NextUI uses TailwindCSS as its style engine, you can use all TailwindCSS classes within your NextUI components, ensuring optimal compiled CSS size.",
     "category": "frontend",
-    "subcategory": "ui-libraries"
+    "subcategory": "ui_libraries"
   },
   {
     "name": "Material Tailwind",
     "url": "https://material-tailwind.com/",
     "description": "Material Tailwind is a design system and framework that fuses the principles of Google's Material Design with the utility-first approach of Tailwind CSS. It provides a comprehensive set of components and styles for developing modern, Material Design-inspired user interfaces. With Material Tailwind, you can create web applications that follow Material Design guidelines while harnessing the flexibility and utility classes of Tailwind CSS to optimize your CSS output size.",
     "category": "frontend",
-    "subcategory": "ui-libraries"
+    "subcategory": "ui_libraries"
   },
   {
     "name": "FlowbiteReact",
     "url": "https://www.flowbite-react.com/",
     "description": "Flowbite React is an open-source UI component library built on top of Tailwind CSS with React components and based on the Flowbite Design System.",
     "category": "frontend",
-    "subcategory": "ui-libraries"
+    "subcategory": "ui_libraries"
   },
   {
     "name": "React Bootstrap",
     "url": "https://react-bootstrap.github.io/",
     "description": "React Bootstrap is a popular open-source UI library for React that provides a set of pre-designed and customizable components for building responsive web applications. It's known for its seamless integration with React and extensive theming capabilities.",
     "category": "frontend",
-    "subcategory": "ui-libraries"
+    "subcategory": "ui_libraries"
   },
   {
     "name": "Semantic UI",
     "url": "https://semantic-ui.com/",
     "description": "Semantic UI is a popular open-source UI component library that provides a set of pre-designed and customizable components for building responsive web applications. It's known for its ease of use and extensive theming capabilities.",
     "category": "frontend",
-    "subcategory": "ui-libraries"
+    "subcategory": "ui_libraries"
   },
   {
     "name": "Seamless UI",
     "url": "https://seamlessui.vercel.app/",
     "description": "The next gen UI made with simple HTML and Tailwind CSS. It's compatible with simple HTML, CSS static website or a React, Vue, Angular or Next.js Complex app. Zero JS and no plugins installed.",
     "category": "frontend",
-    "subcategory": "ui-libraries"
+    "subcategory": "ui_libraries"
   },
   {
     "name": "Float UI",
     "url": "https://floatui.com/",
     "description": "Move faster with beautiful, responsive UI components and website templates with modern design that are 100% free and open-source.",
     "category": "frontend",
-    "subcategory": "ui-libraries"
+    "subcategory": "ui_libraries"
   }
 ]

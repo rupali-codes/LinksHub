@@ -4,62 +4,62 @@
     "description": "Top-quality templates to design and customize your personal or commercial websites, also does not require registration",
     "url": "https://html.design/",
     "category": "frontend",
-    "subcategory": "themes-templates"
+    "subcategory": "themes_and_templates"
   },
   {
     "name": "HTML5 UP",
     "description": "Free fully responsive and super customizable html5 templates.",
     "url": "https://html5up.net/",
     "category": "frontend",
-    "subcategory": "themes-templates"
+    "subcategory": "themes_and_templates"
   },
   {
     "name": "templatemo",
     "description": "Free responsive html5 and css templates for your commercial or personal or learning purposes.",
     "url": "https://templatemo.com/",
     "category": "frontend",
-    "subcategory": "themes-templates"
+    "subcategory": "themes_and_templates"
   },
   {
     "name": "landing page template",
     "description": "Simple, free, fully responsive one-page sites for pretty much anything.",
     "url": "https://carrd.co",
     "category": "frontend",
-    "subcategory": "themes-templates"
+    "subcategory": "themes_and_templates"
   },
   {
     "name": "Creative-tim",
     "description": "Fully responsive UI kits, templates and dashboards that are built on top of Bootstrap and React",
     "url": "https://www.creative-tim.com",
     "category": "frontend",
-    "subcategory": "themes-templates"
+    "subcategory": "themes_and_templates"
   },
   {
     "name": "Primefaces",
     "description": "Provider of Open Source UI Component Libraries. Also has Angular, React and Vue themes and components",
     "url": "https://www.primefaces.org/",
     "category": "frontend",
-    "subcategory": "themes-templates"
+    "subcategory": "themes_and_templates"
   },
   {
     "name": "VistaCreate",
     "description": "VistaCreate is a cost-free graphic design tool featuring a vast selection of templates for your convenience. Select your favorite template, customize it to fit your project, and effortlessly share or print it. Unleash the power of design to convey your brand's unique narrative.",
     "url": "https://create.vista.com/",
     "category": "frontend",
-    "subcategory": "themes-templates"
+    "subcategory": "themes_and_templates"
   },
   {
     "name": "FreeFrontend",
     "description": "It is a free and open-source collection of high-quality, responsive, and accessible front-end components and templates. It is a great resource for designers and developers who want to create beautiful and user-friendly websites and applications.",
     "url": "https://freefrontend.com/",
     "category": "frontend",
-    "subcategory": "themes-templates"
+    "subcategory": "themes_and_templates"
   },
   {
     "name": "ThemesBerg",
     "description": "Provides free and premium templates and themes from a wide variety of web development and software companies",
     "url": "https://themesberg.com",
     "category":"frontend",
-    "subcategory":"themes-templates"
+    "subcategory":"themes_and_templates"
   }
 ]
