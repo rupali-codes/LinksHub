@@ -10,6 +10,10 @@ body {
   font-family: 'Urbanist', sans-serif;
 }
 
+::selection{
+  background-color: #714eff;
+}
+
 .varela {
   font-family: 'Varela Round', sans-serif;
 }
