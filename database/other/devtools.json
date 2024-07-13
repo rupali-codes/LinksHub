@@ -117,5 +117,12 @@
     "url": "https://www.drlinkcheck.com/",
     "category": "other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "Dracula Theme",
+    "description": "Dracula is a color scheme for code editors and terminal emulators such as Vim, Notepad++, iTerm, VSCode, Terminal.app, ZSH, and much more.",
+    "url": "https://draculatheme.com/",
+    "category": "other",
+    "subcategory": "devtools"
   }
 ]
