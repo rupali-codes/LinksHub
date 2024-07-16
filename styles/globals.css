@@ -12,6 +12,7 @@ body {
 
 ::selection{
   background-color: #714eff;
+  color: lightgray;
 }
 
 .varela {
