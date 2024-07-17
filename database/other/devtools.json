@@ -124,5 +124,12 @@
     "url": "https://draculatheme.com/",
     "category": "other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "Responsively",
+    "description": "A modified web browser that helps in responsive web development. A web developer's must have dev tool.",
+    "url": "https://responsively.app",
+    "category": "other",
+    "subcategory": "devtools"
   }
 ]
