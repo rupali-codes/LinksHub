@@ -16,7 +16,7 @@
   {
     "name": "Burp Suite",
     "description": "Explore Burp Suite, a popular web application security testing tool that assists in identifying and exploiting vulnerabilities.",
-    "url": "https://portswigger.net/web_security",
+    "url": "https://portswigger.net/web-security",
     "category": "cyber-security",
     "subcategory": "web_security"
   },
@@ -30,7 +30,7 @@
   {
     "name": "SQL Injection Testing",
     "description": "Learn about SQL injection testing techniques used to identify and exploit SQL injection vulnerabilities in web applications.",
-    "url": "https://portswigger.net/web_security/sql-injection",
+    "url": "https://portswigger.net/web-security/sql-injection",
     "category": "cyber-security",
     "subcategory": "web_security"
   },

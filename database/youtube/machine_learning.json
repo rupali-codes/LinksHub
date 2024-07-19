@@ -4,7 +4,7 @@
     "description": "These research papers discuss Artificial Intelligence and Machine Learning in an engaging and detailed manner. What a Time to be Alive!",
     "url": "https://www.youtube.com/@TwoMinutePapers",
     "category": "youtube",
-    "subcategory": "machine_learning",
+    "subcategory": "yt_machine_learning",
     "language": "english"
   },
   {
@@ -12,7 +12,7 @@
     "description": "This channel offers lectures on Machine Learning from basic to advanced with real world scenarios.",
     "url": "https://youtube.com/playlist?list=PLYwpaL_SFmcBhOEPwf5cFwqo5B-cP9G4P",
     "category": "youtube",
-    "subcategory": "machine_learning",
+    "subcategory": "yt_machine_learning",
     "language": "hindi"
   },
   {
@@ -20,7 +20,7 @@
     "description": "3Blue1Brown, by Grant Sanderson, is a combination of math and entertainment, depending on your disposition. The goal is for difficult problems to be made simple with changes in perspective.",
     "url": "https://www.youtube.com/@3blue1brown",
     "category": "youtube",
-    "subcategory": "machine_learning",
+    "subcategory": "yt_machine_learning",
     "language": "english"
   },
   {
@@ -28,15 +28,15 @@
     "description": "This channel provides videos on Machine Learning, Deep Learning, and Artificial Intelligence with real-world problems.",
     "url": "https://www.youtube.com/user/krishnaik06",
     "category": "youtube",
-    "subcategory": "machine_learning",
+    "subcategory": "yt_machine_learning",
     "language": "english"
   },
   {
     "name": "Google",
     "description": "Free online course provided by Google to learn Machine Learning and it's implementations",
-    "url": "https://developers.google.com/machine_learning",
+    "url": "https://developers.google.com/machine-learning",
     "category": "online platform",
-    "subcategory": "machine_learning",
+    "subcategory": "yt_machine_learning",
     "language": "english"
   },
   {
@@ -44,7 +44,7 @@
     "description": "Here, you will learn the basics of Machine Learning and how to use TensorFlow in different scenarios.",
     "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg&t=769s&ab_channel=freeCodeCamp.org",
     "category": "youtube",
-    "subcategory": "machine_learning",
+    "subcategory": "yt_machine_learning",
     "language": "english"
   },
   {
@@ -52,7 +52,7 @@
     "description": "Access the lectures of Andrew Ng on Deep Learning and Machine Learning",
     "url": "https://www.youtube.com/c/Deeplearningai",
     "category": "youtube",
-    "subcategory": "machine_learning",
+    "subcategory": "yt_machine_learning",
     "language": "english"
   },
   {
@@ -60,7 +60,7 @@
     "description": "Medallion Data Science is a channel devoted to growing a community of people interested in learning machine learning, data science,and coding in Python. They also provide streaming live coding sessions on [Twitch](https://www.twitch.tv/)",
     "url": "https://www.youtube.com/@robmulla",
     "category": "youtube",
-    "subcategory": "machine_learning",
+    "subcategory": "yt_machine_learning",
     "language": "english"
   },
   {
@@ -68,7 +68,7 @@
     "description": "100 Days of Machine Learning is an educational YouTube playlist that provides a comprehensive and structured learning journey for individuals interested in delving into machine learning",
     "url": "https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH",
     "category": "youtube",
-    "subcategory": "machine_learning",
+    "subcategory": "yt_machine_learning",
     "language": "english"
   },
   {
@@ -76,7 +76,7 @@
     "description": "Learn simple programming, data science, data analytics, artificial intelligence, machine learning, data structures, software architecture and much more.",
     "url": "https://youtube.com/@codebasics",
     "category": "youtube",
-    "subcategory": "machine_learning",
+    "subcategory": "yt_machine_learning",
     "language": "english"
   },
   {
@@ -84,7 +84,7 @@
     "description": "This guide covers essential concepts and more complex topics for individuals who are new to machine learning.",
     "url": "https://www.youtube.com/@programmingwithmosh",
     "category": "youtube",
-    "subcategory": "machine_learning",
+    "subcategory": "yt_machine_learning",
     "language": "english"
   },
   {
@@ -92,7 +92,7 @@
     "description": "This channel provides consistent update on the machine learning related news and papers, and also dive deep into the specific paper. There is also a paper reading activity on the discord of this channel as well. Best suited for someone who would like to learn more about the in-depth research in machine learning.",
     "url" : "https://www.youtube.com/@YannicKilcher",
     "category" : "youtube",
-    "subcategory": "machine_learning",
+    "subcategory": "yt_machine_learning",
     "language": "english"
   },
   {
@@ -100,7 +100,7 @@
     "description": "This channel provides a complete guide to Machine Learning from beginner to advanced and teaches the latest concepts and technologies related to Data Science.",
     "url" : "https://www.youtube.com/@IndianAIProduction",
     "category" : "youtube",
-    "subcategory": "machine_learning",
+    "subcategory": "yt_machine_learning",
     "language": "english"
   }
 ]

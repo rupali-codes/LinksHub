@@ -1,14 +1,14 @@
 [
   {
     "name": "CS229: Machine Learning",
-    "description": "Official site of the eponymous Stanford course. Provides a broad introduction to machine_learning.",
+    "description": "Official site of the eponymous Stanford course. Provides a broad introduction to machine learning.",
     "url": "https://cs229.stanford.edu/",
     "category": "ai",
     "subcategory": "machine_learning"
   },
   {
     "name": "Towards Data Science",
-    "description": "Learn all things Data and machine_learning. Provides simple explanations for statistical and mathematical parts.",
+    "description": "Learn all things Data and machine learning. Provides simple explanations for statistical and mathematical parts.",
     "url": "https://towardsdatascience.com/",
     "category": "ai",
     "subcategory": "machine_learning"

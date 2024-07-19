@@ -2,7 +2,7 @@
   {
     "name": "Introduction to Offensive Security",
     "description": "Learn the fundamentals of offensive security, including ethical hacking, penetration testing, and vulnerability assessment.",
-    "url": "https://www.eccouncil.org/what-is-offensive_security/",
+    "url": "https://www.eccouncil.org/what-is-offensive-security/",
     "category": "cyber-security",
     "subcategory": "offensive_security"
   },
@@ -34,7 +34,7 @@
   {
     "name": "Web Application Penetration Testing",
     "description": "A guide to web application penetration testing, covering techniques and tools used to identify vulnerabilities in web applications.",
-    "url": "https://owasp.org/www-project-web_security-testing-guide/",
+    "url": "https://owasp.org/www-project-web-security-testing-guide/",
     "category": "cyber-security",
     "subcategory": "offensive_security"
   },

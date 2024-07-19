@@ -3,7 +3,7 @@
     "name": "Errichto",
     "description": "This channel provides competitive programming tactics, problem-solving techniques, and thought processes behind advanced algorithms.",
     "url": "https://www.youtube.com/@Errichto",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_tutorials",
     "language": "english"
   },
@@ -11,7 +11,7 @@
     "name": "Luv",
     "description": "This channel offers a wealth of videos focused on enhancing coding skills and excelling in competitive programming challenges.",
     "url": "https://www.youtube.com/@iamluv",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_tutorials",
     "language": "english"
   },
@@ -19,7 +19,7 @@
     "name": "Priyansh Agarwal",
     "description": "This channel provides insightful content on competitive programming topics and solutions for Codeforces, LeetCode, and CodeChef coding contests.",
     "url": "https://www.youtube.com/@PriyanshAgarwal",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_tutorials",
     "language": "english"
   },
@@ -27,7 +27,7 @@
     "name": "Utkarsh Gupta",
     "description": "This channel provides in-depth tutorials, insightful strategies, and expert solutions to coding challenges from platforms like LeetCode, Codeforces, and CodeChef, empowering your competitive programming journey.",
     "url": "https://www.youtube.com/@utkarshgupta9858",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_tutorials",
     "language": "english"
   },
@@ -35,7 +35,7 @@
     "name": "CodeNCode",
     "description": "This channel offers one of the best playlists for competitive programming, covering beginner topics like number theory and advanced topics such as dynamic programming, graph theory, bit manipulations, and segment trees. These concepts are explained in a very clear and easy-to-understand format.",
     "url": "https://www.youtube.com/@codencode",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_tutorials",
     "language": "english"
   },
@@ -43,7 +43,7 @@
     "name": "Tushar Roy",
     "description": "Tushar Roy is a YouTube channel that provides educational content and valuable resources for individuals interested in competitive programming. It covers a wide range of topics related to computer science, data structures, algorithms, and programming.",
     "url": "https://www.youtube.com/@tusharroy2525/",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_tutorials",
     "language": "english"
   },
@@ -51,7 +51,7 @@
     "name": "Neetcode",
     "description": "This video helps students and professionals to become better in Competitive Programming and tech interviews.",
     "url": "https://www.youtube.com/@NeetCode",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_tutorials",
     "language": "english"
   }

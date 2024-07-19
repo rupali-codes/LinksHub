@@ -29,8 +29,8 @@
   },
   {
     "name": "Machine Learning Projects",
-    "description": "This website provides free machine_learning projects for beginners to advanced with source code.",
-    "url": "https://www.interviewbit.com/blog/machine_learning-projects/",
+    "description": "This website provides free machine learning projects for beginners to advanced with source code.",
+    "url": "https://www.interviewbit.com/blog/machine-learning-projects/",
     "category": "resources",
     "subcategory": "project_ideas"
   },
@@ -51,7 +51,7 @@
   {
     "name": "Artificial Intelligence Projects",
     "description": "This website provides free twenty Artificial Intelligence projects for beginners to advanced with source code.",
-    "url": "https://www.interviewbit.com/blog/artificial_intelligence-projects/",
+    "url": "https://www.interviewbit.com/blog/artificial-intelligence-projects/",
     "category": "resources",
     "subcategory": "project_ideas"
   },

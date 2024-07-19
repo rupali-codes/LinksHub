@@ -9,21 +9,21 @@
     {
         "name": "Learn C Programming",
         "description": "Learn C Programming  using the book by Kernighan and Ritchi. This free C programming course offers interactive lessons and coding challenges to help you learn this language.",
-        "url": "https://www.freecodecamp.org/news/learn-c_programming-classic-book-dr-chuck/",
+        "url": "https://www.freecodecamp.org/news/learn-c-programming-classic-book-dr-chuck/",
         "category": "languages",
         "subcategory": "c_programming"
     },
     {
         "name": "GFG C Tutorial",
         "description": "Start your coding adventure with our free C Tutorial. A perfect C programming tutorial for beginners and advanced coders alike, this tutorial is your key to unlocking the magic of C programming. With clear explanations and fun examples.",
-        "url": "https://www.geeksforgeeks.org/c_programming-language/",
+        "url": "https://www.geeksforgeeks.org/c-programming-language/",
         "category": "languages",
         "subcategory": "c_programming"
     },
     {
         "name": "Javatpoint C Tutorial",
         "description": "C language Tutorial with programming approach for beginners and professionals, helps you to understand the C language tutorial easily. Our C tutorial explains each topic with programs..",
-        "url": "https://www.javatpoint.com/c_programming-language-tutorial",
+        "url": "https://www.javatpoint.com/c-programming-language-tutorial",
         "category": "languages",
         "subcategory": "c_programming"
     },

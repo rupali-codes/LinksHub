@@ -3,63 +3,63 @@
     "name": "LeetCode",
     "description": "This site offers competitive coding challenges and interview preparation resources for software engineers and developers.",
     "url": "https://leetcode.com/",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_platforms"
   },
   {
     "name": "HackerRank",
     "description": "This resource provides developers with competitive programming challenges to improve their skills in multiple languages. It also allows tech recruiters to assess developers on their problem-solving skills.",
     "url": "https://www.hackerrank.com/",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_platforms"
   },
   {
     "name": "Atcoder",
     "description": "AtCoder is a programming contest site for beginners to experts.",
     "url": "https://atcoder.jp/",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_platforms"
   },
   {
     "name": "Codeforces",
     "description": "Codeforces is a website for practicing competitive programming",
     "url": "https://codeforces.com/",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_platforms"
   },
   {
     "name": "SPOJ",
     "description": "SPOJ is an online judge system with over 315,000 registered users and over 20,000 problems.",
     "url": "https://www.spoj.com/",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_platforms"
   },
   {
     "name": "Geek for Geeks",
     "description": "This website is the best place to practice programming problems, review company interview questions, and improve your coding skills",
     "url": "https://practice.geeksforgeeks.org/",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_platforms"
   },
   {
     "name": "Coding Ninjas",
     "description": "Want to participate in coding wars? Compete with other coders worldwide by participating in the contests. You also earn points for your achievements.",
     "url": "https://www.codingninjas.com/studio/home",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_platforms"
   },
   {
     "name": "CodeChef",
     "description": "Learn to code for free using our beginner friendly and interactive learning courses. Get all the practical skills required to excel at computer science.    ",
     "url": "https://www.codechef.com/",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_platforms"
   },
   {
     "name": "Exercism",
     "description": "Exercism is an online, open-source, free coding platform that offers code practice and mentorship on 67 different programming languages.",
     "url": "https://exercism.org",
-    "category": "competitive_programming",
+    "category": "competitive-programming",
     "subcategory": "cp_platforms"
   }
 ]
