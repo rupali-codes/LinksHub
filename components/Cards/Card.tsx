@@ -68,9 +68,9 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
             <span className='truncate ...'>Visit site</span>
             {youtubeRegex.test(url) ? (
               <BsYoutube size="1.3em" />
-            ) : subcategory === 'e-book' ? (
+            ) : subcategory === 'e_book' ? (
               <AiOutlineRead size="1.3em" />
-            ) : subcategory === 'technical-writing-tools' ? (
+            ) : subcategory === 'technical_writing_tools' ? (
               <BsPen size="1.2em" />
             ) : (
               <HiOutlineExternalLink size="1.3em" />

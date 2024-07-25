@@ -1,0 +1,16 @@
+[
+    {
+        "name": "An Introduction to Artificial Intelligence",
+        "description": "Taught by Prof. Mausam from IIT Delhi, this course offers a self-paced learning experience covering problem modeling, AI models, and algorithms. It prepares students for advanced AI courses with 80+ lectures, video recordings, lecture notes, and practice problems. It's an excellent starting point to explore the basics of AI.",
+        "url": "https://archive.nptel.ac.in/courses/106/102/106102220/",
+        "category": "ai",
+        "subcategory": "artificial_intelligence"
+    },
+    {
+        "name": "Hugging Face",
+        "description": "Hugging Face is a community and data science platform that provides tools to build, train, and deploy machine learning models based on open source code and technologies. It is also a place where a broad community of data scientists, researchers, and ML engineers can come together and share ideas, get support, and contribute to open source projects.",
+        "url": "https://huggingface.co/",
+        "category": "ai",
+        "subcategory": "artificial_intelligence"
+    }
+]
