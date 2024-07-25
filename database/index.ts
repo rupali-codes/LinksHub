@@ -77,7 +77,7 @@ export { default as deepLearning } from './artificial_intelligence/deep_learning
 export { default as nlp } from './artificial_intelligence/NLP.json'
 //ai tools
 export { default as design } from './ai_tools/design.json'
-export { default as blog_writing } from './ai_tools/blog-writing.json'
+export { default as blog_writing } from './ai_tools/blog_writing.json'
 export { default as chat_bot } from './ai_tools/chat-bot.json'
 
 // Open-source
