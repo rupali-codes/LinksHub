@@ -8,16 +8,16 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'frontend',
     subcategory: [
-      { name: 'next js', url: '/next-js', resources: DB.next },
+      { name: 'next js', url: '/next_js', resources: DB.next },
       {
         name: '3D libraries',
-        url: '/3d-libraries',
+        url: '/three_d_libraries',
         resources: DB._3dLibraries,
       },
       { name: 'images', url: '/images', resources: DB.images },
       { name: 'fonts', url: '/fonts', resources: DB.fonts },
       { name: 'colors', url: '/colors', resources: DB.colors },
-      { name: 'css games', url: '/css-games', resources: DB.cssGames },
+      { name: 'css games', url: '/css_games', resources: DB.cssGames },
       { name: 'react', url: '/react', resources: DB.react },
       {
         name: 'illustrations',
@@ -28,22 +28,22 @@ export const sidebarData: ISidebar[] = [
       { name: 'icons', url: '/icons', resources: DB.icons },
       {
         name: 'design inspiration',
-        url: '/design-inspiration',
+        url: '/design_inspiration',
         resources: DB.designInspirations,
       },
       {
         name: 'themes & templates',
-        url: '/themes-templates',
+        url: '/themes_and_templates',
         resources: DB.themesTemplates,
       },
       {
         name: 'UI Generators',
-        url: '/ui-generators',
+        url: '/ui_generators',
         resources: DB.uiGenerators,
       },
       {
         name: 'online code editors',
-        url: '/online-code-editors',
+        url: '/online_code_editors',
         resources: DB.onlineCodeEditors,
       },
       {
@@ -53,13 +53,13 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'ui Libraries',
-        url: '/ui-libraries',
+        url: '/ui_libraries',
         resources: DB.uilibraries,
       },
       { name: 'angular', url: '/angular', resources: DB.angular },
       {
         name: 'js-Chart Libraries',
-        url: '/js-chart-libraries',
+        url: '/js_chart_libraries',
         resources: DB.jsChartLibraries,
       },
     ],
@@ -81,14 +81,14 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'email providers',
-        url: '/email-providers',
+        url: '/email_providers',
         resources: DB.emailProviders,
       },
       { name: 'caching', url: '/caching', resources: DB.caching },
       { name: 'testing', url: '/testing', resources: DB.testing },
       {
         name: 'system design',
-        url: '/system-design',
+        url: '/system_design',
         resources: DB.systemDesign,
       },
       { name: 'database', url: '/database', resources: DB.database },
@@ -110,7 +110,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Ruby', url: '/ruby', resources: DB.ruby },
       {
         name: 'C Programming',
-        url: '/c-programming',
+        url: '/c_programming',
         resources: DB.CProgramming,
       },
       { name: 'C++ Programming', url: '/cpp', resources: DB.cpp },
@@ -132,7 +132,7 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'Programs',
-        url: '/os-programs',
+        url: '/os_programs',
         resources: DB.openSourcePrograms,
       },
       {
@@ -157,7 +157,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       {
         name: 'Automation Tools',
-        url: '/automation-tools',
+        url: '/automation_tools',
         resources: DB.automationTools,
       },
       {
@@ -167,12 +167,12 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'DevOps Life Cycle',
-        url: '/devops-life-cycle',
+        url: '/devops_life_cycle',
         resources: DB.devopsLifecycle,
       },
       {
         name: 'DevOps Methodologies',
-        url: '/devops-methodologies',
+        url: '/devops_methodologies',
         resources: DB.devopsMethodologies,
       },
       { name: 'docker', url: '/docker', resources: DB.docker },
@@ -199,23 +199,23 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       {
         name: 'artificial intelligence',
-        url: '/artificial-intelligence',
+        url: '/artificial_intelligence',
         resources: DB.artificialIntelligence,
       },
       {
         name: 'machine learning',
-        url: '/machine-learning',
+        url: '/machine_learning',
         resources: DB.machineLearning,
       },
-      { name: 'data science', url: '/data-science', resources: DB.dataScience },
+      { name: 'data science', url: '/data_science', resources: DB.dataScience },
       {
         name: 'deep learning',
-        url: '/deep-learning',
+        url: '/deep_learning',
         resources: DB.deepLearning,
       },
       {
         name: 'NLP',
-        url: '/natural-language-processing',
+        url: '/natural_language_processing',
         resources: DB.nlp,
       },
     ],
@@ -230,7 +230,7 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'blog writing',
-        url: '/blog-writing',
+        url: '/blog_writing',
         resources: DB.blog_writing,
       },
       {
@@ -245,22 +245,22 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       {
         name: 'Offensive security',
-        url: '/offensive-security',
+        url: '/offensive_security',
         resources: DB.offensive_security,
       },
       {
         name: 'Defensive Security',
-        url: '/defensive-security',
+        url: '/defensive_security',
         resources: DB.defensive_security,
       },
       {
         name: 'Malware Analysis',
-        url: '/malware-analysis',
+        url: '/malware_analysis',
         resources: DB.malware_analysis,
       },
       {
         name: 'Web Security',
-        url: '/web-security',
+        url: '/web_security',
         resources: DB.web_security,
       },
     ],
@@ -302,9 +302,9 @@ export const sidebarData: ISidebar[] = [
         resources: DB.officialdocs,
       },
       { name: 'hosting', url: '/hosting', resources: DB.hosting },
-      { name: 'e-book', url: '/e-book', resources: DB.ebook },
+      { name: 'e-book', url: '/e_book', resources: DB.ebook },
       { name: 'dsa', url: '/dsa', resources: DB.dsa },
-      { name: 'project ideas', url: '/project-ideas', resources: DB.project },
+      { name: 'project ideas', url: '/project_ideas', resources: DB.project },
       { name: 'Static Site Generators', url: '/ssg', resources: DB.ssg },
     ],
   },
@@ -313,7 +313,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       {
         name: 'web development',
-        url: '/web-development',
+        url: '/web_development',
         resources: DB.webDevelopment,
       },
       { name: 'CSS', url: '/css', resources: DB.css },
@@ -324,30 +324,30 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'machine learning',
-        url: '/machine-learning',
+        url: '/machine_learning',
         resources: DB.machineLearning,
       },
       { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
       { name: 'Android', url: '/android', resources: DB.android },
       {
         name: 'Web3 & Metaverse',
-        url: '/web3-metaverse',
+        url: '/web3_metaverse',
         resources: DB.web3metaverse,
       },
       {
         name: 'Software Testing',
-        url: '/software-testing',
+        url: '/software_testing',
         resources: DB.softwareTesting,
       },
       {
         name: 'Computer Science',
-        url: '/computer-science',
+        url: '/computer_science',
         resources: DB.computerScience,
       },
       { name: 'FinTech', url: '/fintech', resources: DB.fintech },
       {
         name: 'Game Development',
-        url: '/game-development',
+        url: '/game_development',
         resources: DB.gameDevelopment,
       },
     ],
@@ -355,21 +355,21 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'data-structures',
     subcategory: [
-      { name: 'DSA Articles', url: '/dsa-articles', resources: DB.dsaArticles },
+      { name: 'DSA Articles', url: '/dsa_articles', resources: DB.dsaArticles },
       {
         name: 'DSA Tutorials',
-        url: '/dsa-tutorials',
+        url: '/dsa_tutorials',
         resources: DB.dsaTutorials,
       },
-      { name: 'DSA Courses', url: '/dsa-courses', resources: DB.dsaCourses },
+      { name: 'DSA Courses', url: '/dsa_courses', resources: DB.dsaCourses },
     ],
   },
   {
     category: 'competitive-programming',
     subcategory: [
-      { name: 'Platforms', url: '/cp-platforms', resources: DB.cpPlatforms },
-      { name: 'Tutorials', url: '/cp-tutorials', resources: DB.cpTutorials },
-      { name: 'Helpers', url: '/cp-helpers', resources: DB.cpHelpers },
+      { name: 'Platforms', url: '/cp_platforms', resources: DB.cpPlatforms },
+      { name: 'Tutorials', url: '/cp_tutorials', resources: DB.cpTutorials },
+      { name: 'Helpers', url: '/cp_helpers', resources: DB.cpHelpers },
     ],
   },
   {
@@ -377,27 +377,27 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       {
         name: 'Interview Preparation',
-        url: '/interview-preparation',
+        url: '/interview_preparation',
         resources: DB.interviewPreparation,
       },
       {
         name: 'Job Portals',
-        url: '/job-portals',
+        url: '/job_portals',
         resources: DB.jobPortals,
       },
       {
         name: 'Resume Building',
-        url: '/resume-building',
+        url: '/resume_building',
         resources: DB.resumeBuilding,
       },
       {
         name: 'Portfolio Building',
-        url: '/portfolio-building',
+        url: '/portfolio_building',
         resources: DB.portfolioBuilding,
       },
       {
         name: 'Cover Letters',
-        url: '/cover-letters',
+        url: '/cover_letters',
         resources: DB.coverLetters,
       },
       {
@@ -412,7 +412,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       {
         name: 'Technical Writing Tools',
-        url: '/technical-writing-tools',
+        url: '/technical_writing_tools',
         resources: DB.technicalWritingTools,
       },
     ],
@@ -452,7 +452,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Podcasts', url: '/podcasts', resources: DB.podcasts },
       {
         name: 'Other Resources',
-        url: '/other-resources',
+        url: '/other_resources',
         resources: DB.otherResources,
       },
       { name: 'Communities', url: '/communities', resources: DB.communities },
@@ -460,7 +460,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Domains', url: '/domains', resources: DB.domains },
       {
         name: 'Text Formatting',
-        url: '/text-formatting',
+        url: '/text_formatting',
         resources: DB.textFormatting,
       },
     ],

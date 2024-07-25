@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Code Eater",
+    "description": "This channel provides quality content for the most demanding topics like Web3, Blockchain & Metaverse in a very simple, easy to understand manner in Hindi language.",
+    "url": "https://www.youtube.com/@CodeEater21",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "hindi"
+  },
+  {
+    "name": "Dapp University",
+    "description": "This channel also aims at providing you the best material for the Web3 and Blockchain and helps you in building some awesome projects .",
+    "url": "https://www.youtube.com/@DappUniversity",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  },
+  {
+    "name": "FreeCodeCamp.org",
+    "description": "FreeCodeCamp is a superb website that aims to provide free high-quality tech content across all domains.",
+    "url": "https://www.youtube.com/@freecodecamp",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  },
+  {
+    "name": "Eat the Blocks",
+    "description": "Eat the Block is yet another YouTube channel with some in depth content on various topics on Web3 and Blockchain. It is one of those channels that you should definitely give a try if you want to step into this emerging field of tech.",
+    "url": "https://www.youtube.com/@EatTheBlocks",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  },
+  {
+    "name": "Francesco Cuilla",
+    "description": "Francesco discusses a wide range of tech topics such as DevRel, Docker, Web3, and Blockchain.",
+    "url": "https://www.youtube.com/@francescociulla",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  },
+  {
+    "name": "Sarah Benson",
+    "description": "Sarah's channels focuses on a wide range of topics in the web3 ecosystem along with JavaScript, DAO, Blockchain and Solidity.                             ",
+    "url": "https://www.youtube.com/@SarahBensonCodes",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  },
+  {
+    "name": "Nader Dabit",
+    "description": "Nader's channels offers straight-to-the-point tutorials, live coding demos, and interviews focusing on modern web development, Web3, DeFi, cloud computing, and GraphQL.",
+    "url": "https://www.youtube.com/@naderdabit",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  },
+  {
+    "name": "LearnWeb3 DAO",
+    "description": "LearnWeb3 DAO offers a one-stop roadmap for developers of all skill levels to break into Web3. Whether this is your first time programming, or you're already a senior developer, LearnWeb3 DAO has the resources for you.",
+    "url": "https://www.youtube.com/@LearnWeb3DAO",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  },
+  {
+    "name": "Alchemy",
+    "description": "This channel is a great resource for anyone who wants to learn more about blockchain, cryptocurrency, and DeFi.",
+    "url": " https://www.youtube.com/@AlchemyPlatform/",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  },
+  {
+    "name": "Dualat Hussain",
+    "description": "This channel provides web3 projects, guidance, and a roadmap to help you become a web3 developer.",
+    "url": " https://www.youtube.com/@daulathussain/",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  },
+  {
+    "name": "Telusko",
+    "description": "This playlist will be useful for starting our journey in Web3 and Metaverse",
+    "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7oY6tZmnZ5S7yTDxyu4zDW-",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  },
+  {
+    "name": "Patrick Collins",
+    "description": "This channel offers comprehensive videos for individuals interested in acquiring expertise in Web3 development and Blockchain.",
+    "url": "https://www.youtube.com/@PatrickAlphaC",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  },
+  {
+    "name": "Dapp Mentors",
+    "description": "This is a really underrated channel which offers a wide range of tutorials on Web3 and Blockchain.",
+    "url": "https://www.youtube.com/@dappmentors",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  },
+  {
+    "name": "JavaScript Mastery",
+    "description": "This site provides high quality projects on Web3 and Blockchain. Its a great source for anyone interested in learning these topics.",
+    "url": "https://www.youtube.com/playlist?list=PL6QREj8te1P5k_kIM2-8E4VP9Sej0Yez3",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  },
+  {
+    "name": "web3Mantra",
+    "description": "This channel has 114 educational videos on technologies like Web3, Blockchain, Solidity, Hardhat etc",
+    "url": "https://youtube.com/@web3mantra",
+    "category": "youtube",
+    "subcategory": "web3_metaverse",
+    "language": "english"
+  }
+]
