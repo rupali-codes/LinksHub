@@ -4,63 +4,63 @@
     "description": "Used by some of the world's largest companies, Next.js enables you to create full-stack Web applications by extending the latest React features and integrating powerful Rust-based JavaScript tooling for the fastest builds.",
     "url": "https://nextjs.org/",
     "category": "frontend",
-    "subcategory": "next-js"
+    "subcategory": "next_js"
   },
   {
     "name": "Create T3 App",
     "description": "The best way to start a full-stack, typesafe Next.js app. The core pieces are Next.js and TypeScript. Tailwind CSS is almost always included. If you’re doing anything resembling backend, tRPC, Prisma, and NextAuth.js are great additions too.",
     "url": "https://create.t3.gg/",
     "category": "frontend",
-    "subcategory": "next-js"
+    "subcategory": "next_js"
   },
   {
     "name": "Next.js Tutorial by GFG",
     "description": "A complete Next.js documentation by GFG  (GeeksForGeeks) with easy explanation and examples.",
     "url": "https://www.geeksforgeeks.org/nextjs/",
     "category": "frontend",
-    "subcategory": "next-js"
+    "subcategory": "next_js"
   },
   {
     "name": "Next.js 13 App Router with Typescript",
     "description": "This beginner-friendly tutorial (one-shot) covers the new App Router, TypeScript, and everything you need to get started.",
     "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
     "category": "frontend",
-    "subcategory": "next-js"
+    "subcategory": "next_js"
   },
   {
   "name": "Next.js 14 Tutoial",
   "description": "This is a beginner-friendly Next.js playlist with short video tutorials by Codevolution",
   "url": "https://www.youtube.com/watch?v=ZjAqacIC_3c&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI",
   "category": "frontend",
-  "subcategory": "next-js"
+  "subcategory": "next_js"
   },
   {
   "name": "Next.js Full Course",
   "description": "This is a beginner-friendly Next.js playlist by Hitesh Choudhary",
   "url": "https://www.youtube.com/watch?v=iPGXk-i-VYU&list=PLRAV69dS1uWR7KF-zV6YPYtKYEHENETyE",
   "category": "frontend",
-  "subcategory": "next-js"
+  "subcategory": "next_js"
   },
   {
   "name": "Next.js by FreeCodeCamp",
   "description": "This is a complete 6 hours long Next.js course by FreeCodeCamp.",
   "url": "https://www.youtube.com/watch?v=ETV17M4SauU",
   "category": "frontend",
-  "subcategory": "next-js"
+  "subcategory": "next_js"
   },
   {
   "name": "Next.js Tutorial by Code Step By Step",
   "description": "This is a complete playlist for Next.js by Code Step By Step. In this next.js tutorial video we learn what is next js and why this is better than react js in Hindi.",
   "url": "https://www.youtube.com/watch?v=YIqLzP0sVdc&list=PL8p2I9GklV44sj_Ikp8jQSvwD-m9htnHT",
   "category": "frontend",
-  "subcategory": "next-js"
+  "subcategory": "next_js"
   },
   {
   "name": "Next.js for Beginners in Hindi",
   "description": "This is a beginner-friendly Next.js playlist by Thapa Technical in Hindi. It covers What's Next.js, Why Next.js and Use of Next.js in Hindi.",
   "url": "https://www.youtube.com/watch?v=2OaAbSgmIWo&list=PLwGdqUZWnOp2rDbpfKAeUi9f8qZMS7_cv",
   "category": "frontend",
-  "subcategory": "next-js",
+  "subcategory": "next_js",
   "language": "hindi"
   }
 ]

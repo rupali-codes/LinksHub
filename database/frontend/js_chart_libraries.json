@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Chart.js",
+    "description": "Chart.js is a simple yet flexible JavaScript charting library that allows you to create interactive and responsive charts for your web applications.",
+    "url": "https://www.chartjs.org/",
+    "category": "frontend",
+    "subcategory": "js_chart_libraries"
+  },
+  {
+    "name": "Highcharts",
+    "description": "Highcharts is a powerful JavaScript charting library that provides a wide range of customizable and interactive charts for visualizing data in your web applications.",
+    "url": "https://www.highcharts.com/",
+    "category": "frontend",
+    "subcategory": "js_chart_libraries"
+  },
+  {
+    "name": "D3.js",
+    "description": "D3.js is a popular JavaScript library for manipulating documents based on data. It provides powerful tools for creating dynamic and interactive data visualizations on the web.",
+    "url": "https://d3js.org/",
+    "category": "frontend",
+    "subcategory": "js_chart_libraries"
+  },
+  {
+    "name": "Plotly.js",
+    "description": "Plotly.js is an open-source JavaScript graphing library that allows you to create interactive, publication-quality graphs and charts in your web applications.",
+    "url": "https://plotly.com/javascript/",
+    "category": "frontend",
+    "subcategory": "js_chart_libraries"
+  },
+  {
+    "name": "FusionCharts",
+    "description": "FusionCharts is a comprehensive JavaScript charting library that offers a wide range of charts, gauges, and maps for visualizing data in your web applications.",
+    "url": "https://www.fusioncharts.com/",
+    "category": "frontend",
+    "subcategory": "js_chart_libraries"
+  },
+  {
+    "name": "Google Charts",
+    "description": "Google Charts is a powerful JavaScript charting library that provides a variety of charts and visualization options for displaying data in your web applications.",
+    "url": "https://developers.google.com/chart/",
+    "category": "frontend",
+    "subcategory": "js_chart_libraries"
+  },
+  {
+    "name": "ApexCharts",
+    "description": "ApexCharts is a modern JavaScript charting library that offers a wide range of beautiful and interactive charts for visualizing data in your web applications.",
+    "url": "https://apexcharts.com/",
+    "category": "frontend",
+    "subcategory": "js_chart_libraries"
+  },
+  {
+    "name": "amCharts",
+    "description": "amCharts is a powerful JavaScript charting library that provides a wide range of customizable and interactive charts for visualizing data in your web applications.",
+    "url": "https://www.amcharts.com/",
+    "category": "frontend",
+    "subcategory": "js_chart_libraries"
+  },
+  {
+    "name": "Recharts",
+    "description": "Recharts is a composable charting library built with React components that allows you to create beautiful and interactive charts for your web applications.",
+    "url": "https://recharts.org/en-US/",
+    "category": "frontend",
+    "subcategory": "js_chart_libraries"
+  },
+  {
+    "name": "Tremor",
+    "description": "Tremor is a powerful and flexible data processing system that allows you to build real-time data pipelines for processing, transforming, and analyzing data at scale.",
+    "url": "https://www.tremor.rs/",
+    "category": "frontend",
+    "subcategory": "js_chart_libraries"
+  },
+  {
+    "name": "visx",
+    "description": "visx is a collection of expressive, low-level visualization primitives for building custom data visualizations with React. It provides a wide range of components for creating interactive and responsive charts and graphs.",
+    "url": "https://airbnb.io/visx/",
+    "category": "frontend",
+    "subcategory": "js_chart_libraries"
+  },
+  {
+    "name": "Nivo",
+    "description": "Nivo is a powerful and flexible data visualization library for React that provides a wide range of customizable and interactive charts and graphs for visualizing data in your web applications.",
+    "url": "https://nivo.rocks/",
+    "category": "frontend",
+    "subcategory": "js_chart_libraries"
+  }
+]
