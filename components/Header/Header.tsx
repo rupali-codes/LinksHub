@@ -47,13 +47,6 @@ export const Header: FC = () => {
 
   const navLinks = [
     {
-      inActiveIcon: <Icons.saveInactive className={inActiveIconCls} />,
-      activeIcon: <Icons.saveActive className={activeIconCls} />,
-      label: 'Saved',
-      href: '/saved',
-      isDisabled: true,
-    },
-    {
       inActiveIcon: <Icons.teamInactive className={inActiveIconCls} />,
       activeIcon: <Icons.teamActive className={activeIconCls} />,
       label: 'Team',
@@ -61,6 +54,14 @@ export const Header: FC = () => {
       isDisabled: false,
     },
   ]
+
+  const savedLink = {
+    inActiveIcon: <Icons.saveInactive className={inActiveIconCls} />,
+    activeIcon: <Icons.saveActive className={activeIconCls} />,
+    label: 'Saved',
+    href: '/saved',
+    isDisabled: true,
+  }
 
   const renderLinks = () =>
     navLinks.map(({ inActiveIcon, activeIcon, label, href }, i) => {
@@ -95,6 +96,17 @@ export const Header: FC = () => {
         <Link href="/" aria-label="LinksHub Logo">
           <Logo />
         </Link>
+          <Link
+            href={savedLink.href}
+            className={`hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 flex items-center justify-start p-2 gap-2 text-base font-medium leading-5 rounded-xl ${
+              savedLink.isActive ? 'text-primary dark:text-white' : 'text-gray-text'
+            }`}
+          >
+            <span className="flex items-center justify-center" title={savedLink.label}>
+              {savedLink.isActive ? savedLink.activeIcon : savedLink.inActiveIcon}
+            </span>
+            <span>{savedLink.label}</span>
+          </Link>
       </div>
 
       <div className="flex items-center justify-center gap-6">
