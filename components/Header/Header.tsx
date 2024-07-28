@@ -56,7 +56,7 @@ export const Header: FC = () => {
     {
       inActiveIcon: <Icons.teamInactive className={inActiveIconCls} />,
       activeIcon: <Icons.teamActive className={activeIconCls} />,
-      label: 'Our Team',
+      label: 'Team',
       href: '/contributors',
       isDisabled: false,
     },
@@ -124,7 +124,7 @@ export const Header: FC = () => {
         </div>
 
         <Button
-          label="Sponsor"
+		  label="Sponser"
           icon={<Icons.heart className="h-5 w-5" />}
           variant="pale"
           link="https://github.com/sponsors/rupali-codes"
