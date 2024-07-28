@@ -173,5 +173,12 @@
     "url": "https://onepagelove.com/",
     "category": "frontend",
     "subcategory": "design_inspiration"
+  },
+  {
+    "name": "Awesome Design Tools",
+    "description": "The best design tools and plugins for everything ",
+    "url": "https://github.com/goabstract/Awesome-Design-Tools",
+    "category": "frontend",
+    "subcategory": "design_inspiration"
   }
 ]
