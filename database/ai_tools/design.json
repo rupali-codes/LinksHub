@@ -26,5 +26,12 @@
     "url": "https://designs.io/",
     "category": "ai-tools",
     "subcategory": "design"
+  },
+  {
+    "name": "TOOOLS.design",
+    "description": "A growing archive of 1,500+ design resources, frequently updated for the community",
+    "url": "https://www.toools.design",
+    "category": "ai-tools",
+    "subcategory": "design"
   }
 ]
