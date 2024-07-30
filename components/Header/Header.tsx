@@ -134,14 +134,6 @@ export const Header: FC = () => {
           )}
           <ThemeToggler />
         </div>
-
-        <Button
-		  label="Sponser"
-          icon={<Icons.heart className="h-5 w-5" />}
-          variant="pale"
-          link="https://github.com/sponsors/rupali-codes"
-          className="hidden sm:flex"
-        />
       </div>
     </header>
   )
