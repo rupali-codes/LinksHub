@@ -46,5 +46,13 @@
     "category":"youtube",
     "subcategory":"computer_science",
     "language":"english"
+  },
+  {
+   "name":"University Academy",
+   "description":"University Academy is India’s first and biggest platform for professional student it provides video lectures, notes, assignments, tutorials, quizzes, previous year solved papers and many more. ",
+   "url":"www.youtube.com/@UniversityAcademy",
+   "category":"youtube",
+   "subcategory":"computer_science",
+   "language":"hindi"
   }
 ]
