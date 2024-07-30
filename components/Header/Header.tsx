@@ -61,6 +61,7 @@ export const Header: FC = () => {
     label: 'Saved',
     href: '/saved',
     isDisabled: true,
+    isActive: router.asPath.startsWith('/saved'),
   }
 
   const renderLinks = () =>
