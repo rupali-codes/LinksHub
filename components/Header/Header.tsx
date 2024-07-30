@@ -1,6 +1,5 @@
 import { FC } from 'react'
 import Link from 'next/link'
-import clsx from 'clsx'
 import { useRouter } from 'next/router'
 
 import { ThemeToggler } from 'components/ThemeToggler/themeToggler'
@@ -11,36 +10,6 @@ import { Icons } from 'components/icons'
 
 export const Header: FC = () => {
   const router = useRouter()
-
-  const iconClass =
-    'text-zinc-600 group-hover:text-primary dark:text-zinc-400 dark:group-hover:text-slate-300 h-6 w-6'
-  const socialIcons = [
-    {
-      icon: <Icons.X className={iconClass} />,
-      title: 'X (Twitter)',
-      href: 'https://twitter.com/linkshubdotdev',
-      ariaLabel: 'Follow us on X(Twitter)',
-    },
-    {
-      icon: <Icons.Linkedin className={iconClass} />,
-      title: 'Linkedin',
-      href: 'https://www.linkedin.com/company/linkshub-dev',
-      ariaLabel: 'Follow us on Linkedin',
-    },
-    {
-      icon: <Icons.Discord className={iconClass} />,
-      title: 'Discord',
-      href: 'https://discord.com/invite/NvK67YnJX5',
-      ariaLabel: 'Join the Community',
-    },
-    {
-      icon: <Icons.GitHub className={iconClass} />,
-      title: 'Github',
-      href: 'https://github.com/rupali-codes/LinksHub',
-      ariaLabel: 'Explore on GitHub',
-      showOnMobile: true,
-    },
-  ]
 
   const inActiveIconCls = 'stroke-gray-400'
   const activeIconCls = 'text-primary dark:text-white'
@@ -110,31 +79,11 @@ export const Header: FC = () => {
           </Link>
       </div>
 
-      <div className="flex items-center justify-center gap-6">
+      <div className="flex items-center justify-center gap-2">
         <nav className="w-full flex md:block hidden">
           <ul className="w-full flex gap-0.5 tall:gap-1">{renderLinks()}</ul>
         </nav>
-        <div className="flex items-center justify-center gap-[14px]">
-          {socialIcons.map(
-            ({ icon, title, href, ariaLabel, showOnMobile }, i) => (
-              <Link
-                key={i}
-                href={href}
-                title={title}
-                aria-label={ariaLabel}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={clsx(
-                  'group flex items-center justify-center rounded-md hover:bg-slate-100 dark:hover:bg-white dark:hover:bg-opacity-20 transition-colors',
-                  showOnMobile ? '' : 'hidden sm:flex'
-                )}
-              >
-                {icon}
-              </Link>
-            )
-          )}
-          <ThemeToggler />
-        </div>
+        <ThemeToggler />
       </div>
     </header>
   )
