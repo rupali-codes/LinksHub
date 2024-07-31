@@ -19,5 +19,12 @@
     "url": "https://www.udacity.com/course/version-control-with-git--ud123",
     "category": "other",
     "subcategory": "git"
+  },
+  {
+    "name": "Git and Github in Hindi",
+    "description": "This course which help a beginner to learn from the very basic level with git and github",
+    "url": "https://youtu.be/q8EevlEpQ2A?si=0SvGgHGIXlmkfh7v",
+    "category": "other",
+    "subcategory": "git"
   }
 ]
