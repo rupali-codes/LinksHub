@@ -26,6 +26,7 @@ export const TopBar: FC<TopBarProps> = ({}) => {
   cleanedCategory = (subcategoryName || categoryName)
     .replaceAll(regEx, ' ')
     .replaceAll('search query ', '')
+    .replaceAll('three d', '3D')
 
   // Helper function to capitalize the first letter of each word
   const capitalizeEachWord = (str: string) => {

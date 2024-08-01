@@ -1,0 +1,19 @@
+<!-- This is a list of URLs that Lychee should ignore. -->
+<!-- False Positive URL -->
+
+https://canva.com/
+https://leetcode.com/
+https://www.udemy.com/
+https://recharts.org/en-US/
+https://pexels.com/
+https://www.interviewbit.com/
+https://codepen.io/
+https://flaticon.com/
+https://in.indeed.com/
+https://pixabay.com/
+https://www.phind.com
+https://www.trellix.com/
+https://www.brimble.io/
+https://www.000webhost.com/
+https://www.glassdoor.co.in/index.htm
+https://www.gartner.com/reviews/market/security-information-event-management
