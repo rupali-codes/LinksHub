@@ -89,7 +89,7 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
           style={buttonStyle}
-          className='text-base p-2 w-32 rounded-lg text-center w-full'
+          className='text-base p-2 rounded-lg text-center w-full'
         >
           {btnText}
         </button>
@@ -357,7 +357,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-10 mb-6 md:mb-0">
-          <div className="dark:bg-slate-800 bg-theme-primary-light rounded-lg border border border-theme-secondary/25 sm:flex-row items-center justify-between md:p-7 md:pr-12 p-5">
+          <div className="dark:bg-slate-800 bg-theme-primary-light rounded-lg border border-theme-secondary/25 sm:flex-row items-center justify-between md:p-7 md:pr-12 p-5">
             <div className="md:flex items-center gap-4">
               <div className="text-yellow-400 ml-4 lg:ml-0">
                 <Icons.star className="h-8 w-8" />
@@ -378,7 +378,7 @@ export default function Home() {
                 icon={<Icons.heart className="h-4 w-4" />}
                 variant="pale"
                 link="https://github.com/sponsors/rupali-codes"
-                className="w-full sm:w-auto border border-theme-secondary/25 bg-primary/8 mt-4 mt-4 lg:mt-0 md:ml-4 md:mr-auto"
+                className="w-full sm:w-auto border border-theme-secondary/25 bg-primary/8 mt-4 lg:mt-0 md:ml-4 md:mr-auto"
               />
             </div>
           </div>
