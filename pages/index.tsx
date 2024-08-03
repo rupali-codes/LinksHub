@@ -308,7 +308,7 @@ export default function Home() {
                 <SocialLink
                   href="https://github.com/rupali-codes/LinksHub"
                   icon={<Icons.faGithub size={30} />}
-                  title="Github"
+                  title="GitHub"
                   description="Join us here to report bugs & issues, and suggest features."
                 />
               </div>
