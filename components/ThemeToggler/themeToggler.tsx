@@ -21,7 +21,7 @@ export function ThemeToggler() {
   }
 
   const themeColor = resolvedTheme === 'dark' ? '#0F172A' : '#F5F3FF'
-  const capitalizedTheme = resolvedTheme?.charAt(0).toUpperCase() + resolvedTheme.slice(1);
+  const capitalizedTheme = resolvedTheme === "dark" ? "Light" : "Dark";
 
   return (
     <HelmetProvider>
