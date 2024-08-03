@@ -46,5 +46,13 @@
     "category":"youtube",
     "subcategory":"computer_science",
     "language":"english"
+  },
+  {
+    "name":"Revising X in Y Minutes - CodeWithHarry",
+    "description":"In this playlist, you will revise different programming languages and frameworks in just 5 to 10 minutes",
+    "url":"https://www.youtube.com/playlist?list=PLu0W_9lII9ajkincuKn6f6tIk76l5Suqw",
+    "category":"youtube",
+    "subcategory":"computer_science",
+    "language":"hindi"
   }
 ]
