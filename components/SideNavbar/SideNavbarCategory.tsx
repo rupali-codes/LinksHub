@@ -9,6 +9,19 @@ import type { ISidebar } from '../../types'
 
 import { Icons } from 'components/icons'
 
+const categoriesToUppercase = ['ai'];
+
+const capitalizeCategory =(category: string) =>{
+  return category
+    .split('-')
+    .map(word => categoriesToUppercase.includes(word.toLowerCase())
+    ? word.toUpperCase()
+    : word.charAt(0).toUpperCase() + word.slice(1)
+  )
+  .join(' ');
+
+}
+
 export const SideNavbarCategory: FC<{
   categoryData: ISidebar
   expand: boolean
@@ -52,7 +65,7 @@ export const SideNavbarCategory: FC<{
             category.length < 4 ? 'uppercase' : 'capitalize'
           }`}
         >
-          {category.split('-').join(' ')}
+          {capitalizeCategory(category)}
         </h1>
         <Icons.angleDown
           className={`${
