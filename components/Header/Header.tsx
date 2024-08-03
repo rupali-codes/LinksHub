@@ -47,18 +47,18 @@ export const Header: FC = () => {
 
   const navLinks = [
     {
-      inActiveIcon: <Icons.teamInactive className={inActiveIconCls} />,
-      activeIcon: <Icons.teamActive className={activeIconCls} />,
-      label: 'Team',
-      href: '/contributors',
-      isDisabled: false,
-    },
-    {
       inActiveIcon: <Icons.saveInactive className={inActiveIconCls} />,
       activeIcon: <Icons.saveActive className={activeIconCls} />,
       label: 'Saved',
       href: '/saved',
       isDisabled: true,
+    },
+    {
+      inActiveIcon: <Icons.teamInactive className={inActiveIconCls} />,
+      activeIcon: <Icons.teamActive className={activeIconCls} />,
+      label: 'Team',
+      href: '/contributors',
+      isDisabled: false,
     }
   ]
 
