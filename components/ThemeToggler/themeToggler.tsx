@@ -21,6 +21,7 @@ export function ThemeToggler() {
   }
 
   const themeColor = resolvedTheme === 'dark' ? '#0F172A' : '#F5F3FF'
+  const capitalizedTheme = resolvedTheme === "dark" ? "Light" : "Dark";
 
   return (
     <HelmetProvider>
@@ -36,7 +37,7 @@ export function ThemeToggler() {
       </Helmet>
       <button
         onClick={handleThemeToggle}
-        title={`Theme ${resolvedTheme}`}
+        title={`${capitalizedTheme} Theme`}
         className="group w-[32px] h-[32px] flex items-center justify-center rounded-md hover:bg-slate-100 dark:hover:bg-white dark:hover:bg-opacity-20 transition-colors"
       >
         {resolvedTheme === 'dark' ? (
