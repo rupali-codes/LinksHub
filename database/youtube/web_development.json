@@ -366,5 +366,13 @@
     "category": "youtube",
     "subcategory": "web_development",
     "language": "english"
+  },
+  {
+    "name": "Theo - t3․gg",
+    "description": "A channel that covers current news in the world of web development",
+    "url": "https://www.youtube.com/@t3dotgg",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
   }
 ]
