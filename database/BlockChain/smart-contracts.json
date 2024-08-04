@@ -1,9 +1,16 @@
 [
-    {
-    "name": "Solidity Documentation",
-    "description": " Solidity is the programming language used for developing smart contracts on the Ethereum platform. The Solidity documentation provides comprehensive guidance on writing secure and efficient smart contracts.",
-    "url": "https://docs.soliditylang.org/en/v0.8.21/",
-    "category": "BlockChain",
-    "subcategory": "smartcontracts"
-  }
+  {
+  "name": "Solidity Documentation",
+  "description": " Solidity is the programming language used for developing smart contracts on the Ethereum platform. The Solidity documentation provides comprehensive guidance on writing secure and efficient smart contracts.",
+  "url": "https://docs.soliditylang.org/en/v0.8.21/",
+  "category": "BlockChain",
+  "subcategory": "smart contracts"
+},
+{
+  "name": "Solidity Documentation",
+  "description": "This resource provide you depth in knowledge of solidity smart contract development and auditing and also it teach you industry standards and tools like foundry. Even you can learn advance blockchain stuff like yul-assembly, huff, Ethereum Opcodes and formal verification and much more!",
+  "url": "https://updraft.cyfrin.io/",
+  "category": "BlockChain",
+  "subcategory": "smart contracts"
+}
 ]
