@@ -25,12 +25,12 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.linkshub.dev/css-games</loc>
+        <loc>https://www.linkshub.dev/css_games</loc>
         <lastmod>2023-06-28T21:40:52+00:00</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.linkshub.dev/design-inspiration</loc>
+        <loc>https://www.linkshub.dev/design_inspiration</loc>
         <lastmod>2023-06-28T21:40:52+00:00</lastmod>
         <priority>0.8</priority>
     </url>
@@ -55,7 +55,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.linkshub.dev/online-code-editors</loc>
+        <loc>https://www.linkshub.dev/online_code_editors</loc>
         <lastmod>2023-06-28T21:40:52+00:00</lastmod>
         <priority>0.8</priority>
     </url>
@@ -65,7 +65,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.linkshub.dev/themes-templates</loc>
+        <loc>https://www.linkshub.dev/themes_and_templates</loc>
         <lastmod>2023-06-28T21:40:52+00:00</lastmod>
         <priority>0.8</priority>
     </url>
@@ -105,7 +105,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.linkshub.dev/system-design</loc>
+        <loc>https://www.linkshub.dev/system_design</loc>
         <lastmod>2023-06-28T21:40:52+00:00</lastmod>
         <priority>0.8</priority>
     </url>
@@ -120,17 +120,17 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.linkshub.dev/data-science</loc>
+        <loc>https://www.linkshub.dev/data_science</loc>
         <lastmod>2023-06-28T21:40:52+00:00</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.linkshub.dev/deep-learning</loc>
+        <loc>https://www.linkshub.dev/deep_learning</loc>
         <lastmod>2023-06-28T21:40:52+00:00</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.linkshub.dev/machine-learning</loc>
+        <loc>https://www.linkshub.dev/machine_learning</loc>
         <lastmod>2023-06-28T21:40:52+00:00</lastmod>
         <priority>0.8</priority>
     </url>
@@ -160,7 +160,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.linkshub.dev/e-book</loc>
+        <loc>https://www.linkshub.dev/e_book</loc>
         <lastmod>2023-06-28T21:40:52+00:00</lastmod>
         <priority>0.8</priority>
     </url>
@@ -181,7 +181,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.linkshub.dev/project-ideas</loc>
+        <loc>https://www.linkshub.dev/project_ideas</loc>
         <lastmod>2023-06-28T21:40:52+00:00</lastmod>
         <priority>0.8</priority>
     </url>
@@ -211,7 +211,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.linkshub.dev/other-resources</loc>
+        <loc>https://www.linkshub.dev/other_resources</loc>
         <lastmod>2023-06-28T21:40:52+00:00</lastmod>
         <priority>0.8</priority>
     </url>

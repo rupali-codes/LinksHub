@@ -23,9 +23,9 @@ export const Header: FC = () => {
     },
     {
       icon: <Icons.Linkedin className={iconClass} />,
-      title: 'Linkedin',
+      title: 'LinkedIn',
       href: 'https://www.linkedin.com/company/linkshub-dev',
-      ariaLabel: 'Follow us on Linkedin',
+      ariaLabel: 'Follow us on LinkedIn',
     },
     {
       icon: <Icons.Discord className={iconClass} />,
@@ -35,7 +35,7 @@ export const Header: FC = () => {
     },
     {
       icon: <Icons.GitHub className={iconClass} />,
-      title: 'Github',
+      title: 'GitHub',
       href: 'https://github.com/rupali-codes/LinksHub',
       ariaLabel: 'Explore on GitHub',
       showOnMobile: true,

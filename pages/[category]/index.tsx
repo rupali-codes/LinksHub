@@ -22,7 +22,7 @@ const CategoryPage = () => {
       }
     }
 
-    return 'No descrition'
+    return 'No description'
   }
 
   return (

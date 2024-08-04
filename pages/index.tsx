@@ -22,6 +22,7 @@ interface RatingForkProps {
   iconBgColor: string
   btnBgColor: string
   btnTextColor: string
+  btnHoverColor:string
   btnText: string
 }
 
@@ -51,9 +52,16 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
   iconBgColor,
   btnBgColor,
   btnTextColor,
+  btnHoverColor,
   btnText,
 }) => {
   const iconStyle = { backgroundColor: iconBgColor }
+  const [hovered, setHovered] = useState(false)
+  const buttonStyle = {
+    backgroundColor: hovered ? btnHoverColor : btnBgColor,
+    color: btnTextColor,
+    transition: 'background-color 0.3s ease-in-out, color 0.3s ease-in-out',
+  }
 
   return (
     <div
@@ -78,8 +86,10 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
       </div>
       <Link href={link}>
         <button
-          className={`text-base p-2 w-32 rounded-lg text-center w-full`}
-          style={{ backgroundColor: btnBgColor, color: btnTextColor }}
+          onMouseEnter={() => setHovered(true)}
+          onMouseLeave={() => setHovered(false)}
+          style={buttonStyle}
+          className='text-base p-2 w-32 rounded-lg text-center w-full'
         >
           {btnText}
         </button>
@@ -244,6 +254,7 @@ export default function Home() {
                       bgColor="#575448"
                       iconBgColor="#FBD449"
                       btnBgColor="#FBD449"
+                      btnHoverColor="#FFF455"
                       btnTextColor="black"
                       btnText="Give a star"
                     />
@@ -255,6 +266,7 @@ export default function Home() {
                       bgColor="#403B56"
                       iconBgColor="#714EFF"
                       btnBgColor="#714EFF"
+                      btnHoverColor="#7E8EF1"
                       btnTextColor="white"
                       btnText="Contribute now"
                     />
@@ -296,7 +308,7 @@ export default function Home() {
                 <SocialLink
                   href="https://github.com/rupali-codes/LinksHub"
                   icon={<Icons.faGithub size={30} />}
-                  title="Github"
+                  title="GitHub"
                   description="Join us here to report bugs & issues, and suggest features."
                 />
               </div>

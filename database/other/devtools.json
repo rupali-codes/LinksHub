@@ -117,5 +117,19 @@
     "url": "https://www.drlinkcheck.com/",
     "category": "other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "Dracula Theme",
+    "description": "Dracula is a color scheme for code editors and terminal emulators such as Vim, Notepad++, iTerm, VSCode, Terminal.app, ZSH, and much more.",
+    "url": "https://draculatheme.com/",
+    "category": "other",
+    "subcategory": "devtools"
+  },
+  {
+    "name": "Responsively",
+    "description": "A modified web browser that helps in responsive web development. A web developer's must have dev tool.",
+    "url": "https://responsively.app",
+    "category": "other",
+    "subcategory": "devtools"
   }
 ]

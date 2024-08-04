@@ -4,48 +4,48 @@
     "description": "Learn the basics of web application penetration testing, including common vulnerabilities and testing methodologies.",
     "url": "https://www.owasp.org/index.php/Web_Application_Penetration_Testing",
     "category": "cyber-security",
-    "subcategory": "web-security"
+    "subcategory": "web_security"
   },
   {
     "name": "Certified Web Application Penetration Tester (CWAPT) Certification",
     "description": "Information on the CWAPT certification, a specialized certification for professionals focusing on web application penetration testing.",
     "url": "https://mile2.com/web-application-penetration-tester-cwapt.html",
     "category": "cyber-security",
-    "subcategory": "web-security"
+    "subcategory": "web_security"
   },
   {
     "name": "Burp Suite",
     "description": "Explore Burp Suite, a popular web application security testing tool that assists in identifying and exploiting vulnerabilities.",
     "url": "https://portswigger.net/web-security",
     "category": "cyber-security",
-    "subcategory": "web-security"
+    "subcategory": "web_security"
   },
   {
     "name": "OWASP AppSec Conferences",
     "description": "Information about the OWASP AppSec conferences, which focus on web application security, including penetration testing techniques.",
     "url": "https://owasp.org/",
     "category": "cyber-security",
-    "subcategory": "web-security"
+    "subcategory": "web_security"
   },
   {
     "name": "SQL Injection Testing",
     "description": "Learn about SQL injection testing techniques used to identify and exploit SQL injection vulnerabilities in web applications.",
     "url": "https://portswigger.net/web-security/sql-injection",
     "category": "cyber-security",
-    "subcategory": "web-security"
+    "subcategory": "web_security"
   },
   {
     "name": "Trivy",
     "description": "Trivy is the most popular open source security scanner, reliable, fast, and easy to use. It's a container security scanner designed specifically for Docker images.",
     "url": "https://trivy.dev",
     "category": "cyber-security",
-    "subcategory": "web-security"
+    "subcategory": "web_security"
   },
   {
     "name": "Snyk",
     "description": "Snyk specializes in JavaScript security. It is a developer-first security solution that helps you use open source code and stay secure. Continuously find and fix vulnerabilities for npm, Maven, NuGet, RubyGems, PyPI and more.",
     "url": "https://snyk.io/",
     "category": "cyber-security",
-    "subcategory": "web-security"
+    "subcategory": "web_security"
   }
 ]

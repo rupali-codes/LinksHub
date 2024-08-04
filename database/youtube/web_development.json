@@ -1,0 +1,370 @@
+[
+  {
+    "name": "The Net Ninja",
+    "description": "The Net Ninja is a YouTube channel that teaches web development, including HTML, CSS, JavaScript, PHP, Python, C#, and more.",
+    "url": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Traversy Media",
+    "description": "This channel is for all levels of developers who want to start or continue their journey in tech.",
+    "url": "https://www.youtube.com/@TraversyMedia",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "FreeCodeCamp",
+    "description": "This channel provides free courses related to web-dev, app-dev, projects, and many more.",
+    "url": "https://www.youtube.com/@freecodecamp",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Fireship",
+    "description": "Fireship is a channel that provides short introduction videos and quick learning guides.",
+    "url": "https://www.youtube.com/@Fireship",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Programming with Mosh",
+    "description": "It's another great channel for starting your web development journey.",
+    "url": "https://www.youtube.com/@programmingwithmosh",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Academind",
+    "description": "It's a great channel for web development. It's more focused on JavaScript and its frameworks.",
+    "url": "https://www.youtube.com/@academind",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Clever Programmer",
+    "description": "Clever Programmer is a great channel for beginners looking to take their coding skills to an intermediate level.",
+    "url": "https://www.youtube.com/@CleverProgrammer",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "thenewboston",
+    "description": "This is a great channel for learning docker, blockchain, web development, Django, Angular2, etc.",
+    "url": "https://www.youtube.com/@thenewboston",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Web Dev Simplified",
+    "description": "Web Dev Simplified is all about teaching web development skills and techniques in an efficient and practical manner.",
+    "url": "https://www.youtube.com/@WebDevSimplified",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "DesignCourse",
+    "description": "This channel will take you from zero to a fullstack developer. You will also learn UI/UX and Frontend Dev languages",
+    "url": "https://www.youtube.com/@DesignCourse/featured",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "CodeWithHarry",
+    "description": "This channel provides free Web Development course for beginners.",
+    "url": "https://www.youtube.com/@CodeWithHarry/playlists",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "hindi"
+  },
+  {
+    "name": "Bro Code",
+    "description": "This channel is dedicated to providing free coding tutorials for both beginners and pros",
+    "url": "https://www.youtube.com/@BroCodez",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Milan Jovanović",
+    "description": "Milan is talking explicitly about .Net technologies and how to architect with them. He also shares videos about software engineering, software architecture, distributed systems, and Domain-Driven Design.",
+    "url": "https://www.youtube.com/@MilanJovanovicTech",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Code with Ania Kubów",
+    "description": "This channel is dedicated to providing projects based on JavaScript and its frameworks such as React, React-Native, Next.js, Node.js, and Express. It also provides courses and projects related to GraphQL, databasing, and more.",
+    "url": "https://www.youtube.com/@AniaKubow/featured",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "JavaScript Mastery",
+    "description": "This channel provides projects based on JavaScript and its frameworks like ReactJS, NextJS, NodeJS, and API management. It also covers full stack projects with real-life applications.",
+    "url": "https://www.youtube.com/@javascriptmastery",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Hussein Nasser",
+    "description": "Hussein talks about various software engineering topics such as database architecture, network protocols, and more. This channel is a great source if you are interested in becoming an software engineer.",
+    "url": "https://www.youtube.com/@hnasr",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Developedbyed",
+    "description": "This channel provides tutorials on various web development topics such as HTML, CSS, JavaScript, React.js, Redux and many more.",
+    "url": "https://www.youtube.com/@developedbyed",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Hyperplexed",
+    "description": "This channel teaches web development in a very intuitive manner by recreating easy yet awesome stuff in a very short amount of time",
+    "url": "https://www.youtube.com/@Hyperplexed",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Thapa Technical",
+    "description": "This channel is dedicated to the world of web development, offering a wide range of content related to technical aspects, tips and tricks, design principles, and programming.",
+    "url": "https://www.youtube.com/@ThapaTechnical",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "Hindi"
+  },
+  {
+    "name": "Slaying the dragon",
+    "description": "Slaying the dragon is about facing your fears, pursuing meaning and transforming into the web developer you were always destined to be.",
+    "url": "https://www.youtube.com/@slayingthedragon/",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Apna College",
+    "description": "Apna College is a popular YouTube channel dedicated to providing valuable content and resources to college students. The channel aims to support students in navigating various aspects of college life, including academics, career development, personal growth, and student well-being.",
+    "url": "https://www.youtube.com/@ApnaCollegeOfficial",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "hindi"
+  },
+  {
+    "name": "Codedamn",
+    "description": "Codedamn is a popular YouTube channel that focuses on teaching programming and web development. The channel is known for its concise and easy-to-follow tutorials, making it a valuable resource for beginners and experienced coders alike. Whether you're interested in learning HTML, CSS, JavaScript, or diving into frameworks like React or Angular, Codedamn offers a wide range of video lessons to cater to different skill levels.",
+    "url": "https://www.youtube.com/@codedamn",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "CodeHelp",
+    "description": "This is one of the best free beginner to advanced courses for people who want to learn Full Stack Web Development",
+    "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "hindi"
+  },
+  {
+    "name": "PedroTechnologies",
+    "description": "Welcome to PedroTechnologies' captivating world of Web Development! Explore a treasure trove of educational videos covering ReactJS, NodeJS, MySQL, Express, MongoDB, GraphQL, and more!",
+    "url": "https://www.youtube.com/@PedroTechnologies",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Apoorv Goyal",
+    "description": "Aprrov Goyal channel has web development boot camps, Git and Github playlist, Linux playlist, and learn-by-doing series playlist. If you visit this channel once, you will leave with coding skills and knowledge.",
+    "url": "https://www.youtube.com/@ApoorvGoyalMain",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Codevolution",
+    "description": "Codevolution is a YouTube channel dedicated to providing comprehensive tutorials and resources for learning programming and web development.",
+    "url": " https://www.youtube.com/@Codevolution/",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Easy Tutorials",
+    "description": "EasyTutorialsVideo offers a wide range of informative and user-friendly tutorials on Web Development, making learning easy and accessible for all.",
+    "url": " https://www.youtube.com/@EasyTutorialsVideo/",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Coding Nepal",
+    "description": "This channel offers engaging tutorials and resources for web enthusiasts, helping them master web development skills.",
+    "url": "https://www.youtube.com/@CodingNepal/",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Mr.Web Designer",
+    "description": "This channel features videos on web design and development tutorials by Anas, offering valuable insights and guidance for aspiring designers.",
+    "url": " https://www.youtube.com/@MrWebDesignerAnas/",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "CodingLab",
+    "description": "This channel offers engaging web development tutorials and projects for beginners and experienced programmers alike.",
+    "url": " https://www.youtube.com/@CodingLabYT/",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "dotWebdesigns",
+    "description": "dotWebdesigns is a YouTube channel dedicated to showcasing innovative web design concepts and tutorials for aspiring designers.",
+    "url": " https://www.youtube.com/@dotWebdesigns/",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "CodeWithSadee",
+    "description": "This YouTube channel features informative and engaging Web development tutorials for all skill levels.",
+    "url": "https://www.youtube.com/@codewithsadee/",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "SCALER (Full Stack Web Dev)",
+    "description": "All-in-One Web Development Full Course where everything from basics of web dev to frontend and backend with projects is covered",
+    "url": "https://www.youtube.com/watch?v=yjmfoR2LSRM&t=2s",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "EDUREKA (Web Dev)",
+    "description": "This Full Stack Web Development tutorial is ideal for both beginners and professionals who want to master Frontend and Backend Web Development technologies.",
+    "url": "https://www.youtube.com/watch?v=YLpCPo0FDtE",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Simplilearn",
+    "description": "This channel covers FullStack Web Development Course based on the latest trends in tech",
+    "url": "https://www.youtube.com/watch?v=R6RX2Zx96fE",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Intellipaat",
+    "description": "This Full Stack Developer Course covers all the essential concepts and technologies in both frontend & backend",
+    "url": "https://www.youtube.com/watch?v=b92T8aCOwS0&t=13s",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "SuperSimpleDev",
+    "description": "This channel is dedicated to making frontend web development easier to learn",
+    "url": "https://www.youtube.com/@SuperSimpleDev/videos",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Wes Bos",
+    "description": "This is the best website to learn Javascript. It provides 30 JS projects for learners to build in 30 days.",
+    "url": "https://www.youtube.com/@WesBos",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "The Coder Coder",
+    "description": "This site provides practical tips for beginner web developers.",
+    "url": "https://www.youtube.com/c/TheCoderCoder",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+ {
+    "name": "Level Up Tuts",
+    "description": "2000+ free video tutorials created, recorded, edited, published, and maintained by Scott Tolinski.",
+    "url": "https://www.youtube.com/c/leveluptuts",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Devtips",
+    "description": "This channel deep dives into the world of Web Development.",
+    "url": "https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Joseph Smith",
+    "description": "Learn programming and building with languages like HTML,CSS ,PHP, and much more.",
+    "url": "https://www.youtube.com/c/TheHelpingDevelop/",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "ByteGrad",
+    "description": "ByteGrad is an underrated Youtube channel which explains really complex development concepts in an easy and simple way.",
+    "url": "https://www.youtube.com/@ByteGrad",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "developedbyed",
+    "description": "This channel has a wide variety of educational videos on technologies like HTML,vanilla CSS,Javascript,Tailwind CSS,and React",
+    "url": "https://www.youtube.com/playlist?list=PLDyQo7g0_nsUjf046cCHKJ16U1SoXrElZ",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  },
+  {
+    "name": "Chai aur Code",
+    "description": "An underrated channel with awesome content in React and JavaScript",
+    "url": "https://www.youtube.com/@chaiaurcode",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "hindi"
+  },
+  {
+    "name": "Hitesh Choudhary",
+    "description": "It is an underrated channel for Web Development, Android development, DevOps, and more",
+    "url": "https://www.youtube.com/@HiteshChoudharydotcom",
+    "category": "youtube",
+    "subcategory": "web_development",
+    "language": "english"
+  }
+]
