@@ -47,5 +47,12 @@
         "url": "https://www.youtube.com/watch?v=v9bOWjwdTlg",
         "category": "languages",
         "subcategory": "python"
+    },
+    {
+        "name": "Tech With Tim",
+        "description": "A strong focus on Python, Machine Learning, and AI.",
+        "url": "https://www.youtube.com/@TechWithTim",
+        "category": "languages",
+        "subcategory": "python"
     }
 ]
