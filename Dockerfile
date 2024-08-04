@@ -1,13 +1,21 @@
-FROM node:lts-slim
+FROM node:18
 
-RUN npm install -g pnpm
-
+# Set the working directory
 WORKDIR /app
+
+# Copy package.json and package-lock.json
+COPY package.json ./
+COPY pnpm-lock.yaml ./
+
+# Install dependencies
+RUN npm install -g pnpm
+RUN pnpm install
+
+# Copy the rest of your application
+COPY . .
+
+# Expose the port the app runs on
 EXPOSE 3000
 
-# Copy the package.json and pnpm-lock.yaml
-COPY package.json pnpm-lock.yaml ./
-
-RUN npm run dev-setup
-
-COPY . .
+# Run the application
+CMD ["pnpm", "dev"]

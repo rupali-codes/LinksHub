@@ -67,13 +67,19 @@ Follow these steps to setup LinksHub on your local machine
 > cd LinksHub/
 > ```
 >
-> 2. Start the docker container with:
+> 2. Pull the image from docker hub:
 >
 > ```bash
-> docker-compose up
+> docker pull linkshub/app
 > ```
 >
-> 3. Now start adding your changes.
+> 3. Start the docker container with: 
+>
+> ```bash
+> docker compose up
+> ```
+>
+> 4. Now start adding your changes.
 > **Note:** You don't need to restart the container again and again after starting it once, because the changes you make will reflect in the container instantly.
 
 7. Make your changes before staging them.
