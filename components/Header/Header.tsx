@@ -98,7 +98,7 @@ export const Header: FC = () => {
       </div>
 
       <div className="flex items-center justify-center gap-6">
-        <nav className="w-full flex md:block hidden">
+        <nav className="w-full flex md:block">
           <ul className="w-full flex gap-0.5 tall:gap-1">{renderLinks()}</ul>
         </nav>
         <div className="flex items-center justify-center gap-[14px]">
