@@ -235,8 +235,8 @@ export const sidebarData: ISidebar[] = [
       },
       {
         name: 'chat bots',
-        url: '/chat-bot',
-        resources: DB.chat_bot,
+        url: '/chat_bots',
+        resources: DB.chat_bots,
       },
     ],
   },

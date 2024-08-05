@@ -4,20 +4,20 @@
         "description": "An AI chat assistance which provides conversational AI services, generating human-like text responses for various user queries and tasks.",
         "url": "https://openai.com/chatgpt/",
         "category": "ai-tools",
-        "subcategory": "chat-bot"
+        "subcategory": "chat_bots"
     },
     {
         "name": "Gemini Chatbot",
         "description": "An AI chat aGemini, formerly known as Bard, is a generative artificial intelligence chatbot developed by Google.Provides conversational AI service and human-like responses",
         "url": "https://gemini.google.com/app",
         "category": "ai-tools",
-        "subcategory": "chat-bot"
+        "subcategory": "chat_bots"
     },
     {
         "name": "Microsoft Copilot",
         "description": "Microsoft Copilot leverages the power of AI to boost productivity, unlock creativity, and helps you understand information better with a simple chat bot.",
         "url": "https://copilot.microsoft.com/",
         "category": "ai-tools",
-        "subcategory": "chat-bot"
+        "subcategory": "chat_bots"
     }
 ]
