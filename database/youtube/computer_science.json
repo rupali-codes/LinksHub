@@ -46,5 +46,13 @@
     "category":"youtube",
     "subcategory":"computer_science",
     "language":"english"
+  },
+  {
+   "name": "University Academy",
+   "description": "University Academy is a YouTube channel that discusses educational content on a variety of subjects of engineering such as Operating System,DBMS,Cybersecurity,Microprocessor and Computer Network etc to prepare for University Exams and provides various tips on topics ranging from  professional skills to personal development.It also provides video lectures, notes, assignments, tutorials, quizzes, previous year solved papers and many more.It has a dedicated team available on live stream every Sunday to connect with students for a discussion about the academic issues.",
+   "url": "www.youtube.com/@UniversityAcademy",
+   "category":"youtube",
+   "subcategory":"computer_science",
+   "language": "hindi"
   }
 ]
