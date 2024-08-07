@@ -7,7 +7,7 @@
   "subcategory": "smartcontracts"
 },
 {
-  "name": "Solidity Documentation",
+  "name": "Learn Solidity",
   "description": "This resource provide you depth in knowledge of solidity smart contract development and auditing and also it teach you industry standards and tools like foundry. Even you can learn advance blockchain stuff like yul-assembly, huff, Ethereum Opcodes and formal verification and much more!",
   "url": "https://updraft.cyfrin.io/",
   "category": "BlockChain",
