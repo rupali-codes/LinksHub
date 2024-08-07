@@ -16,13 +16,12 @@ interface PageProps {
   subcategory: string
 }
 
-interface Params extends ParsedUrlQuery, PageProps {}
+interface Params extends ParsedUrlQuery, PageProps { }
 
 const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
   const { filterDB, pageCategory } = useFilterDB(subcategory[0])
-  const title = `LinksHub - ${
-    pageCategory[0].toUpperCase() + pageCategory.slice(1)
-  }`
+  const title = `LinksHub - ${pageCategory[0].toUpperCase() + pageCategory.slice(1)
+    }`
   const numberOfCards = filterDB[0].length
   const { totalPages, currentPage, startIndex, endIndex, handlePageChange } =
     usePagination(filterDB.length ? filterDB[0].length : 0)
