@@ -4,7 +4,6 @@ import { v4 as uuidv4 } from 'uuid'
 export const database: IData[][] = Object.values(DB).map((item: IDBData[]) =>
   item.map((subcat: IDBData) => ({ ...subcat, id: uuidv4() }))
 )
-
 export const sidebarData: ISidebar[] = [
   {
     category: 'frontend',
@@ -233,6 +232,11 @@ export const sidebarData: ISidebar[] = [
         name: 'blog writing',
         url: '/blog_writing',
         resources: DB.blog_writing,
+      },
+      {
+        name: 'chat bots',
+        url: '/chat_bots',
+        resources: DB.chat_bots,
       },
     ],
   },
