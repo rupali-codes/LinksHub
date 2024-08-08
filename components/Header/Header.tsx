@@ -56,10 +56,10 @@ export const Header: FC = () => {
     {
       inActiveIcon: <Icons.teamInactive className={inActiveIconCls} />,
       activeIcon: <Icons.teamActive className={activeIconCls} />,
-      label: 'Our Team',
+      label: 'Team',
       href: '/contributors',
       isDisabled: false,
-    },
+    }
   ]
 
   const renderLinks = () =>
