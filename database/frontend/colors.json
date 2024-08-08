@@ -63,13 +63,6 @@
     "subcategory": "colors"
   },
   {
-    "name": "UI Color Picker",
-    "description": "A Color picker that contains different shades of solid colors & gradients. Which can be used in any kind of project.",
-    "url": "https://uicolorpicker.com/",
-    "category": "frontend",
-    "subcategory": "colors"
-  },
-  {
     "name": "FlatUI Colors",
     "description": "FlatUIColors is a color palette designed for user interface design.",
     "url": "https://flatuicolors.com/",
@@ -206,13 +199,6 @@
     "name": "UIColors",
     "description": "UIColors is a interactive Tailwind CSS color palette UI with real examples. Create your own palette or edit anything from the library. It also allows you to import the palette directly to Figma file and more.",
     "url": "https://uicolors.app/",
-    "category": "frontend",
-    "subcategory": "colors"
-  },
-  {
-    "name": "ColorWave AI",
-    "description": "ColorWave AI is a color palette generator that uses AI to create beautiful color palettes.",
-    "url": "https://www.colorwave.dev/",
     "category": "frontend",
     "subcategory": "colors"
   }
