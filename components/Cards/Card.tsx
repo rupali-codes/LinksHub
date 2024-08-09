@@ -29,7 +29,7 @@ export const Card: FC<CardProps> = ({ data, onClick }) => {
 
   return (
     <article className="z-10 h-full w-full rounded-3xl dark:bg-slate-800 dark:text-text-primary dark:shadow-sm bg-light-white">
-      <div className="card-body">
+      <div className="card-body border border-theme-secondary/25 rounded-xl bg-theme-primary-light dark:border dark:border-theme-primary dark:border-opacity-8 dark:bg-theme-tertiary">
         <header className="flex justify-between items-center gap-2">
           <h2
             className="cursor-default md:truncate ... text-lg md:text-xl dark:text-light-primary"
