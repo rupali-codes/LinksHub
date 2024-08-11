@@ -40,5 +40,12 @@
         "url": "https://novu.co/",
         "category": "backend",
         "subcategory": "email_providers"
+    },
+    {
+        "name": "Resend",
+        "description": "A simple, elegant interface so you can start sending emails in minutes. It fits right into your code with SDKs for your favorite programming languages.",
+        "url": "https://resend.com/",
+        "category": "backend",
+        "subcategory": "email_providers"
     }
 ]
