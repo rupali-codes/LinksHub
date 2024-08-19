@@ -4,7 +4,6 @@ export { default as angular } from './frontend/angular.json'
 export { default as animations } from './frontend/animations.json'
 export { default as colors } from './frontend/colors.json'
 export { default as cssGames } from './frontend/css_games.json'
-export { default as designInspirations } from './frontend/design_inspiration.json'
 export { default as fonts } from './frontend/fonts.json'
 export { default as icons } from './frontend/icons.json'
 export { default as illustrations } from './frontend/illustrations.json'
@@ -28,6 +27,9 @@ export { default as systemDesign } from './backend/system_design.json'
 export { default as database } from './backend/database.json'
 export { default as api } from './backend/api.json'
 export { default as emailProviders } from './backend/email_providers.json'
+
+//design
+export { default as designInspirations } from './design/design_inspiration.json'
 
 //devops
 export { default as automationTools } from './devops/automation_tools.json'
