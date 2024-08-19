@@ -10,7 +10,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'Animation is the state of being full of life and energy, like a room full of excited kids at a birthday party. It is a method of photographing successive drawings, models, or even puppets, to create an illusion of movement in a sequence.',
   colors:
     'Colors mean the aspects of the appearance of objects and light sources that may be described in terms of hue, lightness, and saturation',
-   css_games:
+  css_games:
     'CSS games are a fun way to learn and practice CSS. They are a great way to learn new CSS properties and techniques, and they can help you improve your skills in a fun and interactive way.',
   fonts:
     'A font is a graphical representation of text that may include a different typeface, point size, weight, color, or design. Fonts are text characters of different types and sizes. They help designers convey interface content intuitively and guide web or mobile app users to interact with the interface smoothly. The term “font” actually refers to a set of graphics that correspond to some or all of the Unicode glyphs',
