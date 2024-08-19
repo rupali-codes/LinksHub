@@ -14,6 +14,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'The right kind of inspiration will always help you come up with creative and unique ideas for your projects but sometimes you need some help getting inspired. Luckily, there are a TON of great resources for design inspiration.',
   design_tools:
     'Applications used to create, prototype, and manage user interface designs and visual elements.',
+  design_tutorials:
+    'Instructional resources that teach users how to create and apply design concepts, techniques, and tools effectively.',
   css_games:
     'CSS games are a fun way to learn and practice CSS. They are a great way to learn new CSS properties and techniques, and they can help you improve your skills in a fun and interactive way.',
   fonts:
