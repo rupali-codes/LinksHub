@@ -10,13 +10,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'Animation is the state of being full of life and energy, like a room full of excited kids at a birthday party. It is a method of photographing successive drawings, models, or even puppets, to create an illusion of movement in a sequence.',
   colors:
     'Colors mean the aspects of the appearance of objects and light sources that may be described in terms of hue, lightness, and saturation',
-  design_inspiration:
-    'The right kind of inspiration will always help you come up with creative and unique ideas for your projects but sometimes you need some help getting inspired. Luckily, there are a TON of great resources for design inspiration.',
-  design_tools:
-    'Applications used to create, prototype, and manage user interface designs and visual elements.',
-  design_tutorials:
-    'Instructional resources that teach users how to create and apply design concepts, techniques, and tools effectively.',
-  css_games:
+   css_games:
     'CSS games are a fun way to learn and practice CSS. They are a great way to learn new CSS properties and techniques, and they can help you improve your skills in a fun and interactive way.',
   fonts:
     'A font is a graphical representation of text that may include a different typeface, point size, weight, color, or design. Fonts are text characters of different types and sizes. They help designers convey interface content intuitively and guide web or mobile app users to interact with the interface smoothly. The term “font” actually refers to a set of graphics that correspond to some or all of the Unicode glyphs',
@@ -92,7 +86,15 @@ const categoryDescriptions: CategoryDescriptions = {
   swift:
     'Swift is a powerful and intuitive programming language developed by Apple. It is used to create apps for iOS, macOS, watchOS, and so on. Swift code is concise yet expressive (easier to understand and write).',
 
-  // Open-source
+  //Design
+  design_tools:
+    'Applications used to create, prototype, and manage user interface designs and visual elements.',
+  design_tutorials:
+    'Instructional resources that teach users how to create and apply design concepts, techniques, and tools effectively.',
+  design_inspiration:
+    'The right kind of inspiration will always help you come up with creative and unique ideas for your projects but sometimes you need some help getting inspired. Luckily, there are a TON of great resources for design inspiration.',
+
+    // Open-source
   articles:
     'There are many open source blogging platforms available for developers. Some of the most popular ones include WordPress, Joomla, and Drupal1. Other open source blogging platforms include Ghost, Serendipity, SilverStripe, and Jekyll',
   projects:
