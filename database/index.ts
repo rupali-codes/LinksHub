@@ -30,6 +30,8 @@ export { default as emailProviders } from './backend/email_providers.json'
 
 //design
 export { default as designInspirations } from './design/design_inspiration.json'
+export { default as designTools } from './design/design_tools.json'
+
 
 //devops
 export { default as automationTools } from './devops/automation_tools.json'

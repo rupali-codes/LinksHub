@@ -12,6 +12,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Colors mean the aspects of the appearance of objects and light sources that may be described in terms of hue, lightness, and saturation',
   design_inspiration:
     'The right kind of inspiration will always help you come up with creative and unique ideas for your projects but sometimes you need some help getting inspired. Luckily, there are a TON of great resources for design inspiration.',
+  design_tools:
+    'Applications used to create, prototype, and manage user interface designs and visual elements.',
   css_games:
     'CSS games are a fun way to learn and practice CSS. They are a great way to learn new CSS properties and techniques, and they can help you improve your skills in a fun and interactive way.',
   fonts:

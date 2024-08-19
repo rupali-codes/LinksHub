@@ -154,6 +154,11 @@ export const sidebarData: ISidebar[] = [
       name: 'design inspiration',
       url: '/design_inspiration',
       resources: DB.designInspirations,
+    },
+    {
+      name: 'design tools',
+      url: '/design_tools',
+      resources: DB.designTools,
     }
   ]
   },
