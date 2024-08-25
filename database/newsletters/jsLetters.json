@@ -1,3 +1,37 @@
 [
-
+  {
+    "name": "Bytes",
+    "description": "Staying informed on the JavaScript ecosystem has never been so entertaining. Delivered every Monday and Thursday, for free.",
+    "url": "https://bytes.dev/",
+    "category": "newsletters",
+    "subcategory": "jsLetters"
+  },
+  {
+    "name": "JavaScript Weekly",
+    "description": "A newsletter of JavaScript articles, news and cool projects",
+    "url": "https://javascriptweekly.com/",
+    "category": "newsletters",
+    "subcategory": "jsLetters"
+  },
+  {
+    "name": "This Week in React",
+    "description": "The latest news directly in your inbox!",
+    "url": "https://thisweekinreact.com/",
+    "category": "newsletters",
+    "subcategory": "jsLetters"
+  },
+  {
+    "name": "Node Weekly",
+    "description": "A free, once–weekly e-mail round-up of Node.js news and articles.",
+    "url": "https://nodeweekly.com/",
+    "category": "newsletters",
+    "subcategory": "jsLetters"
+  },
+  {
+    "name": "Frontend Focus",
+    "description": "A once–weekly roundup of the best front-end news, articles and tutorials. HTML, CSS, WebGL, Canvas, browser tech, and more.",
+    "url": "https://frontendfoc.us/",
+    "category": "newsletters",
+    "subcategory": "jsLetters"
+  }
 ]
