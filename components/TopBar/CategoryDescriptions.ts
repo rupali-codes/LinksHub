@@ -268,6 +268,8 @@ const categoryDescriptions: CategoryDescriptions = {
   // newsletters
   jsLetters:
     'It covers the latest updates, trends, and resources in the JavaScript ecosystem, keeping developers informed and engaged.',
+    pythonLetters:
+    'It covers the latest updates, trends, and resources in the Python ecosystem.',
 }
 
 export default categoryDescriptions

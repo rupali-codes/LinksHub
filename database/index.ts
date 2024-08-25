@@ -142,3 +142,4 @@ export { default as hardhat } from './BlockChain/hardhat.json'
 export { default as ethers } from './BlockChain/ethers.json'
 // Newsletters
 export { default as jsLetters } from './newsletters/jsLetters.json'
+export { default as pythonLetters } from './newsletters/pyLetters.json'

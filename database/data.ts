@@ -316,6 +316,11 @@ export const sidebarData: ISidebar[] = [
         url: '/jsLetters',
         resources: DB.jsLetters,
       },
+      {
+        name: 'python',
+        url: '/pythonLetters',
+        resources: DB.pythonLetters,
+      }
     ]
   },
   {
