@@ -271,6 +271,9 @@ const categoryDescriptions: CategoryDescriptions = {
     'Coursera is an online learning platform that offers a wide range of courses, specializations, and degrees from top universities and organizations globally. It provides accessible and flexible education to individuals seeking to enhance their skills and knowledge.',
   raspberrypi:
     'Raspberry Pi is a series of low-cost, credit card-sized single-board computers developed to promote computer science education and DIY projects. With a vibrant community, Raspberry Pi empowers enthusiasts and learners to explore programming, electronics, and creative computing.',
+  // tech articles
+  react_articles:
+    'Get the best articles for react to improve your skills and knowledge.',
 }
 
 export default categoryDescriptions
