@@ -54,6 +54,7 @@ export type Category =
   | 'data-structures'
   | 'BlockChain'
   | 'newsletters'
+  | 'design'
 
 export type SubCategories = {
   name: string
