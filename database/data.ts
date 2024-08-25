@@ -27,11 +27,6 @@ export const sidebarData: ISidebar[] = [
       { name: 'animations', url: '/animations', resources: DB.animations },
       { name: 'icons', url: '/icons', resources: DB.icons },
       {
-        name: 'design inspiration',
-        url: '/design_inspiration',
-        resources: DB.designInspirations,
-      },
-      {
         name: 'themes & templates',
         url: '/themes_and_templates',
         resources: DB.themesTemplates,
@@ -151,6 +146,26 @@ export const sidebarData: ISidebar[] = [
         resources: DB.openSourceTutorials,
       },
     ],
+  },
+  {
+    category: 'design',
+    subcategory: [
+    {
+      name: 'design inspiration',
+      url: '/design_inspiration',
+      resources: DB.designInspirations,
+    },
+    {
+      name: 'design tools',
+      url: '/design_tools',
+      resources: DB.designTools,
+    },
+    {
+      name: 'design tutorials',
+      url: '/design_tutorials',
+      resources: DB.designTutorials,
+    }
+  ]
   },
   {
     category: 'devops',
