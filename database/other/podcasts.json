@@ -33,5 +33,12 @@
     "url": "https://darknetdiaries.com",
     "category": "other",
     "subcategory": "podcasts"
+  },
+  {
+    "name": "Syntax",
+    "description": "In Syntax, hosts Wes Bos and Scott Tolinski talk about web development, from JavaScript to CSS, and everything in between.",
+    "url": "https://syntax.fm/",
+    "category": "other",
+    "subcategory": "podcasts"
   }
 ]
