@@ -324,6 +324,31 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'tech-articles',
+    subcategory: [
+      {
+        name: 'react',
+        url: '/react_articles',
+        resources: DB.reactArticles,
+      }
+    ]
+  },
+  {
+    category: 'newsletters',
+    subcategory: [
+      {
+        name: 'javascript',
+        url: '/jsLetters',
+        resources: DB.jsLetters,
+      },
+      {
+        name: 'python',
+        url: '/pythonLetters',
+        resources: DB.pythonLetters,
+      }
+    ]
+  },
+  {
     category: 'youtube',
     subcategory: [
       {

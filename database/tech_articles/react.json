@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Design Patterns",
+    "url": "https://baguilar6174.medium.com/react-design-patterns-6ab55c5ebafb",
+    "description": "Learn how to apply design patterns in your React applications.",
+    "category": "tech-articles",
+    "subcategory": "react_articles"
+  },
+  {
+    "name": "Hooks Guide",
+    "url": "https://www.freecodecamp.org/news/full-guide-to-react-hooks/",
+    "description": "Learn how to use React hooks in your applications.",
+    "category": "tech-articles",
+    "subcategory": "react_articles"
+  },
+  {
+    "name": "Testing Guide",
+    "url": "https://www.freecodecamp.org/news/testing-react-hooks/",
+    "description": "Learn how to test your React applications.",
+    "category": "tech-articles",
+    "subcategory": "react_articles"
+  },
+  {
+    "name": "Best Practices",
+    "url": "https://dev.to/sathishskdev/series/22988",
+    "description": "Learn how to write clean code and organize files in your react applications.",
+    "category": "tech-articles",
+    "subcategory": "react_articles"
+  },
+  {
+    "name": "React Router",
+    "url": "https://luqmanshaban.medium.com/react-router-a-step-by-step-guide-4c5ec964d2e9",
+    "description": "Learn how to use React Router in your applications.",
+    "category": "tech-articles",
+    "subcategory": "react_articles"
+  }
+]

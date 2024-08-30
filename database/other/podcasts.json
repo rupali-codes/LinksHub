@@ -28,6 +28,13 @@
     "subcategory": "podcasts"
   },
   {
+    "name": "Darknet Diaries",
+    "description": "Darknet Diaries is a podcast about true stories from the dark side of the internet.",
+    "url": "https://darknetdiaries.com",
+    "category": "other",
+    "subcategory": "podcasts"
+  },
+  {
     "name": "Virtual Coffee",
     "description": "Virtual Coffee is an intimate community for developers at all stages of the journey. It is a place to ask questions, share knowledge, and build friendships.",
     "url": "https://virtualcoffee.io/podcast",

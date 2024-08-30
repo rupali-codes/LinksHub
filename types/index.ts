@@ -53,7 +53,9 @@ export type Category =
   | 'Placement-Prep'
   | 'data-structures'
   | 'BlockChain'
+  | 'newsletters'
   | 'design'
+  | 'tech-articles'
 
 export type SubCategories = {
   name: string
