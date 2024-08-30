@@ -26,5 +26,12 @@
     "url": "https://www.youtube.com/@AI.Overpowered",
     "category": "other",
     "subcategory": "podcasts"
+  },
+  {
+    "name": "Virtual Coffee",
+    "description": "Virtual Coffee is an intimate community for developers at all stages of the journey. It is a place to ask questions, share knowledge, and build friendships.",
+    "url": "https://virtualcoffee.io/podcast",
+    "category": "other",
+    "subcategory": "podcasts"
   }
 ]
