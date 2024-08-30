@@ -26,5 +26,12 @@
     "url": "https://www.youtube.com/@AI.Overpowered",
     "category": "other",
     "subcategory": "podcasts"
+  },
+  {
+    "name": "Darknet Diaries",
+    "description": "Darknet Diaries is a podcast about true stories from the dark side of the internet.",
+    "url": "https://darknetdiaries.com",
+    "category": "other",
+    "subcategory": "podcasts"
   }
 ]
