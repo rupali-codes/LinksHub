@@ -139,16 +139,24 @@
     "name":"Code step by step",
     "description": "A comprehensive playlist in Hindi that teaches developers data structures in Javascript from scratch.",
     "url": "https://www.youtube.com/watch?v=wZHtZ_VJGKI&list=PL8p2I9GklV47TMMnPzqnkCtSOS3ebr4O7&ab_channel=CodeStepByStep",
-    "category":"youtube",
-    "subcategory":"data-structures",
+    "category":"data-structure",
+    "subcategory":"dsa_tutorials",
     "language":"hindi"
   },
   {
     "name":"DataFlair",
     "description": "A comprehensive playlist in Hindi that teaches developers data structures and algorithms using C from scratch.",
     "url": "https://youtube.com/playlist?list=PLf0LpPWikpPfA_vez2NndnYuQy6WkpTzc&si=K2-zGZeRd34fVzwT",
-    "category":"youtube",
-    "subcategory":"data-structures",
+    "category":"data-structure",
+    "subcategory":"dsa_tutorials",
     "language":"hindi"
+  },
+  {
+    "name": "Simple Snippets",
+    "description": "A YouTube playlist for learning Data Structures and Algorithms with C++ practical implementation.",
+    "url": "https://www.youtube.com/playlist?list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG",
+    "category": "data-structure",
+    "subcategory": "dsa_tutorials",
+    "language": "english"
   }
 ]
