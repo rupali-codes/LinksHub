@@ -59,6 +59,8 @@ export { default as cpp } from './languages/cpp.json'
 export { default as dart } from './languages/dart.json'
 export { default as solidity } from './languages/solidity.json'
 export { default as swift } from './languages/swift.json'
+// mobile
+export { default as android } from './mobile/android.json'
 //internet of things
 export { default as coursera } from './internet_of_things/coursera.json'
 export { default as raspberrypi } from './internet_of_things/raspberrypi.json'
@@ -100,8 +102,8 @@ export { default as project } from './resources/project_ideas.json'
 export { default as dsa } from './resources/dsa.json'
 export { default as events } from './other/events.json'
 export { default as ssg } from './resources/ssg.json'
-// youtube
-export { default as android } from './youtube/android.json'
+
+//youtube
 export { default as css } from './youtube/css.json'
 export { default as machineLearning } from './youtube/machine_learning.json'
 export { default as Kubernetes } from './youtube/Kubernetes.json'

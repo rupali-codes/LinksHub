@@ -118,6 +118,12 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'mobile',
+    subcategory: [
+      { name: 'Android', url: '/android', resources: DB.android },
+    ],
+  },
+  {
     category: 'open-source',
     subcategory: [
       {
@@ -368,7 +374,6 @@ export const sidebarData: ISidebar[] = [
         resources: DB.machineLearning,
       },
       { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
-      { name: 'Android', url: '/android', resources: DB.android },
       {
         name: 'Web3 & Metaverse',
         url: '/web3_metaverse',

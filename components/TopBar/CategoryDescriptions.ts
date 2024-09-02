@@ -86,6 +86,10 @@ const categoryDescriptions: CategoryDescriptions = {
   swift:
     'Swift is a powerful and intuitive programming language developed by Apple. It is used to create apps for iOS, macOS, watchOS, and so on. Swift code is concise yet expressive (easier to understand and write).',
 
+  //Mobile
+  android:
+  'Android programming is the process of creating applications that run on the Android operating system. Android applications are written in Java or Kotlin programming languages.',
+
   //Design
   design_tools:
     'Applications used to create, prototype, and manage user interface designs and visual elements.',
@@ -169,8 +173,6 @@ const categoryDescriptions: CategoryDescriptions = {
   ssg: 'Static Site Generators are tools that generate HTML files from templates and content files. They are popular among developers for creating fast, secure, and easy-to-maintain websites.',
 
   //youtube
-  android:
-    'Android programming is the process of creating applications that run on the Android operating system. Android applications are written in Java or Kotlin programming languages .',
   competitive_programming:
     'Competitive programming is a mental sport that involves writing source code of computer programs that are able to solve given problems.',
   computer_science:
