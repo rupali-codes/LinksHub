@@ -364,11 +364,6 @@ export const sidebarData: ISidebar[] = [
       },
       { name: 'CSS', url: '/css', resources: DB.css },
       {
-        name: 'kubernetes',
-        url: '/kubernetes',
-        resources: DB.Kubernetes,
-      },
-      {
         name: 'machine learning',
         url: '/machine_learning',
         resources: DB.machineLearning,

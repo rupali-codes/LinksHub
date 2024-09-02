@@ -106,7 +106,6 @@ export { default as ssg } from './resources/ssg.json'
 //youtube
 export { default as css } from './youtube/css.json'
 export { default as machineLearning } from './youtube/machine_learning.json'
-export { default as Kubernetes } from './youtube/Kubernetes.json'
 export { default as tensorflow } from './youtube/tensorflow.json'
 export { default as webDevelopment } from './youtube/web_development.json'
 export { default as web3metaverse } from './youtube/web3_metaverse.json'
