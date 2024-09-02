@@ -115,6 +115,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Dart', url: '/dart', resources: DB.dart },
       { name: 'Solidity', url: '/solidity', resources: DB.solidity },
       { name: 'Swift', url: '/swift', resources: DB.swift },
+      { name: 'CSS', url: '/css', resources: DB.css },
     ],
   },
   {
@@ -362,7 +363,6 @@ export const sidebarData: ISidebar[] = [
         url: '/web_development',
         resources: DB.webDevelopment,
       },
-      { name: 'CSS', url: '/css', resources: DB.css },
       {
         name: 'machine learning',
         url: '/machine_learning',

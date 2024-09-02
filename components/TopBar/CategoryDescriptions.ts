@@ -85,6 +85,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.',
   swift:
     'Swift is a powerful and intuitive programming language developed by Apple. It is used to create apps for iOS, macOS, watchOS, and so on. Swift code is concise yet expressive (easier to understand and write).',
+  css: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts ',
 
   //Mobile
   android:
@@ -177,9 +178,6 @@ const categoryDescriptions: CategoryDescriptions = {
     'Competitive programming is a mental sport that involves writing source code of computer programs that are able to solve given problems.',
   computer_science:
     'Computer science programming is the process of creating computer software using programming languages. Computer science programming is a subset of computer science that focuses on the development of software .',
-  css: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts ',
-  'data structures':
-    'Data structures are a way of organizing and storing data in a computer so that it can be accessed and used efficiently .',
   fintech:
     'It is a catch-all term for technology used to augment, streamline, digitize or disrupt traditional financial services. Fintech refers to software, algorithms, and applications for both desktop and mobile.',
   game_development:
