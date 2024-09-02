@@ -325,7 +325,6 @@ export const sidebarData: ISidebar[] = [
       },
       { name: 'hosting', url: '/hosting', resources: DB.hosting },
       { name: 'e-book', url: '/e_book', resources: DB.ebook },
-      { name: 'dsa', url: '/dsa', resources: DB.dsa },
       { name: 'project ideas', url: '/project_ideas', resources: DB.project },
       { name: 'Static Site Generators', url: '/ssg', resources: DB.ssg },
     ],

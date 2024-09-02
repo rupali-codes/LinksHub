@@ -100,7 +100,6 @@ export { default as officialdocs } from './resources/official-docs.json'
 export { default as hosting } from './resources/hosting.json'
 export { default as ebook } from './resources/e_book.json'
 export { default as project } from './resources/project_ideas.json'
-export { default as dsa } from './resources/dsa.json'
 export { default as events } from './other/events.json'
 export { default as ssg } from './resources/ssg.json'
 
