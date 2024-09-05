@@ -227,7 +227,7 @@ export const sidebarData: ISidebar[] = [
       {
         name: 'machine learning',
         url: '/machine_learning',
-        resources: DB.machineLearning,
+        resources: DB.ml,
       },
       { name: 'data science', url: '/data_science', resources: DB.dataScience },
       {
@@ -361,11 +361,6 @@ export const sidebarData: ISidebar[] = [
         name: 'web development',
         url: '/web_development',
         resources: DB.webDevelopment,
-      },
-      {
-        name: 'machine learning',
-        url: '/machine_learning',
-        resources: DB.machineLearning,
       },
       { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
       {
