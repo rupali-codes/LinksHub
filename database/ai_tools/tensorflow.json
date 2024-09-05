@@ -3,7 +3,7 @@
     "name": "Alexander Amini",
     "description": "AAmini's YouTube channel is a valuable resource for anyone interested in diving deep into the world of TensorFlow.From beginner-friendly introductions to advanced techniques, AAmini covers a wide range of topics within the TensorFlow framework. ",
     "url": "https://www.youtube.com/@AAmini/featured",
-    "category": "youtube",
+    "category": "ai-tools",
     "subcategory": "tensorflow",
     "language": "english"
   },
@@ -11,7 +11,7 @@
     "name": "Udacity",
     "description": "Free online course for learning tensorflow for Deep learning",
     "url": "https://learn.udacity.com/courses/ud187",
-    "category": "online platform",
+    "category": "ai-tools",
     "subcategory": "tensorflow",
     "language": "english"
   },
@@ -19,7 +19,7 @@
     "name": "Daniel Bourke",
     "description": "This channel offers a comprehensive instructional series consisting of two videos, serving as a complete guide for learning TensorFlow.",
     "url": "https://www.youtube.com/@mrdbourke/videos",
-    "category": "youtube",
+    "category": "ai-tools",
     "subcategory": "tensorflow",
     "language": "english"
   },
@@ -27,7 +27,7 @@
     "name": "Codebasics",
     "description": "A complete playlist for learning Tensorflow.",
     "url": "https://youtu.be/Mubj_fqiAv8",
-    "category": "youtube",
+    "category": "ai-tools",
     "subcategory": "tensorflow",
     "language": "english"
   },
@@ -35,7 +35,7 @@
     "name": "TensorFlow Playlist",
     "description": "A complete You-Tube playlist for learning Tensorflow and advanced concepts of Machine Learning",
     "url": "https://www.youtube.com/@TensorFlow",
-    "category": "youtube",
+    "category": "ai-tools",
     "subcategory": "tensorflow",
     "language": "english"
   },
@@ -43,7 +43,7 @@
     "name": "Nicholas Renotte",
     "description": "Nicholas Renotte, a renowned AI educator and developer, shares his expertise through a wide range of content.",
     "url": "https://www.youtube.com/@NicholasRenotte",
-    "category": "youtube",
+    "category": "ai-tools",
     "subcategory": "tensorflow",
     "language": "english"
   }
