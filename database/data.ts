@@ -260,6 +260,7 @@ export const sidebarData: ISidebar[] = [
         url: '/chat_bots',
         resources: DB.chat_bots,
       },
+      { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow }
     ],
   },
   {
@@ -362,7 +363,6 @@ export const sidebarData: ISidebar[] = [
         url: '/web_development',
         resources: DB.webDevelopment,
       },
-      { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
       {
         name: 'Web3 & Metaverse',
         url: '/web3_metaverse',
