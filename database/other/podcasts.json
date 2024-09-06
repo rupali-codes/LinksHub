@@ -40,5 +40,12 @@
     "url": "https://syntax.fm/",
     "category": "other",
     "subcategory": "podcasts"
+  },
+  {
+    "name": "The Junior Jobs Podcast",
+    "description": "The Junior Jobs Podcast is a weekly podcast about how junior developers can get their first job in tech, with Erik Andersen.",
+    "url": "https://podcasters.spotify.com/pod/show/junior-jobs/episodes/59--The-Problem-With-Changing-Careers-and-How-To-Overcome-It--Junior-Jobs-e2lnm9f",
+    "category": "other",
+    "subcategory": "podcasts"
   }
 ]
