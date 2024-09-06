@@ -260,7 +260,10 @@ export const sidebarData: ISidebar[] = [
         url: '/chat_bots',
         resources: DB.chat_bots,
       },
-      { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow }
+      { name: 'tensorflow',
+        url: '/tensorflow',
+        resources: DB.tensorflow,
+      }
     ],
   },
   {
