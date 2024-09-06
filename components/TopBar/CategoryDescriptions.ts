@@ -172,6 +172,14 @@ const categoryDescriptions: CategoryDescriptions = {
     'Projects play an important role in your resume. So here is a list of some great projects and their repositories.',
   ssg: 'Static Site Generators are tools that generate HTML files from templates and content files. They are popular among developers for creating fast, secure, and easy-to-maintain websites.',
 
+  //game development
+  game_dev_fundamentals:
+    'Game development is the process of creating games for various platforms. It involves different stages and aspects, such as design, development, release, storyboarding, writing, audio, art, coding, music, animation, modelling, testing and marketing. ',
+  godot:
+    'Godot allows video game developers to create both 3D and 2D games using multiple programming languages, such as C++, C# and GDScript. It makes use of a hierarchy of nodes to facilitate the development experience.',
+  unreal_engine:
+    'Unreal Engine is a real-time 3D creation tool that developers can use for a variety of purposes, including: game development, visual production, simulation, film and television and architectural and automotive visualization.',
+
   //youtube
   competitive_programming:
     'Competitive programming is a mental sport that involves writing source code of computer programs that are able to solve given problems.',
@@ -179,8 +187,6 @@ const categoryDescriptions: CategoryDescriptions = {
     'Computer science programming is the process of creating computer software using programming languages. Computer science programming is a subset of computer science that focuses on the development of software .',
   fintech:
     'It is a catch-all term for technology used to augment, streamline, digitize or disrupt traditional financial services. Fintech refers to software, algorithms, and applications for both desktop and mobile.',
-  game_development:
-    'Game development is the process of creating games for various platforms. It involves different stages and aspects, such as design, development, release, storyboarding, writing, audio, art, coding, music, animation, modelling, testing and marketing. ',
   tensorflow:
     'TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.',
   software_testing:

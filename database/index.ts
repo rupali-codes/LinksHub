@@ -109,7 +109,12 @@ export { default as webDevelopment } from './youtube/web_development.json'
 export { default as softwareTesting } from './youtube/software_testing.json'
 export { default as computerScience } from './youtube/computer_science.json'
 export { default as fintech } from './youtube/fintech.json'
-export { default as gameDevelopment } from './youtube/game_development.json'
+
+//game_development
+export { default as unrealEngine } from './game_development/unreal_engine.json'
+export { default as godot } from './game_development/godot.json'
+export { default as gameDevFundamentals } from './game_development/game_dev_fundamentals.json'
+
 // other
 export { default as github } from './other/github.json'
 export { default as git } from './other/git.json'

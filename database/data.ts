@@ -377,10 +377,25 @@ export const sidebarData: ISidebar[] = [
         resources: DB.computerScience,
       },
       { name: 'FinTech', url: '/fintech', resources: DB.fintech },
+    ],
+  },
+  {
+    category: 'game-development',
+    subcategory: [
       {
-        name: 'Game Development',
-        url: '/game_development',
-        resources: DB.gameDevelopment,
+        name: 'Game Development Fundamentals',
+        url: '/game_development_fundamentals',
+        resources: DB.gameDevFundamentals,
+      },
+      {
+        name: 'Godot',
+        url: '/godot',
+        resources: DB.godot,
+      },
+      {
+        name: 'Unreal Engine',
+        url: '/unreal_engine',
+        resources: DB.unrealEngine,
       },
     ],
   },

@@ -57,6 +57,7 @@ export type Category =
   | 'design'
   | 'tech-articles'
   | 'mobile'
+  | 'game-development'
 
 export type SubCategories = {
   name: string
