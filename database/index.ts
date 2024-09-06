@@ -106,7 +106,6 @@ export { default as ssg } from './resources/ssg.json'
 
 //youtube
 export { default as webDevelopment } from './youtube/web_development.json'
-export { default as web3metaverse } from './youtube/web3_metaverse.json'
 export { default as softwareTesting } from './youtube/software_testing.json'
 export { default as computerScience } from './youtube/computer_science.json'
 export { default as fintech } from './youtube/fintech.json'
@@ -143,6 +142,8 @@ export { default as smartContracts } from './BlockChain/smart-contracts.json'
 export { default as truffle } from './BlockChain/truffle.json'
 export { default as hardhat } from './BlockChain/hardhat.json'
 export { default as ethers } from './BlockChain/ethers.json'
+export { default as web3metaverse } from './BlockChain/web3_metaverse.json'
+
 // Tech Articles
 export { default as reactArticles } from './tech_articles/react.json'
 // Newsletters

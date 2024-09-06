@@ -367,11 +367,6 @@ export const sidebarData: ISidebar[] = [
         resources: DB.webDevelopment,
       },
       {
-        name: 'Web3 & Metaverse',
-        url: '/web3_metaverse',
-        resources: DB.web3metaverse,
-      },
-      {
         name: 'Software Testing',
         url: '/software_testing',
         resources: DB.softwareTesting,
@@ -476,6 +471,11 @@ export const sidebarData: ISidebar[] = [
         name: 'Ethers',
         url: '/ethers',
         resources: DB.ethers,
+      },
+      {
+        name: 'Web3 & Metaverse',
+        url: '/web3_metaverse',
+        resources: DB.web3metaverse,
       },
     ],
   },
