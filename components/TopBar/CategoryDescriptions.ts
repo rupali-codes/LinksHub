@@ -190,7 +190,6 @@ const categoryDescriptions: CategoryDescriptions = {
   computer_science:
     'Computer science programming is the process of creating computer software using programming languages. Computer science programming is a subset of computer science that focuses on the development of software .',
   
-
   //competitive programming
   cp_helpers:
     'Coding libraries, templates, and community forums serve as valuable aids for competitive programmers, offering pre-written code snippets, discussions, and collaborative support to optimize problem-solving efficiency.',
