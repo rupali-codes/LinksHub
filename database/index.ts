@@ -105,13 +105,13 @@ export { default as project } from './resources/project_ideas.json'
 export { default as events } from './other/events.json'
 export { default as ssg } from './resources/ssg.json'
 
-//quality_assurance
+//quality-assurance
 export { default as softwareTesting } from './quality_assurance/software_testing.json'
 
-//youtube
-export { default as computerScience } from './youtube/computer_science.json'
+//theory-of-computation
+export { default as computerScience } from './theory_of_computation/computer_science.json'
 
-//game_development
+//game-development
 export { default as unrealEngine } from './game_development/unreal_engine.json'
 export { default as godot } from './game_development/godot.json'
 export { default as gameDevFundamentals } from './game_development/game_dev_fundamentals.json'

@@ -364,13 +364,8 @@ export const sidebarData: ISidebar[] = [
     ]
   },
   {
-    category: 'youtube',
+    category: 'theory-of-computation',
     subcategory: [
-      {
-        name: 'Software Testing',
-        url: '/software_testing',
-        resources: DB.softwareTesting,
-      },
       {
         name: 'Computer Science',
         url: '/computer_science',
@@ -379,7 +374,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'quality_assurance',
+    category: 'quality-assurance',
     subcategory: [
       {
         name: 'Software Testing',
