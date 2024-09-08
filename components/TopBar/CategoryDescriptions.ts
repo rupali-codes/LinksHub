@@ -1,3 +1,5 @@
+import { generalWebFundamentals } from "database"
+
 type CategoryDescriptions = {
   [key: string]: string
 }
@@ -62,6 +64,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Validation is the process of checking whether a system or its component(s) satisfies the specified requirements or not and checks the data is correct or not.',
 
   //languages
+  general_web_fundamentals:
+    'General fundamentals of web application development.',
   c_programming:
     'C is a general-purpose programming language that was developed in the early 1970s by Dennis Ritchie at Bell Labs. C is widely used for developing system software, embedded systems, and application software.',
   cpp: "C++ is a versatile and powerful programming language that builds upon the features of C, offering object-oriented programming capabilities and support for low-level memory manipulation. It's widely used for developing system software, games, high-performance applications, and more.",
@@ -145,6 +149,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Harness the power of AI-driven editing tools to refine your writing effortlessly. From grammar and style suggestions to readability enhancements, these editors ensure your content shines with clarity and precision',
   chat_bots:
     "Experience seamless interactions and instant assistance with AI chatbots. Whether it's answering queries, providing support, or automating tasks, these intelligent bots deliver personalized responses to enhance user experiences.",
+  tensorflow:
+    'TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.',
   blog_writing:
     'Unlock your creativity and streamline your blog writing process with AI-powered tools. From generating ideas to optimizing SEO, these tools empower you to craft engaging content that captivates your audience.',
   // cyber-security
@@ -185,16 +191,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Competitive programming is a mental sport that involves writing source code of computer programs that are able to solve given problems.',
   computer_science:
     'Computer science programming is the process of creating computer software using programming languages. Computer science programming is a subset of computer science that focuses on the development of software .',
-  fintech:
-    'It is a catch-all term for technology used to augment, streamline, digitize or disrupt traditional financial services. Fintech refers to software, algorithms, and applications for both desktop and mobile.',
-  tensorflow:
-    'TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.',
   software_testing:
     'Testing is executing a system in order to identify any gaps, errors, or missing requirements.For example, YouTube also uses A/ B testing to test different versions of their website to see which version performs better.',
-  web_development:
-    'Web development is the process of building, programming, and maintaining websites and web applications. It involves various disciplines such as web design, coding, programming, database management, and web server administration.',
-  web3_metaverse:
-    'Web3 is the next generation of the internet. It is a decentralized network that allows users to interact with each other without the need for intermediaries. ',
 
   //competitive programming
   cp_helpers:
@@ -205,6 +203,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Various online resources offer tutorials on algorithms, data structures, and problem-solving techniques, assisting aspiring competitive programmers in enhancing their coding proficiency and strategic thinking.',
 
   //other
+  fintech:
+  'It is a catch-all term for technology used to augment, streamline, digitize or disrupt traditional financial services. Fintech refers to software, algorithms, and applications for both desktop and mobile.',
   events:
     'An event is a gathering where professionals and enthusiasts explore, discuss, and showcase advancements in technology. It fosters learning, networking, and collaboration among individuals passionate about various technical fields.',
   communities:
@@ -251,6 +251,8 @@ const categoryDescriptions: CategoryDescriptions = {
   dsa_tutorials:
     'This section provides you with YouTube tutorials that help you grasp concepts better by hands-on experience and learn better, practically!',
   //BlockChain
+  web3_metaverse:
+  'Web3 is the next generation of the internet. It is a decentralized network that allows users to interact with each other without the need for intermediaries. ',
   smartcontracts:
     'Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They run on a blockchain network, which is a decentralized and distributed ledger technology. Smart contracts automatically execute and enforce the terms of a contract when predefined conditions are met',
   truffle:

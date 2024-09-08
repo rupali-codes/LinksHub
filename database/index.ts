@@ -45,6 +45,7 @@ export { default as microservices } from './devops/microservices.json'
 export { default as iac } from './devops/iac.json'
 
 // languages
+export { default as generalWebFundamentals } from './languages/general_web_fundamentals.json'
 export { default as javascript } from './languages/javascript.json'
 export { default as python } from './languages/python.json'
 export { default as golang } from './languages/golang.json'
@@ -105,17 +106,15 @@ export { default as events } from './other/events.json'
 export { default as ssg } from './resources/ssg.json'
 
 //youtube
-export { default as webDevelopment } from './youtube/web_development.json'
 export { default as softwareTesting } from './youtube/software_testing.json'
 export { default as computerScience } from './youtube/computer_science.json'
-export { default as fintech } from './youtube/fintech.json'
-
 //game_development
 export { default as unrealEngine } from './game_development/unreal_engine.json'
 export { default as godot } from './game_development/godot.json'
 export { default as gameDevFundamentals } from './game_development/game_dev_fundamentals.json'
 
 // other
+export { default as fintech } from './other/fintech.json'
 export { default as github } from './other/github.json'
 export { default as git } from './other/git.json'
 export { default as devtools } from './other/devtools.json'

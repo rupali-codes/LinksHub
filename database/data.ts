@@ -97,6 +97,11 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'languages',
     subcategory: [
+      {
+        name: 'General Web Fundamentals',
+        url: '/general_web_fundamentals',
+        resources: DB.generalWebFundamentals,
+      },
       { name: 'JavaScript', url: '/javascript', resources: DB.javascript },
       { name: 'Python', url: '/python', resources: DB.python },
       { name: 'Csharp (C#)', url: '/csharp', resources: DB.csharp },
@@ -362,11 +367,6 @@ export const sidebarData: ISidebar[] = [
     category: 'youtube',
     subcategory: [
       {
-        name: 'web development',
-        url: '/web_development',
-        resources: DB.webDevelopment,
-      },
-      {
         name: 'Software Testing',
         url: '/software_testing',
         resources: DB.softwareTesting,
@@ -376,7 +376,6 @@ export const sidebarData: ISidebar[] = [
         url: '/computer_science',
         resources: DB.computerScience,
       },
-      { name: 'FinTech', url: '/fintech', resources: DB.fintech },
     ],
   },
   {
@@ -497,6 +496,7 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'other',
     subcategory: [
+      { name: 'FinTech', url: '/fintech', resources: DB.fintech },
       { name: 'events', url: '/events', resources: DB.events },
       { name: 'Github', url: '/github', resources: DB.github },
       { name: 'Git', url: '/git', resources: DB.git },
