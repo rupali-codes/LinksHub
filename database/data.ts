@@ -379,6 +379,16 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'quality_assurance',
+    subcategory: [
+      {
+        name: 'Software Testing',
+        url: '/software_testing',
+        resources: DB.softwareTesting,
+      },
+    ],
+  },
+  {
     category: 'game-development',
     subcategory: [
       {

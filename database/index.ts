@@ -105,8 +105,10 @@ export { default as project } from './resources/project_ideas.json'
 export { default as events } from './other/events.json'
 export { default as ssg } from './resources/ssg.json'
 
+//quality_assurance
+export { default as softwareTesting } from './quality_assurance/software_testing.json'
+
 //youtube
-export { default as softwareTesting } from './youtube/software_testing.json'
 export { default as computerScience } from './youtube/computer_science.json'
 
 //game_development
