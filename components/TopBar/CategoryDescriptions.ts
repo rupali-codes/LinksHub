@@ -186,13 +186,10 @@ const categoryDescriptions: CategoryDescriptions = {
   unreal_engine:
     'Unreal Engine is a real-time 3D creation tool that developers can use for a variety of purposes, including: game development, visual production, simulation, film and television and architectural and automotive visualization.',
 
-  //youtube
-  competitive_programming:
-    'Competitive programming is a mental sport that involves writing source code of computer programs that are able to solve given problems.',
+  //theory-of-computation
   computer_science:
     'Computer science programming is the process of creating computer software using programming languages. Computer science programming is a subset of computer science that focuses on the development of software .',
-  software_testing:
-    'Testing is executing a system in order to identify any gaps, errors, or missing requirements.For example, YouTube also uses A/ B testing to test different versions of their website to see which version performs better.',
+  
 
   //competitive programming
   cp_helpers:
@@ -238,6 +235,10 @@ const categoryDescriptions: CategoryDescriptions = {
     'Curated list of globally recognized tech certifications, including requirements, benefits, and preparation strategies, emphasizing industry recognition and validity.',
   cover_letters:
     "A cover letter is a formal document accompanying a resume, providing a personalized introduction to a potential employer. It highlights the applicant's qualifications, skills, and interest in the specific position.",
+
+  //quality-assurance
+  software_testing:
+    'Testing is executing a system in order to identify any gaps, errors, or missing requirements.For example, YouTube also uses A/ B testing to test different versions of their website to see which version performs better.',
 
   //technical-writing
   technical_writing_tools:
