@@ -384,7 +384,7 @@ export const sidebarData: ISidebar[] = [
     subcategory: [
       {
         name: 'Game Development Fundamentals',
-        url: '/game_development_fundamentals',
+        url: '/game_dev_fundamentals',
         resources: DB.gameDevFundamentals,
       },
       {
