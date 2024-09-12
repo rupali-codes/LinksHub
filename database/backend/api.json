@@ -145,5 +145,12 @@
         "url": "https://newsapi.org/",
         "category": "backend",
         "subcategory": "api"
+    },
+    {
+        "name": "ISRO API",
+        "description": "ISRO API is a simple Open Source API for Launched Spacecrafts & Rockets data of ISRO",
+        "url": "https://isro.vercel.app/",
+        "category": "backend",
+        "subcategory": "api"
     }
 ]
