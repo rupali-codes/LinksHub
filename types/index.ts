@@ -45,7 +45,7 @@ export type Category =
   | 'cloud-computing'
   | 'open-source'
   | 'resources'
-  | 'youtube'
+  | 'theory-of-computation'
   | 'other'
   | 'devops'
   | 'competitive-programming'
@@ -56,6 +56,9 @@ export type Category =
   | 'newsletters'
   | 'design'
   | 'tech-articles'
+  | 'mobile'
+  | 'game-development'
+  | 'quality-assurance'
 
 export type SubCategories = {
   name: string

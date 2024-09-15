@@ -97,6 +97,11 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'languages',
     subcategory: [
+      {
+        name: 'General Web Fundamentals',
+        url: '/general_web_fundamentals',
+        resources: DB.generalWebFundamentals,
+      },
       { name: 'JavaScript', url: '/javascript', resources: DB.javascript },
       { name: 'Python', url: '/python', resources: DB.python },
       { name: 'Csharp (C#)', url: '/csharp', resources: DB.csharp },
@@ -115,6 +120,13 @@ export const sidebarData: ISidebar[] = [
       { name: 'Dart', url: '/dart', resources: DB.dart },
       { name: 'Solidity', url: '/solidity', resources: DB.solidity },
       { name: 'Swift', url: '/swift', resources: DB.swift },
+      { name: 'CSS', url: '/css', resources: DB.css },
+    ],
+  },
+  {
+    category: 'mobile',
+    subcategory: [
+      { name: 'Android', url: '/android', resources: DB.android },
     ],
   },
   {
@@ -220,7 +232,7 @@ export const sidebarData: ISidebar[] = [
       {
         name: 'machine learning',
         url: '/machine_learning',
-        resources: DB.machineLearning,
+        resources: DB.ml,
       },
       { name: 'data science', url: '/data_science', resources: DB.dataScience },
       {
@@ -253,6 +265,10 @@ export const sidebarData: ISidebar[] = [
         url: '/chat_bots',
         resources: DB.chat_bots,
       },
+      { name: 'tensorflow',
+        url: '/tensorflow',
+        resources: DB.tensorflow,
+      }
     ],
   },
   {
@@ -318,7 +334,6 @@ export const sidebarData: ISidebar[] = [
       },
       { name: 'hosting', url: '/hosting', resources: DB.hosting },
       { name: 'e-book', url: '/e_book', resources: DB.ebook },
-      { name: 'dsa', url: '/dsa', resources: DB.dsa },
       { name: 'project ideas', url: '/project_ideas', resources: DB.project },
       { name: 'Static Site Generators', url: '/ssg', resources: DB.ssg },
     ],
@@ -349,46 +364,42 @@ export const sidebarData: ISidebar[] = [
     ]
   },
   {
-    category: 'youtube',
+    category: 'theory-of-computation',
     subcategory: [
-      {
-        name: 'web development',
-        url: '/web_development',
-        resources: DB.webDevelopment,
-      },
-      { name: 'CSS', url: '/css', resources: DB.css },
-      {
-        name: 'kubernetes',
-        url: '/kubernetes',
-        resources: DB.Kubernetes,
-      },
-      {
-        name: 'machine learning',
-        url: '/machine_learning',
-        resources: DB.machineLearning,
-      },
-      { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
-      { name: 'Android', url: '/android', resources: DB.android },
-      {
-        name: 'Web3 & Metaverse',
-        url: '/web3_metaverse',
-        resources: DB.web3metaverse,
-      },
-      {
-        name: 'Software Testing',
-        url: '/software_testing',
-        resources: DB.softwareTesting,
-      },
       {
         name: 'Computer Science',
         url: '/computer_science',
         resources: DB.computerScience,
       },
-      { name: 'FinTech', url: '/fintech', resources: DB.fintech },
+    ],
+  },
+  {
+    category: 'quality-assurance',
+    subcategory: [
       {
-        name: 'Game Development',
-        url: '/game_development',
-        resources: DB.gameDevelopment,
+        name: 'Software Testing',
+        url: '/software_testing',
+        resources: DB.softwareTesting,
+      },
+    ],
+  },
+  {
+    category: 'game-development',
+    subcategory: [
+      {
+        name: 'Game Development Fundamentals',
+        url: '/game_dev_fundamentals',
+        resources: DB.gameDevFundamentals,
+      },
+      {
+        name: 'Godot',
+        url: '/godot',
+        resources: DB.godot,
+      },
+      {
+        name: 'Unreal Engine',
+        url: '/unreal_engine',
+        resources: DB.unrealEngine,
       },
     ],
   },
@@ -480,11 +491,17 @@ export const sidebarData: ISidebar[] = [
         url: '/ethers',
         resources: DB.ethers,
       },
+      {
+        name: 'Web3 & Metaverse',
+        url: '/web3_metaverse',
+        resources: DB.web3metaverse,
+      },
     ],
   },
   {
     category: 'other',
     subcategory: [
+      { name: 'FinTech', url: '/fintech', resources: DB.fintech },
       { name: 'events', url: '/events', resources: DB.events },
       { name: 'Github', url: '/github', resources: DB.github },
       { name: 'Git', url: '/git', resources: DB.git },
