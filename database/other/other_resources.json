@@ -68,5 +68,12 @@
     "url": "https://www.Sketch.com/",
     "category": "other",
     "subcategory": "other_resources"
+  },
+  {
+    "name": "PigmentTS",
+    "description": "A lightweight JavaScript/TypeScript utility for color manipulation and conversion.",
+    "url": "https://github.com/Jay-Karia/pigment-ts",
+    "category": "other",
+    "subcategory": "other_resources"
   }
 ]
