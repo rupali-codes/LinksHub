@@ -47,5 +47,12 @@
     "url": "https://podcasters.spotify.com/pod/show/junior-jobs/episodes/59--The-Problem-With-Changing-Careers-and-How-To-Overcome-It--Junior-Jobs-e2lnm9f",
     "category": "other",
     "subcategory": "podcasts"
+  },
+  {
+    "name": "Virtual Coffee",
+    "description": "Virtual Coffee is an intimate community for developers at all stages of the journey. It is a place to ask questions, share knowledge, and build friendships.",
+    "url": "https://virtualcoffee.io/podcast",
+    "category": "other",
+    "subcategory": "podcasts"
   }
 ]
