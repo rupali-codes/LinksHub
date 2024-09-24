@@ -155,7 +155,7 @@
     },
     {
         "name": "JSONing API",
-        "description": "JSONing (my website/project) is an open-source tool that enables to mock REST APIs using JSON file for prototyping.",
+        "description": "JSONing is an open-source tool that enables to mock REST APIs using JSON file for prototyping.",
         "url": "https://jsoning.com/api/",
         "category": "backend",
         "subcategory": "api"
