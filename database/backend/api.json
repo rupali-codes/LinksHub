@@ -152,5 +152,12 @@
         "url": "https://isro.vercel.app/",
         "category": "backend",
         "subcategory": "api"
+    },
+    {
+        "name": "JSONing API",
+        "description": "JSONing is an open-source tool that enables to mock REST APIs using JSON file for prototyping.",
+        "url": "https://jsoning.com/api/",
+        "category": "backend",
+        "subcategory": "api"
     }
 ]
