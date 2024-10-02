@@ -12,5 +12,12 @@
         "url": "https://huggingface.co/",
         "category": "ai",
         "subcategory": "artificial_intelligence"
+    },
+    {
+        "name": "jsonify",
+        "description": "JSONify is a powerful and user-friendly tool designed to simplify the process of formatting, validating, and converting JSON data. Whether you're a developer needing to debug or structure your JSON, or you're looking for quick API testing, JSONify provides a clean interface to streamline these tasks. Effortlessly beautify or minify JSON, and ensure your data is accurate with built-in validation features.",
+        "url": "https://jsonify.com/",
+        "category": "ai",
+        "subcategory": "artificial_intelligence"
     }
 ]
