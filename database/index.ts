@@ -91,6 +91,7 @@ export { default as tensorflow } from './ai_tools/tensorflow.json'
 
 // Open-source
 export { default as openSourceArticles } from './open_source/articles.json'
+export { default as openSourceHacktoberfest} from './open_source/hacktoberfest.json'
 export { default as openSourcePrograms } from './open_source/os_programs.json'
 export { default as openSourceProjects } from './open_source/projects.json'
 export { default as openSourceTools } from './open_source/tools.json'

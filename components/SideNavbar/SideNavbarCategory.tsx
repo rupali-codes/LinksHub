@@ -35,8 +35,10 @@ export const SideNavbarCategory: FC<{
   categoryData: ISidebar;
   expand: boolean;
   listRef: MutableRefObject<HTMLUListElement | null>;
-}> = ({ categoryData, expand, listRef }) => {
+  updated: boolean;
+}> = ({ categoryData, expand, listRef, updated}) => {
   const [isOpen, setIsOpen] = useState(expand);
+  const [hasUpdated, setHasUpdated] = useState(categoryData);
   const router = useRouter();
   const { category, subcategory } = categoryData;
   const sortedSubcategoryList = subcategory
@@ -49,7 +51,8 @@ export const SideNavbarCategory: FC<{
 
   useEffect(() => {
     setIsOpen(expand);
-  }, [expand]);
+    // setHasUpdated(categoryData);
+  }, [expand, categoryData]);
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
@@ -59,6 +62,12 @@ export const SideNavbarCategory: FC<{
     setIsOpen(false);
     router.replace('/');
   };
+
+  // const handleUpdate = () => {
+  //   setHasUpdated(!hasUpdated);
+  //   handleUpdate();
+  // };
+
   useOnClickOutside(listRef, handleClickOutside);
 
   return (
@@ -69,11 +78,13 @@ export const SideNavbarCategory: FC<{
         aria-label={`toggle ${category.toLowerCase()} category`}
         href={`/${category}`}
       >
+        { category === 'open-source' ? 'New' : ''}
         <h1
           className={`text-slate-500 dark:text-slate-300 text-lg font-sans font-medium w-4/5 truncate ${
             category.length < 4 ? 'uppercase' : 'capitalize'
           }`}
         >
+          {/* { category === 'open-source' ? '<strong>New' : capitalizeCategory(category)} */}
           {capitalizeCategory(category)}
         </h1>
         <Icons.angleDown
