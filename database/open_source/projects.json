@@ -194,5 +194,12 @@
     "url": "https://productive-hub.com/",
     "category": "open-source",
     "subcategory": "projects"
+  },
+  {
+    "name":"Abbreve",
+    "description":"Abbreve is an open-source dictionary for slang. With Abbreve, you'll never have to feel left out of a conversation or unsure of the meaning of an abbreviation again.",
+    "url":"https://github.com/Njong392/Abbreve",
+    "category":"open-source",
+    "subcategory":"projects"
   }
 ]
