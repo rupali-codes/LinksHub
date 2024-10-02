@@ -152,5 +152,12 @@
         "url": "https://isro.vercel.app/",
         "category": "backend",
         "subcategory": "api"
+    },
+    {
+        "name": "Finnhub Stock API",
+        "description": "The Finnhub Stock API provides real-time financial data, including stock prices, company information, and market news. It offers access to global stock data, forex, cryptocurrency, and fundamental analysis. Developers can use this API to integrate financial data into applications for stock market tracking, portfolio management, or investment analysis. It also includes sentiment analysis, earnings reports, and insider transactions.",
+        "url": "https://finnhub.io/",
+        "category": "backend",
+        "subcategory": "api"
     }
 ]
