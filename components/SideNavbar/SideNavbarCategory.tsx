@@ -35,10 +35,9 @@ export const SideNavbarCategory: FC<{
   categoryData: ISidebar;
   expand: boolean;
   listRef: MutableRefObject<HTMLUListElement | null>;
-  updated: boolean;
-}> = ({ categoryData, expand, listRef, updated}) => {
+}> = ({ categoryData, expand, listRef }) => {
   const [isOpen, setIsOpen] = useState(expand);
-  const [hasUpdated, setHasUpdated] = useState(categoryData);
+  // const [hasUpdated, setHasUpdated] = useState(categoryData);
   const router = useRouter();
   const { category, subcategory } = categoryData;
   const sortedSubcategoryList = subcategory
