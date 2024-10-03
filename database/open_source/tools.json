@@ -47,5 +47,12 @@
     "url": "https://m3.material.io",
     "category": "open source",
     "subcategory": "tools"
+  },
+  {
+    "name": "Hubdev",
+    "description": "HubDev.tools is a developer resource platform featuring a categorized collection of tools and resources. It uses advanced semantic search powered by Vercel, OpenAI, and Supabase to help developers find specific tools for UI, testing, authentication.",
+    "url": "https://www.hubdev.tools/",
+    "category": "open source",
+    "subcategory": "tools"
   }
 ]
