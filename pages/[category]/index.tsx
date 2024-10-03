@@ -54,7 +54,7 @@ const CategoryPage = () => {
                     key={i}
                     href={`/${category}${subcat.url}`}
                     aria-label={`Explore ${subcat.name}`}
-                    className="group flex flex-col dark:border dark:border-theme-primary dark:border-opacity-8 rounded-xl dark:bg-theme-tertiary bg-theme-primary-light border border border-theme-secondary/25 dark:bg-opacity-25 dark:hover:bg-theme-quaternary dark:hover:bg-opacity-25	px-3 py-1 dark:hover:border-opacity-25 hover:text-dark-primary dark:shadow-lg shadow-tile md:max-w-[320px] px-4 py-4 group max-w-none w-full"
+                    className="group flex flex-col dark:border dark:border-theme-primary dark:border-opacity-8 rounded-xl dark:bg-theme-tertiary bg-theme-primary-light border border-theme-secondary/25 dark:bg-opacity-25 dark:hover:bg-theme-quaternary dark:hover:bg-opacity-25 dark:hover:border-opacity-25 hover:text-dark-primary dark:shadow-lg shadow-tile md:max-w-[320px] px-4 py-4 group max-w-none w-full"
                   >
                     <div className="flex justify-between">
                       <div className="dark:text-gray-300 text-text-primary-light text-lg capitalize font-medium">
@@ -73,7 +73,7 @@ const CategoryPage = () => {
                   href={`https://github.com/rupali-codes/LinksHub/issues/new?assignees=&labels=chore%2Cgoal%3A+new-category%2Cpriority%3A+low&projects=&template=---category-suggestion.yml&title=%5BADD%5D+%3Cwrite+the+name+of+category%2Fsubcategory%3E`}
                   aria-label={`Add new subcategory issue template link`}
                   target="_blank"
-                  className="flex gap-x-2 border dark:border-theme-primary dark:border-opacity-8 rounded-xl bg-theme-secondary px-3 py-1 hover:border-dashed hover:text-dark-primary shadow-lg lg:max-w-xs px-4 py-4"
+                  className="flex gap-x-2 border dark:border-theme-primary dark:border-opacity-8 rounded-xl bg-theme-secondary hover:border-dashed hover:text-dark-primary shadow-lg lg:max-w-xs px-4 py-4"
                 >
                   <Icons.add className="h-10 w-10 mt-[-6px] dark:text-text-primary" />
 

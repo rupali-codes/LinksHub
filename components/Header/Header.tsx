@@ -56,10 +56,10 @@ export const Header: FC = () => {
     {
       inActiveIcon: <Icons.teamInactive className={inActiveIconCls} />,
       activeIcon: <Icons.teamActive className={activeIconCls} />,
-      label: 'Our Team',
+      label: 'Team',
       href: '/contributors',
       isDisabled: false,
-    },
+    }
   ]
 
   const renderLinks = () =>
@@ -71,7 +71,6 @@ export const Header: FC = () => {
       const isActive = label === 'Home' ? isHomeActive : isUrlMatched
 
       return (
-        <>
           <li key={i}>
             <a
               href={href}
@@ -85,7 +84,6 @@ export const Header: FC = () => {
               <span>{label}</span>
             </a>
           </li>
-        </>
       )
     })
 

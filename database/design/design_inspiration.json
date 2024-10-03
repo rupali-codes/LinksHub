@@ -91,13 +91,6 @@
     "subcategory": "design_inspiration"
   },
   {
-    "name": "Dope Ui ",
-    "description": "Design templates for dopeass Developers and Designers",
-    "url": "https://dopeui.co/",
-    "category": "frontend",
-    "subcategory": "design_inspiration"
-  },
-  {
     "name": "Dark Mode Design",
     "description": "Dark Mode Design is a showcase of beautifully designed and inspiring dark mode websites.",
     "url": "https://www.darkmodedesign.com/",
@@ -171,6 +164,13 @@
     "name": "One Page Love",
     "description": "One Page Love is a premier resource showcasing exceptional single-page website designs, inspiring designers and developers worldwide with its curated collection of visually stunning and functionally impressive creations.",
     "url": "https://onepagelove.com/",
+    "category": "frontend",
+    "subcategory": "design_inspiration"
+  },
+  {
+    "name": "Awesome Design Tools",
+    "description": "Aims to provide designers and developers with a comprehensive collection of tools for various aspects of the design process.",
+    "url": "https://github.com/goabstract/Awesome-Design-Tools",
     "category": "frontend",
     "subcategory": "design_inspiration"
   }

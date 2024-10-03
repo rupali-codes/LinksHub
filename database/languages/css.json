@@ -3,7 +3,7 @@
     "name": "Kevin Powell",
     "description": "It will give you an idea about CSS, how to use it, and many more.",
     "url": "https://www.youtube.com/@KevinPowell",
-    "category": "youtube",
+    "category": "languages",
     "subcategory": "css",
     "language": "english"
   },
@@ -11,7 +11,7 @@
     "name": "Online Tutorials",
     "description": "It is a great YouTube channel for learning CSS in depth. Through this YouTube content, you can make yourself an expert in CSS.",
     "url": "https://www.youtube.com/@OnlineTutorialsYT/featured",
-    "category": "youtube",
+    "category": "languages",
     "subcategory": "css",
     "language": "english"
   },
@@ -19,7 +19,7 @@
     "name": "DesignCourse",
     "description": "This channel is great for learning CSS and Frontend.",
     "url": "https://www.youtube.com/@DesignCourse/featured",
-    "category": "youtube",
+    "category": "languages",
     "subcategory": "css",
     "language": "english"
   },
@@ -27,7 +27,7 @@
     "name": "Animation Coding",
     "description": "A wide range of educational videos covering various topics such as animation, Motion Graphic Design, 3D animation, responsive website design, HTML, CSS, JavaScript, and UX/UI design. After Effects, Photoshop, Adobe Illustrator, and much more.",
     "url": "https://www.youtube.com/@AnimationCoding",
-    "category": "youtube",
+    "category": "languages",
     "subcategory": "css",
     "language": "english"
   },
@@ -35,7 +35,7 @@
     "name": "Dave Gray",
     "description": "This channel has a wide variety of educational videos on frontend and backend technologies like HTML,CSS,Javascript,Tailwind CSS and React",
     "url": "https://www.youtube.com/playlist?list=PL0Zuz27SZ-6Mx9fd9elt80G1bPcySmWit",
-    "category": "youtube",
+    "category": "languages",
     "subcategory": "css",
     "language": "english"
   },
@@ -43,7 +43,7 @@
     "name": "Yahoo Baba",
     "description": "This YouTube playlist consists of beginner-friendly, in-depth tutorials on CSS.",
     "url": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzDsI5YXUa01QzxOWyqmrWw",
-    "category": "youtube",
+    "category": "languages",
     "subcategory": "css",
     "language": "hindi"
   }

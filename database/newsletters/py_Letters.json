@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Python Weekly",
+    "url": "https://www.pythonweekly.com/",
+    "description": "Python Weekly is a free weekly newsletter featuring curated news, articles, new releases, tools and libraries, events, jobs etc related to Python.",
+    "category": "newsletters",
+    "subcategory": "pythonLetters"
+  },
+  {
+    "name": "PyCoders Weekly",
+    "url": "https://pycoders.com/",
+    "description": "PyCoders Weekly is a free weekly e-mail newsletter, on Fridays, for those interested in python development and various topics around python.",
+    "category": "newsletters",
+    "subcategory": "pythonLetters"
+  },
+  {
+    "name": "Powerful Python",
+    "url": "https://powerfulpython.com/newsletter/",
+    "description": "Free Daily Emails For Leveling Up Your Python Skills.",
+    "category": "newsletters",
+    "subcategory": "pythonLetters"
+  },
+  {
+    "name": "Taipy - Python Newsletter",
+    "url": "https://links.taipy.io/TPNews",
+    "description": "A complete package for those looking to dive deep into Python Data and AI web applications",
+    "category": "newsletters",
+    "subcategory": "pythonLetters"
+  },
+  {
+    "name": "Awesome Python Weekly",
+    "url": "https://python.libhunt.com/newsletter",
+    "description": "A weekly overview of the most popular Python news, articles and projects",
+    "category": "newsletters",
+    "subcategory": "pythonLetters"
+  }
+]

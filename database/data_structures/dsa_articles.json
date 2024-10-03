@@ -5,5 +5,12 @@
       "url": "https://medium.com/@mukhopadhyaypushan42/best-way-to-solve-dsa-problems-become-a-pro-ccba897469c1",
       "category": "data-structures",
       "subcategory": "dsa_articles"
+  },
+  {
+    "name": "DSA Cheatsheet",
+    "description": "A quick ready DSA cheatsheet",
+    "url": "https://cheatography.com/burcuco/cheat-sheets/data-structures-and-algorithms/",
+    "category": "data-structures",
+    "subcategory": "dsa_articles"
   }
 ]

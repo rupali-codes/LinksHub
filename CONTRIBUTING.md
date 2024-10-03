@@ -67,13 +67,19 @@ Follow these steps to setup LinksHub on your local machine
 > cd LinksHub/
 > ```
 >
-> 2. Start the docker container with:
+> 2. Pull the image from docker hub:
 >
 > ```bash
-> docker-compose up
+> docker pull linkshub/app
 > ```
 >
-> 3. Now start adding your changes.
+> 3. Start the docker container with: 
+>
+> ```bash
+> docker compose up
+> ```
+>
+> 4. Now start adding your changes.
 > **Note:** You don't need to restart the container again and again after starting it once, because the changes you make will reflect in the container instantly.
 
 7. Make your changes before staging them.
@@ -299,9 +305,9 @@ git commit -m "feat(auth): Implement user signup process (#789)"
 
 ## Remarks ✅
 
-- If something is missing here, or you feel something is not well described, either create a PR, [raise an issue](https://github.com/rupali-codes/LinksHub/issues), or [do a code review of the person’s PR](https://www.freecodecamp.org/news/code-review-tips/) (ensure that your review conforms to the [Code of Conduct](https://github.com/CBID2/LinksHub-my-version-/blob/main/CODE_OF_CONDUCT.md))
+- If something is missing here, or you feel something is not well described, either create a PR, [raise an issue](https://github.com/rupali-codes/LinksHub/issues), or [do a code review of the person’s PR](https://www.freecodecamp.org/news/code-review-tips/) (ensure that your review conforms to the [Code of Conduct](https://github.com/rupali-codes/LinksHub/blob/main/CODE_OF_CONDUCT.md))
 
-- You can tag maintainers for any kind of difficulty using `@username`. You can find the list of maintainer usernames [here](https://github.com/rupali-codes/LinksHub/blob/maintainers_info/README.md#maintainers-).
+- You can tag maintainers for any kind of difficulty using `@username`. You can find the list of maintainer usernames [here](https://github.com/rupali-codes/LinksHub/blob/main/README.md#maintainers-).
 
 ### Levels
 
