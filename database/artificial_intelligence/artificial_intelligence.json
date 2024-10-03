@@ -14,6 +14,13 @@
         "subcategory": "artificial_intelligence"
     },
     {
+        "name": "jsonify",
+        "description": "Jsonify is a simple and efficient online tool designed to convert, format, and validate JSON data. It allows developers and users to easily input raw JSON code and instantly see the results in a structured and readable format. Jsonify also provides features like error detection, pretty printing, and minifying JSON, making it a helpful resource for those working with APIs, data structures, or web development. Its user-friendly interface ensures that both beginners and experienced developers can quickly process JSON data without any hassle.",
+        "url": "https://jsonify.com/",
+        "category": "ai",
+        "subcategory": "artificial_intelligence"
+    },
+    {
         "name": "MemFree",
         "description": "Hybrid AI Search Engine: Instantly Get Accurate Answers from the Internet, Bookmarks, Notes, and Docs.",
         "url": "https://www.memfree.me",
