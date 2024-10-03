@@ -1,3 +1,5 @@
+import { generalWebFundamentals } from "database"
+
 type CategoryDescriptions = {
   [key: string]: string
 }
@@ -10,8 +12,6 @@ const categoryDescriptions: CategoryDescriptions = {
     'Animation is the state of being full of life and energy, like a room full of excited kids at a birthday party. It is a method of photographing successive drawings, models, or even puppets, to create an illusion of movement in a sequence.',
   colors:
     'Colors mean the aspects of the appearance of objects and light sources that may be described in terms of hue, lightness, and saturation',
-  design_inspiration:
-    'The right kind of inspiration will always help you come up with creative and unique ideas for your projects but sometimes you need some help getting inspired. Luckily, there are a TON of great resources for design inspiration.',
   css_games:
     'CSS games are a fun way to learn and practice CSS. They are a great way to learn new CSS properties and techniques, and they can help you improve your skills in a fun and interactive way.',
   fonts:
@@ -64,6 +64,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Validation is the process of checking whether a system or its component(s) satisfies the specified requirements or not and checks the data is correct or not.',
 
   //languages
+  general_web_fundamentals:
+    'General fundamentals of web application development.',
   c_programming:
     'C is a general-purpose programming language that was developed in the early 1970s by Dennis Ritchie at Bell Labs. C is widely used for developing system software, embedded systems, and application software.',
   cpp: "C++ is a versatile and powerful programming language that builds upon the features of C, offering object-oriented programming capabilities and support for low-level memory manipulation. It's widely used for developing system software, games, high-performance applications, and more.",
@@ -87,8 +89,21 @@ const categoryDescriptions: CategoryDescriptions = {
     'Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.',
   swift:
     'Swift is a powerful and intuitive programming language developed by Apple. It is used to create apps for iOS, macOS, watchOS, and so on. Swift code is concise yet expressive (easier to understand and write).',
+  css: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts ',
 
-  // Open-source
+  //Mobile
+  android:
+  'Android programming is the process of creating applications that run on the Android operating system. Android applications are written in Java or Kotlin programming languages.',
+
+  //Design
+  design_tools:
+    'Applications used to create, prototype, and manage user interface designs and visual elements.',
+  design_tutorials:
+    'Instructional resources that teach users how to create and apply design concepts, techniques, and tools effectively.',
+  design_inspiration:
+    'The right kind of inspiration will always help you come up with creative and unique ideas for your projects but sometimes you need some help getting inspired. Luckily, there are a TON of great resources for design inspiration.',
+
+    // Open-source
   articles:
     'There are many open source blogging platforms available for developers. Some of the most popular ones include WordPress, Joomla, and Drupal1. Other open source blogging platforms include Ghost, Serendipity, SilverStripe, and Jekyll',
   projects:
@@ -130,13 +145,14 @@ const categoryDescriptions: CategoryDescriptions = {
     'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
 
   // AI Tools
-  design:
+  'design':
     'Harness the power of AI-driven editing tools to refine your writing effortlessly. From grammar and style suggestions to readability enhancements, these editors ensure your content shines with clarity and precision',
-  chatbots:
+  chat_bots:
     "Experience seamless interactions and instant assistance with AI chatbots. Whether it's answering queries, providing support, or automating tasks, these intelligent bots deliver personalized responses to enhance user experiences.",
+  tensorflow:
+    'TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.',
   blog_writing:
     'Unlock your creativity and streamline your blog writing process with AI-powered tools. From generating ideas to optimizing SEO, these tools empower you to craft engaging content that captivates your audience.',
-
   // cyber-security
   offensive_security:
     'Offensive security is the proactive approach to securing networks and systems from attacks by actively seeking out vulnerabilities and weaknesses. ',
@@ -156,38 +172,24 @@ const categoryDescriptions: CategoryDescriptions = {
     'Web hosting is an online service that makes the content of your website accessible on the internet. When you purchase a hosting plan, you are renting space on a physical server to store all the files and data.',
   docsgenerator:
     'The term “doc” is short for “documentation”. Here you can find various Technical Documentation generators.',
-  dsa: 'Data Structures and Algorithms play an important role in tech placements. So here is a list of important and great dsa resources',
   officialdocs:
     'Official docs is short for official documentation. Official documentation is an important resource for users of software products and services as it provides a comprehensive guide to using the software.',
   project_ideas:
     'Projects play an important role in your resume. So here is a list of some great projects and their repositories.',
   ssg: 'Static Site Generators are tools that generate HTML files from templates and content files. They are popular among developers for creating fast, secure, and easy-to-maintain websites.',
 
-  //youtube
-  android:
-    'Android programming is the process of creating applications that run on the Android operating system. Android applications are written in Java or Kotlin programming languages .',
-  competitive_programming:
-    'Competitive programming is a mental sport that involves writing source code of computer programs that are able to solve given problems.',
+  //game development
+  game_dev_fundamentals:
+    'Game development is the process of creating games for various platforms. It involves different stages and aspects, such as design, development, release, storyboarding, writing, audio, art, coding, music, animation, modelling, testing and marketing. ',
+  godot:
+    'Godot allows video game developers to create both 3D and 2D games using multiple programming languages, such as C++, C# and GDScript. It makes use of a hierarchy of nodes to facilitate the development experience.',
+  unreal_engine:
+    'Unreal Engine is a real-time 3D creation tool that developers can use for a variety of purposes, including: game development, visual production, simulation, film and television and architectural and automotive visualization.',
+
+  //theory-of-computation
   computer_science:
     'Computer science programming is the process of creating computer software using programming languages. Computer science programming is a subset of computer science that focuses on the development of software .',
-  css: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts ',
-  'data structures':
-    'Data structures are a way of organizing and storing data in a computer so that it can be accessed and used efficiently .',
-  fintech:
-    'It is a catch-all term for technology used to augment, streamline, digitize or disrupt traditional financial services. Fintech refers to software, algorithms, and applications for both desktop and mobile.',
-  game_development:
-    'Game development is the process of creating games for various platforms. It involves different stages and aspects, such as design, development, release, storyboarding, writing, audio, art, coding, music, animation, modelling, testing and marketing. ',
-  yt_machine_learning:
-    'Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. ',
-  tensorflow:
-    'TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.',
-  software_testing:
-    'Testing is executing a system in order to identify any gaps, errors, or missing requirements.For example, YouTube also uses A/ B testing to test different versions of their website to see which version performs better.',
-  web_development:
-    'Web development is the process of building, programming, and maintaining websites and web applications. It involves various disciplines such as web design, coding, programming, database management, and web server administration.',
-  web3_metaverse:
-    'Web3 is the next generation of the internet. It is a decentralized network that allows users to interact with each other without the need for intermediaries. ',
-
+  
   //competitive programming
   cp_helpers:
     'Coding libraries, templates, and community forums serve as valuable aids for competitive programmers, offering pre-written code snippets, discussions, and collaborative support to optimize problem-solving efficiency.',
@@ -197,6 +199,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Various online resources offer tutorials on algorithms, data structures, and problem-solving techniques, assisting aspiring competitive programmers in enhancing their coding proficiency and strategic thinking.',
 
   //other
+  fintech:
+  'It is a catch-all term for technology used to augment, streamline, digitize or disrupt traditional financial services. Fintech refers to software, algorithms, and applications for both desktop and mobile.',
   events:
     'An event is a gathering where professionals and enthusiasts explore, discuss, and showcase advancements in technology. It fosters learning, networking, and collaboration among individuals passionate about various technical fields.',
   communities:
@@ -231,6 +235,10 @@ const categoryDescriptions: CategoryDescriptions = {
   cover_letters:
     "A cover letter is a formal document accompanying a resume, providing a personalized introduction to a potential employer. It highlights the applicant's qualifications, skills, and interest in the specific position.",
 
+  //quality-assurance
+  software_testing:
+    'Testing is executing a system in order to identify any gaps, errors, or missing requirements.For example, YouTube also uses A/ B testing to test different versions of their website to see which version performs better.',
+
   //technical-writing
   technical_writing_tools:
     'This list provides the tools to suit your tech writing needs.',
@@ -243,6 +251,8 @@ const categoryDescriptions: CategoryDescriptions = {
   dsa_tutorials:
     'This section provides you with YouTube tutorials that help you grasp concepts better by hands-on experience and learn better, practically!',
   //BlockChain
+  web3_metaverse:
+    'Web3 is the next generation of the internet. It is a decentralized network that allows users to interact with each other without the need for intermediaries. ',
   smartcontracts:
     'Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They run on a blockchain network, which is a decentralized and distributed ledger technology. Smart contracts automatically execute and enforce the terms of a contract when predefined conditions are met',
   truffle:
@@ -266,6 +276,14 @@ const categoryDescriptions: CategoryDescriptions = {
     'Coursera is an online learning platform that offers a wide range of courses, specializations, and degrees from top universities and organizations globally. It provides accessible and flexible education to individuals seeking to enhance their skills and knowledge.',
   raspberrypi:
     'Raspberry Pi is a series of low-cost, credit card-sized single-board computers developed to promote computer science education and DIY projects. With a vibrant community, Raspberry Pi empowers enthusiasts and learners to explore programming, electronics, and creative computing.',
+  // tech articles
+  react_articles:
+    'Get the best articles for react to improve your skills and knowledge.',
+  // newsletters
+  jsLetters:
+    'It covers the latest updates, trends, and resources in the JavaScript ecosystem, keeping developers informed and engaged.',
+    pythonLetters:
+    'It covers the latest updates, trends, and resources in the Python ecosystem.',
 }
 
 export default categoryDescriptions

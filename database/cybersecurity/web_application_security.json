@@ -7,13 +7,6 @@
     "subcategory": "web_security"
   },
   {
-    "name": "Certified Web Application Penetration Tester (CWAPT) Certification",
-    "description": "Information on the CWAPT certification, a specialized certification for professionals focusing on web application penetration testing.",
-    "url": "https://mile2.com/web-application-penetration-tester-cwapt.html",
-    "category": "cyber-security",
-    "subcategory": "web_security"
-  },
-  {
     "name": "Burp Suite",
     "description": "Explore Burp Suite, a popular web application security testing tool that assists in identifying and exploiting vulnerabilities.",
     "url": "https://portswigger.net/web-security",

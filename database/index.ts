@@ -4,7 +4,6 @@ export { default as angular } from './frontend/angular.json'
 export { default as animations } from './frontend/animations.json'
 export { default as colors } from './frontend/colors.json'
 export { default as cssGames } from './frontend/css_games.json'
-export { default as designInspirations } from './frontend/design_inspiration.json'
 export { default as fonts } from './frontend/fonts.json'
 export { default as icons } from './frontend/icons.json'
 export { default as illustrations } from './frontend/illustrations.json'
@@ -29,6 +28,11 @@ export { default as database } from './backend/database.json'
 export { default as api } from './backend/api.json'
 export { default as emailProviders } from './backend/email_providers.json'
 
+//design
+export { default as designInspirations } from './design/design_inspiration.json'
+export { default as designTools } from './design/design_tools.json'
+export { default as designTutorials } from './design/design_tutorials.json'
+
 //devops
 export { default as automationTools } from './devops/automation_tools.json'
 export { default as cicd } from './devops/cicd.json'
@@ -41,6 +45,7 @@ export { default as microservices } from './devops/microservices.json'
 export { default as iac } from './devops/iac.json'
 
 // languages
+export { default as generalWebFundamentals } from './languages/general_web_fundamentals.json'
 export { default as javascript } from './languages/javascript.json'
 export { default as python } from './languages/python.json'
 export { default as golang } from './languages/golang.json'
@@ -55,6 +60,9 @@ export { default as cpp } from './languages/cpp.json'
 export { default as dart } from './languages/dart.json'
 export { default as solidity } from './languages/solidity.json'
 export { default as swift } from './languages/swift.json'
+export { default as css } from './languages/css.json'
+// mobile
+export { default as android } from './mobile/android.json'
 //internet of things
 export { default as coursera } from './internet_of_things/coursera.json'
 export { default as raspberrypi } from './internet_of_things/raspberrypi.json'
@@ -78,6 +86,9 @@ export { default as nlp } from './artificial_intelligence/NLP.json'
 //ai tools
 export { default as design } from './ai_tools/design.json'
 export { default as blog_writing } from './ai_tools/blog_writing.json'
+export { default as chat_bots } from './ai_tools/chat_bots.json'
+export { default as tensorflow } from './ai_tools/tensorflow.json'
+
 // Open-source
 export { default as openSourceArticles } from './open_source/articles.json'
 export { default as openSourcePrograms } from './open_source/os_programs.json'
@@ -91,22 +102,22 @@ export { default as officialdocs } from './resources/official-docs.json'
 export { default as hosting } from './resources/hosting.json'
 export { default as ebook } from './resources/e_book.json'
 export { default as project } from './resources/project_ideas.json'
-export { default as dsa } from './resources/dsa.json'
 export { default as events } from './other/events.json'
 export { default as ssg } from './resources/ssg.json'
-// youtube
-export { default as android } from './youtube/android.json'
-export { default as css } from './youtube/css.json'
-export { default as machineLearning } from './youtube/machine_learning.json'
-export { default as Kubernetes } from './youtube/Kubernetes.json'
-export { default as tensorflow } from './youtube/tensorflow.json'
-export { default as webDevelopment } from './youtube/web_development.json'
-export { default as web3metaverse } from './youtube/web3_metaverse.json'
-export { default as softwareTesting } from './youtube/software_testing.json'
-export { default as computerScience } from './youtube/computer_science.json'
-export { default as fintech } from './youtube/fintech.json'
-export { default as gameDevelopment } from './youtube/game_development.json'
+
+//quality-assurance
+export { default as softwareTesting } from './quality_assurance/software_testing.json'
+
+//theory-of-computation
+export { default as computerScience } from './theory_of_computation/computer_science.json'
+
+//game-development
+export { default as unrealEngine } from './game_development/unreal_engine.json'
+export { default as godot } from './game_development/godot.json'
+export { default as gameDevFundamentals } from './game_development/game_dev_fundamentals.json'
+
 // other
+export { default as fintech } from './other/fintech.json'
 export { default as github } from './other/github.json'
 export { default as git } from './other/git.json'
 export { default as devtools } from './other/devtools.json'
@@ -138,3 +149,10 @@ export { default as smartContracts } from './BlockChain/smart-contracts.json'
 export { default as truffle } from './BlockChain/truffle.json'
 export { default as hardhat } from './BlockChain/hardhat.json'
 export { default as ethers } from './BlockChain/ethers.json'
+export { default as web3metaverse } from './BlockChain/web3_metaverse.json'
+
+// Tech Articles
+export { default as reactArticles } from './tech_articles/react.json'
+// Newsletters
+export { default as jsLetters } from './newsletters/js_Letters.json'
+export { default as pythonLetters } from './newsletters/py_Letters.json'

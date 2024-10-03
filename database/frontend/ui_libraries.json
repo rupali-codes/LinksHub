@@ -68,5 +68,19 @@
     "description": "Move faster with beautiful, responsive UI components and website templates with modern design that are 100% free and open-source.",
     "category": "frontend",
     "subcategory": "ui_libraries"
+  },
+  {
+    "name": "Indie UI",
+    "url": "https://ui.indie-starter.dev/",
+    "description": "Rich Styled UI. Make your website stand out with minimal effort",
+    "category": "frontend",
+    "subcategory": "ui_libraries"
+  },
+  {
+    "name": "Hartan Component Library",
+    "url": "https://hartan.netlify.app/",
+    "description": "Hartan is a UI component library built on React JS and distributed as a NPM package. It offers a collection of independent, well-documented resources designed to facilitate rapid website development.",
+    "category": "frontend",
+    "subcategory": "ui_libraries"
   }
 ]

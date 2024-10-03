@@ -26,5 +26,33 @@
     "url": "https://www.youtube.com/@AI.Overpowered",
     "category": "other",
     "subcategory": "podcasts"
+  },
+  {
+    "name": "Darknet Diaries",
+    "description": "Darknet Diaries is a podcast about true stories from the dark side of the internet.",
+    "url": "https://darknetdiaries.com",
+    "category": "other",
+    "subcategory": "podcasts"
+  },
+  {
+    "name": "Syntax",
+    "description": "In Syntax, hosts Wes Bos and Scott Tolinski talk about web development, from JavaScript to CSS, and everything in between.",
+    "url": "https://syntax.fm/",
+    "category": "other",
+    "subcategory": "podcasts"
+  },
+  {
+    "name": "The Junior Jobs Podcast",
+    "description": "The Junior Jobs Podcast is a weekly podcast about how junior developers can get their first job in tech, with Erik Andersen.",
+    "url": "https://podcasters.spotify.com/pod/show/junior-jobs/episodes/59--The-Problem-With-Changing-Careers-and-How-To-Overcome-It--Junior-Jobs-e2lnm9f",
+    "category": "other",
+    "subcategory": "podcasts"
+  },
+  {
+    "name": "Virtual Coffee",
+    "description": "Virtual Coffee is an intimate community for developers at all stages of the journey. It is a place to ask questions, share knowledge, and build friendships.",
+    "url": "https://virtualcoffee.io/podcast",
+    "category": "other",
+    "subcategory": "podcasts"
   }
 ]

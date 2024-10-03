@@ -4,7 +4,6 @@ import { v4 as uuidv4 } from 'uuid'
 export const database: IData[][] = Object.values(DB).map((item: IDBData[]) =>
   item.map((subcat: IDBData) => ({ ...subcat, id: uuidv4() }))
 )
-
 export const sidebarData: ISidebar[] = [
   {
     category: 'frontend',
@@ -27,11 +26,6 @@ export const sidebarData: ISidebar[] = [
       },
       { name: 'animations', url: '/animations', resources: DB.animations },
       { name: 'icons', url: '/icons', resources: DB.icons },
-      {
-        name: 'design inspiration',
-        url: '/design_inspiration',
-        resources: DB.designInspirations,
-      },
       {
         name: 'themes & templates',
         url: '/themes_and_templates',
@@ -103,6 +97,11 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'languages',
     subcategory: [
+      {
+        name: 'General Web Fundamentals',
+        url: '/general_web_fundamentals',
+        resources: DB.generalWebFundamentals,
+      },
       { name: 'JavaScript', url: '/javascript', resources: DB.javascript },
       { name: 'Python', url: '/python', resources: DB.python },
       { name: 'Csharp (C#)', url: '/csharp', resources: DB.csharp },
@@ -121,6 +120,13 @@ export const sidebarData: ISidebar[] = [
       { name: 'Dart', url: '/dart', resources: DB.dart },
       { name: 'Solidity', url: '/solidity', resources: DB.solidity },
       { name: 'Swift', url: '/swift', resources: DB.swift },
+      { name: 'CSS', url: '/css', resources: DB.css },
+    ],
+  },
+  {
+    category: 'mobile',
+    subcategory: [
+      { name: 'Android', url: '/android', resources: DB.android },
     ],
   },
   {
@@ -152,6 +158,26 @@ export const sidebarData: ISidebar[] = [
         resources: DB.openSourceTutorials,
       },
     ],
+  },
+  {
+    category: 'design',
+    subcategory: [
+    {
+      name: 'design inspiration',
+      url: '/design_inspiration',
+      resources: DB.designInspirations,
+    },
+    {
+      name: 'design tools',
+      url: '/design_tools',
+      resources: DB.designTools,
+    },
+    {
+      name: 'design tutorials',
+      url: '/design_tutorials',
+      resources: DB.designTutorials,
+    }
+  ]
   },
   {
     category: 'devops',
@@ -206,7 +232,7 @@ export const sidebarData: ISidebar[] = [
       {
         name: 'machine learning',
         url: '/machine_learning',
-        resources: DB.machineLearning,
+        resources: DB.ml,
       },
       { name: 'data science', url: '/data_science', resources: DB.dataScience },
       {
@@ -234,6 +260,15 @@ export const sidebarData: ISidebar[] = [
         url: '/blog_writing',
         resources: DB.blog_writing,
       },
+      {
+        name: 'chat bots',
+        url: '/chat_bots',
+        resources: DB.chat_bots,
+      },
+      { name: 'tensorflow',
+        url: '/tensorflow',
+        resources: DB.tensorflow,
+      }
     ],
   },
   {
@@ -299,52 +334,72 @@ export const sidebarData: ISidebar[] = [
       },
       { name: 'hosting', url: '/hosting', resources: DB.hosting },
       { name: 'e-book', url: '/e_book', resources: DB.ebook },
-      { name: 'dsa', url: '/dsa', resources: DB.dsa },
       { name: 'project ideas', url: '/project_ideas', resources: DB.project },
       { name: 'Static Site Generators', url: '/ssg', resources: DB.ssg },
     ],
   },
   {
-    category: 'youtube',
+    category: 'tech-articles',
     subcategory: [
       {
-        name: 'web development',
-        url: '/web_development',
-        resources: DB.webDevelopment,
-      },
-      { name: 'CSS', url: '/css', resources: DB.css },
+        name: 'react',
+        url: '/react_articles',
+        resources: DB.reactArticles,
+      }
+    ]
+  },
+  {
+    category: 'newsletters',
+    subcategory: [
       {
-        name: 'kubernetes',
-        url: '/kubernetes',
-        resources: DB.Kubernetes,
-      },
-      {
-        name: 'machine learning',
-        url: '/machine_learning',
-        resources: DB.machineLearning,
-      },
-      { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
-      { name: 'Android', url: '/android', resources: DB.android },
-      {
-        name: 'Web3 & Metaverse',
-        url: '/web3_metaverse',
-        resources: DB.web3metaverse,
+        name: 'javascript',
+        url: '/jsLetters',
+        resources: DB.jsLetters,
       },
       {
-        name: 'Software Testing',
-        url: '/software_testing',
-        resources: DB.softwareTesting,
-      },
+        name: 'python',
+        url: '/pythonLetters',
+        resources: DB.pythonLetters,
+      }
+    ]
+  },
+  {
+    category: 'theory-of-computation',
+    subcategory: [
       {
         name: 'Computer Science',
         url: '/computer_science',
         resources: DB.computerScience,
       },
-      { name: 'FinTech', url: '/fintech', resources: DB.fintech },
+    ],
+  },
+  {
+    category: 'quality-assurance',
+    subcategory: [
       {
-        name: 'Game Development',
-        url: '/game_development',
-        resources: DB.gameDevelopment,
+        name: 'Software Testing',
+        url: '/software_testing',
+        resources: DB.softwareTesting,
+      },
+    ],
+  },
+  {
+    category: 'game-development',
+    subcategory: [
+      {
+        name: 'Game Development Fundamentals',
+        url: '/game_dev_fundamentals',
+        resources: DB.gameDevFundamentals,
+      },
+      {
+        name: 'Godot',
+        url: '/godot',
+        resources: DB.godot,
+      },
+      {
+        name: 'Unreal Engine',
+        url: '/unreal_engine',
+        resources: DB.unrealEngine,
       },
     ],
   },
@@ -436,11 +491,17 @@ export const sidebarData: ISidebar[] = [
         url: '/ethers',
         resources: DB.ethers,
       },
+      {
+        name: 'Web3 & Metaverse',
+        url: '/web3_metaverse',
+        resources: DB.web3metaverse,
+      },
     ],
   },
   {
     category: 'other',
     subcategory: [
+      { name: 'FinTech', url: '/fintech', resources: DB.fintech },
       { name: 'events', url: '/events', resources: DB.events },
       { name: 'Github', url: '/github', resources: DB.github },
       { name: 'Git', url: '/git', resources: DB.git },
