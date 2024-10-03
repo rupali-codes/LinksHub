@@ -131,5 +131,12 @@
     "url": "https://responsively.app",
     "category": "other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "Uptime Kuma",
+    "description": "https://uptime.kuma.pet is a self-hosted monitoring tool.",
+    "url": "https://github.com/louislam/uptime-kuma",
+    "category": "other",
+    "subcategory": "devtools"
   }
 ]
