@@ -12,5 +12,12 @@
         "url": "https://huggingface.co/",
         "category": "ai",
         "subcategory": "artificial_intelligence"
+    },
+    {
+        "name": "MemFree",
+        "description": "Hybrid AI Search Engine: Instantly Get Accurate Answers from the Internet, Bookmarks, Notes, and Docs.",
+        "url": "https://www.memfree.me",
+        "category": "ai",
+        "subcategory": "artificial_intelligence"
     }
 ]
