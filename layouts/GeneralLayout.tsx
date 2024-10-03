@@ -14,6 +14,9 @@ import MobileBottomNav from 'components/MobileBottomNav/MobileBottomNav'
 const GeneralLayout = ({ children }: { children: ReactNode }) => {
   const { sidebar } = useContext<IContext>(GlobalContext)
 
+
+  //Todo
+
   return (
     <>
       <SkipLink />
