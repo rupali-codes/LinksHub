@@ -131,5 +131,12 @@
     "url": "https://responsively.app",
     "category": "other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "HackMD",
+    "description": "A cross-platform Markdown editor for collaboration in real-time, and offers variety of 3rd api parties to connect.",
+    "url": "https://hackmd.io/",
+    "category": "other",
+    "subcategory": "devtools"
   }
 ]
