@@ -77,7 +77,6 @@ export const SideNavbarCategory: FC<{
         aria-label={`toggle ${category.toLowerCase()} category`}
         href={`/${category}`}
       >
-        { category === 'open-source' ? 'New' : ''}
         <h1
           className={`text-slate-500 dark:text-slate-300 text-lg font-sans font-medium w-4/5 truncate ${
             category.length < 4 ? 'uppercase' : 'capitalize'
