@@ -54,5 +54,12 @@
     "url": "https://www.hubdev.tools/",
     "category": "open source",
     "subcategory": "tools"
+  },
+  {
+    "name": "My First PR",
+    "description": "My First PR helps developers, especially beginners, make their first open-source contribution. We provide resources, guides, and real-world opportunities to submit pull requests on GitHub, making it easier to start your open-source journey.",
+    "url": "https://my-first-pr.github.io/",
+    "category": "open source",
+    "subcategory": "tools"
   }
 ]
