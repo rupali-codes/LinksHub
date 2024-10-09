@@ -134,8 +134,8 @@
   },
   {
     "name": "Uptime Kuma",
-    "description": "https://uptime.kuma.pet is a self-hosted monitoring tool.",
-    "url": "https://github.com/louislam/uptime-kuma",
+    "description": "Uptime Kuma is an easy-to-use self-hosted monitoring tool.",
+    "url": "https://uptime.kuma.pet",
     "category": "other",
     "subcategory": "devtools"
   }
