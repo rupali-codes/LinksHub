@@ -37,6 +37,7 @@ export const SideNavbarCategory: FC<{
   listRef: MutableRefObject<HTMLUListElement | null>;
 }> = ({ categoryData, expand, listRef }) => {
   const [isOpen, setIsOpen] = useState(expand);
+  // const [hasUpdated, setHasUpdated] = useState(categoryData);
   const router = useRouter();
   const { category, subcategory } = categoryData;
   const sortedSubcategoryList = subcategory
@@ -49,7 +50,8 @@ export const SideNavbarCategory: FC<{
 
   useEffect(() => {
     setIsOpen(expand);
-  }, [expand]);
+    // setHasUpdated(categoryData);
+  }, [expand, categoryData]);
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
@@ -59,6 +61,12 @@ export const SideNavbarCategory: FC<{
     setIsOpen(false);
     router.replace('/');
   };
+
+  // const handleUpdate = () => {
+  //   setHasUpdated(!hasUpdated);
+  //   handleUpdate();
+  // };
+
   useOnClickOutside(listRef, handleClickOutside);
 
   return (
@@ -74,6 +82,7 @@ export const SideNavbarCategory: FC<{
             category.length < 4 ? 'uppercase' : 'capitalize'
           }`}
         >
+          {/* { category === 'open-source' ? '<strong>New' : capitalizeCategory(category)} */}
           {capitalizeCategory(category)}
         </h1>
         <Icons.angleDown

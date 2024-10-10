@@ -106,6 +106,8 @@ const categoryDescriptions: CategoryDescriptions = {
     // Open-source
   articles:
     'There are many open source blogging platforms available for developers. Some of the most popular ones include WordPress, Joomla, and Drupal1. Other open source blogging platforms include Ghost, Serendipity, SilverStripe, and Jekyll',
+  hacktoberfest:
+    'A month-long celebration of open-source projects, their maintainers, and the entire community of contributors.',
   projects:
     'Anyone can contribute to the projects are called OpenSource Projects. There are many open source projects available for developers. Some of the most popular ones include Linux, Git, and Apache1. Other open source projects include Kubernetes, TensorFlow, and React Native',
   tools:

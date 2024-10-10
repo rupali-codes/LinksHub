@@ -137,6 +137,11 @@ export const sidebarData: ISidebar[] = [
         resources: DB.openSourceArticles,
       },
       {
+        name: 'Hacktoberfest',
+        url: '/hacktoberfest',
+        resources: DB.openSourceHacktoberfest,
+      },
+      {
         name: 'Programs',
         url: '/os_programs',
         resources: DB.openSourcePrograms,
