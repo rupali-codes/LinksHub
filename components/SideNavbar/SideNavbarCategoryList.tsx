@@ -39,8 +39,7 @@ export const SideNavbarCategoryList: FC<{
           listRef={listRef}
           key={categoryData.category}
           categoryData={categoryData}
-          expand={query.length > 0 || category === categoryData.category}
-        />
+          expand={query.length > 0 || category === categoryData.category}      />
       ))}
     </ul>
   )
