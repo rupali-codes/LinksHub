@@ -262,7 +262,7 @@ export default function Home() {
                     <RatingForkComponent
                       type="fork"
                       count={forkCount ? forkCount : '480+'}
-                      link="https://github.com/rupali-codes/LinksHub"
+                      link="https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md"
                       bgColor="#403B56"
                       iconBgColor="#714EFF"
                       btnBgColor="#714EFF"
