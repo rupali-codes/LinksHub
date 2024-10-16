@@ -34,11 +34,4 @@
     "category": "newsletters",
     "subcategory": "jsLetters"
   }
-  {
-    "name": " Focus",
-    "description": "A once–weekly roundup of the best front-end news, articles and tutorials. HTML, CSS, WebGL, Canvas, browser tech, and more.",
-    "url": "https://frontendfoc.us/",
-    "category": "newsletters",
-    "subcategory": "jsLetters"
-  }
 ]
