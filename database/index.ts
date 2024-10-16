@@ -2,7 +2,6 @@
 export { default as accessibility } from './frontend/accessibility.json'
 export { default as angular } from './frontend/angular.json'
 export { default as animations } from './frontend/animations.json'
-export { default as colors } from './frontend/colors.json'
 export { default as cssGames } from './frontend/css_games.json'
 export { default as fonts } from './frontend/fonts.json'
 export { default as icons } from './frontend/icons.json'
@@ -30,7 +29,7 @@ export { default as emailProviders } from './backend/email_providers.json'
 
 //design
 export { default as designInspirations } from './design/design_inspiration.json'
-export { default as designTools } from './design/design_tools.json'
+export { default as designColorTools } from './design/design_color_tools.json'
 export { default as designTutorials } from './design/design_tutorials.json'
 
 //devops
@@ -91,6 +90,7 @@ export { default as tensorflow } from './ai_tools/tensorflow.json'
 
 // Open-source
 export { default as openSourceArticles } from './open_source/articles.json'
+export { default as openSourceHacktoberfest} from './open_source/hacktoberfest.json'
 export { default as openSourcePrograms } from './open_source/os_programs.json'
 export { default as openSourceProjects } from './open_source/projects.json'
 export { default as openSourceTools } from './open_source/tools.json'

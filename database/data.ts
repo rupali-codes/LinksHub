@@ -16,7 +16,6 @@ export const sidebarData: ISidebar[] = [
       },
       { name: 'images', url: '/images', resources: DB.images },
       { name: 'fonts', url: '/fonts', resources: DB.fonts },
-      { name: 'colors', url: '/colors', resources: DB.colors },
       { name: 'css games', url: '/css_games', resources: DB.cssGames },
       { name: 'react', url: '/react', resources: DB.react },
       {
@@ -138,6 +137,11 @@ export const sidebarData: ISidebar[] = [
         resources: DB.openSourceArticles,
       },
       {
+        name: 'Hacktoberfest',
+        url: '/hacktoberfest',
+        resources: DB.openSourceHacktoberfest,
+      },
+      {
         name: 'Programs',
         url: '/os_programs',
         resources: DB.openSourcePrograms,
@@ -168,9 +172,9 @@ export const sidebarData: ISidebar[] = [
       resources: DB.designInspirations,
     },
     {
-      name: 'design tools',
-      url: '/design_tools',
-      resources: DB.designTools,
+      name: 'design color tools',
+      url: '/design_color_tools',
+      resources: DB.designColorTools,
     },
     {
       name: 'design tutorials',

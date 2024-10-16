@@ -47,5 +47,19 @@
     "url": "https://m3.material.io",
     "category": "open source",
     "subcategory": "tools"
+  },
+  {
+    "name": "Hubdev",
+    "description": "HubDev.tools is a developer resource platform featuring a categorized collection of tools and resources. It uses advanced semantic search powered by Vercel, OpenAI, and Supabase to help developers find specific tools for UI, testing, authentication.",
+    "url": "https://www.hubdev.tools/",
+    "category": "open source",
+    "subcategory": "tools"
+  },
+  {
+    "name": "My First PR",
+    "description": "My First PR helps developers, especially beginners, make their first open-source contribution. We provide resources, guides, and real-world opportunities to submit pull requests on GitHub, making it easier to start your open-source journey.",
+    "url": "https://my-first-pr.github.io/",
+    "category": "open source",
+    "subcategory": "tools"
   }
 ]
