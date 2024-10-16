@@ -156,3 +156,4 @@ export { default as reactArticles } from './tech_articles/react.json'
 // Newsletters
 export { default as jsLetters } from './newsletters/js_Letters.json'
 export { default as pythonLetters } from './newsletters/py_Letters.json'
+export {default as javaLetters} from './newsletters/java_Letters.json'

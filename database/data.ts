@@ -360,6 +360,11 @@ export const sidebarData: ISidebar[] = [
         name: 'python',
         url: '/pythonLetters',
         resources: DB.pythonLetters,
+      },
+      {
+        name:'java',
+        url:'/javaLetters',
+        resources:DB.javaLetters,
       }
     ]
   },
