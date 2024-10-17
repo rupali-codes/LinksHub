@@ -1,0 +1,32 @@
+
+    [
+        {
+          "name": "JavaBulletin",
+          "description": "Curated and Hand-Picked Java & Spring Blogs. Click to read Java Newsletter, by Suraj Mishra, a Substack publication with thousands of subscribers.",
+          "url": "https://javabulletin.substack.com",
+          "category": "newsletters",
+          "subcategory": "javaLetters"
+        },
+        {
+          "name": "JetBrains",
+          "description": "JetBrains Java Annotated Monthly: Stay up-to-date with the latest news and articles about Java, handpicked and curated by JetBrains.",
+          "url": "https://www.jetbrains.com/lp/jam/",
+          "category": "newsletters",
+          "subcategory": "javaLetters"
+        },
+        {
+          "name": "Baeldung",
+          "description": "Baeldung's Java Weekly: A roundup of curated Java articles, news, and tutorials, covering the latest in Java development.",
+          "url": "https://www.baeldung.com/library/java-web-weekly",
+          "category": "newsletters",
+          "subcategory": "javaLetters"
+        },
+        {
+          "name": "Microsoft Java",
+          "description": "Microsoft's Java Newsletter: Stay informed on Java-related updates and announcements from the Microsoft development team.",
+          "url": "https://devblogs.microsoft.com/java/newsletter/",
+          "category": "newsletters",
+          "subcategory": "javaLetters"
+        }
+      ]
+      
