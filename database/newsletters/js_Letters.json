@@ -33,5 +33,12 @@
     "url": "https://frontendfoc.us/",
     "category": "newsletters",
     "subcategory": "jsLetters"
+  },
+  {
+    "name": "JavaScript Kicks",
+    "description": "JavaScript Kicks is a platform that provides online tutorials, courses, and challenges to help users learn JavaScript programming in an interactive and engaging way.",
+    "url": "https://javascriptkicks.com/",
+    "category": "newsletters",
+    "subcategory": "jsLetters"
   }
 ]
