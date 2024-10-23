@@ -23,7 +23,7 @@ export const SideNavbarCategoryList: FC<{
   if (categoriesList.length == 0) {
     return (
       <div className="dark:text-gray-200 text-gray-500 text-lg text-center py-2">
-        No Links Found
+        What would you like to share or ask?
       </div>
     )
   }
