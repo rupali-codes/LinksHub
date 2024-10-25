@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Strapi Cloud",
+        "description": "Headless CMS service designed for building APIs.",
+        "url": "https://cloud.strapi.io",
+        "category": "cloud-computing",
+        "subcategory": "strapi"
+    }
+]

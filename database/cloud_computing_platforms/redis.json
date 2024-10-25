@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Redis Cloud",
+        "description": "Managed Redis database services for real-time data processing.",
+        "url": "https://redis.com/redis-enterprise-cloud",
+        "category": "cloud-computing",
+        "subcategory": "redis"
+    }
+]

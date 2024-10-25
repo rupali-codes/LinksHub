@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Spring Cloud",
+        "description": "Tools for building distributed systems and microservices.",
+        "url": "https://spring.io/projects/spring-cloud",
+        "category": "cloud-computing",
+        "subcategory": "spring"
+    }
+]

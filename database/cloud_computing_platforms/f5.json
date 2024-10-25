@@ -1,0 +1,9 @@
+[
+    {
+        "name": "F5 Cloud",
+        "description": "Documentation for F5 Network's cloud services.",
+        "url": "https://clouddocs.f5.com",
+        "category": "cloud-computing",
+        "subcategory": "f5"
+    }
+]
