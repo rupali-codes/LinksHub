@@ -272,7 +272,16 @@ const categoryDescriptions: CategoryDescriptions = {
   oracle:
     'Oracle Cloud is a leading cloud computing platform providing a robust suite of services. From databases to advanced solutions, Oracle Cloud supports businesses in achieving scalability, security, and innovation.',
   ibm: 'IBM Cloud stands as a formidable cloud computing platform, offering a wide array of services. From computing power to advanced technologies, IBM Cloud supports businesses in their digital transformation journey.',
-
+  alibaba: 'Comprehensive suite of global cloud computing services.',
+  strapi: 'Headless CMS service designed for building APIs.',
+  f5: `Documentation for F5 Network's cloud services.`,
+  clouddocs: 'Cloud documentation portal with resources and guides.',
+  grafana: `Documentation for Grafana's cloud-based observability suite.`,
+  spring: 'Tools for building distributed systems and microservices.',
+  intel: 'Cloud services focused on performance optimization and security.',
+  redis: 'Managed Redis database services for real-time data processing.',
+  meta: `Cloud infrastructure services for Meta's platforms.`,
+  vmware: 'Hybrid cloud platform for virtualization solutions.',
   //internet of things
   coursera:
     'Coursera is an online learning platform that offers a wide range of courses, specializations, and degrees from top universities and organizations globally. It provides accessible and flexible education to individuals seeking to enhance their skills and knowledge.',
