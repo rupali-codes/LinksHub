@@ -48,11 +48,11 @@
     "language": "hindi"
   },
   {
-    "name":"CSS-Tricks",
-    "description":"CSS-Tricks is a leading web development resource offering tutorials and articles focused on CSS, as well as other front-end topics like HTML, JavaScript, and design. Known for its practical solutions and community-driven forum, it's a go-to site for developers of all levels.",
-    "url":"https://css-tricks.com/",
-    "category":"languages",
-    "subcategory":"css",
-    "language":"english"
-   }
+    "name": "CSS-Tricks",
+    "description": "CSS-Tricks is a leading web development resource offering tutorials and articles focused on CSS, as well as other front-end topics like HTML, JavaScript, and design. Known for its practical solutions and community-driven forum, it's a go-to site for developers of all levels.",
+    "url": "https://css-tricks.com/",
+    "category": "languages",
+    "subcategory": "css",
+    "language": "english"
+  }
 ]
