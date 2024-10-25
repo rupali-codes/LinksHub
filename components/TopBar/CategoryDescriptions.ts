@@ -1,5 +1,3 @@
-import { generalWebFundamentals } from "database"
-
 type CategoryDescriptions = {
   [key: string]: string
 }
