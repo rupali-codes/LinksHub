@@ -46,5 +46,13 @@
     "category": "resource",
     "subcategory": "e_book",
     "language": "english"
+  },
+  {
+    "name": "Anna's Archive",
+    "description": "Anna's Arhive is an extensive open-access digital library that mirrors content from Sci-Hub, LibGen, and other sources. It hosts over 37 million books and 105 million papers, focusing on digital preservation and free knowledge access. The project’s data and code are entirely open source, supporting the mission of creating a permanently accessible global knowledge repository.",
+    "url": "https://annas-archive.org",
+    "category": "resource",
+    "subcategory": "e_book",
+    "language": "english"
   }
 ]
