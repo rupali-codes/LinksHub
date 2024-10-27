@@ -145,5 +145,12 @@
     "url": "https://hackmd.io/",
     "category": "other",
     "subcategory": "devtools"
+  },
+  {
+    "name": "Can I Use",
+    "description": "Can I use is a valuable web tool that helps developers check browser support for various web technologies, including CSS, HTML5, JavaScript, and APIs. It provides up-to-date compatibility data for different browsers and versions, helping developers ensure cross-browser functionality in their projects.",
+    "url": "https://caniuse.com/",
+    "category": "other",
+    "subcategory": "devtools"
   }
 ]
