@@ -100,7 +100,6 @@ export const sidebarData: ISidebar[] = [
         name: "Traditional CMS",
         url: "/traditional_cms",
         resources: DB.traditional_cms,
-        description: "trad"
       },
       {
         name: 'Headless CMS',
