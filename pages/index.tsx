@@ -65,7 +65,7 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
 
   return (
     <div
-      className={`dark:text-white rounded-lg md:w-[160px] text-3xl p-4 dark:bg-[rgba(255,255,255,0.1)] bg-[rgba(0,0,0,0.05)] w-full`}
+      className={`dark:text-white rounded-lg md:w-[200px] text-3xl p-4 dark:bg-[rgba(255,255,255,0.1)] bg-[rgba(0,0,0,0.05)] w-full`}
     >
       {type === 'star' ? (
         <Icons.ioStar
