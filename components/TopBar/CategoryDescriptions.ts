@@ -1,4 +1,4 @@
-import { generalWebFundamentals, headless_cms, traditional_cms } from "database"
+import { generalWebFundamentals } from "database"
 
 type CategoryDescriptions = {
   [key: string]: string
