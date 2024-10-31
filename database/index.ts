@@ -27,6 +27,10 @@ export { default as database } from './backend/database.json'
 export { default as api } from './backend/api.json'
 export { default as emailProviders } from './backend/email_providers.json'
 
+// cms toolkit
+export { default as headless_cms } from './CMS_toolkit/headless_cms.json'
+export { default as traditional_cms } from './CMS_toolkit/traditional_cms.json'
+
 //design
 export { default as designInspirations } from './design/design_inspiration.json'
 export { default as designColorTools } from './design/design_color_tools.json'

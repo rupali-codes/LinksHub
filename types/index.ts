@@ -37,6 +37,7 @@ export interface IData {
 export type Category =
   | 'frontend'
   | 'backend'
+  | 'CMS-toolkit'
   | 'languages'
   | 'ai'
   | 'ai-tools'

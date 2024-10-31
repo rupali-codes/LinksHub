@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Contentful",
+        "description": "API-first content management, cloud-based with free tier including 5 users and 25K records.",
+        "url": "https://www.contentful.com/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    },
+    {
+        "name": "Cosmic",
+        "description": "Headless CMS with API toolkit, free for personal use.",
+        "url": "https://www.cosmicjs.com/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    },
+    {
+        "name": "Crystallize",
+        "description": "Headless PIM with built-in GraphQL API, free version includes limited items and bandwidth.",
+        "url": "https://crystallize.com/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    },
+    {
+        "name": "DatoCMS",
+        "description": "GraphQL-based CMS, free tier with limited API calls.",
+        "url": "https://www.datocms.com/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    },
+    {
+        "name": "Directus",
+        "description": "Open-source headless CMS, on-prem or in the cloud with no limitations.",
+        "url": "https://directus.io/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    },
+    {
+        "name": "FrontAid",
+        "description": "JSON-based headless CMS storing content in Git repositories, no restrictions.",
+        "url": "https://frontaid.io/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    },
+    {
+        "name": "kontent.ai",
+        "description": "Content-as-a-Service with headless benefits, free for developers with limited resources.",
+        "url": "https://kontent.ai/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    },
+    {
+        "name": "Prismic",
+        "description": "Fully hosted headless CMS with scalable API and unlimited API calls on free plan.",
+        "url": "https://prismic.io/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    },
+    {
+        "name": "Sanity.io",
+        "description": "Open-source CMS with real-time hosting, free tier includes substantial API calls and bandwidth.",
+        "url": "https://www.sanity.io/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    },
+    {
+        "name": "sensenet",
+        "description": "API-first headless CMS, free tier available for developers.",
+        "url": "https://www.sensenet.com/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    },
+    {
+        "name": "TinaCMS",
+        "description": "Git-backed headless CMS for Markdown, MDX, and JSON, open source with two-user limit.",
+        "url": "https://tina.io/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    },
+    {
+        "name": "Hygraph",
+        "description": "GraphQL-first CMS, ideal for omnichannel content.",
+        "url": "https://hygraph.com/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    },
+    {
+        "name": "Squidex",
+        "description": "API/GraphQL-first, open-source and event-sourced with automatic versioning.",
+        "url": "https://squidex.io/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    },
+    {
+        "name": "Storyblok",
+        "description": "Headless CMS with Visual Editor, free tier includes a robust asset manager and 250GB traffic per month.",
+        "url": "https://www.storyblok.com/",
+        "category": "cms-toolkit",
+        "subcategory": "headless_cms",
+        "language": "English"
+    }
+]

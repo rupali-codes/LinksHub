@@ -1,4 +1,4 @@
-import { generalWebFundamentals } from "database"
+import { generalWebFundamentals, headless_cms, traditional_cms } from "database"
 
 type CategoryDescriptions = {
   [key: string]: string
@@ -62,6 +62,10 @@ const categoryDescriptions: CategoryDescriptions = {
     'Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not.',
   validation:
     'Validation is the process of checking whether a system or its component(s) satisfies the specified requirements or not and checks the data is correct or not.',
+
+  // cms toolkit
+  headless_cms: 'Decouple content management from presentation, allowing content delivery via APIs to various platforms. This flexibility enhances omnichannel distribution and user experiences.',
+  traditional_cms: 'Offers integrated solutions for content creation and presentation, featuring user-friendly interfaces and built-in templates for easy website management.',
 
   //languages
   general_web_fundamentals:
