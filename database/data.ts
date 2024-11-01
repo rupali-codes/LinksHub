@@ -94,6 +94,21 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'CMS-toolkit',
+    subcategory: [
+      {
+        name: "Traditional CMS",
+        url: "/traditional_cms",
+        resources: DB.traditional_cms,
+      },
+      {
+        name: 'Headless CMS',
+        url: '/headless_cms',
+        resources: DB.headless_cms,
+      }
+    ]
+  },
+  {
     category: 'languages',
     subcategory: [
       {

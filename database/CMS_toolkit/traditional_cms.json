@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Acquia.com",
+        "description": "Drupal hosting with free development tools and free tier for developers.",
+        "url": "https://www.acquia.com/",
+        "category": "cms-toolkit",
+        "subcategory": "traditional_cms",
+        "language": "English"
+    },
+    {
+        "name": "InstaWP",
+        "description": "Instant WordPress deployment with a free tier, including 5 active sites.",
+        "url": "https://instawp.com/",
+        "category": "cms-toolkit",
+        "subcategory": "traditional_cms",
+        "language": "English"
+    },
+    {
+        "name": "WPJack",
+        "description": "Quick WordPress setup with a free tier that includes 1 server and SSL certificates.",
+        "url": "https://wpjack.com/",
+        "category": "cms-toolkit",
+        "subcategory": "traditional_cms",
+        "language": "English"
+    }
+]
