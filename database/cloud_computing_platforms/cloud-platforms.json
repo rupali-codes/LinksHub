@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Alibaba Cloud",
+        "description": "Comprehensive suite of global cloud computing services.",
+        "url": "https://www.alibabacloud.com",
+        "category": "cloud-computing",
+        "subcategory": "alibaba"
+    },
+    {
+        "name": "Strapi Cloud",
+        "description": "Headless CMS service designed for building APIs.",
+        "url": "https://cloud.strapi.io",
+        "category": "cloud-computing",
+        "subcategory": "strapi"
+    },
+    {
+        "name": "F5 Cloud",
+        "description": "Documentation for F5 Network's cloud services.",
+        "url": "https://clouddocs.f5.com",
+        "category": "cloud-computing",
+        "subcategory": "f5"
+    },
+    {
+        "name": "Cloud docs",
+        "description": "Cloud documentation portal with resources and guides.",
+        "url": "https://clouddocs.biz",
+        "category": "cloud-computing",
+        "subcategory": "clouddocs"
+    },
+    {
+        "name": "Grafana Cloud",
+        "description": "Documentation for Grafana's cloud-based observability suite.",
+        "url": "https://grafana.com/docs/grafana-cloud",
+        "category": "cloud-computing",
+        "subcategory": "grafana"
+    },
+    {
+        "name": "Spring Cloud",
+        "description": "Tools for building distributed systems and microservices.",
+        "url": "https://spring.io/projects/spring-cloud",
+        "category": "cloud-computing",
+        "subcategory": "spring"
+    },
+    {
+        "name": "Intel Cloud",
+        "description": "Cloud services focused on performance optimization and security.",
+        "url": "https://www.intel.com/cloud",
+        "category": "cloud-computing",
+        "subcategory": "intel"
+    },
+    {
+        "name": "Redis Cloud",
+        "description": "Managed Redis database services for real-time data processing.",
+        "url": "https://redis.com/redis-enterprise-cloud",
+        "category": "cloud-computing",
+        "subcategory": "redis"
+    },
+    {
+        "name": "Meta Cloud",
+        "description": "Cloud infrastructure services for Meta's platforms.",
+        "url": "https://cloud.meta.com",
+        "category": "cloud-computing",
+        "subcategory": "meta"
+    },
+    {
+        "name": "VMWare Cloud",
+        "description": "Hybrid cloud platform for virtualization solutions.",
+        "url": "https://cloud.vmware.com",
+        "category": "cloud-computing",
+        "subcategory": "vmware"
+    }
+]

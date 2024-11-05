@@ -1,9 +1,0 @@
-[
-    {
-        "name": "Grafana Cloud",
-        "description": "Documentation for Grafana's cloud-based observability suite.",
-        "url": "https://grafana.com/docs/grafana-cloud",
-        "category": "cloud-computing",
-        "subcategory": "grafana"
-    }
-]
