@@ -66,12 +66,7 @@ export { default as android } from './mobile/android.json'
 export { default as coursera } from './internet_of_things/coursera.json'
 export { default as raspberrypi } from './internet_of_things/raspberrypi.json'
 //cloud computing
-export { default as gcp } from './cloud_computing_platforms/gcp.json'
-export { default as aws } from './cloud_computing_platforms/aws.json'
-export { default as azure } from './cloud_computing_platforms/azure.json'
-export { default as oracle } from './cloud_computing_platforms/oracle.json'
-export { default as ibm } from './cloud_computing_platforms/ibm.json'
-export { default as cloudplatforms } from './cloud_computing_platforms/cloud-platforms.json'
+export { default as cloudplatforms } from './cloud_computing_platforms/cloud_computing_platforms.json'
 //cyber_security
 export { default as offensive_security } from './cybersecurity/offensive_security.json'
 export { default as defensive_security } from './cybersecurity/defensive_security.json'

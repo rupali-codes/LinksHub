@@ -1,0 +1,129 @@
+[
+    {
+        "name": "Alibaba Cloud",
+        "description": "Comprehensive suite of global cloud computing services.",
+        "url": "https://www.alibabacloud.com",
+        "category": "cloud-computing",
+        "subcategory": "alibaba"
+    },
+    {
+        "name": "Strapi Cloud",
+        "description": "Headless CMS service designed for building APIs.",
+        "url": "https://cloud.strapi.io",
+        "category": "cloud-computing",
+        "subcategory": "strapi"
+    },
+    {
+        "name": "F5 Cloud",
+        "description": "Documentation for F5 Network's cloud services.",
+        "url": "https://clouddocs.f5.com",
+        "category": "cloud-computing",
+        "subcategory": "f5"
+    },
+    {
+        "name": "Cloud docs",
+        "description": "Cloud documentation portal with resources and guides.",
+        "url": "https://clouddocs.biz",
+        "category": "cloud-computing",
+        "subcategory": "clouddocs"
+    },
+    {
+        "name": "Grafana Cloud",
+        "description": "Documentation for Grafana's cloud-based observability suite.",
+        "url": "https://grafana.com/docs/grafana-cloud",
+        "category": "cloud-computing",
+        "subcategory": "grafana"
+    },
+    {
+        "name": "Spring Cloud",
+        "description": "Tools for building distributed systems and microservices.",
+        "url": "https://spring.io/projects/spring-cloud",
+        "category": "cloud-computing",
+        "subcategory": "spring"
+    },
+    {
+        "name": "Intel Cloud",
+        "description": "Cloud services focused on performance optimization and security.",
+        "url": "https://www.intel.com/cloud",
+        "category": "cloud-computing",
+        "subcategory": "intel"
+    },
+    {
+        "name": "Redis Cloud",
+        "description": "Managed Redis database services for real-time data processing.",
+        "url": "https://redis.com/redis-enterprise-cloud",
+        "category": "cloud-computing",
+        "subcategory": "redis"
+    },
+    {
+        "name": "Meta Cloud",
+        "description": "Cloud infrastructure services for Meta's platforms.",
+        "url": "https://cloud.meta.com",
+        "category": "cloud-computing",
+        "subcategory": "meta"
+    },
+    {
+        "name": "VMWare Cloud",
+        "description": "Hybrid cloud platform for virtualization solutions.",
+        "url": "https://cloud.vmware.com",
+        "category": "cloud-computing",
+        "subcategory": "vmware"
+    },
+    {
+        "name": "Microsoft Azure",
+        "description": "Learn how to build and manage powerful applications using Microsoft Azure cloud services. Get documentation, example code, tutorials, and more.",
+        "url": "https://learn.microsoft.com/en-us/azure/?product=popular",
+        "category": "cloud-computing",
+        "subcategory": "azure"
+    },
+    {
+        "name": "Microsoft Learn & Certified",
+        "description": "Microsoft has certification paths for many technical job roles. Each of these certifications consists of passing a series of exams to earn them. ",
+        "url": "https://learn.microsoft.com/en-us/certifications/",
+        "category": "cloud-computing",
+        "subcategory": "azure"
+    },
+    {
+        "name": "Amazon Web Services",
+        "description": "Gain free, hands-on experience with the AWS platform, products, and services. AWS Activate provides eligible startups with a host of resources, including free AWS credits to spend on AWS services, and AWS Support. ",
+        "url": "https://docs.aws.amazon.com/index.html",
+        "category": "cloud-computing",
+        "subcategory": "aws"
+    },
+    {
+        "name": "AWS tutorial for beginners",
+        "description": "Learn AWS from basic-to-advanced level. This playlist has short and great tutorials that will help you learn AWS.",
+        "url": "https://www.youtube.com/playlist?list=PL6XT0grm_TfgtwtwUit305qS-HhDvb4du",
+        "category": "cloud-computing",
+        "subcategory": "aws",
+        "language": "hindi"
+    },
+    {
+        "name": "Google Cloud Platform",
+        "description": "Find guides, code samples, architectural diagrams, best practices, tutorials, API references, and more to learn how to build on Google Cloud.",
+        "url": "https://cloud.google.com/docs/",
+        "category": "cloud-computing",
+        "subcategory": "gcp"
+    },
+    {
+        "name": "IBM Cloud",
+        "description": "The IBM Cloud platform is composed of multiple components that work together to provide a consistent and dependable cloud experience.",
+        "url": "https://cloud.ibm.com/docs",
+        "category": "cloud-computing",
+        "subcategory": "ibm"
+    },
+    {
+        "name": "Oracle Cloud",
+        "description": "Looking for comprehensive documentation, tutorials, or videos so you can learn about Oracle Cloud Services? You can find all of these resources here in the Oracle Help Center.",
+        "url": "https://docs.oracle.com/en/cloud/get-started/index.html",
+        "category": "cloud-computing",
+        "subcategory": "oracle"
+    },
+    {
+        "name": "OCI certifications",
+        "description": "Accelerate your cloud journey along with free certification from Oracle",
+        "url": "https://education.oracle.com/home",
+        "category": "cloud-computing",
+        "subcategory": "oracle"
+    }
+]
