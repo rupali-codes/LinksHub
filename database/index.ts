@@ -15,6 +15,7 @@ export { default as next } from './frontend/next.json'
 export { default as _3dLibraries } from './frontend/three_d_libraries.json'
 export { default as uilibraries } from './frontend/ui_libraries.json'
 export { default as jsChartLibraries } from './frontend/js_chart_libraries.json'
+export { default as vuejs } from './frontend/vuejs.json'
 // backend
 export { default as authentication } from './backend/authentication.json'
 export { default as architecture } from './backend/architecture.json'
@@ -94,7 +95,7 @@ export { default as tensorflow } from './ai_tools/tensorflow.json'
 
 // Open-source
 export { default as openSourceArticles } from './open_source/articles.json'
-export { default as openSourceHacktoberfest} from './open_source/hacktoberfest.json'
+export { default as openSourceHacktoberfest } from './open_source/hacktoberfest.json'
 export { default as openSourcePrograms } from './open_source/os_programs.json'
 export { default as openSourceProjects } from './open_source/projects.json'
 export { default as openSourceTools } from './open_source/tools.json'
@@ -160,4 +161,4 @@ export { default as reactArticles } from './tech_articles/react.json'
 // Newsletters
 export { default as jsLetters } from './newsletters/js_Letters.json'
 export { default as pythonLetters } from './newsletters/py_Letters.json'
-export {default as javaLetters} from './newsletters/java_Letters.json'
+export { default as javaLetters } from './newsletters/java_Letters.json'

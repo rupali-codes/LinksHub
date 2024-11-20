@@ -9,6 +9,7 @@ export const sidebarData: ISidebar[] = [
     category: 'frontend',
     subcategory: [
       { name: 'next js', url: '/next_js', resources: DB.next },
+      { name: 'vue js', url: '/vue_js', resources: DB.vuejs },
       {
         name: '3D libraries',
         url: '/three_d_libraries',
@@ -97,16 +98,16 @@ export const sidebarData: ISidebar[] = [
     category: 'CMS-toolkit',
     subcategory: [
       {
-        name: "Traditional CMS",
-        url: "/traditional_cms",
+        name: 'Traditional CMS',
+        url: '/traditional_cms',
         resources: DB.traditional_cms,
       },
       {
         name: 'Headless CMS',
         url: '/headless_cms',
         resources: DB.headless_cms,
-      }
-    ]
+      },
+    ],
   },
   {
     category: 'languages',
@@ -139,9 +140,7 @@ export const sidebarData: ISidebar[] = [
   },
   {
     category: 'mobile',
-    subcategory: [
-      { name: 'Android', url: '/android', resources: DB.android },
-    ],
+    subcategory: [{ name: 'Android', url: '/android', resources: DB.android }],
   },
   {
     category: 'open-source',
@@ -181,22 +180,22 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'design',
     subcategory: [
-    {
-      name: 'design inspiration',
-      url: '/design_inspiration',
-      resources: DB.designInspirations,
-    },
-    {
-      name: 'design color tools',
-      url: '/design_color_tools',
-      resources: DB.designColorTools,
-    },
-    {
-      name: 'design tutorials',
-      url: '/design_tutorials',
-      resources: DB.designTutorials,
-    }
-  ]
+      {
+        name: 'design inspiration',
+        url: '/design_inspiration',
+        resources: DB.designInspirations,
+      },
+      {
+        name: 'design color tools',
+        url: '/design_color_tools',
+        resources: DB.designColorTools,
+      },
+      {
+        name: 'design tutorials',
+        url: '/design_tutorials',
+        resources: DB.designTutorials,
+      },
+    ],
   },
   {
     category: 'devops',
@@ -284,10 +283,7 @@ export const sidebarData: ISidebar[] = [
         url: '/chat_bots',
         resources: DB.chat_bots,
       },
-      { name: 'tensorflow',
-        url: '/tensorflow',
-        resources: DB.tensorflow,
-      }
+      { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
     ],
   },
   {
@@ -364,8 +360,8 @@ export const sidebarData: ISidebar[] = [
         name: 'react',
         url: '/react_articles',
         resources: DB.reactArticles,
-      }
-    ]
+      },
+    ],
   },
   {
     category: 'newsletters',
@@ -381,11 +377,11 @@ export const sidebarData: ISidebar[] = [
         resources: DB.pythonLetters,
       },
       {
-        name:'java',
-        url:'/javaLetters',
-        resources:DB.javaLetters,
-      }
-    ]
+        name: 'java',
+        url: '/javaLetters',
+        resources: DB.javaLetters,
+      },
+    ],
   },
   {
     category: 'theory-of-computation',
