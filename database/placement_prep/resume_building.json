@@ -47,5 +47,12 @@
     "url": "https://cultivatedculture.com/resume-scanner/",
     "category": "placement-prep",
     "subcategory": "resume_building"
+  },
+  {
+    "name": "flowcv",
+    "description": "The Only Resume Builder You'll Ever Need. Effortless. Customizable. Result-Driven",
+    "url": "https://flowcv.com/resume-builder",
+    "category": "placement-prep",
+    "subcategory": "resume_building"
   }
 ]
