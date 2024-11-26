@@ -507,7 +507,6 @@ export const sidebarData: ISidebar[] = [
       },
     ],
   },
-  ,
   {
     category: 'ethical-hacking',
     subcategory: [

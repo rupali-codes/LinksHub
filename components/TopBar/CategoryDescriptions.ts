@@ -93,7 +93,7 @@ const categoryDescriptions: CategoryDescriptions = {
 
   //Mobile
   android:
-  'Android programming is the process of creating applications that run on the Android operating system. Android applications are written in Java or Kotlin programming languages.',
+    'Android programming is the process of creating applications that run on the Android operating system. Android applications are written in Java or Kotlin programming languages.',
 
   //Design
   design_tools:
@@ -103,7 +103,7 @@ const categoryDescriptions: CategoryDescriptions = {
   design_inspiration:
     'The right kind of inspiration will always help you come up with creative and unique ideas for your projects but sometimes you need some help getting inspired. Luckily, there are a TON of great resources for design inspiration.',
 
-    // Open-source
+  // Open-source
   articles:
     'There are many open source blogging platforms available for developers. Some of the most popular ones include WordPress, Joomla, and Drupal1. Other open source blogging platforms include Ghost, Serendipity, SilverStripe, and Jekyll',
   hacktoberfest:
@@ -133,6 +133,15 @@ const categoryDescriptions: CategoryDescriptions = {
   microservices:
     'Microservices are a software development technique—a variant of the service-oriented architecture (SOA) architectural style that structures an application as a collection of loosely coupled services.',
   iac: 'Infrastructure as Code (IaC) is the managing and provisioning of infrastructure through code instead of through manual processes.',
+  // ethical hacking
+  cryptography_attacks:
+    'Explores techniques used to exploit vulnerabilities in cryptographic systems, such as cracking encryption and breaking security algorithms.',
+  malware_and_payload_development:
+    'Focuses on the creation of malicious software and payloads designed to exploit system vulnerabilities or execute harmful actions.',
+  social_engineering:
+    'Examines methods of manipulating human behavior to gain unauthorized access or sensitive information, emphasizing psychological tactics.',
+  wireless_hacking:
+    'Covers techniques and tools used to compromise wireless networks, including WiFi security vulnerabilities and attack strategies.',
 
   // AI
   artificial_intelligence:
@@ -191,7 +200,7 @@ const categoryDescriptions: CategoryDescriptions = {
   //theory-of-computation
   computer_science:
     'Computer science programming is the process of creating computer software using programming languages. Computer science programming is a subset of computer science that focuses on the development of software .',
-  
+
   //competitive programming
   cp_helpers:
     'Coding libraries, templates, and community forums serve as valuable aids for competitive programmers, offering pre-written code snippets, discussions, and collaborative support to optimize problem-solving efficiency.',
@@ -202,7 +211,7 @@ const categoryDescriptions: CategoryDescriptions = {
 
   //other
   fintech:
-  'It is a catch-all term for technology used to augment, streamline, digitize or disrupt traditional financial services. Fintech refers to software, algorithms, and applications for both desktop and mobile.',
+    'It is a catch-all term for technology used to augment, streamline, digitize or disrupt traditional financial services. Fintech refers to software, algorithms, and applications for both desktop and mobile.',
   events:
     'An event is a gathering where professionals and enthusiasts explore, discuss, and showcase advancements in technology. It fosters learning, networking, and collaboration among individuals passionate about various technical fields.',
   communities:
