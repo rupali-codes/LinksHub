@@ -507,6 +507,32 @@ export const sidebarData: ISidebar[] = [
       },
     ],
   },
+  ,
+  {
+    category: 'ethical-hacking',
+    subcategory: [
+      {
+        name: 'cryptography attacks',
+        url: '/cryptography_attacks',
+        resources: DB.cryptographyAttacks,
+      },
+      {
+        name: 'malware and payload development',
+        url: '/malware_and_payload_development',
+        resources: DB.malwareAndPayloadDevelopment,
+      },
+      {
+        name: 'Social Engineering',
+        url: '/social_engineering',
+        resources: DB.socialEngineering,
+      },
+      {
+        name: 'wireless hacking',
+        url: '/wireless_hacking',
+        resources: DB.wirelesshacking,
+      },
+    ],
+  },
   {
     category: 'other',
     subcategory: [
