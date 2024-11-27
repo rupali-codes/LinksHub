@@ -19,5 +19,12 @@
     "url": "https://hemingwayapp.com/",
     "category": "technical-writing",
     "subcategory": "technical_writing_tools"
+  },
+  {
+    "name": "Overleaf",
+    "description": "An online LaTeX editing platform with a real-time compiler. It allows users to collaborate on LaTeX projects seamlessly, making it easy to share and co-edit documents online. Overleaf also offers a wide range of templates for formal letters, resumes, technical articles, and more, helping users get started quickly.",
+    "url": "https://www.overleaf.com/",
+    "category": "technical-writing",
+    "subcategory": "technical_writing_tools"
   }
 ]
