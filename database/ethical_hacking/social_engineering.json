@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Social engineering - complete article",
+    "description": "Proofpoint's article on social engineering explains how attackers exploit human behavior and offers strategies to recognize and prevent these tactics.",
+    "url": "https://www.proofpoint.com/us/threat-reference/social-engineering",
+    "category": "ethical-hacking",
+    "subcategory": "social_engineering"
+  }
+]
