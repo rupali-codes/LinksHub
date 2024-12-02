@@ -63,7 +63,10 @@ const CategoryPage = () => {
                       <Icons.arrow className="opacity-0 group-hover:opacity-100 duration-300 w-6 h-6 text-theme-secondary dark:text-white" />
                     </div>
                     <div className="dark:text-text-tertiary text-text-quinary text-md h-12 pb-4">
-                      <div className="text-ellipsis ... line-clamp-2 w-full">
+                      <div
+                        className="text-ellipsis ... line-clamp-2 w-full"
+                        title={getDesc(subcat.url.slice(1))}
+                      >
                         {getDesc(subcat.url.slice(1))}
                       </div>
                     </div>
