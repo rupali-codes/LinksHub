@@ -1,5 +1,3 @@
-import { generalWebFundamentals } from "database"
-
 type CategoryDescriptions = {
   [key: string]: string
 }
@@ -64,8 +62,10 @@ const categoryDescriptions: CategoryDescriptions = {
     'Validation is the process of checking whether a system or its component(s) satisfies the specified requirements or not and checks the data is correct or not.',
 
   // cms toolkit
-  headless_cms: 'Decouple content management from presentation, allowing content delivery via APIs to various platforms. This flexibility enhances omnichannel distribution and user experiences.',
-  traditional_cms: 'Offers integrated solutions for content creation and presentation, featuring user-friendly interfaces and built-in templates for easy website management.',
+  headless_cms:
+    'Decouple content management from presentation, allowing content delivery via APIs to various platforms. This flexibility enhances omnichannel distribution and user experiences.',
+  traditional_cms:
+    'Offers integrated solutions for content creation and presentation, featuring user-friendly interfaces and built-in templates for easy website management.',
 
   //languages
   general_web_fundamentals:
@@ -98,6 +98,8 @@ const categoryDescriptions: CategoryDescriptions = {
   //Mobile
   android:
     'Android programming is the process of creating applications that run on the Android operating system. Android applications are written in Java or Kotlin programming languages.',
+  react_native:
+    "Learn once, write anywhere, React Native is a JavaScript framework that allows developers to build native apps using JavaScript and React. It's a cross-platform, hybrid library that incorporates JavaScript, which is compatible with both Android and iOS.",
 
   //Design
   design_tools:
@@ -160,7 +162,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
 
   // AI Tools
-  'design':
+  design:
     'Harness the power of AI-driven editing tools to refine your writing effortlessly. From grammar and style suggestions to readability enhancements, these editors ensure your content shines with clarity and precision',
   chat_bots:
     "Experience seamless interactions and instant assistance with AI chatbots. Whether it's answering queries, providing support, or automating tasks, these intelligent bots deliver personalized responses to enhance user experiences.",
@@ -224,13 +226,11 @@ const categoryDescriptions: CategoryDescriptions = {
     'This list of Development tools will help you boost your programming speed and modify your projects to the next level.',
   github: 'Well, Github does not need description, devs know well!',
   git: 'Your friendly neighborhood version control system to track the development activities.',
-  other_resources:
-    'Some extra resources to help you in your coding projects.',
+  other_resources: 'Some extra resources to help you in your coding projects.',
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
   contributors:
     'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
-  text_formatting:
-    'Your ultimate solution for all your text formatting needs!',
+  text_formatting: 'Your ultimate solution for all your text formatting needs!',
   roadmaps:
     'Roadmaps are strategic plans that outline key milestones, goals, and timelines. They serve as guides for project development, ensuring a systematic and organized approach to achieving objectives.',
   domains:
