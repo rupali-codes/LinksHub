@@ -112,11 +112,11 @@
     "subcategory": "animations"
   },
   {
-    "name":"Easings",
-    "description":"This site consists of Easing Functions with detailed implementation which are useful for web animation enthusiasts",
-    "url":"https://easings.net/",
-    "category":"frontend",
-    "subcategory":"animations"
+    "name": "Easings",
+    "description": "This site consists of Easing Functions with detailed implementation which are useful for web animation enthusiasts",
+    "url": "https://easings.net/",
+    "category": "frontend",
+    "subcategory": "animations"
   },
   {
     "name": "Animate.css",
@@ -143,6 +143,13 @@
     "name": "GSAP",
     "description": "GSAP is a robust industry standard JavaScript animation library from GreenSock that lets you craft high-performance animations that works in every major browser. Animate CSS, SVG, canvas, React, Vue, WebGL, colors, strings, motion paths, generic objects...anything JavaScript can touch!",
     "url": "https://gsap.com/",
+    "category": "frontend",
+    "subcategory": "animations"
+  },
+  {
+    "name": "UI Ball",
+    "description": "UI Ball is a collection of lightweight and customizable React components, commonly used for loading indicators or simple UI elements.",
+    "url": "https://uiball.com/ldrs/",
     "category": "frontend",
     "subcategory": "animations"
   }
