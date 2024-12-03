@@ -139,7 +139,7 @@
     "category": "frontend",
     "subcategory": "online_code_editors"
   },
-   {
+  {
     "name": "Ideone",
     "description": " Ideone is an online compiler and debugging tool that allows developers to compile source code and execute it online in more than 60 programming languages.",
     "url": "https://ideone.com/",
@@ -166,6 +166,12 @@
     "url": "https://jsitor.com/",
     "category": "frontend",
     "subcategory": "online_code_editors"
+  },
+  {
+    "name": "Project IDX",
+    "description": "Google Project IDX is an AI-powered, cloud-based development environment that streamlines app development across platforms, offering a collaborative workspace and seamless integration with popular tools.",
+    "url": "https://idx.google.com/",
+    "category": "frontend",
+    "subcategory": "online_code_editors"
   }
-  
 ]
