@@ -13,6 +13,7 @@ import {
   FaHeart,
   FaLinkedin,
   FaTrophy,
+  FaAlignJustify,
 } from 'react-icons/fa'
 import {
   FaDiscord,
@@ -20,9 +21,12 @@ import {
   FaXTwitter,
   FaArrowRightLong,
   FaStaylinked,
+  FaChevronLeft
 } from 'react-icons/fa6'
 
 export const Icons = {
+  faAlignJustify: FaAlignJustify,
+  faChevronLeft: FaChevronLeft,
   arrowRoundForward: IoIosArrowRoundForward,
   arrowBack: IoIosArrowBack,
   gitBranch: IoMdGitBranch,
