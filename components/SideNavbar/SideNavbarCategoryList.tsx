@@ -20,13 +20,14 @@ export const SideNavbarCategoryList: FC<{
     }
   }, [router.pathname, router.query])
 
-  if (categoriesList.length == 0) {
+  if (categoriesList.length === 0) {
     return (
       <div className="dark:text-gray-200 text-gray-500 text-lg text-center py-2">
         No Links Found
       </div>
     )
   }
+  // console.log('this is cat list', categoriesList)
 
   return (
     <ul
@@ -39,38 +40,59 @@ export const SideNavbarCategoryList: FC<{
           listRef={listRef}
           key={categoryData.category}
           categoryData={categoryData}
-          expand={query.length > 0 || category === categoryData.category}      />
+          expand={query.length > 0 || category === categoryData.category}
+        />
       ))}
     </ul>
   )
 }
 
 const getFilteredCategoryList = (query: string) => {
-  const filteredResults = sidebarData.filter((sidebarItem) =>
-    sidebarItem.subcategory.some((subCategory) =>
-      matchSearch(subCategory, query)
+  const normalizedQuery = query.toLowerCase().trim()
+
+  if (!normalizedQuery) {
+    return sidebarData
+  }
+
+  const filteredResults = sidebarData.filter((sidebarItem) => {
+    const categoryNameMatches = sidebarItem.category
+      .toLowerCase()
+      .includes(normalizedQuery)
+
+    const hasMatchingSubcategories = sidebarItem.subcategory.some(
+      (subCategory) => matchSearch(subCategory, normalizedQuery)
     )
-  )
-  const mappedResults = filteredResults.map((sidebarItem) => ({
-    ...sidebarItem,
-    subcategory: sidebarItem.subcategory.filter((subcategory) =>
-      matchSearch(subcategory, query)
-    ),
-  }))
+
+    return categoryNameMatches || hasMatchingSubcategories
+  })
+
+  // Map results to include all subcategories if the category matches
+  const mappedResults = filteredResults.map((sidebarItem) => {
+    const categoryNameMatches = sidebarItem.category
+      .toLowerCase()
+      .includes(normalizedQuery)
+
+    return {
+      ...sidebarItem,
+      subcategory: categoryNameMatches
+        ? sidebarItem.subcategory
+        : sidebarItem.subcategory.filter((subCategory) =>
+            matchSearch(subCategory, normalizedQuery)
+          ),
+    }
+  })
 
   return mappedResults
 }
 
+// console.log('thsi is the filtered cat list', getFilteredCategoryList)
+
 const matchSearch = (item: SubCategories, query: string) => {
   const itemName = item.name.toLowerCase()
   const matchingResources = item.resources.filter(
-    (resource: { name: string }) =>
-      resource.name.toLowerCase().includes(query.toLowerCase())
+    (resource: { name: string }) => resource.name.toLowerCase().includes(query)
   )
 
-  return (
-    query === '' ||
-    itemName.includes(query.toLowerCase()) ||
-    matchingResources.length > 0
-  )
+  // Match if query matches the subcategory name or  resource
+  return itemName.includes(query) || matchingResources.length > 0
 }

@@ -19,6 +19,10 @@ export const searchbarReducer: (
   state: SearchbarState,
   action: SearchbarAction
 ) => SearchbarState = (state, action) => {
+  let updatedState
+  // console.log('Reducer state before action:', state)
+  // console.log('Reducer action:', action)
+
   switch (action.type) {
     case 'search_query_change': {
       const query = action.searchQuery as string
@@ -57,13 +61,16 @@ export const searchbarReducer: (
     case 'close_suggestions': {
       return {
         ...state,
-        searchQuery : "",
-        categoryQuery : "",
+        searchQuery: '',
+        categoryQuery: '',
         showSuggestions: false,
       }
+      break
     }
     default: {
-      return state
+      updatedState = state
     }
   }
+  // console.log('Searchbar state after action: ', updatedState)
+  return updatedState
 }
