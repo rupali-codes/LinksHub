@@ -1,73 +1,67 @@
-import { FC, useState, useEffect, MutableRefObject } from 'react';
-import { useRouter } from 'next/router';
-import Link from 'next/link';
+import { FC, useState, useEffect, MutableRefObject } from 'react'
+import { useRouter } from 'next/router'
+import Link from 'next/link'
 
-import { SideNavbarElement } from './SideNavbarElement';
+import { SideNavbarElement } from './SideNavbarElement'
 
-import useOnClickOutside from 'hooks/useOnClickOutside';
-import type { ISidebar } from '../../types';
+import useOnClickOutside from 'hooks/useOnClickOutside'
+import type { ISidebar } from '../../types'
 
-import { Icons } from 'components/icons';
+import { Icons } from 'components/icons'
 
-const categoriesToUppercase = ['ai'];
+const categoriesToUppercase = ['ai']
 const exceptions: Record<string, string> = {
   youtube: 'YouTube',
-};
+}
 
 const capitalizeCategory = (category: string) => {
-  const lowerCaseCategory = category.toLowerCase();
+  const lowerCaseCategory = category.toLowerCase()
 
   if (exceptions[lowerCaseCategory]) {
-    return exceptions[lowerCaseCategory];
+    return exceptions[lowerCaseCategory]
   }
 
   return category
     .split('-')
-    .map(word =>
+    .map((word) =>
       categoriesToUppercase.includes(word.toLowerCase())
         ? word.toUpperCase()
         : word.charAt(0).toUpperCase() + word.slice(1)
     )
-    .join(' ');
-};
+    .join(' ')
+}
 
 export const SideNavbarCategory: FC<{
-  categoryData: ISidebar;
-  expand: boolean;
-  listRef: MutableRefObject<HTMLUListElement | null>;
+  categoryData: ISidebar
+  expand: boolean
+  listRef: MutableRefObject<HTMLUListElement | null>
 }> = ({ categoryData, expand, listRef }) => {
-  const [isOpen, setIsOpen] = useState(expand);
-  // const [hasUpdated, setHasUpdated] = useState(categoryData);
-  const router = useRouter();
-  const { category, subcategory } = categoryData;
+  const [isOpen, setIsOpen] = useState(expand)
+  const router = useRouter()
+  const { category, subcategory } = categoryData
+
   const sortedSubcategoryList = subcategory
     .sort((a, b) => (a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1))
     .map((subcategoryData, i) => (
       <li className="-ml-0.5" key={i}>
         <SideNavbarElement category={category} subcat={subcategoryData} />
       </li>
-    ));
+    ))
 
   useEffect(() => {
-    setIsOpen(expand);
-    // setHasUpdated(categoryData);
-  }, [expand, categoryData]);
+    setIsOpen(expand)
+  }, [expand])
 
   const handleToggle = () => {
-    setIsOpen(!isOpen);
-  };
+    setIsOpen(!isOpen)
+  }
 
   const handleClickOutside = async () => {
-    setIsOpen(false);
-    router.replace('/');
-  };
+    setIsOpen(false)
+    router.replace('/')
+  }
 
-  // const handleUpdate = () => {
-  //   setHasUpdated(!hasUpdated);
-  //   handleUpdate();
-  // };
-
-  useOnClickOutside(listRef, handleClickOutside);
+  useOnClickOutside(listRef, handleClickOutside)
 
   return (
     <li className="w-full transition-all ease-in-out text-primary dark:text-theme-primary dark:bg-opacity-5 hover:text-theme-secondary dark:hover:text-theme-primary rounded-md focus-visible:outline-none focus-visible:ring focus-visible:ring-theme-primary">
@@ -82,7 +76,6 @@ export const SideNavbarCategory: FC<{
             category.length < 4 ? 'uppercase' : 'capitalize'
           }`}
         >
-          {/* { category === 'open-source' ? '<strong>New' : capitalizeCategory(category)} */}
           {capitalizeCategory(category)}
         </h1>
         <Icons.angleDown
@@ -91,6 +84,7 @@ export const SideNavbarCategory: FC<{
           } h-5 w-5 text-slate-500 dark:text-slate-300 self-center transition duration-300 ease-in-out`}
         />
       </Link>
+
       <div
         className={`overflow-hidden transition-all duration-500 ease-in-out max-h-0 ${
           isOpen ? 'max-h-screen' : ''
@@ -99,5 +93,5 @@ export const SideNavbarCategory: FC<{
         <ul className="">{sortedSubcategoryList}</ul>
       </div>
     </li>
-  );
-};
+  )
+}
