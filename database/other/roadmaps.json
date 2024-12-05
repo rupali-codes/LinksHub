@@ -40,5 +40,11 @@
     "url": "https://takeuforward.org/interviews/most-trusted-90-days-roadmap-to-placement-guaranteed/",
     "category": "other",
     "subcategory": "roadmaps"
+},
+{
+  "title": "DevOps Engineer Roadmap",
+  "description": "Comprehensive guide for becoming a DevOps Engineer, covering CI/CD, cloud, monitoring, and more.",
+  "link": "https://roadmap.sh/devops",
+  "type": "roadmap"
 }
 ]
