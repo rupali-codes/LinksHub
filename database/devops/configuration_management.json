@@ -1,8 +1,8 @@
 [
   {
-    "name": "",
-    "description": "",
-    "url": "",
+    "name": "Bitbucket",
+    "description": "Elevate your software delivery from planning to production and beyond, with built-in AI, CI/CD, and a best-in-class Jira integration.",
+    "url": "https://www.atlassian.com/software/bitbucket",
     "category": "devops",
     "subcategory": "configuration_management"
   }

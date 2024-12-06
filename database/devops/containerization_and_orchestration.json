@@ -1,8 +1,8 @@
 [
   {
-    "name": "",
-    "description": "",
-    "url": "",
+    "name": "Red Hat OpenShift",
+    "description": "Red Hat® OpenShift® is a trusted, comprehensive, and consistent platform to develop, modernize, and deploy applications at scale, including today’s AI-enabled apps. Innovate faster with a complete set of services for bringing apps to market on your choice of infrastructure.",
+    "url": "https://www.redhat.com/en/technologies/cloud-computing/openshift",
     "category": "devops",
     "subcategory": "containerization_and_orchestration"
   }
