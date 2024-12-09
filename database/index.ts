@@ -39,6 +39,9 @@ export { default as designTutorials } from './design/design_tutorials.json'
 //devops
 export { default as automationTools } from './devops/automation_tools.json'
 export { default as cicd } from './devops/cicd.json'
+export { default as configMang } from './devops/configuration_management.json'
+export { default as contOrch } from './devops/containerization_and_orchestration.json'
+export { default as monitorLogging } from './devops/monitoring_and_logging.json'
 export { default as devopsLifecycle } from './devops/devops_life_cycle.json'
 export { default as devopsMethodologies } from './devops/devops_methodologies.json'
 export { default as docker } from './devops/docker.json'
@@ -66,6 +69,7 @@ export { default as swift } from './languages/swift.json'
 export { default as css } from './languages/css.json'
 // mobile
 export { default as android } from './mobile/android.json'
+export { default as react_native } from './mobile/react_native.json'
 //internet of things
 export { default as coursera } from './internet_of_things/coursera.json'
 export { default as raspberrypi } from './internet_of_things/raspberrypi.json'
@@ -94,7 +98,7 @@ export { default as tensorflow } from './ai_tools/tensorflow.json'
 
 // Open-source
 export { default as openSourceArticles } from './open_source/articles.json'
-export { default as openSourceHacktoberfest} from './open_source/hacktoberfest.json'
+export { default as openSourceHacktoberfest } from './open_source/hacktoberfest.json'
 export { default as openSourcePrograms } from './open_source/os_programs.json'
 export { default as openSourceProjects } from './open_source/projects.json'
 export { default as openSourceTools } from './open_source/tools.json'
@@ -163,7 +167,7 @@ export { default as pythonLetters } from './newsletters/py_Letters.json'
 export { default as javaLetters } from './newsletters/java_Letters.json'
 
 // Ethical Hacking
-export {default as cryptographyAttacks} from './ethical_hacking/cryptography_attacks.json'
-export {default as malwareAndPayloadDevelopment} from './ethical_hacking/malware_and_payload_development.json'
-export {default as socialEngineering} from './ethical_hacking/social_engineering.json'
-export {default as wirelesshacking} from './ethical_hacking/wireless_hacking.json'
+export { default as cryptographyAttacks } from './ethical_hacking/cryptography_attacks.json'
+export { default as malwareAndPayloadDevelopment } from './ethical_hacking/malware_and_payload_development.json'
+export { default as socialEngineering } from './ethical_hacking/social_engineering.json'
+export { default as wirelesshacking } from './ethical_hacking/wireless_hacking.json'

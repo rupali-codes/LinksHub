@@ -1,5 +1,3 @@
-import { generalWebFundamentals } from "database"
-
 type CategoryDescriptions = {
   [key: string]: string
 }
@@ -64,8 +62,10 @@ const categoryDescriptions: CategoryDescriptions = {
     'Validation is the process of checking whether a system or its component(s) satisfies the specified requirements or not and checks the data is correct or not.',
 
   // cms toolkit
-  headless_cms: 'Decouple content management from presentation, allowing content delivery via APIs to various platforms. This flexibility enhances omnichannel distribution and user experiences.',
-  traditional_cms: 'Offers integrated solutions for content creation and presentation, featuring user-friendly interfaces and built-in templates for easy website management.',
+  headless_cms:
+    'Decouple content management from presentation, allowing content delivery via APIs to various platforms. This flexibility enhances omnichannel distribution and user experiences.',
+  traditional_cms:
+    'Offers integrated solutions for content creation and presentation, featuring user-friendly interfaces and built-in templates for easy website management.',
 
   //languages
   general_web_fundamentals:
@@ -98,6 +98,8 @@ const categoryDescriptions: CategoryDescriptions = {
   //Mobile
   android:
     'Android programming is the process of creating applications that run on the Android operating system. Android applications are written in Java or Kotlin programming languages.',
+  react_native:
+    "Learn once, write anywhere, React Native is a JavaScript framework that allows developers to build native apps using JavaScript and React. It's a cross-platform, hybrid library that incorporates JavaScript, which is compatible with both Android and iOS.",
 
   //Design
   design_tools:
@@ -124,6 +126,9 @@ const categoryDescriptions: CategoryDescriptions = {
   automation_tools:
     'Automation tools in DevOps are software solutions tha streamline and automate repetitive tasks, processes and workflows, improving efficiency, consistency and speed in software development and deployment',
   cicd: 'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
+  configuration_management: 'Configuration management helps avoid inconsistencies between software versions while testing, guaranteeing configuration continuity. It also helps keep everything documented and reported, so no minor system changes and misconfigurations that may undermine the performance and spawn further issues go unnoticed.',
+  containerization_and_orchestration: 'Containerization is the process of running applications in isolated environments, while container orchestration is the process of managing and deploying multiple containers.',
+  monitoring_and_logging: 'In DevOps, "monitoring" refers to the real-time tracking of system health and performance metrics, like CPU usage, network traffic, and application response times, while "logging" involves recording detailed information about system events and actions in a structured format, allowing for later analysis and troubleshooting of issues',
   devops_life_cycle:
     'DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
   devops_methodologies:
@@ -160,7 +165,7 @@ const categoryDescriptions: CategoryDescriptions = {
     'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
 
   // AI Tools
-  'design':
+  design:
     'Harness the power of AI-driven editing tools to refine your writing effortlessly. From grammar and style suggestions to readability enhancements, these editors ensure your content shines with clarity and precision',
   chat_bots:
     "Experience seamless interactions and instant assistance with AI chatbots. Whether it's answering queries, providing support, or automating tasks, these intelligent bots deliver personalized responses to enhance user experiences.",
@@ -224,13 +229,11 @@ const categoryDescriptions: CategoryDescriptions = {
     'This list of Development tools will help you boost your programming speed and modify your projects to the next level.',
   github: 'Well, Github does not need description, devs know well!',
   git: 'Your friendly neighborhood version control system to track the development activities.',
-  other_resources:
-    'Some extra resources to help you in your coding projects.',
+  other_resources: 'Some extra resources to help you in your coding projects.',
   podcasts: 'Coding podcasts to listen to when you feel demotivated.',
   contributors:
     'These are the people that have helped LinksHub come to life! Thank you for your support! Note: M = Maintainer and C = Contributors',
-  text_formatting:
-    'Your ultimate solution for all your text formatting needs!',
+  text_formatting: 'Your ultimate solution for all your text formatting needs!',
   roadmaps:
     'Roadmaps are strategic plans that outline key milestones, goals, and timelines. They serve as guides for project development, ensuring a systematic and organized approach to achieving objectives.',
   domains:
