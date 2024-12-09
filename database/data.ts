@@ -140,7 +140,14 @@ export const sidebarData: ISidebar[] = [
   },
   {
     category: 'mobile',
-    subcategory: [{ name: 'Android', url: '/android', resources: DB.android }],
+    subcategory: [
+      { name: 'Android', url: '/android', resources: DB.android },
+      {
+        name: 'React Native',
+        url: '/react_native',
+        resources: DB.react_native,
+      },
+    ],
   },
   {
     category: 'open-source',
@@ -211,6 +218,16 @@ export const sidebarData: ISidebar[] = [
         resources: DB.cicd,
       },
       {
+        name: 'Configuration Management',
+        url: '/configuration_management',
+        resources: DB.configMang,
+      },
+      {
+        name: 'Containerization and Orchestration',
+        url: '/containerization_and_orchestration',
+        resources: DB.contOrch,
+      },
+      {
         name: 'DevOps Life Cycle',
         url: '/devops_life_cycle',
         resources: DB.devopsLifecycle,
@@ -231,6 +248,11 @@ export const sidebarData: ISidebar[] = [
         name: 'microservices',
         url: '/microservices',
         resources: DB.microservices,
+      },
+      {
+        name: 'Monitoring and Loggging',
+        url: '/monitoring_and_logging',
+        resources: DB.monitorLogging,
       },
       {
         name: 'IaC',
