@@ -26,6 +26,7 @@ export { default as systemDesign } from './backend/system_design.json'
 export { default as database } from './backend/database.json'
 export { default as api } from './backend/api.json'
 export { default as emailProviders } from './backend/email_providers.json'
+export { default as nestJs } from './backend/nest_js.json'
 
 // cms toolkit
 export { default as headless_cms } from './CMS_toolkit/headless_cms.json'
