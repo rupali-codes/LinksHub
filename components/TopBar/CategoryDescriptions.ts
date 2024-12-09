@@ -52,6 +52,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'A database is an organized collection of data that can be easily accessed, managed, and updated. Databases are used to store and manage data for various applications such as websites, mobile apps, and enterprise systems.',
   email_providers:
     'Platforms facilitating the exchange of electronic messages, allowing users to send, receive, and manage their emails efficiently.',
+  nest_js:
+    'A progressive Node.js framework for building efficient, reliable and scalable server-side applications.A progressive Node.js framework for building efficient, reliable and scalable server-side applications.',
   security:
     'Security is the practice of protecting systems, networks, and data from unauthorized access, use, disclosure, disruption, modification, or destruction.',
   system_design:
@@ -126,9 +128,12 @@ const categoryDescriptions: CategoryDescriptions = {
   automation_tools:
     'Automation tools in DevOps are software solutions tha streamline and automate repetitive tasks, processes and workflows, improving efficiency, consistency and speed in software development and deployment',
   cicd: 'Continuous integration and continuous delivery (CI/CD) is a set of practices that combines continuous integration (CI) and continuous delivery (CD) to automate the process of software development and deployment.',
-  configuration_management: 'Configuration management helps avoid inconsistencies between software versions while testing, guaranteeing configuration continuity. It also helps keep everything documented and reported, so no minor system changes and misconfigurations that may undermine the performance and spawn further issues go unnoticed.',
-  containerization_and_orchestration: 'Containerization is the process of running applications in isolated environments, while container orchestration is the process of managing and deploying multiple containers.',
-  monitoring_and_logging: 'In DevOps, "monitoring" refers to the real-time tracking of system health and performance metrics, like CPU usage, network traffic, and application response times, while "logging" involves recording detailed information about system events and actions in a structured format, allowing for later analysis and troubleshooting of issues',
+  configuration_management:
+    'Configuration management helps avoid inconsistencies between software versions while testing, guaranteeing configuration continuity. It also helps keep everything documented and reported, so no minor system changes and misconfigurations that may undermine the performance and spawn further issues go unnoticed.',
+  containerization_and_orchestration:
+    'Containerization is the process of running applications in isolated environments, while container orchestration is the process of managing and deploying multiple containers.',
+  monitoring_and_logging:
+    'In DevOps, "monitoring" refers to the real-time tracking of system health and performance metrics, like CPU usage, network traffic, and application response times, while "logging" involves recording detailed information about system events and actions in a structured format, allowing for later analysis and troubleshooting of issues',
   devops_life_cycle:
     'DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.',
   devops_methodologies:

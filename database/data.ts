@@ -91,6 +91,11 @@ export const sidebarData: ISidebar[] = [
         url: '/api',
         resources: DB.api,
       },
+      {
+        name: 'Nest.js',
+        url: '/nest_js',
+        resources: DB.nestJs,
+      },
     ],
   },
   {
