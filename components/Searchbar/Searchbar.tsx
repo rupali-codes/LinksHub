@@ -40,7 +40,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
     importedSearchOptions
   )
 
-  console.log('Suggestions to Render:', suggestions)
+  // console.log('Suggestions to Render:', suggestions)
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     // Dispatch the search query change
@@ -70,7 +70,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
   }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    console.log('this is sidebar data', sidebarData)
+    // console.log('this is sidebar data', sidebarData)
     e.preventDefault()
     const cleanedSearchQuery = searchQuery.toLocaleLowerCase().trim()
     const filteredData = getFilteredSuggestions(cleanedSearchQuery)
@@ -168,7 +168,7 @@ const getFilteredSuggestions = (query: string) => {
   // console.log('Imported Search Options:', importedSearchOptions)
 
   if (normalisedQuery.length === 0) {
-    console.log('Query is empty, returning no suggestions.')
+    // console.log('Query is empty, returning no suggestions.')
     return []
   }
 
