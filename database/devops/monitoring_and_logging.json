@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Sensu",
+    "description": "Sensu is a powerful open-source monitoring framework built for cloud environments. You can use the tool to track and measure the health of your apps, infrastructure, and business KPIs the way you want.",
+    "url": "https://sensu.io/",
+    "category": "devops",
+    "subcategory": "monitoring_and_logging"
+  }
+]
