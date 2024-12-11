@@ -20,20 +20,28 @@ body:
       options:
         - Frontend
         - Backend
-        - Machine Learning
+        - CMS Toolkit
         - Artificial Intelligence
-        - Internet of Things
+        - AI Tools
+        - Internet Of Things
         - Cloud Computing
         - DevOps
+        - Design
         - Competitive Programming
+        - Theory Of Computation
         - Data Structures
-        - Youtube
+        - Mobile
+        - Game Development
         - Resources
+        - Quality Assurance
         - Languages
         - Open Source
-        - Technical Writing 
+        - Technical Writing
+        - Tech Articles
+        - Newsletters
         - Cyber Security
-        - Blockchain
+        - Ethical Hacking
+        - BlockChain
         - Placement Prep.
         - Other
     validations:
