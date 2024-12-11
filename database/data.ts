@@ -383,7 +383,7 @@ export const sidebarData: ISidebar[] = [
     category: 'tech-articles',
     subcategory: [
       {
-        name: 'react',
+        name: 'react articles',
         url: '/react_articles',
         resources: DB.reactArticles,
       },
