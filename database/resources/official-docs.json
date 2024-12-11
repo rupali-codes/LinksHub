@@ -110,5 +110,12 @@
     "url": "https://nuxtjs.org/",
     "category": "resources",
     "subcategory": "officialdocs"
+  },
+  {
+    "name": "Flask",
+    "description": "Flask is a web framework, it’s a Python module that lets you develop web applications easily. It’s has a small and easy-to-extend core: it’s a microframework that doesn’t include an ORM or such features.",
+    "url": "https://flask.palletsprojects.com/",
+    "category": "resources",
+    "subcategory": "officialdocs"
   }
 ]
