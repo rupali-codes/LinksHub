@@ -104,7 +104,7 @@ const categoryDescriptions: CategoryDescriptions = {
     "Learn once, write anywhere, React Native is a JavaScript framework that allows developers to build native apps using JavaScript and React. It's a cross-platform, hybrid library that incorporates JavaScript, which is compatible with both Android and iOS.",
 
   //Design
-  design_tools:
+  design_color_tools:
     'Applications used to create, prototype, and manage user interface designs and visual elements.',
   design_tutorials:
     'Instructional resources that teach users how to create and apply design concepts, techniques, and tools effectively.',
