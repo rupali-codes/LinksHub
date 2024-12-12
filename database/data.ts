@@ -9,6 +9,7 @@ export const sidebarData: ISidebar[] = [
     category: 'frontend',
     subcategory: [
       { name: 'next js', url: '/next_js', resources: DB.next },
+      { name: 'vue js', url: '/vue_js', resources: DB.vuejs },
       {
         name: '3D libraries',
         url: '/three_d_libraries',
