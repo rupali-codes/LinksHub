@@ -171,7 +171,3 @@ export {default as cryptographyAttacks} from './ethical_hacking/cryptography_att
 export {default as malwareAndPayloadDevelopment} from './ethical_hacking/malware_and_payload_development.json'
 export {default as socialEngineering} from './ethical_hacking/social_engineering.json'
 export {default as wirelesshacking} from './ethical_hacking/wireless_hacking.json'
-export { default as cryptographyAttacks } from './ethical_hacking/cryptography_attacks.json'
-export { default as malwareAndPayloadDevelopment } from './ethical_hacking/malware_and_payload_development.json'
-export { default as socialEngineering } from './ethical_hacking/social_engineering.json'
-export { default as wirelesshacking } from './ethical_hacking/wireless_hacking.json'
