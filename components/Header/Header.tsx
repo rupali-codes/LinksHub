@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, useContext, useState } from 'react'
 import Link from 'next/link'
 import clsx from 'clsx'
 import { useRouter } from 'next/router'
@@ -8,6 +8,7 @@ import Button from 'components/Button'
 
 import Logo from 'assets/logo.svg'
 import { Icons } from 'components/icons'
+import { GlobalContext } from 'context/GlobalContext'
 
 export const Header: FC = () => {
   const router = useRouter()
@@ -62,6 +63,7 @@ export const Header: FC = () => {
     }
   ]
 
+  const { toggleNav } = useContext(GlobalContext);
   const renderLinks = () =>
     navLinks.map(({ inActiveIcon, activeIcon, label, href }, i) => {
       const checkRoute = (val: string) => router.asPath.startsWith(val)
@@ -71,25 +73,32 @@ export const Header: FC = () => {
       const isActive = label === 'Home' ? isHomeActive : isUrlMatched
 
       return (
-          <li key={i}>
-            <a
-              href={href}
-              className={`hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 flex items-center justify-start p-2 gap-2 text-base font-medium leading-5 rounded-xl ${
-                isActive ? 'text-primary dark:text-white' : 'text-gray-text'
+        <li key={i}>
+          <a
+            href={href}
+            className={`hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 flex items-center justify-start p-2 gap-2 text-base font-medium leading-5 rounded-xl ${
+              isActive ? 'text-primary dark:text-white' : 'text-gray-text'
               }`}
-            >
-              <span className="flex items-center justify-center" title={label}>
-                {isActive ? activeIcon : inActiveIcon}
-              </span>
-              <span>{label}</span>
-            </a>
-          </li>
+          >
+            <span className="flex items-center justify-center" title={label}>
+              {isActive ? activeIcon : inActiveIcon}
+            </span>
+            <span>{label}</span>
+          </a>
+        </li>
       )
     })
 
   return (
     <header className="fixed top-0 left-0 z-30 row-start-1 row-end-2 h-[76px] w-screen flex items-center justify-between px-6 bg-white dark:bg-slate-800 shadow-header dark:shadow-none">
       <div className="flex gap-4 tall:gap-6">
+        {/* Mobile/Tablet Sidebar Toggle Button */}
+        <button
+          onClick={toggleNav}
+          className="sm:hidden text-gray-700 dark:text-white p-2 focus:outline-none"
+        >
+          <Icons.faAlignJustify className="h-6 w-6" />
+        </button>
         <Link href="/" aria-label="LinksHub Logo">
           <Logo />
         </Link>

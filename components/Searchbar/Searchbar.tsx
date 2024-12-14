@@ -1,4 +1,4 @@
-import { useRef, useEffect, Ref } from 'react'
+import { useRef, useEffect, Ref, useContext } from 'react'
 import { useRouter } from 'next/router'
 import { useReducer, useState } from 'react'
 
@@ -119,6 +119,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
 
   return (
     <form
+      style={{ width: "100%" }}
       data-custom="restrict-click-outside"
       noValidate
       ref={formRef}
