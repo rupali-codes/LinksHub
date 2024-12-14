@@ -1,6 +1,8 @@
+
 import { FC, useState, useEffect, MutableRefObject } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+
 
 import { SideNavbarElement } from './SideNavbarElement'
 
@@ -36,6 +38,7 @@ export const SideNavbarCategory: FC<{
   expand: boolean
   listRef: MutableRefObject<HTMLUListElement | null>
 }> = ({ categoryData, expand, listRef }) => {
+
   const [isOpen, setIsOpen] = useState(expand)
   const router = useRouter()
   const { category, subcategory } = categoryData
@@ -51,6 +54,7 @@ export const SideNavbarCategory: FC<{
   useEffect(() => {
     setIsOpen(expand)
   }, [expand])
+
 
   const handleToggle = () => {
     setIsOpen(!isOpen)
@@ -72,23 +76,20 @@ export const SideNavbarCategory: FC<{
         href={`/${category}`}
       >
         <h1
-          className={`text-slate-500 dark:text-slate-300 text-lg font-sans font-medium w-4/5 truncate ${
-            category.length < 4 ? 'uppercase' : 'capitalize'
-          }`}
+          className={`text-slate-500 dark:text-slate-300 text-lg font-sans font-medium w-4/5 truncate ${category.length < 4 ? 'uppercase' : 'capitalize'
+            }`}
         >
           {capitalizeCategory(category)}
         </h1>
         <Icons.angleDown
-          className={`${
-            isOpen && 'rotate-180'
-          } h-5 w-5 text-slate-500 dark:text-slate-300 self-center transition duration-300 ease-in-out`}
+          className={`${isOpen && 'rotate-180'
+            } h-5 w-5 text-slate-500 dark:text-slate-300 self-center transition duration-300 ease-in-out`}
         />
       </Link>
 
       <div
-        className={`overflow-hidden transition-all duration-500 ease-in-out max-h-0 ${
-          isOpen ? 'max-h-screen' : ''
-        }`}
+        className={`overflow-hidden transition-all duration-500 ease-in-out max-h-0 ${isOpen ? 'max-h-screen' : ''
+          }`}
       >
         <ul className="">{sortedSubcategoryList}</ul>
       </div>

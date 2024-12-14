@@ -1,0 +1,135 @@
+[
+    {
+        "name": "Vue.js Official Guide",
+        "description": "Comprehensive guide to learn Vue.js from the official documentation.",
+        "url": "https://vuejs.org/guide/introduction.html",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Vue Mastery",
+        "description": "In-depth courses and tutorials on Vue.js for all levels.",
+        "url": "https://www.vuemastery.com/",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Vue School",
+        "description": "Online platform offering beginner to advanced Vue.js courses.",
+        "url": "https://vueschool.io/",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Vue.js Crash Course",
+        "description": "A crash course covering the basics of Vue.js.",
+        "url": "https://www.youtube.com/watch?v=Wy9q22isx3U",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Learn Vue 3 by Example",
+        "description": "Learn Vue 3 through practical examples and projects.",
+        "url": "https://scrimba.com/learn/vue",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Awesome Vue",
+        "description": "A curated list of Vue.js libraries, tutorials, and resources.",
+        "url": "https://github.com/vuejs/awesome-vue",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Vue.js Best Practices",
+        "description": "A guide to write maintainable and scalable Vue.js applications.",
+        "url": "https://vuejsdevelopers.com/blog/vue-js-best-practices/",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Vue Router Introduction",
+        "description": "Learn how to implement routing in Vue.js applications.",
+        "url": "https://router.vuejs.org/",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "State Management with Vuex",
+        "description": "Official documentation to manage application state using Vuex.",
+        "url": "https://vuex.vuejs.org/",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Vuetify Basics",
+        "description": "Learn how to use Vuetify for building stunning UI components.",
+        "url": "https://vuetifyjs.com/en/getting-started/installation/",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Nuxt.js Documentation",
+        "description": "Learn how to build server-side rendered Vue applications with Nuxt.js.",
+        "url": "https://nuxtjs.org/",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Real World Vue.js",
+        "description": "Tutorial series to build real-world Vue.js apps.",
+        "url": "https://vueschool.io/courses/real-world-vue-js",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Vue 3 Cookbook",
+        "description": "Collection of patterns and examples for Vue 3 development.",
+        "url": "https://vuejs.org/guide/reusability/custom-directives.html",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Scalable Vue.js Applications",
+        "description": "Tips for scaling and optimizing large Vue.js projects.",
+        "url": "https://markus.oberlehner.net/blog/scaling-vuejs-applications/",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Test Vue.js Applications",
+        "description": "Learn to write unit and integration tests for Vue.js.",
+        "url": "https://vueschool.io/courses/unit-testing-vue",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Vue DevTools Guide",
+        "description": "Learn to debug Vue applications using Vue DevTools.",
+        "url": "https://devtools.vuejs.org/guide/",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Vue 3 Features Deep Dive",
+        "description": "Explore advanced features of Vue 3 like teleport, fragments, and more.",
+        "url": "https://vuedose.tips/what-s-new-in-vue-3/",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Building a Todo App in Vue.js",
+        "description": "Step-by-step guide to build a todo app in Vue.js.",
+        "url": "https://www.smashingmagazine.com/2020/12/todo-app-vue-js-node-vuex/",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    },
+    {
+        "name": "Using Vue.js with TypeScript",
+        "description": "Best practices for integrating Vue.js with TypeScript.",
+        "url": "https://vuejs.org/guide/typescript/overview.html",
+        "category": "frontend",
+        "subcategory": "vue_js"
+    }
+]

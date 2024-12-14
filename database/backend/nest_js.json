@@ -1,0 +1,16 @@
+[
+    {
+        "name": "NestJS Full Course 2024",
+        "description": "Each concept of Nest.js explained with JWT, Prisma ORM, Database, Authentication etc.",
+        "url": "https://www.youtube.com/watch?v=JDJ0zQLvpOA",
+        "category": "backend",
+        "subcategory": "nest_js"
+    },
+    {
+        "name": "NestJS in 100 Seconds",
+        "description": "Good to give you a quick idea about, what is nest.js by Fireship",
+        "url": "https://youtu.be/0M8AYU_hPas",
+        "category": "backend",
+        "subcategory": "nest_js"
+    }
+]
