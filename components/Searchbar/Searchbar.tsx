@@ -1,5 +1,7 @@
 import { useRef, useEffect, Ref } from 'react'
 import { useRouter } from 'next/router'
+import { useReducer, useState } from 'react'
+
 import dynamic from 'next/dynamic'
 
 const ShortcutKey = dynamic(() => import('./ShortcutKey'), { ssr: false })
@@ -12,6 +14,7 @@ import { Icons } from 'components/icons'
 import { SubCategories, subcategoryArray } from '../../types'
 import { SearchbarAction } from './SearchbarReducer'
 import { sidebarData } from 'database/data'
+import { searchOptions as importedSearchOptions } from 'database/data'
 
 interface SearchbarProps {
   dispatchSearch: (action: SearchbarAction) => void
@@ -21,7 +24,6 @@ interface SearchbarProps {
   inputRef: Ref<HTMLInputElement>
 }
 
-const searchOptions = subcategoryArray
 const SEARCH_ERROR_MSG = 'Please enter a valid search query'
 
 export const Searchbar: React.FC<SearchbarProps> = ({
@@ -34,20 +36,26 @@ export const Searchbar: React.FC<SearchbarProps> = ({
   const formRef = useRef<HTMLFormElement>(null)
   const router = useRouter()
   const suggestions = getFilteredSuggestions(searchQuery)
+  const [sidebarFilteredData, setSidebarFilteredData] = useState(
+    importedSearchOptions
+  )
+
+  // console.log('Suggestions to Render:', suggestions)
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    // Dispatch the search query change
     dispatchSearch({
       type: 'search_query_change',
       searchQuery: e.target.value,
     })
 
+    // Handle clearing search query and routing to home
     if (
       !e.target.value &&
       router.asPath != '/' &&
       router.asPath.substring(1, 7) == 'search'
     ) {
       searchQuery = ''
-
       router.push('/')
     }
   }
@@ -62,9 +70,13 @@ export const Searchbar: React.FC<SearchbarProps> = ({
   }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    // console.log('this is sidebar data', sidebarData)
     e.preventDefault()
-    dispatchSearch({ type: 'submit' })
     const cleanedSearchQuery = searchQuery.toLocaleLowerCase().trim()
+    const filteredData = getFilteredSuggestions(cleanedSearchQuery)
+    setSidebarFilteredData(filteredData)
+    dispatchSearch({ type: 'submit' })
+
     if (cleanedSearchQuery !== '') {
       const { category } = sidebarData.find((item) =>
         item.subcategory.find((subCat) => subCat.name === cleanedSearchQuery)
@@ -151,12 +163,28 @@ export const Searchbar: React.FC<SearchbarProps> = ({
 
 const getFilteredSuggestions = (query: string) => {
   const normalisedQuery = query.trim().toLowerCase()
+
+  // console.log('Search Query:', query)
+  // console.log('Imported Search Options:', importedSearchOptions)
+
   if (normalisedQuery.length === 0) {
+    // console.log('Query is empty, returning no suggestions.')
     return []
   }
-  const suggestions = searchOptions.filter((option) =>
-    option.name.toLowerCase().includes(normalisedQuery)
-  )
+
+  const suggestions = importedSearchOptions.filter((option) => {
+    const optionName = option.name?.toLowerCase().trim()
+    const categoryName = option.category?.toLowerCase().trim()
+
+    // console.log('Checking Option:', { optionName, categoryName })
+
+    return (
+      (optionName && optionName.includes(normalisedQuery)) ||
+      (categoryName && categoryName.includes(normalisedQuery))
+    )
+  })
+
+  // console.log('Filtered Suggestions:', suggestions)
 
   return suggestions
 }
