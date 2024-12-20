@@ -35,7 +35,7 @@ export { default as traditional_cms } from './CMS_toolkit/traditional_cms.json'
 
 //design
 export { default as designInspirations } from './design/design_inspiration.json'
-export { default as designColorTools } from './design/design_color_tools.json'
+export { default as colorTools } from './design/color_tools.json'
 export { default as designTutorials } from './design/design_tutorials.json'
 
 //devops
@@ -168,7 +168,7 @@ export { default as jsLetters } from './newsletters/js_Letters.json'
 export { default as pythonLetters } from './newsletters/py_Letters.json'
 export { default as javaLetters } from './newsletters/java_Letters.json'
 // Ethical Hacking
-export {default as cryptographyAttacks} from './ethical_hacking/cryptography_attacks.json'
-export {default as malwareAndPayloadDevelopment} from './ethical_hacking/malware_and_payload_development.json'
-export {default as socialEngineering} from './ethical_hacking/social_engineering.json'
-export {default as wirelesshacking} from './ethical_hacking/wireless_hacking.json'
+export { default as cryptographyAttacks } from './ethical_hacking/cryptography_attacks.json'
+export { default as malwareAndPayloadDevelopment } from './ethical_hacking/malware_and_payload_development.json'
+export { default as socialEngineering } from './ethical_hacking/social_engineering.json'
+export { default as wirelesshacking } from './ethical_hacking/wireless_hacking.json'

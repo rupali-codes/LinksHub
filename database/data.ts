@@ -192,9 +192,9 @@ export const sidebarData: ISidebar[] = [
         resources: DB.designInspirations,
       },
       {
-        name: 'design color tools',
-        url: '/design_color_tools',
-        resources: DB.designColorTools,
+        name: 'color tools',
+        url: '/color_tools',
+        resources: DB.colorTools,
       },
       {
         name: 'design tutorials',
