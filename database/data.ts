@@ -145,14 +145,8 @@ export const sidebarData: ISidebar[] = [
   },
   {
     category: 'mobile',
-    subcategory: [
-      { name: 'Android', url: '/android', resources: DB.android },
-      {
-        name: 'React Native',
-        url: '/react_native',
-        resources: DB.react_native,
-      },
-    ],
+    subcategory: [{ name: 'Android', url: '/android', resources: DB.android }],
+
   },
   {
     category: 'open-source',
@@ -600,5 +594,12 @@ export const subCategories = sidebarData.flatMap(({ category, subcategory }) =>
   subcategory.map(({ url }) => ({
     category,
     subcategory: url.replace('/', ''),
+  }))
+)
+
+export const searchOptions = sidebarData.flatMap(({ category, subcategory }) =>
+  subcategory.map((subcat) => ({
+    ...subcat,
+    category,
   }))
 )
