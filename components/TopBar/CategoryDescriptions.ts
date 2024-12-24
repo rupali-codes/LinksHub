@@ -40,6 +40,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'JavaScript chart libraries are used to create interactive and visually appealing charts and graphs for web applications. They are often used in data visualization and reporting applications.',
   angular:
     'Angular is a popular open-source web application framework similar to react developed and maintained by Google. ',
+  vue_js:
+    'Vue.js provides a flexible foundation for building user interfaces with JavaScript. Its gentle learning curve makes it easy to get started, while its robust architecture supports the development of complex, large-scale applications.',
   //backend
   api: 'Interfaces that allow different software applications to communicate and share data with one another.',
   architecture:
