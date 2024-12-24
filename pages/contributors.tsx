@@ -265,7 +265,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                 className="bg-gray-100 rounded-3xl p-4 border border-dashed border-violet-500 dark:border-[#BDBDBD40] shadow-lg dark:bg-[#293242] dark:text-gray-300 dark:shadow-sm flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer m-1"
               >
                 <div className="bg-[#714EFF] bg-opacity-5 dark:bg-[#9F87FF] dark:bg-opacity-10 rounded-xl">
-                  <div className="flex justify-center image-wrapper pt-4">
+                  <div className="flex justify-center image-wrapper pt-8 lg:pt-4">
                     <Image
                       src={contributor.avatar_url}
                       alt={contributor.login}
@@ -285,8 +285,8 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                     <div className="text-gray-400 mb-2 pb-4">Web Developer</div>
                   </div>
                 </div>
-                <div className="flex justify-between mx-6 items-center mt-4">
-                  <div className="hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 ml-0 rounded-md transition-all duration-300 ease-in-out">
+                <div className="flex justify-between lg:mx-6 items-center mt-4">
+                  <div className="hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 lg:px-4 ml-0 rounded-md transition-all duration-300 ease-in-out">
                     <Link
                       href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
                       aria-label={`Commit History of ${contributor.login} in LinksHub`}
@@ -299,7 +299,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                       <span className="text-sm">Contributions</span>
                     </Link>
                   </div>
-                  <div className="mt-1 hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 mx-2 rounded-md transition-all duration-300 ease-in-out text-sm">
+                  <div className="mt-1 hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 lg:px-4 mx-2 rounded-md transition-all duration-300 ease-in-out text-sm">
                     <Link
                       href={`https://github.com/${contributor.login}`}
                       aria-label={`GitHub Profile of ${contributor.login}`}
@@ -313,7 +313,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                     </Link>
                   </div>
                   {contributor.twitter_username && (
-                    <div className="mt-1 hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 px-4 mr-2 rounded-md transition-all duration-300 ease-in-out text-sm">
+                    <div className="mt-1 hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 lg:px-4 mr-2 rounded-md transition-all duration-300 ease-in-out text-sm">
                       <Link
                         href={`https://twitter.com/${contributor.twitter_username}`}
                         aria-label={`Twitter Profile of ${contributor.twitter_username}`}
