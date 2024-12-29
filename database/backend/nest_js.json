@@ -12,5 +12,12 @@
         "url": "https://youtu.be/0M8AYU_hPas",
         "category": "backend",
         "subcategory": "nest_js"
+    },
+    {
+        "name": "Amazing NestJS - NestJS Framework",
+        "description": "It's a good course to learn NestJS in Hindi with easy to understand way. It covers all the basics and advanced concepts of NestJS in depth By Computer Baba.",
+        "url": "https://youtube.com/playlist?list=PLqLR2H326bY6eRNOXJxWQkvKNlzmJQfLj&si=8W49oZBLO3PyMjJ1",
+        "category": "backend",
+        "subcategory": "nest_js"
     }
 ]
