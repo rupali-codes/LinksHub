@@ -22,7 +22,7 @@ interface RatingForkProps {
   iconBgColor: string
   btnBgColor: string
   btnTextColor: string
-  btnHoverColor:string
+  btnHoverColor: string
   btnText: string
 }
 
@@ -89,7 +89,7 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
           style={buttonStyle}
-          className='text-base p-2 rounded-lg text-center w-full'
+          className="text-base p-2 rounded-lg text-center w-full"
         >
           {btnText}
         </button>
@@ -136,20 +136,21 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>LinksHub</title>
+        <title>LinksHub - A hub of ready-to-use tech resources</title>
         <meta name="title" content="LinksHub" />
         <meta
           name="description"
-          content="LinksHub is the ultimate hub of ready-to-use tech resources made for and by the community. Whether you are professional or enthusiast, we have what you need to help you grow."
+          content="LinksHub is the ultimate hub for free tech resources, tools, and libraries. Explore LinksHub to discover developer tools and resources tailored for growth."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="keywords"
-          content="LinksHub, developers, free resources, tools, software, libraries, frameworks, applications, websites"
+          content="LinksHub, developers, free resources, tools, software, libraries, frameworks, applications, websites, free tools, developer tools, tech resources"
         />
         <meta name="author" content="Rupali Haldiya" />
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="7 days" />
+        <link rel="canonical" href="https://linkshub.dev" />
 
         {/* Open Graph */}
         <meta property="og:url" content="https://linkshub.dev" />
@@ -195,6 +196,24 @@ export default function Home() {
         />
 
         <link rel="icon" href="/new-icon.png" className="rounded-full" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebSite',
+              name: 'LinksHub',
+              url: 'https://linkshub.dev',
+              description:
+                'LinksHub is the ultimate hub for free, ready-to-use tech resources, tools, and libraries for developers and tech enthusiasts.',
+              potentialAction: {
+                '@type': 'SearchAction',
+                target: 'https://linkshub.dev/search?q={search_term_string}',
+                'query-input': 'required name=search_term_string',
+              },
+            }),
+          }}
+        />
       </Head>
       <section
         data-custom="restrict-click-outside"
