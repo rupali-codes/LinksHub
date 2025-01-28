@@ -406,6 +406,11 @@ export const sidebarData: ISidebar[] = [
         name: 'AI Tools',
         url: '/aiLetters',
         resources: DB.aiLetters, 
+      },
+      {
+        name: 'DevOps',
+        url: '/devopsLetters',
+        resources: DB.devopsLetters,
       }
     ],
   },
