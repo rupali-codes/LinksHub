@@ -173,5 +173,12 @@
     "url": "https://idx.google.com/",
     "category": "frontend",
     "subcategory": "online_code_editors"
+  },
+  {
+    "name": "Cursor",
+    "description": "",
+    "url": "https://docs.cursor.com/get-started/",
+    "category": "frontend",
+    "subcategory": "online_code_editors"
   }
 ]

@@ -19,6 +19,12 @@
         "url":"https://docs.docker.com/",
         "category":"devops",
         "subcategory":"docker"
+    },
+    {
+        "name": "A Practical guide on Docker with projects",
+        "description": "A video tutorial on Docker with practical examples and projects.",
+        "url": "https://youtu.be/rr9cI4u1_88?si=grgTGB8vv-NBuVub",
+        "category": "devops",
+        "subcategory": "docker"
     }
-
 ]
