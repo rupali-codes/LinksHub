@@ -6,5 +6,21 @@
         "category": "mobile",
         "subcategory": "react_native",
         "language": "english"
+    },
+    {
+        "name": "React Native Full Course for Beginners",
+        "description": "This is a full tutorial of over 4 hours of React Native code and instruction to help you learn the basics of mobile app development.",
+        "url": "https://www.youtube.com/watch?v=sm5Y7Vtuihg&t=106s",
+        "category": "mobile",
+        "subcategory": "react_native",
+        "language": "english"
+    },
+    {
+        "name": "React Native Tutorial for Beginners - Build a React Native App",
+        "description": "Build amazing iOS & Android apps with React Native! This beginner-friendly tutorial gets you started.",
+        "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "category": "mobile",
+        "subcategory": "react_native",
+        "language": "english"
     }
 ]
