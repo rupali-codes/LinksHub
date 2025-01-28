@@ -402,6 +402,11 @@ export const sidebarData: ISidebar[] = [
         url: '/javaLetters',
         resources: DB.javaLetters,
       },
+      {
+        name: 'AI Tools',
+        url: '/aiLetters',
+        resources: DB.aiLetters, 
+      }
     ],
   },
   {

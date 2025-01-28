@@ -1,7 +1,9 @@
-{
-    "name": "The Pieces Post",
-    "url": "https://thepiecespost.beehiiv.com/",
-    "description": "The Pieces Post is a weekly newsletter that covers the latest in AI, machine learning, and data science.",
-    "category": "newsletters",
-    "subcategory": "ai_tools"
-}
+[
+    {
+        "name": "The Pieces Post",
+        "description": "The Pieces Post is a weekly newsletter that covers the latest in AI, machine learning, and data science.",
+        "url": "https://thepiecespost.beehiiv.com/",
+        "category": "newsletters",
+        "subcategory": "aiLetters"
+    }
+]
