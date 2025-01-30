@@ -12,5 +12,12 @@
     "url": "https://cheatography.com/burcuco/cheat-sheets/data-structures-and-algorithms/",
     "category": "data-structures",
     "subcategory": "dsa_articles"
+  },
+  {
+    "name": "Free DSA RoadMap",
+    "description": "Its a free DSA roadmap which consists of topic wise problems along with video and code solutions ,it's a great website for getting started",
+    "url": "https://algomap.io/",
+    "category": "data-structures",
+    "subcategory": "dsa_articles"
   }
 ]
