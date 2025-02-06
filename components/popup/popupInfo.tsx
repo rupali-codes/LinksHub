@@ -4,12 +4,14 @@ import { Backdrop } from 'components/Backdrop/Backdrop'
 import { createPortal } from 'react-dom'
 import useDelayUnmount from 'hooks/useDelayUnmount'
 import { IoClose } from 'react-icons/io5'
+import { useOnClickOutside } from 'hooks/window'
 
 export const PopupInfo: React.FC<{
   currentCard: IData | null
   onClose: () => void
 }> = ({ currentCard, onClose }) => {
   const showElement = useDelayUnmount(currentCard, 300)
+  const { popupRef } = useOnClickOutside(onClose)
 
   if (!showElement) {
     return null
@@ -27,6 +29,7 @@ export const PopupInfo: React.FC<{
       {createPortal(
         <div
           onClick={(e) => e.stopPropagation()}
+          ref={popupRef}
           className={`fixed left-1/2 top-1/2 z-[150] max-w-[500px] -translate-x-1/2 -translate-y-1/2 transition-all ${
             currentCard ? 'animate-scale-appearance' : 'animate-scale-hide'
           } flex h-fit w-[90%] flex-col justify-between gap-5 overflow-hidden rounded-2xl bg-light-primary border-2 border-theme-secondary/50 px-5 py-10 dark:bg-slate-800 dark:border dark:border-theme-primary/8`}

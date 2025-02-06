@@ -136,20 +136,20 @@
     "language": "english"
   },
   {
-    "name":"Code step by step",
+    "name": "Code step by step",
     "description": "A comprehensive playlist in Hindi that teaches developers data structures in Javascript from scratch.",
     "url": "https://www.youtube.com/watch?v=wZHtZ_VJGKI&list=PL8p2I9GklV47TMMnPzqnkCtSOS3ebr4O7&ab_channel=CodeStepByStep",
-    "category":"data-structures",
-    "subcategory":"dsa_tutorials",
-    "language":"hindi"
+    "category": "data-structures",
+    "subcategory": "dsa_tutorials",
+    "language": "hindi"
   },
   {
-    "name":"DataFlair",
+    "name": "DataFlair",
     "description": "A comprehensive playlist in Hindi that teaches developers data structures and algorithms using C from scratch.",
     "url": "https://youtube.com/playlist?list=PLf0LpPWikpPfA_vez2NndnYuQy6WkpTzc&si=K2-zGZeRd34fVzwT",
-    "category":"data-structures",
-    "subcategory":"dsa_tutorials",
-    "language":"hindi"
+    "category": "data-structures",
+    "subcategory": "dsa_tutorials",
+    "language": "hindi"
   },
   {
     "name": "Simple Snippets",
@@ -161,9 +161,17 @@
   },
   {
     "name": "Strivers 79 Last Moment DSA Sheet",
-    "description": "The Striver’s 79 Sheet contains very handily crafted and picked top coding interview questions from different topics of Data Structures & Algorithms.",
+    "description": "The Striver's 79 Sheet contains very handily crafted and picked top coding interview questions from different topics of Data Structures & Algorithms.",
     "url": "https://takeuforward.org/interview-sheets/strivers-79-last-moment-dsa-sheet-ace-interviews/",
     "category": "data-structures",
     "subcategory": "dsa_tutorials"
+  },
+  {
+    "name": "ALL IN ONE: DSA By HuXn WebDev",
+    "description": "HuXn's YouTube channel offers a free, comprehensive, and engaging DSA course in JavaScript, with clear explanations and practical examples—perfect for all learners!",
+    "url": "https://www.youtube.com/watch?v=wBtPGnVnA9g&list=PLSDeUiTMfxW5m9r2U1ruVXPKrP2aoVOVb&index=1",
+    "category": "data-structures",
+    "subcategory": "dsa_tutorials",
+    "language": "english"
   }
 ]
