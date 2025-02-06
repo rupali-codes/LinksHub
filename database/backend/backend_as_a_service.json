@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Directus",
+    "description": "This provides comprehensive documentation for Directus, covering installation, configuration, and detailed API reference for interacting with Directus, including examples and explanations for all available endpoints.",
+    "url": "https://docs.directus.io/",
+    "category": "backend",
+    "subcategory": "backend_as_a_service"
+  }
+]
