@@ -11,7 +11,7 @@ export const SideNavbarCategoryList: FC<{
   const router = useRouter()
   const [category, setCategory] = useState<string | undefined>('')
   const listRef = useRef<HTMLUListElement | null>(null)
-
+                               
   useEffect(() => {
     const cat: string | undefined = router.query.category as string | undefined
 
