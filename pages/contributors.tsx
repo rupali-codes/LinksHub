@@ -18,43 +18,52 @@ export const getStaticProps: GetStaticProps<{
     const response = await fetch(
       'https://api.github.com/repos/rupali-codes/LinksHub/contributors'
     )
-    if (response.ok) {
-      const contributors: Contributor[] = await response.json()
 
-      // Fetch contributor names
-      const updatedContributors: Contributor[] = []
-      for (const contributor of contributors) {
-        try {
-          const response = await fetch(
-            `https://api.github.com/users/${contributor.login}`
-          )
-          if (response.ok) {
-            const data = await response.json()
-            const updatedContributor: Contributor = {
-              ...contributor,
-              name: data.name || contributor.login,
-            }
-            updatedContributors.push(updatedContributor)
-          } else {
-            console.error('Failed to fetch contributor name:', response.status)
-          }
-        } catch (error) {
-          console.error(
-            'Failed to fetch contributor name from GitHub API:',
-            error
-          )
-        }
-      }
-
-      return { props: { contributors: updatedContributors } }
-    } else {
+    if (!response.ok) {
       console.error('Failed to fetch contributors data:', response.status)
+      return { props: { contributors: [] } }
     }
+
+    const contributors: Contributor[] = await response.json()
+
+    // Fetch all contributor details in parallel
+    const contributorPromises = contributors.map(async (contributor) => {
+      try {
+        const userResponse = await fetch(
+          `https://api.github.com/users/${contributor.login}`
+        )
+
+        if (!userResponse.ok) {
+          console.error(
+            'Failed to fetch contributor name:',
+            userResponse.status
+          )
+
+          // We fetch contributor details using the GitHub API for their full profile.
+          // If the request to https://api.github.com/users/${contributor.login} fails,
+          // we fallback to using `contributor.login` as a default value,
+          return { ...contributor, name: contributor.login } // Fallback to login
+        }
+
+        const data = await userResponse.json()
+        return { ...contributor, name: data.name || contributor.login }
+      } catch (error) {
+        console.error(
+          'Failed to fetch contributor name from GitHub API:',
+          error
+        )
+        return { ...contributor, name: contributor.login } // Fallback to login on error
+      }
+    })
+
+    // Wait for all promises to resolve
+    const updatedContributors = await Promise.all(contributorPromises)
+
+    return { props: { contributors: updatedContributors } }
   } catch (error) {
     console.error('Failed to fetch contributors data from GitHub API:', error)
+    return { props: { contributors: [] } }
   }
-
-  return { props: { contributors: [] } }
 }
 
 const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
@@ -174,7 +183,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   return (
     <div className="md:mx-4">
       <div>
-        <h2 className="text-2xl text-gray-600 dark:text-white tracking-wide pb-2 mt-14 lg:mt-2">
+        <h2 className="pb-2 mt-14 text-2xl tracking-wide text-gray-600 dark:text-white lg:mt-2">
           Our Team
         </h2>
         <h4 className="text-[#A1A1A9]">
@@ -182,7 +191,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
           Open Source Success Story
         </h4>
       </div>
-      <div className="maintainers-our-team grid sm:grid-cols-1 xl:grid-cols-2 gap-5 mt-8">
+      <div className="maintainers-our-team grid gap-5 mt-8 sm:grid-cols-1 xl:grid-cols-2">
         {Maintainers.map((maintainer, id) => (
           <div
             key={id}
@@ -193,7 +202,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                 className={`rounded-xl flex-grow
                 ${getDarkBgColor(id, 'bg')}`}
               >
-                <div className="flex justify-center image-wrapper pt-4">
+                <div className="image-wrapper flex justify-center pt-4">
                   <Image
                     src={maintainer.avatarUrl}
                     alt={`image of ${maintainer.name}`}
@@ -215,15 +224,15 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                   </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl text-gray-800 dark:text-gray-300 mt-2 mb-1">
+                  <div className="mt-2 mb-1 text-2xl text-gray-800 dark:text-gray-300">
                     {maintainer.name}
                   </div>
-                  <div className="text-gray-400 mb-2 pb-4">
+                  <div className="pb-4 mb-2 text-gray-400">
                     {maintainer.designation}
                   </div>
                 </div>
               </div>
-              <div className="flex md:flex-col justify-between sm:mx-16 md:mx-1 md:space-y-5 items-center mt-5 md:mt-0">
+              <div className="flex justify-between items-center mt-5 md:flex-col md:mx-1 md:mt-0 md:space-y-5 sm:mx-16">
                 {generateLinksData(maintainer).map((linkData, idx) => (
                   <div
                     key={idx}
@@ -235,7 +244,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                     <Link
                       href={linkData.link}
                       aria-label={`url of ${linkData.link}`}
-                      className="flex flex-col items-center justify-center"
+                      className="flex flex-col justify-center items-center"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -252,7 +261,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
         ))}
       </div>
       {contributorsWithoutMaintainers.length === 0 ? (
-        <div className="flex justify-center items-center text-xl font-bol my-12 text-gray-600 dark:text-violet-300">
+        <div className="font-bol flex justify-center items-center my-12 text-xl text-gray-600 dark:text-violet-300">
           The GitHub API Limit is reached. Please try again later!
         </div>
       ) : (
@@ -265,32 +274,32 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                 className="bg-gray-100 rounded-3xl p-4 border border-dashed border-violet-500 dark:border-[#BDBDBD40] shadow-lg dark:bg-[#293242] dark:text-gray-300 dark:shadow-sm flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer m-1"
               >
                 <div className="bg-[#714EFF] bg-opacity-5 dark:bg-[#9F87FF] dark:bg-opacity-10 rounded-xl">
-                  <div className="flex justify-center image-wrapper pt-8 lg:pt-4">
+                  <div className="image-wrapper flex justify-center pt-8 lg:pt-4">
                     <Image
                       src={contributor.avatar_url}
                       alt={contributor.login}
                       width={110}
                       height={110}
                       priority={true}
-                      className="rounded-full mb-4 border-2 border-violet-500 dark:border-violet-400 dark:border-opacity-50 transition-transform duration-300 hover:scale-105 hover:border-dotted m-2"
+                      className="m-2 mb-4 rounded-full border-2 border-violet-500 transition-transform duration-300 dark:border-opacity-50 dark:border-violet-400 hover:border-dotted hover:scale-105"
                     />
                     <div className="bg-[#714EFF] bg-opacity-10 text-[#714EFF] dark:text-[#9F87FF] dark:bg-[#9F87FF] dark:bg-opacity-20 text-xs tracking-wide py-1 px-2 rounded-full absolute top-2 right-2 border border-[#714EFF] border-opacity-20 dark:border-none">
                       Developer
                     </div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl text-gray-800 dark:text-violet-400 mt-2 mb-1">
+                    <div className="mt-2 mb-1 text-2xl text-gray-800 dark:text-violet-400">
                       {contributor.name}
                     </div>
-                    <div className="text-gray-400 mb-2 pb-4">Web Developer</div>
+                    <div className="pb-4 mb-2 text-gray-400">Web Developer</div>
                   </div>
                 </div>
-                <div className="flex justify-between lg:mx-6 items-center mt-4">
+                <div className="flex justify-between items-center mt-4 lg:mx-6">
                   <div className="hover:bg-[#9F87FF1A] hover:text-gray-600 dark:hover:text-violet-300 py-1 lg:px-4 ml-0 rounded-md transition-all duration-300 ease-in-out">
                     <Link
                       href={`https://github.com/rupali-codes/LinksHub/commits?author=${contributor.login}`}
                       aria-label={`Commit History of ${contributor.login} in LinksHub`}
-                      className="flex flex-col items-center justify-center"
+                      className="flex flex-col justify-center items-center"
                       {...linkProps}
                     >
                       <div className="pb-1 text-2xl">
@@ -303,7 +312,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                     <Link
                       href={`https://github.com/${contributor.login}`}
                       aria-label={`GitHub Profile of ${contributor.login}`}
-                      className="flex flex-col items-center justify-center"
+                      className="flex flex-col justify-center items-center"
                       {...linkProps}
                     >
                       <div className="pb-2">
@@ -317,7 +326,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
                       <Link
                         href={`https://twitter.com/${contributor.twitter_username}`}
                         aria-label={`Twitter Profile of ${contributor.twitter_username}`}
-                        className="flex flex-col items-center justify-center"
+                        className="flex flex-col justify-center items-center"
                         {...linkProps}
                       >
                         <div className="pb-2">
@@ -334,14 +343,14 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
       )}
       <div className="bg-white dark:bg-[#293242] flex justify-between flex-col md:flex-row rounded-xl py-6 px-4 my-10">
         <div className="flex space-x-4">
-          <div className="pl-2 pr-3">
+          <div className="pr-3 pl-2">
             <Icons.faTrophy className="text-2xl text-[#FBD449]" />{' '}
           </div>
           <div className="flex flex-col">
             <div className="text-[#293242] dark:text-white text-lg pb-1">
               Join our awesome team!
             </div>
-            <div className="text-gray-400 pr-2 md:pr-4">
+            <div className="pr-2 text-gray-400 md:pr-4">
               Be a contributor and improve LinksHub and help fellow developers.
             </div>
           </div>
@@ -352,7 +361,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
             aria-label="GitHub Link to LinksHub"
             {...linkProps}
           >
-            <div className="flex items-center justify-center py-4 text-md">
+            <div className="text-md flex justify-center items-center py-4">
               Join us now
               <span className="pl-2 text-sm">
                 {' '}
@@ -362,7 +371,8 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
           </Link>
         </div>
       </div>
-      {contributorsWithoutMaintainers.length !== 0 ? (
+      {contributorsWithoutMaintainers.length !== 0 &&
+      displayedContributors < contributorsWithoutMaintainers.length ? (
         <div className="flex justify-center items-center mb-8">
           <button
             className="bg-[#EBE5FF] dark:bg-[#293242] hover:bg-[#d0c8eb] dark:hover:bg-[#384355] text-[#714EFF] dark:text-gray-300 w-36 py-4 px-6 rounded-xl text-center cursor-pointer duration-300 transition-all"
