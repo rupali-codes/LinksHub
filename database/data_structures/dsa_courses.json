@@ -41,5 +41,12 @@
         "url": "https://pll.harvard.edu/course/cs50-introduction-computer-science",
         "category": "data-structures",
         "subcategory": "dsa_courses"
+    },
+    {
+        "name": "AlgoExpert : Data Structures Crash Course",
+        "description": "AlgoExpert is the leading platform to prepare for coding interviews. Master essential algorithms and data structures\n(Price: $119.0)\n(Certificate: Available)",
+        "url": "https://www.algoexpert.io/data-structures",
+        "category": "data-structures",
+        "subcategory": "dsa_courses"
     }
   ]
