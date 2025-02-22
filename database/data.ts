@@ -403,6 +403,11 @@ export const sidebarData: ISidebar[] = [
         url: '/javaLetters',
         resources: DB.javaLetters,
       },
+      { 
+        name: 'devops',
+        url: '/devopsletter',
+        resources: DB.devopsletter,
+      }
     ],
   },
   {
