@@ -292,5 +292,12 @@
     "url": "http://icones.js.org/",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "SVGL",
+    "description": "A beautiful library with SVG logos. Built with Sveltekit & Tailwind CSS.",
+    "url": "https://svgl.app",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
