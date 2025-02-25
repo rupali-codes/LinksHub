@@ -1,5 +1,12 @@
 [
   {
+    "name": "Transform Tools",
+    "description": "A polyglot web converter.",
+    "url": "https://transform.tools",
+    "category": "other",
+    "subcategory": "devtools"
+  },
+  {
     "name": "VSCodium",
     "description": "VSCodium is free/libre Open Source Software Binaries of VS Code.",
     "url": "https://github.com/VSCodium/vscodium",
