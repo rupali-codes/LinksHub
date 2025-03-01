@@ -33,5 +33,12 @@
     "url": "https://www.deepseek.com/",
     "category": "ai-tools",
     "subcategory": "chat_bots"
+  },
+  {
+    "name": "Qwen chatbot",
+    "description": "Qwen is a large language model developed by Alibaba Cloud. It can answer questions, write stories, emails, scripts, and more, and perform logical reasoning and programming tasks.",
+    "url": "https://chat.qwenlm.ai/",
+    "category": "ai-tools",
+    "subcategory": "chat_bots"
   }
 ]
