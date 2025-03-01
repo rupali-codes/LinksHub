@@ -1,0 +1,23 @@
+[
+	{
+		"name": "GitHub",
+		"description": "Get tips, technical guides, and best practices. Twice a month. Right in your inbox.",
+		"url": "https://resources.github.com/newsletter/",
+		"category": "newsletters",
+		"subcategory": "devopsLetters"
+	},
+	{
+		"name": "Docker",
+		"description": "The Docker Newsletter is your essential resource, curated for Docker users like you. Keep your finger on the pulse of the Docker ecosystem.",
+		"url": "https://www.docker.com/newsletter-subscription/",
+		"category": "newsletters",
+		"subcategory": "devopsLetters"
+	},
+	{
+		"name": "Kubernetes",
+		"description": "The Kubernetes Newsletter is a monthly newsletter that delivers the hottest Kubernetes news, articles, events, and more.",
+		"url": "https://www.cncf.io/kubeweekly/",
+		"category": "newsletters",
+		"subcategory": "devopsLetters"
+	}
+]
