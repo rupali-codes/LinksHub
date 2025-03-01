@@ -406,7 +406,7 @@ export const sidebarData: ISidebar[] = [
       { 
         name: 'devops',
         url: '/devopsletter',
-        resources: DB.devopsletter,
+        resources: DB.devopsLetters,
       }
     ],
   },
