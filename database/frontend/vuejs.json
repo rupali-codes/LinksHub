@@ -77,51 +77,9 @@
         "subcategory": "vue_js"
     },
     {
-        "name": "Real World Vue.js",
-        "description": "Tutorial series to build real-world Vue.js apps.",
-        "url": "https://vueschool.io/courses/real-world-vue-js",
-        "category": "frontend",
-        "subcategory": "vue_js"
-    },
-    {
         "name": "Vue 3 Cookbook",
         "description": "Collection of patterns and examples for Vue 3 development.",
         "url": "https://vuejs.org/guide/reusability/custom-directives.html",
-        "category": "frontend",
-        "subcategory": "vue_js"
-    },
-    {
-        "name": "Scalable Vue.js Applications",
-        "description": "Tips for scaling and optimizing large Vue.js projects.",
-        "url": "https://markus.oberlehner.net/blog/scaling-vuejs-applications/",
-        "category": "frontend",
-        "subcategory": "vue_js"
-    },
-    {
-        "name": "Test Vue.js Applications",
-        "description": "Learn to write unit and integration tests for Vue.js.",
-        "url": "https://vueschool.io/courses/unit-testing-vue",
-        "category": "frontend",
-        "subcategory": "vue_js"
-    },
-    {
-        "name": "Vue DevTools Guide",
-        "description": "Learn to debug Vue applications using Vue DevTools.",
-        "url": "https://devtools.vuejs.org/guide/",
-        "category": "frontend",
-        "subcategory": "vue_js"
-    },
-    {
-        "name": "Vue 3 Features Deep Dive",
-        "description": "Explore advanced features of Vue 3 like teleport, fragments, and more.",
-        "url": "https://vuedose.tips/what-s-new-in-vue-3/",
-        "category": "frontend",
-        "subcategory": "vue_js"
-    },
-    {
-        "name": "Building a Todo App in Vue.js",
-        "description": "Step-by-step guide to build a todo app in Vue.js.",
-        "url": "https://www.smashingmagazine.com/2020/12/todo-app-vue-js-node-vuex/",
         "category": "frontend",
         "subcategory": "vue_js"
     },
