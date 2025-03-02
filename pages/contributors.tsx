@@ -1,79 +1,79 @@
-import { FC, useState } from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import type { GetStaticProps } from 'next'
+import { FC, useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import type { GetStaticProps } from 'next';
 import {
   maintainersData,
   Maintainers,
   Contributor,
   MaintainersDataInterface,
-} from '../data/maintainersData'
-import React from 'react'
-import { Icons } from 'components/icons'
+} from '../data/maintainersData';
+import React from 'react';
+import { Icons } from 'components/icons';
 
 export const getStaticProps: GetStaticProps<{
-  contributors: Contributor[]
+  contributors: Contributor[];
 }> = async () => {
   try {
     const response = await fetch(
       'https://api.github.com/repos/rupali-codes/LinksHub/contributors'
-    )
+    );
     if (response.ok) {
-      const contributors: Contributor[] = await response.json()
+      const contributors: Contributor[] = await response.json();
 
       // Fetch contributor names
-      const updatedContributors: Contributor[] = []
+      const updatedContributors: Contributor[] = [];
       for (const contributor of contributors) {
         try {
           const response = await fetch(
             `https://api.github.com/users/${contributor.login}`
-          )
+          );
           if (response.ok) {
-            const data = await response.json()
+            const data = await response.json();
             const updatedContributor: Contributor = {
               ...contributor,
               name: data.name || contributor.login,
-            }
-            updatedContributors.push(updatedContributor)
+            };
+            updatedContributors.push(updatedContributor);
           } else {
-            console.error('Failed to fetch contributor name:', response.status)
+            console.error('Failed to fetch contributor name:', response.status);
           }
         } catch (error) {
           console.error(
             'Failed to fetch contributor name from GitHub API:',
             error
-          )
+          );
         }
       }
 
-      return { props: { contributors: updatedContributors } }
+      return { props: { contributors: updatedContributors } };
     } else {
-      console.error('Failed to fetch contributors data:', response.status)
+      console.error('Failed to fetch contributors data:', response.status);
     }
   } catch (error) {
-    console.error('Failed to fetch contributors data from GitHub API:', error)
+    console.error('Failed to fetch contributors data from GitHub API:', error);
   }
 
-  return { props: { contributors: [] } }
-}
+  return { props: { contributors: [] } };
+};
 
 const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
   contributors,
 }) => {
-  const [displayedContributors, setDisplayedContributors] = useState(9)
+  const [displayedContributors, setDisplayedContributors] = useState(9);
 
   const filteredContributors = contributors.filter(
     (contributor) => contributor.contributions >= 1
-  )
+  );
 
   const sortedContributors = filteredContributors.sort(
     (a, b) => b.contributions - a.contributions
-  )
+  );
 
   const linkProps = {
     target: '_blank',
     rel: 'noopener noreferrer',
-  }
+  };
 
   const iconsComponents: { [key: string]: JSX.Element } = {
     GitHub: <Icons.faGithub />,
@@ -81,15 +81,15 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
     Sponsor: <Icons.faHeart />,
     LinkedIn: <Icons.faLinkedin />,
     Website: <Icons.faStayLinked />,
-  }
+  };
 
   const maintainersLogins = maintainersData.map(
     (maintainer) => maintainer.login
-  )
+  );
 
   const contributorsWithoutMaintainers = sortedContributors.filter(
     (contributor) => !maintainersLogins.includes(contributor.login)
-  )
+  );
 
   const generateLinksData = (maintainer: MaintainersDataInterface) => [
     {
@@ -107,16 +107,16 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
       icon: maintainer.thirdTxt,
       text: maintainer.thirdTxt,
     },
-  ]
+  ];
 
   interface ColorStyles {
     [key: number]: {
-      bg: string
-      text: string
-      role: string
-      hover: string
-      border: string
-    }
+      bg: string;
+      text: string;
+      role: string;
+      hover: string;
+      border: string;
+    };
   }
 
   const getDarkBgColor = (
@@ -166,10 +166,10 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
           'hover:bg-[#ff9933] hover:bg-opacity-5 dark:hover:bg-[#ff9933] dark:hover:bg-opacity-20 hover:text-[#E672F9]',
         border: 'dark:border-[#ff9933] dark:border-opacity-20 border-[#ff9933]',
       },
-    }
+    };
 
-    return themeColor[id][check]
-  }
+    return themeColor[id][check];
+  };
 
   return (
     <div className="md:mx-4">
@@ -362,7 +362,8 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
           </Link>
         </div>
       </div>
-      {contributorsWithoutMaintainers.length !== 0 ? (
+      {contributorsWithoutMaintainers.length !== 0 &&
+      displayedContributors < contributorsWithoutMaintainers.length ? (
         <div className="flex justify-center items-center mb-8">
           <button
             className="bg-[#EBE5FF] dark:bg-[#293242] hover:bg-[#d0c8eb] dark:hover:bg-[#384355] text-[#714EFF] dark:text-gray-300 w-36 py-4 px-6 rounded-xl text-center cursor-pointer duration-300 transition-all"
@@ -373,7 +374,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
         </div>
       ) : null}
     </div>
-  )
-}
+  );
+};
 
-export default ContributorsPage
+export default ContributorsPage;
