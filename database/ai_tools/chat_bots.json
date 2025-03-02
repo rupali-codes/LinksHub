@@ -35,6 +35,13 @@
     "subcategory": "chat_bots"
   },
   {
+    "name": "Meta AI",
+    "description": "Meta AI is Meta's AI suite for Facebook, Instagram, and WhatsApp, offering features like image generation, question answering, brainstorming, and translation to improve user interactions.",
+    "url": "https://www.meta.ai/",
+    "category": "ai-tools",
+    "subcategory": "chat_bots"
+  },
+  {
     "name": "Qwen chatbot",
     "description": "Qwen is a large language model developed by Alibaba Cloud. It can answer questions, write stories, emails, scripts, and more, and perform logical reasoning and programming tasks.",
     "url": "https://chat.qwenlm.ai/",
