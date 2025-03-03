@@ -1,7 +1,7 @@
 [
   {
     "name": "Transform Tools",
-    "description": "A polyglot web converter.",
+    "description": "Transform Tools is a polyglot web converter helping you translate from one computer lanaguage to another.",
     "url": "https://transform.tools",
     "category": "other",
     "subcategory": "devtools"
