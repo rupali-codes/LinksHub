@@ -173,5 +173,12 @@
     "url": "https://github.com/goabstract/Awesome-Design-Tools",
     "category": "frontend",
     "subcategory": "design_inspiration"
+  },
+  {
+    "name": "Design Resources",
+    "description": "World’s largest collection of design resources, curated by designers.",
+    "url": "https://fountn.design",
+    "category": "frontend",
+    "subcategory": "design_inspiration"
   }
 ]
