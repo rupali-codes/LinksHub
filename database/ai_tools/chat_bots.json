@@ -40,5 +40,12 @@
     "url": "https://www.meta.ai/",
     "category": "ai-tools",
     "subcategory": "chat_bots"
+  },
+  {
+    "name": "Grok AI",
+    "description": "Grok AI is a state-of-the-art large language model created by xAI. The model is designed to provide highly accurate, context-aware responses to user queries and is intended to be both useful and engaging.",
+    "url": "https://grok.com/",
+    "category": "ai-tools",
+    "subcategory": "chat_bots"
   }
 ]
