@@ -57,8 +57,15 @@
   },
   {
     "name": "ThemesBerg",
-    "description": "Provides free and premium templates and themes from a wide variety of web development and software companies",
+    "description": "Provides free and premium templates and themes from a wide variety of web development and software companies.",
     "url": "https://themesberg.com",
+    "category":"frontend",
+    "subcategory":"themes_and_templates"
+  },
+  {
+    "name": "HTMLrev",
+    "description": "Provides selected free HTML templates for websites, landing pages, blogs, portfolios, ecommerce and admin dashboards.",
+    "url": "https://htmlrev.com",
     "category":"frontend",
     "subcategory":"themes_and_templates"
   }
