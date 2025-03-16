@@ -168,6 +168,8 @@ export { default as reactArticles } from './tech_articles/react.json'
 export { default as jsLetters } from './newsletters/js_Letters.json'
 export { default as pythonLetters } from './newsletters/py_Letters.json'
 export { default as javaLetters } from './newsletters/java_Letters.json'
+export { default as devopsLetters } from './newsletters/devops.json'
+
 // Ethical Hacking
 export { default as cryptographyAttacks } from './ethical_hacking/cryptography_attacks.json'
 export { default as malwareAndPayloadDevelopment } from './ethical_hacking/malware_and_payload_development.json'
