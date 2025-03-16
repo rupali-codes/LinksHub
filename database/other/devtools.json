@@ -1,5 +1,12 @@
 [
   {
+    "name": "Transform Tools",
+    "description": "Transform Tools is a polyglot web converter helping you translate from one computer lanaguage to another.",
+    "url": "https://transform.tools",
+    "category": "other",
+    "subcategory": "devtools"
+  },
+  {
     "name": "VSCodium",
     "description": "VSCodium is free/libre Open Source Software Binaries of VS Code.",
     "url": "https://github.com/VSCodium/vscodium",
