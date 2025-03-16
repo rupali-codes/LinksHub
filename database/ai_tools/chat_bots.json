@@ -42,6 +42,13 @@
     "subcategory": "chat_bots"
   },
   {
+    "name": "ChatSutra AI",
+    "description": "ChatSutra AI is an Indian-developed conversational AI model that has gained attention for its focus on creating human-like, engaging, and context-aware conversations. It is designed to cater to a wide range of applications, from customer support to content generation, with a particular emphasis on understanding and responding in multiple languages, including Indian languages.",
+    "url": "https://chat.two.ai/",
+     "category": "ai-tools",
+    "subcategory": "chat_bots"
+  },
+  {
     "name": "Grok AI",
     "description": "Grok AI is a state-of-the-art large language model created by xAI. The model is designed to provide highly accurate, context-aware responses to user queries and is intended to be both useful and engaging.",
     "url": "https://grok.com/",
