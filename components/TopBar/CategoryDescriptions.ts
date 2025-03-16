@@ -304,6 +304,7 @@ const categoryDescriptions: CategoryDescriptions = {
   // tech articles
   react_articles:
     'Get the best articles for react to improve your skills and knowledge.',
+    
   // newsletters
   jsLetters:
     'It covers the latest updates, trends, and resources in the JavaScript ecosystem, keeping developers informed and engaged.',
@@ -311,6 +312,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'It covers the latest updates, trends, and resources in the Python ecosystem.',
   javaLetters:
     'It covers the latest updates, trends, and resources in the Java ecosystem.',
+  devopsLetters:
+    'It covers the latest updates, trends, and resources in the DevOps ecosystem.',
 }
 
 export default categoryDescriptions
