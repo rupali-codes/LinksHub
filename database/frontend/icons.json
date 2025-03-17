@@ -238,13 +238,6 @@
     "subcategory": "icons"
   },
   {
-    "name": "Evil Icons",
-    "description": "Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt, and CDN.",
-    "url": "https://evil-icons.io/",
-    "category": "frontend",
-    "subcategory": "icons"
-  },
-  {
     "name": "React Icons",
     "description": "Includes popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.",
     "url": "https://react-icons.github.io/react-icons/",
