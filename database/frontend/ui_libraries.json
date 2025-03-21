@@ -82,5 +82,12 @@
     "description": "Hartan is a UI component library built on React JS and distributed as a NPM package. It offers a collection of independent, well-documented resources designed to facilitate rapid website development.",
     "category": "frontend",
     "subcategory": "ui_libraries"
+  },
+  {
+    "name": "Headless UI",
+    "url": "https://headlessui.com/",
+    "description": "Headless UI libraries offer functional, accessible UI components without pre-defined styling, empowering developers to build fully customized interfaces.",
+    "category": "frontend",
+    "subcategory": "ui_libraries"
   }
 ]
