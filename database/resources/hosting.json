@@ -75,5 +75,12 @@
     "url": "https://surge.sh/",
     "category": "resources",
     "subcategory": "hosting"
+  },
+  {
+    "name": "Railway",
+    "description": "Railway is a deployment platform that simplifies the process of deploying and scaling applications, offering a streamlined experience for developers by handling infrastructure provisioning and management.",
+    "url": "https://railway.com/",
+    "category": "resources",
+    "subcategory": "hosting"
   }
 ]
