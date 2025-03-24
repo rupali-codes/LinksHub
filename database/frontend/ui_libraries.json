@@ -96,5 +96,12 @@
     "description": "React Bits is an open-source React UI library specializing in animated and interactive components, designed to create visually stunning user interfaces. It emphasizes customization, offering flexible styling options and variants, enabling developers to easily add engaging 'statement pieces' to their React applications.",
     "category": "frontend",
     "subcategory": "ui_libraries"
+  },
+  {
+    "name": "Headless UI",
+    "url": "https://headlessui.com/",
+    "description": "Headless UI libraries offer functional, accessible UI components without pre-defined styling, empowering developers to build fully customized interfaces.",
+    "category": "frontend",
+    "subcategory": "ui_libraries"
   }
 ]
