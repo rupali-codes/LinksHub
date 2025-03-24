@@ -89,5 +89,12 @@
     "description": "Magic UI is a modern, responsive, and customizable UI component library with free and open-source animated components built with React, Typescript, Tailwind CSS, and Motion. It offers a wide range of pre-designed components and layouts to help you build visually appealing web applications. The library is known for its ease of use and flexibility.",
     "category": "frontend",
     "subcategory": "ui_libraries"
+  },
+  {
+    "name": "React Bits",
+    "url": "https://www.reactbits.dev/",
+    "description": "React Bits is an open-source React UI library specializing in animated and interactive components, designed to create visually stunning user interfaces. It emphasizes customization, offering flexible styling options and variants, enabling developers to easily add engaging 'statement pieces' to their React applications.",
+    "category": "frontend",
+    "subcategory": "ui_libraries"
   }
 ]
