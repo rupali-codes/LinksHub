@@ -82,5 +82,12 @@
     "description": "Hartan is a UI component library built on React JS and distributed as a NPM package. It offers a collection of independent, well-documented resources designed to facilitate rapid website development.",
     "category": "frontend",
     "subcategory": "ui_libraries"
+  },
+  {
+    "name": "Magic UI",
+    "url": "https://magicui.design/",
+    "description": "Magic UI is a modern, responsive, and customizable UI component library with free and open-source animated components built with React, Typescript, Tailwind CSS, and Motion. It offers a wide range of pre-designed components and layouts to help you build visually appealing web applications. The library is known for its ease of use and flexibility.",
+    "category": "frontend",
+    "subcategory": "ui_libraries"
   }
 ]
