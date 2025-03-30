@@ -82,5 +82,12 @@
     "url": "https://nivo.rocks/",
     "category": "frontend",
     "subcategory": "js_chart_libraries"
+  },
+  {
+    "name": "Mermaid",
+    "description": "Mermaid is a JavaScript-based diagramming and charting tool that uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams.",
+    "url": "https://mermaid.js.org/",
+    "category": "frontend",
+    "subcategory": "js_chart_libraries"
   }
 ]
