@@ -110,5 +110,12 @@
     "url": "https://www.mygreatlearning.com/blog/web-development-project-ideas/",
     "category": "resources",
     "subcategory": "project_ideas"
+  },
+  {
+    "name": "Made With React.js",
+    "description": "A collection of projects made with React.js – Websites, UI Components, Frameworks, Apps, and more!",
+    "url": "https://madewithreactjs.com/",
+    "category": "resources",
+    "subcategory": "project_ideas"
   }
 ]
