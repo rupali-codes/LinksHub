@@ -103,5 +103,12 @@
     "description": "Headless UI libraries offer functional, accessible UI components without pre-defined styling, empowering developers to build fully customized interfaces.",
     "category": "frontend",
     "subcategory": "ui_libraries"
+  },
+  {
+    "name": "FlyonUI",
+    "url": "https://flyonui.com/",
+    "description": "FlyonUI is an open-source Tailwind CSS component library that combines semantic classes with powerful JS plugins. It is designed to simplify building stunning, responsive, and interactive user interfaces.",
+    "category": "frontend",
+    "subcategory": "ui_libraries"
   }
 ]
