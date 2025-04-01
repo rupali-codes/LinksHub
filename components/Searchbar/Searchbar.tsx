@@ -97,16 +97,12 @@ export const Searchbar: React.FC<SearchbarProps> = ({
 
   useEffect(() => {
     const handleClickOutsideDropdown = (e: MouseEvent) => {
-      if (
-        e.target &&
-        (e.target as HTMLElement).closest(
-          "[data-custom='restrict-click-outside']"
-        ) !== null
-      ) {
+      const clickedElement = e.target as HTMLElement
+      const searchbarElement = formRef.current
+
+      if (searchbarElement?.contains(clickedElement)) {
         return
       }
-      if ((formRef.current as HTMLFormElement).contains(e.target as Node))
-        return
       dispatchSearch({ type: 'close_suggestions' })
     }
 
