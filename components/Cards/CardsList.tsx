@@ -15,8 +15,6 @@ const CardsList: FC<{ cards: IData[] }> = ({ cards }) => {
     setCurrentCard(null)
   }
 
-  cards.sort((a: IData, b: IData) => a.name.localeCompare(b.name))
-
   return (
     <>
       <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 justify-items-stretch ">

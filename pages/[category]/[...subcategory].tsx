@@ -10,6 +10,7 @@ import { ParsedUrlQuery } from 'querystring'
 import { usePagination } from 'hooks/usePagination'
 import Pagination from 'components/Pagination/Pagination'
 import { ReportBug } from 'components/ReportBug/Reportbug'
+import type { IData } from 'types'
 
 interface PageProps {
   category: string
@@ -24,15 +25,21 @@ const SubCategory: NextPage<PageProps> = ({ subcategory }) => {
     pageCategory[0].toUpperCase() + pageCategory.slice(1)
   }`
 
-  const numberOfCards = filterDB[0].length
+  const sortedData = filterDB.length
+    ? [...filterDB[0]].sort((a: IData, b: IData) =>
+        a.name.localeCompare(b.name)
+      )
+    : []
+
+  const numberOfCards = sortedData.length
 
   const { totalPages, currentPage, startIndex, endIndex, handlePageChange } =
-    usePagination(filterDB.length ? filterDB[0].length : 0)
+    usePagination(sortedData.length)
   let content: JSX.Element[] | JSX.Element
   let filterData
 
-  if (filterDB && filterDB.length > 0) {
-    filterData = filterDB[0].slice(startIndex, endIndex)
+  if (sortedData.length > 0) {
+    filterData = sortedData.slice(startIndex, endIndex)
     content = <CardsList cards={filterData} />
   } else {
     content = <ComingSoon />
