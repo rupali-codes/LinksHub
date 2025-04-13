@@ -33,5 +33,12 @@
     "url": "https://www.toools.design",
     "category": "ai-tools",
     "subcategory": "design"
+  },
+  {
+    "name": "Stability AI",
+    "description": "Stability AI's tools, particularly Stable Diffusion, are used to generate high-quality images from text descriptions and to modify existing images. They also offer models for video, audio, and 3D generation, as well as tools for text processing.",
+    "url": "https://stability.ai/",
+    "category": "ai-tools",
+    "subcategory": "design"
   }
 ]
