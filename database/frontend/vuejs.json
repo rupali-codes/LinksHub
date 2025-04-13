@@ -89,5 +89,12 @@
         "url": "https://vuejs.org/guide/typescript/overview.html",
         "category": "frontend",
         "subcategory": "vue_js"
+    },
+    {
+        "name": "Made With Vue.js",
+        "description": "A showcase of projects built with Vue.js.",
+        "url": "https://madewithvuejs.com/",
+        "category": "frontend",
+        "subcategory": "vue_js"
     }
 ]
