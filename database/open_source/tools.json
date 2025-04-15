@@ -61,5 +61,12 @@
     "url": "https://my-first-pr.github.io/",
     "category": "open source",
     "subcategory": "tools"
+  },
+  {
+    "name": "QuickRef.ME",
+    "description": "QuickRef.ME offers a fantastic collection of cheat sheets and quick references for developers, covering various programming languages, tools, and commands.",
+    "url": "https://quickref.me/",
+    "category": "open source",
+    "subcategory": "tools"
   }
 ]
