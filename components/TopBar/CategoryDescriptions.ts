@@ -314,6 +314,10 @@ const categoryDescriptions: CategoryDescriptions = {
     'It covers the latest updates, trends, and resources in the Java ecosystem.',
   devopsLetters:
     'It covers the latest updates, trends, and resources in the DevOps ecosystem.',
+
+  // Backend Frameworks
+  spring_boot:
+    'Spring Boot is a Java-based framework designed to simplify the development of production-ready Spring applications'
 }
 
 export default categoryDescriptions

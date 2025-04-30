@@ -1,0 +1,10 @@
+[
+    {
+      "name": "Spring Boot Official",
+      "description": "Spring boot latest official documentation, tutorials, and playgrounds",
+      "url": "https://spring.io/guides/gs/spring-boot",
+      "category": "backend-frameworks",
+      "subcategory": "spring_boot",
+      "language": "english"
+    }
+]

@@ -594,6 +594,16 @@ export const sidebarData: ISidebar[] = [
       },
     ],
   },
+  {
+    category: 'Backend-Frameworks',
+    subcategory: [
+      {
+        name: 'Spring Boot',
+        url: '/spring_boot',
+        resources: DB.springBoot,
+      },
+    ],
+  },
 ]
 
 export const subCategories = sidebarData.flatMap(({ category, subcategory }) =>
