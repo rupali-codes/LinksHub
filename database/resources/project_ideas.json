@@ -117,5 +117,12 @@
     "url": "https://madewithreactjs.com/",
     "category": "resources",
     "subcategory": "project_ideas"
+  },
+  {
+    "name": "Made With Vue.js",
+    "description": "MadeWithVueJs is a showcase of projects developed with the frontend framework Vue.js",
+    "url": "https://madewithvuejs.com/",
+    "category": "resources",
+    "subcategory": "project_ideas"
   }
 ]
