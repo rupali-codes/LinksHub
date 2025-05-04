@@ -70,6 +70,7 @@ export { default as dart } from './languages/dart.json'
 export { default as solidity } from './languages/solidity.json'
 export { default as swift } from './languages/swift.json'
 export { default as css } from './languages/css.json'
+export { default as php } from './languages/php.json'
 // mobile
 export { default as android } from './mobile/android.json'
 export { default as react_native } from './mobile/react_native.json'
