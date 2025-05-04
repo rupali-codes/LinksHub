@@ -1,0 +1,18 @@
+[
+  {
+    "name": "W3 Schools PHP Tutorial",
+    "description": "The W3Schools PHP documentation offers easy-to-follow tutorials, examples, and references for learning PHP. It covers PHP syntax, functions, forms, and database interactions, making it ideal for beginners and those looking to strengthen their web development skills.",
+    "url": "https://www.w3schools.com/php/",
+    "category": "languages",
+    "subcategory": "php",
+    "language": "php"
+  },
+  {
+    "name": "WAMP Server",
+    "description": "WAMP Server is a Windows-based web development environment that allows developers to create dynamic web applications with Apache, MySQL, and PHP. It provides an easy-to-use interface for managing server settings, databases, and projects, making it ideal for local development and testing.",
+    "url": "https://wampserver.aviatechno.net/",
+    "category": "languages",
+    "subcategory": "php",
+    "language": "php"
+  }
+]

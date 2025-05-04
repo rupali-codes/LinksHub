@@ -142,6 +142,7 @@ export const sidebarData: ISidebar[] = [
       { name: 'Solidity', url: '/solidity', resources: DB.solidity },
       { name: 'Swift', url: '/swift', resources: DB.swift },
       { name: 'CSS', url: '/css', resources: DB.css },
+      { name: 'PHP', url: '/php', resources: DB.swift },
     ],
   },
   {

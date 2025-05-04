@@ -38,6 +38,13 @@
     "name": "Stability AI",
     "description": "Stability AI's tools, particularly Stable Diffusion, are used to generate high-quality images from text descriptions and to modify existing images. They also offer models for video, audio, and 3D generation, as well as tools for text processing.",
     "url": "https://stability.ai/",
+     "category": "ai-tools",
+    "subcategory": "design"
+  },
+  {
+    "name": "Midjourney",
+    "description": "Midjourney AI is a text-to-image generator that uses artificial intelligence to create images from text descriptions, allowing users to generate unique visuals based on prompts. It's accessed through a Discord bot and can be used for various creative purposes, including art, design, and concept development.",
+    "url": "https://www.midjourney.com/",
     "category": "ai-tools",
     "subcategory": "design"
   }
