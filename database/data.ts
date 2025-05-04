@@ -101,6 +101,16 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'Backend-Frameworks',
+    subcategory: [
+      {
+        name: 'Spring Boot',
+        url: '/spring_boot',
+        resources: DB.springBoot,
+      },
+    ],
+  },
+  {
     category: 'CMS-toolkit',
     subcategory: [
       {
@@ -591,16 +601,6 @@ export const sidebarData: ISidebar[] = [
         name: 'Text Formatting',
         url: '/text_formatting',
         resources: DB.textFormatting,
-      },
-    ],
-  },
-  {
-    category: 'Backend-Frameworks',
-    subcategory: [
-      {
-        name: 'Spring Boot',
-        url: '/spring_boot',
-        resources: DB.springBoot,
       },
     ],
   },
