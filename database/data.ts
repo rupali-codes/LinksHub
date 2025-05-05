@@ -101,6 +101,16 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'Backend-Frameworks',
+    subcategory: [
+      {
+        name: 'Spring Boot',
+        url: '/spring_boot',
+        resources: DB.springBoot,
+      },
+    ],
+  },
+  {
     category: 'CMS-toolkit',
     subcategory: [
       {
