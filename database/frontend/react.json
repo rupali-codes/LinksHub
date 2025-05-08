@@ -136,5 +136,12 @@
     "url": "https://mantine.dev/",
     "category": "frontend",
     "subcategory": "react"
+  },
+  {
+    "name": "React Spinners",
+    "description": "A collection of customizable loading spinner components, designed to easily integrate into React applications for better user experience during load times.",
+    "url": "https://www.davidhu.io/react-spinners/",
+    "category": "frontend",
+    "subcategory": "react"
   }
 ]
