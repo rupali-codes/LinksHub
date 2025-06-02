@@ -1,12 +1,5 @@
 [
     {
-        "name": "Java Fundamentals by javatpoint",
-        "description": "This site teaches fundamentals of the Java programming language in an amazing and simplified way",
-        "url": "https://www.javatpoint.com/java-tutorial",
-        "category": "Languages",
-        "subcategory": "java"
-    },
-    {
         "name": "Bro Code",
         "description": "This playlist contains all the fundamental concepts that every Java learner should know. Bro code teaches these concepts in a simple manner with visuals",
         "url": "https://youtu.be/NBIUbTddde4",
