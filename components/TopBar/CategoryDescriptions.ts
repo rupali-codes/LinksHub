@@ -317,7 +317,10 @@ const categoryDescriptions: CategoryDescriptions = {
 
   // Backend Frameworks
   spring_boot:
-    'Spring Boot is a Java-based framework designed to simplify the development of production-ready Spring applications'
+    'Spring Boot is a Java-based framework designed to simplify the development of production-ready Spring applications',
+  express_js:
+   'Express.js official documentation with comprehensive guides, API reference, and tutorials for building fast, unopinionated, minimalist web framework for Node.js applications'
+
 }
 
 export default categoryDescriptions

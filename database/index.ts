@@ -179,4 +179,5 @@ export { default as wirelesshacking } from './ethical_hacking/wireless_hacking.j
 
 // Backend Frameworks
 export { default as springBoot } from './backend_frameworks/spring_boot.json'
+export {default as expressJs} from './backend_frameworks/express_js.json'
 
