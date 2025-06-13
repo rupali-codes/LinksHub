@@ -108,6 +108,11 @@ export const sidebarData: ISidebar[] = [
         url: '/spring_boot',
         resources: DB.springBoot,
       },
+      {
+        name: 'Express JS',
+        url: '/express_js',
+        resources: DB.expressJs,
+      },
     ],
   },
   {
