@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Run PR Labeler
-        uses: hoho4190/issue-pr-labeler@v1
+        uses: hoho4190/issue-pr-labeler@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           config-file-name: labeler-config.yml
