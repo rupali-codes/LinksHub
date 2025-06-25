@@ -11,6 +11,6 @@
     "description": "Appwrite is an open-source backend platform with built-in features like authentication, databases, file storage, and serverless functions.",
     "url": "https://appwrite.io/docs",
     "category": "backend",
-    "subcategory": "backend-as-a-service"
+    "subcategory": "backend_as_a_service"
   }
 ]
