@@ -261,7 +261,7 @@ export const sidebarData: ISidebar[] = [
         resources: DB.microservices,
       },
       {
-        name: 'Monitoring and Loggging',
+        name: 'Monitoring and Logging',
         url: '/monitoring_and_logging',
         resources: DB.monitorLogging,
       },
