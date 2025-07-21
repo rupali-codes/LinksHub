@@ -5,5 +5,12 @@
     "url": "https://sensu.io/",
     "category": "devops",
     "subcategory": "monitoring_and_logging"
+  },
+  {
+    "name": "Website Uptime Monitor",
+    "description": "An open-source GitHub Action that monitors websites' uptime, logs results, and creates issues when sites are down. All managed entirely within your GitHub repository, with no external servers or cloud services required.",
+    "url": "https://github.com/marketplace/actions/website-uptime-monitor",
+    "category": "devops",
+    "subcategory": "monitoring_and_logging"
   }
 ]
