@@ -10,7 +10,7 @@ import { ErrorMessage } from 'components/ErrorMessage'
 
 import { Icons } from 'components/icons'
 
-import { SearchOption } from '../../types'
+import { SearchOption, SubCategories } from '../../types'
 import { SearchbarAction } from './SearchbarReducer'
 import { sidebarData } from 'database/data'
 import { searchOptions as importedSearchOptions } from 'database/data'
@@ -67,13 +67,16 @@ export const Searchbar: React.FC<SearchbarProps> = ({
     }
   }
 
-  const handleSuggestionClick = (searchQuery: SearchOption) => {
+  const handleSuggestionClick = (suggestion: SubCategories) => {
+    const searchQuery: SearchOption = {
+      ...suggestion,
+      category: sidebarData.find((item) =>
+        item.subcategory.some((subCat) => subCat.name === suggestion.name)
+      )?.category || '',
+    }
+  
     dispatchSearch({ type: 'suggestion_click', searchQuery: searchQuery.name })
-    const { category } = sidebarData.find((item) =>
-      item.subcategory.some((subCat) => subCat.name === searchQuery.name)
-    ) || { category: '' }
-
-    router.push(`/${category}${searchQuery.url}`)
+    router.push(`/${searchQuery.category}${searchQuery.url}`)
   }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -158,7 +161,6 @@ export const Searchbar: React.FC<SearchbarProps> = ({
           <SearchbarSuggestions
             suggestions={suggestions}
             onSuggestionClick={handleSuggestionClick}
-            searchQuery={searchQuery}
           />
         )}
       </div>
