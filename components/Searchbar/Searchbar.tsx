@@ -1,6 +1,5 @@
 import { useRef, useEffect, Ref } from 'react'
 import { useRouter } from 'next/router'
-import { useReducer, useState } from 'react'
 
 import dynamic from 'next/dynamic'
 
@@ -11,10 +10,11 @@ import { ErrorMessage } from 'components/ErrorMessage'
 
 import { Icons } from 'components/icons'
 
-import { SubCategories, subcategoryArray } from '../../types'
+import { SearchOption, SubCategories } from '../../types'
 import { SearchbarAction } from './SearchbarReducer'
 import { sidebarData } from 'database/data'
 import { searchOptions as importedSearchOptions } from 'database/data'
+import { useFuzzySearch } from '../../hooks/useFuzzySearch'
 
 interface SearchbarProps {
   dispatchSearch: (action: SearchbarAction) => void
@@ -35,10 +35,17 @@ export const Searchbar: React.FC<SearchbarProps> = ({
 }) => {
   const formRef = useRef<HTMLFormElement>(null)
   const router = useRouter()
-  const suggestions = getFilteredSuggestions(searchQuery)
-  const [sidebarFilteredData, setSidebarFilteredData] = useState(
-    importedSearchOptions
-  )
+  
+  // min value for fuzzy search is the input length
+  const { search: fuzzySearch } = useFuzzySearch({ 
+    data: importedSearchOptions,
+    options: {
+      threshold: 0.4,
+      minMatchCharLength: searchQuery.length
+    }
+  })
+  
+  const suggestions = getFilteredSuggestions(searchQuery, fuzzySearch)
 
   // console.log('Suggestions to Render:', suggestions)
 
@@ -60,22 +67,23 @@ export const Searchbar: React.FC<SearchbarProps> = ({
     }
   }
 
-  const handleSuggestionClick = (searchQuery: SubCategories) => {
+  const handleSuggestionClick = (suggestion: SubCategories) => {
+    const searchQuery: SearchOption = {
+      ...suggestion,
+      category: sidebarData.find((item) =>
+        item.subcategory.some((subCat) => subCat.name === suggestion.name)
+      )?.category || '',
+    }
+  
     dispatchSearch({ type: 'suggestion_click', searchQuery: searchQuery.name })
-    const { category } = sidebarData.find((item) =>
-      item.subcategory.some((subCat) => subCat.name === searchQuery.name)
-    ) || { category: '' }
-
-    router.push(`/${category}${searchQuery.url}`)
+    router.push(`/${searchQuery.category}${searchQuery.url}`)
   }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     // console.log('this is sidebar data', sidebarData)
     e.preventDefault()
-    const cleanedSearchQuery = searchQuery.toLocaleLowerCase().trim()
-    const filteredData = getFilteredSuggestions(cleanedSearchQuery)
-    setSidebarFilteredData(filteredData)
     dispatchSearch({ type: 'submit' })
+    const cleanedSearchQuery = searchQuery.toLocaleLowerCase().trim()
 
     if (cleanedSearchQuery !== '') {
       const { category } = sidebarData.find((item) =>
@@ -161,7 +169,7 @@ export const Searchbar: React.FC<SearchbarProps> = ({
   )
 }
 
-const getFilteredSuggestions = (query: string) => {
+const getFilteredSuggestions = (query: string, fuzzySearchFn?: (query: string) => SearchOption[]) => {
   const normalisedQuery = query.trim().toLowerCase()
 
   // console.log('Search Query:', query)
@@ -172,6 +180,14 @@ const getFilteredSuggestions = (query: string) => {
     return []
   }
 
+  // Use fuzzy search if function is provided, otherwise fall back to exact matching
+  if (fuzzySearchFn) {
+    const fuzzyResults = fuzzySearchFn(normalisedQuery)
+    // console.log('Fuzzy Search Results:', fuzzyResults)
+    return fuzzyResults
+  }
+
+  // Fallback to original exact matching logic
   const suggestions = importedSearchOptions.filter((option) => {
     const optionName = option.name?.toLowerCase().trim()
     const categoryName = option.category?.toLowerCase().trim()

@@ -69,6 +69,10 @@ export type SubCategories = {
   resources: IDBData[]
 }
 
+export type SearchOption = SubCategories & {
+  category: string
+}
+
 export interface ISidebar {
   category: Category
   subcategory: SubCategories[]
