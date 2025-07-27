@@ -186,62 +186,62 @@
     "description": "This website will generate CSS code for Patterns",
     "url": "https://patternizer.com/",
     "category": "frontend",
-    "subcategory": "UI Generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Chakra UI",
     "description": "Chakra UI is a simple, modular, and accessible component library that gives you the building blocks you need to build your React applications.",
     "url": "https://chakra-ui.com/",
     "category": "frontend",
-    "subcategory": "UI Generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "CSS Portal",
     "description": "A platform where you can generate 3D UI components based on CSS.",
     "url": "https://www.cssportal.com/css-3d-transform-generator/",
     "category": "frontend",
-    "subcategory": "UI Generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Shadcn UI",
     "description": "It provides you beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source. Built using Radix UI and Tailwind CSS.",
     "url": "https://ui.shadcn.com/",
     "category": "frontend",
-    "subcategory": "UI Generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Tailwind Components",
     "description": "Tailwind Components is an open-source Tailwind UI components and templates to bootstrap your new apps, projects or landing sites!",
     "url": "https://tailwindcomponents.com/",
     "category": "frontend",
-    "subcategory": "UI Generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Meraki UI",
     "description": "Meraki UI is a collection of beautiful, responsive, and customizable components for React, Angular, and Vue. It's also a free and open-source library.",
     "url": "https://merakiui.com/",
     "category": "frontend",
-    "subcategory": "UI Generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Tuk",
     "description": "Tuk.dev is a website that offers a large collection of components and templates for Tailwind CSS",
     "url": "https://tuk.dev/",
     "category": "frontend",
-    "subcategory": "UI Generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Tailwind Toolbox",
     "description": "Tailwind Toolbox is a site that offers free starter templates, components, and other resources for Tailwind CSS",
     "url": "https://tailwindtoolbox.com/",
     "category": "frontend",
-    "subcategory": "UI Generators"
+    "subcategory": "ui_generators"
   },
   {
     "name": "Tailwind UI",
     "description": "Tailwind UI is a collection of beautiful and expertly crafted components and templates, built by the makers of Tailwind CSS.",
     "url": "https://tailwindui.com/",
     "category": "frontend",
-    "subcategory": "UI Generators"
+    "subcategory": "ui_generators"
   }
 ]
