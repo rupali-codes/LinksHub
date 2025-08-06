@@ -71,7 +71,8 @@ Follow these steps to setup LinksHub on your local machine
 > 2. Pull the image from docker hub:
 >
 > ```bash
-> docker pull linkshub/app
+> docker pull <your-username>/linkshub:latest
+> docker run -p 3000:3000 <your-username>/linkshub:latest
 > ```
 >
 > 3. Start the docker container with:
