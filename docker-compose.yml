@@ -1,13 +1,22 @@
-version: '3'
+version: '3.9'
 
 services:
   app:
     build: .
     volumes:
-      - ./:/app
+      - .:/app
       - /app/node_modules
     ports:
       - "3000:3000"
     environment:
       - NODE_ENV=development
-    command: sh -c "pnpm install && pnpm dev"
+      - HOST=0.0.0.0
+      - PORT=3000
+      - WDS_SOCKET_HOST=0.0.0.0
+      - WDS_SOCKET_PORT=3000
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    command: sh -c "pnpm dev -H 0.0.0.0 -p 3000"

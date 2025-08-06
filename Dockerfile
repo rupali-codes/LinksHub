@@ -1,21 +1,23 @@
-FROM node:18
+# Use Node.js LTS
+FROM node:20-alpine
 
-# Set the working directory
+# Set working directory
 WORKDIR /app
 
-# Copy package.json and package-lock.json
-COPY package.json ./
-COPY pnpm-lock.yaml ./
+# Install pnpm
+RUN npm install -g pnpm
+
+# Copy package files first for caching
+COPY package.json pnpm-lock.yaml* ./
 
 # Install dependencies
-RUN npm install -g pnpm
 RUN pnpm install
 
-# Copy the rest of your application
+# Copy the rest of the code
 COPY . .
 
-# Expose the port the app runs on
+# Expose Next.js port
 EXPOSE 3000
 
-# Run the application
-CMD ["pnpm", "dev"]
+# Default command
+CMD ["pnpm", "dev", "-H", "0.0.0.0", "-p", "3000"]
