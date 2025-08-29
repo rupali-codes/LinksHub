@@ -15,7 +15,7 @@ jobs:
   repo-rater:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: xkrishguptaa/action-repo-rater@v1.0.6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
