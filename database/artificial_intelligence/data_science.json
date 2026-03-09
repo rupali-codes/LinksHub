@@ -26,5 +26,40 @@
     "url": "https://www.kaggle.com/",
     "category": "ai",
     "subcategory": "data_science"
+  },
+  {
+    "name": "DataQuest",
+    "description": "An interactive online platform to learn data science, data engineering, and machine learning through hands-on projects.",
+    "url": "https://www.dataquest.io",
+    "category": "ai",
+    "subcategory": "data_science"
+  },
+  {  
+    "name": "fast.ai",
+    "description": "A free deep learning and data science course platform making AI accessible to everyone with a top-down practical approach.",
+    "url": "https://www.fast.ai",
+    "category": "ai",
+    "subcategory": "data_science"
+  },  
+  {
+     "name": "Mode Analytics",
+     "description": "A collaborative data platform for analysts to explore, visualize, and share data insights with SQL, Python and R.",
+     "url": "https://mode.com",
+     "category": "ai",
+     "subcategory": "data_science"
+  },
+  {
+    "name": "Weights & Biases",
+    "description": "A MLOps platform for tracking, visualizing, and managing machine learning experiments and datasets.",
+    "url": "https://wandb.ai",
+    "category": "ai",
+    "subcategory": "data_science"
+  },
+  {
+    "name": "Papers With Code",
+    "description": "A free resource that links machine learning research papers with their open-source code implementations.",
+    "url": "https://paperswithcode.com",
+    "category": "ai",
+    "subcategory": "data_science"
   }
 ]
