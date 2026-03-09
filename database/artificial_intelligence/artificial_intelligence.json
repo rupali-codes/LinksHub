@@ -26,5 +26,12 @@
         "url": "https://www.memfree.me",
         "category": "ai",
         "subcategory": "artificial_intelligence"
+    },
+    {
+        "name": "Anthropic Claude",
+        "description": "A next-generation AI assistant by Anthropic for analysis, writing, coding and more.",
+        "url": "https://claude.ai",
+        "category": "ai",
+        "subcategory": "artificial_intelligence"
     }
 ]
