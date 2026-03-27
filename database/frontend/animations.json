@@ -152,5 +152,12 @@
     "url": "https://uiball.com/ldrs/",
     "category": "frontend",
     "subcategory": "animations"
+  },
+  {
+    "name": "Typed.js",
+    "description": "A JavaScript library that types out strings with a typewriter effect on your website.",
+    "url": "https://mattboldt.com/demos/typed-js/",
+    "category": "frontend",
+    "subcategory": "animations"
   }
 ]
