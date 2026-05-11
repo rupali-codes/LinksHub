@@ -5,5 +5,12 @@
         "url": "https://www.freecodecamp.org/news/what-is-ci-cd/",
         "category": "devops",
         "subcategory": "cicd"
+    },
+    {
+        "name": "GitHub Actions Documentation",
+        "description": "Official documentation for GitHub Actions, GitHub's built-in CI/CD platform. Learn to automate your build, test, and deployment pipeline directly from your repository.",
+        "url": "https://docs.github.com/en/actions",
+        "category": "devops",
+        "subcategory": "cicd"
     }
 ]
