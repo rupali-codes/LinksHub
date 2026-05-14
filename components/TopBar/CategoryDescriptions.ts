@@ -318,7 +318,11 @@ const categoryDescriptions: CategoryDescriptions = {
 
   // Backend Frameworks
   spring_boot:
-    'Spring Boot is a Java-based framework designed to simplify the development of production-ready Spring applications'
+    'Spring Boot is a Java-based framework designed to simplify the development of production-ready Spring applications',
+
+  // community
+  youtube_channels:
+    'Curated list of free developer YouTube channels for learning web development, programming, and software engineering.',
 }
 
 export default categoryDescriptions

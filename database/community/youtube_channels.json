@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Traversy Media",
+    "description": "Practical project-based web development tutorials covering HTML, CSS, JavaScript, React, Node.js and more. Great for beginners and intermediate developers.",
+    "url": "https://www.youtube.com/@TraversyMedia",
+    "category": "community",
+    "subcategory": "youtube_channels"
+  },
+  {
+    "name": "Fireship",
+    "description": "Fast-paced, high-quality videos on modern web development, developer tools, and programming concepts. Famous for '100 seconds of Code' series.",
+    "url": "https://www.youtube.com/@Fireship",
+    "category": "community",
+    "subcategory": "youtube_channels"
+  },
+  {
+    "name": "Kevin Powell",
+    "description": "The go-to YouTube channel for learning CSS in depth. Covers flexbox, grid, animations, and modern CSS techniques with clear explanations.",
+    "url": "https://www.youtube.com/@KevinPowell",
+    "category": "community",
+    "subcategory": "youtube_channels"
+  },
+  {
+    "name": "Theo - t3.gg",
+    "description": "Deep dives into modern TypeScript, React, Next.js and the T3 stack. Covers real-world fullstack web development patterns and best practices.",
+    "url": "https://www.youtube.com/@t3dotgg",
+    "category": "community",
+    "subcategory": "youtube_channels"
+  },
+  {
+    "name": "The Primeagen",
+    "description": "Senior engineer at Netflix sharing insights on algorithms, data structures, Vim, Rust, and software engineering fundamentals. Great for intermediate developers.",
+    "url": "https://www.youtube.com/@ThePrimeagen",
+    "category": "community",
+    "subcategory": "youtube_channels"
+  },
+  {
+    "name": "Web Dev Simplified",
+    "description": "Simplifies complex web development concepts into easy-to-understand videos. Covers JavaScript, React, CSS, Node.js and full-stack projects.",
+    "url": "https://www.youtube.com/@WebDevSimplified",
+    "category": "community",
+    "subcategory": "youtube_channels"
+  },
+  {
+    "name": "Codevolution",
+    "description": "Structured, beginner-friendly playlists on React, Next.js, TypeScript, Node.js and more. Perfect for learning frameworks step by step.",
+    "url": "https://www.youtube.com/@Codevolution",
+    "category": "community",
+    "subcategory": "youtube_channels"
+  },
+  {
+    "name": "freeCodeCamp.org",
+    "description": "Full-length free programming courses on Python, JavaScript, web development, data science, machine learning and more. All courses are completely free.",
+    "url": "https://www.youtube.com/@freecodecamp",
+    "category": "community",
+    "subcategory": "youtube_channels"
+  },
+  {
+    "name": "Academind",
+    "description": "In-depth courses on React, Angular, Vue, Node.js, Docker, and more. Known for thorough, well-structured explanations by Maximilian Schwarzmuller.",
+    "url": "https://www.youtube.com/@academind",
+    "category": "community",
+    "subcategory": "youtube_channels"
+  },
+  {
+    "name": "Hitesh Choudhary",
+    "description": "Covers JavaScript, Python, backend development and DevOps with practical project-based lessons. Also has Hindi-language tutorials for wider accessibility.",
+    "url": "https://www.youtube.com/@HiteshChoudharydotcom",
+    "category": "community",
+    "subcategory": "youtube_channels"
+  }
+]

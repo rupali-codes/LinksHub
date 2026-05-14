@@ -62,6 +62,7 @@ export type Category =
   | 'quality-assurance'
   | 'ethical-hacking'
   | 'Backend-Frameworks'
+  | 'community'
 
 export type SubCategories = {
   name: string

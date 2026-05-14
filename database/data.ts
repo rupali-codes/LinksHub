@@ -589,6 +589,16 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
+    category: 'community',
+    subcategory: [
+      {
+        name: 'YouTube Channels',
+        url: '/youtube_channels',
+        resources: DB.youtube_channels,
+      },
+    ],
+  },
+  {
     category: 'other',
     subcategory: [
       { name: 'FinTech', url: '/fintech', resources: DB.fintech },
