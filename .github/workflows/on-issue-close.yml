@@ -15,7 +15,7 @@ jobs:
   on-issue-close:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           message: "Thank you for contributing to LinksHub! Please take a moment to explore the resource hub at https://linkshub.dev and and if you find it useful, don't forget to star ⭐ the repo!"
