@@ -100,6 +100,7 @@ export { default as design } from './ai_tools/design.json'
 export { default as blog_writing } from './ai_tools/blog_writing.json'
 export { default as chat_bots } from './ai_tools/chat_bots.json'
 export { default as tensorflow } from './ai_tools/tensorflow.json'
+export { default as coding_agents } from './ai_tools/coding_agents.json'
 
 // Open-source
 export { default as openSourceArticles } from './open_source/articles.json'
@@ -180,4 +181,3 @@ export { default as wirelesshacking } from './ethical_hacking/wireless_hacking.j
 
 // Backend Frameworks
 export { default as springBoot } from './backend_frameworks/spring_boot.json'
-

@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Tura",
+    "description": "An open-source, local coding agent that analyzes repositories before making code changes.",
+    "url": "https://turaai.net/",
+    "category": "ai-tools",
+    "subcategory": "coding_agents"
+  }
+]

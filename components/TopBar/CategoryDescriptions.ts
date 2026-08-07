@@ -181,6 +181,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.',
   blog_writing:
     'Unlock your creativity and streamline your blog writing process with AI-powered tools. From generating ideas to optimizing SEO, these tools empower you to craft engaging content that captivates your audience.',
+  coding_agents:
+    'AI-powered coding agents help developers understand codebases, write code, and automate development tasks.',
   // cyber-security
   offensive_security:
     'Offensive security is the proactive approach to securing networks and systems from attacks by actively seeking out vulnerabilities and weaknesses. ',

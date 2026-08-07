@@ -324,6 +324,11 @@ export const sidebarData: ISidebar[] = [
         resources: DB.chat_bots,
       },
       { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
+      {
+        name: 'coding agents',
+        url: '/coding_agents',
+        resources: DB.coding_agents,
+      },
     ],
   },
   {
