@@ -26,5 +26,12 @@
     "url": "https://www.interviewcake.com/",
     "category": "placement-prep",
     "subcategory": "interview_preparation"
+  },
+  {
+    "name": "FrontendAtlas Essential 60",
+    "description": "A curated, ranked shortlist of 60 frontend interview prompts covering JavaScript utilities, UI coding, frontend system design, and core concepts, with 7-, 14-, and 30-day practice guidance.",
+    "url": "https://frontendatlas.com/interview-questions/essential",
+    "category": "placement-prep",
+    "subcategory": "interview_preparation"
   }
 ]
