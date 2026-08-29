@@ -292,5 +292,12 @@
     "url": "https://svgl.app",
     "category": "frontend",
     "subcategory": "icons"
+  },
+  {
+    "name": "Thridy",
+    "description": "Free 3D icon library with 13,000+ icons in a consistent style. HD transparent PNGs, free for personal and commercial use with no signup required.",
+    "url": "https://thridy.com",
+    "category": "frontend",
+    "subcategory": "icons"
   }
 ]
