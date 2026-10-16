@@ -17,3 +17,6 @@ https://www.brimble.io/
 https://www.000webhost.com/
 https://www.glassdoor.co.in/index.htm
 https://www.gartner.com/reviews/market/security-information-event-management
+
+<!-- Local dev server used by the e2e tests -->
+http://localhost:3000
